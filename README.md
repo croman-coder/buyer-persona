@@ -4,6 +4,14 @@ Sistema que lee **Meta Ads** (85 cuentas), el **ERP de ventas**, **Bitrix24** (s
 
 > **Para quien va a pautar:** empezá por el **Manual**, sección 4: [`Buyer Persona/Sistema/📘 Manual Buyer Persona.md`](<Buyer Persona/Sistema/📘 Manual Buyer Persona.md>). Explica qué plataforma usar para qué, cuándo juzgar una campaña y cómo leer cada ficha.
 
+## Primeros pasos en otra computadora
+
+1. Descomprimir la carpeta donde se quiera trabajar (no hace falta `venv`: se crea en el paso 5 si se usan los scripts).
+2. **Obsidian** → *Abrir carpeta como vault* → elegir la carpeta `Buyer Persona`.
+3. **Claude Code** abierto en esta carpeta: lee `CLAUDE.md` (contexto, reglas y pendientes) y carga la skill `meta-ads-santarosa`.
+4. Para crear campañas: conectar el conector de Meta Ads en Claude con el usuario de Facebook propio (con acceso a las cuentas en el Business Manager de Santa Rosa). Ninguna clave viaja en esta copia.
+5. Solo para los scripts de diagnóstico: `python3 -m venv venv && venv/bin/pip install -r requirements.txt`, `cp .env.example .env` y completar el token.
+
 ## Cómo corre
 
 | Qué | Dónde | Cuándo |
@@ -25,7 +33,8 @@ scripts/                 análisis y mantenimiento (diagnóstico de pauta, curva
 tests/                   pruebas de los generadores de Google Ads, Email y WhatsApp
 config/settings.yaml     configuración (las claves salen del .env, nunca van acá)
 Buyer Persona/           el vault de Obsidian
-skills/meta-ads-santarosa/   copia de la skill de Claude para armar campañas de Meta (la viva está en ~/.claude/skills/)
+.claude/skills/meta-ads-santarosa/   skill de Claude para armar campañas de Meta: se carga sola al abrir Claude Code acá
+CLAUDE.md                contexto y reglas para Claude Code (lo lee solo)
 docs/                    guías de conexión (Meta, Google), despliegue y recopilación automática
 ```
 
