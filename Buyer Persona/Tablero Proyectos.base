@@ -1,0 +1,45 @@
+filters:
+  or:
+    - tipo == "proyecto"
+    - tipo == "cajon"
+views:
+  - type: table
+    name: Activos
+    filters:
+      and:
+        - estado == "activo"
+    order:
+      - file.name
+      - estado
+      - ultima_actividad
+      - git_rama
+      - git_sin_subir
+      - resumen
+    sort:
+      - property: ultima_actividad
+        direction: DESC
+  - type: table
+    name: Todos
+    order:
+      - file.name
+      - tipo
+      - estado
+      - ultima_actividad
+      - stack
+      - resumen
+    sort:
+      - property: ultima_actividad
+        direction: DESC
+  - type: table
+    name: Dormidos y archivados
+    filters:
+      and:
+        - estado != "activo"
+    order:
+      - file.name
+      - estado
+      - ultima_actividad
+      - resumen
+    sort:
+      - property: ultima_actividad
+        direction: DESC

@@ -1,0 +1,68 @@
+# =============================================================================
+# docker-compose.yml para el Generador de Buyer Persona
+#
+# Uso:
+#   docker compose build                      # construir imagen
+#   docker compose run --rm buyer-persona     # correr una vez
+#   docker compose up -d scheduler            # schedule diario automático
+#   docker compose logs -f scheduler          # ver logs
+# =============================================================================
+services:
+  # ─────────────────────────────────────────────────────────────────────────
+  # Servicio principal: corre el pipeline una vez y sale.
+  # Útil para pruebas manuales o corridas puntuales.
+  # ─────────────────────────────────────────────────────────────────────────
+  buyer-persona:
+    build: .
+    image: buyer-persona:latest
+    container_name: buyer-persona
+    env_file: .env
+    volumes:
+      # Vault de Obsidian: los .md generados aparecen acá en tu PC
+      - ./Buyer Persona:/app/Buyer Persona
+      # Datos de entrada (CSV de ventas)
+      - ./data:/app/data
+      # Output crudo (JSONs)
+      - ./output:/app/output
+      # Logs persistentes
+      - ./logs:/app/logs
+      # Configuración (si querés editar settings sin reconstruir)
+      - ./config:/app/config:ro
+    # Modo demo por defecto (override con: docker compose run --rm buyer-persona python main.py)
+    command: python main.py
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # Scheduler: corre el pipeline automáticamente todos los días a las 06:00.
+  # Usa el run_pipeline.sh interno (lockfile + notificaciones + logs).
+  # ─────────────────────────────────────────────────────────────────────────
+  scheduler:
+    build: .
+    image: buyer-persona:latest
+    container_name: buyer-persona-scheduler
+    env_file: .env
+    restart: unless-stopped
+    volumes:
+      - ./Buyer Persona:/app/Buyer Persona
+      - ./data:/app/data
+      - ./output:/app/output
+      - ./logs:/app/logs
+      - ./config:/app/config:ro
+    # El cron del host puede llamar a este container, o podemos usar
+    # un loop con sleep. Lo más simple y portable:
+    entrypoint: ["/bin/bash", "-c"]
+    command:
+      - |
+        echo "Scheduler iniciado. Próxima corrida a las 06:00 diarias."
+        while true; do
+          # Calcular segundos hasta la próxima 06:00
+          NOW=$$(date +%s)
+          TARGET=$$(date -d "tomorrow 06:00" +%s 2>/dev/null || date -d "06:00" +%s)
+          if [ "$$TARGET" -lt "$$NOW" ]; then
+            TARGET=$$(date -d "tomorrow 06:00" +%s 2>/dev/null || echo $$((NOW + 86400)))
+          fi
+          SLEEP=$$((TARGET - NOW))
+          echo "Durmiendo $${SLEEP}s hasta la próxima corrida..."
+          sleep "$$SLEEP"
+          echo "=== Ejecutando pipeline: $$(date) ==="
+          ./scripts/run_pipeline.sh || true
+        done

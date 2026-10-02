@@ -1,0 +1,52 @@
+---
+type: anuncio-meta
+cuenta: "GWM"
+estado: "Activo"
+revisar: "—"
+riesgo_comparativa: 0.03
+oferta: "Precio como gancho"
+argumento: "Tecnología"
+tipo_de_vehiculo: "SUV"
+muestra_precio: true
+menciona_cuotas: false
+invita_a_actuar: true
+urgencia: "Urgencia genérica"
+boton: "Más información"
+anuncio: "H6 GT PHEV"
+titulo: ""
+ad_id: "120244678027750305"
+tags:
+- anuncio-meta
+---
+
+# H6 GT PHEV
+
+**Cuenta:** GWM · **Estado:** Activo · **Botón:** Más información
+
+| Qué miró la IA | Resultado |
+|---|---|
+| Oferta principal | Precio como gancho |
+| Argumento de venta | Tecnología |
+| Tipo de vehículo | SUV |
+| Muestra precio | Sí |
+| Menciona cuotas | No |
+| El texto le dice al cliente qué hacer | Sí |
+| Urgencia | Urgencia genérica |
+| Riesgo de publicidad comparativa | 3 % |
+
+## Texto del aviso
+
+🔥39.990🔥 HAVAL H6 GT HIBRIDA 2026 0km.
+Tecnología de punta y alma deportiva en un diseño coupé único...
+
+⭕️ Motor 1.5 Turbo + eléctrico 34.7kw / 430HP
+⭕️ 6 Modos de manejo / Autonomía: 1.200km Híbrido y 170km eléctrico
+⭕️ Sistema ADAS nivel +2 / 6 airbags / Cámara 360 / Radares frontales y traseros / Reconocimiento facial
+⭕️ Asientos eléctricos de cuero con acabados deportivos en alcántara / Pantalla táctil multimedia de 12’ / llantas aro 19
+
+📲0971560000
+Rodrigo Retamozo
+Asesor GWM
+
+---
+*Ficha generada sola todos los días a partir de Meta. Qué significa cada cosa: [[🏷️ Clasificación de Anuncios]], sección «Cómo leer esta nota».*

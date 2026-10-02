@@ -1,0 +1,55 @@
+---
+type: anuncio-meta
+cuenta: "Soueast"
+estado: "Activo"
+revisar: "—"
+riesgo_comparativa: 0.03
+oferta: "Invitación a probar o a un evento"
+argumento: "Tecnología"
+tipo_de_vehiculo: "SUV"
+muestra_precio: false
+menciona_cuotas: false
+invita_a_actuar: true
+urgencia: "Urgencia genérica"
+boton: "Sin botón"
+anuncio: "S06 NAFT soueast|"
+titulo: "S06"
+ad_id: "120239585326360251"
+tags:
+- anuncio-meta
+---
+
+# S06 NAFT soueast|
+
+**Cuenta:** Soueast · **Estado:** Activo · **Botón:** Sin botón
+
+| Qué miró la IA | Resultado |
+|---|---|
+| Oferta principal | Invitación a probar o a un evento |
+| Argumento de venta | Tecnología |
+| Tipo de vehículo | SUV |
+| Muestra precio | No |
+| Menciona cuotas | No |
+| El texto le dice al cliente qué hacer | Sí |
+| Urgencia | Urgencia genérica |
+| Riesgo de publicidad comparativa | 3 % |
+
+## Texto del aviso
+
+**Título:** S06
+
+🚙 Cada proyecto merece una experiencia.
+
+Descubrí el nuevo Soueast S06, un SUV que combina tecnología, diseño y confort para acompañarte en cada camino.
+
+
+🚗 Agendá tu Test Drive y viví la experiencia Soueast.
+📩 Completá el formulario y recibí una cotización personalizada.
+⏳ Promoción por tiempo limitado.
+
+\#Soueast \#S06 \#SantaRosa \#SUV \#TestDrive
+
+\#Soueast \#S06 \#SantaRosa \#SUV \#ExperienciaSoueast
+
+---
+*Ficha generada sola todos los días a partir de Meta. Qué significa cada cosa: [[🏷️ Clasificación de Anuncios]], sección «Cómo leer esta nota».*

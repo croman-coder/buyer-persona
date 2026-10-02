@@ -1,0 +1,501 @@
+fecha,producto,marca,categoria,cantidad,ingresos,email_cliente,edad_cliente,genero_cliente,ciudad_cliente,canal
+2025-01-01,Renault Oroch Pickup,Renault,Pickup,1,28236.65,roberto51@outlook.com,40,Masculino,Encarnación,Marketplace
+2025-01-01,Jetour Dashing,Jetour,SUV,1,31760.89,maria68@yahoo.com,42,Masculino,Capiatá,Marketplace
+2025-01-01,Renault Sandero,Renault,Sedan,1,16836.59,carlos59@outlook.com,32,Femenino,Capiatá,Showroom
+2025-01-02,Soueast DX7,Soueast,SUV,1,27041.01,valeria28@hotmail.com,56,Femenino,Capiatá,Venta Directa
+2025-01-03,Santa Rosa SR5 SUV,Santa Rosa,SUV,1,31103.02,gabriel30@outlook.com,43,Masculino,Fernando de la Mora,Showroom
+2025-01-03,Mitsubishi Montero Sport,Mitsubishi,SUV,1,48879.6,maria36@hotmail.com,32,Femenino,Encarnación,WhatsApp Business
+2025-01-04,Leapmotor A12,Leapmotor,Eléctrico,1,25812.7,paula46@hotmail.com,32,Femenino,Fernando de la Mora,Venta Directa
+2025-01-04,Santa Rosa SR5 SUV,Santa Rosa,SUV,1,18953.95,pedro20@outlook.com,42,Masculino,Lambaré,Venta Directa
+2025-01-04,Renault Sandero,Renault,Sedan,1,29713.88,ricardo27@hotmail.com,30,Masculino,Fernando de la Mora,Venta Directa
+2025-01-04,JAC JS4 Sedan,JAC,SUV,1,34045.47,ricardo26@hotmail.com,38,Masculino,Pedro Juan Caballero,Showroom
+2025-01-04,Jetour Travler,Jetour,SUV,1,35714.8,martin63@gmail.com,38,Masculino,Encarnación,Showroom
+2025-01-04,Mitsubishi ASX,Mitsubishi,SUV,1,54909.04,jose95@yahoo.com,39,Femenino,Coronel Oviedo,Marketplace
+2025-01-05,Soueast DX3,Soueast,SUV,1,23407.6,jose97@yahoo.com,42,Masculino,Coronel Oviedo,WhatsApp Business
+2025-01-05,Mitsubishi Lancer,Mitsubishi,Sedan,1,50935.91,julia16@yahoo.com,38,Femenino,San Lorenzo,Venta Directa
+2025-01-06,JMEV U5,JMEV,Eléctrico,1,26835.74,lucia62@hotmail.com,38,Femenino,Fernando de la Mora,Showroom
+2025-01-06,JMEV EV5,JMEV,Eléctrico,1,15335.14,fernando40@yahoo.com,53,Femenino,Ciudad del Este,Venta Directa
+2025-01-06,JAC e-JS4 EV,JAC,Eléctrico,1,27814.91,pedro45@gmail.com,29,Femenino,Ciudad del Este,Showroom
+2025-01-07,GWM Tank 300,GWM,SUV,1,34642.53,diego36@gmail.com,36,Femenino,Asunción,Instagram Shop
+2025-01-07,Soueast A5翼舞,Soueast,Hatchback,1,26785.14,micaela18@gmail.com,31,Femenino,Fernando de la Mora,WhatsApp Business
+2025-01-08,Jetour Travler,Jetour,SUV,1,37728.25,julia70@gmail.com,41,Femenino,Pedro Juan Caballero,Marketplace
+2025-01-09,Jetour X70 Plus,Jetour,SUV,1,35985.58,julia45@gmail.com,42,Masculino,Coronel Oviedo,Showroom
+2025-01-09,Mitsubishi Lancer,Mitsubishi,Sedan,1,54103.37,carlos41@yahoo.com,52,Femenino,Encarnación,Showroom
+2025-01-10,Leapmotor C11,Leapmotor,Eléctrico,1,20562.66,ricardo23@yahoo.com,40,Masculino,Coronel Oviedo,Venta Directa
+2025-01-11,GWM Haval Jolion,GWM,SUV,1,45859.36,maria92@outlook.com,59,Femenino,Coronel Oviedo,Marketplace
+2025-01-11,Mitsubishi Montero Sport,Mitsubishi,SUV,1,49794.98,roberto94@yahoo.com,41,Femenino,Luque,Venta Directa
+2025-01-12,JMEV U5,JMEV,Eléctrico,1,20665.87,julia53@outlook.com,53,Femenino,Fernando de la Mora,Showroom
+2025-01-12,Renault Stepway,Renault,Hatchback,1,21442.82,ricardo51@hotmail.com,27,Masculino,Coronel Oviedo,Venta Directa
+2025-01-12,Jetour Dashing,Jetour,SUV,1,30331.74,ricardo90@yahoo.com,60,Masculino,San Lorenzo,Venta Directa
+2025-01-13,Leapmotor A12,Leapmotor,Eléctrico,1,28936.79,carlos71@outlook.com,35,Femenino,Pedro Juan Caballero,Showroom
+2025-01-13,Zeekr X,Zeekr,Eléctrico,1,54811.16,laura54@outlook.com,52,Femenino,Asunción,Marketplace
+2025-01-14,Soueast DX7,Soueast,SUV,1,27955.16,laura83@hotmail.com,45,Masculino,Ciudad del Este,Marketplace
+2025-01-14,Renault Stepway,Renault,Hatchback,1,17900.34,fernando51@outlook.com,40,Femenino,Encarnación,Marketplace
+2025-01-15,GWM Tank 300,GWM,SUV,1,34210.4,paula21@yahoo.com,43,Masculino,Luque,Venta Directa
+2025-01-15,Soueast V Cross,Soueast,Hatchback,1,18457.79,maria17@hotmail.com,24,Femenino,Fernando de la Mora,Marketplace
+2025-01-15,GWM Poer,GWM,Pickup,1,41355.53,julia91@yahoo.com,29,Masculino,Encarnación,Showroom
+2025-01-16,Soueast V Cross,Soueast,Hatchback,1,21105.12,fernando36@hotmail.com,24,Masculino,Encarnación,Showroom
+2025-01-16,Soueast V Cross,Soueast,Hatchback,1,29359.24,paula83@hotmail.com,36,Masculino,Fernando de la Mora,Venta Directa
+2025-01-16,Leapmotor C11,Leapmotor,Eléctrico,1,29662.93,sofia51@hotmail.com,55,Femenino,Ciudad del Este,Showroom
+2025-01-18,JAC e-JS4 EV,JAC,Eléctrico,1,22278.49,carlos80@yahoo.com,33,Masculino,Asunción,Venta Directa
+2025-01-18,Santa Rosa Family Van,Santa Rosa,Furgoneta,1,25574.47,martin93@hotmail.com,58,Masculino,Pedro Juan Caballero,Instagram Shop
+2025-01-19,JMEV EX5,JMEV,Eléctrico,1,26207.8,camila44@gmail.com,36,Femenino,San Lorenzo,Showroom
+2025-01-20,JMEV EV5,JMEV,Eléctrico,1,18110.67,laura38@hotmail.com,32,Femenino,Coronel Oviedo,Venta Directa
+2025-01-20,Soueast A5翼舞,Soueast,Hatchback,1,24264.21,fernando38@gmail.com,41,Masculino,Pedro Juan Caballero,Venta Directa
+2025-01-20,JMEV EV2,JMEV,Eléctrico,1,17870.36,julia67@gmail.com,38,Femenino,Capiatá,Marketplace
+2025-01-20,JAC Refine S4,JAC,SUV,1,21485.81,gabriel61@yahoo.com,39,Masculino,Encarnación,Showroom
+2025-01-21,Leapmotor C10,Leapmotor,Eléctrico,1,27809.36,lucia29@yahoo.com,54,Femenino,Lambaré,Marketplace
+2025-01-21,Renault Sandero,Renault,Sedan,1,25505.4,paula93@gmail.com,26,Masculino,San Lorenzo,Venta Directa
+2025-01-22,JAC T8 Pickup,JAC,Pickup,1,28406.44,jose17@outlook.com,34,Masculino,Capiatá,Marketplace
+2025-01-22,Jetour X70 Plus,Jetour,SUV,1,37824.74,diego83@outlook.com,51,Femenino,Luque,Marketplace
+2025-01-22,Leapmotor C11,Leapmotor,Eléctrico,1,27491.85,ana92@hotmail.com,49,Masculino,Encarnación,Instagram Shop
+2025-01-22,Soueast S70,Soueast,Sedan,1,23942.1,gabriel69@gmail.com,31,Femenino,Encarnación,Venta Directa
+2025-01-22,GWM Cannon,GWM,Pickup,1,38162.19,pedro43@hotmail.com,65,Masculino,Pedro Juan Caballero,Showroom
+2025-01-23,Santa Rosa Family Van,Santa Rosa,Furgoneta,1,19206.88,diego18@gmail.com,49,Femenino,Coronel Oviedo,Showroom
+2025-01-23,Zeekr Mix,Zeekr,Eléctrico,1,47619.53,micaela79@gmail.com,49,Masculino,Encarnación,Showroom
+2025-01-23,Mitsubishi L200,Mitsubishi,Pickup,1,42340.41,laura20@hotmail.com,31,Masculino,Pedro Juan Caballero,Instagram Shop
+2025-01-23,Santa Rosa Urban Sedan,Santa Rosa,Sedan,1,31455.12,maria95@outlook.com,44,Masculino,Luque,Venta Directa
+2025-01-23,Jetour Travler,Jetour,SUV,1,30308.49,gabriel69@yahoo.com,44,Femenino,Fernando de la Mora,Showroom
+2025-01-23,Renault Duster,Renault,SUV,1,28013.06,roberto61@yahoo.com,50,Masculino,San Lorenzo,Showroom
+2025-01-24,Soueast S70,Soueast,Sedan,1,26999.67,valeria93@hotmail.com,55,Femenino,Encarnación,WhatsApp Business
+2025-01-25,Renault Kwid,Renault,Sedan,1,25587.78,jose73@gmail.com,26,Femenino,Lambaré,Venta Directa
+2025-01-25,Zeekr 7X,Zeekr,Eléctrico,1,58719.2,micaela15@gmail.com,38,Femenino,Lambaré,Venta Directa
+2025-01-27,JAC JS4 Sedan,JAC,SUV,1,36455.13,maria59@outlook.com,56,Masculino,Capiatá,Instagram Shop
+2025-01-28,Mitsubishi ASX,Mitsubishi,SUV,1,40704.49,ricardo34@gmail.com,48,Masculino,Fernando de la Mora,Instagram Shop
+2025-01-29,JAC JS4 Sedan,JAC,SUV,1,28552.45,paula63@hotmail.com,34,Femenino,Asunción,Showroom
+2025-01-29,JMEV EV3,JMEV,Eléctrico,1,22837.99,sofia85@hotmail.com,29,Masculino,Lambaré,Venta Directa
+2025-01-29,Santa Rosa SR5 SUV,Santa Rosa,SUV,1,32631.38,fernando94@outlook.com,34,Femenino,Ciudad del Este,Instagram Shop
+2025-01-29,Mitsubishi Montero Sport,Mitsubishi,SUV,1,42854.32,camila77@hotmail.com,31,Masculino,Fernando de la Mora,Venta Directa
+2025-01-30,JMEV EV2,JMEV,Eléctrico,1,25128.53,laura91@gmail.com,40,Masculino,Capiatá,Showroom
+2025-01-30,Zeekr 009,Zeekr,Eléctrico,1,60182.81,ricardo68@yahoo.com,44,Femenino,Luque,Venta Directa
+2025-01-30,Renault Sandero,Renault,Sedan,1,25652.52,ana74@gmail.com,53,Femenino,Luque,Venta Directa
+2025-01-31,Santa Rosa SR5 SUV,Santa Rosa,SUV,1,22094.82,maria72@gmail.com,59,Masculino,Luque,Showroom
+2025-01-31,JAC iEV 7S EV,JAC,Eléctrico,1,32667.79,micaela24@gmail.com,55,Femenino,Pedro Juan Caballero,Marketplace
+2025-01-31,Zeekr Mix,Zeekr,Eléctrico,1,47116.79,paula57@gmail.com,44,Femenino,Lambaré,Showroom
+2025-02-01,Renault Stepway,Renault,Hatchback,1,20435.06,lucia29@hotmail.com,22,Masculino,San Lorenzo,Showroom
+2025-02-02,JAC JS4 Sedan,JAC,SUV,1,36876.35,micaela85@yahoo.com,36,Masculino,Capiatá,Venta Directa
+2025-02-03,Jetour Dashing,Jetour,SUV,1,36729.42,micaela64@gmail.com,53,Masculino,San Lorenzo,Showroom
+2025-02-03,Renault Oroch Pickup,Renault,Pickup,1,23759.77,julia95@gmail.com,40,Masculino,Lambaré,Instagram Shop
+2025-02-04,JAC T8 Pickup,JAC,Pickup,1,28012.0,camila95@yahoo.com,36,Prefiere no decir,Encarnación,Instagram Shop
+2025-02-04,GWM Haval Jolion,GWM,SUV,1,36439.52,julia74@outlook.com,46,Masculino,Fernando de la Mora,Instagram Shop
+2025-02-04,Leapmotor C01,Leapmotor,Eléctrico,1,28980.26,micaela39@gmail.com,48,Femenino,Luque,Showroom
+2025-02-04,GWM Tank 300,GWM,SUV,1,32348.93,camila67@gmail.com,53,Femenino,San Lorenzo,Showroom
+2025-02-04,Santa Rosa_delivery Van,Santa Rosa,Furgoneta,1,20693.4,lucia88@outlook.com,40,Femenino,Encarnación,Venta Directa
+2025-02-04,Santa Rosa Family Van,Santa Rosa,Furgoneta,1,18046.55,jose83@outlook.com,47,Femenino,Fernando de la Mora,Showroom
+2025-02-04,Soueast A5翼舞,Soueast,Hatchback,1,19179.8,paula49@yahoo.com,36,Masculino,Capiatá,Marketplace
+2025-02-05,Mitsubishi Montero Sport,Mitsubishi,SUV,1,45168.67,lucia70@outlook.com,49,Femenino,Encarnación,Marketplace
+2025-02-05,Mitsubishi Lancer,Mitsubishi,Sedan,1,46997.79,gabriel46@yahoo.com,37,Femenino,Pedro Juan Caballero,Showroom
+2025-02-06,Leapmotor A12,Leapmotor,Eléctrico,1,24016.54,roberto86@yahoo.com,45,Masculino,Ciudad del Este,Showroom
+2025-02-06,Renault Duster,Renault,SUV,1,26700.11,andres94@hotmail.com,30,Femenino,Capiatá,Marketplace
+2025-02-07,Leapmotor C11,Leapmotor,Eléctrico,1,30788.0,maria95@yahoo.com,35,Masculino,Coronel Oviedo,Showroom
+2025-02-07,Santa Rosa Frontera Pickup,Santa Rosa,Pickup,1,24749.77,maria70@gmail.com,43,Masculino,Ciudad del Este,Showroom
+2025-02-07,JMEV EV2,JMEV,Eléctrico,1,17806.7,jose39@outlook.com,51,Femenino,Luque,Showroom
+2025-02-08,Renault Stepway,Renault,Hatchback,1,31973.73,maria78@hotmail.com,30,Femenino,Asunción,Marketplace
+2025-02-09,Santa Rosa Frontera Pickup,Santa Rosa,Pickup,1,30979.4,maria58@gmail.com,55,Masculino,Encarnación,Showroom
+2025-02-09,Leapmotor T03,Leapmotor,Eléctrico,1,32355.28,laura79@gmail.com,35,Femenino,Encarnación,Showroom
+2025-02-09,Jetour i-DM,Jetour,Eléctrico,1,23786.62,jose50@yahoo.com,32,Masculino,Ciudad del Este,Showroom
+2025-02-09,Santa Rosa_delivery Van,Santa Rosa,Furgoneta,1,20670.76,camila36@hotmail.com,52,Femenino,Coronel Oviedo,Instagram Shop
+2025-02-09,GWM Cannon,GWM,Pickup,1,37941.73,martin78@yahoo.com,65,Masculino,Ciudad del Este,WhatsApp Business
+2025-02-10,Zeekr 009,Zeekr,Eléctrico,1,52068.09,micaela52@hotmail.com,36,Femenino,Capiatá,Venta Directa
+2025-02-10,GWM Haval Jolion,GWM,SUV,1,31005.94,maria53@hotmail.com,32,Femenino,Luque,Showroom
+2025-02-11,Santa Rosa Frontera Pickup,Santa Rosa,Pickup,1,31385.37,julia14@outlook.com,49,Prefiere no decir,San Lorenzo,Showroom
+2025-02-11,Zeekr 7X,Zeekr,Eléctrico,1,40194.07,andres38@hotmail.com,40,Femenino,Encarnación,Venta Directa
+2025-02-11,GWM Haval Jolion,GWM,SUV,1,39825.22,lucia72@hotmail.com,32,Masculino,Asunción,Showroom
+2025-02-12,Mitsubishi Lancer,Mitsubishi,Sedan,1,41148.23,pedro92@gmail.com,39,Masculino,Capiatá,Venta Directa
+2025-02-13,Santa Rosa Frontera Pickup,Santa Rosa,Pickup,1,32496.99,carlos41@hotmail.com,40,Masculino,Encarnación,Venta Directa
+2025-02-14,Soueast V Cross,Soueast,Hatchback,1,17880.08,jose80@hotmail.com,20,Masculino,Ciudad del Este,WhatsApp Business
+2025-02-14,Soueast DX7,Soueast,SUV,1,24501.46,pedro49@gmail.com,44,Masculino,Capiatá,Showroom
+2025-02-14,GWM Tank 300,GWM,SUV,1,32790.45,paula19@hotmail.com,59,Masculino,Luque,Venta Directa
+2025-02-14,Jetour Travler,Jetour,SUV,1,27573.8,ana33@outlook.com,34,Masculino,Lambaré,Showroom
+2025-02-14,Leapmotor C10,Leapmotor,Eléctrico,1,18759.61,ana53@gmail.com,42,Masculino,Capiatá,Showroom
+2025-02-14,Santa Rosa_delivery Van,Santa Rosa,Furgoneta,1,31146.59,diego75@gmail.com,59,Femenino,Capiatá,Showroom
+2025-02-14,JMEV U5,JMEV,Eléctrico,1,15256.64,andres66@outlook.com,29,Femenino,Ciudad del Este,Venta Directa
+2025-02-14,Leapmotor T03,Leapmotor,Eléctrico,1,23455.93,julia42@yahoo.com,48,Femenino,Asunción,Venta Directa
+2025-02-15,Soueast V Cross,Soueast,Hatchback,1,16869.74,paula49@hotmail.com,20,Masculino,Capiatá,Venta Directa
+2025-02-15,JMEV U5,JMEV,Eléctrico,1,21764.44,sofia84@outlook.com,34,Femenino,Encarnación,Showroom
+2025-02-15,JMEV EV5,JMEV,Eléctrico,1,16363.89,martin24@gmail.com,47,Femenino,Lambaré,Instagram Shop
+2025-02-15,JMEV EV5,JMEV,Eléctrico,1,22826.26,diego63@yahoo.com,34,Femenino,Encarnación,Showroom
+2025-02-16,Zeekr Mix,Zeekr,Eléctrico,1,48799.13,sofia50@gmail.com,38,Masculino,Fernando de la Mora,Showroom
+2025-02-16,JAC e-JS4 EV,JAC,Eléctrico,1,23128.31,julia15@outlook.com,42,Femenino,Ciudad del Este,Showroom
+2025-02-17,JAC Refine S4,JAC,SUV,1,20250.54,paula57@yahoo.com,60,Masculino,Ciudad del Este,Venta Directa
+2025-02-17,Mitsubishi Montero Sport,Mitsubishi,SUV,1,33124.83,paula21@hotmail.com,58,Masculino,Asunción,Marketplace
+2025-02-17,GWM Haval Jolion,GWM,SUV,1,27310.7,micaela59@yahoo.com,49,Masculino,San Lorenzo,Showroom
+2025-02-17,Leapmotor C01,Leapmotor,Eléctrico,1,30380.03,valeria71@yahoo.com,49,Masculino,Capiatá,Showroom
+2025-02-18,Santa Rosa_delivery Van,Santa Rosa,Furgoneta,1,30093.82,martin20@hotmail.com,59,Masculino,Pedro Juan Caballero,WhatsApp Business
+2025-02-18,GWM Haval H6,GWM,SUV,1,31488.63,paula11@hotmail.com,47,Femenino,Encarnación,WhatsApp Business
+2025-02-19,GWM Tank 300,GWM,SUV,1,36899.28,gabriel91@hotmail.com,50,Femenino,Fernando de la Mora,Marketplace
+2025-02-20,Santa Rosa SR5 SUV,Santa Rosa,SUV,1,23670.46,valeria30@outlook.com,50,Masculino,Luque,Showroom
+2025-02-20,JMEV EV5,JMEV,Eléctrico,1,17646.26,martin66@outlook.com,47,Masculino,Fernando de la Mora,Venta Directa
+2025-02-20,JMEV EV3,JMEV,Eléctrico,1,15809.68,diego47@yahoo.com,48,Masculino,Ciudad del Este,Venta Directa
+2025-02-20,Soueast DX7,Soueast,SUV,1,24597.89,camila32@yahoo.com,30,Masculino,Asunción,Showroom
+2025-02-20,Santa Rosa SR5 SUV,Santa Rosa,SUV,1,23853.95,jose59@yahoo.com,50,Femenino,San Lorenzo,Venta Directa
+2025-02-21,GWM Haval H6,GWM,SUV,1,29039.72,gabriel56@yahoo.com,59,Masculino,Capiatá,Venta Directa
+2025-02-21,Jetour Dashing,Jetour,SUV,1,27395.33,maria33@outlook.com,60,Masculino,Fernando de la Mora,Marketplace
+2025-02-22,Santa Rosa Family Van,Santa Rosa,Furgoneta,1,26615.52,laura82@gmail.com,57,Femenino,Ciudad del Este,Showroom
+2025-02-22,Santa Rosa Family Van,Santa Rosa,Furgoneta,1,34255.24,ricardo10@gmail.com,35,Masculino,Fernando de la Mora,Venta Directa
+2025-02-22,Zeekr 009,Zeekr,Eléctrico,1,68538.29,fernando46@outlook.com,32,Masculino,Asunción,Showroom
+2025-02-23,JAC Refine S4,JAC,SUV,1,30788.8,maria45@outlook.com,47,Femenino,Lambaré,Showroom
+2025-02-23,Mitsubishi Outlander,Mitsubishi,SUV,1,40756.28,ricardo67@gmail.com,34,Femenino,Luque,Instagram Shop
+2025-02-23,JMEV U5,JMEV,Eléctrico,1,19623.52,valeria56@hotmail.com,45,Femenino,Ciudad del Este,Showroom
+2025-02-24,GWM Tank 300,GWM,SUV,1,33586.04,laura59@outlook.com,33,Femenino,Luque,Showroom
+2025-02-24,Leapmotor A12,Leapmotor,Eléctrico,1,31666.24,jose11@gmail.com,51,Femenino,Ciudad del Este,Marketplace
+2025-02-24,Renault Oroch Pickup,Renault,Pickup,1,17790.64,andres23@yahoo.com,61,Masculino,Ciudad del Este,Showroom
+2025-02-24,JMEV U5,JMEV,Eléctrico,1,24489.01,ana58@gmail.com,52,Masculino,Pedro Juan Caballero,Marketplace
+2025-02-25,Santa Rosa Frontera Pickup,Santa Rosa,Pickup,1,21083.89,micaela94@outlook.com,45,No binario,Capiatá,Marketplace
+2025-02-25,Renault Sandero,Renault,Sedan,1,25980.84,pedro33@hotmail.com,48,Masculino,San Lorenzo,Marketplace
+2025-02-26,GWM Haval H6,GWM,SUV,1,33408.95,sofia87@outlook.com,42,Masculino,Capiatá,Venta Directa
+2025-02-26,JAC iEV 7S EV,JAC,Eléctrico,1,22866.0,ricardo55@gmail.com,49,Femenino,Pedro Juan Caballero,Showroom
+2025-02-26,JMEV EX5,JMEV,Eléctrico,1,18724.81,pedro91@yahoo.com,52,Masculino,Ciudad del Este,Marketplace
+2025-02-27,JMEV EX5,JMEV,Eléctrico,1,26480.38,gabriel14@yahoo.com,45,Femenino,Ciudad del Este,Showroom
+2025-02-27,Zeekr 001,Zeekr,Eléctrico,1,51273.91,maria26@yahoo.com,43,Masculino,Ciudad del Este,Instagram Shop
+2025-02-27,JMEV U5,JMEV,Eléctrico,1,25646.33,diego23@hotmail.com,34,Masculino,Capiatá,Venta Directa
+2025-02-27,Santa Rosa Urban Sedan,Santa Rosa,Sedan,1,25077.52,martin58@hotmail.com,55,Masculino,Pedro Juan Caballero,Showroom
+2025-02-28,Mitsubishi L200,Mitsubishi,Pickup,1,47540.81,camila20@hotmail.com,49,Masculino,Lambaré,Showroom
+2025-02-28,Santa Rosa Family Van,Santa Rosa,Furgoneta,1,23332.77,andres98@hotmail.com,54,Femenino,San Lorenzo,Showroom
+2025-03-01,Mitsubishi Outlander,Mitsubishi,SUV,1,51249.78,pedro97@outlook.com,34,Masculino,Ciudad del Este,Venta Directa
+2025-03-01,Zeekr 001,Zeekr,Eléctrico,1,63229.11,ricardo14@hotmail.com,38,Masculino,Lambaré,Marketplace
+2025-03-02,Zeekr 001,Zeekr,Eléctrico,1,57759.44,ricardo38@gmail.com,37,Masculino,Capiatá,Showroom
+2025-03-02,Mitsubishi ASX,Mitsubishi,SUV,1,51850.24,pedro89@gmail.com,53,Masculino,Coronel Oviedo,Venta Directa
+2025-03-02,Zeekr X,Zeekr,Eléctrico,1,56634.47,fernando21@hotmail.com,28,Femenino,Coronel Oviedo,Venta Directa
+2025-03-03,JMEV EV5,JMEV,Eléctrico,1,19803.85,paula79@yahoo.com,32,Masculino,Ciudad del Este,Instagram Shop
+2025-03-03,Renault Stepway,Renault,Hatchback,1,26706.43,paula63@outlook.com,27,Masculino,Luque,Marketplace
+2025-03-03,Soueast DX7,Soueast,SUV,1,16004.02,maria45@outlook.com,51,Femenino,Capiatá,Showroom
+2025-03-03,Leapmotor C01,Leapmotor,Eléctrico,1,26579.78,gabriel86@outlook.com,31,Femenino,Encarnación,Marketplace
+2025-03-04,GWM Haval Jolion,GWM,SUV,1,31994.86,camila38@yahoo.com,46,Femenino,Ciudad del Este,Marketplace
+2025-03-04,Zeekr X,Zeekr,Eléctrico,1,64475.9,jose37@outlook.com,55,Femenino,San Lorenzo,Marketplace
+2025-03-05,Renault Sandero,Renault,Sedan,1,24575.95,paula54@hotmail.com,37,Femenino,Encarnación,Showroom
+2025-03-05,Mitsubishi Outlander,Mitsubishi,SUV,1,38437.27,micaela37@hotmail.com,56,Masculino,Ciudad del Este,Showroom
+2025-03-06,Mitsubishi Montero Sport,Mitsubishi,SUV,1,50446.32,paula15@outlook.com,34,Masculino,Encarnación,Showroom
+2025-03-06,Jetour Dashing,Jetour,SUV,1,36353.26,paula54@outlook.com,40,Masculino,Luque,Marketplace
+2025-03-06,Zeekr X,Zeekr,Eléctrico,1,45107.72,andres45@outlook.com,32,Masculino,Luque,Showroom
+2025-03-07,GWM Cannon,GWM,Pickup,1,37242.46,camila47@yahoo.com,36,Masculino,Asunción,Venta Directa
+2025-03-09,Jetour Travler,Jetour,SUV,1,36236.18,fernando75@hotmail.com,47,Masculino,Luque,Instagram Shop
+2025-03-09,Soueast DX7,Soueast,SUV,1,24897.02,gabriel31@outlook.com,48,Masculino,Lambaré,Showroom
+2025-03-09,JMEV EX5,JMEV,Eléctrico,1,26832.36,lucia23@outlook.com,54,Masculino,Pedro Juan Caballero,Venta Directa
+2025-03-09,Jetour X90,Jetour,SUV,1,34982.62,martin55@yahoo.com,57,Femenino,Coronel Oviedo,Venta Directa
+2025-03-10,Santa Rosa SR5 SUV,Santa Rosa,SUV,1,30972.85,ricardo76@outlook.com,37,Femenino,Luque,Venta Directa
+2025-03-10,JAC e-JS4 EV,JAC,Eléctrico,1,21097.24,andres81@outlook.com,32,Femenino,Lambaré,Showroom
+2025-03-10,Zeekr 001,Zeekr,Eléctrico,1,63031.83,jose11@hotmail.com,42,Femenino,Luque,Venta Directa
+2025-03-10,GWM Tank 300,GWM,SUV,1,39513.75,camila91@gmail.com,57,Femenino,Ciudad del Este,Marketplace
+2025-03-10,Leapmotor A12,Leapmotor,Eléctrico,1,29859.59,micaela86@outlook.com,36,Masculino,Encarnación,WhatsApp Business
+2025-03-11,Santa Rosa SR5 SUV,Santa Rosa,SUV,1,33643.85,carlos80@outlook.com,37,Femenino,Fernando de la Mora,Marketplace
+2025-03-11,JAC JS4 Sedan,JAC,SUV,1,22388.09,laura79@yahoo.com,49,Masculino,Capiatá,WhatsApp Business
+2025-03-12,Mitsubishi Montero Sport,Mitsubishi,SUV,1,44266.24,gabriel47@yahoo.com,38,Femenino,Lambaré,Showroom
+2025-03-12,Mitsubishi Outlander,Mitsubishi,SUV,1,50826.32,martin22@outlook.com,51,Masculino,Capiatá,Marketplace
+2025-03-13,Leapmotor T03,Leapmotor,Eléctrico,1,27291.29,gabriel92@gmail.com,51,Masculino,Encarnación,Showroom
+2025-03-14,Mitsubishi Lancer,Mitsubishi,Sedan,1,38439.41,ricardo98@outlook.com,53,Masculino,Fernando de la Mora,Instagram Shop
+2025-03-14,JAC e-JS4 EV,JAC,Eléctrico,1,35695.63,fernando51@hotmail.com,52,Femenino,Coronel Oviedo,Showroom
+2025-03-15,Leapmotor T03,Leapmotor,Eléctrico,1,18260.67,jose71@hotmail.com,55,Masculino,Luque,WhatsApp Business
+2025-03-15,Leapmotor C11,Leapmotor,Eléctrico,1,34101.01,ricardo35@hotmail.com,39,Femenino,Coronel Oviedo,Showroom
+2025-03-15,Santa Rosa_delivery Van,Santa Rosa,Furgoneta,1,29849.64,micaela33@yahoo.com,54,Masculino,Pedro Juan Caballero,Showroom
+2025-03-16,Soueast DX7,Soueast,SUV,1,27543.76,camila23@outlook.com,36,Femenino,Lambaré,Showroom
+2025-03-16,Mitsubishi L200,Mitsubishi,Pickup,1,40693.96,valeria58@gmail.com,37,Masculino,Lambaré,Showroom
+2025-03-18,Zeekr Mix,Zeekr,Eléctrico,1,40059.19,fernando65@gmail.com,34,Masculino,Asunción,Venta Directa
+2025-03-18,Renault Duster,Renault,SUV,1,30706.49,andres24@hotmail.com,52,Masculino,Ciudad del Este,Venta Directa
+2025-03-19,Leapmotor C11,Leapmotor,Eléctrico,1,34426.56,roberto27@yahoo.com,52,Masculino,Pedro Juan Caballero,Marketplace
+2025-03-19,GWM Poer,GWM,Pickup,1,46114.71,valeria57@outlook.com,40,Masculino,Asunción,Marketplace
+2025-03-19,Zeekr Mix,Zeekr,Eléctrico,1,45277.25,camila62@outlook.com,37,Masculino,Asunción,Instagram Shop
+2025-03-19,Santa Rosa Family Van,Santa Rosa,Furgoneta,1,29394.32,valeria30@yahoo.com,35,Femenino,Lambaré,Showroom
+2025-03-20,Jetour Travler,Jetour,SUV,1,23580.43,lucia78@yahoo.com,47,Femenino,Luque,Showroom
+2025-03-20,Mitsubishi Lancer,Mitsubishi,Sedan,1,34307.5,lucia84@gmail.com,47,Masculino,Capiatá,Marketplace
+2025-03-21,Soueast DX3,Soueast,SUV,1,27017.69,maria80@hotmail.com,31,Masculino,San Lorenzo,WhatsApp Business
+2025-03-22,Soueast A5翼舞,Soueast,Hatchback,1,17389.27,sofia43@gmail.com,29,Femenino,Coronel Oviedo,WhatsApp Business
+2025-03-22,Renault Oroch Pickup,Renault,Pickup,1,20346.24,micaela28@outlook.com,64,Masculino,Encarnación,WhatsApp Business
+2025-03-22,Zeekr 001,Zeekr,Eléctrico,1,55936.64,laura71@yahoo.com,31,Femenino,Capiatá,Showroom
+2025-03-22,JAC Refine S4,JAC,SUV,1,20770.55,laura56@outlook.com,37,Femenino,Luque,Marketplace
+2025-03-23,Soueast DX7,Soueast,SUV,1,26180.99,paula47@gmail.com,48,Femenino,Pedro Juan Caballero,Showroom
+2025-03-23,GWM Haval Jolion,GWM,SUV,1,25271.86,julia84@gmail.com,33,Masculino,Capiatá,Venta Directa
+2025-03-23,Renault Kwid,Renault,Sedan,1,15386.72,gabriel37@hotmail.com,35,Femenino,Luque,Marketplace
+2025-03-25,Jetour X90,Jetour,SUV,1,30283.67,laura24@yahoo.com,44,Masculino,Fernando de la Mora,Venta Directa
+2025-03-25,JMEV EX5,JMEV,Eléctrico,1,24152.49,roberto46@outlook.com,45,Femenino,Luque,Venta Directa
+2025-03-25,Soueast DX3,Soueast,SUV,1,29781.52,camila12@yahoo.com,46,Femenino,Luque,Showroom
+2025-03-26,JAC e-JS4 EV,JAC,Eléctrico,1,30243.17,maria51@outlook.com,53,Masculino,Ciudad del Este,Venta Directa
+2025-03-27,JMEV EV3,JMEV,Eléctrico,1,27030.09,camila17@hotmail.com,33,Masculino,Lambaré,Showroom
+2025-03-27,Soueast A5翼舞,Soueast,Hatchback,1,28894.54,micaela23@outlook.com,44,Femenino,Encarnación,Venta Directa
+2025-03-28,Soueast A5翼舞,Soueast,Hatchback,1,17380.49,laura76@hotmail.com,44,Masculino,Lambaré,Showroom
+2025-03-28,GWM Tank 300,GWM,SUV,1,30111.83,martin63@yahoo.com,53,Femenino,Capiatá,Venta Directa
+2025-03-28,JAC Refine S4,JAC,SUV,1,22052.42,ana53@yahoo.com,40,Masculino,Capiatá,Venta Directa
+2025-03-28,Zeekr 7X,Zeekr,Eléctrico,1,74043.59,laura61@yahoo.com,39,Femenino,Pedro Juan Caballero,Showroom
+2025-03-29,Santa Rosa_delivery Van,Santa Rosa,Furgoneta,1,19387.29,ana50@gmail.com,48,Masculino,San Lorenzo,Marketplace
+2025-03-29,Jetour X90,Jetour,SUV,1,41804.66,martin97@gmail.com,60,Masculino,Fernando de la Mora,Venta Directa
+2025-03-29,Santa Rosa Urban Sedan,Santa Rosa,Sedan,1,34134.98,lucia53@outlook.com,53,Masculino,Asunción,WhatsApp Business
+2025-03-30,JAC JS4 Sedan,JAC,SUV,1,34316.22,diego13@hotmail.com,56,Masculino,Capiatá,Showroom
+2025-03-30,JMEV EV2,JMEV,Eléctrico,1,26972.08,maria65@gmail.com,47,Femenino,San Lorenzo,Venta Directa
+2025-03-30,GWM Haval H6,GWM,SUV,1,39086.31,andres40@hotmail.com,53,Masculino,Pedro Juan Caballero,WhatsApp Business
+2025-03-31,Santa Rosa SR5 SUV,Santa Rosa,SUV,1,24447.7,diego68@yahoo.com,39,Masculino,Pedro Juan Caballero,Marketplace
+2025-03-31,JMEV EV2,JMEV,Eléctrico,1,20361.1,maria29@gmail.com,54,Femenino,Asunción,Venta Directa
+2025-03-31,Leapmotor C10,Leapmotor,Eléctrico,1,34901.37,camila62@yahoo.com,36,Femenino,Lambaré,Venta Directa
+2025-04-01,Mitsubishi ASX,Mitsubishi,SUV,1,44891.32,andres93@gmail.com,32,Masculino,Encarnación,Showroom
+2025-04-01,JAC iEV 7S EV,JAC,Eléctrico,1,27380.65,gabriel54@gmail.com,52,Femenino,Encarnación,Showroom
+2025-04-02,Leapmotor A12,Leapmotor,Eléctrico,1,34472.94,pedro62@outlook.com,31,Femenino,Pedro Juan Caballero,Instagram Shop
+2025-04-02,Jetour X90,Jetour,SUV,1,40515.28,pedro32@outlook.com,54,Masculino,Coronel Oviedo,Venta Directa
+2025-04-03,Soueast DX3,Soueast,SUV,1,26026.69,valeria60@hotmail.com,43,Masculino,Luque,Showroom
+2025-04-03,Santa Rosa SR5 SUV,Santa Rosa,SUV,1,28562.71,lucia70@gmail.com,60,Femenino,San Lorenzo,Instagram Shop
+2025-04-03,Mitsubishi ASX,Mitsubishi,SUV,1,51479.25,micaela59@hotmail.com,47,Masculino,Fernando de la Mora,WhatsApp Business
+2025-04-03,JAC iEV 7S EV,JAC,Eléctrico,1,20982.24,ricardo59@gmail.com,47,Femenino,Lambaré,Showroom
+2025-04-03,Zeekr Mix,Zeekr,Eléctrico,1,65548.54,carlos41@gmail.com,48,Femenino,Luque,Venta Directa
+2025-04-03,Santa Rosa Family Van,Santa Rosa,Furgoneta,1,24189.28,camila18@outlook.com,44,Femenino,Asunción,Venta Directa
+2025-04-04,JMEV U5,JMEV,Eléctrico,1,22992.52,micaela63@hotmail.com,35,Femenino,Luque,Marketplace
+2025-04-04,JMEV EX5,JMEV,Eléctrico,1,21391.42,camila45@gmail.com,55,Masculino,Encarnación,Showroom
+2025-04-05,Santa Rosa Urban Sedan,Santa Rosa,Sedan,1,32356.23,andres85@outlook.com,30,Masculino,Capiatá,Showroom
+2025-04-05,Zeekr 001,Zeekr,Eléctrico,1,65369.53,micaela76@hotmail.com,37,Masculino,Lambaré,Venta Directa
+2025-04-05,Santa Rosa Urban Sedan,Santa Rosa,Sedan,1,30572.79,paula57@outlook.com,31,Masculino,Coronel Oviedo,Venta Directa
+2025-04-06,Jetour Travler,Jetour,SUV,1,39805.75,micaela86@gmail.com,32,Femenino,Lambaré,Showroom
+2025-04-06,Jetour Travler,Jetour,SUV,1,39444.25,carlos61@outlook.com,31,Masculino,Coronel Oviedo,Venta Directa
+2025-04-06,GWM Tank 300,GWM,SUV,1,39241.06,martin73@outlook.com,38,Masculino,Encarnación,Showroom
+2025-04-07,Renault Stepway,Renault,Hatchback,1,22675.26,diego18@yahoo.com,41,Masculino,Fernando de la Mora,Instagram Shop
+2025-04-07,JMEV U5,JMEV,Eléctrico,1,18477.13,lucia22@gmail.com,31,Masculino,San Lorenzo,Marketplace
+2025-04-07,JMEV EX5,JMEV,Eléctrico,1,20450.05,gabriel12@outlook.com,29,Femenino,Luque,Marketplace
+2025-04-07,Soueast V Cross,Soueast,Hatchback,1,28822.74,valeria60@yahoo.com,30,Masculino,Lambaré,WhatsApp Business
+2025-04-09,GWM Haval H6,GWM,SUV,1,29414.44,fernando44@outlook.com,59,Femenino,Pedro Juan Caballero,Showroom
+2025-04-09,JAC Refine S4,JAC,SUV,1,29988.4,martin83@yahoo.com,47,Masculino,Encarnación,Marketplace
+2025-04-09,JMEV U5,JMEV,Eléctrico,1,15780.47,ricardo90@gmail.com,29,Masculino,Ciudad del Este,Venta Directa
+2025-04-10,Renault Sandero,Renault,Sedan,1,22801.55,pedro11@yahoo.com,50,Femenino,Capiatá,Showroom
+2025-04-11,Jetour Dashing,Jetour,SUV,1,38432.39,andres59@outlook.com,35,Masculino,Pedro Juan Caballero,Showroom
+2025-04-11,JMEV EV2,JMEV,Eléctrico,1,25438.25,gabriel83@yahoo.com,44,Masculino,Capiatá,WhatsApp Business
+2025-04-11,Leapmotor C11,Leapmotor,Eléctrico,1,33841.36,fernando12@outlook.com,36,Masculino,Capiatá,Venta Directa
+2025-04-12,Jetour X70 Plus,Jetour,SUV,1,35543.67,pedro13@outlook.com,60,Masculino,Lambaré,Marketplace
+2025-04-12,Mitsubishi ASX,Mitsubishi,SUV,1,43522.48,pedro62@gmail.com,37,Femenino,Fernando de la Mora,WhatsApp Business
+2025-04-13,Zeekr 7X,Zeekr,Eléctrico,1,59647.88,micaela64@outlook.com,32,Masculino,Encarnación,Showroom
+2025-04-13,Mitsubishi L200,Mitsubishi,Pickup,1,47496.49,laura32@gmail.com,46,Masculino,Fernando de la Mora,Showroom
+2025-04-13,Renault Duster,Renault,SUV,1,25782.05,laura72@yahoo.com,49,Femenino,Capiatá,Showroom
+2025-04-13,Mitsubishi Outlander,Mitsubishi,SUV,1,48843.72,roberto71@hotmail.com,44,Masculino,Pedro Juan Caballero,Marketplace
+2025-04-13,Mitsubishi Lancer,Mitsubishi,Sedan,1,40133.37,gabriel56@outlook.com,33,Femenino,Ciudad del Este,Marketplace
+2025-04-14,Zeekr 009,Zeekr,Eléctrico,1,47332.75,maria87@hotmail.com,42,Masculino,Encarnación,Marketplace
+2025-04-15,JMEV EV5,JMEV,Eléctrico,1,24503.34,camila41@gmail.com,47,Masculino,Fernando de la Mora,Marketplace
+2025-04-15,GWM Poer,GWM,Pickup,1,38280.79,andres58@outlook.com,37,Masculino,Lambaré,Marketplace
+2025-04-15,Santa Rosa Frontera Pickup,Santa Rosa,Pickup,1,30746.2,jose13@yahoo.com,59,No binario,Encarnación,Marketplace
+2025-04-15,Santa Rosa_delivery Van,Santa Rosa,Furgoneta,1,26078.71,fernando12@yahoo.com,60,Masculino,San Lorenzo,Showroom
+2025-04-15,Santa Rosa SR5 SUV,Santa Rosa,SUV,1,33206.97,maria57@yahoo.com,57,Femenino,Encarnación,Showroom
+2025-04-15,Jetour i-DM,Jetour,Eléctrico,1,32638.89,andres34@gmail.com,35,Masculino,Luque,Venta Directa
+2025-04-17,Leapmotor C10,Leapmotor,Eléctrico,1,22961.65,andres71@outlook.com,48,Femenino,Fernando de la Mora,WhatsApp Business
+2025-04-17,JMEV EV5,JMEV,Eléctrico,1,27432.57,lucia90@yahoo.com,55,Femenino,Luque,Showroom
+2025-04-17,Zeekr 009,Zeekr,Eléctrico,1,41311.3,julia28@outlook.com,40,Masculino,Coronel Oviedo,Venta Directa
+2025-04-17,Soueast DX3,Soueast,SUV,1,20276.44,andres58@yahoo.com,37,Masculino,Coronel Oviedo,Instagram Shop
+2025-04-17,Leapmotor C01,Leapmotor,Eléctrico,1,34463.5,valeria84@hotmail.com,29,Femenino,Capiatá,Showroom
+2025-04-17,Jetour i-DM,Jetour,Furgoneta,1,28308.34,ricardo33@yahoo.com,32,Femenino,Fernando de la Mora,Marketplace
+2025-04-18,JMEV EX5,JMEV,Eléctrico,1,18214.12,laura72@hotmail.com,33,Masculino,Fernando de la Mora,Showroom
+2025-04-18,Leapmotor T03,Leapmotor,Eléctrico,1,28134.64,gabriel11@hotmail.com,39,Masculino,Capiatá,Showroom
+2025-04-19,Mitsubishi L200,Mitsubishi,Pickup,1,39390.8,paula41@gmail.com,43,Masculino,Pedro Juan Caballero,Marketplace
+2025-04-19,Mitsubishi Montero Sport,Mitsubishi,SUV,1,48638.91,roberto97@gmail.com,39,Femenino,Lambaré,Marketplace
+2025-04-19,Mitsubishi ASX,Mitsubishi,SUV,1,36798.93,julia56@gmail.com,53,Masculino,Coronel Oviedo,Venta Directa
+2025-04-20,JMEV EV3,JMEV,Eléctrico,1,22664.63,jose34@yahoo.com,34,Femenino,Fernando de la Mora,Showroom
+2025-04-21,Zeekr 009,Zeekr,Eléctrico,1,42948.71,ana94@yahoo.com,53,Femenino,San Lorenzo,Showroom
+2025-04-22,Mitsubishi Montero Sport,Mitsubishi,SUV,1,29536.03,maria92@gmail.com,32,Masculino,Fernando de la Mora,Marketplace
+2025-04-22,JMEV U5,JMEV,Eléctrico,1,18571.63,ana74@outlook.com,41,Femenino,Asunción,Marketplace
+2025-04-22,Soueast DX3,Soueast,SUV,1,18823.9,sofia14@hotmail.com,60,Femenino,Fernando de la Mora,Marketplace
+2025-04-23,Soueast S70,Soueast,Sedan,1,19190.58,maria39@gmail.com,43,Femenino,Ciudad del Este,Showroom
+2025-04-23,GWM Tank 300,GWM,SUV,1,43230.46,paula25@outlook.com,56,Femenino,Ciudad del Este,Showroom
+2025-04-23,JAC e-JS4 EV,JAC,Eléctrico,1,37680.69,sofia98@outlook.com,45,Masculino,San Lorenzo,WhatsApp Business
+2025-04-23,Soueast DX3,Soueast,SUV,1,19147.81,pedro68@outlook.com,55,Femenino,Luque,Showroom
+2025-04-24,Jetour i-DM,Jetour,Sedan,1,37922.87,fernando57@outlook.com,47,Masculino,Asunción,Showroom
+2025-04-24,JMEV EV2,JMEV,Eléctrico,1,24956.3,roberto39@gmail.com,50,Masculino,Fernando de la Mora,Showroom
+2025-04-25,GWM Cannon,GWM,Pickup,1,33702.83,lucia32@gmail.com,50,Masculino,Coronel Oviedo,Instagram Shop
+2025-04-25,Leapmotor T03,Leapmotor,Eléctrico,1,31545.1,lucia48@yahoo.com,45,Femenino,Encarnación,Venta Directa
+2025-04-26,Mitsubishi ASX,Mitsubishi,SUV,1,46186.9,roberto85@gmail.com,57,Masculino,Coronel Oviedo,Showroom
+2025-04-27,JMEV EV3,JMEV,Eléctrico,1,26736.47,julia80@gmail.com,34,Masculino,Lambaré,Venta Directa
+2025-04-27,Mitsubishi Montero Sport,Mitsubishi,SUV,1,47961.62,micaela53@outlook.com,40,Femenino,Lambaré,WhatsApp Business
+2025-04-27,Renault Duster,Renault,SUV,1,18875.28,paula51@yahoo.com,38,Masculino,Ciudad del Este,WhatsApp Business
+2025-04-27,Renault Stepway,Renault,Hatchback,1,26900.24,gabriel50@hotmail.com,45,Femenino,Encarnación,Marketplace
+2025-04-28,Jetour i-DM,Jetour,Pickup,1,31136.72,sofia59@outlook.com,65,Masculino,Lambaré,Venta Directa
+2025-04-28,Soueast V Cross,Soueast,Hatchback,1,22564.9,valeria85@gmail.com,30,Masculino,Encarnación,Marketplace
+2025-04-28,Leapmotor C01,Leapmotor,Eléctrico,1,33459.92,pedro45@gmail.com,28,Masculino,San Lorenzo,WhatsApp Business
+2025-04-28,Mitsubishi Lancer,Mitsubishi,Sedan,1,37501.65,diego74@yahoo.com,37,Femenino,Asunción,Showroom
+2025-04-29,Leapmotor C11,Leapmotor,Eléctrico,1,34086.45,ricardo24@gmail.com,48,Masculino,Ciudad del Este,Showroom
+2025-04-29,Jetour X90,Jetour,SUV,1,31012.92,micaela29@yahoo.com,49,Femenino,San Lorenzo,Showroom
+2025-04-30,Soueast S70,Soueast,Sedan,1,25048.77,paula14@yahoo.com,46,Femenino,Ciudad del Este,Instagram Shop
+2025-04-30,GWM Cannon,GWM,Pickup,1,25419.3,pedro37@yahoo.com,33,Masculino,Lambaré,Marketplace
+2025-05-01,Mitsubishi ASX,Mitsubishi,SUV,1,53326.06,gabriel58@yahoo.com,60,Masculino,Encarnación,Venta Directa
+2025-05-01,GWM Poer,GWM,Pickup,1,44918.74,camila21@outlook.com,61,Prefiere no decir,Ciudad del Este,Instagram Shop
+2025-05-02,GWM Cannon,GWM,Pickup,1,41756.54,andres87@gmail.com,44,Masculino,Coronel Oviedo,Marketplace
+2025-05-02,Santa Rosa SR5 SUV,Santa Rosa,SUV,1,24123.65,andres24@gmail.com,56,Femenino,Asunción,Instagram Shop
+2025-05-02,JMEV EX5,JMEV,Eléctrico,1,20038.21,gabriel16@gmail.com,35,Masculino,Asunción,WhatsApp Business
+2025-05-02,Zeekr Mix,Zeekr,Eléctrico,1,52026.89,camila93@yahoo.com,46,Masculino,Ciudad del Este,Showroom
+2025-05-03,Santa Rosa Urban Sedan,Santa Rosa,Sedan,1,34029.47,sofia93@outlook.com,37,Masculino,Ciudad del Este,Showroom
+2025-05-03,Leapmotor C10,Leapmotor,Eléctrico,1,33058.44,martin75@outlook.com,37,Femenino,Asunción,Venta Directa
+2025-05-03,Santa Rosa Family Van,Santa Rosa,Furgoneta,1,29127.28,andres56@gmail.com,48,Femenino,Pedro Juan Caballero,Showroom
+2025-05-03,GWM Haval Jolion,GWM,SUV,1,28092.85,ricardo48@yahoo.com,55,Femenino,Encarnación,Marketplace
+2025-05-04,JMEV EX5,JMEV,Eléctrico,1,25418.42,paula88@outlook.com,29,Femenino,Ciudad del Este,Marketplace
+2025-05-04,JAC iEV 7S EV,JAC,Eléctrico,1,25206.74,micaela86@yahoo.com,34,Femenino,Encarnación,Marketplace
+2025-05-06,Jetour Travler,Jetour,SUV,1,31894.3,martin53@hotmail.com,42,Femenino,Lambaré,Instagram Shop
+2025-05-06,Mitsubishi ASX,Mitsubishi,SUV,1,45097.5,roberto40@hotmail.com,47,Masculino,Capiatá,Marketplace
+2025-05-07,Mitsubishi Montero Sport,Mitsubishi,SUV,1,46006.11,julia99@yahoo.com,40,Femenino,Luque,Marketplace
+2025-05-07,GWM Haval Jolion,GWM,SUV,1,29868.19,camila58@yahoo.com,35,Femenino,Luque,Marketplace
+2025-05-07,Zeekr Mix,Zeekr,Eléctrico,1,58153.91,ricardo77@outlook.com,52,Masculino,Asunción,Venta Directa
+2025-05-08,Soueast A5翼舞,Soueast,Hatchback,1,22600.68,roberto38@gmail.com,40,Masculino,Ciudad del Este,Venta Directa
+2025-05-08,Renault Stepway,Renault,Hatchback,1,30339.28,micaela50@hotmail.com,39,Masculino,San Lorenzo,WhatsApp Business
+2025-05-09,Zeekr 009,Zeekr,Eléctrico,1,57829.2,ana24@yahoo.com,36,Femenino,Luque,Marketplace
+2025-05-09,Jetour i-DM,Jetour,SUV,1,33729.3,jose62@yahoo.com,53,Masculino,Encarnación,Venta Directa
+2025-05-09,Jetour X90,Jetour,SUV,1,29783.13,julia27@gmail.com,35,Femenino,Coronel Oviedo,Instagram Shop
+2025-05-09,Jetour Dashing,Jetour,SUV,1,23839.57,jose15@outlook.com,32,Femenino,Fernando de la Mora,Instagram Shop
+2025-05-09,Renault Kwid,Renault,Sedan,1,23282.24,fernando26@hotmail.com,33,Femenino,San Lorenzo,Venta Directa
+2025-05-11,JMEV EX5,JMEV,Eléctrico,1,23630.1,maria40@yahoo.com,53,Femenino,Ciudad del Este,Showroom
+2025-05-11,JMEV EV5,JMEV,Eléctrico,1,21262.6,valeria91@yahoo.com,45,Masculino,Luque,Venta Directa
+2025-05-12,Jetour Dashing,Jetour,SUV,1,26569.87,paula61@outlook.com,57,Femenino,Lambaré,Marketplace
+2025-05-12,Soueast V Cross,Soueast,Hatchback,1,18158.72,micaela15@gmail.com,22,Femenino,Coronel Oviedo,WhatsApp Business
+2025-05-12,Mitsubishi Outlander,Mitsubishi,SUV,1,53473.54,valeria72@outlook.com,42,Femenino,Fernando de la Mora,Venta Directa
+2025-05-12,Zeekr X,Zeekr,Eléctrico,1,74231.45,roberto88@outlook.com,51,Femenino,Pedro Juan Caballero,WhatsApp Business
+2025-05-12,GWM Haval H6,GWM,SUV,1,35486.31,andres97@hotmail.com,56,Femenino,Luque,WhatsApp Business
+2025-05-13,GWM Haval Jolion,GWM,SUV,1,36010.43,pedro16@yahoo.com,33,Femenino,Coronel Oviedo,Showroom
+2025-05-13,JMEV U5,JMEV,Eléctrico,1,20186.1,maria80@hotmail.com,28,Masculino,San Lorenzo,Showroom
+2025-05-14,Mitsubishi Montero Sport,Mitsubishi,SUV,1,49896.1,maria74@hotmail.com,45,Femenino,Asunción,Marketplace
+2025-05-14,Santa Rosa_delivery Van,Santa Rosa,Furgoneta,1,18769.93,maria79@gmail.com,40,Femenino,San Lorenzo,Venta Directa
+2025-05-14,Zeekr Mix,Zeekr,Eléctrico,1,49258.22,paula86@gmail.com,32,Femenino,Coronel Oviedo,Venta Directa
+2025-05-15,Leapmotor T03,Leapmotor,Eléctrico,1,23428.38,julia26@yahoo.com,38,Femenino,Capiatá,Instagram Shop
+2025-05-16,Zeekr 009,Zeekr,Eléctrico,1,58879.67,diego93@gmail.com,54,Femenino,Fernando de la Mora,Showroom
+2025-05-16,GWM Cannon,GWM,Pickup,1,34278.59,diego37@yahoo.com,32,Masculino,Lambaré,Marketplace
+2025-05-17,Zeekr 7X,Zeekr,Eléctrico,1,40206.36,martin59@outlook.com,52,Femenino,Coronel Oviedo,Marketplace
+2025-05-17,Soueast DX3,Soueast,SUV,1,19221.66,diego91@hotmail.com,59,Masculino,Luque,Venta Directa
+2025-05-17,Leapmotor C10,Leapmotor,Eléctrico,1,27994.71,roberto90@outlook.com,52,Femenino,San Lorenzo,Instagram Shop
+2025-05-18,Zeekr Mix,Zeekr,Eléctrico,1,63381.69,maria60@gmail.com,50,Femenino,Pedro Juan Caballero,Venta Directa
+2025-05-18,JMEV U5,JMEV,Eléctrico,1,23548.82,pedro92@gmail.com,48,Femenino,Ciudad del Este,Venta Directa
+2025-05-19,Mitsubishi Montero Sport,Mitsubishi,SUV,1,54771.35,micaela39@hotmail.com,37,Femenino,Luque,Showroom
+2025-05-19,JAC e-JS4 EV,JAC,Eléctrico,1,35054.02,lucia23@gmail.com,34,Femenino,San Lorenzo,Instagram Shop
+2025-05-20,GWM Haval H6,GWM,SUV,1,27776.94,sofia67@yahoo.com,35,Masculino,Fernando de la Mora,Showroom
+2025-05-20,Mitsubishi Outlander,Mitsubishi,SUV,1,47928.84,micaela13@yahoo.com,35,Femenino,Coronel Oviedo,Showroom
+2025-05-20,Leapmotor T03,Leapmotor,Eléctrico,1,34543.04,andres47@hotmail.com,47,Femenino,Luque,Instagram Shop
+2025-05-20,Renault Sandero,Renault,Sedan,1,24199.93,paula23@hotmail.com,51,Femenino,Luque,Showroom
+2025-05-21,JAC Refine S4,JAC,SUV,1,20217.21,camila26@outlook.com,50,Femenino,Pedro Juan Caballero,Instagram Shop
+2025-05-23,Zeekr Mix,Zeekr,Eléctrico,1,72922.25,roberto38@hotmail.com,50,Masculino,Ciudad del Este,Venta Directa
+2025-05-23,JMEV U5,JMEV,Eléctrico,1,25702.68,gabriel15@outlook.com,31,Femenino,Luque,Venta Directa
+2025-05-23,Renault Sandero,Renault,Sedan,1,26978.69,micaela79@hotmail.com,44,Masculino,San Lorenzo,Instagram Shop
+2025-05-23,GWM Haval Jolion,GWM,SUV,1,34741.92,roberto45@outlook.com,50,Masculino,Luque,Instagram Shop
+2025-05-24,Jetour X70 Plus,Jetour,SUV,1,22525.68,paula80@hotmail.com,55,Femenino,San Lorenzo,Venta Directa
+2025-05-25,JAC e-JS4 EV,JAC,Eléctrico,1,21401.97,jose74@gmail.com,35,Masculino,Capiatá,Showroom
+2025-05-25,Zeekr 7X,Zeekr,Eléctrico,1,58682.39,ana51@hotmail.com,41,Masculino,Lambaré,Showroom
+2025-05-27,Mitsubishi Montero Sport,Mitsubishi,SUV,1,28576.53,fernando27@yahoo.com,55,Masculino,Fernando de la Mora,Venta Directa
+2025-05-28,Mitsubishi ASX,Mitsubishi,SUV,1,42478.16,maria80@yahoo.com,49,Masculino,Asunción,Venta Directa
+2025-05-28,Jetour X70 Plus,Jetour,SUV,1,34368.37,paula66@yahoo.com,33,Masculino,Coronel Oviedo,Venta Directa
+2025-05-28,Jetour i-DM,Jetour,Pickup,1,39035.31,camila90@outlook.com,49,Masculino,Lambaré,Venta Directa
+2025-05-28,Soueast A5翼舞,Soueast,Hatchback,1,18387.17,lucia97@hotmail.com,28,Femenino,Asunción,Venta Directa
+2025-05-28,Mitsubishi Lancer,Mitsubishi,Sedan,1,46268.8,julia54@hotmail.com,36,Masculino,Luque,Showroom
+2025-05-28,Leapmotor C01,Leapmotor,Eléctrico,1,25341.42,maria89@yahoo.com,35,Masculino,Pedro Juan Caballero,WhatsApp Business
+2025-05-28,Leapmotor C10,Leapmotor,Eléctrico,1,23647.69,camila66@yahoo.com,32,Masculino,Asunción,WhatsApp Business
+2025-05-29,GWM Poer,GWM,Pickup,1,26816.27,roberto97@hotmail.com,61,Masculino,Encarnación,Showroom
+2025-05-29,GWM Haval Jolion,GWM,SUV,1,25859.55,maria17@yahoo.com,56,Femenino,Coronel Oviedo,Venta Directa
+2025-05-30,Jetour Dashing,Jetour,SUV,1,22755.11,julia88@yahoo.com,38,Femenino,Capiatá,Showroom
+2025-05-31,Leapmotor C10,Leapmotor,Eléctrico,1,23327.87,roberto60@gmail.com,36,Masculino,Pedro Juan Caballero,WhatsApp Business
+2025-05-31,Mitsubishi Lancer,Mitsubishi,Sedan,1,41564.62,valeria33@gmail.com,42,Masculino,Capiatá,Instagram Shop
+2025-05-31,GWM Haval H6,GWM,SUV,1,34627.01,carlos84@hotmail.com,50,Masculino,Luque,Showroom
+2025-05-31,Jetour i-DM,Jetour,Eléctrico,1,39348.21,diego58@gmail.com,36,Masculino,Ciudad del Este,Showroom
+2025-06-01,Leapmotor T03,Leapmotor,Eléctrico,1,18036.64,valeria68@yahoo.com,55,Masculino,Asunción,Showroom
+2025-06-01,JAC T8 Pickup,JAC,Pickup,1,31410.22,camila56@gmail.com,33,Masculino,Lambaré,Venta Directa
+2025-06-01,Santa Rosa_delivery Van,Santa Rosa,Furgoneta,1,20639.66,martin39@hotmail.com,48,Femenino,Ciudad del Este,Showroom
+2025-06-01,JMEV EV5,JMEV,Eléctrico,1,18248.65,julia38@yahoo.com,34,Masculino,Pedro Juan Caballero,Marketplace
+2025-06-02,Zeekr 7X,Zeekr,Eléctrico,1,74749.64,laura26@hotmail.com,30,Femenino,Capiatá,Showroom
+2025-06-02,Zeekr Mix,Zeekr,Eléctrico,1,43357.06,micaela80@outlook.com,51,Masculino,Luque,Showroom
+2025-06-03,Zeekr 001,Zeekr,Eléctrico,1,41589.61,roberto17@gmail.com,37,Masculino,Pedro Juan Caballero,Venta Directa
+2025-06-03,Santa Rosa Family Van,Santa Rosa,Furgoneta,1,27736.22,gabriel80@gmail.com,59,Femenino,Ciudad del Este,Showroom
+2025-06-03,Jetour i-DM,Jetour,Furgoneta,1,25962.17,micaela35@hotmail.com,45,Femenino,Encarnación,Marketplace
+2025-06-04,Soueast DX3,Soueast,SUV,1,29414.42,sofia19@hotmail.com,59,Masculino,Coronel Oviedo,Venta Directa
+2025-06-04,JMEV EV5,JMEV,Eléctrico,1,15988.24,camila13@yahoo.com,29,Femenino,Lambaré,Showroom
+2025-06-04,JAC JS4 Sedan,JAC,SUV,1,22079.16,ricardo72@yahoo.com,50,Masculino,Ciudad del Este,Marketplace
+2025-06-04,Leapmotor C11,Leapmotor,Eléctrico,1,32013.28,micaela23@gmail.com,34,Masculino,Luque,Venta Directa
+2025-06-04,JAC iEV 7S EV,JAC,Eléctrico,1,29187.42,fernando74@gmail.com,51,Masculino,Encarnación,Marketplace
+2025-06-04,Zeekr Mix,Zeekr,Eléctrico,1,55662.49,ana14@yahoo.com,51,Masculino,Capiatá,WhatsApp Business
+2025-06-05,Jetour i-DM,Jetour,Sedan,1,29318.75,carlos82@hotmail.com,53,Masculino,Capiatá,Venta Directa
+2025-06-05,GWM Haval Jolion,GWM,SUV,1,33563.12,valeria67@hotmail.com,43,Femenino,Lambaré,Venta Directa
+2025-06-06,Mitsubishi Lancer,Mitsubishi,Sedan,1,52791.55,ana39@hotmail.com,36,Femenino,Encarnación,WhatsApp Business
+2025-06-06,Leapmotor C01,Leapmotor,Eléctrico,1,18302.08,andres14@gmail.com,38,Femenino,Fernando de la Mora,Venta Directa
+2025-06-08,Renault Sandero,Renault,Sedan,1,22990.18,camila51@gmail.com,43,Masculino,Fernando de la Mora,WhatsApp Business
+2025-06-08,Jetour Dashing,Jetour,SUV,1,22273.49,maria38@gmail.com,50,Femenino,Encarnación,Showroom
+2025-06-08,Santa Rosa Frontera Pickup,Santa Rosa,Pickup,1,22809.19,camila96@gmail.com,56,Masculino,Capiatá,Marketplace
+2025-06-08,Zeekr Mix,Zeekr,Eléctrico,1,71970.15,ricardo76@yahoo.com,48,Femenino,San Lorenzo,Marketplace
+2025-06-08,Zeekr X,Zeekr,Eléctrico,1,42933.62,valeria34@gmail.com,36,Masculino,San Lorenzo,Instagram Shop
+2025-06-09,Soueast DX3,Soueast,SUV,1,26064.18,andres83@gmail.com,32,Masculino,Lambaré,WhatsApp Business
+2025-06-09,GWM Cannon,GWM,Pickup,1,36226.82,paula15@gmail.com,52,Femenino,Encarnación,Marketplace
+2025-06-09,Jetour i-DM,Jetour,Eléctrico,1,34945.18,ana41@gmail.com,43,Masculino,San Lorenzo,Venta Directa
+2025-06-09,JAC iEV 7S EV,JAC,Eléctrico,1,25096.32,camila24@gmail.com,49,Masculino,Pedro Juan Caballero,Showroom
+2025-06-11,Soueast S70,Soueast,Sedan,1,17534.46,micaela49@gmail.com,40,Femenino,Capiatá,Showroom
+2025-06-11,Santa Rosa Frontera Pickup,Santa Rosa,Pickup,1,19031.9,fernando17@yahoo.com,59,Femenino,Fernando de la Mora,Instagram Shop
+2025-06-11,JAC JS4 Sedan,JAC,SUV,1,23220.16,jose91@yahoo.com,46,Femenino,Coronel Oviedo,Venta Directa
+2025-06-12,Santa Rosa SR5 SUV,Santa Rosa,SUV,1,27541.17,diego67@yahoo.com,36,Femenino,Pedro Juan Caballero,Venta Directa
+2025-06-12,JAC iEV 7S EV,JAC,Eléctrico,1,37088.85,micaela29@outlook.com,32,Masculino,Fernando de la Mora,Marketplace
+2025-06-12,Zeekr 001,Zeekr,Eléctrico,1,60068.99,martin24@outlook.com,42,Femenino,Capiatá,Venta Directa
+2025-06-12,Mitsubishi Lancer,Mitsubishi,Sedan,1,42939.41,martin29@hotmail.com,26,Femenino,Encarnación,Showroom
+2025-06-12,Soueast A5翼舞,Soueast,Hatchback,1,28885.49,gabriel14@yahoo.com,38,Masculino,Pedro Juan Caballero,Marketplace
+2025-06-12,JMEV EX5,JMEV,Eléctrico,1,20032.38,gabriel97@outlook.com,52,Femenino,Pedro Juan Caballero,Showroom
+2025-06-12,JMEV EV5,JMEV,Eléctrico,1,26355.06,jose63@hotmail.com,55,Masculino,Pedro Juan Caballero,Marketplace
+2025-06-12,Jetour X90,Jetour,SUV,1,35343.14,gabriel46@outlook.com,47,Masculino,Coronel Oviedo,Venta Directa
+2025-06-13,Jetour X70 Plus,Jetour,SUV,1,26302.66,paula53@hotmail.com,53,Femenino,Ciudad del Este,Venta Directa
+2025-06-13,Jetour i-DM,Jetour,SUV,1,37316.55,fernando58@outlook.com,39,Masculino,Encarnación,Venta Directa
+2025-06-13,Mitsubishi L200,Mitsubishi,Pickup,1,54544.13,ricardo17@hotmail.com,52,No binario,Ciudad del Este,Showroom
+2025-06-13,JAC Refine S4,JAC,SUV,1,29408.8,lucia87@gmail.com,42,Femenino,Ciudad del Este,Showroom
+2025-06-14,JMEV EV3,JMEV,Eléctrico,1,21859.76,sofia79@hotmail.com,32,Masculino,Pedro Juan Caballero,Showroom
+2025-06-14,Jetour Dashing,Jetour,SUV,1,36544.7,jose46@hotmail.com,38,Femenino,Encarnación,Marketplace
+2025-06-14,Zeekr 7X,Zeekr,Eléctrico,1,45395.01,julia19@outlook.com,32,Masculino,San Lorenzo,Showroom
+2025-06-14,Jetour i-DM,Jetour,Sedan,1,24523.72,maria97@outlook.com,55,Femenino,San Lorenzo,Instagram Shop
+2025-06-14,JAC T8 Pickup,JAC,Pickup,1,32091.46,fernando54@hotmail.com,45,No binario,Coronel Oviedo,Showroom
+2025-06-15,Santa Rosa Frontera Pickup,Santa Rosa,Pickup,1,24506.4,pedro55@hotmail.com,64,Masculino,Lambaré,Marketplace
+2025-06-16,Jetour X90,Jetour,SUV,1,28944.08,fernando18@yahoo.com,57,Femenino,Coronel Oviedo,Venta Directa
+2025-06-16,GWM Haval Jolion,GWM,SUV,1,35340.23,julia10@hotmail.com,42,Femenino,Coronel Oviedo,Instagram Shop
+2025-06-17,Renault Stepway,Renault,Hatchback,1,15677.63,camila87@yahoo.com,28,Masculino,Fernando de la Mora,Showroom
+2025-06-17,Soueast DX7,Soueast,SUV,1,27257.23,julia35@hotmail.com,48,Femenino,Ciudad del Este,Venta Directa
+2025-06-19,Soueast DX3,Soueast,SUV,1,18205.05,ricardo93@yahoo.com,40,Masculino,Capiatá,Showroom
+2025-06-19,Mitsubishi Montero Sport,Mitsubishi,SUV,1,35600.97,julia60@gmail.com,33,Masculino,Luque,Venta Directa
+2025-06-19,Mitsubishi Lancer,Mitsubishi,Sedan,1,33981.19,valeria56@hotmail.com,30,Femenino,Capiatá,Showroom
+2025-06-20,Mitsubishi Montero Sport,Mitsubishi,SUV,1,44404.47,carlos26@gmail.com,55,Femenino,Asunción,Showroom
+2025-06-20,Mitsubishi Lancer,Mitsubishi,Sedan,1,51814.92,pedro39@gmail.com,50,Masculino,Coronel Oviedo,Showroom
+2025-06-21,Renault Duster,Renault,SUV,1,20478.24,paula96@hotmail.com,36,Masculino,Coronel Oviedo,Venta Directa
+2025-06-21,Mitsubishi ASX,Mitsubishi,SUV,1,37442.34,roberto28@outlook.com,49,Femenino,Luque,Showroom
+2025-06-22,Jetour i-DM,Jetour,Furgoneta,1,26345.39,diego56@gmail.com,45,Masculino,Asunción,Venta Directa
+2025-06-22,Zeekr Mix,Zeekr,Eléctrico,1,54547.07,ricardo31@gmail.com,44,Masculino,Lambaré,Venta Directa
+2025-06-22,Jetour Dashing,Jetour,SUV,1,26523.82,ana11@yahoo.com,36,Masculino,Ciudad del Este,Showroom
+2025-06-22,JMEV EV3,JMEV,Eléctrico,1,16024.8,micaela67@gmail.com,45,Masculino,Lambaré,Instagram Shop
+2025-06-23,GWM Poer,GWM,Pickup,1,33822.21,valeria52@yahoo.com,58,Masculino,San Lorenzo,Showroom
+2025-06-23,Jetour Travler,Jetour,SUV,1,29388.03,carlos43@outlook.com,42,Femenino,Capiatá,Instagram Shop
+2025-06-23,JMEV EX5,JMEV,Eléctrico,1,21354.23,pedro70@yahoo.com,48,Femenino,Asunción,Showroom
+2025-06-24,JAC e-JS4 EV,JAC,Eléctrico,1,22761.89,fernando57@outlook.com,39,Masculino,Coronel Oviedo,Showroom
+2025-06-24,JMEV EV3,JMEV,Eléctrico,1,27991.06,valeria54@gmail.com,41,Femenino,San Lorenzo,Showroom
+2025-06-24,Renault Oroch Pickup,Renault,Pickup,1,30959.09,andres31@hotmail.com,53,Masculino,Fernando de la Mora,Venta Directa
+2025-06-25,Renault Stepway,Renault,Hatchback,1,30478.58,fernando13@outlook.com,36,Femenino,Lambaré,Showroom
+2025-06-26,Soueast V Cross,Soueast,Hatchback,1,23427.8,laura87@outlook.com,37,Masculino,Lambaré,WhatsApp Business
+2025-06-27,JMEV EV2,JMEV,Eléctrico,1,25451.56,lucia87@hotmail.com,29,Femenino,Encarnación,Venta Directa
+2025-06-27,GWM Haval H6,GWM,SUV,1,39819.75,martin43@outlook.com,54,Femenino,Ciudad del Este,Instagram Shop
+2025-06-27,Jetour Travler,Jetour,SUV,1,35091.92,camila56@gmail.com,60,Masculino,Pedro Juan Caballero,Venta Directa
+2025-06-28,Santa Rosa_delivery Van,Santa Rosa,Furgoneta,1,24157.2,lucia65@hotmail.com,58,Masculino,Ciudad del Este,Marketplace
+2025-06-28,Soueast A5翼舞,Soueast,Hatchback,1,24766.51,ana25@hotmail.com,45,Masculino,Asunción,Showroom
+2025-06-28,Renault Kwid,Renault,Sedan,1,30224.82,maria84@gmail.com,26,Femenino,Pedro Juan Caballero,Marketplace
+2025-06-28,Zeekr 001,Zeekr,Eléctrico,1,45381.41,camila14@gmail.com,34,Masculino,Ciudad del Este,Venta Directa
+2025-06-28,Leapmotor C01,Leapmotor,Eléctrico,1,34341.06,paula85@gmail.com,46,Masculino,San Lorenzo,Venta Directa
+2025-06-28,Jetour X70 Plus,Jetour,SUV,1,22670.21,jose76@hotmail.com,42,Masculino,San Lorenzo,Venta Directa
+2025-06-29,Renault Duster,Renault,SUV,1,15019.57,andres16@hotmail.com,33,Masculino,Pedro Juan Caballero,Instagram Shop
+2025-06-29,JMEV EX5,JMEV,Eléctrico,1,16876.57,carlos81@outlook.com,35,Femenino,Luque,Instagram Shop
+2025-06-29,GWM Poer,GWM,Pickup,1,34806.5,diego61@hotmail.com,61,Masculino,Encarnación,Showroom
+2025-06-30,Zeekr X,Zeekr,Eléctrico,1,51580.85,andres17@hotmail.com,50,Femenino,Ciudad del Este,Marketplace
+2025-07-01,Soueast DX7,Soueast,SUV,1,19962.83,gabriel93@yahoo.com,42,Femenino,Pedro Juan Caballero,Showroom
+2025-07-01,Renault Oroch Pickup,Renault,Pickup,1,15095.97,lucia15@hotmail.com,44,Masculino,Coronel Oviedo,Instagram Shop
+2025-07-02,GWM Poer,GWM,Pickup,1,35361.59,martin14@hotmail.com,39,Masculino,Encarnación,Showroom
+2025-07-02,Mitsubishi Outlander,Mitsubishi,SUV,1,34457.55,sofia57@outlook.com,44,Masculino,Fernando de la Mora,Showroom
+2025-07-02,JAC JS4 Sedan,JAC,SUV,1,28908.1,martin78@gmail.com,48,Masculino,Asunción,Showroom
+2025-07-02,GWM Haval Jolion,GWM,SUV,1,41144.64,gabriel95@hotmail.com,34,Masculino,Coronel Oviedo,Marketplace
+2025-07-02,Renault Duster,Renault,SUV,1,31682.41,camila36@yahoo.com,41,Masculino,Fernando de la Mora,Showroom
+2025-07-03,Mitsubishi L200,Mitsubishi,Pickup,1,31572.42,diego70@outlook.com,60,Masculino,Fernando de la Mora,Showroom
+2025-07-03,Jetour X90,Jetour,SUV,1,33631.11,gabriel77@yahoo.com,37,Masculino,San Lorenzo,Showroom
+2025-07-03,Soueast V Cross,Soueast,Hatchback,1,23608.57,lucia56@outlook.com,32,Femenino,Asunción,Venta Directa
+2025-07-03,JMEV EX5,JMEV,Eléctrico,1,17815.71,ricardo31@hotmail.com,47,Femenino,Luque,WhatsApp Business
+2025-07-03,Mitsubishi ASX,Mitsubishi,SUV,1,34402.76,roberto53@yahoo.com,49,Masculino,Encarnación,Marketplace
+2025-07-04,Jetour X70 Plus,Jetour,SUV,1,26806.48,ricardo67@gmail.com,53,Masculino,Fernando de la Mora,Venta Directa
+2025-07-04,Santa Rosa Frontera Pickup,Santa Rosa,Pickup,1,30676.31,paula56@gmail.com,44,Masculino,Lambaré,Marketplace
+2025-07-04,Jetour X90,Jetour,SUV,1,25052.78,maria21@gmail.com,43,Masculino,Luque,Marketplace
+2025-07-04,Zeekr 009,Zeekr,Eléctrico,1,48041.83,valeria15@gmail.com,46,Femenino,Pedro Juan Caballero,Instagram Shop
+2025-07-05,Santa Rosa Urban Sedan,Santa Rosa,Sedan,1,29639.6,pedro27@gmail.com,42,Masculino,Encarnación,Instagram Shop
+2025-07-05,GWM Haval H6,GWM,SUV,1,33871.46,andres93@hotmail.com,42,Masculino,Fernando de la Mora,Showroom
+2025-07-06,Renault Kwid,Renault,Sedan,1,26151.52,sofia35@yahoo.com,34,Femenino,Capiatá,WhatsApp Business
+2025-07-06,Zeekr Mix,Zeekr,Eléctrico,1,64335.23,camila32@outlook.com,32,Masculino,Capiatá,Venta Directa
+2025-07-06,Zeekr X,Zeekr,Eléctrico,1,53137.16,micaela93@hotmail.com,41,Masculino,Lambaré,Marketplace
+2025-07-06,GWM Haval H6,GWM,SUV,1,43949.64,sofia22@gmail.com,41,Femenino,Lambaré,Showroom
+2025-07-07,JAC iEV 7S EV,JAC,Eléctrico,1,32001.59,ricardo12@gmail.com,42,Masculino,Asunción,Venta Directa
+2025-07-07,Jetour X70 Plus,Jetour,SUV,1,40224.54,micaela96@outlook.com,52,Femenino,Encarnación,Showroom
+2025-07-07,GWM Haval Jolion,GWM,SUV,1,27702.88,lucia87@gmail.com,58,Femenino,Pedro Juan Caballero,Marketplace
+2025-07-07,Zeekr Mix,Zeekr,Eléctrico,1,55013.47,julia54@gmail.com,41,Masculino,Asunción,Venta Directa
+2025-07-08,JMEV EV2,JMEV,Eléctrico,1,17627.03,sofia22@gmail.com,29,Femenino,Encarnación,Instagram Shop
+2025-07-10,Mitsubishi Montero Sport,Mitsubishi,SUV,1,50611.85,lucia67@outlook.com,38,Femenino,Luque,Venta Directa
+2025-07-11,Renault Sandero,Renault,Sedan,1,28138.42,paula82@outlook.com,30,Femenino,Ciudad del Este,Showroom
+2025-07-11,Santa Rosa Urban Sedan,Santa Rosa,Sedan,1,34814.69,lucia74@outlook.com,43,Femenino,Capiatá,Showroom
+2025-07-11,GWM Poer,GWM,Pickup,1,31259.09,sofia51@gmail.com,46,Masculino,Fernando de la Mora,Venta Directa
+2025-07-12,GWM Haval Jolion,GWM,SUV,1,34130.88,pedro47@gmail.com,58,Femenino,Asunción,WhatsApp Business
+2025-07-12,Renault Stepway,Renault,Hatchback,1,19192.03,roberto88@hotmail.com,45,Femenino,Capiatá,Showroom
+2025-07-13,JAC e-JS4 EV,JAC,Eléctrico,1,22159.72,andres32@hotmail.com,34,Femenino,Luque,Showroom
+2025-07-13,Jetour X70 Plus,Jetour,SUV,1,28231.53,fernando69@gmail.com,30,Masculino,San Lorenzo,Showroom
+2025-07-14,Renault Sandero,Renault,Sedan,1,25685.7,andres64@outlook.com,26,Femenino,Lambaré,Marketplace

@@ -1,0 +1,41 @@
+# No copiar estos archivos al construir la imagen Docker
+# (reducción de tamaño de imagen + seguridad)
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Credenciales (se montan como volumen o vía .env)
+.env
+.env.save
+env.plantilla
+google-ads.yaml
+*.json.credentials
+
+# Datos sensibles (se montan como volumen)
+data/*.xlsx
+data/*.xls
+data/*.csv
+
+# Logs y outputs (se generan al correr)
+logs/
+output/raw/
+
+# Git y editor
+.git/
+.gitignore
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# No necesitamos los .md dentro del build (se montan como volumen)
+# Buyer Persona/

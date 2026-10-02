@@ -1,0 +1,65 @@
+---
+type: google-ads
+persona: JAC LE420
+campaign: Search - JAC LE420
+tags: [marketing, google-ads]
+---
+# 🔵 Google Ads - JAC LE420
+**Persona:** [[JAC LE420]] · **Campaña sugerida:** `Search - JAC LE420` · búsqueda, anuncio responsivo
+**Test drive:** no hay unidad de prueba en el stock de hoy (ERP): los textos invitan a verlo en el salón.
+
+> [!info] Borrador listo para cargar
+> Cada texto respeta los límites de Google (títulos de 30 caracteres, descripciones de 90) y no promete tasas, plazos ni garantías. Sale del modelo y de los temas que más se repiten en sus anuncios, no del análisis interno de la ficha. La oferta del mes va aparte, al final, y se confirma con la marca antes de publicar. Cómo arrancar y cuándo juzgar la campaña: [[📘 Manual Buyer Persona#4.5 Google Ads — qué falta y cómo vamos a arrancar|Manual, 4.5]].
+
+## Títulos (hasta 15 · máx. 30 caracteres)
+| # | Título | Caract. |
+|---|---|---|
+| 1 | JAC LE420 | 9 |
+| 2 | JAC LE420 en Paraguay | 21 |
+| 3 | Cotizá tu LE420 | 15 |
+| 4 | Concesionario Oficial JAC | 25 |
+| 5 | Conocelo en el Salón | 20 |
+| 6 | Financiación a tu Medida | 24 |
+| 7 | Respaldo de Posventa Oficial | 28 |
+| 8 | Lista para Trabajar | 19 |
+| 9 | LE420 0km | 9 |
+| 10 | Versiones y Equipamiento | 24 |
+| 11 | Hablá con un Asesor | 19 |
+| 12 | Pedí tu Cotización Hoy | 22 |
+
+## Descripciones (hasta 4 · máx. 90 caracteres)
+| # | Descripción | Caract. |
+|---|---|---|
+| 1 | JAC LE420: cotizá y conocelo en el concesionario oficial. | 57 |
+| 2 | Consultá planes de financiación y formas de pago con un asesor. | 63 |
+| 3 | Service oficial y repuestos originales, con el respaldo de la marca. | 68 |
+| 4 | Capacidad y respaldo para tu trabajo y tu negocio, todos los días. | 66 |
+
+**URL visible:** `…/LE420/Cotizar` (cada tramo, máx. 15 caracteres)
+
+## Palabras clave
+_`"entre comillas"` = concordancia de frase · `[entre corchetes]` = concordancia exacta._
+
+- **Modelo:** `"le420"` · `"jac le420"` · `"le420 paraguay"`
+- **Precio y cuotas:** `"le420 precio"` · `"precio le420"` · `"le420 cuotas"` · `"le420 financiacion"`
+- **Versiones:** `"le420 versiones"` · `"le420 ficha tecnica"`
+- **Marca:** `[jac paraguay]` · `[concesionaria jac]` · `[jac 0km]`
+- **Negativas** (búsquedas que no son de compra): `-repuestos` · `-repuesto` · `-taller` · `-pdf` · `-alquiler` · `-empleo` · `-juguete` · `-escala` · `-usado` · `-usados`
+
+## Extensiones
+**Sitelinks** (texto máx. 25 · cada línea máx. 35)
+- **Coordiná tu Visita** — Elegí el día y el horario / Te esperamos en el salón
+- **Financiación** — Planes a tu medida / Consultá con un asesor
+- **Versiones** — Compará las versiones / Equipamiento de cada una
+- **Sucursales** — Encontrá la más cercana / Horarios y ubicación
+
+**Textos destacados** (máx. 25): Concesionario Oficial · Financiación Disponible · Atención Personalizada
+
+## 💲 Oferta del mes (2026-09): confirmar antes de publicar
+> [!warning] Sale de la planilla de acciones comerciales
+> Vence con el mes y puede tener condiciones. No se sube sin confirmarla con la marca.
+
+- Título: `Desde USD 26.990` (16)
+- Título: `Hasta USD 3.374 de Descuento` (28)
+- Descripción: `Desde USD 26.990 y hasta USD 3.374 de descuento en septiembre. Consultá condiciones.` (84)
+- Condición en la planilla: DESCUENTO MAXIMO SOLO VALIDO PARA VTA CARTERA SUDAMERIS

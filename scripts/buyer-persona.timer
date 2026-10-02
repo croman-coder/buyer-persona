@@ -1,0 +1,32 @@
+# =============================================================================
+# systemd timer para Buyer Persona
+# Copiar a: /etc/systemd/system/buyer-persona.timer
+#
+# Ventajas sobre cron:
+#   - Persistent=true: si la PC estaba apagada, corre al prender
+#   - RandomizedDelaySec: jitter para no pegar de golpe a las APIs
+#   - journalctl: logs centralizados
+#
+# Instalación:
+#   sudo cp scripts/buyer-persona.timer /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now buyer-persona.timer
+#
+# Ver próxima corrida:
+#   systemctl list-timers buyer-persona.timer
+# =============================================================================
+[Unit]
+Description=Ejecutar Buyer Persona diariamente
+
+[Timer]
+# Todos los días a las 06:00 (hora del sistema)
+OnCalendar=*-*-* 06:00:00
+
+# Si la máquina estaba apagada a esa hora, correr al iniciar
+Persistent=true
+
+# Jitter de hasta 5 minutos para no saturar las APIs
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,42 @@
+# =============================================================================
+# systemd service para Buyer Persona
+# Copiar a: /etc/systemd/system/buyer-persona.service
+#
+# ⚠️ Este archivo requiere que exista el wrapper /usr/local/bin/buyer-persona-run
+# Generarlo con: sudo bash scripts/install_systemd.sh
+#
+# (No editar las rutas a mano — systemd no soporta espacios en ExecStart.
+#  El wrapper en /usr/local/bin resuelve ese problema.)
+#
+# Instalación:
+#   sudo bash scripts/install_systemd.sh
+#
+# Ver estado / logs:
+#   systemctl status buyer-persona.service
+#   journalctl -u buyer-persona.service -n 50
+#
+# Correr a mano:
+#   sudo systemctl start buyer-persona.service
+# =============================================================================
+[Unit]
+Description=Generador de Buyer Persona (Google Ads + Meta Ads)
+Documentation=file:///opt/buyer-persona/docs/DEPLOYMENT.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+
+# Wrapper generado por scripts/install_systemd.sh
+# (reside en /usr/local/bin/buyer-persona-run, sin espacios)
+ExecStart=/usr/local/bin/buyer-persona-run
+
+# Si falla, no reiniciar (lo reintenta el timer en la próxima ejecución)
+Restart=no
+
+# Timeout: 30 minutos (las APIs pueden tardar con portfolios grandes)
+TimeoutStartSec=1800
+
+# Seguridad: minimizar privilegios del proceso
+NoNewPrivileges=true
+PrivateTmp=true

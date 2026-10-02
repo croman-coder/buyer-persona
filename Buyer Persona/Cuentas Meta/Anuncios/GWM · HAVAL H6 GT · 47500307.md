@@ -1,0 +1,50 @@
+---
+type: anuncio-meta
+cuenta: "GWM"
+estado: "Activo"
+revisar: "—"
+riesgo_comparativa: 0.03
+oferta: "Descuento o bono"
+argumento: "Precio y ahorro"
+tipo_de_vehiculo: "SUV"
+muestra_precio: true
+menciona_cuotas: false
+invita_a_actuar: false
+urgencia: "Urgencia genérica"
+boton: "Obtener oferta"
+anuncio: "HAVAL H6 GT"
+titulo: ""
+ad_id: "120240600947500307"
+tags:
+- anuncio-meta
+---
+
+# HAVAL H6 GT
+
+**Cuenta:** GWM · **Estado:** Activo · **Botón:** Obtener oferta
+
+| Qué miró la IA | Resultado |
+|---|---|
+| Oferta principal | Descuento o bono |
+| Argumento de venta | Precio y ahorro |
+| Tipo de vehículo | SUV |
+| Muestra precio | Sí |
+| Menciona cuotas | No |
+| El texto le dice al cliente qué hacer | No (el botón está igual) |
+| Urgencia | Urgencia genérica |
+| Riesgo de publicidad comparativa | 3 % |
+
+## Texto del aviso
+
+⚡ HAVAL H6 GT PHEV 2026 — potencia que se siente, diseño que enamora.
+🔥 430 HP híbrido enchufable
+✨ Interior premium + techo panorámico
+📱 Android Auto y Apple CarPlay
+🔥❄️ Asientos calefaccionados y ventilados
+🅿️ Estacionamiento automático
+💰 Antes $42.990 — AHORA $39.990
+🚀 Tecnología, ahorro y estilo en un solo SUV de GWM (Great Wall Motors).
+📩 Consultá hoy.
+
+---
+*Ficha generada sola todos los días a partir de Meta. Qué significa cada cosa: [[🏷️ Clasificación de Anuncios]], sección «Cómo leer esta nota».*

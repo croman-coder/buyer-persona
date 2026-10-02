@@ -1,0 +1,180 @@
+# ===========================================================================
+# Configuración del Generador de Buyer Persona
+# Conectores: Google Ads, Meta Ads y Histórico de Ventas
+# Exporta a: Obsidian (Markdown con frontmatter, tags y links)
+# ===========================================================================
+
+# --- Rutas principales ---
+paths:
+  # Reporte de facturación real del ERP (hoja Datos). Se normaliza en memoria y
+  # nunca se copian nombres/emails/teléfonos al vault. Para volver al demo:
+  #   sales_history: "data/sample_sales/ventas.csv"  y  sales.format: ""
+  sales_history: "data/fuentes/ventas_unificadas.xlsx"   # BI 2018→hoy + FacturacionUnidades (scripts/unificar_ventas.py)
+  output_dir: "output/personas"                   # Carpeta donde se generarán las notas
+  obsidian_vault: "Buyer Persona"                 # Vault de Obsidian ya inicializado en este proyecto
+
+# --- Google Ads ---
+# Documentación de credenciales:
+#   https://developers.google.com/google-ads/api/docs/oauth/overview
+# Necesitas crear credenciales OAuth en Google Cloud Console y un Developer Token.
+google_ads:
+  enabled: false
+  developer_token: "${GOOGLE_ADS_DEVELOPER_TOKEN}"
+  client_id: "${GOOGLE_ADS_CLIENT_ID}"
+  client_secret: "${GOOGLE_ADS_CLIENT_SECRET}"
+  refresh_token: "${GOOGLE_ADS_REFRESH_TOKEN}"
+  login_customer_id: "${GOOGLE_ADS_LOGIN_CUSTOMER_ID}"  # ID del manager account (MCID) sin guiones
+  customer_id: "${GOOGLE_ADS_CUSTOMER_ID}"              # ID de la cuenta de anuncios sin guiones
+  # Número de días hacia atrás para analizar (desde hoy)
+  days_back: 90
+
+# --- Meta Ads (Facebook / Instagram) ---
+# Necesitas una app en https://developers.facebook.com/ con permiso ads_read
+meta_ads:
+  enabled: true
+  access_token: "${META_ADS_ACCESS_TOKEN}"
+  ad_account_id: "${META_ADS_AD_ACCOUNT_ID}"   # Formato: act_XXXXXXXXXXX (una sola cuenta)
+  # Portfolio multi-cuenta: "act_111:Marca1,act_222:Marca2" — tiene prioridad sobre ad_account_id
+  ad_account_ids: "${META_ADS_AD_ACCOUNT_IDS}"
+  app_id: "${META_ADS_APP_ID}"
+  app_secret: "${META_ADS_APP_SECRET}"
+  api_version: "v21.0"
+  days_back: 90
+  # Etiquetas de cuenta que NO son una marca del portfolio: se saltan.
+  # (Renew y XPeng sí son marcas propias y se mantienen.)
+  exclude_labels:
+    - "Karry"
+    - "Multimarcas"
+    - "JAC/Renault"
+
+# --- Embudo Completo (Full Funnel) ---
+# Datos de cada etapa del viaje del cliente
+funnel:
+  enabled: false
+  days_back: 90
+
+  # TOFU - Descubrimiento / Conciencia
+  google_analytics:
+    enabled: false
+    property_id: "${GA4_PROPERTY_ID}"
+    # service_account_json: "config/ga4-service-account.json"
+
+  meta_social:
+    enabled: false
+    page_id: "${META_PAGE_ID}"
+    access_token: "${META_PAGE_ACCESS_TOKEN}"
+    api_version: "v21.0"
+
+  youtube:
+    enabled: false
+    channel_id: "${YOUTUBE_CHANNEL_ID}"
+    api_key: "${YOUTUBE_API_KEY}"
+
+  # MOFU - Consideración / Interés
+  web_forms:
+    enabled: false
+    csv_path: "data/embudo/formularios_web.csv"
+
+  meta_leads:
+    enabled: false
+    page_id: "${META_PAGE_ID}"
+    access_token: "${META_PAGE_ACCESS_TOKEN}"
+    api_version: "v21.0"
+
+  test_drives:
+    enabled: false
+    csv_path: "data/embudo/test_drives.csv"
+
+  whatsapp:
+    enabled: false
+    csv_path: "data/embudo/whatsapp_conversaciones.csv"
+    # api_token: "${WHATSAPP_API_TOKEN}"
+    # phone_number_id: "${WHATSAPP_PHONE_ID}"
+
+  # BOFU - Decisión / Acción
+  quotes:
+    enabled: false
+    csv_path: "data/embudo/cotizaciones.csv"
+
+  showroom:
+    enabled: false
+    csv_path: "data/embudo/visitas_showroom.csv"
+
+  # Post-Venta
+  surveys:
+    enabled: false
+    csv_path: "data/embudo/encuestas_satisfaccion.csv"
+
+# --- Datacar: precios de lista de todo el mercado 0km PY (uso interno) ---
+competitors:
+  datacar:
+    enabled: true
+    api_key: "${DATACAR_API_KEY}"
+    price_band: 0.25   # ±25% de precio para considerar "competencia directa"
+
+# --- CRM Bitrix24 (solo agregados: leads/deals por marca, sin PII) ---
+crm:
+  bitrix:
+    enabled: true
+    webhook_url: "${BITRIX_WEBHOOK_URL}"
+    days_back: 90
+
+# --- Histórico de Ventas ---
+sales:
+  enabled: true
+  format: "erp"   # "erp" = FacturacionUnidades del ERP; vacío = CSV/Excel genérico
+  # Columnas esperadas (mapea los nombres reales de tu archivo a estos campos)
+  column_mapping:
+    date: "fecha"
+    product: "producto"
+    brand: "marca"
+    category: "categoria"
+    quantity: "cantidad"
+    revenue: "ingresos"
+    customer_email: "email_cliente"
+    customer_age: "edad_cliente"
+    customer_gender: "genero_cliente"
+    customer_city: "ciudad_cliente"
+    channel: "canal"
+    version: "version"
+    branch: "sucursal"
+    seller: "vendedor"
+    tradein_brand: "retoma_marca"
+
+# --- Generación de Buyer Persona ---
+persona:
+  # Número de segmentos/personas a generar (clustering)
+  num_personas: 15  # 9 marcas con ventas en el ERP + 6 tipos de vehículo
+  # Nombre base para las personas generadas
+  name_prefix: "Persona"
+
+  # Desglose por modelo (se suma a las 16 de arriba, no compite por cupo).
+  # Los modelos salen del catálogo real de Paraguay (src/catalog/models_py.py),
+  # validado contra los anuncios que efectivamente se pautan en Meta.
+  models:
+    enabled: true
+    min_ads: 5        # mínimo de anuncios reales para que un modelo tenga persona
+    min_orders: 10    # ...o mínimo de unidades vendidas en el ERP (entra por cualquiera de los dos)
+    max_personas: 0   # 0 = sin tope. Con 60, qué modelos entraban dependía del orden de los anuncios (2026-09-22)
+
+# --- Obsidian ---
+obsidian:
+  # Usar frontmatter YAML en las notas
+  use_frontmatter: true
+  # Tags que se aplicarán a todas las notas
+  default_tags:
+    - buyer-persona
+    - marketing
+  # Crear un archivo de índice (Mapa de Contenidos / MOC)
+  create_index: true
+  index_filename: " Buyer Personas MOC.md"
+# --- Fuentes complementarias del negocio (Excel en data/fuentes/, fuera de git) ---
+# stock real, acciones comerciales (PVP/descuento), objetivos de venta (budget)
+# y resumen semanal de negociación. Se leen siempre (son archivos locales).
+extras:
+  enabled: true
+  dir: "data/fuentes"
+  stock: "stock_unidades_nuevas.xlsx"
+  acciones: "acciones_comerciales_*.xlsx"
+  objetivos: "objetivos_ventas.xlsx"
+  negociacion: "negociacion_semanal_*.xlsx"

@@ -1,0 +1,326 @@
+# 🎯 Cómo integrar tus Buyer Personas en Meta Ads y Google Ads
+
+Esta guía te muestra, paso a paso, cómo usar los perfiles generados para configurar
+campañas segmentadas en ambas plataformas.
+
+---
+
+## 📋 Tabla de conversión: Buyer Persona → Plataforma de Ads
+
+| Campo del Buyer Persona | Google Ads | Meta Ads |
+|------------------------|------------|----------|
+| Edad media/rango | Segmentación demográfica por edad | Segmentación por edad |
+| Género | Segmentación por género | Segmentación por género |
+| Ubicaciones (ciudades) | Segmentación geográfica | Ubicaciones / Regiones |
+| Intereses | Audiencias con afinidad / En mercado | Intereses detallados |
+| Productos comprados | Palabras clave / Remarketing | Audiencia personalizada |
+| Categoría (SUV, Pickup, etc.) | Palabras clave temáticas | Intereses detallados |
+| Canales preferidos | Ubicaciones de anuncios | Placements (Instagram, Messenger, etc.) |
+| Ticket promedio | Estrategia de pujas (ROAS) | Presupuesto por resultado |
+| Dolores y Frustraciones | Texto de anuncios (copy) | Texto del anuncio (copy) |
+| Motivaciones | Extensiones de anuncio | Mensaje principal / Value proposition |
+
+---
+
+## 🔵 GOOGLE ADS
+
+### 1. Segmentación Demográfica
+
+En tu cuenta de Google Ads → **Herramientas y configuración** → **Audiencias**:
+
+```
+Ejemplo con Persona 01 (SUV - Hombre 25-34):
+
+1. Ve a Campañas → tu campaña → Segmentación
+2. Configura:
+   - Edad: 25-34 (o el rango del buyer persona)
+   - Género: Masculino
+   - Ingreso familiar: Según el ticket promedio
+     (si el ticket es $32K+ → ingreso "Top 10-20%")
+   - Ubicación: Asunción, Ciudad del Este, Encarnación, etc.
+```
+
+### 2. Audiencias por Interés (Affinity / In-Market)
+
+```
+Personas con afinidad (Affinity audiences):
+  - "Vehículos y automóviles"
+  - "Vehículos todoterreno y SUV"
+  - "Estilo de vida de lujo" (para Zeekr, Mitsubishi)
+
+Personas en mercado (In-Market):
+  - "Vehículos / Vehículos nuevos"
+  - "Vehículos / SUVs"
+  - "Vehículos / Camionetas pickup"
+  - "Vehículos / Vehículos eléctricos"
+```
+
+### 3. Palabras Clave por Categoría de Vehículo
+
+```
+SUV:
+  + "mejor suv 2025 paraguay"
+  + "comprar suv toyota precio"
+  + "[marca] suv disponible"
+  + "suv familiar economico"
+
+Eléctrico (Zeekr, Leapmotor, JMEV):
+  + "auto electrico paraguay precio"
+  + "vehiculo electrico carga"
+  + "mejor auto electrico 2025"
+  + "zeekr [modelo] precio"
+
+Pickup (Mitsubishi L200, GWM Poer):
+  + "comprar pickup paraguay"
+  + "pickup diesel 4x4"
+  + "mejor pickup de trabajo"
+```
+
+### 4. Remarketing con Clientes Existentes
+
+```
+1. Sube tu lista de emails de clientes a:
+   Herramientas → Administrador de audiencias → Datos del cliente
+
+2. Crea audiencias similares (Similar Audiences):
+   Google genera automáticamente audiencias similares a tus clientes
+
+3. Crea listas de remarketing por categoría:
+   - Visitantes de /zeekr
+   - Visitantes de /pickup
+   - Visitantes de /jetour
+```
+
+### 5. Copy de Anuncios basado en el Buyer Persona
+
+```
+Persona que busca SUV (dolor: "requiere justificación de valor"):
+
+Título 1: SUV Premium con Garantía de 5 Años
+Título 2: Financiación Sin Intereses | [Marca]
+Título 3: Test Drive Grat Hoy
+Descripción: Descubrí por qué miles eligieron [Marca].
+             Reservá tu prueba de manejo ahora.
+```
+
+---
+
+## 🟣 META ADS (Facebook / Instagram)
+
+### 1. Crear Audiencias Personalizadas
+
+Ve a **Meta Business Suite** → **Audiences** → **Create Audience**:
+
+#### A. Audiencia personalizada (Custom Audience)
+
+```
+Fuente: Lista de clientes (subir CSV con emails)
+  - Nombre: "Clientes SUV - [Marca]"
+  - Retención: 180 días
+
+Fuente: Visitantes del sitio web
+  - Visitaron páginas de: /suv, /zeekr, /[marca]
+  - Tiempo: Últimos 90 días
+```
+
+#### B. Audiencia similar (Lookalike Audience)
+
+```
+Basada en: "Clientes SUV - [Marca]"
+País: Paraguay
+Tamaño: 1%-3% (más preciso) o 3%-5% (más alcance)
+```
+
+### 2. Segmentación Detallada (Detailed Targeting)
+
+```
+Persona 01 - SUV (Hombre, 25-34):
+
+Demographics:
+  - Age: 25-34
+  - Gender: Men
+  - Location: Paraguay (ciudades específicas)
+
+Detailed Targeting → Interests:
+  Vehículos:
+    - "SUV"
+    - "Vehículos todoterreno"
+    - "Automóvil"
+
+  Marcas específicas:
+    - "Mitsubishi"
+    - "Zeekr"
+    - "Great Wall Motors" (GWM)
+
+  Estilo de vida:
+    - "Aire libre"
+    - "Aventura"
+    - "Familia"
+
+Behaviors:
+  - "Engaged Shoppers"
+  - "Vehicle buyers"
+  - "Auto intenders"
+```
+
+```
+Persona de Vehículos Eléctricos (Zeekr, Leapmotor):
+
+Interests:
+  - "Electric vehicle"
+  - "Tesla" (audiencia que ya conoce EVs)
+  - "Charging station"
+  - "Sustainable transport"
+  - "Zeekr"
+  - "Leapmotor"
+
+Behaviors:
+  - "Early adopters of technology"
+  - "Engaged with green content"
+```
+
+```
+Persona de Pickups (Mitsubishi L200, GWM):
+
+Interests:
+  - "Pickup truck"
+  - "Off-roading"
+  - "Mitsubishi Motors"
+  - "Construction"
+  - "Agriculture"
+  - "4x4"
+
+Behaviors:
+  - "Vehicle purchase intent"
+  - "Business Page admins"
+```
+
+### 3. Configuración de Campaña por Buyer Persona
+
+```
+Campaña: "Concesionaria - SUV - Hombres 25-34"
+  Conjunto de anuncios 1: Intereses amplios (SUV + aventura)
+    - Presupuesto: $50/día
+    - Optimización: Conversiones (formularios)
+
+  Conjunto de anuncios 2: Lookalike 1%
+    - Presupuesto: $30/día
+    - Optimización: Conversiones
+
+  Conjunto de anuncios 3: Remarketing 90 días
+    - Presupuesto: $20/día
+    - Optimización: Conversiones
+```
+
+### 4. Copy de Anuncios para Meta
+
+```
+Persona SUV - Dolor: "requiere justificación de valor":
+
+Texto del anuncio:
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚙 ¿Buscás una SUV que realmente valga la pena?
+
+La [Modelo] viene con:
+✅ Motor turbo de 150 HP
+✅ Garantía de 5 años
+✅ Financiación a 60 meses sin interés
+✅ Test drive GRATIS en tu ciudad
+
+👉 Reservá tu prueba de manejo hoy
+Link: [tu-sitio.com/test-drive]
+
+O escribinos por WhatsApp: [número]
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### 5. Placements por Canal Preferido
+
+Si tu Buyer Persona prefiere "Instagram Shop":
+
+```
+Posiciones (Placements):
+  ✅ Instagram Feed
+  ✅ Instagram Stories
+  ✅ Instagram Shop
+  ✅ Reels
+
+  ❌ Facebook Feed (si tu persona NO usa Facebook)
+  ❌ Audience Network
+```
+
+Si tu Buyer Persona prefiere "WhatsApp Business":
+
+```
+Objetivo de campaña: Mensajes (WhatsApp)
+CTA: "Enviar mensaje de WhatsApp"
+Plantilla de mensaje automática:
+  "¡Hola! Vi tu anuncio de [Marca Modelo].
+   ¿Me podés dar más info?"
+```
+
+---
+
+## 📊 Estrategia por Marca
+
+### Marcas Premium (Zeekr, Mitsubishi)
+```
+Público: 30-55 años, ingreso alto
+Intereses: Lujo, tecnología, status
+Mensaje: "Experiencia premium", exclusividad
+Formato: Videos cinemáticos, carrusel
+Pujas: Maximizar conversión / ROAS target alto
+```
+
+### Marcas Económicas (JMEV, Soueast, Renault)
+```
+Público: 20-40 años, ingreso medio
+Intereses: Ahorro, ofertas, financiamiento
+Mensaje: "Mejor relación precio-calidad"
+Formato: Imágenes con precio destacado
+Pujas: Maximizar clics / Costo por resultado bajo
+```
+
+### Marcas de Trabajo (JAC Pickup, GWM Poer)
+```
+Público: 28-55 años, hombres, empresarios
+Intereses: Construcción, agricultura, negocios
+Mensaje: "Durabilidad y rentabilidad"
+Formato: Video de capacidad/carga, testimonios
+Pujas: Maximizar leads (formularios)
+```
+
+---
+
+## 🔄 Flujo Recomendado (Mensual)
+
+```
+Semana 1: Ejecutar python main.py (actualizar Buyer Personas)
+          ↓
+Semana 2: Actualizar audiencias en Google/Meta con nuevos datos
+          ↓
+Semana 3: Lanzar campañas con copys basados en dolores/motivaciones
+          ↓
+Semana 4: Medicionar resultados y ajustar segmentación
+          ↓
+          (repetir)
+```
+
+---
+
+## 💡 Tips Adicionales
+
+1. **A/B Testing por Persona**: Crea 2 variantes de anuncio con diferentes dolores
+   de la misma persona y compara cuál convierte más.
+
+2. **Conversión de Ventas**: Sube tus datos de conversión de vuelta al sistema
+   para que el algoritmo mejore la segmentación automáticamente.
+
+3. **Lead Ads de Meta**: Usa formularios de Meta con preguntas personalizadas
+   según el Buyer Persona (edad, tipo de vehículo de interés, presupuesto).
+
+4. **Google Performance Max**: Usa las audiencias del Buyer Persona como
+   "Audience Signals" en campañas PMax.
+
+5. **Timing**: Analiza qué días/horas compran más tus personas y programa
+   los anuncios en esos horarios.

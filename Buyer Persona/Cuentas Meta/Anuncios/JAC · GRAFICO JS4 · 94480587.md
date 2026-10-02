@@ -1,0 +1,50 @@
+---
+type: anuncio-meta
+cuenta: "JAC"
+estado: "Activo"
+revisar: "—"
+riesgo_comparativa: 0.2
+oferta: "Financiación o cuotas"
+argumento: "Seguridad"
+tipo_de_vehiculo: "SUV"
+muestra_precio: true
+menciona_cuotas: true
+invita_a_actuar: true
+urgencia: "Urgencia genérica"
+boton: "Obtener oferta"
+anuncio: "GRAFICO JS4"
+titulo: "LA SUV QUE PROTEGE A TU FAMILIA Y TE HACE DISFRUTAR EL CAMINO"
+ad_id: "120215898194480587"
+tags:
+- anuncio-meta
+---
+
+# GRAFICO JS4
+
+**Cuenta:** JAC · **Estado:** Activo · **Botón:** Obtener oferta
+
+| Qué miró la IA | Resultado |
+|---|---|
+| Oferta principal | Financiación o cuotas |
+| Argumento de venta | Seguridad |
+| Tipo de vehículo | SUV |
+| Muestra precio | Sí |
+| Menciona cuotas | Sí |
+| El texto le dice al cliente qué hacer | Sí |
+| Urgencia | Urgencia genérica |
+| Riesgo de publicidad comparativa | 20 % |
+
+## Texto del aviso
+
+**Título:** LA SUV QUE PROTEGE A TU FAMILIA Y TE HACE DISFRUTAR EL CAMINO
+
+🔥 ¡LA SUV MÁS COMPLETA Y SEGURA DEL MERCADO, A UN PRECIO QUE NO CREES! 🔥
+
+La JAC JS4 tiene TODO lo que buscás: diseño imponente, tecnología de punta y máxima seguridad. Y lo mejor… ¡con cuotas desde solo Gs. 1.633.000! 😱
+
+🚀 No pierdas tiempo, esta promo es por tiempo LIMITADO.
+📲 Escribime ya y asegurá la tuya 👉 0972 489 549
+👤 Andrés Arce, tu asesor de confianza
+
+---
+*Ficha generada sola todos los días a partir de Meta. Qué significa cada cosa: [[🏷️ Clasificación de Anuncios]], sección «Cómo leer esta nota».*

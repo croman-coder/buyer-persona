@@ -1,0 +1,149 @@
+# Generado por scripts/clasificar_anuncios.py: los cambios a mano se pisan en la próxima corrida.
+filters:
+  and:
+    - file.inFolder("Cuentas Meta/Anuncios")
+    - 'type == "anuncio-meta"'
+properties:
+  file.name:
+    displayName: "Anuncio"
+  revisar:
+    displayName: "Revisar"
+  cuenta:
+    displayName: "Cuenta"
+  estado:
+    displayName: "Estado"
+  oferta:
+    displayName: "Oferta principal"
+  argumento:
+    displayName: "Argumento"
+  tipo_de_vehiculo:
+    displayName: "Tipo de vehículo"
+  muestra_precio:
+    displayName: "Muestra precio"
+  menciona_cuotas:
+    displayName: "Menciona cuotas"
+  invita_a_actuar:
+    displayName: "Invita a actuar"
+  urgencia:
+    displayName: "Urgencia"
+  riesgo_comparativa:
+    displayName: "Riesgo de comparativa (0 a 1)"
+  boton:
+    displayName: "Botón"
+  titulo:
+    displayName: "Título"
+views:
+  - type: table
+    name: "Por cuenta"
+    groupBy:
+      property: note.cuenta
+      direction: ASC
+    order:
+      - file.name
+      - revisar
+      - cuenta
+      - estado
+      - oferta
+      - argumento
+      - tipo_de_vehiculo
+      - muestra_precio
+      - menciona_cuotas
+      - invita_a_actuar
+      - urgencia
+      - riesgo_comparativa
+    sort:
+      - property: riesgo_comparativa
+        direction: DESC
+  - type: table
+    name: "⚠️ Para revisar"
+    filters:
+      and:
+        - "riesgo_comparativa >= 0.35"
+    order:
+      - file.name
+      - revisar
+      - cuenta
+      - estado
+      - oferta
+      - argumento
+      - tipo_de_vehiculo
+      - muestra_precio
+      - menciona_cuotas
+      - invita_a_actuar
+      - urgencia
+      - riesgo_comparativa
+    sort:
+      - property: riesgo_comparativa
+        direction: DESC
+  - type: table
+    name: "🚫 Frenados por Meta"
+    filters:
+      or:
+        - "estado == \"Rechazado por Meta\""
+        - "estado == \"Con problemas en Meta\""
+    order:
+      - file.name
+      - revisar
+      - cuenta
+      - estado
+      - oferta
+      - argumento
+      - tipo_de_vehiculo
+      - muestra_precio
+      - menciona_cuotas
+      - invita_a_actuar
+      - urgencia
+      - riesgo_comparativa
+    sort:
+      - property: riesgo_comparativa
+        direction: DESC
+  - type: table
+    name: "El texto no invita a actuar"
+    groupBy:
+      property: note.cuenta
+      direction: ASC
+    filters:
+      and:
+        - "estado == \"Activo\""
+        - "invita_a_actuar == false"
+    order:
+      - file.name
+      - revisar
+      - cuenta
+      - estado
+      - oferta
+      - argumento
+      - tipo_de_vehiculo
+      - muestra_precio
+      - menciona_cuotas
+      - invita_a_actuar
+      - urgencia
+      - riesgo_comparativa
+    sort:
+      - property: riesgo_comparativa
+        direction: DESC
+  - type: table
+    name: "Sin oferta concreta"
+    groupBy:
+      property: note.cuenta
+      direction: ASC
+    filters:
+      and:
+        - "estado == \"Activo\""
+        - "oferta == \"Sin oferta concreta\""
+    order:
+      - file.name
+      - revisar
+      - cuenta
+      - estado
+      - oferta
+      - argumento
+      - tipo_de_vehiculo
+      - muestra_precio
+      - menciona_cuotas
+      - invita_a_actuar
+      - urgencia
+      - riesgo_comparativa
+    sort:
+      - property: riesgo_comparativa
+        direction: DESC

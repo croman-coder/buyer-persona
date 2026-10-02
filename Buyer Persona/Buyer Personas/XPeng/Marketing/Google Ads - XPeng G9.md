@@ -1,0 +1,65 @@
+---
+type: google-ads
+persona: XPeng G9
+campaign: Search - XPeng G9
+tags: [marketing, google-ads]
+---
+# 🔵 Google Ads - XPeng G9
+**Persona:** [[XPeng G9]] · **Campaña sugerida:** `Search - XPeng G9` · búsqueda, anuncio responsivo
+**Test drive:** hay 1 unidad de prueba en el stock de hoy (ERP).
+
+> [!info] Borrador listo para cargar
+> Cada texto respeta los límites de Google (títulos de 30 caracteres, descripciones de 90) y no promete tasas, plazos ni garantías. Sale del modelo y de los temas que más se repiten en sus anuncios, no del análisis interno de la ficha. La oferta del mes va aparte, al final, y se confirma con la marca antes de publicar. Cómo arrancar y cuándo juzgar la campaña: [[📘 Manual Buyer Persona#4.5 Google Ads — qué falta y cómo vamos a arrancar|Manual, 4.5]].
+
+## Títulos (hasta 15 · máx. 30 caracteres)
+| # | Título | Caract. |
+|---|---|---|
+| 1 | XPeng G9 | 8 |
+| 2 | XPeng G9 en Paraguay | 20 |
+| 3 | Cotizá tu G9 | 12 |
+| 4 | Concesionario Oficial XPeng | 27 |
+| 5 | Agendá tu Test Drive | 20 |
+| 6 | Eficiencia en Cada Kilómetro | 28 |
+| 7 | Diseño que se Nota | 18 |
+| 8 | Tecnología y Conectividad | 25 |
+| 9 | Espacio para Toda la Familia | 28 |
+| 10 | G9 0km | 6 |
+| 11 | Versiones y Equipamiento | 24 |
+| 12 | Hablá con un Asesor | 19 |
+| 13 | Pedí tu Cotización Hoy | 22 |
+
+## Descripciones (hasta 4 · máx. 90 caracteres)
+| # | Descripción | Caract. |
+|---|---|---|
+| 1 | XPeng G9: cotizá y agendá tu test drive en el concesionario oficial. | 68 |
+| 2 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
+| 3 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
+| 4 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
+
+**URL visible:** `…/G9/Cotizar` (cada tramo, máx. 15 caracteres)
+
+## Palabras clave
+_`"entre comillas"` = concordancia de frase · `[entre corchetes]` = concordancia exacta._
+
+- **Modelo:** `"xpeng g9"` · `"xpeng g9 paraguay"`
+- **Precio y cuotas:** `"xpeng g9 precio"` · `"precio xpeng g9"` · `"xpeng g9 cuotas"` · `"xpeng g9 financiacion"`
+- **Prueba y versiones:** `"xpeng g9 test drive"` · `"xpeng g9 versiones"` · `"xpeng g9 ficha tecnica"`
+- **Marca:** `[xpeng paraguay]` · `[concesionaria xpeng]` · `[xpeng 0km]`
+- **Negativas** (búsquedas que no son de compra): `-repuestos` · `-repuesto` · `-taller` · `-pdf` · `-alquiler` · `-empleo` · `-juguete` · `-escala` · `-usado` · `-usados`
+
+## Extensiones
+**Sitelinks** (texto máx. 25 · cada línea máx. 35)
+- **Agendá tu Test Drive** — Elegí el día y el horario / Sin compromiso
+- **Financiación** — Planes a tu medida / Consultá con un asesor
+- **Versiones** — Compará las versiones / Equipamiento de cada una
+- **Sucursales** — Encontrá la más cercana / Horarios y ubicación
+
+**Textos destacados** (máx. 25): Concesionario Oficial · Test Drive sin Cargo · Financiación Disponible · Atención Personalizada
+
+## 💲 Oferta del mes (2026-09): confirmar antes de publicar
+> [!warning] Sale de la planilla de acciones comerciales
+> Vence con el mes y puede tener condiciones. No se sube sin confirmarla con la marca.
+
+- Título: `Desde USD 57.990` (16)
+- Título: `Hasta USD 4.000 de Descuento` (28)
+- Descripción: `Desde USD 57.990 y hasta USD 4.000 de descuento en septiembre. Consultá condiciones.` (84)

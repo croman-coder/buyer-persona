@@ -1,0 +1,49 @@
+---
+type: anuncio-meta
+cuenta: "GWM"
+estado: "Activo"
+revisar: "—"
+riesgo_comparativa: 0.03
+oferta: "Precio como gancho"
+argumento: "Potencia y trabajo"
+tipo_de_vehiculo: "Pickup"
+muestra_precio: true
+menciona_cuotas: false
+invita_a_actuar: false
+urgencia: "Sin urgencia"
+boton: "Enviar WhatsApp"
+anuncio: "POER 2.0 T"
+titulo: "fb.me"
+ad_id: "120243653952580307"
+tags:
+- anuncio-meta
+---
+
+# POER 2.0 T
+
+**Cuenta:** GWM · **Estado:** Activo · **Botón:** Enviar WhatsApp
+
+| Qué miró la IA | Resultado |
+|---|---|
+| Oferta principal | Precio como gancho |
+| Argumento de venta | Potencia y trabajo |
+| Tipo de vehículo | Pickup |
+| Muestra precio | Sí |
+| Menciona cuotas | No |
+| El texto le dice al cliente qué hacer | No (el botón está igual) |
+| Urgencia | Sin urgencia |
+| Riesgo de publicidad comparativa | 3 % |
+
+## Texto del aviso
+
+Si buscás una camioneta que rinda de verdad, esta es una inversión inteligente
+💰 Promo contado: USD 29.990
+✅ Caja automática
+✅ Tracción 4x4
+✅ Motor Turbo Diésel
+✅ Android Auto/ Apple Carplay
+✅ Diseño robusto y equipamiento premium
+Contactame para más información
+
+---
+*Ficha generada sola todos los días a partir de Meta. Qué significa cada cosa: [[🏷️ Clasificación de Anuncios]], sección «Cómo leer esta nota».*

@@ -1,0 +1,56 @@
+# Entorno
+.env
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Credenciales
+google-ads.yaml
+google_ads_client.json
+*.json.credentials
+
+# Datos sensibles
+data/*.xlsx
+data/*.xls
+data/*.csv
+!data/sample_sales/*.csv
+
+# Salida generada
+output/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+# Variantes de .env con secretos reales (backups, .save) — solo el example se versiona
+.env.*
+!.env.example
+
+# Obsidian: raíz del proyecto abierta como vault alguna vez (cruft de UI)
+/.obsidian/
+# Estado volátil de la UI del vault (cambia en cada sesión de Obsidian)
+Buyer Persona/.obsidian/workspace.json
+
+# Estado del grafo de Obsidian: cambia con cada sesion de la UI, no es contenido
+Buyer Persona/.obsidian/graph.json
+
+# Reportes del ERP con datos personales (nombres/emails/teléfonos): nunca al repo
+ENCUESTA AGESTA/
+output/audiencias_meta/
+data/fuentes/
+_ARCHIVO/
+
+# Datos del panel /jev del Cerebro (los arma scripts/jev_panel.py): no viajan al git del vault
+Buyer Persona/.cerebro/

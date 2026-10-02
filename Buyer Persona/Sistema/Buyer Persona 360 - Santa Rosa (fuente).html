@@ -1,0 +1,861 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Buyer Persona 360 — Santa Rosa</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&display=swap" rel="stylesheet">
+<style>
+  @page { size: 1920px 1080px; margin: 0; }
+  :root { --ink: oklch(15% 0.012 45); --ink-2: oklch(20% 0.012 45); --line: oklch(32% 0.012 45);
+          --paper: oklch(96% 0.006 70); --muted: oklch(66% 0.012 70); --dim: oklch(48% 0.012 70);
+          --signal: oklch(66% 0.21 38); --signal-ink: oklch(22% 0.06 38); --go: oklch(82% 0.17 130); --hold: oklch(82% 0.14 85); }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--ink); }
+  body { font-family: 'Archivo', system-ui, sans-serif; color: var(--paper); -webkit-print-color-adjust: exact; print-color-adjust: exact; font-variant-numeric: tabular-nums; }
+  .slide { position: relative; width: 1920px; height: 1080px; overflow: hidden; page-break-after: always; break-after: page; background: var(--ink); padding: 104px 128px 96px; }
+  .slide:last-child { page-break-after: auto; }
+  .drench { background: var(--signal); color: var(--signal-ink); }
+  .drench .k, .drench .foot, .drench .lbl { color: var(--signal-ink); opacity: .75; }
+  .k { font-size: 20px; letter-spacing: .28em; text-transform: uppercase; color: var(--signal); font-weight: 600; margin-bottom: 36px; font-stretch: 110%; }
+  h1 { font-size: 168px; font-weight: 800; line-height: .92; letter-spacing: -.045em; font-stretch: 118%; }
+  h2 { font-size: 72px; font-weight: 700; line-height: 1.0; letter-spacing: -.035em; font-stretch: 112%; max-width: 1560px; }
+  h3 { font-size: 30px; font-weight: 600; letter-spacing: -.01em; }
+  p, li { font-size: 27px; line-height: 1.5; color: var(--muted); max-width: 70ch; }
+  strong, b { color: var(--paper); font-weight: 600; }
+  .lead { font-size: 38px; line-height: 1.3; color: var(--paper); font-weight: 400; max-width: 1400px; }
+  .signal { color: var(--signal); } .go { color: var(--go); } .hold { color: var(--hold); }
+  .num { font-weight: 800; letter-spacing: -.05em; line-height: .9; font-stretch: 112%; font-size: 200px; }
+  .num.md { font-size: 128px; } .num.sm { font-size: 88px; }
+  .lbl { font-size: 21px; letter-spacing: .18em; text-transform: uppercase; color: var(--dim); margin-top: 16px; font-weight: 500; }
+  .foot { position: absolute; bottom: 48px; left: 128px; right: 128px; display: flex; justify-content: space-between; font-size: 17px; letter-spacing: .22em; text-transform: uppercase; color: var(--dim); font-weight: 500; }
+  .cols { display: grid; gap: 0 72px; }
+  .row { border-top: 1px solid var(--line); padding: 28px 0; }
+  .row:last-child { border-bottom: 1px solid var(--line); }
+  .idx { font-size: 19px; letter-spacing: .2em; color: var(--signal); font-weight: 600; margin-bottom: 10px; text-transform: uppercase; }
+  table { border-collapse: collapse; width: 100%; }
+  th { text-align: left; font-size: 18px; letter-spacing: .2em; text-transform: uppercase; color: var(--dim); font-weight: 500; padding: 0 0 16px; border-bottom: 1px solid var(--line); }
+  td { padding: 18px 0; font-size: 26px; border-bottom: 1px solid var(--line); color: var(--paper); }
+  td.r, th.r { text-align: right; } td.m { color: var(--muted); }
+  .tag { display: inline-block; font-size: 17px; letter-spacing: .2em; text-transform: uppercase; font-weight: 600; padding: 9px 14px; border: 1px solid currentColor; }
+  .legend { display: flex; gap: 36px; font-size: 20px; color: var(--muted); align-items: center; }
+  .legend i { display: inline-block; width: 16px; height: 16px; margin-right: 10px; vertical-align: -2px; }
+  .chart-title { font-size: 19px; letter-spacing: .2em; text-transform: uppercase; color: var(--dim); font-weight: 500; margin-bottom: 22px; }
+</style></head><body>
+<section class="slide" style="display:flex;flex-direction:column;justify-content:flex-end">
+<svg width="1100" height="1100" viewBox="0 0 1100 1100" style="position:absolute;right:-260px;top:-140px">
+<circle cx="550" cy="550" r="520" fill="none" stroke="var(--line)"/><circle cx="550" cy="550" r="400" fill="none" stroke="var(--line)"/><circle cx="550" cy="550" r="280" fill="none" stroke="var(--line)"/><circle cx="550" cy="550" r="160" fill="none" stroke="var(--signal)" stroke-width="2"/>
+<circle cx="550" cy="30" r="9" fill="var(--signal)"/><circle cx="950" cy="550" r="9" fill="var(--signal)"/><circle cx="550" cy="830" r="9" fill="var(--signal)"/><circle cx="270" cy="550" r="9" fill="var(--signal)"/></svg>
+<div class="k">Santa Rosa Automotores · Innovación</div>
+<h1>Buyer<br>Persona <span class="signal">360</span></h1>
+<p class="lead" style="margin-top:44px">Quién nos compra, modelo por modelo. Reescrito con nuestros propios datos todas las madrugadas.</p>
+<div class="foot"><span>Septiembre 2026</span><span>Uso interno</span></div></section>
+<section class="slide"><div class="k">El punto de partida</div>
+<h2>Pautábamos a quien creíamos que compra.<br><span class="signal">No a quien compra.</span></h2>
+<div class="cols" style="grid-template-columns:1fr 1fr;margin-top:64px">
+<div class="row"><div class="idx">01 · ERP</div><p>Las ventas reales, encerradas en un Excel de facturación que marketing nunca vio.</p></div>
+<div class="row"><div class="idx">02 · Meta Ads</div><p>81 cuentas, una por asesor. Miles de anuncios y leads que nadie leía en conjunto.</p></div>
+<div class="row"><div class="idx">03 · CRM</div><p>18.000 leads por trimestre en Bitrix, sin relación con lo que finalmente se facturó.</p></div>
+<div class="row"><div class="idx">04 · Mercado</div><p>Precios de la competencia averiguados a mano, vencidos al día siguiente.</p></div></div>
+<p class="lead" style="margin-top:60px">Cuatro fuentes de verdad. Cero conversación entre ellas.</p><div class="foot"><span>Buyer Persona 360</span><span>02</span></div></section>
+<section class="slide drench" style="display:flex;flex-direction:column;justify-content:center"><div class="k">El concepto</div>
+<h2 style="font-size:92px;max-width:1660px">Un motor que lee las cuatro fuentes cada madrugada y escribe quién es el comprador de cada modelo.</h2>
+<div style="display:flex;gap:120px;margin-top:88px">
+<div><div class="num md">06:00</div><div class="lbl">todos los días, solo</div></div>
+<div><div class="num md">75</div><div class="lbl">personas vivas</div></div>
+<div><div class="num md">382</div><div class="lbl">notas conectadas</div></div></div><div class="foot"><span>Buyer Persona 360</span><span>03</span></div></section>
+<section class="slide"><div class="k">Dónde estamos</div>
+<h2>Construido y corriendo desde hace semanas.<br><span class="signal">El uso operativo empieza ahora.</span></h2>
+<div class="cols" style="grid-template-columns:1fr 1fr 1fr;margin-top:72px;gap:0 64px">
+<div class="row"><div class="idx">Hecho</div><p>Meta, ERP desde 2018, CRM, Datacar, stock, acciones comerciales, objetivos y negociación semanal: nueve fuentes en 382 notas que se reescriben cada día. Semillas de lookalike, memoria de audiencia, manual y auditoría.</p></div>
+<div class="row"><div class="idx">Validado</div><p>Cada cifra de esta presentación sale de la corrida de esta mañana. Nada está estimado ni proyectado.</p></div>
+<div class="row"><div class="idx">Pendiente</div><p>Que Marketing, Ventas y Gerencia lo usen. Marketing ya lo revisó el 17 de septiembre y sus cambios están aplicados. Las últimas láminas dicen cómo seguimos.</p></div></div><div class="foot"><span>Buyer Persona 360</span><span>04</span></div></section>
+<section class="slide"><div class="k">Cómo funciona</div><h2>De nueve silos a una sola verdad.</h2>
+<svg width="1664" height="600" viewBox="0 0 1664 600" style="margin-top:44px" font-family="Archivo">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--signal)"/></marker></defs>
+<g fill="var(--paper)" font-size="26" font-weight="600">
+<text x="0" y="60">Meta Ads</text><text x="0" y="92" fill="var(--muted)" font-size="20" font-weight="400">copy · demografía · leads · placement</text>
+<text x="0" y="200">ERP + Excel del negocio</text><text x="0" y="232" fill="var(--muted)" font-size="20" font-weight="400">ventas 2018→hoy · stock · PVP y descuentos · objetivos · negociación</text>
+<text x="0" y="340">CRM Bitrix</text><text x="0" y="372" fill="var(--muted)" font-size="20" font-weight="400">leads por canal · conversión · deals</text>
+<text x="0" y="480">Datacar</text><text x="0" y="512" fill="var(--muted)" font-size="20" font-weight="400">692 precios de lista, todo el mercado</text></g>
+<g stroke="var(--line)"><line x1="0" y1="110" x2="440" y2="110"/><line x1="0" y1="250" x2="440" y2="250"/><line x1="0" y1="390" x2="440" y2="390"/><line x1="0" y1="530" x2="440" y2="530"/></g>
+<g stroke="var(--signal)" stroke-width="2" fill="none" marker-end="url(#a)"><path d="M440,50 C560,50 560,290 660,290"/><path d="M440,190 C560,190 560,290 660,290"/><path d="M440,330 C560,330 560,290 660,290"/><path d="M440,470 C560,470 560,290 660,290"/></g>
+<rect x="670" y="170" width="380" height="240" fill="none" stroke="var(--signal)" stroke-width="2"/>
+<text x="700" y="225" fill="var(--paper)" font-size="30" font-weight="700">MOTOR 360</text>
+<g fill="var(--muted)" font-size="20"><text x="700" y="270">normaliza y cruza</text><text x="700" y="302">lee el copy de cada anuncio</text><text x="700" y="334">detecta brechas pauta / venta</text><text x="700" y="366">sin datos personales</text></g>
+<path d="M1050,290 L1170,290" stroke="var(--signal)" stroke-width="2" marker-end="url(#a)"/>
+<rect x="1180" y="130" width="484" height="320" fill="var(--ink-2)"/>
+<text x="1212" y="185" fill="var(--paper)" font-size="30" font-weight="700">OBSIDIAN</text>
+<g fill="var(--muted)" font-size="21"><text x="1212" y="236">75 personas · 288 copies listos</text><text x="1212" y="272">12 mapas de audiencias</text><text x="1212" y="308">precios de mercado en vivo</text><text x="1212" y="344">manual · auditoría · playbooks</text></g>
+<text x="1212" y="410" fill="var(--signal)" font-size="22" font-weight="600">→ Pauta · Salón · Gerencia</text>
+<path d="M1422,450 C1422,590 860,590 860,415" stroke="var(--dim)" stroke-width="1.5" stroke-dasharray="6 8" fill="none" marker-end="url(#a)"/>
+<text x="1140" y="575" text-anchor="middle" fill="var(--dim)" font-size="20">lo que pautamos hoy vuelve mañana como dato</text></svg><div class="foot"><span>Buyer Persona 360</span><span>05</span></div></section>
+<section class="slide"><div class="k">Lo que entra por Meta · últimos 90 días</div>
+<h2>17.464 leads de formulario. Quién los genera y cuánto cuesta.</h2>
+<div class="cols" style="grid-template-columns:1.1fr 1fr;margin-top:48px;gap:0 96px">
+<div><div class="chart-title">Leads por marca</div><svg width="860" height="504" viewBox="0 0 860 504" font-family="Archivo">
+<text x="0" y="29" fill="var(--paper)" font-size="22">Jetour</text>
+<rect x="150" y="11" width="580" height="20" fill="var(--signal)"/>
+<text x="744" y="29" fill="var(--muted)" font-size="21">3.421</text>
+<text x="0" y="71" fill="var(--paper)" font-size="22">JAC</text>
+<rect x="150" y="53" width="427" height="20" fill="var(--signal)"/>
+<text x="591" y="71" fill="var(--muted)" font-size="21">2.521</text>
+<text x="0" y="113" fill="var(--paper)" font-size="22">GWM</text>
+<rect x="150" y="95" width="384" height="20" fill="var(--signal)"/>
+<text x="548" y="113" fill="var(--muted)" font-size="21">2.264</text>
+<text x="0" y="155" fill="var(--paper)" font-size="22">Mitsubishi</text>
+<rect x="150" y="137" width="369" height="20" fill="var(--signal)"/>
+<text x="533" y="155" fill="var(--muted)" font-size="21">2.178</text>
+<text x="0" y="197" fill="var(--paper)" font-size="22">JMEV</text>
+<rect x="150" y="179" width="233" height="20" fill="var(--signal)"/>
+<text x="397" y="197" fill="var(--muted)" font-size="21">1.375</text>
+<text x="0" y="239" fill="var(--paper)" font-size="22">Soueast</text>
+<rect x="150" y="221" width="221" height="20" fill="var(--signal)"/>
+<text x="385" y="239" fill="var(--muted)" font-size="21">1.303</text>
+<text x="0" y="281" fill="var(--paper)" font-size="22">Leapmotor</text>
+<rect x="150" y="263" width="206" height="20" fill="var(--signal)"/>
+<text x="370" y="281" fill="var(--muted)" font-size="21">1.216</text>
+<text x="0" y="323" fill="var(--paper)" font-size="22">Zeekr</text>
+<rect x="150" y="305" width="183" height="20" fill="var(--signal)"/>
+<text x="347" y="323" fill="var(--muted)" font-size="21">1.082</text>
+<text x="0" y="365" fill="var(--paper)" font-size="22">Renault</text>
+<rect x="150" y="347" width="151" height="20" fill="var(--signal)"/>
+<text x="315" y="365" fill="var(--muted)" font-size="21">893</text>
+<text x="0" y="407" fill="var(--paper)" font-size="22">XPeng</text>
+<rect x="150" y="389" width="137" height="20" fill="var(--signal)"/>
+<text x="301" y="407" fill="var(--muted)" font-size="21">809</text>
+<text x="0" y="449" fill="var(--paper)" font-size="22">Santa Rosa</text>
+<rect x="150" y="431" width="34" height="20" fill="var(--signal)"/>
+<text x="198" y="449" fill="var(--muted)" font-size="21">202</text>
+<text x="0" y="491" fill="var(--paper)" font-size="22">Renew</text>
+<rect x="150" y="473" width="34" height="20" fill="var(--signal)"/>
+<text x="198" y="491" fill="var(--muted)" font-size="21">200</text>
+</svg></div>
+<div><div class="chart-title">Inversión en pauta · USD</div><svg width="700" height="420" viewBox="0 0 700 420" font-family="Archivo">
+<text x="0" y="29" fill="var(--paper)" font-size="22">GWM</text>
+<rect x="150" y="11" width="420" height="20" fill="var(--signal)"/>
+<text x="584" y="29" fill="var(--muted)" font-size="21">13.043</text>
+<text x="0" y="71" fill="var(--paper)" font-size="22">Jetour</text>
+<rect x="150" y="53" width="403" height="20" fill="var(--signal)"/>
+<text x="567" y="71" fill="var(--muted)" font-size="21">12.500</text>
+<text x="0" y="113" fill="var(--paper)" font-size="22">Renault</text>
+<rect x="150" y="95" width="286" height="20" fill="var(--signal)"/>
+<text x="450" y="113" fill="var(--muted)" font-size="21">8.880</text>
+<text x="0" y="155" fill="var(--paper)" font-size="22">Soueast</text>
+<rect x="150" y="137" width="252" height="20" fill="var(--signal)"/>
+<text x="416" y="155" fill="var(--muted)" font-size="21">7.829</text>
+<text x="0" y="197" fill="var(--paper)" font-size="22">JAC</text>
+<rect x="150" y="179" width="235" height="20" fill="var(--signal)"/>
+<text x="399" y="197" fill="var(--muted)" font-size="21">7.301</text>
+<text x="0" y="239" fill="var(--paper)" font-size="22">Mitsubishi</text>
+<rect x="150" y="221" width="219" height="20" fill="var(--signal)"/>
+<text x="383" y="239" fill="var(--muted)" font-size="21">6.814</text>
+<text x="0" y="281" fill="var(--paper)" font-size="22">Renew</text>
+<rect x="150" y="263" width="140" height="20" fill="var(--signal)"/>
+<text x="304" y="281" fill="var(--muted)" font-size="21">4.351</text>
+<text x="0" y="323" fill="var(--paper)" font-size="22">Leapmotor</text>
+<rect x="150" y="305" width="112" height="20" fill="var(--signal)"/>
+<text x="276" y="323" fill="var(--muted)" font-size="21">3.491</text>
+<text x="0" y="365" fill="var(--paper)" font-size="22">XPeng</text>
+<rect x="150" y="347" width="98" height="20" fill="var(--signal)"/>
+<text x="262" y="365" fill="var(--muted)" font-size="21">3.033</text>
+<text x="0" y="407" fill="var(--paper)" font-size="22">Zeekr</text>
+<rect x="150" y="389" width="91" height="20" fill="var(--signal)"/>
+<text x="255" y="407" fill="var(--muted)" font-size="21">2.836</text>
+</svg>
+<p style="margin-top:28px;font-size:23px">USD 70.744 en 90 días. Jetour y GWM concentran leads e inversión; JAC y Mitsubishi generan más leads por dólar.</p></div></div><div class="foot"><span>Buyer Persona 360</span><span>06</span></div></section>
+<section class="slide"><div class="k">Lo que se factura · ERP unificado, julio 2018 al 11/09/2026</div>
+<h2>8.406 ventas reales desde 2018. 3.138 en los últimos doce meses.</h2>
+<div class="cols" style="grid-template-columns:1fr 1fr 1.1fr;margin-top:40px;gap:0 72px">
+<div><div class="chart-title">Unidades por año</div><svg width="520" height="360" viewBox="0 0 520 360" font-family="Archivo">
+<text x="0" y="29" fill="var(--paper)" font-size="22">2018</text>
+<rect x="90" y="11" width="37" height="20" fill="var(--signal)"/>
+<text x="141" y="29" fill="var(--muted)" font-size="21">300</text>
+<text x="0" y="69" fill="var(--paper)" font-size="22">2019</text>
+<rect x="90" y="51" width="20" height="20" fill="var(--signal)"/>
+<text x="124" y="69" fill="var(--muted)" font-size="21">164</text>
+<text x="0" y="109" fill="var(--paper)" font-size="22">2020</text>
+<rect x="90" y="91" width="41" height="20" fill="var(--signal)"/>
+<text x="145" y="109" fill="var(--muted)" font-size="21">333</text>
+<text x="0" y="149" fill="var(--paper)" font-size="22">2021</text>
+<rect x="90" y="131" width="94" height="20" fill="var(--signal)"/>
+<text x="198" y="149" fill="var(--muted)" font-size="21">752</text>
+<text x="0" y="189" fill="var(--paper)" font-size="22">2022</text>
+<rect x="90" y="171" width="89" height="20" fill="var(--signal)"/>
+<text x="193" y="189" fill="var(--muted)" font-size="21">715</text>
+<text x="0" y="229" fill="var(--paper)" font-size="22">2023</text>
+<rect x="90" y="211" width="125" height="20" fill="var(--signal)"/>
+<text x="229" y="229" fill="var(--muted)" font-size="21">1.002</text>
+<text x="0" y="269" fill="var(--paper)" font-size="22">2024</text>
+<rect x="90" y="251" width="172" height="20" fill="var(--signal)"/>
+<text x="276" y="269" fill="var(--muted)" font-size="21">1.384</text>
+<text x="0" y="309" fill="var(--paper)" font-size="22">2025</text>
+<rect x="90" y="291" width="239" height="20" fill="var(--signal)"/>
+<text x="343" y="309" fill="var(--muted)" font-size="21">1.920</text>
+<text x="0" y="349" fill="var(--paper)" font-size="22">2026</text>
+<rect x="90" y="331" width="300" height="20" fill="var(--signal)"/>
+<text x="404" y="349" fill="var(--muted)" font-size="21">2.411</text>
+</svg></div>
+<div><div class="chart-title">Últimos 12 meses · por marca</div><svg width="520" height="320" viewBox="0 0 520 320" font-family="Archivo">
+<text x="0" y="29" fill="var(--paper)" font-size="22">Jetour</text>
+<rect x="150" y="11" width="240" height="20" fill="var(--signal)"/>
+<text x="404" y="29" fill="var(--muted)" font-size="21">1.200</text>
+<text x="0" y="69" fill="var(--paper)" font-size="22">GWM</text>
+<rect x="150" y="51" width="176" height="20" fill="var(--signal)"/>
+<text x="340" y="69" fill="var(--muted)" font-size="21">878</text>
+<text x="0" y="109" fill="var(--paper)" font-size="22">Renault</text>
+<rect x="150" y="91" width="57" height="20" fill="var(--signal)"/>
+<text x="221" y="109" fill="var(--muted)" font-size="21">286</text>
+<text x="0" y="149" fill="var(--paper)" font-size="22">Mitsubishi</text>
+<rect x="150" y="131" width="56" height="20" fill="var(--signal)"/>
+<text x="220" y="149" fill="var(--muted)" font-size="21">282</text>
+<text x="0" y="189" fill="var(--paper)" font-size="22">Soueast</text>
+<rect x="150" y="171" width="45" height="20" fill="var(--signal)"/>
+<text x="209" y="189" fill="var(--muted)" font-size="21">224</text>
+<text x="0" y="229" fill="var(--paper)" font-size="22">JAC</text>
+<rect x="150" y="211" width="35" height="20" fill="var(--signal)"/>
+<text x="199" y="229" fill="var(--muted)" font-size="21">175</text>
+<text x="0" y="269" fill="var(--paper)" font-size="22">JMEV</text>
+<rect x="150" y="251" width="11" height="20" fill="var(--signal)"/>
+<text x="175" y="269" fill="var(--muted)" font-size="21">55</text>
+<text x="0" y="309" fill="var(--paper)" font-size="22">Zeekr</text>
+<rect x="150" y="291" width="4" height="20" fill="var(--signal)"/>
+<text x="168" y="309" fill="var(--muted)" font-size="21">20</text>
+</svg></div>
+<div><div class="chart-title">Últimos 12 meses · los diez modelos</div><svg width="620" height="400" viewBox="0 0 620 400" font-family="Archivo">
+<text x="0" y="29" fill="var(--paper)" font-size="22">GWM Haval H6</text>
+<rect x="250" y="11" width="240" height="20" fill="var(--signal)"/>
+<text x="504" y="29" fill="var(--muted)" font-size="21">295</text>
+<text x="0" y="69" fill="var(--paper)" font-size="22">Jetour X50</text>
+<rect x="250" y="51" width="237" height="20" fill="var(--signal)"/>
+<text x="501" y="69" fill="var(--muted)" font-size="21">291</text>
+<text x="0" y="109" fill="var(--paper)" font-size="22">Jetour Dashing</text>
+<rect x="250" y="91" width="198" height="20" fill="var(--signal)"/>
+<text x="462" y="109" fill="var(--muted)" font-size="21">243</text>
+<text x="0" y="149" fill="var(--paper)" font-size="22">Jetour X70</text>
+<rect x="250" y="131" width="194" height="20" fill="var(--signal)"/>
+<text x="458" y="149" fill="var(--muted)" font-size="21">239</text>
+<text x="0" y="189" fill="var(--paper)" font-size="22">Jetour T2</text>
+<rect x="250" y="171" width="178" height="20" fill="var(--signal)"/>
+<text x="442" y="189" fill="var(--muted)" font-size="21">219</text>
+<text x="0" y="229" fill="var(--paper)" font-size="22">GWM Haval Jolion</text>
+<rect x="250" y="211" width="157" height="20" fill="var(--signal)"/>
+<text x="421" y="229" fill="var(--muted)" font-size="21">193</text>
+<text x="0" y="269" fill="var(--paper)" font-size="22">Mitsubishi L200</text>
+<rect x="250" y="251" width="155" height="20" fill="var(--signal)"/>
+<text x="419" y="269" fill="var(--muted)" font-size="21">190</text>
+<text x="0" y="309" fill="var(--paper)" font-size="22">Jetour T1</text>
+<rect x="250" y="291" width="132" height="20" fill="var(--signal)"/>
+<text x="396" y="309" fill="var(--muted)" font-size="21">162</text>
+<text x="0" y="349" fill="var(--paper)" font-size="22">Soueast S06</text>
+<rect x="250" y="331" width="116" height="20" fill="var(--signal)"/>
+<text x="380" y="349" fill="var(--muted)" font-size="21">143</text>
+<text x="0" y="389" fill="var(--paper)" font-size="22">GWM Poer</text>
+<rect x="250" y="371" width="82" height="20" fill="var(--signal)"/>
+<text x="346" y="389" fill="var(--muted)" font-size="21">101</text>
+</svg></div></div>
+<p style="margin-top:28px;font-size:23px">Dos reportes del ERP unidos por número de chasis, notas de crédito neteadas. Con ocho años de historia ya existe la base de recompra de tres años o más.</p><div class="foot"><span>Buyer Persona 360</span><span>07</span></div></section>
+<section class="slide"><div class="k">Quién interactúa · audiencia real de Meta</div>
+<h2>75% hombres. El corazón está entre 25 y 54.</h2>
+<div style="display:flex;gap:120px;align-items:flex-end;margin-top:56px">
+<div style="flex:1"><div class="chart-title">Edad · ponderada por clics</div>
+<svg width="1000" height="380" viewBox="0 0 1000 380" font-family="Archivo">
+<rect x="0" y="275" width="120" height="45" fill="var(--muted)"/><text x="60" y="265" fill="var(--paper)" font-size="26" font-weight="700" text-anchor="middle">5%</text><text x="60" y="370" fill="var(--dim)" font-size="20" text-anchor="middle">18-24</text><rect x="165" y="106" width="120" height="214" fill="var(--muted)"/><text x="225" y="96" fill="var(--paper)" font-size="26" font-weight="700" text-anchor="middle">23.8%</text><text x="225" y="370" fill="var(--dim)" font-size="20" text-anchor="middle">25-34</text><rect x="330" y="71" width="120" height="249" fill="var(--signal)"/><text x="390" y="61" fill="var(--paper)" font-size="26" font-weight="700" text-anchor="middle">27.7%</text><text x="390" y="370" fill="var(--dim)" font-size="20" text-anchor="middle">35-44</text><rect x="495" y="154" width="120" height="166" fill="var(--muted)"/><text x="555" y="144" fill="var(--paper)" font-size="26" font-weight="700" text-anchor="middle">18.4%</text><text x="555" y="370" fill="var(--dim)" font-size="20" text-anchor="middle">45-54</text><rect x="660" y="216" width="120" height="104" fill="var(--muted)"/><text x="720" y="206" fill="var(--paper)" font-size="26" font-weight="700" text-anchor="middle">11.5%</text><text x="720" y="370" fill="var(--dim)" font-size="20" text-anchor="middle">55-64</text><rect x="825" y="197" width="120" height="123" fill="var(--muted)"/><text x="885" y="187" fill="var(--paper)" font-size="26" font-weight="700" text-anchor="middle">13.7%</text><text x="885" y="370" fill="var(--dim)" font-size="20" text-anchor="middle">65+</text>
+</svg></div>
+<div><div class="num md">75<span style="font-size:72px">%</span></div><div class="lbl">hombres</div>
+<div class="num sm" style="margin-top:44px;color:var(--muted)">25<span style="font-size:48px">%</span></div><div class="lbl">mujeres</div></div></div>
+<p style="margin-top:44px">Cada marca y cada modelo tienen su propia distribución. Esta es la del portfolio completo, sobre las 81 cuentas.</p><div class="foot"><span>Buyer Persona 360</span><span>08</span></div></section>
+<section class="slide"><div class="k">Quién interactúa · por modelo, no por marca</div>
+<h2>Cada modelo tiene su propio público. Ahora se ve.</h2>
+<div style="display:flex;gap:96px;margin-top:48px;align-items:flex-start">
+<div style="flex:1"><div class="chart-title">% hombres entre quienes hacen clic · edad dominante · los diez que más venden con perfil propio</div>
+<svg width="1160" height="480" viewBox="0 0 1160 480" font-family="Archivo">
+<text x="0" y="29" fill="var(--paper)" font-size="22">Renault Kwid  ·  18-24</text>
+<rect x="520" y="11" width="153" height="20" fill="var(--signal)"/>
+<text x="687" y="29" fill="var(--muted)" font-size="21">30% ♂</text>
+<text x="0" y="77" fill="var(--paper)" font-size="22">Jetour T2  ·  65+</text>
+<rect x="520" y="59" width="260" height="20" fill="var(--signal)"/>
+<text x="794" y="77" fill="var(--muted)" font-size="21">51% ♂</text>
+<text x="0" y="125" fill="var(--paper)" font-size="22">GWM Haval H6  ·  25-34</text>
+<rect x="520" y="107" width="286" height="20" fill="var(--signal)"/>
+<text x="820" y="125" fill="var(--muted)" font-size="21">56% ♂</text>
+<text x="0" y="173" fill="var(--paper)" font-size="22">GWM Haval Jolion  ·  45-54</text>
+<rect x="520" y="155" width="311" height="20" fill="var(--signal)"/>
+<text x="845" y="173" fill="var(--muted)" font-size="21">61% ♂</text>
+<text x="0" y="221" fill="var(--paper)" font-size="22">Jetour X70  ·  55-64</text>
+<rect x="520" y="203" width="316" height="20" fill="var(--signal)"/>
+<text x="850" y="221" fill="var(--muted)" font-size="21">62% ♂</text>
+<text x="0" y="269" fill="var(--paper)" font-size="22">Renault Master  ·  35-44</text>
+<rect x="520" y="251" width="337" height="20" fill="var(--signal)"/>
+<text x="871" y="269" fill="var(--muted)" font-size="21">66% ♂</text>
+<text x="0" y="317" fill="var(--paper)" font-size="22">Jetour X50  ·  35-44</text>
+<rect x="520" y="299" width="352" height="20" fill="var(--signal)"/>
+<text x="886" y="317" fill="var(--muted)" font-size="21">69% ♂</text>
+<text x="0" y="365" fill="var(--paper)" font-size="22">Jetour Dashing  ·  35-44</text>
+<rect x="520" y="347" width="362" height="20" fill="var(--signal)"/>
+<text x="896" y="365" fill="var(--muted)" font-size="21">71% ♂</text>
+<text x="0" y="413" fill="var(--paper)" font-size="22">Renault Oroch  ·  35-44</text>
+<rect x="520" y="395" width="418" height="20" fill="var(--signal)"/>
+<text x="952" y="413" fill="var(--muted)" font-size="21">82% ♂</text>
+<text x="0" y="461" fill="var(--paper)" font-size="22">Mitsubishi L200  ·  35-44</text>
+<rect x="520" y="443" width="423" height="20" fill="var(--signal)"/>
+<text x="957" y="461" fill="var(--muted)" font-size="21">83% ♂</text>
+</svg></div>
+<div style="width:420px"><div class="row"><div class="idx">Antes</div><p>L200 y Montero heredaban el perfil de Mitsubishi: 87% hombres, 35 a 44. Kwid, el de Renault.</p></div>
+<div class="row"><div class="idx">Ahora</div><p>Meta se lee anuncio por anuncio y cada anuncio se atribuye al modelo que nombra. <b>50 modelos</b> ya tienen edad y género propios.</p></div></div></div>
+<p style="margin-top:40px">Pedido de Marketing el 17 de septiembre. Aplicado el 18.</p><div class="foot"><span>Buyer Persona 360</span><span>09</span></div></section>
+<section class="slide"><div class="k">Anatomía de una persona</div><h2>Cada modelo tiene su ficha. Ocho bloques, todos con dato real.</h2>
+<div class="cols" style="grid-template-columns:1fr 1fr;margin-top:48px"><div>
+<div class="row"><div class="idx">01 · Quién</div><p>Edad y género dominantes de la audiencia real que interactúa con la marca.</p></div>
+<div class="row"><div class="idx">02 · Qué compra</div><p>Unidades, versión más vendida, precio facturado, sucursal, de qué marca viene.</p></div>
+<div class="row"><div class="idx">03 · Qué le duele</div><p>Dolores y motivaciones extraídos del copy de sus propios anuncios.</p></div>
+<div class="row"><div class="idx">04 · Dónde</div><p>El placement que concentra las impresiones reales: Reels, Stories o Feed.</p></div></div><div>
+<div class="row"><div class="idx">05 · Qué pide</div><p>Leads de formulario agregados: modelo, forma de pago, ciudad, interés.</p></div>
+<div class="row"><div class="idx">06 · Cómo cierra</div><p>Embudo CRM: leads, convertidos, deals ganados, win rate, ticket.</p></div>
+<div class="row"><div class="idx">07 · Contra quién</div><p>Precio de lista, posición en su segmento y competidores directos a ±25%.</p></div>
+<div class="row"><div class="idx">08 · Brecha</div><p>Porcentaje de ventas contra porcentaje de pauta: escalar, revisar o equilibrado.</p></div></div></div><div class="foot"><span>Buyer Persona 360</span><span>10</span></div></section>
+<section class="slide"><div class="k">Caso real · Renault Kwid</div><h2>El modelo que más vende de Renault se frenó por stock. Ya volvió.</h2>
+<div style="display:flex;align-items:flex-end;gap:120px;margin-top:48px">
+<div><div class="num">1.308</div><div class="lbl">unidades desde 2018</div></div>
+<div><div class="num go">29%</div><div class="lbl">de las ventas de Renault · 12 meses</div></div>
+<div><div class="num signal">22</div><div class="lbl">en stock hoy · 21 días</div></div></div>
+<div class="cols" style="grid-template-columns:1fr 1fr 1fr;margin-top:56px;gap:0 64px">
+<div class="row"><div class="idx">Quién interactúa</div><p><b>Femenino 69.5%, 18-24 años</b>, según los clics de sus propios anuncios. Antes la nota decía hombre de 35 a 44: era el promedio de la marca.</p></div>
+<div class="row"><div class="idx">Qué pasó</div><p>Vendió 27, 13 y 23 unidades en septiembre, octubre y noviembre de 2025 y después casi nada: sin stock. Precio de lista <b>USD 10,490</b> con USD 200 de descuento vigente.</p></div>
+<div class="row"><div class="idx">Qué haríamos</div><p>Relanzar con público femenino de 18 a 24, formato vertical, presupuesto sugerido de la nota y la base de recompra de Sandero y Clio.</p></div></div><div class="foot"><span>Buyer Persona 360</span><span>11</span></div></section>
+<section class="slide"><div class="k">Brecha pauta / venta · últimos 12 meses, modelos con 30 o más ventas</div>
+<h2>Dónde la pauta no acompaña a la venta.</h2>
+<div class="legend" style="margin:32px 0 24px"><span><i style="background:var(--go)"></i>% de las ventas de su marca</span><span><i style="background:var(--signal)"></i>% de los anuncios de su marca</span></div>
+<svg width="1660" height="664" viewBox="0 0 1660 664" font-family="Archivo">
+<line x1="260" y1="0" x2="260" y2="628" stroke="var(--line)" stroke-width="1"/>
+<text x="260" y="656" fill="var(--dim)" font-size="18" text-anchor="middle">0%</text>
+<line x1="595" y1="0" x2="595" y2="628" stroke="var(--line)" stroke-width="1"/>
+<text x="595" y="656" fill="var(--dim)" font-size="18" text-anchor="middle">20%</text>
+<line x1="930" y1="0" x2="930" y2="628" stroke="var(--line)" stroke-width="1"/>
+<text x="930" y="656" fill="var(--dim)" font-size="18" text-anchor="middle">40%</text>
+<line x1="1265" y1="0" x2="1265" y2="628" stroke="var(--line)" stroke-width="1"/>
+<text x="1265" y="656" fill="var(--dim)" font-size="18" text-anchor="middle">60%</text>
+<line x1="1600" y1="0" x2="1600" y2="628" stroke="var(--line)" stroke-width="1"/>
+<text x="1600" y="656" fill="var(--dim)" font-size="18" text-anchor="middle">80%</text>
+<text x="0" y="33" fill="var(--paper)" font-size="22">JMEV EV3</text>
+<line x1="1508" y1="26" x2="997" y2="26" stroke="var(--line)" stroke-width="3"/>
+<circle cx="997" cy="26" r="9" fill="var(--signal)"/>
+<circle cx="1508" cy="26" r="9" fill="var(--go)"/>
+<text x="0" y="85" fill="var(--paper)" font-size="22">Mitsubishi L200</text>
+<line x1="1389" y1="78" x2="912" y2="78" stroke="var(--line)" stroke-width="3"/>
+<circle cx="912" cy="78" r="9" fill="var(--signal)"/>
+<circle cx="1389" cy="78" r="9" fill="var(--go)"/>
+<text x="0" y="137" fill="var(--paper)" font-size="22">Soueast S06</text>
+<line x1="1329" y1="130" x2="907" y2="130" stroke="var(--line)" stroke-width="3"/>
+<circle cx="907" cy="130" r="9" fill="var(--signal)"/>
+<circle cx="1329" cy="130" r="9" fill="var(--go)"/>
+<text x="0" y="189" fill="var(--paper)" font-size="22">Jetour X50</text>
+<line x1="665" y1="182" x2="409" y2="182" stroke="var(--line)" stroke-width="3"/>
+<circle cx="409" cy="182" r="9" fill="var(--signal)"/>
+<circle cx="665" cy="182" r="9" fill="var(--go)"/>
+<text x="0" y="241" fill="var(--paper)" font-size="22">Renault Master</text>
+<line x1="706" y1="234" x2="500" y2="234" stroke="var(--line)" stroke-width="3"/>
+<circle cx="500" cy="234" r="9" fill="var(--signal)"/>
+<circle cx="706" cy="234" r="9" fill="var(--go)"/>
+<text x="0" y="293" fill="var(--paper)" font-size="22">Renault Kwid</text>
+<line x1="746" y1="286" x2="570" y2="286" stroke="var(--line)" stroke-width="3"/>
+<circle cx="570" cy="286" r="9" fill="var(--signal)"/>
+<circle cx="746" cy="286" r="9" fill="var(--go)"/>
+<text x="0" y="345" fill="var(--paper)" font-size="22">JAC X200</text>
+<line x1="659" y1="338" x2="500" y2="338" stroke="var(--line)" stroke-width="3"/>
+<circle cx="500" cy="338" r="9" fill="var(--signal)"/>
+<circle cx="659" cy="338" r="9" fill="var(--go)"/>
+<text x="0" y="397" fill="var(--paper)" font-size="22">Renault Koleos</text>
+<line x1="593" y1="390" x2="463" y2="390" stroke="var(--line)" stroke-width="3"/>
+<circle cx="463" cy="390" r="9" fill="var(--signal)"/>
+<circle cx="593" cy="390" r="9" fill="var(--go)"/>
+<text x="0" y="449" fill="var(--paper)" font-size="22">GWM Haval H6</text>
+<line x1="828" y1="442" x2="741" y2="442" stroke="var(--line)" stroke-width="3"/>
+<circle cx="741" cy="442" r="9" fill="var(--signal)"/>
+<circle cx="828" cy="442" r="9" fill="var(--go)"/>
+<text x="0" y="501" fill="var(--paper)" font-size="22">GWM Wingle</text>
+<line x1="345" y1="494" x2="285" y2="494" stroke="var(--line)" stroke-width="3"/>
+<circle cx="285" cy="494" r="9" fill="var(--signal)"/>
+<circle cx="345" cy="494" r="9" fill="var(--go)"/>
+<text x="0" y="553" fill="var(--paper)" font-size="22">Mitsubishi Montero Sport</text>
+<line x1="652" y1="546" x2="597" y2="546" stroke="var(--line)" stroke-width="3"/>
+<circle cx="597" cy="546" r="9" fill="var(--signal)"/>
+<circle cx="652" cy="546" r="9" fill="var(--go)"/>
+<text x="0" y="605" fill="var(--paper)" font-size="22">Soueast S08</text>
+<line x1="551" y1="598" x2="511" y2="598" stroke="var(--line)" stroke-width="3"/>
+<circle cx="511" cy="598" r="9" fill="var(--signal)"/>
+<circle cx="551" cy="598" r="9" fill="var(--go)"/>
+</svg>
+<p style="margin-top:20px;font-size:23px">Cuanto más larga la línea con el verde a la derecha, más vende el modelo respecto a lo que se pauta. Jetour X50, GWM Wingle: candidatos a escalar. Ninguno: revisar.</p><div class="foot"><span>Buyer Persona 360</span><span>12</span></div></section>
+<section class="slide"><div class="k">Dónde está el público · impresiones reales, 81 cuentas</div><h2>La audiencia vive en vertical.</h2>
+<div style="display:flex;align-items:center;gap:120px;margin-top:48px">
+<div style="position:relative"><svg width="440" height="440" viewBox="0 0 440 440">
+<circle cx="220.0" cy="220.0" r="193.0" fill="none" stroke="var(--signal)" stroke-width="54" stroke-dasharray="691.2 521.4" stroke-dashoffset="0.0" transform="rotate(-90 220.0 220.0)"/>
+<circle cx="220.0" cy="220.0" r="193.0" fill="none" stroke="var(--muted)" stroke-width="54" stroke-dasharray="388.0 824.6" stroke-dashoffset="-691.2" transform="rotate(-90 220.0 220.0)"/>
+<circle cx="220.0" cy="220.0" r="193.0" fill="none" stroke="var(--dim)" stroke-width="54" stroke-dasharray="145.5 1067.1" stroke-dashoffset="-1079.3" transform="rotate(-90 220.0 220.0)"/>
+</svg>
+<div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center"><div class="num sm signal">57%</div><div class="lbl" style="margin-top:8px">vertical</div></div></div>
+<div style="flex:1">
+<div class="row"><div class="idx">Reels y Stories · 57%</div><p>Video vertical corto. Más de la mitad de todas las impresiones del portfolio.</p></div>
+<div class="row"><div class="idx">Feed · 32%</div><p>Imagen y carrusel. Sigue rindiendo, ya no es el centro.</p></div>
+<div class="row"><div class="idx">Otros · 12%</div><p>Marketplace, búsqueda, Audience Network.</p></div>
+<p class="lead" style="margin-top:36px;font-size:32px">Cada persona indica su formato dominante. Las piezas nuevas se diseñan primero para ese formato.</p></div></div><div class="foot"><span>Buyer Persona 360</span><span>13</span></div></section>
+<section class="slide"><div class="k">Inteligencia de precios · Datacar, 679 versiones</div>
+<h2>Todo el mercado 0 km, actualizado cada día. Ejemplo: pickups.</h2>
+<div class="chart-title" style="margin-top:44px">93 versiones D-Pickup en el mercado · USD · en naranja, Mitsubishi L200</div>
+<svg width="1660" height="150" viewBox="0 0 1660 150" font-family="Archivo">
+<line x1="0" y1="90" x2="1660" y2="90" stroke="var(--line)" stroke-width="1"/>
+<text x="0" y="142" fill="var(--dim)" font-size="18" text-anchor="middle">20k</text>
+<text x="277" y="142" fill="var(--dim)" font-size="18" text-anchor="middle">30k</text>
+<text x="553" y="142" fill="var(--dim)" font-size="18" text-anchor="middle">40k</text>
+<text x="830" y="142" fill="var(--dim)" font-size="18" text-anchor="middle">50k</text>
+<text x="1107" y="142" fill="var(--dim)" font-size="18" text-anchor="middle">60k</text>
+<text x="1383" y="142" fill="var(--dim)" font-size="18" text-anchor="middle">70k</text>
+<text x="1660" y="142" fill="var(--dim)" font-size="18" text-anchor="middle">80k</text>
+<circle cx="-0" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="-0" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="55" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="83" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="83" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="83" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="97" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="110" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="124" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="138" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="138" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="138" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="138" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="191" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="191" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="221" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="246" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="246" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="249" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="276" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="276" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="276" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="276" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="276" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="304" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="304" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="329" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="332" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="346" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="387" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="387" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="412" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="412" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="412" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="415" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="415" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="415" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="442" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="442" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="465" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="470" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="470" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="470" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="498" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="512" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="525" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="525" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="553" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="553" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="553" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="553" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="553" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="553" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="556" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="581" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="636" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="664" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="664" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="664" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="664" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="664" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="681" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="691" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="691" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="719" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="747" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="747" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="774" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="774" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="774" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="774" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="800" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="802" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="827" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="827" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="830" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="857" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="857" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="885" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="900" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="910" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="910" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="913" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="993" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="996" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="996" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="996" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="1051" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="1076" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="1082" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="1106" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="1145" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="1342" cy="90" r="7" fill="var(--muted)" opacity=".55"/>
+<circle cx="442" cy="90" r="12" fill="var(--signal)"/>
+<text x="442" y="52" fill="var(--signal)" font-size="20" text-anchor="middle" font-weight="600">35k</text>
+<circle cx="553" cy="90" r="12" fill="var(--signal)"/>
+<text x="553" y="52" fill="var(--signal)" font-size="20" text-anchor="middle" font-weight="600">39k</text>
+<circle cx="691" cy="90" r="12" fill="var(--signal)"/>
+<text x="691" y="52" fill="var(--signal)" font-size="20" text-anchor="middle" font-weight="600">44k</text>
+<circle cx="802" cy="90" r="12" fill="var(--signal)"/>
+<text x="802" y="52" fill="var(--signal)" font-size="20" text-anchor="middle" font-weight="600">48k</text>
+<circle cx="913" cy="90" r="12" fill="var(--signal)"/>
+<text x="913" y="52" fill="var(--signal)" font-size="20" text-anchor="middle" font-weight="600">52k</text>
+<circle cx="996" cy="90" r="12" fill="var(--signal)"/>
+<text x="996" y="52" fill="var(--signal)" font-size="20" text-anchor="middle" font-weight="600">55k</text>
+</svg>
+<div class="cols" style="grid-template-columns:1fr 1fr 1fr;margin-top:40px;gap:0 64px">
+<div class="row"><div class="idx">L200 · tercio más caro</div><p>Frontier 45.990, S10 y Tasman 47.990, Amarok 48.900. El argumento es respaldo y valor de reventa, no precio.</p></div>
+<div class="row"><div class="idx">Jolion · 19.990</div><p>Ocho rivales al mismo precio exacto y solapa con Kardian, JS4 y X50 propios.</p></div>
+<div class="row"><div class="idx">Cada mañana</div><p>Se compara contra el día anterior: quién subió, quién bajó, quién lanzó. Uso interno, nunca en un copy.</p></div></div><div class="foot"><span>Buyer Persona 360</span><span>14</span></div></section>
+<section class="slide"><div class="k">Ventas reales del mercado · CADAM / DNRA 2026</div>
+<h2>62.314 unidades, 80 marcas. Nosotros, 6,6%.</h2>
+<div class="cols" style="grid-template-columns:1.2fr 1fr;margin-top:44px;gap:0 96px">
+<div><div class="chart-title">Unidades matriculadas ene a jul · en naranja, nuestras marcas</div><svg width="920" height="504" viewBox="0 0 920 504" font-family="Archivo">
+<text x="0" y="29" fill="var(--paper)" font-size="22">Toyota</text>
+<rect x="170" y="11" width="620" height="20" fill="var(--dim)"/>
+<text x="804" y="29" fill="var(--muted)" font-size="21">7.563</text>
+<text x="0" y="71" fill="var(--paper)" font-size="22">Chevrolet</text>
+<rect x="170" y="53" width="526" height="20" fill="var(--dim)"/>
+<text x="710" y="71" fill="var(--muted)" font-size="21">6.421</text>
+<text x="0" y="113" fill="var(--paper)" font-size="22">Kia</text>
+<rect x="170" y="95" width="526" height="20" fill="var(--dim)"/>
+<text x="710" y="113" fill="var(--muted)" font-size="21">6.417</text>
+<text x="0" y="155" fill="var(--paper)" font-size="22">Hyundai</text>
+<rect x="170" y="137" width="494" height="20" fill="var(--dim)"/>
+<text x="678" y="155" fill="var(--muted)" font-size="21">6.031</text>
+<text x="0" y="197" fill="var(--paper)" font-size="22">Fiat</text>
+<rect x="170" y="179" width="340" height="20" fill="var(--dim)"/>
+<text x="524" y="197" fill="var(--muted)" font-size="21">4.152</text>
+<text x="0" y="239" fill="var(--paper)" font-size="22">Volkswagen</text>
+<rect x="170" y="221" width="311" height="20" fill="var(--dim)"/>
+<text x="495" y="239" fill="var(--muted)" font-size="21">3.790</text>
+<text x="0" y="281" fill="var(--paper)" font-size="22">Suzuki</text>
+<rect x="170" y="263" width="228" height="20" fill="var(--dim)"/>
+<text x="412" y="281" fill="var(--muted)" font-size="21">2.780</text>
+<text x="0" y="323" fill="var(--paper)" font-size="22">Nissan</text>
+<rect x="170" y="305" width="227" height="20" fill="var(--dim)"/>
+<text x="411" y="323" fill="var(--muted)" font-size="21">2.765</text>
+<text x="0" y="365" fill="var(--paper)" font-size="22">Geely</text>
+<rect x="170" y="347" width="196" height="20" fill="var(--dim)"/>
+<text x="380" y="365" fill="var(--muted)" font-size="21">2.390</text>
+<text x="0" y="407" fill="var(--paper)" font-size="22">Chery</text>
+<rect x="170" y="389" width="176" height="20" fill="var(--dim)"/>
+<text x="360" y="407" fill="var(--muted)" font-size="21">2.147</text>
+<text x="0" y="449" fill="var(--paper)" font-size="22">Jetour</text>
+<rect x="170" y="431" width="106" height="20" fill="var(--signal)"/>
+<text x="290" y="449" fill="var(--muted)" font-size="21">1.290</text>
+<text x="0" y="491" fill="var(--paper)" font-size="22">GWM</text>
+<rect x="170" y="473" width="77" height="20" fill="var(--signal)"/>
+<text x="261" y="491" fill="var(--muted)" font-size="21">941</text>
+</svg></div>
+<div><div class="row"><div class="idx">Contra quién competimos de verdad</div><p>Toyota, Chevrolet, Kia y Hyundai se llevan el 42% del mercado. Jetour es 12º con 2,07%, GWM 16º con 1,51%.</p></div>
+<div class="row"><div class="idx">Por modelo, mes a mes</div><p>Vemos quién crece, quién cae y en qué segmento perdemos. Sus ventas reales, no estimaciones.</p></div>
+<div class="row"><div class="idx">Conquista</div><p>289 compradores nos entregaron un Chevrolet, Hyundai, VW, Kia o Toyota en parte de pago. Es la semilla para buscar a los que se les parecen.</p></div></div></div><div class="foot"><span>Buyer Persona 360</span><span>15</span></div></section>
+<section class="slide"><div class="k">CRM Bitrix · 18.696 leads en 90 días</div>
+<h2>De dónde entra cada lead: cuenta madre o asesores.</h2>
+<div class="legend" style="margin:32px 0 24px"><span><i style="background:var(--signal)"></i>Meta cuenta madre</span><span><i style="background:var(--muted)"></i>Meta asesores</span></div>
+<svg width="1660" height="400" viewBox="0 0 1660 400" font-family="Archivo">
+<text x="0" y="31" fill="var(--paper)" font-size="22">JAC</text>
+<rect x="220" y="12" width="1060" height="22" fill="var(--signal)"/>
+<rect x="1280" y="12" width="215" height="22" fill="var(--muted)"/>
+<text x="1509" y="31" fill="var(--muted)" font-size="21">3.472</text>
+<text x="0" y="81" fill="var(--paper)" font-size="22">Soueast</text>
+<rect x="220" y="62" width="537" height="22" fill="var(--signal)"/>
+<rect x="757" y="62" width="386" height="22" fill="var(--muted)"/>
+<text x="1156" y="81" fill="var(--muted)" font-size="21">2.679</text>
+<text x="0" y="131" fill="var(--paper)" font-size="22">Mitsubishi</text>
+<rect x="220" y="112" width="848" height="22" fill="var(--signal)"/>
+<rect x="1068" y="112" width="52" height="22" fill="var(--muted)"/>
+<text x="1135" y="131" fill="var(--muted)" font-size="21">2.443</text>
+<text x="0" y="181" fill="var(--paper)" font-size="22">Renew</text>
+<rect x="220" y="162" width="554" height="22" fill="var(--signal)"/>
+<rect x="774" y="162" width="27" height="22" fill="var(--muted)"/>
+<text x="815" y="181" fill="var(--muted)" font-size="21">1.577</text>
+<text x="0" y="231" fill="var(--paper)" font-size="22">Renault</text>
+<rect x="220" y="212" width="361" height="22" fill="var(--signal)"/>
+<rect x="581" y="212" width="206" height="22" fill="var(--muted)"/>
+<text x="800" y="231" fill="var(--muted)" font-size="21">1.537</text>
+<text x="0" y="281" fill="var(--paper)" font-size="22">Leapmotor</text>
+<rect x="220" y="262" width="382" height="22" fill="var(--signal)"/>
+<rect x="602" y="262" width="21" height="22" fill="var(--muted)"/>
+<text x="637" y="281" fill="var(--muted)" font-size="21">1.092</text>
+<text x="0" y="331" fill="var(--paper)" font-size="22">Zeekr</text>
+<rect x="220" y="312" width="358" height="22" fill="var(--signal)"/>
+<rect x="578" y="312" width="1" height="22" fill="var(--muted)"/>
+<text x="593" y="331" fill="var(--muted)" font-size="21">974</text>
+<text x="0" y="381" fill="var(--paper)" font-size="22">Xpeng</text>
+<rect x="220" y="362" width="312" height="22" fill="var(--signal)"/>
+<rect x="532" y="362" width="0" height="22" fill="var(--muted)"/>
+<text x="546" y="381" fill="var(--muted)" font-size="21">846</text>
+</svg>
+<p style="margin-top:28px;font-size:23px">Soueast y Renault reparten con los asesores; Mitsubishi, Zeekr y XPeng entran casi todo por la cuenta madre. 3.500 leads llegan sin marca asignada: el primer arreglo de CRM que hay que hacer.</p><div class="foot"><span>Buyer Persona 360</span><span>16</span></div></section>
+<section class="slide"><div class="k">A quién le mostramos los anuncios · 789 adsets activos</div>
+<div style="display:flex;gap:120px;align-items:flex-start;margin-top:24px">
+<div><div class="num">93<span style="font-size:96px">%</span></div><div class="lbl">de los adsets van a público frío</div>
+<p style="margin-top:40px;max-width:560px">Intereses o Advantage+ sin base propia. Ninguno usa la base de compradores del ERP; el retargeting web y de formulario existe solo en algunas marcas.</p></div>
+<div style="flex:1"><div class="chart-title">% de adsets a público frío · por marca</div><svg width="980" height="480" viewBox="0 0 980 480" font-family="Archivo">
+<text x="0" y="29" fill="var(--paper)" font-size="22">Renew</text>
+<rect x="200" y="11" width="650" height="20" fill="var(--signal)"/>
+<text x="864" y="29" fill="var(--muted)" font-size="21">100%</text>
+<text x="0" y="77" fill="var(--paper)" font-size="22">GWM</text>
+<rect x="200" y="59" width="650" height="20" fill="var(--signal)"/>
+<text x="864" y="77" fill="var(--muted)" font-size="21">100%</text>
+<text x="0" y="125" fill="var(--paper)" font-size="22">Jetour</text>
+<rect x="200" y="107" width="650" height="20" fill="var(--signal)"/>
+<text x="864" y="125" fill="var(--muted)" font-size="21">100%</text>
+<text x="0" y="173" fill="var(--paper)" font-size="22">JMEV</text>
+<rect x="200" y="155" width="650" height="20" fill="var(--signal)"/>
+<text x="864" y="173" fill="var(--muted)" font-size="21">100%</text>
+<text x="0" y="221" fill="var(--paper)" font-size="22">JAC</text>
+<rect x="200" y="203" width="633" height="20" fill="var(--signal)"/>
+<text x="847" y="221" fill="var(--muted)" font-size="21">97.4%</text>
+<text x="0" y="269" fill="var(--paper)" font-size="22">Renault</text>
+<rect x="200" y="251" width="608" height="20" fill="var(--signal)"/>
+<text x="822" y="269" fill="var(--muted)" font-size="21">93.5%</text>
+<text x="0" y="317" fill="var(--paper)" font-size="22">Leapmotor</text>
+<rect x="200" y="299" width="597" height="20" fill="var(--signal)"/>
+<text x="811" y="317" fill="var(--muted)" font-size="21">91.9%</text>
+<text x="0" y="365" fill="var(--paper)" font-size="22">Zeekr</text>
+<rect x="200" y="347" width="497" height="20" fill="var(--signal)"/>
+<text x="711" y="365" fill="var(--muted)" font-size="21">76.5%</text>
+<text x="0" y="413" fill="var(--paper)" font-size="22">XPeng</text>
+<rect x="200" y="395" width="390" height="20" fill="var(--signal)"/>
+<text x="604" y="413" fill="var(--muted)" font-size="21">60%</text>
+<text x="0" y="461" fill="var(--paper)" font-size="22">Soueast</text>
+<rect x="200" y="443" width="370" height="20" fill="var(--signal)"/>
+<text x="584" y="461" fill="var(--muted)" font-size="21">56.9%</text>
+</svg></div></div>
+<p style="margin-top:36px">Lo que cambia: retargeting de formulario abierto, visitantes web y <b>la base de recompra del ERP</b> como públicos calientes, y excluirlos de las campañas frías para no pagar dos veces.</p><div class="foot"><span>Buyer Persona 360</span><span>17</span></div></section>
+<section class="slide"><div class="k">Cuánto invertir en cada modelo · USD por mes</div>
+<h2>El presupuesto sigue a las ventas, no a la costumbre.</h2>
+<div class="legend" style="margin:28px 0 12px"><span><i style="background:var(--dim)"></i>hoy, según su peso en anuncios</span><span><i style="background:var(--signal)"></i>sugerido, según su peso en ventas del ERP</span></div>
+<svg width="1660" height="432" viewBox="0 0 1660 432" font-family="Archivo">
+<text x="0" y="30" fill="var(--paper)" font-size="22">Soueast S06</text>
+<rect x="280" y="8" width="732" height="14" fill="var(--dim)"/>
+<rect x="280" y="26" width="1210" height="14" fill="var(--signal)"/>
+<text x="1504" y="30" fill="var(--muted)" font-size="21">1,007 → <tspan fill="var(--paper)" font-weight="700">1,665</tspan></text>
+<text x="0" y="84" fill="var(--paper)" font-size="22">Mitsubishi L200</text>
+<rect x="280" y="62" width="642" height="14" fill="var(--dim)"/>
+<rect x="280" y="80" width="1112" height="14" fill="var(--signal)"/>
+<text x="1406" y="84" fill="var(--muted)" font-size="21">884 → <tspan fill="var(--paper)" font-weight="700">1,531</tspan></text>
+<text x="0" y="138" fill="var(--paper)" font-size="22">Jetour X50</text>
+<rect x="280" y="116" width="269" height="14" fill="var(--dim)"/>
+<rect x="280" y="134" width="733" height="14" fill="var(--signal)"/>
+<text x="1027" y="138" fill="var(--muted)" font-size="21">371 → <tspan fill="var(--paper)" font-weight="700">1,008</tspan></text>
+<text x="0" y="192" fill="var(--paper)" font-size="22">Soueast S07</text>
+<rect x="280" y="170" width="432" height="14" fill="var(--dim)"/>
+<rect x="280" y="188" width="135" height="14" fill="var(--signal)"/>
+<text x="726" y="192" fill="var(--muted)" font-size="21">595 → <tspan fill="var(--paper)" font-weight="700">185</tspan></text>
+<text x="0" y="246" fill="var(--paper)" font-size="22">Renault Master</text>
+<rect x="280" y="224" width="308" height="14" fill="var(--dim)"/>
+<rect x="280" y="242" width="572" height="14" fill="var(--signal)"/>
+<text x="866" y="246" fill="var(--muted)" font-size="21">423 → <tspan fill="var(--paper)" font-weight="700">787</tspan></text>
+<text x="0" y="300" fill="var(--paper)" font-size="22">Soueast S09</text>
+<rect x="280" y="278" width="448" height="14" fill="var(--dim)"/>
+<rect x="280" y="296" width="220" height="14" fill="var(--signal)"/>
+<text x="742" y="300" fill="var(--muted)" font-size="21">616 → <tspan fill="var(--paper)" font-weight="700">303</tspan></text>
+<text x="0" y="354" fill="var(--paper)" font-size="22">Renault Kwid</text>
+<rect x="280" y="332" width="398" height="14" fill="var(--dim)"/>
+<rect x="280" y="350" width="624" height="14" fill="var(--signal)"/>
+<text x="918" y="354" fill="var(--muted)" font-size="21">548 → <tspan fill="var(--paper)" font-weight="700">858</tspan></text>
+<text x="0" y="408" fill="var(--paper)" font-size="22">JAC T9</text>
+<rect x="280" y="386" width="382" height="14" fill="var(--dim)"/>
+<rect x="280" y="404" width="164" height="14" fill="var(--signal)"/>
+<text x="676" y="408" fill="var(--muted)" font-size="21">526 → <tspan fill="var(--paper)" font-weight="700">226</tspan></text>
+</svg>
+<p style="margin-top:20px">Gasto real de cada marca en Meta repartido por lo que cada modelo pesa en la facturación. Los ocho con mayor diferencia.</p><div class="foot"><span>Buyer Persona 360</span><span>18</span></div></section>
+<section class="slide"><div class="k">Stock real y oferta vigente · 1.497 unidades nuevas en el sistema</div>
+<h2>La pauta también tiene que mirar el patio.</h2>
+<div class="cols" style="grid-template-columns:1fr 1.3fr;margin-top:40px;gap:0 96px">
+<div><div class="chart-title">Stock por marca · en stock + en viaje</div><svg width="700" height="396" viewBox="0 0 700 396" font-family="Archivo">
+<text x="0" y="31" fill="var(--paper)" font-size="22">GWM</text>
+<rect x="220" y="12" width="107" height="22" fill="var(--signal)"/>
+<rect x="327" y="12" width="213" height="22" fill="var(--muted)"/>
+<text x="554" y="31" fill="var(--muted)" font-size="21">492</text>
+<text x="0" y="75" fill="var(--paper)" font-size="22">Jetour</text>
+<rect x="220" y="56" width="143" height="22" fill="var(--signal)"/>
+<rect x="363" y="56" width="92" height="22" fill="var(--muted)"/>
+<text x="469" y="75" fill="var(--muted)" font-size="21">362</text>
+<text x="0" y="119" fill="var(--paper)" font-size="22">Mitsubishi</text>
+<rect x="220" y="100" width="121" height="22" fill="var(--signal)"/>
+<rect x="341" y="100" width="5" height="22" fill="var(--muted)"/>
+<text x="360" y="119" fill="var(--muted)" font-size="21">193</text>
+<text x="0" y="163" fill="var(--paper)" font-size="22">Soueast</text>
+<rect x="220" y="144" width="30" height="22" fill="var(--signal)"/>
+<rect x="250" y="144" width="77" height="22" fill="var(--muted)"/>
+<text x="341" y="163" fill="var(--muted)" font-size="21">165</text>
+<text x="0" y="207" fill="var(--paper)" font-size="22">Renault</text>
+<rect x="220" y="188" width="79" height="22" fill="var(--signal)"/>
+<rect x="299" y="188" width="0" height="22" fill="var(--muted)"/>
+<text x="313" y="207" fill="var(--muted)" font-size="21">121</text>
+<text x="0" y="251" fill="var(--paper)" font-size="22">JAC</text>
+<rect x="220" y="232" width="42" height="22" fill="var(--signal)"/>
+<rect x="262" y="232" width="0" height="22" fill="var(--muted)"/>
+<text x="276" y="251" fill="var(--muted)" font-size="21">65</text>
+<text x="0" y="295" fill="var(--paper)" font-size="22">JMEV</text>
+<rect x="220" y="276" width="3" height="22" fill="var(--signal)"/>
+<rect x="223" y="276" width="39" height="22" fill="var(--muted)"/>
+<text x="276" y="295" fill="var(--muted)" font-size="21">65</text>
+<text x="0" y="339" fill="var(--paper)" font-size="22">Leapmotor</text>
+<rect x="220" y="320" width="10" height="22" fill="var(--signal)"/>
+<rect x="230" y="320" width="3" height="22" fill="var(--muted)"/>
+<text x="247" y="339" fill="var(--muted)" font-size="21">20</text>
+<text x="0" y="383" fill="var(--paper)" font-size="22">Zeekr</text>
+<rect x="220" y="364" width="5" height="22" fill="var(--signal)"/>
+<rect x="225" y="364" width="0" height="22" fill="var(--muted)"/>
+<text x="239" y="383" fill="var(--muted)" font-size="21">8</text>
+</svg>
+<div class="legend" style="margin-top:14px"><span><i style="background:var(--signal)"></i>en stock</span><span><i style="background:var(--muted)"></i>en viaje</span></div></div>
+<div><div class="chart-title">Meses de stock al ritmo de venta actual · modelos con 15+ unidades</div><svg width="900" height="440" viewBox="0 0 900 440" font-family="Archivo">
+<text x="0" y="29" fill="var(--paper)" font-size="22">Renault Oroch  ·  23 u.  ·  dto USD 4,000</text>
+<rect x="470" y="11" width="300" height="20" fill="var(--signal)"/>
+<text x="784" y="29" fill="var(--muted)" font-size="21">32.9 meses</text>
+<text x="0" y="73" fill="var(--paper)" font-size="22">Mitsubishi Eclipse Cross  ·  20 u.  ·  dto USD 3,688</text>
+<rect x="470" y="55" width="182" height="20" fill="var(--signal)"/>
+<text x="666" y="73" fill="var(--muted)" font-size="21">20 meses</text>
+<text x="0" y="117" fill="var(--paper)" font-size="22">Leapmotor C10  ·  17 u.  ·  dto USD 6,000</text>
+<rect x="470" y="99" width="155" height="20" fill="var(--signal)"/>
+<text x="639" y="117" fill="var(--muted)" font-size="21">17 meses</text>
+<text x="0" y="161" fill="var(--paper)" font-size="22">GWM Haval H7  ·  55 u.  ·  dto USD 1,000</text>
+<rect x="470" y="143" width="111" height="20" fill="var(--signal)"/>
+<text x="595" y="161" fill="var(--muted)" font-size="21">12.2 meses</text>
+<text x="0" y="205" fill="var(--paper)" font-size="22">Jetour X70  ·  53 u.  ·  dto USD 1,000</text>
+<rect x="470" y="187" width="80" height="20" fill="var(--signal)"/>
+<text x="564" y="205" fill="var(--muted)" font-size="21">8.8 meses</text>
+<text x="0" y="249" fill="var(--paper)" font-size="22">GWM Ora  ·  18 u.  ·  dto USD 2,000</text>
+<rect x="470" y="231" width="66" height="20" fill="var(--signal)"/>
+<text x="550" y="249" fill="var(--muted)" font-size="21">7.2 meses</text>
+<text x="0" y="293" fill="var(--paper)" font-size="22">Renault Koleos  ·  49 u.  ·  dto USD 2,000</text>
+<rect x="470" y="275" width="64" height="20" fill="var(--signal)"/>
+<text x="548" y="293" fill="var(--muted)" font-size="21">7 meses</text>
+<text x="0" y="337" fill="var(--paper)" font-size="22">GWM Tank 400  ·  62 u.  ·  dto USD 3,000</text>
+<rect x="470" y="319" width="56" height="20" fill="var(--signal)"/>
+<text x="540" y="337" fill="var(--muted)" font-size="21">6.1 meses</text>
+<text x="0" y="381" fill="var(--paper)" font-size="22">GWM Haval H9  ·  53 u.  ·  dto USD 1,000</text>
+<rect x="470" y="363" width="54" height="20" fill="var(--signal)"/>
+<text x="538" y="381" fill="var(--muted)" font-size="21">5.9 meses</text>
+<text x="0" y="425" fill="var(--paper)" font-size="22">GWM Haval Jolion  ·  100 u.</text>
+<rect x="470" y="407" width="50" height="20" fill="var(--signal)"/>
+<text x="534" y="425" fill="var(--muted)" font-size="21">5.5 meses</text>
+</svg></div></div>
+<p style="margin-top:28px;font-size:23px">Mucho stock con poca pauta es plata parada; poco stock con mucha pauta es un lead que no se puede entregar. Cada nota ya cruza las dos cosas y avisa.</p><div class="foot"><span>Buyer Persona 360</span><span>19</span></div></section>
+<section class="slide"><div class="k">Objetivo de ventas 2026 · budget vs facturado, acumulado a hoy</div>
+<h2>92% del objetivo acumulado. Marca por marca, la foto es distinta.</h2>
+<div class="legend" style="margin:28px 0 12px"><span><i style="background:var(--dim)"></i>objetivo acumulado</span><span><i style="background:var(--signal)"></i>facturado</span></div>
+<svg width="1660" height="486" viewBox="0 0 1660 486" font-family="Archivo">
+<text x="0" y="30" fill="var(--paper)" font-size="22">Jetour  ·  99.7%</text>
+<rect x="280" y="8" width="1210" height="14" fill="var(--dim)"/>
+<rect x="280" y="26" width="1206" height="14" fill="var(--signal)"/>
+<text x="1504" y="30" fill="var(--muted)" font-size="21">885 → <tspan fill="var(--paper)" font-weight="700">882</tspan></text>
+<text x="0" y="84" fill="var(--paper)" font-size="22">GWM  ·  96.3%</text>
+<rect x="280" y="62" width="960" height="14" fill="var(--dim)"/>
+<rect x="280" y="80" width="924" height="14" fill="var(--signal)"/>
+<text x="1254" y="84" fill="var(--muted)" font-size="21">702 → <tspan fill="var(--paper)" font-weight="700">676</tspan></text>
+<text x="0" y="138" fill="var(--paper)" font-size="22">Soueast  ·  75.6%</text>
+<rect x="280" y="116" width="353" height="14" fill="var(--dim)"/>
+<rect x="280" y="134" width="267" height="14" fill="var(--signal)"/>
+<text x="647" y="138" fill="var(--muted)" font-size="21">258 → <tspan fill="var(--paper)" font-weight="700">195</tspan></text>
+<text x="0" y="192" fill="var(--paper)" font-size="22">Renault  ·  77.9%</text>
+<rect x="280" y="170" width="267" height="14" fill="var(--dim)"/>
+<rect x="280" y="188" width="208" height="14" fill="var(--signal)"/>
+<text x="561" y="192" fill="var(--muted)" font-size="21">195 → <tspan fill="var(--paper)" font-weight="700">152</tspan></text>
+<text x="0" y="246" fill="var(--paper)" font-size="22">Mitsubishi  ·  80.6%</text>
+<rect x="280" y="224" width="232" height="14" fill="var(--dim)"/>
+<rect x="280" y="242" width="187" height="14" fill="var(--signal)"/>
+<text x="526" y="246" fill="var(--muted)" font-size="21">170 → <tspan fill="var(--paper)" font-weight="700">137</tspan></text>
+<text x="0" y="300" fill="var(--paper)" font-size="22">JAC  ·  84.2%</text>
+<rect x="280" y="278" width="226" height="14" fill="var(--dim)"/>
+<rect x="280" y="296" width="190" height="14" fill="var(--signal)"/>
+<text x="520" y="300" fill="var(--muted)" font-size="21">165 → <tspan fill="var(--paper)" font-weight="700">139</tspan></text>
+<text x="0" y="354" fill="var(--paper)" font-size="22">Leapmotor  ·  80.3%</text>
+<rect x="280" y="332" width="104" height="14" fill="var(--dim)"/>
+<rect x="280" y="350" width="83" height="14" fill="var(--signal)"/>
+<text x="398" y="354" fill="var(--muted)" font-size="21">76 → <tspan fill="var(--paper)" font-weight="700">61</tspan></text>
+<text x="0" y="408" fill="var(--paper)" font-size="22">Zeekr  ·  114.3%</text>
+<rect x="280" y="386" width="10" height="14" fill="var(--dim)"/>
+<rect x="280" y="404" width="11" height="14" fill="var(--signal)"/>
+<text x="305" y="408" fill="var(--muted)" font-size="21">7 → <tspan fill="var(--paper)" font-weight="700">8</tspan></text>
+<text x="0" y="462" fill="var(--paper)" font-size="22">XPeng  ·  50%</text>
+<rect x="280" y="440" width="3" height="14" fill="var(--dim)"/>
+<rect x="280" y="458" width="1" height="14" fill="var(--signal)"/>
+<text x="297" y="462" fill="var(--muted)" font-size="21">2 → <tspan fill="var(--paper)" font-weight="700">1</tspan></text>
+</svg>
+<p style="margin-top:24px;font-size:23px">Objetivos del budget de ventas por marca y mes; facturado del ERP hasta el 11/09/2026. 93 negociaciones abiertas en la fuerza de ventas esta semana.</p><div class="foot"><span>Buyer Persona 360</span><span>20</span></div></section>
+<section class="slide"><div class="k">Base de recompra · clientes propios por antigüedad de la compra</div>
+<h2>4.025 clientes ya están en ventana de recompra.</h2>
+<div class="legend" style="margin:32px 0 16px"><span><i style="background:var(--signal)"></i>3 años o más</span><span><i style="background:var(--muted)"></i>2 a 3 años</span><span><i style="background:var(--dim)"></i>1 a 2 años</span></div>
+<svg width="1664" height="312" viewBox="0 0 1664 312" font-family="Archivo">
+<text x="0" y="31" fill="var(--paper)" font-size="22">Renault</text><rect x="220" y="12" width="900" height="22" fill="var(--signal)"/><rect x="1120" y="12" width="233" height="22" fill="var(--muted)"/><rect x="1353" y="12" width="147" height="22" fill="var(--dim)"/><text x="1514" y="31" fill="var(--muted)" font-size="21">2.848</text><text x="0" y="83" fill="var(--paper)" font-size="22">Jetour</text><rect x="220" y="64" width="67" height="22" fill="var(--signal)"/><rect x="287" y="64" width="185" height="22" fill="var(--muted)"/><rect x="472" y="64" width="237" height="22" fill="var(--dim)"/><text x="723" y="83" fill="var(--muted)" font-size="21">1.088</text><text x="0" y="135" fill="var(--paper)" font-size="22">Mitsubishi</text><rect x="220" y="116" width="334" height="22" fill="var(--signal)"/><rect x="554" y="116" width="66" height="22" fill="var(--muted)"/><rect x="620" y="116" width="70" height="22" fill="var(--dim)"/><text x="704" y="135" fill="var(--muted)" font-size="21">1.045</text><text x="0" y="187" fill="var(--paper)" font-size="22">GWM</text><rect x="220" y="168" width="0" height="22" fill="var(--signal)"/><rect x="220" y="168" width="24" height="22" fill="var(--muted)"/><rect x="244" y="168" width="142" height="22" fill="var(--dim)"/><text x="399" y="187" fill="var(--muted)" font-size="21">368</text><text x="0" y="239" fill="var(--paper)" font-size="22">JAC</text><rect x="220" y="220" width="0" height="22" fill="var(--signal)"/><rect x="220" y="220" width="0" height="22" fill="var(--muted)"/><rect x="220" y="220" width="24" height="22" fill="var(--dim)"/><text x="258" y="239" fill="var(--muted)" font-size="21">54</text><text x="0" y="291" fill="var(--paper)" font-size="22">Soueast</text><rect x="220" y="272" width="0" height="22" fill="var(--signal)"/><rect x="220" y="272" width="0" height="22" fill="var(--muted)"/><rect x="220" y="272" width="12" height="22" fill="var(--dim)"/><text x="246" y="291" fill="var(--muted)" font-size="21">27</text>
+</svg>
+<div class="cols" style="grid-template-columns:1fr 1fr 1fr;margin-top:40px;gap:0 64px">
+<div class="row"><div class="idx">Lo que pidió Marketing</div><p>"Al que compró Duster o Arkana hace tres o cuatro años, mostrale Boreal." Renault tiene 2.003 clientes de tres años o más.</p></div>
+<div class="row"><div class="idx">Cómo se usa</div><p>Lista hasheada por cohorte, subida como Custom Audience. Campaña de fidelización separada de la de leads, con su presupuesto y su creatividad.</p></div>
+<div class="row"><div class="idx">Lo que falta</div><p>El contacto solo está cargado desde abril de 2024. Los clientes más viejos son unidades, no teléfonos: hay que recuperarlos desde Bitrix.</p></div></div><div class="foot"><span>Buyer Persona 360</span><span>21</span></div></section>
+<section class="slide"><div class="k">Radar de competencia</div><h2>Qué pauta, qué promociona y a qué precio cada competidor. Cada día.</h2>
+<div class="cols" style="grid-template-columns:1fr 1fr 1fr;margin-top:52px;gap:0 64px">
+<div class="row"><div class="idx">Sus webs</div><p><b>Nueve casas</b> escaneadas a las 08:00 y cada seis horas: Garden, Diesa, Toyotoshi, Automaq, Nipon, Nissan, DLS. Promos, modelos nuevos, precios. Cada cambio, con fecha, en la bitácora.</p></div>
+<div class="row"><div class="idx">Sus anuncios</div><p>La Biblioteca de Anuncios de Meta es pública. Leemos el <b>copy, la oferta y el formato</b> con que cada rival pauta ahora mismo, con el mismo motor que lee los nuestros.</p></div>
+<div class="row"><div class="idx">Sus precios</div><p>692 versiones contra el día anterior. Subió, bajó o lanzó: <b>lo vemos antes que el cliente.</b></p></div></div>
+<p class="lead" style="margin-top:64px">Rival baja una SUV B → mañana lo refleja la persona de Kardian, Jolion y X50 → el copy responde con argumentos absolutos, sin nombrar a nadie.</p><div class="foot"><span>Buyer Persona 360</span><span>22</span></div></section>
+<section class="slide"><div class="k">Píxeles y seguimiento</div><h2>Quien visita una web de marca ya es un público.</h2>
+<div class="cols" style="grid-template-columns:repeat(4,1fr);margin-top:56px;gap:0 48px">
+<div class="row"><div class="idx">01 · Webs de marca</div><p>santarosa · jetour · jac · renew · leapmotor · mitsubishi · xpeng</p></div>
+<div class="row"><div class="idx">02 · Pixel + CAPI</div><p>ViewContent, Lead, Contact, clic a WhatsApp. Por modelo. Desde el navegador y desde el servidor.</p></div>
+<div class="row"><div class="idx">03 · Audiencias vivas</div><p>Vio el X70. Cotizó Kardian. Abrió el formulario y no lo envió.</p></div>
+<div class="row"><div class="idx">04 · Retargeting</div><p>7, 30 y 90 días. Y exclusión de quien ya compró.</p></div></div>
+<div style="display:flex;align-items:flex-end;gap:64px;margin-top:80px"><div><div class="num md">170</div><div class="lbl">audiencias ya mapeadas en Meta</div></div>
+<p style="padding-bottom:22px;max-width:56ch">Visitantes web, interacción en Instagram y Facebook, formularios abiertos: el sistema sabe cuál existe en cada cuenta para no duplicar. Lo que la gente mira entra al retrato del modelo junto con leads y ventas.</p></div><div class="foot"><span>Buyer Persona 360</span><span>23</span></div></section>
+<section class="slide"><div class="k">Públicos similares</div><h2>De quien ya compró a quien se le parece.</h2>
+<svg width="1664" height="260" viewBox="0 0 1664 260" style="margin-top:48px" font-family="Archivo">
+<defs><marker id="b" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="var(--signal)"/></marker></defs>
+<g stroke="var(--line)"><line x1="0" y1="0" x2="1664" y2="0"/><line x1="0" y1="259" x2="1664" y2="259"/></g>
+<g fill="var(--paper)" font-size="26" font-weight="600"><text x="0" y="70">Compradores reales</text><text x="340" y="70">Hash SHA-256</text><text x="680" y="70">Custom Audience</text><text x="1020" y="70">Lookalike PY 1%</text><text x="1360" y="70">Prospecting</text></g>
+<g fill="var(--muted)" font-size="21"><text x="0" y="110">8.406 ventas desde 2018</text><text x="0" y="140">por marca y cohorte</text><text x="340" y="110">2.207 emails · 1.408 tel.</text><text x="340" y="140">nadie ve el dato</text><text x="680" y="110">en la cuenta madre</text><text x="680" y="140">de cada marca</text><text x="1020" y="110">Meta encuentra a los</text><text x="1020" y="140">que se parecen</text><text x="1360" y="110">con el copy de la persona</text><text x="1360" y="140">y su formato ganador</text></g>
+<g stroke="var(--signal)" stroke-width="2" marker-end="url(#b)"><line x1="0" y1="205" x2="300" y2="205"/><line x1="340" y1="205" x2="640" y2="205"/><line x1="680" y1="205" x2="980" y2="205"/><line x1="1020" y1="205" x2="1320" y2="205"/></g><line x1="1360" y1="205" x2="1664" y2="205" stroke="var(--signal)" stroke-width="2"/></svg>
+<div class="cols" style="grid-template-columns:1fr 1fr 1fr;margin-top:48px;gap:0 64px">
+<div class="row"><div class="idx">Por API, no a mano</div><p>La audiencia y el lookalike se crean desde el sistema en cada cuenta. Un comando por marca.</p></div>
+<div class="row"><div class="idx">Exclusión automática</div><p>La misma semilla evita gastar en quien ya compró y en leads abiertos del CRM.</p></div>
+<div class="row"><div class="idx">Semilla que crece</div><p>Cada factura nueva del ERP entra a la semilla. El público similar mejora con cada venta.</p></div></div><div class="foot"><span>Buyer Persona 360</span><span>24</span></div></section>
+<section class="slide"><div class="k">El ciclo</div><h2>Un sistema que aprende de cada venta.</h2>
+<div style="display:flex;gap:120px;align-items:center;margin-top:16px">
+<svg width="600" height="600" viewBox="0 0 620 620" font-family="Archivo"><defs><marker id="c" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="var(--signal)"/></marker></defs>
+<circle cx="310" cy="310" r="240" fill="none" stroke="var(--line)"/>
+<g stroke="var(--signal)" stroke-width="2.5" fill="none" marker-end="url(#c)"><path d="M330,70 A240,240 0 0,1 550,290"/><path d="M550,330 A240,240 0 0,1 330,550"/><path d="M290,550 A240,240 0 0,1 70,330"/><path d="M70,290 A240,240 0 0,1 290,70"/></g>
+<g font-size="24" font-weight="700" fill="var(--paper)" text-anchor="middle"><text x="310" y="46">Pauta</text><text x="590" y="318">Leads</text><text x="310" y="596">Venta</text><text x="30" y="318">Persona</text></g>
+<text x="310" y="300" text-anchor="middle" font-size="34" font-weight="800" fill="var(--paper)">CADA</text><text x="310" y="342" text-anchor="middle" font-size="34" font-weight="800" fill="var(--signal)">MAÑANA</text></svg>
+<div style="flex:1">
+<div class="row"><div class="idx">01</div><p><b>Pautamos con la persona.</b> Copy, formato y público salen de la ficha del modelo.</p></div>
+<div class="row"><div class="idx">02</div><p><b>Los leads entran al CRM.</b> Se leen por canal y por marca, sin datos personales.</p></div>
+<div class="row"><div class="idx">03</div><p><b>La venta se factura.</b> El ERP dice qué modelo, qué versión, a qué precio y con qué retoma.</p></div>
+<div class="row"><div class="idx">04</div><p><b>La persona se reescribe.</b> La semilla del lookalike crece. Vuelta al 01, mejor que ayer.</p></div></div></div><div class="foot"><span>Buyer Persona 360</span><span>25</span></div></section>
+<section class="slide drench"><div class="k">Cómo lo vamos a usar</div>
+<h2 style="font-size:76px">Ocho usos concretos. Empezamos por los tres primeros.</h2>
+<style>.usos .row{padding:20px 0}.usos p{font-size:23px;line-height:1.4}.usos .idx{margin-bottom:6px}</style>
+<div class="cols usos" style="grid-template-columns:1fr 1fr;margin-top:36px;gap:0 96px">
+<div>
+<div class="row" style="border-color:var(--signal-ink)"><div class="idx" style="color:var(--signal-ink)">01 · Marketing · esta semana</div><p style="color:var(--signal-ink)"><b style="color:var(--signal-ink)">Reasignar presupuesto Meta con el semáforo y el sugerido por modelo.</b> Más a Kwid, X50 y Wingle. Revisar Kardian y Tank 400. Medir CPL antes y después.</p></div>
+<div class="row" style="border-color:var(--signal-ink)"><div class="idx" style="color:var(--signal-ink)">02 · Marketing · esta semana</div><p style="color:var(--signal-ink)"><b style="color:var(--signal-ink)">Campaña de fidelización con la base de recompra.</b> Quien compró Duster o Arkana hace más de dos años ve Boreal. Separada de la de leads, con su presupuesto.</p></div>
+<div class="row" style="border-color:var(--signal-ink)"><div class="idx" style="color:var(--signal-ink)">03 · Marketing · esta semana</div><p style="color:var(--signal-ink)"><b style="color:var(--signal-ink)">Pautar mirando el patio.</b> Más pauta u oferta donde hay meses de stock; frenar donde no hay unidades. Piezas en vertical: el 57% de las impresiones está en Reels y Stories.</p></div>
+<div class="row" style="border-color:var(--signal-ink)"><div class="idx" style="color:var(--signal-ink)">04 · Ventas · salón</div><p style="color:var(--signal-ink)"><b style="color:var(--signal-ink)">Argumentario por modelo</b> desde la ficha: qué le duele al cliente, precio contra rivales, versión que más pide.</p></div></div>
+<div>
+<div class="row" style="border-color:var(--signal-ink)"><div class="idx" style="color:var(--signal-ink)">05 · Marketing · conquista</div><p style="color:var(--signal-ink)"><b style="color:var(--signal-ink)">Lookalikes de compradores reales y de conquista</b> (los 289 que entregaron Chevrolet, Hyundai, VW, Kia o Toyota). Un comando por marca.</p></div>
+<div class="row" style="border-color:var(--signal-ink)"><div class="idx" style="color:var(--signal-ink)">06 · Marketing · diario</div><p style="color:var(--signal-ink)"><b style="color:var(--signal-ink)">Alerta de precio rival</b> y respuesta en 24 horas con argumentos absolutos.</p></div>
+<div class="row" style="border-color:var(--signal-ink)"><div class="idx" style="color:var(--signal-ink)">07 · Comercial · CRM</div><p style="color:var(--signal-ink)"><b style="color:var(--signal-ink)">Cerrar el ciclo en Bitrix:</b> marcar convertidos, ligar deals, asignar marca a los 3.500 leads huérfanos.</p></div>
+<div class="row" style="border-color:var(--signal-ink)"><div class="idx" style="color:var(--signal-ink)">08 · Gerencia · mensual</div><p style="color:var(--signal-ink)"><b style="color:var(--signal-ink)">Tablero lead, deal, factura por marca</b> con la brecha pauta / venta como criterio de inversión.</p></div></div></div><div class="foot"><span>Buyer Persona 360</span><span>26</span></div></section>
+<section class="slide" style="display:flex;flex-direction:column;justify-content:center"><div class="k">Buyer Persona 360</div>
+<h1 style="font-size:150px">Dejamos de adivinar<br>a quién <span class="signal">venderle</span>.</h1>
+<div style="display:flex;gap:110px;margin-top:88px">
+<div><div class="num md">75</div><div class="lbl">personas vivas</div></div><div><div class="num md">4</div><div class="lbl">fuentes reales</div></div>
+<div><div class="num md">06:00</div><div class="lbl">todos los días</div></div><div><div class="num md">0</div><div class="lbl">datos personales expuestos</div></div></div>
+<div class="foot"><span>Santa Rosa Automotores · Innovación · 2026</span><span>Uso interno</span></div></section>
+</body></html>
