@@ -32,7 +32,8 @@ Marcas: GWM · JAC · Jetour · JMEV · Leapmotor · Mitsubishi · Renault · Re
 
 ## Herramientas
 
-- **Skill `meta-ads-santarosa`** (`.claude/skills/`): cuentas, páginas y formularios de cada marca, y cómo armar la campaña. Se carga sola al abrir Claude Code en esta carpeta. Para crear campañas, Claude necesita el conector de Meta Ads conectado **con el usuario de Facebook de quien pauta**, con acceso a las cuentas en el Business Manager de Santa Rosa.
+- **Conector de Meta (`facebook-ads`)**: viene configurado en `.mcp.json` (el oficial de Meta, `https://mcp.facebook.com/ads`) y no lleva claves. La primera vez, Claude Code pregunta si usar el servidor de `.mcp.json`: aceptar. Después `/mcp` → `facebook-ads` → *Authenticate*, y entrar con **el usuario de Facebook de quien pauta**, con acceso a las cuentas en el Business Manager de Santa Rosa. Si deja de pautar, se le saca el acceso ahí.
+- **Skill `meta-ads-santarosa`** (`.claude/skills/`): cuentas, páginas y formularios de cada marca, y cómo armar la campaña. Se carga sola al abrir Claude Code en esta carpeta.
 - **Scripts de lectura** (necesitan `META_ADS_ACCESS_TOKEN` y `META_ADS_AD_ACCOUNT_IDS` en `.env`): `scripts/diagnostico_pauta.py` (14 días, todas las cuentas: conjuntos caros, chicos y con fatiga), `scripts/informe_pautas_ia.py` y `scripts/curva_aprendizaje.py`.
 - **Entorno:** `python3 -m venv venv && venv/bin/pip install -r requirements.txt` y `cp .env.example .env`.
 

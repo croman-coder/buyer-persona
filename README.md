@@ -9,7 +9,7 @@ Sistema que lee **Meta Ads** (85 cuentas), el **ERP de ventas**, **Bitrix24** (s
 1. Descomprimir la carpeta donde se quiera trabajar (no hace falta `venv`: se crea en el paso 5 si se usan los scripts).
 2. **Obsidian** → *Abrir carpeta como vault* → elegir la carpeta `Buyer Persona`.
 3. **Claude Code** abierto en esta carpeta: lee `CLAUDE.md` (contexto, reglas y pendientes) y carga la skill `meta-ads-santarosa`.
-4. Para crear campañas: conectar el conector de Meta Ads en Claude con el usuario de Facebook propio (con acceso a las cuentas en el Business Manager de Santa Rosa). Ninguna clave viaja en esta copia.
+4. Para crear campañas: el conector oficial de Meta (`facebook-ads`) ya viene en `.mcp.json`. Claude Code pregunta si usarlo: aceptar. Después `/mcp` → `facebook-ads` → *Authenticate* con el usuario de Facebook propio (con acceso a las cuentas en el Business Manager de Santa Rosa). Ninguna clave viaja en esta copia.
 5. Solo para los scripts de diagnóstico: `python3 -m venv venv && venv/bin/pip install -r requirements.txt`, `cp .env.example .env` y completar el token.
 
 ## Cómo corre
@@ -35,6 +35,7 @@ config/settings.yaml     configuración (las claves salen del .env, nunca van ac
 Buyer Persona/           el vault de Obsidian
 .claude/skills/meta-ads-santarosa/   skill de Claude para armar campañas de Meta: se carga sola al abrir Claude Code acá
 CLAUDE.md                contexto y reglas para Claude Code (lo lee solo)
+.mcp.json                conector oficial de Meta (facebook-ads), sin claves: cada uno inicia sesión con su usuario
 docs/                    guías de conexión (Meta, Google), despliegue y recopilación automática
 ```
 
