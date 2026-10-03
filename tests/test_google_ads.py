@@ -3,6 +3,7 @@
 Corre con pytest o directo: venv/bin/python3 tests/test_google_ads.py
 """
 import glob
+from datetime import date
 import json
 import os
 import sys
@@ -12,7 +13,9 @@ sys.path.insert(0, ROOT)
 
 from src.generators.marketing_generator import MarketingContentGenerator, validar_google_ads  # noqa: E402
 
-GEN = MarketingContentGenerator()
+# Con la planilla de septiembre vigente (26-09); los casos de oferta vencida usan GEN_OCTUBRE.
+GEN = MarketingContentGenerator({"hoy": date(2026, 9, 26)})
+GEN_OCTUBRE = MarketingContentGenerator({"hoy": date(2026, 10, 3)})
 KOLEOS = {
     "name": "Renault Koleos",
     "segment": {"type": "model", "name": "Renault Koleos", "brand": "Renault", "category": "SUV"},
@@ -49,6 +52,12 @@ def test_oferta_sale_de_la_planilla():
     assert of["titulos"] == ["Desde USD 36.990", "Hasta USD 2.000 de Descuento"]
     assert "septiembre" in of["descripcion"] and len(of["descripcion"]) <= 90
     assert of["condiciones"] == ["DESCUENTO MAXIMO SOLO VALIDO PARA VTA CARTERA SUDAMERIS"]
+
+
+def test_oferta_vencida_no_se_propone():
+    of = GEN_OCTUBRE._gen_google_ads(KOLEOS)["offer"]
+    assert of["vencida"] and of["titulos"] == [] and of["descripcion"] is None
+    assert of["mes"] == "septiembre" and of["descuento_max"] == 2000.0   # queda como último dato
 
 
 def test_sin_oferta_en_planilla_no_hay_oferta():

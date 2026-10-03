@@ -1,7 +1,7 @@
 ---
 type: moc-marca
 marca: JAC
-created: 2026-10-02
+created: 2026-10-03
 tags:
   - moc
   - marca/jac
@@ -9,17 +9,17 @@ tags:
 
 # 🚗 JAC
 
-> Generado el **2026-10-02 06:41** · 12 modelos con persona propia.
+> Generado el **2026-10-03 12:34** · 12 modelos con persona propia.
 
 ## 👤 Comprador de la marca
 
 - [[Comprador JAC]]
-- **Inversión Meta:** ~USD 2,388/mes · CPL USD 2.47 · 2,906 leads en la ventana
-- **Públicos:** 97.4% de 77 adsets activos a público frío
+- **Inversión Meta:** ~USD 2,398/mes · CPL USD 2.31 · 3,120 leads en la ventana
+- **Públicos:** 97.4% de 76 adsets activos a público frío
 
 ## 👥 Quién mira y quién decide
 
-- En Meta, ellas son el 17,3 % de los clics y contactan igual que ellos con el mismo anuncio (0,98×).
+- En Meta, ellas son el 17,2 % de los clics y contactan igual que ellos con el mismo anuncio (1,00×).
 - El 46,6 % de las compras a cliente final las factura una empresa.
 - **Qué hacer en Meta Ads y cómo leerlo:** [[👥 Quién mira y quién decide — JAC]]
 
@@ -27,18 +27,18 @@ tags:
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[JAC X200]] | 35-44 | Masculino 80.0% | modelo | 36 | 63 | ⚖️ equilibrado | USD 568 |
-| [[JAC Sunray]] | 45-54 | Masculino 84.2% | modelo | 17 | 29 | ⚖️ equilibrado | USD 270 |
-| [[JAC LD250]] | 25-34 | Masculino 74.9% | modelo | 17 | 17 | 🟢 sub-pautado | USD 270 |
-| [[JAC T9]] | 35-44 | Masculino 76.5% | modelo | 14 | 95 | 🔴 sobre-pautado | USD 222 |
-| [[JAC T8]] | 35-44 | Masculino 82.7% | modelo | 14 | 41 | ⚖️ equilibrado | USD 222 |
-| [[JAC E30X]] | 35-44 | Masculino 85.5% | modelo | 12 | 36 | ⚖️ equilibrado | USD 189 |
-| [[JAC RF8]] | 35-44 | Masculino 75.0% | modelo | 11 | 53 | ⚖️ equilibrado | USD 174 |
-| [[JAC LD123]] | 35-44 | Masculino 82.4% | modelo | 9 | 14 | ⚖️ equilibrado | USD 143 |
-| [[JAC D8Bs0]] | 35-44 | Masculino 85.2% | marca | 8 | 0 | 🟢 sub-pautado | USD 127 |
-| [[JAC JS4]] | 35-44 | Masculino 70.6% | modelo | 7 | 69 | 🔴 sobre-pautado | USD 110 |
-| [[JAC LE420]] | 35-44 | Masculino 82.4% | modelo | 6 | 7 | ⚖️ equilibrado | USD 96 |
-| [[JAC E-JS1]] | 35-44 | Masculino 85.2% | marca | 0 | 16 | ⚖️ equilibrado | — |
+| [[JAC X200]] | 35-44 | Masculino 80.2% | modelo | 36 | 63 | ⚖️ equilibrado | USD 571 |
+| [[JAC Sunray]] | 45-54 | Masculino 84.1% | modelo | 17 | 29 | ⚖️ equilibrado | USD 271 |
+| [[JAC LD250]] | 25-34 | Masculino 75.1% | modelo | 17 | 17 | 🟢 sub-pautado | USD 271 |
+| [[JAC T9]] | 35-44 | Masculino 76.7% | modelo | 14 | 95 | 🔴 sobre-pautado | USD 223 |
+| [[JAC T8]] | 35-44 | Masculino 82.6% | modelo | 14 | 42 | ⚖️ equilibrado | USD 223 |
+| [[JAC E30X]] | 35-44 | Masculino 85.2% | modelo | 12 | 37 | ⚖️ equilibrado | USD 189 |
+| [[JAC RF8]] | 35-44 | Masculino 77.0% | modelo | 11 | 53 | ⚖️ equilibrado | USD 175 |
+| [[JAC LD123]] | 35-44 | Masculino 82.7% | modelo | 9 | 14 | ⚖️ equilibrado | USD 144 |
+| [[JAC D8Bs0]] | 35-44 | Masculino 85.3% | marca | 8 | 0 | 🟢 sub-pautado | USD 127 |
+| [[JAC JS4]] | 35-44 | Masculino 70.5% | modelo | 7 | 69 | 🔴 sobre-pautado | USD 110 |
+| [[JAC LE420]] | 35-44 | Masculino 84.6% | modelo | 6 | 7 | ⚖️ equilibrado | USD 96 |
+| [[JAC E-JS1]] | 35-44 | Masculino 85.3% | marca | 0 | 16 | ⚖️ equilibrado | — |
 
 _Demo = de dónde sale edad/género: **modelo** (anuncios propios del modelo) o **marca** (heredado, pocos clics propios). Brecha: 🟢 sub-pautado = vende más de lo que se pauta, 🔴 sobre-pautado, 🆕 lanzamiento sin ventas en el ERP aún._
 

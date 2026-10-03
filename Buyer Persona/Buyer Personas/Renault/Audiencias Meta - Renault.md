@@ -9,21 +9,21 @@ _61 públicos únicos encontrados en las cuentas de Renault. Reusalos para remar
 
 | Audiencia | Tipo | Tamaño aprox. |
 |---|---|---|
-| Renault | Público Instagram | Interacción Instagram | 30,100 |
+| Renault | Público Instagram | Interacción Instagram | 30,200 |
 | personas interacturaron ig | Interacción Instagram | 21,400 |
 | Interactuaron con Facebook. | Interacción Instagram | 17,300 |
-| personas que visitaron el sitio | Visitantes del sitio | 12,200 |
+| personas que visitaron el sitio | Visitantes del sitio | 12,300 |
 | publico | Visitantes del sitio | 12,100 |
 | Interactuaron ig(365 dias) | Interacción Instagram | 2,900 |
 | Formulario abierto/no enviado | Interacción (IG/FB/anuncios) | 2,700 |
 | BB-DD-KWID-_Febr-2025_-_3_.csv | Personalizada | 2,300 |
-| Abrieron formularios y no los enviaron | Interacción (IG/FB/anuncios) | 2,100 |
+| Abrieron formularios y no los enviaron | Interacción (IG/FB/anuncios) | 2,000 |
 | Interactuaron con la cuenta 365 | Interacción Instagram | 1,800 |
 | Interactuaron con la cuenta | Interacción Instagram | 1,800 |
 | Interactuaron 365 dias | Interacción Instagram | 1,800 |
 | Personas que Interactuaron (365 dias) ig | Interacción Instagram | 1,800 |
 | Personas que interacturaron ig (365 dias) | Interacción Instagram | 1,800 |
-| calificados | Visitantes del sitio | 1,600 |
+| calificados | Visitantes del sitio | 1,700 |
 | Abrieron y enviaron | Interacción (IG/FB/anuncios) | 1,000 |
 | Abrieron y no enviaron 90 | Interacción (IG/FB/anuncios) | 1,000 |
 | Abrieron el formulario 90 dias | Interacción (IG/FB/anuncios) | 1,000 |

@@ -20,7 +20,7 @@ tags: [marketing, google-ads]
 | 5 | Probalo Antes de Comprar | 24 |
 | 6 | Financiación a tu Medida | 24 |
 | 7 | Usado con Respaldo | 18 |
-| 8 | Espacio para Toda la Familia | 28 |
+| 8 | Eficiencia en Cada Kilómetro | 28 |
 | 9 | Hablá con un Asesor | 19 |
 | 10 | Pedí tu Cotización Hoy | 22 |
 

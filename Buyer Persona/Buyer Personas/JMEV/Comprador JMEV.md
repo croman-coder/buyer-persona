@@ -6,7 +6,7 @@ age_range: 35-44
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-02'
+created: '2026-10-03'
 tags:
 - buyer-persona
 - marketing
@@ -18,7 +18,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este público, armado solo con datos propios: los anuncios de Meta (clics por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-04 → 2026-10-02 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-05 → 2026-10-03 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quién hace clic en los anuncios**, no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -27,16 +27,16 @@ tags:
 
 > [!summary] Perfil Resumido
 - **Edad:** 35-44 (34.8% de los clics) · heredado de la marca
-- **Género predominante:** Masculino (88.8%)
+- **Género predominante:** Masculino (88.7%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-04 → 2026-10-02 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-05 → 2026-10-03 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Marca → `JMEV`
 - **Ticket promedio (ERP, facturado):** USD 13,464
 
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 10,7 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,33×).
+- **Meta:** ellas son el 10,8 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,36×).
 - **Quién paga (ERP, 12 meses):** el 3,6 % de las compras a cliente final las factura una empresa.
 - **Para Meta Ads:** Una pieza que les hable a ellas, que son las que avanzan.
 
@@ -49,8 +49,8 @@ _Qué es: quién hace clic en los anuncios de este público, por edad y género.
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** audiencia de Meta de la marca **JMEV** (15,914 clics), ponderado por clics — Masculino 88.8%
-- **Distribución de edad (Meta):** 35-44: 34.8%, 25-34: 25.3%, 45-54: 22.3%, 55-64: 9.0%, 18-24: 5.4%, 65+: 3.2%
+- **Fuente edad/género:** audiencia de Meta de la marca **JMEV** (15,869 clics), ponderado por clics — Masculino 88.7%
+- **Distribución de edad (Meta):** 35-44: 34.8%, 25-34: 25.5%, 45-54: 22.2%, 55-64: 8.9%, 18-24: 5.4%, 65+: 3.2%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
@@ -58,7 +58,7 @@ _Qué es: quién hace clic en los anuncios de este público, por edad y género.
 _Qué es: los temas que aparecen en los anuncios que este público ve y clickea. No son intereses declarados (Meta dejó de exponerlos en 2021): es con qué le estamos hablando y qué responde. El % es la parte de los anuncios que toca cada tema._
 
 **Intereses observados** (35 anuncios reales leídos):
-- Autos eléctricos y ahorro de combustible · 88.6% de los anuncios
+- Autos eléctricos y ahorro de combustible · 74.3% de los anuncios
 - Garantía y respaldo posventa · 25.7% de los anuncios
 - Tecnología y conectividad · 17.1% de los anuncios
 - Diseño y estatus · 14.3% de los anuncios
@@ -131,9 +131,9 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > **Mensaje clave:** Enfoca la comunicación en 'JMEV'.
 > **Canales:** Prioriza Showroom.
-> **Formato:** Feed (imagen/carrusel estático) concentra el 67.0% de las impresiones reales — priorizá ese formato en las piezas nuevas.
+> **Formato:** Feed (imagen/carrusel estático) concentra el 67.3% de las impresiones reales — priorizá ese formato en las piezas nuevas.
 > **Públicos hoy:** los 5 adsets activos van a público frío (5 con Advantage+). Sumar retargeting (formulario abierto sin enviar, visitantes web) y la base de compradores del ERP.
-> **Inversión actual:** USD 593 en la ventana (~USD 198/mes), 555 leads → costo por lead USD 1.07.
+> **Inversión actual:** USD 591 en la ventana (~USD 197/mes), 1,199 leads → costo por lead USD 0.49.
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -146,20 +146,20 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — JMEV (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 555
+> **Total de leads de la marca en la ventana:** 1,199
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — JMEV (90 días)
 
-> **Leads:** 1,259 → **convertidos:** 2 (0.2%)
-> **Por canal:** Meta madre 1,255, Otros canales 4
+> **Leads:** 1,267 → **convertidos:** 2 (0.2%)
+> **Por canal:** Meta madre 1,263, Otros canales 4
 > **Deals:** 14 — ganados 0, perdidos 0, en proceso 14 (win rate 0.0%)
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 
 
 > [!info] 📦 Stock, oferta y objetivos — uso interno
 
-> **Stock de la marca:** 65 unidades (3 disponibles, 60 en viaje, 1 con propuesta).
+> **Stock de la marca al 18-09:** 65 unidades (3 disponibles, 60 en viaje, 1 con propuesta).
 > **Objetivo de la marca (objetivo compartido con Leapmotor) (según el ERP):** mes 10/2026: 0 de 21 (0.0%) · acumulado 2026: 61 de 97 (62.9%) · anual 136 unidades. Ventas cargadas hasta 2026-09-11: lo vendido después de esa fecha todavía no cuenta acá.
 > _Fuentes: stock del ERP, planilla de acciones comerciales, budget de ventas y resumen semanal de negociación (data/fuentes/). Sin datos personales._
 
@@ -173,7 +173,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-02 06:41*
+*Generado el 2026-10-03 12:34*
 
 ## 🔗 Contenido Relacionado
 

@@ -1,7 +1,7 @@
 ---
 type: moc-marca
 marca: Zeekr
-created: 2026-10-02
+created: 2026-10-03
 tags:
   - moc
   - marca/zeekr
@@ -9,26 +9,26 @@ tags:
 
 # 🚗 Zeekr
 
-> Generado el **2026-10-02 06:41** · 3 modelos con persona propia.
+> Generado el **2026-10-03 12:34** · 3 modelos con persona propia.
 
 ## 👤 Comprador de la marca
 
 - [[Comprador Zeekr]]
-- **Inversión Meta:** ~USD 921/mes · CPL USD 2.49 · 1,111 leads en la ventana
-- **Públicos:** 76.5% de 17 adsets activos a público frío
+- **Inversión Meta:** ~USD 924/mes · CPL USD 2.45 · 1,131 leads en la ventana
+- **Públicos:** 77.8% de 18 adsets activos a público frío
 
 ## 👥 Quién mira y quién decide
 
-- En Meta, ellas son el 28,6 % de los clics pero, viendo el mismo anuncio, contactan 0,77× lo que ellos (menos en 3 de 4 conjuntos): **ella investiga y él da el paso**.
+- En Meta, ellas son el 29,0 % de los clics pero, viendo el mismo anuncio, contactan 0,78× lo que ellos (menos en 3 de 4 conjuntos): **ella investiga y él da el paso**.
 - **Qué hacer en Meta Ads y cómo leerlo:** [[👥 Quién mira y quién decide — Zeekr]]
 
 ## 🚘 Modelos
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Zeekr X]] | 65+ | Masculino 76.7% | marca | 12 | 51 | ⚖️ equilibrado | USD 552 |
-| [[Zeekr 001]] | 45-54 | Masculino 65.7% | modelo | 4 | 56 | 🔴 sobre-pautado | USD 184 |
-| [[Zeekr 7X]] | 65+ | Masculino 71.8% | modelo | 4 | 20 | ⚖️ equilibrado | USD 184 |
+| [[Zeekr X]] | 65+ | Masculino 76.4% | marca | 12 | 51 | ⚖️ equilibrado | USD 555 |
+| [[Zeekr 001]] | 35-44 | Masculino 67.7% | modelo | 4 | 56 | 🔴 sobre-pautado | USD 185 |
+| [[Zeekr 7X]] | 65+ | Masculino 67.2% | modelo | 4 | 21 | ⚖️ equilibrado | USD 185 |
 
 _Demo = de dónde sale edad/género: **modelo** (anuncios propios del modelo) o **marca** (heredado, pocos clics propios). Brecha: 🟢 sub-pautado = vende más de lo que se pauta, 🔴 sobre-pautado, 🆕 lanzamiento sin ventas en el ERP aún._
 

@@ -5,7 +5,7 @@ tags: [marketing, email]
 ---
 # 📧 Email - Soueast S07
 **Persona:** [[Soueast S07]]
-**Test drive:** hay 1 unidad de prueba en el stock de hoy (ERP).
+**Test drive:** hay 1 unidad de prueba en el stock del 18-09 (ERP).
 
 > [!info] Cómo usar este mail
 > Los campos entre llaves (`{nombre}`, `{link}`) los completa la herramienta de envío. No promete tasas, plazos, garantías ni urgencias: la oferta del mes y el stock van al final, para confirmar con la marca antes de sumarlos.
@@ -22,9 +22,9 @@ Hola {nombre}:
 
 Gracias por tu interés en Soueast S07. Esto es lo que más nos consultan:
 
-• Un diseño que se nota en cada detalle.
-• Tecnología y conectividad para el día a día, según la versión.
 • Posventa oficial: service y repuestos originales de la marca.
+• Tecnología y conectividad para el día a día, según la versión.
+• Un diseño que se nota en cada detalle.
 
 Lo mejor es probarlo: coordiná tu test drive el día y horario que prefieras, sin compromiso.
 
@@ -48,10 +48,9 @@ Hola {nombre}:
 Equipo Soueast
 ```
 
-## 💲 Oferta del mes y stock: confirmar antes de usar
-> [!warning] Sale de la planilla de acciones comerciales y del stock del ERP
-> Vence con el mes y puede tener condiciones. No se usa sin confirmarla con la marca.
+## 💲 Oferta y stock: la planilla cargada es de septiembre y ya venció
+> [!warning] No usar estos montos en un texto
+> Es el último dato de la planilla de acciones comerciales. Hasta que se cargue la de este mes, confirmar precio y descuento con la marca.
 
-- Párrafo para sumar al mail: `En septiembre, Soueast S07 está desde USD 22.990 y con hasta USD 1.500 de descuento. Consultá condiciones con tu asesor.`
-- Planilla (2026-09): precio de lista desde USD 22.990 · descuento hasta USD 1.500
-- Stock disponible hoy (ERP): 5 unidades. «Entrega inmediata» solo si la marca lo confirma.
+- Último dato de la planilla (2026-09): precio de lista desde USD 22.990 · descuento hasta USD 1.500
+- Stock disponible al 18-09 (ERP): 5 unidades. «Entrega inmediata» solo si la marca lo confirma.

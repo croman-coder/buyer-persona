@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: XPeng
-periodo_meta: 2026-07-04 a 2026-10-02
-created: 2026-10-02
+periodo_meta: 2026-07-05 a 2026-10-03
+created: 2026-10-03
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,7 +12,7 @@ tags:
 # 👥 Quién mira y quién decide — XPeng
 
 > [!summary] En una línea
-> En Meta, ellas son el 44,8 % de los clics; con el mismo anuncio contactan 0,90× lo que ellos, pero con 2 conjuntos todavía es una tendencia. En el 0,0 % de los chats el cliente nombra a otra persona.
+> En Meta, ellas son el 45,1 % de los clics; con el mismo anuncio contactan 0,91× lo que ellos, pero con 2 conjuntos todavía es una tendencia. En el 0,0 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
 > 1. **Una pieza para quien acompaña la decisión** — «Vengan a probarla juntos». Detalle en la sección 5.
@@ -27,20 +27,20 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-04** al **2026-10-02**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-05** al **2026-10-03**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **XPeng** | 44,8 % | 41,5 % | **0,90×** | 2 (ellas menos en 1) | Misma tendencia, con pocos conjuntos para confirmarlo |
-| [[XPeng G9|XPeng G9]] | 46,1 % | 38,8 % | 0,86× | 2 (ellas menos en 1) | Misma tendencia, con pocos conjuntos para confirmarlo |
+| **XPeng** | 45,1 % | 42,1 % | **0,91×** | 2 (ellas menos en 1) | Misma tendencia, con pocos conjuntos para confirmarlo |
+| [[XPeng G9|XPeng G9]] | 46,3 % | 39,4 % | 0,87× | 2 (ellas menos en 1) | Misma tendencia, con pocos conjuntos para confirmarlo |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|---|
-| 0,3 % | 1,9 % | 5,4 % | 7,1 % | 8,0 % | 9,8 % |
+| 0,6 % | 2,0 % | 5,7 % | 6,9 % | 7,9 % | 9,8 % |
 
-Los mayores de 55 contactan parecido al resto con el mismo anuncio (1,12×).
+Los mayores de 55 contactan parecido al resto con el mismo anuncio (1,10×).
 
 ## 2. ¿Qué le interesa a cada uno?
 
@@ -50,11 +50,12 @@ Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema su
 
 | Modelo | Tema del anuncio | 55+ en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| XPeng G9 | Diseño y estatus | 66,5 % | +17,1 | 11.549 (17) |
-| XPeng G9 | Tecnología y conectividad | 64,9 % | +15,5 | 10.902 (16) |
-| XPeng G9 | Familia y espacio | 62,7 % | +13,3 | 2.020 (4) |
+| XPeng G9 | Autos eléctricos y ahorro de combustible | 66,9 % | +17,3 | 11.325 (14) |
+| XPeng G9 | Diseño y estatus | 66,6 % | +17,1 | 11.627 (17) |
+| XPeng G9 | Tecnología y conectividad | 65,0 % | +15,5 | 10.954 (16) |
+| XPeng G9 | Familia y espacio | 63,0 % | +13,4 | 2.017 (4) |
 
-**Lo que menos las atrae** (evitarlo en la pieza para ellas): XPeng G9: familia y espacio (-5,6).
+**Lo que menos las atrae** (evitarlo en la pieza para ellas): XPeng G9: familia y espacio (-5,7).
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -72,7 +73,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza para quien acompaña la decisión
 
-**Por qué:** Ellas son el 44,8 % de los clics, pero con el mismo anuncio contactan 0,90× lo que ellos (menos en 1 de 2 conjuntos): ella investiga y él da el paso.
+**Por qué:** Ellas son el 45,1 % de los clics, pero con el mismo anuncio contactan 0,91× lo que ellos (menos en 1 de 2 conjuntos): ella investiga y él da el paso.
 
 **La pieza (texto base, ajustar al tono de la marca):**
 
@@ -96,9 +97,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-04 a 2026-10-02, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-05 a 2026-10-03, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: sin datos suficientes.
 - Chats: Messenger e Instagram, lectura semanal (2026-09-28).
-- Generado el 2026-10-02 06:41 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Generado el 2026-10-03 12:34 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[XPeng|Volver a XPeng]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

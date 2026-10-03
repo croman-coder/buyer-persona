@@ -40,7 +40,14 @@ INTEREST_LABELS = [
 
 RULES: list[dict[str, Any]] = [
     {
-        "keywords": [r"autonom[ií]a", r"\bkm\b.*carga", r"el[eé]ctric", r"sin combustible", r"carga r[aá]pida"],
+        # Que el AUTO sea eléctrico. «Asientos/espejos/dirección eléctricos» es
+        # equipamiento de cualquier auto, «capacidad de carga» es de una pickup
+        # y «autonomía» la anuncia también un diésel: ninguno cuenta solo.
+        "keywords": [
+            r"(?:auto|autos|veh[ií]culo|veh[ií]culos|suv|sed[aá]n|camioneta|pickup|utilitario|motor|motorizaci[oó]n|propulsi[oó]n|movilidad|tecnolog[ií]a)\s+(?:100\s?%\s+)?el[eé]ctric",
+            r"100\s?%\s+el[eé]ctric", r"cero emisiones", r"sin combustible", r"\bkwh\b",
+            r"carga r[aá]pida", r"tiempo de carga", r"cargador", r"wallbox", r"enchuf",
+        ],
         "pain": "Ansiedad de autonomía/carga: evalúa km reales y tiempo de carga antes de decidir",
         # Un híbrido también dice "eléctrico" en el copy, pero no se enchufa a
         # esperar: el dolor de autonomía/carga solo cuenta en anuncios que no

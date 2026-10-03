@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: Soueast
-periodo_meta: 2026-07-04 a 2026-10-02
-created: 2026-10-02
+periodo_meta: 2026-07-05 a 2026-10-03
+created: 2026-10-03
 tags:
   - centro-de-compra
   - meta-ads
@@ -29,23 +29,23 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-04** al **2026-10-02**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-05** al **2026-10-03**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **Soueast** | 23,3 % | 21,9 % | **1,11×** | 22 (ellas menos en 11) | Las que miran, contactan más que ellos |
-| [[Soueast S06|Soueast S06]] | 20,8 % | 21,8 % | 1,12× | 10 (ellas menos en 6) | Las que miran, contactan más que ellos |
-| [[Soueast S08|Soueast S08]] | 30,8 % | 26,9 % | 1,03× | 5 (ellas menos en 3) | Sin diferencia: ellas y ellos contactan igual |
-| [[Soueast S07|Soueast S07]] | 19,8 % | 22,7 % | 1,31× | 4 (ellas menos en 0) | Las que miran, contactan más que ellos |
-| [[Soueast S09|Soueast S09]] | 20,2 % | 17,7 % | 0,86× | 3 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
+| **Soueast** | 23,3 % | 22,1 % | **1,11×** | 22 (ellas menos en 11) | Las que miran, contactan más que ellos |
+| [[Soueast S06|Soueast S06]] | 20,9 % | 21,8 % | 1,10× | 10 (ellas menos en 6) | Las que miran, contactan más que ellos |
+| [[Soueast S08|Soueast S08]] | 30,7 % | 27,2 % | 1,02× | 5 (ellas menos en 3) | Sin diferencia: ellas y ellos contactan igual |
+| [[Soueast S07|Soueast S07]] | 19,7 % | 24,0 % | 1,39× | 4 (ellas menos en 0) | Las que miran, contactan más que ellos |
+| [[Soueast S09|Soueast S09]] | 20,4 % | 18,3 % | 0,96× | 2 (ellas menos en 1) | Sin diferencia: ellas y ellos contactan igual |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|---|
-| 12,3 % | 13,3 % | 17,9 % | 15,4 % | 16,2 % | 12,2 % |
+| 12,4 % | 13,3 % | 17,9 % | 15,4 % | 16,0 % | 12,2 % |
 
-Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,97×).
+Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,96×).
 
 ## 2. ¿Qué le interesa a cada uno?
 
@@ -55,7 +55,7 @@ Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema su
 
 | Modelo | Tema del anuncio | Mujeres en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| Soueast S07 | Ofertas y promociones | 22,8 % | +4,8 | 2.133 (9) |
+| Soueast S07 | Ofertas y promociones | 22,9 % | +4,8 | 2.091 (8) |
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -83,7 +83,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza para quien acompaña la decisión
 
-**Por qué:** El tema **ofertas y promociones** es el que más las atrae: en Soueast S07 suma 5 puntos de mujeres sobre el promedio del modelo (hasta 22,8 %).
+**Por qué:** El tema **ofertas y promociones** es el que más las atrae: en Soueast S07 suma 5 puntos de mujeres sobre el promedio del modelo (hasta 22,9 %).
 
 **Modelos donde más pesa:** Soueast S07
 
@@ -98,7 +98,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.2 Una pieza que les hable a ellas, que son las que avanzan
 
-**Por qué:** Ellas son solo el 23,3 % de los clics, pero las que hacen clic contactan 1,11× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan. Más fuerte en Soueast S07 (1,31×).
+**Por qué:** Ellas son solo el 23,3 % de los clics, pero las que hacen clic contactan 1,11× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan. Más fuerte en Soueast S07 (1,39×).
 
 **Modelos donde más pesa:** Soueast S07
 
@@ -139,9 +139,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-04 a 2026-10-02, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-05 a 2026-10-03, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: ventas a cliente final, 2025-09-11 a 2026-09-11.
 - Chats: Messenger e Instagram, lectura semanal (2026-09-28).
-- Generado el 2026-10-02 06:41 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Generado el 2026-10-03 12:34 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[Soueast|Volver a Soueast]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

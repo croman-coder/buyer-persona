@@ -1,36 +1,53 @@
 ---
 type: meta-ads
 persona: Renew Jeep
-campaign: Meta - Usado - Renew Jeep
+campaign: Meta - Renew Jeep
 tags: [marketing, meta-ads]
 ---
 # 🟣 Meta Ads - Renew Jeep
-**Persona:** [[Renew Jeep]]
-**Campaña:** `Meta - Usado - Renew Jeep`
-## Targeting
+**Persona:** [[Renew Jeep]] · **Campaña sugerida:** `Meta - Renew Jeep`
+
+> [!info] Borrador listo para cargar
+> Los textos no prometen tasas, plazos, garantías ni urgencias: salen del modelo y de los temas que más se repiten en sus anuncios, no del análisis interno de la ficha. La oferta del mes va aparte, al final. La campaña se crea en pausa. Cómo armarla y cuándo juzgarla: [[📘 Manual Buyer Persona#4.3 Flujo con Meta (hoy)|Manual, 4.3 y 4.4]].
+
+## Público sugerido (de la ficha)
 - **Edad:** 35-44
-- **Género:** Masculino
-- **Intereses:** Usado, Renew
-- **Ubicaciones:** Asunción
-## Primary Text
+- **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
+- **Zonas:** Asunción
+- **Temas que atraen** (para el creativo, no para segmentar): Financiación en cuotas, Probar antes de comprar (test drive), Ofertas y promociones, Garantía y respaldo posventa, Familia y espacio
+
+## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)
+**Opción 1** · 244 caracteres
 ```
-🚗 ¿Buscás un usado que realmente valga la pena?
+🚗 Jeep usados certificados
+✅ Financiación: planes y formas de pago a tu medida.
+✅ Test drive sin compromiso, el día y horario que elijas.
+✅ Usado certificado: revisado y con el respaldo de Renew.
 
-El Renew Jeep llega con todo:
-✅ Garantía de 5 años
-✅ Financiación a 60 meses
-✅ Test drive GRATIS en tu ciudad
-
-👉 Calidad del producto/servicio.
-Reservá tu prueba de manejo hoy.
-
-Escribinos por WhatsApp para más info 👇
+Coordiná tu visita y probalo antes de decidir 👇
 ```
-## Headline
-> Renew Jeep | Test Drive Gratis
-## Description
-> Reservá hoy tu prueba
-## CTA
-**Reservar prueba de manejo**
-## Carrusel
-- **Renew Jeep** — Garantía y financiación especial
+**Opción 2** · 82 caracteres
+```
+Jeep usados certificados en Renew. Coordiná tu visita y probalo antes de decidir 👇
+```
+**Opción 3** · 136 caracteres
+```
+Planes de financiación y formas de pago a tu medida. Escribinos y te pasamos las opciones 👇 Financiación sujeta a aprobación crediticia.
+```
+
+## Títulos (hasta 5 · máx. 40 caracteres)
+| # | Título | Caract. |
+|---|---|---|
+| 1 | Jeep Usados Certificados | 24 |
+| 2 | Renew Usados Certificados | 25 |
+| 3 | Cotizá tu Jeep Usado | 20 |
+| 4 | Probalo Antes de Comprar | 24 |
+| 5 | Financiación a tu Medida | 24 |
+
+**Descripción** (máx. 30): Usados certificados Renew · **Botón:** Enviar mensaje de WhatsApp
+
+## 💲 Oferta del mes y stock: confirmar antes de usar
+> [!warning] Sale de la planilla de acciones comerciales y del stock del ERP
+> Vence con el mes y puede tener condiciones. No se usa sin confirmarla con la marca.
+
+- Stock disponible al 18-09 (ERP): 3 unidades. «Entrega inmediata» solo si la marca lo confirma.

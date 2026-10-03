@@ -1,7 +1,7 @@
 ---
 type: moc-marca
 marca: Leapmotor
-created: 2026-10-02
+created: 2026-10-03
 tags:
   - moc
   - marca/leapmotor
@@ -9,27 +9,27 @@ tags:
 
 # 🚗 Leapmotor
 
-> Generado el **2026-10-02 06:41** · 4 modelos con persona propia.
+> Generado el **2026-10-03 12:34** · 4 modelos con persona propia.
 
 ## 👤 Comprador de la marca
 
 - [[Comprador Leapmotor]]
-- **Inversión Meta:** ~USD 1,051/mes · CPL USD 2.8 · 1,128 leads en la ventana
-- **Públicos:** 92.1% de 38 adsets activos a público frío
+- **Inversión Meta:** ~USD 1,053/mes · CPL USD 2.48 · 1,273 leads en la ventana
+- **Públicos:** 92.5% de 40 adsets activos a público frío
 
 ## 👥 Quién mira y quién decide
 
-- En Meta, ellas son el 28,7 % de los clics pero, viendo el mismo anuncio, contactan 0,88× lo que ellos (menos en 6 de 10 conjuntos): **ella investiga y él da el paso**.
+- En Meta, ellas son el 28,5 % de los clics pero, viendo el mismo anuncio, contactan 0,89× lo que ellos (menos en 6 de 10 conjuntos): **ella investiga y él da el paso**.
 - **Qué hacer en Meta Ads y cómo leerlo:** [[👥 Quién mira y quién decide — Leapmotor]]
 
 ## 🚘 Modelos
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Leapmotor C10]] | 65+ | Masculino 68.0% | modelo | 9 | 88 | ⚖️ equilibrado | USD 556 |
+| [[Leapmotor C10]] | 35-44 | Masculino 64.9% | modelo | 9 | 92 | ⚖️ equilibrado | USD 557 |
 | [[Leapmotor T03]] | 35-44 | Masculino 72.6% | modelo | 4 | 63 | ⚖️ equilibrado | USD 247 |
 | [[Leapmotor C16]] | 35-44 | Femenino 79.7% | modelo | 4 | 18 | 🟢 sub-pautado | USD 247 |
-| [[Leapmotor C11]] | 35-44 | Masculino 76.4% | marca | 8 | 43 | 🔴 sobre-pautado | — |
+| [[Leapmotor C11]] | 35-44 | Masculino 76.5% | marca | 8 | 43 | 🔴 sobre-pautado | — |
 
 _Demo = de dónde sale edad/género: **modelo** (anuncios propios del modelo) o **marca** (heredado, pocos clics propios). Brecha: 🟢 sub-pautado = vende más de lo que se pauta, 🔴 sobre-pautado, 🆕 lanzamiento sin ventas en el ERP aún._
 

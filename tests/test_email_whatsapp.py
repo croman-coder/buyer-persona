@@ -3,6 +3,7 @@
 Corre con pytest o directo: venv/bin/python3 tests/test_email_whatsapp.py
 """
 import glob
+from datetime import date
 import json
 import os
 import sys
@@ -13,7 +14,9 @@ sys.path.insert(0, ROOT)
 from src.generators.marketing_generator import (  # noqa: E402
     MarketingContentGenerator, validar_google_ads, validar_mensajes)
 
-GEN = MarketingContentGenerator()
+# Con la planilla de septiembre vigente (26-09); los casos de oferta vencida usan GEN_OCTUBRE.
+GEN = MarketingContentGenerator({"hoy": date(2026, 9, 26)})
+GEN_OCTUBRE = MarketingContentGenerator({"hoy": date(2026, 10, 3)})
 KOLEOS = {
     "name": "Renault Koleos",
     "segment": {"type": "model", "name": "Renault Koleos", "brand": "Renault", "category": "SUV"},
@@ -64,6 +67,15 @@ def test_oferta_y_stock_van_aparte():
                                    "descuento. Consultá condiciones con tu asesor.")
     assert "USD 2.000" in wa["offer_text"] and email["stock_disponible"] == 43
     assert email["offer"]["condiciones"] == ["DESCUENTO MAXIMO SOLO VALIDO PARA VTA CARTERA SUDAMERIS"]
+
+
+def test_oferta_vencida_no_se_propone():
+    import main
+    email = GEN_OCTUBRE._gen_email(KOLEOS)
+    assert email["offer"]["vencida"] and email["offer_text"] is None
+    assert GEN_OCTUBRE._gen_whatsapp(KOLEOS)["offer_text"] is None
+    bloque = "\n".join(main._bloque_oferta_y_stock(email, "email"))
+    assert "ya venció" in bloque and "Párrafo para sumar" not in bloque and "Último dato de la planilla" in bloque
 
 
 def test_no_copia_el_analisis_interno():

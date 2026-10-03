@@ -19,8 +19,8 @@ tags: [marketing, google-ads]
 | 4 | Conocé la Gama XPeng | 20 |
 | 5 | Agendá tu Test Drive | 20 |
 | 6 | Tecnología y Conectividad | 25 |
-| 7 | Eficiencia en Cada Kilómetro | 28 |
-| 8 | Diseño que se Nota | 18 |
+| 7 | Diseño que se Nota | 18 |
+| 8 | Eficiencia en Cada Kilómetro | 28 |
 | 9 | Espacio para Toda la Familia | 28 |
 | 10 | XPeng G9 | 8 |
 | 11 | Hablá con un Asesor | 19 |
@@ -31,8 +31,8 @@ tags: [marketing, google-ads]
 |---|---|---|
 | 1 | Conocé la gama XPeng en el concesionario oficial. Pedí tu cotización hoy. | 73 |
 | 2 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
-| 3 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
-| 4 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
+| 3 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
+| 4 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
 
 **URL visible:** `…/XPeng/Modelos` (cada tramo, máx. 15 caracteres)
 

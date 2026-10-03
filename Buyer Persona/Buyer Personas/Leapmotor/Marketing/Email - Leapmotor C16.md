@@ -5,7 +5,7 @@ tags: [marketing, email]
 ---
 # 📧 Email - Leapmotor C16
 **Persona:** [[Leapmotor C16]]
-**Test drive:** no hay unidad de prueba en el stock de hoy (ERP): los textos invitan a verlo en el salón.
+**Test drive:** no hay unidad de prueba en el stock del 18-09 (ERP): los textos invitan a verlo en el salón.
 
 > [!info] Cómo usar este mail
 > Los campos entre llaves (`{nombre}`, `{link}`) los completa la herramienta de envío. No promete tasas, plazos, garantías ni urgencias: la oferta del mes y el stock van al final, para confirmar con la marca antes de sumarlos.
@@ -22,8 +22,8 @@ Hola {nombre}:
 
 Gracias por tu interés en Leapmotor C16. Esto es lo que más nos consultan:
 
-• Consumo y autonomía: te pasamos los datos reales de cada versión.
 • Espacio y comodidad para viajar en familia.
+• Consumo y autonomía: te pasamos los datos reales de cada versión.
 • Un diseño que se nota en cada detalle.
 
 Lo mejor es verlo en persona: coordiná tu visita al salón el día y horario que prefieras.

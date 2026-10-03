@@ -5,7 +5,7 @@ tags: [marketing, email]
 ---
 # 📧 Email - JAC JS4
 **Persona:** [[JAC JS4]]
-**Test drive:** hay 1 unidad de prueba en el stock de hoy (ERP).
+**Test drive:** hay 1 unidad de prueba en el stock del 18-09 (ERP).
 
 > [!info] Cómo usar este mail
 > Los campos entre llaves (`{nombre}`, `{link}`) los completa la herramienta de envío. No promete tasas, plazos, garantías ni urgencias: la oferta del mes y el stock van al final, para confirmar con la marca antes de sumarlos.
@@ -52,4 +52,4 @@ Equipo JAC
 > [!warning] Sale de la planilla de acciones comerciales y del stock del ERP
 > Vence con el mes y puede tener condiciones. No se usa sin confirmarla con la marca.
 
-- Stock disponible hoy (ERP): 7 unidades. «Entrega inmediata» solo si la marca lo confirma.
+- Stock disponible al 18-09 (ERP): 7 unidades. «Entrega inmediata» solo si la marca lo confirma.

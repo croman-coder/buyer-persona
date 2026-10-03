@@ -95,13 +95,17 @@ def _match_model(brand: str, modelo: str, version: str) -> str:
     return f"{brand} {str(modelo).strip().title()}"
 
 
-def normalize_erp(xlsx_path: str | Path, sheet: str = "Datos") -> pd.DataFrame:
-    """Lee el xlsx del ERP y devuelve un DataFrame en el esquema interno (sin PII)."""
+def normalize_erp(xlsx_path: str | Path, sheet: str = "Datos", claves: list | None = None) -> pd.DataFrame:
+    """Lee el xlsx del ERP y devuelve un DataFrame en el esquema interno (sin PII).
+
+    Si se pasa ``claves`` (una lista), le suma las claves cifradas de cada venta para
+    cruzarla con los leads de Meta (``src/generators/ventas_meta.py``): solo viven en
+    memoria durante la corrida.
+    """
     df = pd.read_excel(xlsx_path, sheet_name=sheet, header=2)
     df = df.dropna(subset=["Marca"])
     # Única lectura del nombre del cliente: se convierte en etiqueta y se descarta
     df["tipo_comprador"] = df["Cliente"].map(_tipo_comprador) if "Cliente" in df.columns else "persona"
-    df = df.drop(columns=[c for c in DROP_COLS if c in df.columns], errors="ignore")
 
     # Notas de crédito / devoluciones vienen con Neto negativo
     df = df[pd.to_numeric(df["Neto"], errors="coerce") > 0].copy()
@@ -113,6 +117,11 @@ def normalize_erp(xlsx_path: str | Path, sheet: str = "Datos") -> pd.DataFrame:
         _match_model(b, m, v)
         for b, m, v in zip(df["marca"], df["Modelo"].fillna(""), df["Version"].fillna(""))
     ]
+    if claves is not None:
+        from src.generators.ventas_meta import claves_de_venta
+        claves.extend(claves_de_venta(df))
+    # Acá se descartan nombre, mail, teléfono, VIN y factura: no siguen más allá de esta línea
+    df = df.drop(columns=[c for c in DROP_COLS if c in df.columns], errors="ignore")
     df["categoria"] = df["producto"].map(category_for)
     df["version"] = df["Version"].fillna("").astype(str).str.strip()
 

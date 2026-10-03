@@ -17,13 +17,14 @@ from __future__ import annotations
 import logging
 import re
 import shutil
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
 import yaml
 
 from src.generators.centro_de_compra import LECTURA_GENERO as LECTURA
+from src.generators.marketing_generator import fecha_corta, mes_de, periodo_vencido
 
 logger = logging.getLogger(__name__)
 
@@ -950,7 +951,11 @@ class ObsidianExporter:
 
         # Oferta: la vigente de verdad (planilla de acciones comerciales), no una regla genérica.
         ac = ((persona.get("extras") or {}).get("acciones")) or {}
-        if ac.get("descuento_max"):
+        if ac and periodo_vencido(ac.get("periodo", ""), date.today()):
+            ult = f" (último dato: descuento hasta USD {ac['descuento_max']:,.0f})" if ac.get("descuento_max") else ""
+            lines.append(f"> **Oferta:** la planilla de acciones comerciales cargada es de {mes_de(ac['periodo']) or ac['periodo']} "
+                         f"y ya venció{ult}. No usar el descuento en el copy hasta cargar la de este mes.")
+        elif ac.get("descuento_max"):
             lines.append(f"> **Oferta vigente:** descuento hasta USD {ac['descuento_max']:,.0f} "
                          f"({ac.get('periodo') or 'planilla de acciones comerciales'}). Usarla en el copy mientras dure.")
         elif ac:
@@ -1129,16 +1134,21 @@ class ObsidianExporter:
         st = ex.get("stock")
         if st and seg.get("type") == "model":
             dias = f" · {st['dias_promedio']} días promedio en stock" if st.get("dias_promedio") is not None else ""
-            lines.append(f"> **Stock hoy:** {st['total']} unidades ({st['disponible']} disponibles, {st['en_viaje']} en viaje, "
+            cuando = f"al {fecha_corta(st.get('fecha'))}" if st.get("fecha") else "(último cargado)"
+            lines.append(f"> **Stock {cuando}:** {st['total']} unidades ({st['disponible']} disponibles, {st['en_viaje']} en viaje, "
                          f"{st['propuesta']} con propuesta){dias}.")
         elif st:
-            lines.append(f"> **Stock de la marca:** {st['total']} unidades ({st['disponible']} disponibles, {st['en_viaje']} en viaje, {st['propuesta']} con propuesta).")
+            cuando = f"al {fecha_corta(st.get('fecha'))}" if st.get("fecha") else "(último cargado)"
+            lines.append(f"> **Stock de la marca {cuando}:** {st['total']} unidades ({st['disponible']} disponibles, {st['en_viaje']} en viaje, {st['propuesta']} con propuesta).")
         ac = ex.get("acciones")
         if ac:
             precio = f"USD {ac['pvp_min']:,.0f}" + (f" a {ac['pvp_max']:,.0f}" if ac["pvp_max"] != ac["pvp_min"] else "")
-            txt = f"> **Precio de lista ({ac.get('periodo') or 'vigente'}):** {precio} en {ac['versiones']} versión(es)"
+            vencida = periodo_vencido(ac.get("periodo", ""), date.today())
+            etiqueta = f"{ac.get('periodo')}, planilla vencida" if vencida else (ac.get("periodo") or "vigente")
+            txt = f"> **Precio de lista ({etiqueta}):** {precio} en {ac['versiones']} versión(es)"
             if ac.get("descuento_max"):
-                txt += f" · **descuento vigente hasta USD {ac['descuento_max']:,.0f}**"
+                txt += (f" · descuento hasta USD {ac['descuento_max']:,.0f} (vencido)" if vencida
+                        else f" · **descuento vigente hasta USD {ac['descuento_max']:,.0f}**")
             if ac.get("avg_ventas_mes"):
                 txt += f" · ritmo {ac['avg_ventas_mes']:g} unidades/mes"
             lines.append(txt + ".")

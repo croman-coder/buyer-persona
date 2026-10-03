@@ -70,6 +70,33 @@ AD_DERIVED_INSIGHTS: dict[str, dict[str, list[str]]] = {
 }
 
 
+# Marcas que solo venden eléctricos: su comprador de marca sí tiene el miedo a
+# quedarse sin batería. En las marcas mixtas (GWM, JAC) eso es de cada modelo.
+MARCAS_ELECTRICAS = {"Zeekr", "Leapmotor", "JMEV", "XPeng"}
+# El dolor y el objetivo que solo tienen sentido en un auto que se enchufa.
+DOLOR_DE_CARGA = re.compile(r"ansiedad de autonom|cargar fuera de casa|el[eé]ctrico con autonom", re.I)
+
+
+def es_electrico(segment: dict[str, Any]) -> bool:
+    """¿La persona es de un modelo, marca o segmento 100 % eléctrico (según el catálogo)?"""
+    tipo, nombre = segment.get("type"), segment.get("name", "")
+    if tipo == "model":
+        return category_for(nombre) == "Eléctrico"
+    if tipo == "brand":
+        return nombre in MARCAS_ELECTRICAS
+    return nombre == "Eléctrico"
+
+
+def sin_dolor_de_carga(segment: dict[str, Any], textos: list[str]) -> list[str]:
+    """Saca la ansiedad de autonomía/carga de lo que no es 100 % eléctrico.
+
+    El copy de un híbrido, de una pickup («capacidad de carga») o de un auto con
+    «asientos eléctricos» la disparaba: el 03-10-2026 la tenían 10 fichas que no
+    se enchufan (Duster, Poer, Sunray…).
+    """
+    return list(textos) if es_electrico(segment) else [t for t in textos if not DOLOR_DE_CARGA.search(t)]
+
+
 class PersonaGenerator:
     """Sintetiza datos de múltiples fuentes en Buyer Personas estructuradas."""
 
@@ -816,6 +843,7 @@ class PersonaGenerator:
         pains = self._infer_pains(segment, consolidated)
         goals = self._infer_goals(segment, consolidated)
         motivations = self._infer_motivations(top_interests, segment)
+        pains, goals = sin_dolor_de_carga(segment, pains), sin_dolor_de_carga(segment, goals)
 
         # Productos/canales del segmento; si no hay, usar globales
         top_products = seg_stats.get("top_products") or [

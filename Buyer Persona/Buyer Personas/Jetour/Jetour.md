@@ -1,7 +1,7 @@
 ---
 type: moc-marca
 marca: Jetour
-created: 2026-10-02
+created: 2026-10-03
 tags:
   - moc
   - marca/jetour
@@ -9,13 +9,13 @@ tags:
 
 # 🚗 Jetour
 
-> Generado el **2026-10-02 06:41** · 7 modelos con persona propia.
+> Generado el **2026-10-03 12:34** · 7 modelos con persona propia.
 
 ## 👤 Comprador de la marca
 
 - [[Comprador Jetour]]
-- **Inversión Meta:** ~USD 4,167/mes · CPL USD 1.92 · 6,497 leads en la ventana
-- **Públicos:** 100.0% de 255 adsets activos a público frío
+- **Inversión Meta:** ~USD 4,139/mes · CPL USD 1.9 · 6,532 leads en la ventana
+- **Públicos:** 100.0% de 258 adsets activos a público frío
 
 ## 👥 Quién mira y quién decide
 
@@ -27,12 +27,12 @@ tags:
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Jetour X50]] | 35-44 | Masculino 68.6% | modelo | 291 | 75 | 🟢 sub-pautado | USD 1,008 |
-| [[Jetour Dashing]] | 35-44 | Masculino 70.9% | modelo | 243 | 173 | ⚖️ equilibrado | USD 842 |
-| [[Jetour X70]] | 55-64 | Masculino 62.6% | modelo | 239 | 218 | ⚖️ equilibrado | USD 829 |
-| [[Jetour T2]] | 65+ | Femenino 50.1% | modelo | 219 | 200 | ⚖️ equilibrado | USD 758 |
-| [[Jetour T1]] | 65+ | Masculino 56.7% | modelo | 162 | 117 | ⚖️ equilibrado | USD 563 |
-| [[Jetour G700]] | 65+ | Masculino 65.1% | modelo | 46 | 21 | ⚖️ equilibrado | USD 158 |
+| [[Jetour X50]] | 35-44 | Masculino 68.2% | modelo | 291 | 75 | 🟢 sub-pautado | USD 1,002 |
+| [[Jetour Dashing]] | 35-44 | Masculino 70.7% | modelo | 243 | 174 | ⚖️ equilibrado | USD 836 |
+| [[Jetour X70]] | 55-64 | Masculino 62.6% | modelo | 239 | 218 | ⚖️ equilibrado | USD 824 |
+| [[Jetour T2]] | 65+ | Femenino 50.0% | modelo | 219 | 201 | ⚖️ equilibrado | USD 753 |
+| [[Jetour T1]] | 65+ | Masculino 56.5% | modelo | 162 | 119 | ⚖️ equilibrado | USD 559 |
+| [[Jetour G700]] | 65+ | Masculino 65.1% | modelo | 46 | 22 | ⚖️ equilibrado | USD 157 |
 | [[Jetour X90]] | 65+ | Masculino 60.9% | modelo | 43 | 43 | 🔴 sobre-pautado | — |
 
 _Demo = de dónde sale edad/género: **modelo** (anuncios propios del modelo) o **marca** (heredado, pocos clics propios). Brecha: 🟢 sub-pautado = vende más de lo que se pauta, 🔴 sobre-pautado, 🆕 lanzamiento sin ventas en el ERP aún._

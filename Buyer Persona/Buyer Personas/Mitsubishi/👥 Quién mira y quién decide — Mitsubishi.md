@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: Mitsubishi
-periodo_meta: 2026-07-04 a 2026-10-02
-created: 2026-10-02
+periodo_meta: 2026-07-05 a 2026-10-03
+created: 2026-10-03
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,7 +12,7 @@ tags:
 # 👥 Quién mira y quién decide — Mitsubishi
 
 > [!summary] En una línea
-> En Meta, ellas son el 13,5 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,25×). En el 0,0 % de los chats el cliente nombra a otra persona.
+> En Meta, ellas son el 13,4 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,26×). En el 0,0 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
 > 1. **Una pieza que les hable a ellas, que son las que avanzan** — «Espacio para todos». Detalle en la sección 5.
@@ -27,21 +27,21 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-04** al **2026-10-02**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-05** al **2026-10-03**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **Mitsubishi** | 13,5 % | 14,9 % | **1,25×** | 19 (ellas menos en 5) | Las que miran, contactan más que ellos |
-| [[Mitsubishi L200|Mitsubishi L200]] | 15,4 % | 15,2 % | 1,09× | 9 (ellas menos en 4) | Las que miran, contactan más que ellos |
-| [[Mitsubishi Destinator|Mitsubishi Destinator]] | 8,0 % | 11,2 % | 1,48× | 3 (ellas menos en 0) | Las que miran, contactan más que ellos |
-| [[Mitsubishi Montero Sport|Mitsubishi Montero Sport]] | 11,7 % | 12,6 % | 1,27× | 2 (ellas menos en 0) | Las que miran, contactan más que ellos |
-| [[Mitsubishi Outlander|Mitsubishi Outlander]] | 15,2 % | 18,9 % | 1,63× | 2 (ellas menos en 0) | Las que miran, contactan más que ellos |
+| **Mitsubishi** | 13,4 % | 14,9 % | **1,26×** | 18 (ellas menos en 5) | Las que miran, contactan más que ellos |
+| [[Mitsubishi L200|Mitsubishi L200]] | 15,4 % | 15,3 % | 1,09× | 9 (ellas menos en 4) | Las que miran, contactan más que ellos |
+| [[Mitsubishi Destinator|Mitsubishi Destinator]] | 8,0 % | 11,5 % | 1,52× | 3 (ellas menos en 0) | Las que miran, contactan más que ellos |
+| [[Mitsubishi Montero Sport|Mitsubishi Montero Sport]] | 11,9 % | 12,7 % | 1,26× | 2 (ellas menos en 0) | Las que miran, contactan más que ellos |
+| [[Mitsubishi Outlander|Mitsubishi Outlander]] | 15,3 % | 18,6 % | 1,60× | 2 (ellas menos en 0) | Las que miran, contactan más que ellos |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|---|
-| 9,5 % | 9,8 % | 9,9 % | 10,6 % | 8,8 % | 10,0 % |
+| 9,6 % | 9,8 % | 9,9 % | 10,6 % | 8,9 % | 9,8 % |
 
 Los mayores de 55 contactan parecido al resto con el mismo anuncio (1,00×).
 
@@ -49,7 +49,7 @@ Los mayores de 55 contactan parecido al resto con el mismo anuncio (1,00×).
 
 Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema suma 10 puntos de mujeres (o de mayores de 55) sobre lo normal del modelo. Clics y cantidad de anuncios entre paréntesis.
 
-**Lo que menos las atrae** (evitarlo en la pieza para ellas): Mitsubishi L200: financiación en cuotas (-7,6); Mitsubishi L200: garantía y respaldo posventa (-5,7).
+**Lo que menos las atrae** (evitarlo en la pieza para ellas): Mitsubishi L200: financiación en cuotas (-7,6); Mitsubishi L200: garantía y respaldo posventa (-5,6).
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -67,7 +67,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza que les hable a ellas, que son las que avanzan
 
-**Por qué:** Ellas son solo el 13,5 % de los clics, pero las que hacen clic contactan 1,25× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan. Más fuerte en Mitsubishi Destinator (1,48×).
+**Por qué:** Ellas son solo el 13,4 % de los clics, pero las que hacen clic contactan 1,26× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan. Más fuerte en Mitsubishi Destinator (1,52×).
 
 **Modelos donde más pesa:** Mitsubishi Destinator
 
@@ -93,9 +93,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-04 a 2026-10-02, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-05 a 2026-10-03, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: sin datos suficientes.
 - Chats: Messenger e Instagram, lectura semanal (2026-09-28).
-- Generado el 2026-10-02 06:41 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Generado el 2026-10-03 12:34 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[Mitsubishi|Volver a Mitsubishi]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

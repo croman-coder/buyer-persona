@@ -36,6 +36,8 @@ class MetaAdsConnector:
 
     def __init__(self, config: dict[str, Any]):
         self.config = config
+        # Claves cifradas de cada lead para el cruce con las ventas: en memoria, nunca a disco.
+        self.claves_leads: list[dict[str, Any]] = []
         self.access_token = config.get("access_token", "")
         self.ad_account_id = config.get("ad_account_id", "")
         self.api_version = config.get("api_version", "v21.0")
@@ -620,10 +622,10 @@ class MetaAdsConnector:
 
         for page in pages:
             nombre = page.get("name", "")
-            agg = self._fetch_lead_insights_by_page(page, since=since)
+            marca = self._marca_de_pagina(nombre)
+            agg = self._fetch_lead_insights_by_page(page, since=since, marca=marca)
             if not agg:
                 continue
-            marca = self._marca_de_pagina(nombre)
             destino = merged["leads_by_brand"].setdefault(marca, self._empty_lead_agg())
             self._merge_lead_agg(destino, agg)
             logger.info("Meta Ads: %s → %s: %d leads", nombre, marca, agg["total_leads"])
@@ -640,14 +642,17 @@ class MetaAdsConnector:
         return [p for p in pages if p.get("access_token")]
 
     def _fetch_lead_insights_by_page(
-        self, page: dict[str, str], since: datetime | None = None
+        self, page: dict[str, str], since: datetime | None = None, marca: str = ""
     ) -> dict[str, Any] | None:
         """
         Agrega las respuestas de los formularios de leads de una página
         (modelo elegido, método de pago, ciudad, interés) SIN guardar
         nombre, teléfono ni email — solo conteos. Los datos crudos del
-        lead nunca salen de esta función.
+        lead nunca salen de esta función: para el cruce con las ventas
+        solo sale una clave cifrada (``ventas_meta.claves_de_lead``) con la
+        campaña de la que vino.
         """
+        from src.generators.ventas_meta import claves_de_lead
         page_token = page.get("access_token", "")
         forms = self._request_paginated(
             f"{page['id']}/leadgen_forms",
@@ -662,7 +667,7 @@ class MetaAdsConnector:
                 continue
             leads = self._request_paginated(
                 f"{form['id']}/leads",
-                {"fields": "created_time,field_data"},
+                {"fields": "created_time,field_data,campaign_id,campaign_name,ad_name,is_organic"},
                 limit=200,
                 token=page_token,
             )
@@ -678,6 +683,9 @@ class MetaAdsConnector:
                         pass  # sin fecha parseable: se cuenta igual
                 has_data = True
                 agg["total_leads"] += 1
+                clave = claves_de_lead(lead, marca)
+                if clave:
+                    self.claves_leads.append(clave)
                 for field in lead.get("field_data", []):
                     field_name = str(field.get("name", "")).lower()
                     values = field.get("values", [])
@@ -700,7 +708,7 @@ class MetaAdsConnector:
             f"{self.ad_account_id}/insights",
             {
                 "fields": (
-                    "campaign_name,campaign_id,impressions,clicks,spend,"
+                    "account_id,account_name,campaign_name,campaign_id,impressions,clicks,spend,"
                     "conversions,actions,ctr,cpc,cpm,reach,frequency,"
                     "purchase_roas,cost_per_action_type"
                 ),

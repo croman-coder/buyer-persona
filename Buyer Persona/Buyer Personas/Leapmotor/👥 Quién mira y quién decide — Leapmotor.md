@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: Leapmotor
-periodo_meta: 2026-07-04 a 2026-10-02
-created: 2026-10-02
+periodo_meta: 2026-07-05 a 2026-10-03
+created: 2026-10-03
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,10 +12,10 @@ tags:
 # 👥 Quién mira y quién decide — Leapmotor
 
 > [!summary] En una línea
-> En Meta, ellas son el 28,7 % de los clics pero, viendo el mismo anuncio, contactan 0,88× lo que ellos (menos en 6 de 10 conjuntos): **ella investiga y él da el paso**. En el 0,1 % de los chats el cliente nombra a otra persona.
+> En Meta, ellas son el 28,5 % de los clics pero, viendo el mismo anuncio, contactan 0,89× lo que ellos (menos en 6 de 10 conjuntos): **ella investiga y él da el paso**. En el 0,1 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
-> 1. **Una pieza para quien acompaña la decisión** — «Vengan a probarla juntos». Detalle en la sección 5.
+> 1. **Una pieza para quien acompaña la decisión** — «Menos gasto todos los meses». Detalle en la sección 5.
 
 > [!question]- Cómo leer esta nota (abrir)
 > - **El Buyer Persona describe a quien compra. Esta nota agrega a los otros papeles**: quien investiga o influye, quien da el paso (deja el contacto) y quien paga.
@@ -27,25 +27,37 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-04** al **2026-10-02**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-05** al **2026-10-03**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **Leapmotor** | 28,7 % | 23,5 % | **0,88×** | 10 (ellas menos en 6) | Ellas miran y el contacto lo deja él |
-| [[Leapmotor C10|Leapmotor C10]] | 30,4 % | 25,6 % | 0,81× | 5 (ellas menos en 5) | Ellas miran y el contacto lo deja él |
-| [[Leapmotor T03|Leapmotor T03]] | 27,0 % | 23,9 % | 1,07× | 3 (ellas menos en 0) | Sin diferencia: ellas y ellos contactan igual |
+| **Leapmotor** | 28,5 % | 23,5 % | **0,89×** | 10 (ellas menos en 6) | Ellas miran y el contacto lo deja él |
+| [[Leapmotor C10|Leapmotor C10]] | 30,3 % | 25,7 % | 0,82× | 5 (ellas menos en 5) | Ellas miran y el contacto lo deja él |
+| [[Leapmotor T03|Leapmotor T03]] | 26,9 % | 23,8 % | 1,07× | 3 (ellas menos en 0) | Sin diferencia: ellas y ellos contactan igual |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|
-| 25,2 % | 25,1 % | 26,0 % | 21,9 % | 17,1 % |
+| 24,7 % | 25,2 % | 25,9 % | 21,8 % | 17,1 % |
 
 Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,85×).
 
 ## 2. ¿Qué le interesa a cada uno?
 
-_Ningún tema se aparta lo suficiente del promedio con anuncios variados._
+Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema suma 10 puntos de mujeres (o de mayores de 55) sobre lo normal del modelo. Clics y cantidad de anuncios entre paréntesis.
+
+**Lo que más atrae a las mujeres** → el tema para la pieza de quien acompaña:
+
+| Modelo | Tema del anuncio | Mujeres en los clics | Sobre el modelo | Clics (anuncios) |
+|---|---|---|---|---|
+| Leapmotor C10 | Autos eléctricos y ahorro de combustible | 34,6 % | +7,1 | 4.352 (33) |
+
+**Lo que más atrae a los mayores de 55:**
+
+| Modelo | Tema del anuncio | 55+ en los clics | Sobre el modelo | Clics (anuncios) |
+|---|---|---|---|---|
+| Leapmotor C10 | Autos eléctricos y ahorro de combustible | 58,6 % | +14,5 | 4.352 (33) |
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -64,12 +76,14 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza para quien acompaña la decisión
 
-**Por qué:** Ellas son el 28,7 % de los clics, pero con el mismo anuncio contactan 0,88× lo que ellos (menos en 6 de 10 conjuntos): ella investiga y él da el paso. Donde más se nota: Leapmotor C10 (0,81×).
+**Por qué:** Ellas son el 28,5 % de los clics, pero con el mismo anuncio contactan 0,89× lo que ellos (menos en 6 de 10 conjuntos): ella investiga y él da el paso. Donde más se nota: Leapmotor C10 (0,82×). El tema **autos eléctricos y ahorro de combustible** es el que más las atrae: en Leapmotor C10 suma 7 puntos de mujeres sobre el promedio del modelo (hasta 34,6 %).
+
+**Modelos donde más pesa:** Leapmotor C10
 
 **La pieza (texto base, ajustar al tono de la marca):**
 
-> **Vengan a probarla juntos**
-> Agendá una prueba de manejo para los dos: manejala, sentila en el día a día y decidan juntos.
+> **Menos gasto todos los meses**
+> El ahorro en combustible se nota en el presupuesto de la casa.
 
 **Dónde ponerla:** Como un anuncio más dentro del conjunto que ya funciona, con el mismo formulario o WhatsApp. Sin cortar por género ni por edad: con Advantage+ Meta se la muestra a quien responde. No usar la edad sugerida: en Renew dejó sin entrega a las campañas (23-09-2026).
 
@@ -88,9 +102,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-04 a 2026-10-02, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-05 a 2026-10-03, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: sin datos suficientes.
 - Chats: Messenger e Instagram, lectura semanal (2026-09-28).
-- Generado el 2026-10-02 06:41 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Generado el 2026-10-03 12:34 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[Leapmotor|Volver a Leapmotor]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

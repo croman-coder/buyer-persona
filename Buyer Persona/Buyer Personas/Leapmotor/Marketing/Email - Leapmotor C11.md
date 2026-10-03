@@ -22,8 +22,8 @@ Hola {nombre}:
 
 Gracias por tu interés en Leapmotor C11. Esto es lo que más nos consultan:
 
-• Consumo y autonomía: te pasamos los datos reales de cada versión.
 • Tecnología y conectividad para el día a día, según la versión.
+• Consumo y autonomía: te pasamos los datos reales de cada versión.
 • Un diseño que se nota en cada detalle.
 
 Lo mejor es probarlo: coordiná tu test drive el día y horario que prefieras, sin compromiso.

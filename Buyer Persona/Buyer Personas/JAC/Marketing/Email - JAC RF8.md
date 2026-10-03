@@ -5,7 +5,7 @@ tags: [marketing, email]
 ---
 # 📧 Email - JAC RF8
 **Persona:** [[JAC RF8]]
-**Test drive:** no hay unidad de prueba en el stock de hoy (ERP): los textos invitan a verlo en el salón.
+**Test drive:** no hay unidad de prueba en el stock del 18-09 (ERP): los textos invitan a verlo en el salón.
 
 > [!info] Cómo usar este mail
 > Los campos entre llaves (`{nombre}`, `{link}`) los completa la herramienta de envío. No promete tasas, plazos, garantías ni urgencias: la oferta del mes y el stock van al final, para confirmar con la marca antes de sumarlos.
@@ -23,8 +23,8 @@ Hola {nombre}:
 Gracias por tu interés en JAC RF8. Esto es lo que más nos consultan:
 
 • Espacio y comodidad para viajar en familia.
-• Tecnología y conectividad para el día a día, según la versión.
 • Consumo y autonomía: te pasamos los datos reales de cada versión.
+• Tecnología y conectividad para el día a día, según la versión.
 
 Lo mejor es verlo en persona: coordiná tu visita al salón el día y horario que prefieras.
 
@@ -48,10 +48,9 @@ Hola {nombre}:
 Equipo JAC
 ```
 
-## 💲 Oferta del mes y stock: confirmar antes de usar
-> [!warning] Sale de la planilla de acciones comerciales y del stock del ERP
-> Vence con el mes y puede tener condiciones. No se usa sin confirmarla con la marca.
+## 💲 Oferta y stock: la planilla cargada es de septiembre y ya venció
+> [!warning] No usar estos montos en un texto
+> Es el último dato de la planilla de acciones comerciales. Hasta que se cargue la de este mes, confirmar precio y descuento con la marca.
 
-- Párrafo para sumar al mail: `En septiembre, JAC RF8 está desde USD 42.990 y con hasta USD 2.000 de descuento. Consultá condiciones con tu asesor.`
-- Planilla (2026-09): precio de lista desde USD 42.990 · descuento hasta USD 2.000
-- Stock disponible hoy (ERP): 4 unidades. «Entrega inmediata» solo si la marca lo confirma.
+- Último dato de la planilla (2026-09): precio de lista desde USD 42.990 · descuento hasta USD 2.000
+- Stock disponible al 18-09 (ERP): 4 unidades. «Entrega inmediata» solo si la marca lo confirma.

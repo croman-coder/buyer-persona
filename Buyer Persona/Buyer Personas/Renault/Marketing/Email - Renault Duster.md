@@ -5,7 +5,7 @@ tags: [marketing, email]
 ---
 # 📧 Email - Renault Duster
 **Persona:** [[Renault Duster]]
-**Test drive:** hay 1 unidad de prueba en el stock de hoy (ERP).
+**Test drive:** hay 1 unidad de prueba en el stock del 18-09 (ERP).
 
 > [!info] Cómo usar este mail
 > Los campos entre llaves (`{nombre}`, `{link}`) los completa la herramienta de envío. No promete tasas, plazos, garantías ni urgencias: la oferta del mes y el stock van al final, para confirmar con la marca antes de sumarlos.

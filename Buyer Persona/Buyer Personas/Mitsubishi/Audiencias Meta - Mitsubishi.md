@@ -11,15 +11,15 @@ _50 públicos únicos encontrados en las cuentas de Mitsubishi. Reusalos para re
 |---|---|---|
 | RMK IG | General (365) | Interacción Instagram | 15,900 |
 | RMK IG | Interactuaron (365) | Interacción Instagram | 10,700 |
-| RMK FB | General (365) | Interacción (IG/FB/anuncios) | 5,700 |
-| RMK WEB | Page View (180) | Visitantes del sitio | 5,600 |
-| RMK WEB | Contact (180) | Visitantes del sitio | 5,300 |
-| RMK WEB | Todos los visitantes del sitio web (180) | Visitantes del sitio | 5,300 |
+| RMK FB | General (365) | Interacción (IG/FB/anuncios) | 5,800 |
+| RMK WEB | Page View (180) | Visitantes del sitio | 5,700 |
+| RMK WEB | Contact (180) | Visitantes del sitio | 5,400 |
+| RMK WEB | Todos los visitantes del sitio web (180) | Visitantes del sitio | 5,400 |
 | RMK FORM | L200 | Abrió y no envió | 90 días | Interacción (IG/FB/anuncios) | 4,200 |
 | RMK FB | Seguidores actuales | Interacción (IG/FB/anuncios) | 3,800 |
 | RMK FORM | Destinator | Abrió y no envió | 90 días | Interacción (IG/FB/anuncios) | 3,700 |
 | Mitsubishi | Público Instagram | Interacción Instagram | 3,600 |
-| RMK WEB | CP Destinator - vio Form / no envio (90) | Interacción (IG/FB/anuncios) | 3,400 |
+| RMK WEB | CP Destinator - vio Form / no envio (90) | Interacción (IG/FB/anuncios) | 3,500 |
 | RMK VIDEOS TODOS | 15S (365) | Interacción (IG/FB/anuncios) | 2,500 |
 | RMK VIDEOS | 95% (365) | Interacción (IG/FB/anuncios) | 2,500 |
 | Público similar (5%) - LEAD FORM | Outlander | Enviado | 90 días | Público similar (Lookalike) | 1,000 |

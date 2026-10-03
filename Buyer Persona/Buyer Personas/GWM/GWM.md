@@ -1,7 +1,7 @@
 ---
 type: moc-marca
 marca: GWM
-created: 2026-10-02
+created: 2026-10-03
 tags:
   - moc
   - marca/gwm
@@ -9,17 +9,17 @@ tags:
 
 # 🚗 GWM
 
-> Generado el **2026-10-02 06:41** · 10 modelos con persona propia.
+> Generado el **2026-10-03 12:34** · 10 modelos con persona propia.
 
 ## 👤 Comprador de la marca
 
 - [[Comprador GWM]]
-- **Inversión Meta:** ~USD 4,404/mes · CPL USD 2.8 · 4,723 leads en la ventana
-- **Públicos:** 100.0% de 118 adsets activos a público frío
+- **Inversión Meta:** ~USD 4,454/mes · CPL USD 2.8 · 4,777 leads en la ventana
+- **Públicos:** 100.0% de 122 adsets activos a público frío
 
 ## 👥 Quién mira y quién decide
 
-- En Meta, ellas son el 31,7 % de los clics pero, viendo el mismo anuncio, contactan 0,87× lo que ellos (menos en 33 de 48 conjuntos): **ella investiga y él da el paso**.
+- En Meta, ellas son el 31,5 % de los clics pero, viendo el mismo anuncio, contactan 0,88× lo que ellos (menos en 33 de 49 conjuntos): **ella investiga y él da el paso**.
 - El 35,0 % de las compras a cliente final las factura una empresa.
 - **Qué hacer en Meta Ads y cómo leerlo:** [[👥 Quién mira y quién decide — GWM]]
 
@@ -27,16 +27,16 @@ tags:
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[GWM Haval H6]] | 25-34 | Masculino 58.4% | modelo | 295 | 229 | ⚖️ equilibrado | USD 1,493 |
-| [[GWM Haval Jolion]] | 25-34 | Masculino 76.0% | modelo | 193 | 164 | ⚖️ equilibrado | USD 978 |
-| [[GWM Poer]] | 25-34 | Masculino 69.1% | modelo | 101 | 112 | ⚖️ equilibrado | USD 511 |
-| [[GWM Tank 400]] | 25-34 | Femenino 51.8% | modelo | 95 | 95 | ⚖️ equilibrado | USD 480 |
-| [[GWM Haval H9]] | 65+ | Femenino 64.4% | modelo | 70 | 47 | ⚖️ equilibrado | USD 352 |
-| [[GWM Wingle]] | 35-44 | Masculino 73.2% | marca | 44 | 12 | 🟢 sub-pautado | USD 225 |
-| [[GWM Tank 300]] | 35-44 | Masculino 63.8% | modelo | 34 | 38 | ⚖️ equilibrado | USD 172 |
-| [[GWM Tank 500]] | 45-54 | Masculino 57.3% | modelo | 19 | 11 | ⚖️ equilibrado | USD 97 |
-| [[GWM Haval H7]] | 65+ | Femenino 52.2% | modelo | 13 | 44 | 🔴 sobre-pautado | USD 66 |
-| [[GWM Ora]] | 25-34 | Masculino 73.9% | modelo | 6 | 53 | 🔴 sobre-pautado | USD 31 |
+| [[GWM Haval H6]] | 25-34 | Masculino 57.8% | modelo | 295 | 230 | ⚖️ equilibrado | USD 1,510 |
+| [[GWM Haval Jolion]] | 25-34 | Masculino 75.9% | modelo | 193 | 165 | ⚖️ equilibrado | USD 989 |
+| [[GWM Poer]] | 25-34 | Masculino 70.1% | modelo | 101 | 112 | ⚖️ equilibrado | USD 517 |
+| [[GWM Tank 400]] | 25-34 | Femenino 50.0% | modelo | 95 | 97 | ⚖️ equilibrado | USD 486 |
+| [[GWM Haval H9]] | 65+ | Femenino 63.1% | modelo | 70 | 48 | ⚖️ equilibrado | USD 356 |
+| [[GWM Wingle]] | 35-44 | Masculino 73.4% | marca | 44 | 12 | 🟢 sub-pautado | USD 227 |
+| [[GWM Tank 300]] | 35-44 | Masculino 63.9% | modelo | 34 | 38 | ⚖️ equilibrado | USD 174 |
+| [[GWM Tank 500]] | 45-54 | Masculino 57.3% | modelo | 19 | 11 | ⚖️ equilibrado | USD 98 |
+| [[GWM Haval H7]] | 65+ | Femenino 52.0% | modelo | 13 | 45 | 🔴 sobre-pautado | USD 67 |
+| [[GWM Ora]] | 25-34 | Masculino 74.2% | modelo | 6 | 53 | 🔴 sobre-pautado | USD 31 |
 
 _Demo = de dónde sale edad/género: **modelo** (anuncios propios del modelo) o **marca** (heredado, pocos clics propios). Brecha: 🟢 sub-pautado = vende más de lo que se pauta, 🔴 sobre-pautado, 🆕 lanzamiento sin ventas en el ERP aún._
 

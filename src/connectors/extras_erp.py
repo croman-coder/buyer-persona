@@ -52,6 +52,18 @@ def _num(x) -> float:
 
 
 # ----------------------------------------------------------------------------- stock
+def _fecha_archivo(path: Path) -> str:
+    """Fecha en que se cargó la planilla (la del archivo): el stock es de ese día, no de hoy."""
+    return date.fromtimestamp(path.stat().st_mtime).isoformat()
+
+
+def _con_fecha(out: dict[str, Any], path: Path) -> dict[str, Any]:
+    fecha = _fecha_archivo(path)
+    for d in (*out["by_model"].values(), *out["by_brand"].values()):
+        d["fecha"] = fecha
+    return {**out, "fecha": fecha}
+
+
 def load_stock(path: Path, today: date) -> dict[str, Any]:
     df = pd.read_excel(path, sheet_name="Datos", header=2)
     df.columns = [str(c).strip() for c in df.columns]
@@ -80,7 +92,7 @@ def load_stock(path: Path, today: date) -> dict[str, Any]:
         b = by_brand.setdefault(d["brand"], {"total": 0, "en_viaje": 0, "disponible": 0, "propuesta": 0})
         for k in ("total", "en_viaje", "disponible", "propuesta"):
             b[k] += d[k]
-    return {"file": path.name, "by_model": by_model, "by_brand": by_brand, "total": int(len(df))}
+    return _con_fecha({"file": path.name, "by_model": by_model, "by_brand": by_brand, "total": int(len(df))}, path)
 
 
 def load_stock_usados(path: Path, today: date) -> dict[str, Any]:
@@ -100,7 +112,7 @@ def load_stock_usados(path: Path, today: date) -> dict[str, Any]:
             "dias_promedio": int(g["dias"].dropna().mean()) if g["dias"].notna().any() else None,
         }
     tot = {"total": int(len(df)), "en_viaje": 0, "disponible": int(df["estado"].isin(["DISPONIBLE", "STOCK"]).sum()), "propuesta": 0}
-    return {"file": path.name, "by_model": by_model, "by_brand": {"Renew": tot}, "total": int(len(df))}
+    return _con_fecha({"file": path.name, "by_model": by_model, "by_brand": {"Renew": tot}, "total": int(len(df))}, path)
 
 
 # ----------------------------------------------------------------------------- acciones comerciales

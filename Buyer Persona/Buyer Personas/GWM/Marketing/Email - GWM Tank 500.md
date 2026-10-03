@@ -5,7 +5,7 @@ tags: [marketing, email]
 ---
 # 📧 Email - GWM Tank 500
 **Persona:** [[GWM Tank 500]]
-**Test drive:** no hay unidad de prueba en el stock de hoy (ERP): los textos invitan a verlo en el salón.
+**Test drive:** no hay unidad de prueba en el stock del 18-09 (ERP): los textos invitan a verlo en el salón.
 
 > [!info] Cómo usar este mail
 > Los campos entre llaves (`{nombre}`, `{link}`) los completa la herramienta de envío. No promete tasas, plazos, garantías ni urgencias: la oferta del mes y el stock van al final, para confirmar con la marca antes de sumarlos.
@@ -48,10 +48,9 @@ Hola {nombre}:
 Equipo GWM
 ```
 
-## 💲 Oferta del mes y stock: confirmar antes de usar
-> [!warning] Sale de la planilla de acciones comerciales y del stock del ERP
-> Vence con el mes y puede tener condiciones. No se usa sin confirmarla con la marca.
+## 💲 Oferta y stock: la planilla cargada es de septiembre y ya venció
+> [!warning] No usar estos montos en un texto
+> Es el último dato de la planilla de acciones comerciales. Hasta que se cargue la de este mes, confirmar precio y descuento con la marca.
 
-- Párrafo para sumar al mail: `GWM Tank 500 está desde USD 49.990 (precio de lista de septiembre).`
-- Planilla (2026-09): precio de lista desde USD 49.990
+- Último dato de la planilla (2026-09): precio de lista desde USD 49.990
 - Condición en la planilla: preventa

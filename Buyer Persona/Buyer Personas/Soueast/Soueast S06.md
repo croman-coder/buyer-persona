@@ -6,7 +6,7 @@ age_range: 35-44
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-02'
+created: '2026-10-03'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (clics por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-04 → 2026-10-02 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-05 → 2026-10-03 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quién hace clic en los anuncios**, no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -29,22 +29,22 @@ tags:
 
 > [!summary] Perfil Resumido
 - **Edad:** 35-44 (28.9% de los clics) · perfil propio del modelo
-- **Género predominante:** Masculino (79.9%)
+- **Género predominante:** Masculino (80.0%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-04 → 2026-10-02 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-05 → 2026-10-03 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Soueast S06`
 - **Marca:** [[Comprador Soueast|Soueast]]
 - **Tipo de vehículo:** SUV
 - **Ventas reales (ERP):** 164 unidades desde 2018 · últimos 12 meses: 143 · últimos 90 días: 48
-- **Pauta real (90 días):** 49 anuncios (19 activos)
-- **Brecha pauta/venta:** equilibrado ⚖️ — 63.8% de las ventas de la marca (12 meses) vs 38.3% de sus anuncios (ERP hasta 2026-09-11)
+- **Pauta real (90 días):** 86 anuncios (19 activos)
+- **Brecha pauta/venta:** equilibrado ⚖️ — 63.8% de las ventas de la marca (12 meses) vs 41.1% de sus anuncios (ERP hasta 2026-09-11)
   _Cómo se decide: **sub-pautado** si el modelo pone ≥5 % de las ventas de la marca y tiene menos de la mitad de anuncios que de ventas (escalar); **sobre-pautado** si pone ≥5 % de los anuncios y vende menos de la mitad de eso (revisar); **equilibrado** si no pasa ninguna de las dos._
 - **Ticket promedio (ERP, facturado):** USD 26,121
 
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 20,8 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,12×).
+- **Meta:** ellas son el 20,9 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,10×).
 - **Quién paga (ERP, 12 meses):** el 12,5 % de sus 136 ventas a cliente final las facturó una empresa.
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — Soueast]]
@@ -56,21 +56,21 @@ _Qué es: quién hace clic en los anuncios de este público, por edad y género.
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** anuncios de Meta que nombran a **Soueast S06** (36,174 clics en la ventana), ponderado por clics — Masculino 79.9%
-- **Distribución de edad (Meta):** 35-44: 28.9%, 45-54: 22.8%, 25-34: 20.1%, 55-64: 13.1%, 65+: 8.3%, 18-24: 6.8%
+- **Fuente edad/género:** anuncios de Meta que nombran a **Soueast S06** (37,027 clics en la ventana), ponderado por clics — Masculino 80.0%
+- **Distribución de edad (Meta):** 35-44: 28.9%, 45-54: 22.9%, 25-34: 20.1%, 55-64: 13.2%, 65+: 8.2%, 18-24: 6.7%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
 
 _Qué es: los temas que aparecen en los anuncios que este público ve y clickea. No son intereses declarados (Meta dejó de exponerlos en 2021): es con qué le estamos hablando y qué responde. El % es la parte de los anuncios que toca cada tema._
 
-**Intereses observados** (49 anuncios reales leídos):
-- Tecnología y conectividad · 85.4% de los anuncios
-- Diseño y estatus · 66.7% de los anuncios
-- Garantía y respaldo posventa · 39.6% de los anuncios
-- Probar antes de comprar (test drive) · 27.1% de los anuncios
-- Seguridad y asistencias a la conducción · 22.9% de los anuncios
-- Financiación en cuotas · 20.8% de los anuncios
+**Intereses observados** (86 anuncios reales leídos):
+- Garantía y respaldo posventa · 65.9% de los anuncios
+- Tecnología y conectividad · 64.7% de los anuncios
+- Diseño y estatus · 40.0% de los anuncios
+- Autos eléctricos y ahorro de combustible · 30.6% de los anuncios
+- Probar antes de comprar (test drive) · 15.3% de los anuncios
+- Seguridad y asistencias a la conducción · 12.9% de los anuncios
 
 _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, para no tener el mismo número dos veces._
 
@@ -110,36 +110,38 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!warning] 🔴 Dolores y Frustraciones
 
-> _De dónde sale: del texto de 48 anuncios reales de este modelo. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
+> _De dónde sale: del texto de 85 anuncios reales de este modelo. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
 >
 > - Compara el valor de la cuota mensual, no solo el precio de lista
 > - Sensible a promociones y precio por tiempo limitado
+> - Necesita espacio y capacidad suficiente para uso familiar
 
 
 > [!tip] 🎯 Objetivos y Necesidades
 
 > - Probar el vehículo antes de decidir (test drive)
 > - Conseguir financiación accesible con cuotas manejables
+> - Encontrar un vehículo con espacio adecuado para la familia
 
 
 > [!info] 💡 Motivaciones de Compra
 
+> - Confianza en la garantía y el respaldo de posventa de la marca/concesionaria
 > - Tecnología y conectividad de última generación
 > - Status y diseño en el segmento premium
-> - Confianza en la garantía y el respaldo de posventa de la marca/concesionaria
-> - Seguridad y tecnología de asistencia a la conducción verificable
 > - Ahorro de combustible y mantenimiento a largo plazo
+> - Seguridad y tecnología de asistencia a la conducción verificable
 
 
 > [!example] 📣 Estrategia Recomendada
 
 > **Mensaje clave:** Enfoca la comunicación en 'Soueast S06'.
 > **Canales:** Prioriza Showroom.
-> **Oferta vigente:** descuento hasta USD 2,000 (2026-09). Usarla en el copy mientras dure.
-> **Formato:** Reels/Stories (video vertical corto) concentra el 54.2% de las impresiones reales — priorizá ese formato en las piezas nuevas.
-> **Públicos hoy:** 58.5% de los adsets activos van a público frío; 22 de 53 adsets usan base propia (2 lookalike).
-> **Presupuesto sugerido:** ~USD 1,712/mes (hoy ~USD 1,028/mes según su peso en anuncios) → ~283 leads/mes al CPL actual de la marca (USD 6.03).
-> _Base del cálculo: 63.8% de las ventas de la marca sobre USD 2,684/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Oferta:** la planilla de acciones comerciales cargada es de septiembre y ya venció (último dato: descuento hasta USD 2,000). No usar el descuento en el copy hasta cargar la de este mes.
+> **Formato:** Reels/Stories (video vertical corto) concentra el 53.9% de las impresiones reales — priorizá ese formato en las piezas nuevas.
+> **Públicos hoy:** 56.9% de los adsets activos van a público frío; 22 de 51 adsets usan base propia (2 lookalike).
+> **Presupuesto sugerido:** ~USD 1,732/mes (hoy ~USD 1,116/mes según su peso en anuncios) → ~287 leads/mes al CPL actual de la marca (USD 6.03).
+> _Base del cálculo: 63.8% de las ventas de la marca sobre USD 2,715/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -147,17 +149,17 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Soueast (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 1,336
+> **Total de leads de la marca en la ventana:** 1,350
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
 > **Modelos más pedidos (toda la marca):** S09 (11), S07 (6), S08 (2)
-> **Interés de compra:** en_1_a_3_meses (805), inmediatamente (512)
+> **Interés de compra:** en_1_a_3_meses (811), inmediatamente (520)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Soueast (90 días)
 
-> **Leads:** 2,970 → **convertidos:** 4 (0.1%)
-> **Por canal:** Meta madre 1,662, Meta asesores 1,129, Meta otros 177, Otros canales 2
-> **Deals:** 74 — ganados 8, perdidos 7, en proceso 59 (win rate 53.3%)
+> **Leads:** 3,044 → **convertidos:** 4 (0.1%)
+> **Por canal:** Meta madre 1,691, Meta asesores 1,174, Meta otros 176, Otros canales 3
+> **Deals:** 74 — ganados 8, perdidos 6, en proceso 60 (win rate 57.1%)
 > **Monto ganado:** USD 181,950 · ticket promedio USD 22,744
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
@@ -179,8 +181,8 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!info] 📦 Stock, oferta y objetivos — uso interno
 
-> **Stock hoy:** 72 unidades (9 disponibles, 55 en viaje, 18 con propuesta) · 45 días promedio en stock.
-> **Precio de lista (2026-09):** USD 24,990 a 28,990 en 3 versión(es) · **descuento vigente hasta USD 2,000**.
+> **Stock al 18-09:** 72 unidades (9 disponibles, 55 en viaje, 18 con propuesta) · 46 días promedio en stock.
+> **Precio de lista (2026-09, planilla vencida):** USD 24,990 a 28,990 en 3 versión(es) · descuento hasta USD 2,000 (vencido).
 > **Acción comercial:** 1000$ bono y escritura gratis s/precio full
 > **Acción comercial:** -
 > **Negociaciones abiertas del modelo:** 10 (2026-09 semana 1).
@@ -199,7 +201,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-02 06:41*
+*Generado el 2026-10-03 12:34*
 
 ## 🔗 Contenido Relacionado
 

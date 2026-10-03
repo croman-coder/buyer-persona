@@ -20,8 +20,8 @@ tags: [marketing, google-ads]
 | 4 | Concesionario Oficial Zeekr | 27 |
 | 5 | Agendá tu Test Drive | 20 |
 | 6 | Tecnología y Conectividad | 25 |
-| 7 | Eficiencia en Cada Kilómetro | 28 |
-| 8 | Diseño que se Nota | 18 |
+| 7 | Diseño que se Nota | 18 |
+| 8 | Eficiencia en Cada Kilómetro | 28 |
 | 9 | X 0km | 5 |
 | 10 | Versiones y Equipamiento | 24 |
 | 11 | Hablá con un Asesor | 19 |
@@ -32,8 +32,8 @@ tags: [marketing, google-ads]
 |---|---|---|
 | 1 | Zeekr X: cotizá y agendá tu test drive en el concesionario oficial. | 67 |
 | 2 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
-| 3 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
-| 4 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
+| 3 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
+| 4 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
 
 **URL visible:** `…/X/Cotizar` (cada tramo, máx. 15 caracteres)
 

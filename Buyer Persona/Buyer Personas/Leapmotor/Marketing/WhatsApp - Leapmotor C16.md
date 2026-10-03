@@ -5,7 +5,7 @@ tags: [marketing, whatsapp]
 ---
 # 💬 WhatsApp - Leapmotor C16
 **Persona:** [[Leapmotor C16]]
-**Test drive:** no hay unidad de prueba en el stock de hoy (ERP): los textos invitan a verlo en el salón.
+**Test drive:** no hay unidad de prueba en el stock del 18-09 (ERP): los textos invitan a verlo en el salón.
 
 > [!info] Cuándo usar cada mensaje
 > Bienvenida, seguimiento y respuestas van dentro de las **24 horas** desde el último mensaje del cliente. Fuera de esa ventana, WhatsApp solo deja escribir con una **plantilla aprobada por Meta** (categoría marketing) y a quien aceptó recibir mensajes: esa es la invitación. `{asesor}` y `{nombre}` se completan al enviar. Sin tasas, plazos, garantías ni urgencias: la oferta del mes y el stock van al final, para confirmar antes.

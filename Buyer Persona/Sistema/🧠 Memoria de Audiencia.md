@@ -1,11 +1,11 @@
 ---
 type: memoria-audiencia
-updated: 2026-10-02
+updated: 2026-10-03
 tags: [buyer-persona, sistema, memoria, aprendizaje]
 ---
 # 🧠 Memoria de Audiencia
 
-> Lo que el sistema aprendió de nuestra audiencia real de compra, corrida tras corrida. **15 corridas** acumuladas desde el 2026-09-18; última: **2026-10-02**. Fuentes: Meta (edad/género por anuncio, targeting, gasto), ERP (ventas), Bitrix (embudo), Datacar (precios de mercado). Serie completa en `Sistema/Memoria/historial_audiencia.jsonl`.
+> Lo que el sistema aprendió de nuestra audiencia real de compra, corrida tras corrida. **16 corridas** acumuladas desde el 2026-09-18; última: **2026-10-03**. Fuentes: Meta (edad/género por anuncio, targeting, gasto), ERP (ventas), Bitrix (embudo), Datacar (precios de mercado). Serie completa en `Sistema/Memoria/historial_audiencia.jsonl`.
 
 > [!tip] Para Hermes y para quien pauta
 > Antes de armar o tocar una campaña: (1) usar el público **confirmado** del modelo, no el de la marca; (2) mirar *Qué cambió* por si el público se movió; (3) aplicar las *Reglas aprendidas*; (4) no nombrar competidores en copies públicos (ley PY).
@@ -14,130 +14,129 @@ tags: [buyer-persona, sistema, memoria, aprendizaje]
 
 | Modelo | Público | Corridas iguales | Desde | Clics | Estado |
 |---|---|---|---|---|---|
-| Jetour X70 | Masculino 62.6% · 55-64 | 15 | 2026-09-18 | 46,519 | 🟢 sólido |
-| Jetour X50 | Masculino 68.6% · 35-44 | 15 | 2026-09-18 | 46,344 | 🟢 sólido |
-| Mitsubishi L200 | Masculino 83.7% · 35-44 | 15 | 2026-09-18 | 43,837 | 🟢 sólido |
-| Soueast S06 | Masculino 79.9% · 35-44 | 15 | 2026-09-18 | 36,174 | 🟢 sólido |
-| Jetour Dashing | Masculino 70.9% · 35-44 | 15 | 2026-09-18 | 26,835 | 🟢 sólido |
-| Jetour T1 | Masculino 56.7% · 65+ | 15 | 2026-09-18 | 20,880 | 🟢 sólido |
-| Leapmotor C10 | Masculino 68.0% · 65+ | 15 | 2026-09-18 | 19,289 | 🟢 sólido |
-| GWM Haval H7 | Femenino 52.2% · 65+ | 15 | 2026-09-18 | 17,408 | 🟢 sólido |
-| GWM Poer | Masculino 69.1% · 25-34 | 15 | 2026-09-18 | 14,603 | 🟢 sólido |
-| JMEV EV2 | Masculino 87.6% · 35-44 | 15 | 2026-09-18 | 14,235 | 🟢 sólido |
-| Renault Master | Masculino 70.0% · 35-44 | 15 | 2026-09-18 | 11,986 | 🟢 sólido |
-| GWM Haval H9 | Femenino 64.4% · 65+ | 15 | 2026-09-18 | 11,884 | 🟢 sólido |
-| JAC X200 | Masculino 80.0% · 35-44 | 15 | 2026-09-18 | 11,324 | 🟢 sólido |
-| JAC T9 | Masculino 76.5% · 35-44 | 15 | 2026-09-18 | 10,941 | 🟢 sólido |
-| GWM Ora | Masculino 73.9% · 25-34 | 15 | 2026-09-18 | 9,871 | 🟢 sólido |
-| Renault Oroch | Masculino 83.0% · 35-44 | 15 | 2026-09-18 | 9,759 | 🟢 sólido |
-| Mitsubishi Montero Sport | Masculino 78.0% · 35-44 | 15 | 2026-09-18 | 9,600 | 🟢 sólido |
-| JAC E30X | Masculino 85.5% · 35-44 | 15 | 2026-09-18 | 7,485 | 🟢 sólido |
-| Soueast S08 | Masculino 70.9% · 35-44 | 15 | 2026-09-18 | 6,859 | 🟢 sólido |
-| JAC JS4 | Masculino 70.6% · 35-44 | 15 | 2026-09-18 | 6,247 | 🟢 sólido |
-| Soueast S07 | Masculino 74.3% · 35-44 | 15 | 2026-09-18 | 6,129 | 🟢 sólido |
-| JAC LD250 | Masculino 74.9% · 25-34 | 15 | 2026-09-18 | 6,048 | 🟢 sólido |
-| Mitsubishi Outlander | Masculino 78.2% · 35-44 | 15 | 2026-09-18 | 5,777 | 🟢 sólido |
-| Jetour G700 | Masculino 65.1% · 65+ | 15 | 2026-09-18 | 4,923 | 🟢 sólido |
-| JAC RF8 | Masculino 75.0% · 35-44 | 15 | 2026-09-18 | 4,691 | 🟢 sólido |
-| Soueast S09 | Masculino 75.0% · 35-44 | 15 | 2026-09-18 | 4,435 | 🟢 sólido |
-| JAC LD123 | Masculino 82.4% · 35-44 | 15 | 2026-09-18 | 4,159 | 🟢 sólido |
-| JAC Sunray | Masculino 84.2% · 45-54 | 15 | 2026-09-18 | 3,195 | 🟢 sólido |
-| JMEV EV3 | Masculino 83.7% · 35-44 | 15 | 2026-09-18 | 2,382 | 🟢 sólido |
-| GWM Tank 500 | Masculino 57.3% · 45-54 | 15 | 2026-09-18 | 174 | 🟢 sólido |
-| XPeng G9 | Masculino 57.6% · 65+ | 14 | 2026-09-18 | 23,268 | 🟢 sólido |
-| Zeekr 7X | Masculino 71.8% · 65+ | 14 | 2026-09-18 | 16,181 | 🟢 sólido |
-| Mitsubishi Destinator | Masculino 89.8% · 35-44 | 14 | 2026-09-18 | 15,851 | 🟢 sólido |
-| Leapmotor T03 | Masculino 72.6% · 35-44 | 14 | 2026-09-18 | 8,870 | 🟢 sólido |
-| Jetour X90 | Masculino 60.9% · 65+ | 14 | 2026-09-18 | 3,877 | 🟢 sólido |
-| JAC LE420 | Masculino 82.4% · 35-44 | 14 | 2026-09-18 | 1,432 | 🟢 sólido |
-| Leapmotor C16 | Femenino 79.7% · 35-44 | 14 | 2026-09-18 | 255 | 🟢 sólido |
-| Renault Koleos | Masculino 69.5% · 25-34 | 13 | 2026-09-20 | 28,980 | 🟢 sólido |
-| Renew Kia | Masculino 76.2% · 25-34 | 12 | 2026-09-21 | 23,755 | 🟢 sólido |
-| Renew Hyundai | Masculino 69.4% · 35-44 | 12 | 2026-09-21 | 8,704 | 🟢 sólido |
-| Renew Jeep | Masculino 70.9% · 35-44 | 12 | 2026-09-21 | 6,608 | 🟢 sólido |
-| Renew Jetour | Masculino 76.9% · 35-44 | 12 | 2026-09-21 | 5,162 | 🟢 sólido |
-| Renew Chevrolet | Masculino 76.4% · 25-34 | 12 | 2026-09-21 | 4,605 | 🟢 sólido |
-| Renew Renault | Masculino 77.8% · 25-34 | 12 | 2026-09-21 | 3,413 | 🟢 sólido |
-| Renew Honda | Masculino 91.5% · 35-44 | 12 | 2026-09-21 | 3,046 | 🟢 sólido |
-| Renew Volkswagen | Masculino 90.6% · 25-34 | 12 | 2026-09-21 | 2,813 | 🟢 sólido |
-| Renew Ford | Masculino 88.2% · 35-44 | 12 | 2026-09-21 | 2,308 | 🟢 sólido |
-| Renew JAC | Masculino 88.3% · 35-44 | 12 | 2026-09-21 | 2,166 | 🟢 sólido |
-| Renew SsangYong | Masculino 72.1% · 35-44 | 12 | 2026-09-21 | 935 | 🟢 sólido |
-| Renew Mini | Femenino 67.6% · 18-24 | 12 | 2026-09-21 | 293 | 🟢 sólido |
-| Renew Usados | Masculino 83.5% · 35-44 | 11 | 2026-09-22 | 26,729 | 🟢 sólido |
-| Renault Boreal | Masculino 63.9% · 35-44 | 11 | 2026-09-22 | 3,358 | 🟢 sólido |
-| Renew Peugeot | Masculino 83.8% · 35-44 | 11 | 2026-09-22 | 2,715 | 🟢 sólido |
-| Renew Fiat | Masculino 64.4% · 35-44 | 9 | 2026-09-24 | 519 | 🟢 sólido |
-| GWM Haval H6 | Masculino 58.4% · 25-34 | 6 | 2026-09-27 | 27,783 | 🟡 confirmado |
-| Mitsubishi Eclipse Cross | Masculino 72.1% · 35-44 | 5 | 2026-09-28 | 3,751 | 🟡 confirmado |
-| Renault Kwid | Masculino 72.2% · 35-44 | 4 | 2026-09-29 | 1,144 | 🟡 confirmado |
-| GWM Tank 400 | Femenino 51.8% · 25-34 | 3 | 2026-09-30 | 25,375 | 🟡 confirmado |
-| Renew GWM | Masculino 81.1% · 35-44 | 3 | 2026-09-30 | 7,816 | 🟡 confirmado |
-| Renault Kardian | Masculino 61.9% · 18-24 | 3 | 2026-09-30 | 3,624 | 🟡 confirmado |
-| Renew Nissan | Femenino 53.5% · 65+ | 3 | 2026-09-30 | 1,988 | 🟡 confirmado |
+| Jetour X50 | Masculino 68.2% · 35-44 | 16 | 2026-09-18 | 46,591 | 🟢 sólido |
+| Jetour X70 | Masculino 62.6% · 55-64 | 16 | 2026-09-18 | 46,430 | 🟢 sólido |
+| Mitsubishi L200 | Masculino 83.9% · 35-44 | 16 | 2026-09-18 | 43,932 | 🟢 sólido |
+| Soueast S06 | Masculino 80.0% · 35-44 | 16 | 2026-09-18 | 37,027 | 🟢 sólido |
+| Jetour Dashing | Masculino 70.7% · 35-44 | 16 | 2026-09-18 | 26,755 | 🟢 sólido |
+| Jetour T1 | Masculino 56.5% · 65+ | 16 | 2026-09-18 | 20,987 | 🟢 sólido |
+| GWM Haval H7 | Femenino 52.0% · 65+ | 16 | 2026-09-18 | 17,585 | 🟢 sólido |
+| GWM Poer | Masculino 70.1% · 25-34 | 16 | 2026-09-18 | 14,688 | 🟢 sólido |
+| JMEV EV2 | Masculino 88.0% · 35-44 | 16 | 2026-09-18 | 14,011 | 🟢 sólido |
+| Renault Master | Masculino 71.0% · 35-44 | 16 | 2026-09-18 | 12,680 | 🟢 sólido |
+| GWM Haval H9 | Femenino 63.1% · 65+ | 16 | 2026-09-18 | 12,192 | 🟢 sólido |
+| JAC X200 | Masculino 80.2% · 35-44 | 16 | 2026-09-18 | 11,417 | 🟢 sólido |
+| JAC T9 | Masculino 76.7% · 35-44 | 16 | 2026-09-18 | 10,907 | 🟢 sólido |
+| GWM Ora | Masculino 74.2% · 25-34 | 16 | 2026-09-18 | 9,869 | 🟢 sólido |
+| Renault Oroch | Masculino 82.9% · 35-44 | 16 | 2026-09-18 | 9,841 | 🟢 sólido |
+| Mitsubishi Montero Sport | Masculino 77.5% · 35-44 | 16 | 2026-09-18 | 9,453 | 🟢 sólido |
+| JAC E30X | Masculino 85.2% · 35-44 | 16 | 2026-09-18 | 7,710 | 🟢 sólido |
+| Soueast S08 | Masculino 71.9% · 35-44 | 16 | 2026-09-18 | 6,856 | 🟢 sólido |
+| JAC JS4 | Masculino 70.5% · 35-44 | 16 | 2026-09-18 | 6,256 | 🟢 sólido |
+| Soueast S07 | Masculino 75.3% · 35-44 | 16 | 2026-09-18 | 6,001 | 🟢 sólido |
+| JAC LD250 | Masculino 75.1% · 25-34 | 16 | 2026-09-18 | 5,993 | 🟢 sólido |
+| Mitsubishi Outlander | Masculino 79.5% · 35-44 | 16 | 2026-09-18 | 5,962 | 🟢 sólido |
+| JAC RF8 | Masculino 77.0% · 35-44 | 16 | 2026-09-18 | 5,458 | 🟢 sólido |
+| Jetour G700 | Masculino 65.1% · 65+ | 16 | 2026-09-18 | 5,079 | 🟢 sólido |
+| Soueast S09 | Masculino 76.0% · 35-44 | 16 | 2026-09-18 | 4,274 | 🟢 sólido |
+| JAC LD123 | Masculino 82.7% · 35-44 | 16 | 2026-09-18 | 4,197 | 🟢 sólido |
+| JAC Sunray | Masculino 84.1% · 45-54 | 16 | 2026-09-18 | 3,256 | 🟢 sólido |
+| JMEV EV3 | Masculino 83.6% · 35-44 | 16 | 2026-09-18 | 2,480 | 🟢 sólido |
+| GWM Tank 500 | Masculino 57.3% · 45-54 | 16 | 2026-09-18 | 174 | 🟢 sólido |
+| XPeng G9 | Masculino 57.5% · 65+ | 15 | 2026-09-18 | 23,167 | 🟢 sólido |
+| Zeekr 7X | Masculino 67.2% · 65+ | 15 | 2026-09-18 | 18,845 | 🟢 sólido |
+| Mitsubishi Destinator | Masculino 89.8% · 35-44 | 15 | 2026-09-18 | 16,220 | 🟢 sólido |
+| Leapmotor T03 | Masculino 72.6% · 35-44 | 15 | 2026-09-18 | 8,887 | 🟢 sólido |
+| Jetour X90 | Masculino 60.9% · 65+ | 15 | 2026-09-18 | 3,877 | 🟢 sólido |
+| JAC LE420 | Masculino 84.6% · 35-44 | 15 | 2026-09-18 | 1,447 | 🟢 sólido |
+| Leapmotor C16 | Femenino 79.7% · 35-44 | 15 | 2026-09-18 | 255 | 🟢 sólido |
+| Renault Koleos | Masculino 69.6% · 25-34 | 14 | 2026-09-20 | 28,986 | 🟢 sólido |
+| Renew Kia | Masculino 76.2% · 25-34 | 13 | 2026-09-21 | 23,781 | 🟢 sólido |
+| Renew Hyundai | Masculino 69.4% · 35-44 | 13 | 2026-09-21 | 8,853 | 🟢 sólido |
+| Renew Jeep | Masculino 70.9% · 35-44 | 13 | 2026-09-21 | 6,518 | 🟢 sólido |
+| Renew Jetour | Masculino 76.6% · 35-44 | 13 | 2026-09-21 | 5,073 | 🟢 sólido |
+| Renew Chevrolet | Masculino 76.4% · 25-34 | 13 | 2026-09-21 | 4,605 | 🟢 sólido |
+| Renew Renault | Masculino 76.4% · 25-34 | 13 | 2026-09-21 | 3,440 | 🟢 sólido |
+| Renew Honda | Masculino 90.0% · 35-44 | 13 | 2026-09-21 | 3,183 | 🟢 sólido |
+| Renew Volkswagen | Masculino 90.6% · 25-34 | 13 | 2026-09-21 | 2,813 | 🟢 sólido |
+| Renew Ford | Masculino 88.2% · 35-44 | 13 | 2026-09-21 | 2,305 | 🟢 sólido |
+| Renew JAC | Masculino 88.7% · 35-44 | 13 | 2026-09-21 | 2,264 | 🟢 sólido |
+| Renew SsangYong | Masculino 72.4% · 35-44 | 13 | 2026-09-21 | 1,035 | 🟢 sólido |
+| Renew Mini | Femenino 61.7% · 18-24 | 13 | 2026-09-21 | 358 | 🟢 sólido |
+| Renew Usados | Masculino 83.5% · 35-44 | 12 | 2026-09-22 | 27,087 | 🟢 sólido |
+| Renault Boreal | Masculino 66.5% · 35-44 | 12 | 2026-09-22 | 3,125 | 🟢 sólido |
+| Renew Peugeot | Masculino 83.5% · 35-44 | 12 | 2026-09-22 | 2,732 | 🟢 sólido |
+| Renew Fiat | Masculino 64.4% · 35-44 | 10 | 2026-09-24 | 519 | 🟢 sólido |
+| GWM Haval H6 | Masculino 57.8% · 25-34 | 7 | 2026-09-27 | 28,054 | 🟢 sólido |
+| Mitsubishi Eclipse Cross | Masculino 71.1% · 35-44 | 6 | 2026-09-28 | 3,776 | 🟡 confirmado |
+| Renault Kwid | Masculino 74.9% · 35-44 | 5 | 2026-09-29 | 1,266 | 🟡 confirmado |
+| GWM Tank 400 | Femenino 50.0% · 25-34 | 4 | 2026-09-30 | 26,015 | 🟡 confirmado |
+| Renew GWM | Masculino 81.3% · 35-44 | 4 | 2026-09-30 | 7,762 | 🟡 confirmado |
+| Renault Kardian | Masculino 62.9% · 18-24 | 4 | 2026-09-30 | 3,611 | 🟡 confirmado |
+| Renew Nissan | Femenino 52.0% · 65+ | 4 | 2026-09-30 | 2,014 | 🟡 confirmado |
+| GWM Haval Jolion | Masculino 75.9% · 25-34 | 3 | 2026-10-01 | 31,263 | 🟡 confirmado |
+| JAC T8 | Masculino 82.6% · 35-44 | 3 | 2026-10-01 | 1,457 | 🟡 confirmado |
+| GWM Tank 300 | Masculino 63.9% · 35-44 | 3 | 2026-10-01 | 249 | 🟡 confirmado |
 
 ## 🔄 Qué cambió
 
-- **GWM Haval H6**: Masculino 67.2% → 58.4% desde el 2026-09-25.
-- **GWM Haval H6**: la edad dominante pasó de 18-24 a 25-34 desde el 2026-09-25.
-- **Jetour T2**: el género dominante pasó de Masculino a Femenino (50.1%) desde el 2026-09-25.
-- **GWM Haval Jolion**: Masculino 60.4% → 76.0% desde el 2026-09-25.
-- **GWM Haval Jolion**: la edad dominante pasó de 45-54 a 25-34 desde el 2026-09-25.
-- **GWM Tank 400**: el género dominante pasó de Masculino a Femenino (51.8%) desde el 2026-09-25.
-- **Renault Kwid**: Masculino 60.1% → 72.2% desde el 2026-09-25.
-- **Renault Kwid**: la edad dominante pasó de 18-24 a 35-44 desde el 2026-09-25.
-- **JAC T8**: la edad dominante pasó de 18-24 a 35-44 desde el 2026-09-25.
-- **Zeekr 001**: la edad dominante pasó de 35-44 a 45-54 desde el 2026-09-25.
-- **Renew GWM**: la edad dominante pasó de 25-34 a 35-44 desde el 2026-09-25.
-- **Renew Nissan**: el género dominante pasó de Masculino a Femenino (53.5%) desde el 2026-09-25.
-- **Renew Fiat**: Masculino 54.0% → 64.4% desde el 2026-09-25.
-- **Renew Mini**: Femenino 78.5% → 67.6% desde el 2026-09-25.
+- **GWM Haval H6**: Masculino 65.9% → 57.8% desde el 2026-09-26.
+- **GWM Haval H6**: la edad dominante pasó de 35-44 a 25-34 desde el 2026-09-26.
+- **Jetour T2**: el género dominante pasó de Masculino a Femenino (50.0%) desde el 2026-09-26.
+- **GWM Haval Jolion**: Masculino 60.5% → 75.9% desde el 2026-09-26.
+- **GWM Haval Jolion**: la edad dominante pasó de 45-54 a 25-34 desde el 2026-09-26.
+- **GWM Tank 400**: el género dominante pasó de Masculino a Femenino (50.0%) desde el 2026-09-26.
+- **Renault Kwid**: Masculino 62.0% → 74.9% desde el 2026-09-26.
+- **Renault Kwid**: la edad dominante pasó de 18-24 a 35-44 desde el 2026-09-26.
+- **JAC T8**: la edad dominante pasó de 18-24 a 35-44 desde el 2026-09-26.
+- **Leapmotor C10**: la edad dominante pasó de 65+ a 35-44 desde el 2026-09-26.
+- **Renew GWM**: la edad dominante pasó de 25-34 a 35-44 desde el 2026-09-26.
+- **Renew Nissan**: el género dominante pasó de Masculino a Femenino (52.0%) desde el 2026-09-26.
+- **Soueast S09**: sobre-pautado → equilibrado.
 
 ## 📈 Tendencias por marca (hoy vs hace 7 / 30 días)
 
 | Marca | Público | CPL USD | CPL 7d | CPL 30d | Leads 90d | Leads 7d | Gasto/mes | Gasto 7d | Público frío | Frío 7d |
 |---|---|---|---|---|---|---|---|---|---|---|
-| **Jetour** | Masculino 66.5% · 35-44 | 1.92 | ▼ 4% | — | 6,497 | ▲ 3% | USD 4,167 | ▼ 0.9% | 100.0% | = 0 pts |
-| **Renew** | Masculino 79.0% · 35-44 | 0.71 | = 0% | — | 5,902 | ▼ 1% | USD 1,397 | ▼ 0.9% | 100.0% | = 0 pts |
-| **GWM** | Masculino 73.2% · 35-44 | 2.8 | ▼ 0.7% | — | 4,723 | ▲ 0.7% | USD 4,404 | ▼ 0.2% | 100.0% | = 0 pts |
-| **JAC** | Masculino 85.2% · 35-44 | 2.47 | ▼ 12.1% | — | 2,906 | ▲ 12.5% | USD 2,388 | ▼ 1.5% | 97.4% | = 0 pts |
-| **Mitsubishi** | Masculino 87.7% · 35-44 | 2.85 | ▼ 5% | — | 2,487 | ▲ 8.5% | USD 2,364 | ▲ 3.2% | 44.4% | ▼ 2 pts |
-| **Soueast** | Masculino 79.0% · 35-44 | 6.03 | ▼ 0.7% | — | 1,336 | ▲ 0.5% | USD 2,684 | ▼ 0.3% | 58.5% | ▲ 0.6 pts |
-| **Renault** | Masculino 77.6% · 35-44 | 7.33 | ▼ 7.8% | — | 1,169 | ▲ 6.2% | USD 2,854 | ▼ 2.2% | 92.0% | = 0 pts |
-| **Leapmotor** | Masculino 76.4% · 35-44 | 2.8 | ▼ 0.7% | — | 1,128 | ▼ 5% | USD 1,051 | ▼ 5.9% | 92.1% | = 0 pts |
-| **Zeekr** | Masculino 76.7% · 65+ | 2.49 | ▼ 4.2% | — | 1,111 | ▲ 1.8% | USD 921 | ▼ 2.7% | 76.5% | = 0 pts |
-| **XPeng** | Masculino 57.8% · 65+ | 3.75 | ▼ 1.3% | — | 733 | ▼ 3.9% | USD 917 | ▼ 5% | 60.0% | = 0 pts |
-| **JMEV** | Masculino 88.8% · 35-44 | 1.07 | ▲ 122.9% | — | 555 | ▼ 58.2% | USD 198 | ▼ 6.3% | 100.0% | = 0 pts |
+| **Jetour** | Masculino 66.5% · 65+ | 1.9 | ▼ 4.5% | — | 6,532 | ▲ 2.6% | USD 4,139 | ▼ 1.9% | 100.0% | = 0 pts |
+| **Renew** | Masculino 79.1% · 35-44 | 0.71 | = 0% | — | 5,915 | ▼ 1.3% | USD 1,401 | ▼ 0.7% | 98.6% | ▼ 1.4 pts |
+| **GWM** | Masculino 73.4% · 35-44 | 2.8 | ▼ 0.7% | — | 4,777 | ▲ 1.5% | USD 4,454 | ▲ 0.6% | 100.0% | = 0 pts |
+| **JAC** | Masculino 85.3% · 35-44 | 2.31 | ▼ 16.3% | — | 3,120 | ▲ 18.3% | USD 2,398 | ▼ 1.2% | 97.4% | = 0 pts |
+| **Mitsubishi** | Masculino 87.7% · 35-44 | 2.84 | ▼ 6% | — | 2,483 | ▲ 7.8% | USD 2,353 | ▲ 1.6% | 48.3% | ▲ 1.9 pts |
+| **Soueast** | Masculino 78.9% · 35-44 | 6.03 | ▼ 0.2% | — | 1,350 | ▲ 1% | USD 2,715 | ▲ 0.9% | 56.9% | ▼ 1 pts |
+| **Leapmotor** | Masculino 76.5% · 35-44 | 2.48 | ▼ 12.1% | — | 1,273 | ▲ 7.9% | USD 1,053 | ▼ 5% | 92.5% | ▲ 0.4 pts |
+| **JMEV** | Masculino 88.7% · 35-44 | 0.49 | ▲ 4.3% | — | 1,199 | ▼ 9.6% | USD 197 | ▼ 5.8% | 100.0% | = 0 pts |
+| **Renault** | Masculino 77.7% · 35-44 | 7.28 | ▼ 8.4% | — | 1,182 | ▲ 7.3% | USD 2,868 | ▼ 1.8% | 91.9% | ▼ 0.1 pts |
+| **Zeekr** | Masculino 76.4% · 65+ | 2.45 | ▼ 5.8% | — | 1,131 | ▲ 3.4% | USD 924 | ▼ 2.4% | 77.8% | ▲ 1.3 pts |
+| **XPeng** | Masculino 57.5% · 65+ | 3.71 | ▼ 2.6% | — | 738 | ▼ 2.6% | USD 914 | ▼ 5% | 60.0% | = 0 pts |
 
 _CPL ▼ es bueno; frío ▼ es bueno (más base propia). Leads y gasto son ventana móvil de 90 días._
 
 ## ⚔️ Mercado y competencia
 
 - Sin cambios de precio de lista en el mercado desde la corrida anterior (Datacar).
-- 658 versiones 0km con precio en el mercado PY; nuestros modelos se comparan contra ±25% de precio en cada nota.
+- 660 versiones 0km con precio en el mercado PY; nuestros modelos se comparan contra ±25% de precio en cada nota.
 - Promociones y anuncios de la competencia: [[📢 Promociones Competencia]] · Playbook: [[🎯 Playbook Meta Ads]].
 
 ## 📏 Reglas aprendidas (sostenidas en el tiempo)
 
-- **Jetour X50** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 371 → 1,008/mes): escalar.
-- **Mitsubishi L200** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 929 → 1,594/mes): escalar.
-- **Soueast S06** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 1,028 → 1,712/mes): escalar.
-- **Renault Kwid** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 519 → 828/mes): escalar.
-- **Renault Master** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 420 → 759/mes): escalar.
-- **Renault Koleos** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 362 → 568/mes): escalar.
-- **Jetour G700** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 104 → 158/mes): escalar.
-- **GWM Wingle** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 66 → 225/mes): escalar.
+- **Jetour X50** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 364 → 1,002/mes): escalar.
+- **Mitsubishi L200** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 913 → 1,586/mes): escalar.
+- **Soueast S06** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 1,116 → 1,732/mes): escalar.
+- **Renault Kwid** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 519 → 832/mes): escalar.
+- **Renault Master** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 427 → 763/mes): escalar.
+- **Renault Koleos** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 370 → 571/mes): escalar.
+- **GWM Wingle** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 67 → 227/mes): escalar.
 - **JMEV EV3** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 80 → 147/mes): escalar.
-- **JAC X200** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 342 → 568/mes): escalar.
-- **Soueast S09** lleva 3+ corridas con presupuesto sugerido ≤0,5× el actual (USD 628 → 311/mes): revisar creatividad u oferta antes de seguir invirtiendo.
-- **Mitsubishi Eclipse Cross** lleva 3+ corridas con presupuesto sugerido ≤0,5× el actual (USD 416 → 142/mes): revisar creatividad u oferta antes de seguir invirtiendo.
-- **JAC Sunray** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 158 → 270/mes): escalar.
-- **JAC LD250** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 93 → 270/mes): escalar.
-- **Soueast S07** lleva 3+ corridas con presupuesto sugerido ≤0,5× el actual (USD 609 → 191/mes): revisar creatividad u oferta antes de seguir invirtiendo.
-- **JAC T9** lleva 3+ corridas con presupuesto sugerido ≤0,5× el actual (USD 516 → 222/mes): revisar creatividad u oferta antes de seguir invirtiendo.
+- **JAC X200** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 343 → 571/mes): escalar.
+- **Mitsubishi Eclipse Cross** lleva 3+ corridas con presupuesto sugerido ≤0,5× el actual (USD 409 → 141/mes): revisar creatividad u oferta antes de seguir invirtiendo.
+- **JAC Sunray** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 158 → 271/mes): escalar.
+- **JAC LD250** lleva 3+ corridas con presupuesto sugerido ≥1,5× el actual (USD 91 → 271/mes): escalar.
+- **Soueast S07** lleva 3+ corridas con presupuesto sugerido ≤0,5× el actual (USD 481 → 193/mes): revisar creatividad u oferta antes de seguir invirtiendo.
+- **JAC T9** lleva 3+ corridas con presupuesto sugerido ≤0,5× el actual (USD 516 → 223/mes): revisar creatividad u oferta antes de seguir invirtiendo.
 - **JMEV EV2** lleva 3+ corridas con presupuesto sugerido ≤0,5× el actual (USD 117 → 50/mes): revisar creatividad u oferta antes de seguir invirtiendo.
-- **GWM Haval H7** lleva 3+ corridas con presupuesto sugerido ≤0,5× el actual (USD 242 → 66/mes): revisar creatividad u oferta antes de seguir invirtiendo.
-- **Renault Duster** lleva 3+ corridas con presupuesto sugerido ≤0,5× el actual (USD 368 → 108/mes): revisar creatividad u oferta antes de seguir invirtiendo.
+- **GWM Haval H7** lleva 3+ corridas con presupuesto sugerido ≤0,5× el actual (USD 245 → 67/mes): revisar creatividad u oferta antes de seguir invirtiendo.
+- **Renault Duster** lleva 3+ corridas con presupuesto sugerido ≤0,5× el actual (USD 370 → 109/mes): revisar creatividad u oferta antes de seguir invirtiendo.
 
 ## 🤖 Lecciones de Hermes
 
@@ -180,4 +179,4 @@ _Las escribe Hermes cada lunes (cron `aprendizaje-audiencia`) en `Sistema/Memori
 <!-- /hermes:lecciones -->
 
 ---
-*Actualizado el 2026-10-02 por el pipeline diario. Relacionado: [[📘 Manual Buyer Persona]] · [[🎧 Feedback Marketing 2026-09-17]] · [[ Buyer Personas MOC]]*
+*Actualizado el 2026-10-03 por el pipeline diario. Relacionado: [[📘 Manual Buyer Persona]] · [[🎧 Feedback Marketing 2026-09-17]] · [[ Buyer Personas MOC]]*

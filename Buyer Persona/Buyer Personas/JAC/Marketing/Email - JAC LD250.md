@@ -48,10 +48,9 @@ Hola {nombre}:
 Equipo JAC
 ```
 
-## 💲 Oferta del mes y stock: confirmar antes de usar
-> [!warning] Sale de la planilla de acciones comerciales y del stock del ERP
-> Vence con el mes y puede tener condiciones. No se usa sin confirmarla con la marca.
+## 💲 Oferta y stock: la planilla cargada es de septiembre y ya venció
+> [!warning] No usar estos montos en un texto
+> Es el último dato de la planilla de acciones comerciales. Hasta que se cargue la de este mes, confirmar precio y descuento con la marca.
 
-- Párrafo para sumar al mail: `En septiembre, JAC LD250 está desde USD 18.490 y con hasta USD 2.196 de descuento. Consultá condiciones con tu asesor.`
-- Planilla (2026-09): precio de lista desde USD 18.490 · descuento hasta USD 2.196
+- Último dato de la planilla (2026-09): precio de lista desde USD 18.490 · descuento hasta USD 2.196
 - Condición en la planilla: DESCUENTO MAXIMO SOLO VALIDO PARA VTA CARTERA SUDAMERIS

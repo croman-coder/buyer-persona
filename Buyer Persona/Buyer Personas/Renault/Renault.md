@@ -1,7 +1,7 @@
 ---
 type: moc-marca
 marca: Renault
-created: 2026-10-02
+created: 2026-10-03
 tags:
   - moc
   - marca/renault
@@ -9,17 +9,17 @@ tags:
 
 # 🚗 Renault
 
-> Generado el **2026-10-02 06:41** · 13 modelos con persona propia.
+> Generado el **2026-10-03 12:34** · 13 modelos con persona propia.
 
 ## 👤 Comprador de la marca
 
 - [[Comprador Renault]]
-- **Inversión Meta:** ~USD 2,854/mes · CPL USD 7.33 · 1,169 leads en la ventana
-- **Públicos:** 92.0% de 112 adsets activos a público frío
+- **Inversión Meta:** ~USD 2,868/mes · CPL USD 7.28 · 1,182 leads en la ventana
+- **Públicos:** 91.9% de 111 adsets activos a público frío
 
 ## 👥 Quién mira y quién decide
 
-- En Meta, ellas son el 26,3 % de los clics y contactan igual que ellos con el mismo anuncio (0,99×).
+- En Meta, ellas son el 26,2 % de los clics y contactan igual que ellos con el mismo anuncio (0,99×).
 - El 39,6 % de las compras a cliente final las factura una empresa.
 - **Qué hacer en Meta Ads y cómo leerlo:** [[👥 Quién mira y quién decide — Renault]]
 
@@ -27,19 +27,19 @@ tags:
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Renault Kwid]] | 35-44 | Masculino 72.2% | modelo | 83 | 135 | ⚖️ equilibrado | USD 828 |
-| [[Renault Master]] | 35-44 | Masculino 70.0% | modelo | 76 | 109 | ⚖️ equilibrado | USD 759 |
-| [[Renault Koleos]] | 25-34 | Masculino 69.5% | modelo | 57 | 94 | ⚖️ equilibrado | USD 568 |
-| [[Renault Kardian]] | 18-24 | Masculino 61.9% | modelo | 28 | 124 | ⚖️ equilibrado | USD 280 |
-| [[Renault Oroch]] | 35-44 | Masculino 83.0% | modelo | 24 | 79 | ⚖️ equilibrado | USD 240 |
-| [[Renault Duster]] | 35-44 | Masculino 77.6% | marca | 11 | 96 | 🔴 sobre-pautado | USD 108 |
-| [[Renault Boreal]] | 35-44 | Masculino 63.9% | modelo | 4 | 17 | ⚖️ equilibrado | USD 40 |
-| [[Renault Arkana]] | 35-44 | Masculino 77.6% | marca | 2 | 33 | ⚖️ equilibrado | USD 20 |
-| [[Renault Clio]] | 35-44 | Masculino 77.6% | marca | 1 | 29 | ⚖️ equilibrado | USD 9 |
-| [[Renault Kangoo]] | 35-44 | Masculino 77.6% | marca | 242 | 26 | ⚖️ equilibrado | — |
-| [[Renault Captur]] | 35-44 | Masculino 77.6% | marca | 154 | 0 | ⚖️ equilibrado | — |
-| [[Renault Stepway]] | 35-44 | Masculino 77.6% | marca | 125 | 0 | ⚖️ equilibrado | — |
-| [[Renault Logan]] | 35-44 | Masculino 77.6% | marca | 21 | 0 | ⚖️ equilibrado | — |
+| [[Renault Kwid]] | 35-44 | Masculino 74.9% | modelo | 83 | 135 | ⚖️ equilibrado | USD 832 |
+| [[Renault Master]] | 35-44 | Masculino 71.0% | modelo | 76 | 111 | ⚖️ equilibrado | USD 763 |
+| [[Renault Koleos]] | 25-34 | Masculino 69.6% | modelo | 57 | 96 | ⚖️ equilibrado | USD 571 |
+| [[Renault Kardian]] | 18-24 | Masculino 62.9% | modelo | 28 | 124 | ⚖️ equilibrado | USD 281 |
+| [[Renault Oroch]] | 35-44 | Masculino 82.9% | modelo | 24 | 79 | ⚖️ equilibrado | USD 241 |
+| [[Renault Duster]] | 35-44 | Masculino 77.7% | marca | 11 | 96 | 🔴 sobre-pautado | USD 109 |
+| [[Renault Boreal]] | 35-44 | Masculino 66.5% | modelo | 4 | 17 | ⚖️ equilibrado | USD 40 |
+| [[Renault Arkana]] | 35-44 | Masculino 77.7% | marca | 2 | 33 | ⚖️ equilibrado | USD 20 |
+| [[Renault Clio]] | 35-44 | Masculino 77.7% | marca | 1 | 29 | ⚖️ equilibrado | USD 9 |
+| [[Renault Kangoo]] | 35-44 | Masculino 77.7% | marca | 242 | 26 | ⚖️ equilibrado | — |
+| [[Renault Captur]] | 35-44 | Masculino 77.7% | marca | 154 | 0 | ⚖️ equilibrado | — |
+| [[Renault Stepway]] | 35-44 | Masculino 77.7% | marca | 125 | 0 | ⚖️ equilibrado | — |
+| [[Renault Logan]] | 35-44 | Masculino 77.7% | marca | 21 | 0 | ⚖️ equilibrado | — |
 
 _Demo = de dónde sale edad/género: **modelo** (anuncios propios del modelo) o **marca** (heredado, pocos clics propios). Brecha: 🟢 sub-pautado = vende más de lo que se pauta, 🔴 sobre-pautado, 🆕 lanzamiento sin ventas en el ERP aún._
 

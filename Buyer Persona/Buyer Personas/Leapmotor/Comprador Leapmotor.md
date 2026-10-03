@@ -7,7 +7,7 @@ gender: Masculino
 locations:
 - Asunción
 - San Lorenzo
-created: '2026-10-02'
+created: '2026-10-03'
 tags:
 - buyer-persona
 - marketing
@@ -19,7 +19,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este público, armado solo con datos propios: los anuncios de Meta (clics por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-04 → 2026-10-02 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-05 → 2026-10-03 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quién hace clic en los anuncios**, no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -28,16 +28,16 @@ tags:
 
 > [!summary] Perfil Resumido
 - **Edad:** 35-44 (25.8% de los clics) · heredado de la marca
-- **Género predominante:** Masculino (76.4%)
+- **Género predominante:** Masculino (76.5%)
 - **Ubicación:** Asunción, San Lorenzo
-- **Período leído:** Meta 2026-07-04 → 2026-10-02 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-05 → 2026-10-03 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Marca → `Leapmotor`
 - **Ticket promedio (ERP, facturado):** USD 27,067
 
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 28,7 % de los clics pero, viendo el mismo anuncio, contactan 0,88× lo que ellos (menos en 6 de 10 conjuntos): **ella investiga y él da el paso**.
+- **Meta:** ellas son el 28,5 % de los clics pero, viendo el mismo anuncio, contactan 0,89× lo que ellos (menos en 6 de 10 conjuntos): **ella investiga y él da el paso**.
 - **Para Meta Ads:** Una pieza para quien acompaña la decisión.
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — Leapmotor]]
@@ -49,21 +49,21 @@ _Qué es: quién hace clic en los anuncios de este público, por edad y género.
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción, San Lorenzo
-- **Fuente edad/género:** audiencia de Meta de la marca **Leapmotor** (26,007 clics), ponderado por clics — Masculino 76.4%
-- **Distribución de edad (Meta):** 35-44: 25.8%, 45-54: 21.6%, 65+: 20.0%, 55-64: 15.9%, 25-34: 14.9%, 18-24: 1.8%
+- **Fuente edad/género:** audiencia de Meta de la marca **Leapmotor** (26,147 clics), ponderado por clics — Masculino 76.5%
+- **Distribución de edad (Meta):** 35-44: 25.8%, 45-54: 21.7%, 65+: 19.7%, 55-64: 15.9%, 25-34: 15.0%, 18-24: 1.8%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
 
 _Qué es: los temas que aparecen en los anuncios que este público ve y clickea. No son intereses declarados (Meta dejó de exponerlos en 2021): es con qué le estamos hablando y qué responde. El % es la parte de los anuncios que toca cada tema._
 
-**Intereses observados** (223 anuncios reales leídos):
-- Autos eléctricos y ahorro de combustible · 84.2% de los anuncios
-- Tecnología y conectividad · 62.2% de los anuncios
-- Diseño y estatus · 35.1% de los anuncios
-- Probar antes de comprar (test drive) · 23.0% de los anuncios
-- Financiación en cuotas · 18.5% de los anuncios
-- Garantía y respaldo posventa · 13.1% de los anuncios
+**Intereses observados** (227 anuncios reales leídos):
+- Autos eléctricos y ahorro de combustible · 63.7% de los anuncios
+- Tecnología y conectividad · 62.8% de los anuncios
+- Diseño y estatus · 34.5% de los anuncios
+- Probar antes de comprar (test drive) · 22.6% de los anuncios
+- Financiación en cuotas · 18.1% de los anuncios
+- Garantía y respaldo posventa · 13.3% de los anuncios
 
 _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, para no tener el mismo número dos veces._
 
@@ -75,7 +75,7 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **Señales que se usaron:**
   - ticket promedio USD 27,067 (gama media)
   - 100% pide financiación en el formulario (1 respuestas)
-  - 17.3% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 17.2% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción, San Lorenzo
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -139,9 +139,9 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > **Mensaje clave:** Enfoca la comunicación en 'Leapmotor'.
 > **Canales:** Prioriza Showroom.
-> **Formato:** Reels/Stories (video vertical corto) concentra el 74.1% de las impresiones reales — priorizá ese formato en las piezas nuevas.
-> **Públicos hoy:** 92.1% de los adsets activos van a público frío; 3 de 38 adsets usan base propia (3 lookalike).
-> **Inversión actual:** USD 3,153 en la ventana (~USD 1,051/mes), 1,128 leads → costo por lead USD 2.8.
+> **Formato:** Reels/Stories (video vertical corto) concentra el 73.7% de las impresiones reales — priorizá ese formato en las piezas nuevas.
+> **Públicos hoy:** 92.5% de los adsets activos van a público frío; 3 de 40 adsets usan base propia (3 lookalike).
+> **Inversión actual:** USD 3,158 en la ventana (~USD 1,053/mes), 1,273 leads → costo por lead USD 2.48.
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -156,24 +156,24 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Leapmotor (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 1,128
-> **Modelos más pedidos (toda la marca):** T03 (75), C10 Reev (70)
+> **Total de leads de la marca en la ventana:** 1,273
+> **Modelos más pedidos (toda la marca):** T03 (75), C10 Reev (69)
 > **Método de pago preferido:** el precio y financiado (1)
-> **Ciudad:** Asunción (254), Luque (55), San Lorenzo (49)
+> **Ciudad:** Asunción (256), Luque (55), San Lorenzo (47)
 > **Interés de compra:** soy Paraguaya 78año soy sincera (1)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Leapmotor (90 días)
 
-> **Leads:** 1,153 → **convertidos:** 0 (0.0%)
-> **Por canal:** Meta madre 1,114, Meta asesores 39
+> **Leads:** 1,152 → **convertidos:** 0 (0.0%)
+> **Por canal:** Meta madre 1,113, Meta asesores 39
 > **Deals:** 2 — ganados 0, perdidos 0, en proceso 2 (win rate 0.0%)
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 
 
 > [!info] 📦 Stock, oferta y objetivos — uso interno
 
-> **Stock de la marca:** 20 unidades (10 disponibles, 4 en viaje, 0 con propuesta).
+> **Stock de la marca al 18-09:** 20 unidades (10 disponibles, 4 en viaje, 0 con propuesta).
 > **Objetivo de la marca (según el ERP):** mes 10/2026: 0 de 21 (0.0%) · acumulado 2026: 61 de 97 (62.9%) · anual 136 unidades. Ventas cargadas hasta 2026-09-11: lo vendido después de esa fecha todavía no cuenta acá.
 > **Equipo comercial (planilla semanal de negociación, 2026-09 semana 1):** 6 vendedores · promesa del mes 18 · venta del mes a esa semana (MTD) 291 · leads del mes 0 · negociaciones abiertas 4 (semana actual 8, pasada 7) · perdidas 0.
 > _La planilla y el ERP tienen cortes distintos (una semana vs. la última carga), por eso la venta del mes de acá puede no coincidir con el objetivo de arriba. El ERP manda._
@@ -189,7 +189,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-02 06:41*
+*Generado el 2026-10-03 12:34*
 
 ## 🔗 Contenido Relacionado
 

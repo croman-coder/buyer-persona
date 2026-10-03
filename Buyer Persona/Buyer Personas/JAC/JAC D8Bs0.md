@@ -7,7 +7,7 @@ gender: Masculino
 locations:
 - Asunción
 - San Lorenzo
-created: '2026-10-02'
+created: '2026-10-03'
 tags:
 - buyer-persona
 - marketing
@@ -21,7 +21,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (clics por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-04 → 2026-10-02 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-05 → 2026-10-03 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quién hace clic en los anuncios**, no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -29,10 +29,10 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 35-44 (33.7% de los clics) · heredado de la marca
-- **Género predominante:** Masculino (85.2%)
+- **Edad:** 35-44 (33.8% de los clics) · heredado de la marca
+- **Género predominante:** Masculino (85.3%)
 - **Ubicación:** Asunción, San Lorenzo
-- **Período leído:** Meta 2026-07-04 → 2026-10-02 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-05 → 2026-10-03 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `JAC D8Bs0`
 - **Marca:** [[Comprador JAC|JAC]]
 - **Tipo de vehículo:** SUV
@@ -56,8 +56,8 @@ _Qué es: quién hace clic en los anuncios de este público, por edad y género.
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción, San Lorenzo
-- **Fuente edad/género:** audiencia de Meta de la marca **JAC** (57,008 clics), ponderado por clics — Masculino 85.2%
-- **Distribución de edad (Meta):** 35-44: 33.7%, 25-34: 25.9%, 45-54: 21.8%, 55-64: 8.0%, 65+: 5.9%, 18-24: 4.7%
+- **Fuente edad/género:** audiencia de Meta de la marca **JAC** (58,085 clics), ponderado por clics — Masculino 85.3%
+- **Distribución de edad (Meta):** 35-44: 33.8%, 25-34: 25.7%, 45-54: 21.9%, 55-64: 8.1%, 65+: 5.8%, 18-24: 4.7%
 - ⚠️ Sin anuncios propios del modelo en la ventana: perfil heredado de la marca.
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
@@ -65,13 +65,13 @@ _Qué es: quién hace clic en los anuncios de este público, por edad y género.
 
 _Qué es: los temas que aparecen en los anuncios que este público ve y clickea. No son intereses declarados (Meta dejó de exponerlos en 2021): es con qué le estamos hablando y qué responde. El % es la parte de los anuncios que toca cada tema._
 
-**Intereses observados** (576 anuncios reales leídos):
-- Garantía y respaldo posventa · 41.9% de los anuncios
-- Tecnología y conectividad · 36.1% de los anuncios
-- Trabajo, negocio y carga · 22.9% de los anuncios
-- Financiación en cuotas · 19.7% de los anuncios
-- Diseño y estatus · 18.2% de los anuncios
-- Familia y espacio · 17.5% de los anuncios
+**Intereses observados** (578 anuncios reales leídos):
+- Garantía y respaldo posventa · 42.1% de los anuncios
+- Tecnología y conectividad · 36.0% de los anuncios
+- Trabajo, negocio y carga · 22.8% de los anuncios
+- Financiación en cuotas · 20.0% de los anuncios
+- Diseño y estatus · 18.3% de los anuncios
+- Autos eléctricos y ahorro de combustible · 17.7% de los anuncios
 
 _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, para no tener el mismo número dos veces._
 
@@ -107,12 +107,11 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!warning] 🔴 Dolores y Frustraciones
 
-> _De dónde sale: del texto de 573 anuncios reales de la marca JAC (el modelo tiene pocos anuncios propios). Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
+> _De dónde sale: del texto de 575 anuncios reales de la marca JAC (el modelo tiene pocos anuncios propios). Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
 >
 > - Necesita justificar el vehículo como inversión productiva, no solo transporte
 > - Compara el valor de la cuota mensual, no solo el precio de lista
 > - Necesita espacio y capacidad suficiente para uso familiar
-> - Ansiedad de autonomía/carga: evalúa km reales y tiempo de carga antes de decidir
 > - Sensible a promociones y precio por tiempo limitado
 
 
@@ -138,9 +137,9 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Mensaje clave:** Enfoca la comunicación en 'JAC D8Bs0'.
 > **Canales:** Prioriza Showroom.
 > **Formato:** Reels/Stories (video vertical corto) concentra el 55.7% de las impresiones reales — priorizá ese formato en las piezas nuevas.
-> **Públicos hoy:** 97.4% de los adsets activos van a público frío; 2 de 77 adsets usan base propia.
-> **Presupuesto sugerido:** ~USD 127/mes (hoy ~USD 0/mes según su peso en anuncios) → ~51 leads/mes al CPL actual de la marca (USD 2.47).
-> _Base del cálculo: 5.3% de las ventas de la marca sobre USD 2,388/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Públicos hoy:** 97.4% de los adsets activos van a público frío; 2 de 76 adsets usan base propia.
+> **Presupuesto sugerido:** ~USD 127/mes (hoy ~USD 0/mes según su peso en anuncios) → ~55 leads/mes al CPL actual de la marca (USD 2.31).
+> _Base del cálculo: 5.3% de las ventas de la marca sobre USD 2,398/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -148,18 +147,18 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — JAC (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 2,906
+> **Total de leads de la marca en la ventana:** 3,120
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
-> **Modelos más pedidos (toda la marca):** E30 X Electrico (465), X200 (1.500 Kg) (210), Js 4 (147)
-> **Ciudad:** Asunción (437), Ciudad del Este (176), San Lorenzo (121)
-> **Interés de compra:** inmediatamente (254), en_2–3_meses (225), en_1_mes (170)
+> **Modelos más pedidos (toda la marca):** E30 X Electrico (482), X200 (1.500 Kg) (207), Js 4 (147)
+> **Ciudad:** Asunción (460), Ciudad del Este (184), San Lorenzo (125)
+> **Interés de compra:** inmediatamente (254), en_2–3_meses (222), en_1_mes (170)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — JAC (90 días)
 
-> **Leads:** 4,085 → **convertidos:** 11 (0.3%)
-> **Por canal:** Meta madre 3,424, Meta asesores 632, Otros canales 29
-> **Deals:** 58 — ganados 5, perdidos 13, en proceso 40 (win rate 27.8%)
+> **Leads:** 4,201 → **convertidos:** 12 (0.3%)
+> **Por canal:** Meta madre 3,475, Meta asesores 697, Otros canales 29
+> **Deals:** 60 — ganados 5, perdidos 13, en proceso 42 (win rate 27.8%)
 > **Monto ganado:** USD 180,950 · ticket promedio USD 36,190
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
@@ -182,7 +181,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-02 06:41*
+*Generado el 2026-10-03 12:34*
 
 ## 🔗 Contenido Relacionado
 

@@ -6,7 +6,7 @@ age_range: 35-44
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-02'
+created: '2026-10-03'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (clics por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-04 → 2026-10-02 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-05 → 2026-10-03 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quién hace clic en los anuncios**, no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -29,22 +29,22 @@ tags:
 
 > [!summary] Perfil Resumido
 - **Edad:** 35-44 (28.6% de los clics) · perfil propio del modelo
-- **Género predominante:** Masculino (76.5%)
+- **Género predominante:** Masculino (76.7%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-04 → 2026-10-02 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-05 → 2026-10-03 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `JAC T9`
 - **Marca:** [[Comprador JAC|JAC]]
 - **Tipo de vehículo:** Pickup
 - **Ventas reales (ERP):** 22 unidades desde 2018 · últimos 12 meses: 14 · últimos 90 días: 3
 - **Pauta real (90 días):** 95 anuncios (21 activos)
-- **Brecha pauta/venta:** sobre-pautado 🔴 revisar — 9.3% de las ventas de la marca (12 meses) vs 21.6% de sus anuncios (ERP hasta 2026-09-11)
+- **Brecha pauta/venta:** sobre-pautado 🔴 revisar — 9.3% de las ventas de la marca (12 meses) vs 21.5% de sus anuncios (ERP hasta 2026-09-11)
   _Cómo se decide: **sub-pautado** si el modelo pone ≥5 % de las ventas de la marca y tiene menos de la mitad de anuncios que de ventas (escalar); **sobre-pautado** si pone ≥5 % de los anuncios y vende menos de la mitad de eso (revisar); **equilibrado** si no pasa ninguna de las dos._
 - **Ticket promedio (ERP, facturado):** USD 28,418
 
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 21,1 % de los clics; con el mismo anuncio contactan 0,81× lo que ellos, pero con 7 conjuntos todavía es una tendencia.
+- **Meta:** ellas son el 21,2 % de los clics; con el mismo anuncio contactan 0,78× lo que ellos, pero con 7 conjuntos todavía es una tendencia.
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — JAC]]
 
@@ -55,8 +55,8 @@ _Qué es: quién hace clic en los anuncios de este público, por edad y género.
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** anuncios de Meta que nombran a **JAC T9** (10,941 clics en la ventana), ponderado por clics — Masculino 76.5%
-- **Distribución de edad (Meta):** 35-44: 28.6%, 25-34: 24.5%, 45-54: 21.2%, 18-24: 8.7%, 65+: 8.6%, 55-64: 8.4%
+- **Fuente edad/género:** anuncios de Meta que nombran a **JAC T9** (10,907 clics en la ventana), ponderado por clics — Masculino 76.7%
+- **Distribución de edad (Meta):** 35-44: 28.6%, 25-34: 24.5%, 45-54: 21.3%, 18-24: 8.7%, 65+: 8.6%, 55-64: 8.3%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
@@ -134,11 +134,11 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > **Mensaje clave:** Enfoca la comunicación en 'JAC T9'.
 > **Canales:** Prioriza Showroom.
-> **Oferta vigente:** descuento hasta USD 1,000 (2026-09). Usarla en el copy mientras dure.
+> **Oferta:** la planilla de acciones comerciales cargada es de septiembre y ya venció (último dato: descuento hasta USD 1,000). No usar el descuento en el copy hasta cargar la de este mes.
 > **Formato:** Reels/Stories (video vertical corto) concentra el 55.7% de las impresiones reales — priorizá ese formato en las piezas nuevas.
-> **Públicos hoy:** 97.4% de los adsets activos van a público frío; 2 de 77 adsets usan base propia.
-> **Presupuesto sugerido:** ~USD 222/mes (hoy ~USD 516/mes según su peso en anuncios) → ~89 leads/mes al CPL actual de la marca (USD 2.47).
-> _Base del cálculo: 9.3% de las ventas de la marca sobre USD 2,388/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Públicos hoy:** 97.4% de los adsets activos van a público frío; 2 de 76 adsets usan base propia.
+> **Presupuesto sugerido:** ~USD 223/mes (hoy ~USD 516/mes según su peso en anuncios) → ~96 leads/mes al CPL actual de la marca (USD 2.31).
+> _Base del cálculo: 9.3% de las ventas de la marca sobre USD 2,398/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -146,18 +146,18 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — JAC (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 2,906
-> **Pidieron este modelo:** 37 de esos leads (1.3 %)
-> **Modelos más pedidos (toda la marca):** E30 X Electrico (465), X200 (1.500 Kg) (210), Js 4 (147)
-> **Ciudad:** Asunción (437), Ciudad del Este (176), San Lorenzo (121)
-> **Interés de compra:** inmediatamente (254), en_2–3_meses (225), en_1_mes (170)
+> **Total de leads de la marca en la ventana:** 3,120
+> **Pidieron este modelo:** 37 de esos leads (1.2 %)
+> **Modelos más pedidos (toda la marca):** E30 X Electrico (482), X200 (1.500 Kg) (207), Js 4 (147)
+> **Ciudad:** Asunción (460), Ciudad del Este (184), San Lorenzo (125)
+> **Interés de compra:** inmediatamente (254), en_2–3_meses (222), en_1_mes (170)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — JAC (90 días)
 
-> **Leads:** 4,085 → **convertidos:** 11 (0.3%)
-> **Por canal:** Meta madre 3,424, Meta asesores 632, Otros canales 29
-> **Deals:** 58 — ganados 5, perdidos 13, en proceso 40 (win rate 27.8%)
+> **Leads:** 4,201 → **convertidos:** 12 (0.3%)
+> **Por canal:** Meta madre 3,475, Meta asesores 697, Otros canales 29
+> **Deals:** 60 — ganados 5, perdidos 13, en proceso 42 (win rate 27.8%)
 > **Monto ganado:** USD 180,950 · ticket promedio USD 36,190
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
@@ -179,8 +179,8 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!info] 📦 Stock, oferta y objetivos — uso interno
 
-> **Stock hoy:** 9 unidades (8 disponibles, 0 en viaje, 1 con propuesta) · 23 días promedio en stock.
-> **Precio de lista (2026-09):** USD 29,990 a 32,490 en 2 versión(es) · **descuento vigente hasta USD 1,000** · ritmo 1.3 unidades/mes.
+> **Stock al 18-09:** 9 unidades (8 disponibles, 0 en viaje, 1 con propuesta) · 24 días promedio en stock.
+> **Precio de lista (2026-09, planilla vencida):** USD 29,990 a 32,490 en 2 versión(es) · descuento hasta USD 1,000 (vencido) · ritmo 1.3 unidades/mes.
 > ⚠️ **Presión de stock:** ~7 meses de stock al ritmo actual → candidato a más pauta u oferta.
 > **Negociaciones abiertas del modelo:** 2 (2026-09 semana 1).
 > **Objetivo de la marca (según el ERP):** mes 10/2026: 0 de 28 (0.0%) · acumulado 2026: 139 de 193 (72.0%) · anual 250 unidades. Ventas cargadas hasta 2026-09-11: lo vendido después de esa fecha todavía no cuenta acá.
@@ -198,7 +198,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-02 06:41*
+*Generado el 2026-10-03 12:34*
 
 ## 🔗 Contenido Relacionado
 

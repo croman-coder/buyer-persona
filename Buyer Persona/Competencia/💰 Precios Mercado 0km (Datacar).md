@@ -1,8 +1,8 @@
 ---
 tipo: precios-competencia
 fuente: datacarpy.com (Firestore público)
-actualizado: 2026-10-02
-versiones: 658
+actualizado: 2026-10-03
+versiones: 660
 tags:
   - competencia
   - precios
@@ -11,7 +11,7 @@ tags:
 
 # 💰 Precios Mercado 0km — Datacar
 
-> Precios de lista **USD** publicados por cada concesionaria en [datacarpy.com](https://www.datacarpy.com/catalogo). 48 marcas · 294 modelos · 658 versiones con precio. Se actualiza con el pipeline diario.
+> Precios de lista **USD** publicados por cada concesionaria en [datacarpy.com](https://www.datacarpy.com/catalogo). 48 marcas · 295 modelos · 660 versiones con precio. Se actualiza con el pipeline diario.
 
 > [!danger] Solo uso interno
 > Por ley paraguaya no se puede nombrar marcas ni modelos de la competencia en publicidad. Esto sirve para fijar precio, argumentar en el salón y decidir pauta — nunca para un copy público.
@@ -101,10 +101,10 @@ Nuestras versiones: PHEV HIGH 39,990
 | **PEUGEOT 3008** | GT Line 1.6 THP 165 EAT6 | 39,990 | +0.0% | NAFTA | Automaq |
 | **KIA SPORTAGE HÍBRIDA** | EX Full | 39,990 | +0.0% | HEV | Grupo Garden |
 | **KIA EV5** | Light | 39,990 | +0.0% | EV | Grupo Garden |
+| **LYNK & CO 08** | HALO | 38,990 | -2.5% | PHEV | Automotor |
 | **NISSAN QASHQAI** | Exclusive | 38,990 | -2.5% | NAFTA | Grupo Garden |
 | **HONDA ZR-V** | e:HEV | 38,900 | -2.7% | HEV | VICAR |
 | **HYUNDAI NEW TUCSON** | GLS Full | 41,990 | +5.0% | DIESEL | Automotor |
-| **NISSAN X-TRAIL E-POWER** | ADVANCE AWD | 37,990 | -5.0% | REEV | Grupo Garden |
 
 Solapamiento interno (mismas casa y banda): JETOUR T2 40,990 (+2%), MITSUBISHI OUTLANDER 41,990 (+5%), JETOUR T1 35,990 (-10%), ZEEKR X 34,990 (-12%), MITSUBISHI ECLIPSE CROSS 30,990 (-22%)
 
@@ -318,8 +318,8 @@ Nuestras versiones: Luxury 36,990 · T2 PHEV 1.5 TD 4x2 40,990 · T2 PHEV 1.5 TD
 | **KIA SPORTAGE HÍBRIDA** | EX Full | 39,990 | -2.4% | HEV | Grupo Garden |
 | **KIA EV5** | Light | 39,990 | -2.4% | EV | Grupo Garden |
 | **HYUNDAI NEW TUCSON HEV** | GLS | 42,000 | +2.5% | HEV | Automotor |
+| **LYNK & CO 08** | HALO | 38,990 | -4.9% | PHEV | Automotor |
 | **NISSAN QASHQAI** | Exclusive | 38,990 | -4.9% | NAFTA | Grupo Garden |
-| **NISSAN X-TRAIL E-POWER** | EXCLUSIVE AWD | 42,990 | +4.9% | REEV | Grupo Garden |
 
 Solapamiento interno (mismas casa y banda): MITSUBISHI OUTLANDER 41,990 (+2%), GWM H6 GT 39,990 (-2%), GWM TANK 300 39,990 (-2%), ZEEKR X 34,990 (-15%), MITSUBISHI ECLIPSE CROSS 30,990 (-24%)
 
@@ -415,10 +415,10 @@ Nuestras versiones: 4X2 GLX 36,990 · 4X4 GLS 41,990
 | **SSANGYONG KGM TORRES** | HEV Limited Híbrida | 39,990 | +1.3% | HEV | Automotor |
 | **PEUGEOT 3008** | GT Line 1.6 THP 165 EAT6 | 39,990 | +1.3% | NAFTA | Automaq |
 | **KIA SPORTAGE HÍBRIDA** | EX Full | 39,990 | +1.3% | HEV | Grupo Garden |
+| **LYNK & CO 08** | HALO | 38,990 | -1.3% | PHEV | Automotor |
 | **KIA EV5** | Light | 39,990 | +1.3% | EV | Grupo Garden |
 | **HONDA ZR-V** | e:HEV | 38,900 | -1.5% | HEV | VICAR |
 | **NISSAN X-TRAIL E-POWER** | ADVANCE AWD | 37,990 | -3.8% | REEV | Grupo Garden |
-| **BYD SONG PLUS DM-I** | GS | 37,900 | -4.0% | PHEV | Diesa |
 
 Solapamiento interno (mismas casa y banda): GWM H6 GT 39,990 (+1%), GWM TANK 300 39,990 (+1%), JETOUR T2 40,990 (+4%), JETOUR T1 35,990 (-9%), ZEEKR X 34,990 (-11%)
 
@@ -911,7 +911,7 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 | BMW | 218 GCP | Executive (2027) | 42,900 | NAFTA | Perfecta |
 | BMW | 218 GCP | 2027 | 51,500 | NAFTA | Perfecta |
 
-### C-SUV (145 versiones)
+### C-SUV (147 versiones)
 
 | Marca | Modelo | Versión | Precio | Combustible | Casa |
 |---|---|---|--:|---|---|
@@ -1010,6 +1010,7 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 | SSANGYONG KGM | TORRES | HEV Deluxe Híbrida | 34,990 | HEV | Automotor |
 | **ZEEKR** | X | Premium | 34,990 | EV | Santa Rosa |
 | FORD | TERRITORY | Titanium | 35,010 | NAFTA | Tape Ruvicha |
+| LYNK & CO | 08 | PRO | 35,990 | PHEV | Automotor |
 | MAZDA | CX-5 | HIGH 2WD | 35,990 | NAFTA | Grupo Garden |
 | NISSAN | QASHQAI | Advance Plus | 35,990 | NAFTA | Grupo Garden |
 | **JETOUR** | T1 | PHEV | 35,990 | PHEV | Santa Rosa |
@@ -1021,6 +1022,7 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 | BYD | SONG PLUS DM-I | GS | 37,900 | PHEV | Diesa |
 | NISSAN | X-TRAIL E-POWER | ADVANCE AWD | 37,990 | REEV | Grupo Garden |
 | HONDA | ZR-V | e:HEV | 38,900 | HEV | VICAR |
+| LYNK & CO | 08 | HALO | 38,990 | PHEV | Automotor |
 | NISSAN | QASHQAI | Exclusive | 38,990 | NAFTA | Grupo Garden |
 | PEUGEOT | 3008 | GT Line 1.6 THP 165 EAT6 | 39,990 | NAFTA | Automaq |
 | KIA | EV5 | Light | 39,990 | EV | Grupo Garden |

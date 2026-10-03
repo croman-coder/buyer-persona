@@ -21,9 +21,9 @@ Hola {nombre}:
 
 Gracias por tu interés en la gama Zeekr. Esto es lo que más nos consultan:
 
-• Consumo y autonomía: te pasamos los datos reales de cada versión.
 • Un diseño que se nota en cada detalle.
 • Tecnología y conectividad para el día a día, según la versión.
+• Consumo y autonomía: te pasamos los datos reales de cada versión.
 
 Lo mejor es verlo en persona: coordiná tu visita al salón el día y horario que prefieras.
 

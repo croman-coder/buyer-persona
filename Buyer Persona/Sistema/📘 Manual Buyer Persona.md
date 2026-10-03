@@ -47,8 +47,7 @@ Buyer Personas/
 Tags para filtrar: `#marca/jetour` (marca + todos sus modelos) · `#modelo/jetour-x70` · `#segmento/pickup`.
 
 > [!info] Notas de `Marketing/`: qué se puede usar tal cual (26-09-2026)
-> **Google Ads, Email y WhatsApp** no prometen tasas, plazos, garantías ni urgencias: salen del modelo o la marca y de los temas que repiten sus anuncios. La **oferta del mes** (planilla de acciones, con sus condiciones) y el **stock** del ERP van en un bloque aparte, ya redactados, para sumarlos después de confirmarlos con la marca. Si el stock no tiene **unidad de test drive** del modelo (hoy, 12 modelos 0km), los textos invitan a verlo en el salón en vez de prometer la prueba. Cada corrida lo revisa sola.
-> **Meta Ads** todavía trae «garantía de 5 años» y «financiación a 60 meses» fijos en todas las notas: no usar esas dos líneas sin confirmarlas.
+> **Meta Ads, Google Ads, Email y WhatsApp** no prometen tasas, plazos, garantías ni urgencias: salen del modelo o la marca y de los temas que repiten sus anuncios (desde el 03-10-2026 también Meta Ads, que traía «garantía de 5 años» y «financiación a 60 meses» fijos). La **oferta del mes** (planilla de acciones, con sus condiciones) y el **stock** del ERP, con su fecha, van en un bloque aparte, ya redactados, para sumarlos después de confirmarlos con la marca. Si la planilla cargada es de un mes anterior, la nota y la ficha la marcan **vencida** y no la proponen. Si el stock no tiene **unidad de test drive** del modelo (hoy, 12 modelos 0km), los textos invitan a verlo en el salón en vez de prometer la prueba. Cada corrida lo revisa sola.
 
 > [!info] El mismo vault, en 3D
 > Todo esto se ve también como globo en **https://cerebro.santarosa.lat** (login de los tableros). Instructivo para brands y equipo: [[🧠 Cómo usar el Cerebro Santa Rosa]].
@@ -224,6 +223,9 @@ Con Bitrix se le puede devolver a cada plataforma **qué leads se calificaron o 
 
 Es la continuación natural de lo que pidió Valentina (👥): medir quién avanza, no solo quién hace clic.
 
+> [!info] Primer paso, desde el 03-10-2026: qué ventas vinieron de Meta
+> [[💰 Ventas que vinieron de Meta]] (uso interno) cruza en cada corrida cada venta del ERP a cliente final con los leads de formulario de Meta de los 120 días anteriores, por teléfono o mail y si no por nombre. Dice cuántas ventas de cada marca tuvieron un lead previo, de qué campaña (de la marca, de un asesor o de otra marca), cuántos días pasaron y el **costo por venta** de cada campaña. Nombre, teléfono y mail se cruzan cifrados y no se guardan: solo totales. Es un piso: desde agosto de 2026 el ERP casi no trae teléfono ni mail, y por nombre la coincidencia es solo probable.
+
 ## 👥 Quién mira y quién decide
 
 *Desde el 24-09-2026, a pedido de Valentina.* El Buyer Persona describía a un solo actor: el que compra. Pero en la compra de un auto hay más papeles: quien **investiga o influye**, quien **da el paso** (deja el contacto), quien **decide** y quien **paga**. Cada marca tiene ahora una nota **«👥 Quién mira y quién decide — <Marca>»** en su carpeta, y cada ficha de modelo un bloque corto arriba, debajo del resumen.
@@ -300,4 +302,5 @@ Forzar una corrida ahora (servidor): `systemctl --user start buyer-persona-pipel
 - Devolverle a Meta y a Google qué leads compraron, para que aprendan de las ventas y no de los formularios: 4.6.
 - Contado vs financiado: el ERP lo carga todo como "Salon"; no se puede leer.
 - Edad/género del **comprador**: el ERP no lo registra; se usa la audiencia de Meta de la marca.
+- Teléfono y mail del comprador: desde agosto de 2026 el reporte de facturación casi no los trae (9 de 518 ventas; antes, el 41 %). Sin eso, el cruce de ventas con Meta depende del nombre.
 - Lookalikes de ventas reales: preparado, ver §5.

@@ -1,7 +1,7 @@
 ---
 type: moc-marca
 marca: Soueast
-created: 2026-10-02
+created: 2026-10-03
 tags:
   - moc
   - marca/soueast
@@ -9,13 +9,13 @@ tags:
 
 # 🚗 Soueast
 
-> Generado el **2026-10-02 06:41** · 4 modelos con persona propia.
+> Generado el **2026-10-03 12:34** · 4 modelos con persona propia.
 
 ## 👤 Comprador de la marca
 
 - [[Comprador Soueast]]
-- **Inversión Meta:** ~USD 2,684/mes · CPL USD 6.03 · 1,336 leads en la ventana
-- **Públicos:** 58.5% de 53 adsets activos a público frío
+- **Inversión Meta:** ~USD 2,715/mes · CPL USD 6.03 · 1,350 leads en la ventana
+- **Públicos:** 56.9% de 51 adsets activos a público frío
 
 ## 👥 Quién mira y quién decide
 
@@ -27,10 +27,10 @@ tags:
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Soueast S06]] | 35-44 | Masculino 79.9% | modelo | 143 | 49 | ⚖️ equilibrado | USD 1,712 |
-| [[Soueast S08]] | 35-44 | Masculino 70.9% | modelo | 39 | 20 | ⚖️ equilibrado | USD 467 |
-| [[Soueast S09]] | 35-44 | Masculino 75.0% | modelo | 26 | 30 | 🔴 sobre-pautado | USD 311 |
-| [[Soueast S07]] | 35-44 | Masculino 74.3% | modelo | 16 | 29 | 🔴 sobre-pautado | USD 191 |
+| [[Soueast S06]] | 35-44 | Masculino 80.0% | modelo | 143 | 86 | ⚖️ equilibrado | USD 1,732 |
+| [[Soueast S08]] | 35-44 | Masculino 71.9% | modelo | 39 | 44 | ⚖️ equilibrado | USD 472 |
+| [[Soueast S09]] | 35-44 | Masculino 76.0% | modelo | 26 | 42 | ⚖️ equilibrado | USD 315 |
+| [[Soueast S07]] | 35-44 | Masculino 75.3% | modelo | 16 | 37 | 🔴 sobre-pautado | USD 193 |
 
 _Demo = de dónde sale edad/género: **modelo** (anuncios propios del modelo) o **marca** (heredado, pocos clics propios). Brecha: 🟢 sub-pautado = vende más de lo que se pauta, 🔴 sobre-pautado, 🆕 lanzamiento sin ventas en el ERP aún._
 

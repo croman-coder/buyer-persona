@@ -6,7 +6,7 @@ age_range: 35-44
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-02'
+created: '2026-10-03'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (clics por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-04 → 2026-10-02 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-05 → 2026-10-03 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quién hace clic en los anuncios**, no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -28,23 +28,23 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 35-44 (36.2% de los clics) · perfil propio del modelo
+- **Edad:** 35-44 (36.3% de los clics) · perfil propio del modelo
 - **Género predominante:** Masculino (89.8%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-04 → 2026-10-02 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-05 → 2026-10-03 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Mitsubishi Destinator`
 - **Marca:** [[Comprador Mitsubishi|Mitsubishi]]
 - **Tipo de vehículo:** SUV
 - **Ventas reales (ERP):** 3 unidades desde 2018 · últimos 12 meses: 3 · últimos 90 días: 3
-- **Pauta real (90 días):** 14 anuncios (6 activos)
-- **Brecha pauta/venta:** sobre-pautado 🔴 revisar — 1.1% de las ventas de la marca (12 meses) vs 5.9% de sus anuncios (ERP hasta 2026-09-11)
+- **Pauta real (90 días):** 15 anuncios (7 activos)
+- **Brecha pauta/venta:** sobre-pautado 🔴 revisar — 1.1% de las ventas de la marca (12 meses) vs 6.2% de sus anuncios (ERP hasta 2026-09-11)
   _Cómo se decide: **sub-pautado** si el modelo pone ≥5 % de las ventas de la marca y tiene menos de la mitad de anuncios que de ventas (escalar); **sobre-pautado** si pone ≥5 % de los anuncios y vende menos de la mitad de eso (revisar); **equilibrado** si no pasa ninguna de las dos._
 - **Ticket promedio (ERP, facturado):** USD 30,900
 
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 8,0 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,48×).
+- **Meta:** ellas son el 8,0 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,52×).
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — Mitsubishi]]
 
@@ -55,21 +55,21 @@ _Qué es: quién hace clic en los anuncios de este público, por edad y género.
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** anuncios de Meta que nombran a **Mitsubishi Destinator** (15,851 clics en la ventana), ponderado por clics — Masculino 89.8%
-- **Distribución de edad (Meta):** 35-44: 36.2%, 45-54: 26.7%, 25-34: 17.3%, 55-64: 13.3%, 65+: 6.5%
+- **Fuente edad/género:** anuncios de Meta que nombran a **Mitsubishi Destinator** (16,220 clics en la ventana), ponderado por clics — Masculino 89.8%
+- **Distribución de edad (Meta):** 35-44: 36.3%, 45-54: 26.6%, 25-34: 17.3%, 55-64: 13.3%, 65+: 6.5%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
 
 _Qué es: los temas que aparecen en los anuncios que este público ve y clickea. No son intereses declarados (Meta dejó de exponerlos en 2021): es con qué le estamos hablando y qué responde. El % es la parte de los anuncios que toca cada tema._
 
-**Intereses observados** (14 anuncios reales leídos):
-- Financiación en cuotas · 100.0% de los anuncios
-- Garantía y respaldo posventa · 85.7% de los anuncios
-- Diseño y estatus · 85.7% de los anuncios
-- Familia y espacio · 50.0% de los anuncios
-- Probar antes de comprar (test drive) · 28.6% de los anuncios
-- Seguridad y asistencias a la conducción · 7.1% de los anuncios
+**Intereses observados** (15 anuncios reales leídos):
+- Financiación en cuotas · 93.3% de los anuncios
+- Garantía y respaldo posventa · 86.7% de los anuncios
+- Diseño y estatus · 80.0% de los anuncios
+- Familia y espacio · 46.7% de los anuncios
+- Probar antes de comprar (test drive) · 26.7% de los anuncios
+- Seguridad y asistencias a la conducción · 13.3% de los anuncios
 
 _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, para no tener el mismo número dos veces._
 
@@ -80,8 +80,8 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **NSE estimado:** C (medio)
 - **Señales que se usaron:**
   - ticket promedio USD 30,900 (gama media-alta)
-  - 90% pide financiación en el formulario (20 respuestas)
-  - 21.1% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 86% pide financiación en el formulario (22 respuestas)
+  - 21.2% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -105,7 +105,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!warning] 🔴 Dolores y Frustraciones
 
-> _De dónde sale: del texto de 14 anuncios reales de este modelo. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
+> _De dónde sale: del texto de 15 anuncios reales de este modelo. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
 >
 > - Compara el valor de la cuota mensual, no solo el precio de lista
 > - Necesita espacio y capacidad suficiente para uso familiar
@@ -122,16 +122,18 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > - Confianza en la garantía y el respaldo de posventa de la marca/concesionaria
 > - Status y diseño en el segmento premium
+> - Seguridad y tecnología de asistencia a la conducción verificable
+> - Tecnología y conectividad de última generación
 
 
 > [!example] 📣 Estrategia Recomendada
 
 > **Mensaje clave:** Enfoca la comunicación en 'Mitsubishi Destinator'.
 > **Canales:** Prioriza Showroom.
-> **Formato:** Reels/Stories (video vertical corto) concentra el 49.3% de las impresiones reales — priorizá ese formato en las piezas nuevas.
-> **Públicos hoy:** 44.4% de los adsets activos van a público frío; 15 de 27 adsets usan base propia (5 lookalike).
-> **Presupuesto sugerido:** ~USD 26/mes (hoy ~USD 140/mes según su peso en anuncios) → ~9 leads/mes al CPL actual de la marca (USD 2.85).
-> _Base del cálculo: 1.1% de las ventas de la marca sobre USD 2,364/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Formato:** Reels/Stories (video vertical corto) concentra el 48.9% de las impresiones reales — priorizá ese formato en las piezas nuevas.
+> **Públicos hoy:** 48.3% de los adsets activos van a público frío; 15 de 29 adsets usan base propia (5 lookalike).
+> **Presupuesto sugerido:** ~USD 26/mes (hoy ~USD 146/mes según su peso en anuncios) → ~9 leads/mes al CPL actual de la marca (USD 2.84).
+> _Base del cálculo: 1.1% de las ventas de la marca sobre USD 2,353/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -139,18 +141,18 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Mitsubishi (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 2,487
-> **Pidieron este modelo:** 393 de esos leads (15.8 %)
-> **Modelos más pedidos (toda la marca):** L200 (1058), Montero (484), Destinator (393)
-> **Método de pago preferido:** financiacion (18), contado (2)
-> **Ciudad:** Asunción (504), Ciudad del Este (135), San Lorenzo (98)
+> **Total de leads de la marca en la ventana:** 2,483
+> **Pidieron este modelo:** 403 de esos leads (16.2 %)
+> **Modelos más pedidos (toda la marca):** L200 (1048), Montero (480), Destinator (403)
+> **Método de pago preferido:** financiacion (19), contado (3)
+> **Ciudad:** Asunción (503), Ciudad del Este (139), San Lorenzo (98)
 > **Interés de compra:** Q precio e cuantos años finacia (1)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Mitsubishi (90 días)
 
-> **Leads:** 2,309 → **convertidos:** 2 (0.1%)
-> **Por canal:** Meta madre 2,161, Meta asesores 148
+> **Leads:** 2,330 → **convertidos:** 2 (0.1%)
+> **Por canal:** Meta madre 2,181, Meta asesores 148, Otros canales 1
 > **Deals:** 13 — ganados 3, perdidos 3, en proceso 7 (win rate 50.0%)
 > **Monto ganado:** USD 128,970 · ticket promedio USD 42,990
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
@@ -183,7 +185,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-02 06:41*
+*Generado el 2026-10-03 12:34*
 
 ## 🔗 Contenido Relacionado
 

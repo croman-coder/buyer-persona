@@ -1,36 +1,48 @@
 ---
 type: meta-ads
 persona: Renault Logan
-campaign: Meta - SUV - Renault Logan
+campaign: Meta - Renault Logan
 tags: [marketing, meta-ads]
 ---
 # 🟣 Meta Ads - Renault Logan
-**Persona:** [[Renault Logan]]
-**Campaña:** `Meta - SUV - Renault Logan`
-## Targeting
+**Persona:** [[Renault Logan]] · **Campaña sugerida:** `Meta - Renault Logan`
+**Test drive:** sin dato de stock. Confirmar que haya unidad antes de prometerlo.
+
+> [!info] Borrador listo para cargar
+> Los textos no prometen tasas, plazos, garantías ni urgencias: salen del modelo y de los temas que más se repiten en sus anuncios, no del análisis interno de la ficha. La oferta del mes va aparte, al final. La campaña se crea en pausa. Cómo armarla y cuándo juzgarla: [[📘 Manual Buyer Persona#4.3 Flujo con Meta (hoy)|Manual, 4.3 y 4.4]].
+
+## Público sugerido (de la ficha)
 - **Edad:** 35-44
-- **Género:** Masculino
-- **Intereses:** SUV, Renault
-- **Ubicaciones:** Asunción
-## Primary Text
+- **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
+- **Zonas:** Asunción
+- **Temas que atraen** (para el creativo, no para segmentar): Tecnología y conectividad, Diseño y estatus, Garantía y respaldo posventa, Probar antes de comprar (test drive), Financiación en cuotas
+
+## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)
+**Opción 1** · 226 caracteres
 ```
-🚗 ¿Buscás un suv que realmente valga la pena?
+🚗 Renault Logan
+✅ Tecnología y conectividad para el día a día, según la versión.
+✅ Un diseño que se nota en cada detalle.
+✅ Posventa oficial: service y repuestos originales de la marca.
 
-El Renault Logan llega con todo:
-✅ Garantía de 5 años
-✅ Financiación a 60 meses
-✅ Test drive GRATIS en tu ciudad
-
-👉 Seguridad y tecnología verificable (visión 360°, asistencias a la conducción, Google integrado).
-Reservá tu prueba de manejo hoy.
-
-Escribinos por WhatsApp para más info 👇
+Coordiná tu test drive sin compromiso 👇
 ```
-## Headline
-> Renault Logan | Test Drive Gratis
-## Description
-> Reservá hoy tu prueba
-## CTA
-**Reservar prueba de manejo**
-## Carrusel
-- **Renault Logan** — Garantía y financiación especial
+**Opción 2** · 103 caracteres
+```
+Renault Logan te espera en el concesionario oficial. Probalo antes de decidir: coordiná tu test drive 👇
+```
+**Opción 3** · 136 caracteres
+```
+Planes de financiación y formas de pago a tu medida. Escribinos y te pasamos las opciones 👇 Financiación sujeta a aprobación crediticia.
+```
+
+## Títulos (hasta 5 · máx. 40 caracteres)
+| # | Título | Caract. |
+|---|---|---|
+| 1 | Renault Logan | 13 |
+| 2 | Renault Logan en Paraguay | 25 |
+| 3 | Cotizá tu Logan | 15 |
+| 4 | Agendá tu Test Drive | 20 |
+| 5 | Concesionario Oficial Renault | 29 |
+
+**Descripción** (máx. 30): Concesionario oficial · **Botón:** Obtener cotización

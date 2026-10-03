@@ -6,7 +6,7 @@ tags: [marketing, google-ads]
 ---
 # 🔵 Google Ads - Leapmotor C16
 **Persona:** [[Leapmotor C16]] · **Campaña sugerida:** `Search - Leapmotor C16` · búsqueda, anuncio responsivo
-**Test drive:** no hay unidad de prueba en el stock de hoy (ERP): los textos invitan a verlo en el salón.
+**Test drive:** no hay unidad de prueba en el stock del 18-09 (ERP): los textos invitan a verlo en el salón.
 
 > [!info] Borrador listo para cargar
 > Cada texto respeta los límites de Google (títulos de 30 caracteres, descripciones de 90) y no promete tasas, plazos ni garantías. Sale del modelo y de los temas que más se repiten en sus anuncios, no del análisis interno de la ficha. La oferta del mes va aparte, al final, y se confirma con la marca antes de publicar. Cómo arrancar y cuándo juzgar la campaña: [[📘 Manual Buyer Persona#4.5 Google Ads — qué falta y cómo vamos a arrancar|Manual, 4.5]].
@@ -19,8 +19,8 @@ tags: [marketing, google-ads]
 | 3 | Cotizá tu C16 | 13 |
 | 4 | Concesionario Oficial | 21 |
 | 5 | Conocelo en el Salón | 20 |
-| 6 | Eficiencia en Cada Kilómetro | 28 |
-| 7 | Espacio para Toda la Familia | 28 |
+| 6 | Espacio para Toda la Familia | 28 |
+| 7 | Eficiencia en Cada Kilómetro | 28 |
 | 8 | Diseño que se Nota | 18 |
 | 9 | Tecnología y Conectividad | 25 |
 | 10 | C16 0km | 7 |
@@ -32,8 +32,8 @@ tags: [marketing, google-ads]
 | # | Descripción | Caract. |
 |---|---|---|
 | 1 | Leapmotor C16: cotizá y conocelo en el concesionario oficial. | 61 |
-| 2 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
-| 3 | Espacio y comodidad para viajar con toda la familia. Vení a conocerlo. | 70 |
+| 2 | Espacio y comodidad para viajar con toda la familia. Vení a conocerlo. | 70 |
+| 3 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
 | 4 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
 
 **URL visible:** `…/C16/Cotizar` (cada tramo, máx. 15 caracteres)

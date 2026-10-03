@@ -33,6 +33,8 @@ class SalesConnector:
 
     def __init__(self, config: dict[str, Any]):
         self.config = config
+        # Claves cifradas de cada venta para el cruce con Meta: en memoria, nunca a disco.
+        self.claves_ventas: list[dict[str, Any]] = []
         self.file_path = config.get("file_path", "")
         self.column_mapping = config.get("column_mapping", {})
 
@@ -47,7 +49,7 @@ class SalesConnector:
         # Reporte de facturación del ERP: se normaliza (y se descarta la PII)
         if str(self.config.get("format", "")).lower() == "erp":
             from src.connectors.erp_normalizer import normalize_erp
-            df = normalize_erp(path)
+            df = normalize_erp(path, claves=self.claves_ventas)
             logger.info("Cargadas %d filas (ERP normalizado) desde %s", len(df), path.name)
             return df
 

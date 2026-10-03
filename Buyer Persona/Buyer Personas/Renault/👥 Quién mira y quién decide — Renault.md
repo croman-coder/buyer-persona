@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: Renault
-periodo_meta: 2026-07-04 a 2026-10-02
-created: 2026-10-02
+periodo_meta: 2026-07-05 a 2026-10-03
+created: 2026-10-03
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,7 +12,7 @@ tags:
 # 👥 Quién mira y quién decide — Renault
 
 > [!summary] En una línea
-> En Meta, ellas son el 26,3 % de los clics y contactan igual que ellos con el mismo anuncio (0,99×). El 39,6 % de las compras a cliente final las factura una empresa. En el 0,1 % de los chats el cliente nombra a otra persona.
+> En Meta, ellas son el 26,2 % de los clics y contactan igual que ellos con el mismo anuncio (0,99×). El 39,6 % de las compras a cliente final las factura una empresa. En el 0,1 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
 > 1. **Una pieza para quien compra a nombre de su empresa** — «Para tu empresa». Detalle en la sección 5.
@@ -27,20 +27,20 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-04** al **2026-10-02**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-05** al **2026-10-03**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **Renault** | 26,3 % | 25,1 % | **0,99×** | 25 (ellas menos en 11) | Sin diferencia: ellas y ellos contactan igual |
-| [[Renault Koleos|Renault Koleos]] | 32,2 % | 30,4 % | 0,93× | 10 (ellas menos en 6) | Sin diferencia: ellas y ellos contactan igual |
-| [[Renault Oroch|Renault Oroch]] | 17,4 % | 19,1 % | 1,13× | 4 (ellas menos en 2) | Las que miran, contactan más que ellos |
-| [[Renault Master|Renault Master]] | 14,1 % | 15,9 % | 1,19× | 5 (ellas menos en 1) | Las que miran, contactan más que ellos |
+| **Renault** | 26,2 % | 25,1 % | **0,99×** | 25 (ellas menos en 12) | Sin diferencia: ellas y ellos contactan igual |
+| [[Renault Koleos|Renault Koleos]] | 32,2 % | 30,5 % | 0,94× | 10 (ellas menos en 6) | Sin diferencia: ellas y ellos contactan igual |
+| [[Renault Oroch|Renault Oroch]] | 17,5 % | 19,3 % | 1,13× | 4 (ellas menos en 2) | Las que miran, contactan más que ellos |
+| [[Renault Master|Renault Master]] | 14,5 % | 16,0 % | 1,14× | 5 (ellas menos en 2) | Las que miran, contactan más que ellos |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|---|
-| 15,7 % | 16,1 % | 18,6 % | 20,4 % | 15,6 % | 13,7 % |
+| 16,1 % | 16,3 % | 18,7 % | 20,5 % | 15,6 % | 13,8 % |
 
 Los **mayores de 55** hacen clic pero, con el mismo anuncio, contactan 0,79× lo que los menores de 55: miran mucho y el contacto suele dejarlo alguien más joven (o no lo deja). Pieza sugerida: invitarlos a probarla con quien los acompaña.
 
@@ -48,7 +48,7 @@ Los **mayores de 55** hacen clic pero, con el mismo anuncio, contactan 0,79× lo
 
 Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema suma 10 puntos de mujeres (o de mayores de 55) sobre lo normal del modelo. Clics y cantidad de anuncios entre paréntesis.
 
-**Lo que menos las atrae** (evitarlo en la pieza para ellas): Renault Oroch: familia y espacio (-8,9).
+**Lo que menos las atrae** (evitarlo en la pieza para ellas): Renault Oroch: familia y espacio (-8,8).
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -104,9 +104,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-04 a 2026-10-02, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-05 a 2026-10-03, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: ventas a cliente final, 2025-09-11 a 2026-09-11.
 - Chats: Messenger e Instagram, lectura semanal (2026-09-28).
-- Generado el 2026-10-02 06:41 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Generado el 2026-10-03 12:34 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[Renault|Volver a Renault]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

@@ -6,7 +6,7 @@ tags: [marketing, google-ads]
 ---
 # 🔵 Google Ads - GWM Haval H6
 **Persona:** [[GWM Haval H6]] · **Campaña sugerida:** `Search - GWM Haval H6` · búsqueda, anuncio responsivo
-**Test drive:** hay 3 unidades de prueba en el stock de hoy (ERP).
+**Test drive:** hay 3 unidades de prueba en el stock del 18-09 (ERP).
 
 > [!info] Borrador listo para cargar
 > Cada texto respeta los límites de Google (títulos de 30 caracteres, descripciones de 90) y no promete tasas, plazos ni garantías. Sale del modelo y de los temas que más se repiten en sus anuncios, no del análisis interno de la ficha. La oferta del mes va aparte, al final, y se confirma con la marca antes de publicar. Cómo arrancar y cuándo juzgar la campaña: [[📘 Manual Buyer Persona#4.5 Google Ads — qué falta y cómo vamos a arrancar|Manual, 4.5]].
@@ -20,8 +20,8 @@ tags: [marketing, google-ads]
 | 4 | Concesionario Oficial GWM | 25 |
 | 5 | Agendá tu Test Drive | 20 |
 | 6 | Tecnología y Conectividad | 25 |
-| 7 | Diseño que se Nota | 18 |
-| 8 | Seguridad en Cada Viaje | 23 |
+| 7 | Eficiencia en Cada Kilómetro | 28 |
+| 8 | Diseño que se Nota | 18 |
 | 9 | Haval H6 0km | 12 |
 | 10 | Versiones y Equipamiento | 24 |
 | 11 | Hablá con un Asesor | 19 |
@@ -32,8 +32,8 @@ tags: [marketing, google-ads]
 |---|---|---|
 | 1 | GWM Haval H6: cotizá y agendá tu test drive en el concesionario oficial. | 72 |
 | 2 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
-| 3 | Probalo antes de decidir: coordiná tu test drive en el día y horario que prefieras. | 83 |
-| 4 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
+| 3 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
+| 4 | Probalo antes de decidir: coordiná tu test drive en el día y horario que prefieras. | 83 |
 
 **URL visible:** `…/Haval-H6/Cotizar` (cada tramo, máx. 15 caracteres)
 
@@ -55,10 +55,8 @@ _`"entre comillas"` = concordancia de frase · `[entre corchetes]` = concordanci
 
 **Textos destacados** (máx. 25): Concesionario Oficial · Test Drive sin Cargo · Financiación Disponible · Atención Personalizada
 
-## 💲 Oferta del mes (2026-09): confirmar antes de publicar
-> [!warning] Sale de la planilla de acciones comerciales
-> Vence con el mes y puede tener condiciones. No se sube sin confirmarla con la marca.
+## 💲 Oferta y stock: la planilla cargada es de septiembre y ya venció
+> [!warning] No usar estos montos en un texto
+> Es el último dato de la planilla de acciones comerciales. Hasta que se cargue la de este mes, confirmar precio y descuento con la marca.
 
-- Título: `Desde USD 24.990` (16)
-- Título: `Hasta USD 3.685 de Descuento` (28)
-- Descripción: `Desde USD 24.990 y hasta USD 3.685 de descuento en septiembre. Consultá condiciones.` (84)
+- Último dato de la planilla (2026-09): precio de lista desde USD 24.990 · descuento hasta USD 3.685

@@ -6,7 +6,7 @@ age_range: 65+
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-02'
+created: '2026-10-03'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (clics por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-04 → 2026-10-02 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-05 → 2026-10-03 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quién hace clic en los anuncios**, no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -28,16 +28,16 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 65+ (25.1% de los clics) · heredado de la marca
-- **Género predominante:** Masculino (76.7%)
+- **Edad:** 65+ (25.6% de los clics) · heredado de la marca
+- **Género predominante:** Masculino (76.4%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-04 → 2026-10-02 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-05 → 2026-10-03 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Zeekr X`
 - **Marca:** [[Comprador Zeekr|Zeekr]]
 - **Tipo de vehículo:** Eléctrico
 - **Ventas reales (ERP):** 19 unidades desde 2018 · últimos 12 meses: 12 · últimos 90 días: 1
 - **Pauta real (90 días):** 51 anuncios (7 activos)
-- **Brecha pauta/venta:** equilibrado ⚖️ — 60.0% de las ventas de la marca (12 meses) vs 40.2% de sus anuncios (ERP hasta 2026-09-11)
+- **Brecha pauta/venta:** equilibrado ⚖️ — 60.0% de las ventas de la marca (12 meses) vs 39.8% de sus anuncios (ERP hasta 2026-09-11)
   _Cómo se decide: **sub-pautado** si el modelo pone ≥5 % de las ventas de la marca y tiene menos de la mitad de anuncios que de ventas (escalar); **sobre-pautado** si pone ≥5 % de los anuncios y vende menos de la mitad de eso (revisar); **equilibrado** si no pasa ninguna de las dos._
 - **Ticket promedio (ERP, facturado):** USD 35,636
 
@@ -55,8 +55,8 @@ _Qué es: quién hace clic en los anuncios de este público, por edad y género.
 - **Rango de edad:** 65+
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** audiencia de Meta de la marca **Zeekr** (25,228 clics), ponderado por clics — Masculino 76.7%
-- **Distribución de edad (Meta):** 65+: 25.1%, 35-44: 23.6%, 45-54: 18.3%, 25-34: 15.9%, 55-64: 14.6%, 18-24: 2.4%
+- **Fuente edad/género:** audiencia de Meta de la marca **Zeekr** (25,376 clics), ponderado por clics — Masculino 76.4%
+- **Distribución de edad (Meta):** 65+: 25.6%, 35-44: 23.4%, 45-54: 18.2%, 25-34: 15.6%, 55-64: 14.8%, 18-24: 2.4%
 - ⚠️ Perfil heredado de la marca: el desglose edad/género por anuncio no estaba disponible en esta corrida (se atribuye por modelo desde el 2026-09-18).
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
@@ -66,8 +66,8 @@ _Qué es: los temas que aparecen en los anuncios que este público ve y clickea.
 
 **Intereses observados** (51 anuncios reales leídos):
 - Tecnología y conectividad · 62.0% de los anuncios
-- Autos eléctricos y ahorro de combustible · 54.0% de los anuncios
 - Diseño y estatus · 50.0% de los anuncios
+- Autos eléctricos y ahorro de combustible · 36.0% de los anuncios
 - Probar antes de comprar (test drive) · 16.0% de los anuncios
 
 > _Meta ya no expone intereses declarados de la audiencia (Audience Insights cerró en 2021); esto es lo que el público ve y con lo que interactúa._
@@ -77,7 +77,7 @@ _Qué es: los temas que aparecen en los anuncios que este público ve y clickea.
 - **NSE estimado:** C+ (medio-alto)
 - **Señales que se usaron:**
   - ticket promedio USD 35,636 (gama media-alta)
-  - 28.4% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 28.0% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -116,18 +116,18 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!info] 💡 Motivaciones de Compra
 
 > - Tecnología y conectividad de última generación
-> - Ahorro de combustible y mantenimiento a largo plazo
 > - Status y diseño en el segmento premium
+> - Ahorro de combustible y mantenimiento a largo plazo
 
 
 > [!example] 📣 Estrategia Recomendada
 
 > **Mensaje clave:** Enfoca la comunicación en 'Zeekr X'.
 > **Canales:** Prioriza Showroom.
-> **Formato:** Feed (imagen/carrusel estático) concentra el 49.5% de las impresiones reales — priorizá ese formato en las piezas nuevas.
-> **Públicos hoy:** 76.5% de los adsets activos van a público frío; 4 de 17 adsets usan base propia (4 lookalike).
-> **Presupuesto sugerido:** ~USD 552/mes (hoy ~USD 370/mes según su peso en anuncios) → ~221 leads/mes al CPL actual de la marca (USD 2.49).
-> _Base del cálculo: 60.0% de las ventas de la marca sobre USD 921/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Formato:** Feed (imagen/carrusel estático) concentra el 49.4% de las impresiones reales — priorizá ese formato en las piezas nuevas.
+> **Públicos hoy:** 77.8% de los adsets activos van a público frío; 4 de 18 adsets usan base propia (4 lookalike).
+> **Presupuesto sugerido:** ~USD 555/mes (hoy ~USD 368/mes según su peso en anuncios) → ~226 leads/mes al CPL actual de la marca (USD 2.45).
+> _Base del cálculo: 60.0% de las ventas de la marca sobre USD 924/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -135,14 +135,14 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Zeekr (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 1,111
+> **Total de leads de la marca en la ventana:** 1,131
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Zeekr (90 días)
 
-> **Leads:** 1,197 → **convertidos:** 0 (0.0%)
-> **Por canal:** Meta madre 1,188, Otros canales 6, Meta asesores 3
+> **Leads:** 1,228 → **convertidos:** 0 (0.0%)
+> **Por canal:** Meta madre 1,219, Otros canales 6, Meta asesores 3
 > **Deals:** 5 — ganados 0, perdidos 1, en proceso 4 (win rate 0.0%)
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
@@ -179,7 +179,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-02 06:41*
+*Generado el 2026-10-03 12:34*
 
 ## 🔗 Contenido Relacionado
 

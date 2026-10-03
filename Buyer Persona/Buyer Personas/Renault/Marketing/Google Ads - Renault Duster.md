@@ -6,7 +6,7 @@ tags: [marketing, google-ads]
 ---
 # 🔵 Google Ads - Renault Duster
 **Persona:** [[Renault Duster]] · **Campaña sugerida:** `Search - Renault Duster` · búsqueda, anuncio responsivo
-**Test drive:** hay 1 unidad de prueba en el stock de hoy (ERP).
+**Test drive:** hay 1 unidad de prueba en el stock del 18-09 (ERP).
 
 > [!info] Borrador listo para cargar
 > Cada texto respeta los límites de Google (títulos de 30 caracteres, descripciones de 90) y no promete tasas, plazos ni garantías. Sale del modelo y de los temas que más se repiten en sus anuncios, no del análisis interno de la ficha. La oferta del mes va aparte, al final, y se confirma con la marca antes de publicar. Cómo arrancar y cuándo juzgar la campaña: [[📘 Manual Buyer Persona#4.5 Google Ads — qué falta y cómo vamos a arrancar|Manual, 4.5]].

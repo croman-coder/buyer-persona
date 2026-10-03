@@ -5,7 +5,7 @@ tags: [marketing, email]
 ---
 # 📧 Email - Jetour Dashing
 **Persona:** [[Jetour Dashing]]
-**Test drive:** hay 2 unidades de prueba en el stock de hoy (ERP).
+**Test drive:** hay 2 unidades de prueba en el stock del 18-09 (ERP).
 
 > [!info] Cómo usar este mail
 > Los campos entre llaves (`{nombre}`, `{link}`) los completa la herramienta de envío. No promete tasas, plazos, garantías ni urgencias: la oferta del mes y el stock van al final, para confirmar con la marca antes de sumarlos.
@@ -48,11 +48,10 @@ Hola {nombre}:
 Equipo Jetour
 ```
 
-## 💲 Oferta del mes y stock: confirmar antes de usar
-> [!warning] Sale de la planilla de acciones comerciales y del stock del ERP
-> Vence con el mes y puede tener condiciones. No se usa sin confirmarla con la marca.
+## 💲 Oferta y stock: la planilla cargada es de septiembre y ya venció
+> [!warning] No usar estos montos en un texto
+> Es el último dato de la planilla de acciones comerciales. Hasta que se cargue la de este mes, confirmar precio y descuento con la marca.
 
-- Párrafo para sumar al mail: `En septiembre, Jetour Dashing está desde USD 20.990 y con hasta USD 1.000 de descuento. Consultá condiciones con tu asesor.`
-- Planilla (2026-09): precio de lista desde USD 20.990 · descuento hasta USD 1.000
+- Último dato de la planilla (2026-09): precio de lista desde USD 20.990 · descuento hasta USD 1.000
 - Condición en la planilla: Bono 500 o Transferencia de regalo (600USD)
-- Stock disponible hoy (ERP): 18 unidades. «Entrega inmediata» solo si la marca lo confirma.
+- Stock disponible al 18-09 (ERP): 18 unidades. «Entrega inmediata» solo si la marca lo confirma.

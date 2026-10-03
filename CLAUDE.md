@@ -15,7 +15,8 @@
 3. `Buyer Personas/<Marca>/👥 Quién mira y quién decide — <Marca>.md`: la pieza sugerida para quien acompaña la decisión.
 4. Los textos listos en `Buyer Personas/<Marca>/Marketing/`: `Meta Ads -`, `Google Ads -`, `Email -` y `WhatsApp -`.
 5. Lo que ya se probó, en `Buyer Persona/Campañas/`: pautas IA de Mitsubishi, Renault y Renew, y la prueba de GWM H6.
-6. Referencias: `🤖 Meta Ads Lo Que Funciona`, `🎯 Playbook Meta Ads` y `💸 Pauta Meta Rendimiento` (en `Buyer Personas/`), `Sistema/🧠 Memoria de Audiencia.md`, `Investigación/📈 Curva de aprendizaje — Google Ads vs Meta (26 semanas).md` y `Cuentas Meta/` (cada anuncio de cada cuenta).
+6. Qué campañas terminan en ventas: `Sistema/💰 Ventas que vinieron de Meta.md` (se actualiza en cada corrida: ventas con lead previo de Meta por marca, de qué campaña vino y costo por venta).
+7. Referencias: `🤖 Meta Ads Lo Que Funciona`, `🎯 Playbook Meta Ads` y `💸 Pauta Meta Rendimiento` (en `Buyer Personas/`), `Sistema/🧠 Memoria de Audiencia.md`, `Investigación/📈 Curva de aprendizaje — Google Ads vs Meta (26 semanas).md` y `Cuentas Meta/` (cada anuncio de cada cuenta).
 
 Marcas: GWM · JAC · Jetour · JMEV · Leapmotor · Mitsubishi · Renault · Renew (usados certificados) · Soueast · XPeng · Zeekr.
 
@@ -26,7 +27,7 @@ Marcas: GWM · JAC · Jetour · JMEV · Leapmotor · Mitsubishi · Renault · Re
 3. **Campañas de agencia:** no tocar presupuesto, segmentación ni anuncios sin coordinar con la agencia (Mitsubishi: Cecilia; Renault: Fabrizzio). No pautarle al mismo público que una campaña que ya corre en la misma cuenta: se encarecen entre ellas (pasó con la L200 en septiembre).
 4. **Presupuesto:** un conjunto con optimización a conversaciones necesita **al menos USD 5 por día**; con menos, Meta no lo entrega. Para que aprenda hacen falta ~50 resultados por semana: presupuesto diario ≈ 7 × el costo por resultado de la marca. Mejor un conjunto con plata que tres chicos.
 5. **Cuándo juzgar:** a las 3-4 semanas, con el promedio de 4 semanas. La primera semana suele salir más barata y engaña. Cortar antes solo si compite con otra campaña nuestra o si a las 2 semanas cuesta el doble o más que el promedio de la marca (casi nunca se recupera).
-6. **Textos:** sin tasas, plazos, garantías ni urgencias inventadas. La oferta del mes sale de la planilla de acciones (bloque «Oferta del mes» de cada nota) y se confirma con la marca. Test drive solo si el stock tiene unidad de prueba (lo dice cada nota). ⚠️ Las notas `Meta Ads -` todavía traen «Garantía de 5 años» y «Financiación a 60 meses» fijos: no usar esas líneas sin confirmarlas.
+6. **Textos:** sin tasas, plazos, garantías ni urgencias inventadas. La oferta del mes sale de la planilla de acciones (bloque «Oferta del mes» de cada nota) y se confirma con la marca; si la planilla es de un mes anterior, la nota la marca **vencida** y no trae texto listo. Test drive solo si el stock tiene unidad de prueba (lo dice cada nota, con la fecha del stock).
 7. **Datos de clientes:** ningún nombre, mail ni teléfono en archivos ni en el chat. Subir una lista de clientes a Meta o Google necesita el OK de Croman. La base de ventas de Mitsubishi no sirve para públicos (tiene los contactos de Nipon).
 8. **Claves:** nunca en archivos versionados ni en el chat; solo en `.env`, que no viene en esta copia.
 

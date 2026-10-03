@@ -18,9 +18,9 @@ tags: [marketing, google-ads]
 | 3 | Zeekr 0km | 9 |
 | 4 | Conocé la Gama Zeekr | 20 |
 | 5 | Agendá tu Test Drive | 20 |
-| 6 | Eficiencia en Cada Kilómetro | 28 |
-| 7 | Diseño que se Nota | 18 |
-| 8 | Tecnología y Conectividad | 25 |
+| 6 | Diseño que se Nota | 18 |
+| 7 | Tecnología y Conectividad | 25 |
+| 8 | Eficiencia en Cada Kilómetro | 28 |
 | 9 | Zeekr X | 7 |
 | 10 | Zeekr 001 | 9 |
 | 11 | Zeekr 7X | 8 |
@@ -31,9 +31,9 @@ tags: [marketing, google-ads]
 | # | Descripción | Caract. |
 |---|---|---|
 | 1 | Conocé la gama Zeekr en el concesionario oficial. Pedí tu cotización hoy. | 73 |
-| 2 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
-| 3 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
-| 4 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
+| 2 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
+| 3 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
+| 4 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
 
 **URL visible:** `…/Zeekr/Modelos` (cada tramo, máx. 15 caracteres)
 

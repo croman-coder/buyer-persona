@@ -5,7 +5,7 @@ tags: [marketing, whatsapp]
 ---
 # 💬 WhatsApp - JAC JS4
 **Persona:** [[JAC JS4]]
-**Test drive:** hay 1 unidad de prueba en el stock de hoy (ERP).
+**Test drive:** hay 1 unidad de prueba en el stock del 18-09 (ERP).
 
 > [!info] Cuándo usar cada mensaje
 > Bienvenida, seguimiento y respuestas van dentro de las **24 horas** desde el último mensaje del cliente. Fuera de esa ventana, WhatsApp solo deja escribir con una **plantilla aprobada por Meta** (categoría marketing) y a quien aceptó recibir mensajes: esa es la invitación. `{asesor}` y `{nombre}` se completan al enviar. Sin tasas, plazos, garantías ni urgencias: la oferta del mes y el stock van al final, para confirmar antes.
@@ -56,4 +56,4 @@ Sí, podemos evaluar tu usado como parte de pago. Pasame marca, modelo, año y k
 > [!warning] Sale de la planilla de acciones comerciales y del stock del ERP
 > Vence con el mes y puede tener condiciones. No se usa sin confirmarla con la marca.
 
-- Stock disponible hoy (ERP): 7 unidades. «Entrega inmediata» solo si la marca lo confirma.
+- Stock disponible al 18-09 (ERP): 7 unidades. «Entrega inmediata» solo si la marca lo confirma.

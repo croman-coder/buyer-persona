@@ -41,7 +41,7 @@ from src.connectors.datacar_connector import DatacarConnector
 from src.generators.competitor_analyzer import analyze as analyze_competitors, price_changes
 from src.exporters import competitor_exporter
 from src.generators.persona_generator import PersonaGenerator
-from src.generators.marketing_generator import MarketingContentGenerator
+from src.generators.marketing_generator import MarketingContentGenerator, fecha_corta
 from src.exporters.obsidian_exporter import ObsidianExporter
 from src.exporters.funnel_exporter import FunnelExporter
 
@@ -66,23 +66,39 @@ def _linea_test_drive(item: dict) -> str | None:
     if item.get("tipo") != "model" or item.get("used"):
         return None
     td, n = item.get("test_drive"), item.get("test_drive_unidades")
+    cuando = f"del {fecha_corta(item.get('stock_fecha'))}" if item.get("stock_fecha") else "cargado"
     if td:
-        return f"**Test drive:** hay {n} unidad{'es' if n != 1 else ''} de prueba en el stock de hoy (ERP)."
+        return f"**Test drive:** hay {n} unidad{'es' if n != 1 else ''} de prueba en el stock {cuando} (ERP)."
     if td is False:
-        return "**Test drive:** no hay unidad de prueba en el stock de hoy (ERP): los textos invitan a verlo en el salón."
+        return f"**Test drive:** no hay unidad de prueba en el stock {cuando} (ERP): los textos invitan a verlo en el salón."
     return "**Test drive:** sin dato de stock. Confirmar que haya unidad antes de prometerlo."
 
 
 def _bloque_oferta_y_stock(item: dict, canal: str) -> list[str]:
-    """Oferta del mes (planilla de acciones) y stock (ERP), aparte: se confirman antes de usarlos."""
+    """Oferta del mes (planilla de acciones) y stock (ERP), aparte: se confirman antes de usarlos.
+
+    Si la planilla es de un mes anterior, se muestra como último dato y sin ningún texto listo.
+    """
     oferta, disponible = item.get("offer"), item.get("stock_disponible")
     if not oferta and not disponible:
         return []
-    lines = ["", "## 💲 Oferta del mes y stock: confirmar antes de usar",
-             "> [!warning] Sale de la planilla de acciones comerciales y del stock del ERP",
-             "> Vence con el mes y puede tener condiciones. No se usa sin confirmarla con la marca.", ""]
-    if item.get("offer_text"):
-        etiqueta = "Párrafo para sumar al mail" if canal == "email" else "Mensaje para sumar"
+    vencida = bool(oferta and oferta.get("vencida"))
+    if vencida:
+        lines = ["", f"## 💲 Oferta y stock: la planilla cargada es de {oferta.get('mes') or oferta.get('periodo')} y ya venció",
+                 "> [!warning] No usar estos montos en un texto",
+                 "> Es el último dato de la planilla de acciones comerciales. Hasta que se cargue la de este mes, "
+                 "confirmar precio y descuento con la marca.", ""]
+    else:
+        lines = ["", "## 💲 Oferta del mes y stock: confirmar antes de usar",
+                 "> [!warning] Sale de la planilla de acciones comerciales y del stock del ERP",
+                 "> Vence con el mes y puede tener condiciones. No se usa sin confirmarla con la marca.", ""]
+    if canal == "google" and oferta and not vencida:
+        for t in oferta.get("titulos", []):
+            lines.append(f"- Título: `{t}` ({len(t)})")
+        if oferta.get("descripcion"):
+            lines.append(f"- Descripción: `{oferta['descripcion']}` ({len(oferta['descripcion'])})")
+    elif item.get("offer_text"):
+        etiqueta = {"email": "Párrafo para sumar al mail", "meta": "Texto para sumar al aviso"}.get(canal, "Mensaje para sumar")
         lines.append(f"- {etiqueta}: `{item['offer_text']}`")
     if oferta:
         partes = []
@@ -90,11 +106,13 @@ def _bloque_oferta_y_stock(item: dict, canal: str) -> list[str]:
             partes.append("precio de lista desde USD " + f"{oferta['pvp_min']:,.0f}".replace(",", "."))
         if oferta.get("descuento_max"):
             partes.append("descuento hasta USD " + f"{oferta['descuento_max']:,.0f}".replace(",", "."))
-        lines.append(f"- Planilla ({oferta.get('periodo') or 'vigente'}): " + " · ".join(partes))
+        etiqueta = "Último dato de la planilla" if vencida else "Planilla"
+        lines.append(f"- {etiqueta} ({oferta.get('periodo') or 'vigente'}): " + " · ".join(partes))
         for c in oferta.get("condiciones", []):
             lines.append(f"- Condición en la planilla: {c}")
     if disponible:
-        lines.append(f"- Stock disponible hoy (ERP): {disponible} unidades. «Entrega inmediata» solo si la marca lo confirma.")
+        cuando = f"al {fecha_corta(item.get('stock_fecha'))}" if item.get("stock_fecha") else "según el último stock cargado"
+        lines.append(f"- Stock disponible {cuando} (ERP): {disponible} unidades. «Entrega inmediata» solo si la marca lo confirma.")
     return lines
 
 
@@ -169,17 +187,7 @@ def _export_marketing_to_obsidian(
             lines.append(f"- **{s['text']}** — {s['desc1']} / {s['desc2']}")
         if ad.get("callouts"):
             lines += ["", "**Textos destacados** (máx. 25): " + " · ".join(ad["callouts"])]
-        oferta = ad.get("offer")
-        if oferta:
-            lines += ["", f"## 💲 Oferta del mes ({oferta.get('periodo') or 'vigente'}): confirmar antes de publicar",
-                      "> [!warning] Sale de la planilla de acciones comerciales",
-                      "> Vence con el mes y puede tener condiciones. No se sube sin confirmarla con la marca.", ""]
-            for t in oferta.get("titulos", []):
-                lines.append(f"- Título: `{t}` ({len(t)})")
-            if oferta.get("descripcion"):
-                lines.append(f"- Descripción: `{oferta['descripcion']}` ({len(oferta['descripcion'])})")
-            for c in oferta.get("condiciones", []):
-                lines.append(f"- Condición en la planilla: {c}")
+        lines += _bloque_oferta_y_stock(ad, "google")
         path.write_text("\n".join(lines) + "\n", encoding="utf-8")
         files.append(path)
 
@@ -196,26 +204,35 @@ def _export_marketing_to_obsidian(
             f"tags: [marketing, meta-ads]",
             "---",
             f"# 🟣 Meta Ads - {ad.get('persona', '')}",
-            f"**Persona:** [[{ad.get('persona', '')}]]",
-            f"**Campaña:** `{ad.get('campaign_name', '')}`",
-            "## Targeting",
-            f"- **Edad:** {targeting.get('age_range', 'N/D')}",
-            f"- **Género:** {targeting.get('gender', 'N/D')}",
-            f"- **Intereses:** {', '.join(targeting.get('interests', []))}",
-            f"- **Ubicaciones:** {', '.join(targeting.get('locations', []))}",
-            "## Primary Text",
-            "```",
-            ad.get("primary_text", ""),
-            "```",
-            f"## Headline\n> {ad.get('headline', '')}",
-            f"## Description\n> {ad.get('description', '')}",
-            f"## CTA\n**{ad.get('cta', '')}**",
+            f"**Persona:** [[{ad.get('persona', '')}]] · **Campaña sugerida:** `{ad.get('campaign_name', '')}`",
+            *[x for x in [_linea_test_drive(ad)] if x],
+            "",
+            "> [!info] Borrador listo para cargar",
+            "> Los textos no prometen tasas, plazos, garantías ni urgencias: salen del modelo y de los temas que más se "
+            "repiten en sus anuncios, no del análisis interno de la ficha. La oferta del mes va aparte, al final. "
+            "La campaña se crea en pausa. Cómo armarla y cuándo juzgarla: "
+            "[[📘 Manual Buyer Persona#4.3 Flujo con Meta (hoy)|Manual, 4.3 y 4.4]].",
+            "",
+            "## Público sugerido (de la ficha)",
+            f"- **Edad:** {targeting.get('age_range') or 'N/D'}",
+            f"- **Género:** {targeting.get('gender') or 'N/D'} (con público Advantage+, como sugerencia: no cortar por género)",
+            f"- **Zonas:** {', '.join(targeting.get('locations', [])) or 'N/D'}",
         ]
+        if targeting.get("temas"):
+            lines.append(f"- **Temas que atraen** (para el creativo, no para segmentar): {', '.join(targeting['temas'])}")
+        lines += ["", "## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)"]
+        for i, t in enumerate(ad.get("primary_texts") or [ad.get("primary_text", "")], 1):
+            lines += [f"**Opción {i}** · {len(t)} caracteres", "```", t, "```"]
+        lines += ["", "## Títulos (hasta 5 · máx. 40 caracteres)", "| # | Título | Caract. |", "|---|---|---|"]
+        for i, h in enumerate(ad.get("headlines") or [ad.get("headline", "")], 1):
+            lines.append(f"| {i} | {h} | {len(h)} |")
+        lines += ["", f"**Descripción** (máx. 30): {ad.get('description', '')} · **Botón:** {ad.get('cta', '')}"]
         if ad.get("carousel_cards"):
-            lines.append("## Carrusel")
+            lines += ["", "## Carrusel"]
             for card in ad["carousel_cards"]:
                 lines.append(f"- **{card['headline']}** — {card['description']}")
-        path.write_text("\n".join(lines), encoding="utf-8")
+        lines += _bloque_oferta_y_stock(ad, "meta")
+        path.write_text("\n".join(lines) + "\n", encoding="utf-8")
         files.append(path)
 
     # --- Emails ---
@@ -502,6 +519,7 @@ def run_pipeline(config_path: str = "config/settings.yaml", demo: bool = False, 
         data_sources["google_ads"] = {}
 
     # 2b. Meta Ads
+    meta_connector = sales_connector = None   # el cruce de ventas (5c) necesita los dos
     meta_cfg = config.get("meta_ads", {})
     if from_json:
         pass
@@ -691,6 +709,27 @@ def run_pipeline(config_path: str = "config/settings.yaml", demo: bool = False, 
         logger.info("👥 Centro de compra: %d marcas → %s", len(centro.get("marcas", {})), centro_json_path)
     except Exception as exc:  # no debe tumbar las fichas
         logger.warning("👥 Centro de compra: no se pudo calcular: %s", exc)
+
+    # --- 5c. Ventas que vinieron de Meta: cruce con claves cifradas, solo se guardan totales ---
+    if meta_connector is not None and sales_connector is not None:
+        try:
+            from src.generators.ventas_meta import cruzar, nota as nota_ventas_meta
+            ventas_meta = cruzar(sales_connector.claves_ventas, meta_connector.claves_leads,
+                                 data_sources.get("meta_ads", {}).get("campaigns", []))
+            if ventas_meta:
+                with open(raw_dir / f"ventas_meta_{start_time.strftime('%Y%m%d_%H%M%S')}.json", "w", encoding="utf-8") as f:
+                    json.dump(ventas_meta, f, indent=1, ensure_ascii=False, default=_json_default)
+                vault = config["paths"].get("obsidian_vault", "")
+                if vault:
+                    (Path(vault) / "Sistema" / "💰 Ventas que vinieron de Meta.md").write_text(
+                        nota_ventas_meta(ventas_meta), encoding="utf-8")
+                total = sum(m["con_meta"] for m in ventas_meta["por_marca"].values())
+                logger.info("💰 Ventas de Meta: %d de %d ventas con lead previo", total, ventas_meta["ventas_evaluadas"])
+        except Exception as exc:  # no debe tumbar las fichas
+            logger.warning("💰 Ventas de Meta: no se pudo calcular: %s", exc)
+        finally:
+            meta_connector.claves_leads.clear()
+            sales_connector.claves_ventas.clear()
 
     # --- 6. Exportar a Obsidian ---
     logger.info("📝 Exportando a Obsidian...")

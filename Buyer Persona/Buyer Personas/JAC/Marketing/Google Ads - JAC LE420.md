@@ -6,7 +6,7 @@ tags: [marketing, google-ads]
 ---
 # 🔵 Google Ads - JAC LE420
 **Persona:** [[JAC LE420]] · **Campaña sugerida:** `Search - JAC LE420` · búsqueda, anuncio responsivo
-**Test drive:** no hay unidad de prueba en el stock de hoy (ERP): los textos invitan a verlo en el salón.
+**Test drive:** no hay unidad de prueba en el stock del 18-09 (ERP): los textos invitan a verlo en el salón.
 
 > [!info] Borrador listo para cargar
 > Cada texto respeta los límites de Google (títulos de 30 caracteres, descripciones de 90) y no promete tasas, plazos ni garantías. Sale del modelo y de los temas que más se repiten en sus anuncios, no del análisis interno de la ficha. La oferta del mes va aparte, al final, y se confirma con la marca antes de publicar. Cómo arrancar y cuándo juzgar la campaña: [[📘 Manual Buyer Persona#4.5 Google Ads — qué falta y cómo vamos a arrancar|Manual, 4.5]].
@@ -55,11 +55,9 @@ _`"entre comillas"` = concordancia de frase · `[entre corchetes]` = concordanci
 
 **Textos destacados** (máx. 25): Concesionario Oficial · Financiación Disponible · Atención Personalizada
 
-## 💲 Oferta del mes (2026-09): confirmar antes de publicar
-> [!warning] Sale de la planilla de acciones comerciales
-> Vence con el mes y puede tener condiciones. No se sube sin confirmarla con la marca.
+## 💲 Oferta y stock: la planilla cargada es de septiembre y ya venció
+> [!warning] No usar estos montos en un texto
+> Es el último dato de la planilla de acciones comerciales. Hasta que se cargue la de este mes, confirmar precio y descuento con la marca.
 
-- Título: `Desde USD 26.990` (16)
-- Título: `Hasta USD 3.374 de Descuento` (28)
-- Descripción: `Desde USD 26.990 y hasta USD 3.374 de descuento en septiembre. Consultá condiciones.` (84)
+- Último dato de la planilla (2026-09): precio de lista desde USD 26.990 · descuento hasta USD 3.374
 - Condición en la planilla: DESCUENTO MAXIMO SOLO VALIDO PARA VTA CARTERA SUDAMERIS

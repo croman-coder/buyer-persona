@@ -56,11 +56,9 @@ _`"entre comillas"` = concordancia de frase · `[entre corchetes]` = concordanci
 
 **Textos destacados** (máx. 25): Concesionario Oficial · Test Drive sin Cargo · Financiación Disponible · Atención Personalizada
 
-## 💲 Oferta del mes (2026-09): confirmar antes de publicar
-> [!warning] Sale de la planilla de acciones comerciales
-> Vence con el mes y puede tener condiciones. No se sube sin confirmarla con la marca.
+## 💲 Oferta y stock: la planilla cargada es de septiembre y ya venció
+> [!warning] No usar estos montos en un texto
+> Es el último dato de la planilla de acciones comerciales. Hasta que se cargue la de este mes, confirmar precio y descuento con la marca.
 
-- Título: `Desde USD 18.490` (16)
-- Título: `Hasta USD 2.196 de Descuento` (28)
-- Descripción: `Desde USD 18.490 y hasta USD 2.196 de descuento en septiembre. Consultá condiciones.` (84)
+- Último dato de la planilla (2026-09): precio de lista desde USD 18.490 · descuento hasta USD 2.196
 - Condición en la planilla: DESCUENTO MAXIMO SOLO VALIDO PARA VTA CARTERA SUDAMERIS

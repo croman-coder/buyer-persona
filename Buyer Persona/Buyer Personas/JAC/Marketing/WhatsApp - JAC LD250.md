@@ -52,10 +52,9 @@ Te calculamos la cuota según la versión y la forma de pago que prefieras. Para
 Sí, podemos evaluar tu usado como parte de pago. Pasame marca, modelo, año y kilometraje, y te damos una cotización 👍
 ```
 
-## 💲 Oferta del mes y stock: confirmar antes de usar
-> [!warning] Sale de la planilla de acciones comerciales y del stock del ERP
-> Vence con el mes y puede tener condiciones. No se usa sin confirmarla con la marca.
+## 💲 Oferta y stock: la planilla cargada es de septiembre y ya venció
+> [!warning] No usar estos montos en un texto
+> Es el último dato de la planilla de acciones comerciales. Hasta que se cargue la de este mes, confirmar precio y descuento con la marca.
 
-- Mensaje para sumar: `Este mes JAC LD250 tiene hasta USD 2.196 de descuento 🎁 (consultá condiciones). ¿Te paso el detalle?`
-- Planilla (2026-09): precio de lista desde USD 18.490 · descuento hasta USD 2.196
+- Último dato de la planilla (2026-09): precio de lista desde USD 18.490 · descuento hasta USD 2.196
 - Condición en la planilla: DESCUENTO MAXIMO SOLO VALIDO PARA VTA CARTERA SUDAMERIS

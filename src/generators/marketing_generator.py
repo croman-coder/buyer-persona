@@ -11,7 +11,7 @@ from __future__ import annotations
 import logging
 import re
 import unicodedata
-from datetime import datetime
+from datetime import date, datetime
 from typing import Any
 
 from src.catalog.models_py import category_for
@@ -22,6 +22,27 @@ logger = logging.getLogger(__name__)
 # solo salen de la oferta real de la marca (planilla de acciones), nunca de acá.
 PROMESAS_SIN_RESPALDO = re.compile(r"sin inter[eé]s|\d+\s*(meses|cuotas)|\d+\s*a[nñ]os|mejor precio|garantizad"
                                    r"|entrega inmediata|garant[ií]a extendida", re.I)
+MESES_ES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
+            "septiembre", "octubre", "noviembre", "diciembre"]
+
+
+def periodo_vencido(periodo: str, hoy: date) -> bool:
+    """¿La planilla de acciones (período AAAA-MM) es de un mes anterior al de hoy?"""
+    m = re.fullmatch(r"(\d{4})-(\d{2})", periodo or "")
+    return bool(m) and (int(m.group(1)), int(m.group(2))) < (hoy.year, hoy.month)
+
+
+def mes_de(periodo: str) -> str:
+    """'2026-09' → 'septiembre'; '' si el período no se entiende."""
+    m = re.fullmatch(r"\d{4}-(\d{2})", periodo or "")
+    return MESES_ES[int(m.group(1)) - 1] if m and 1 <= int(m.group(1)) <= 12 else ""
+
+
+def fecha_corta(iso: str | None) -> str:
+    """'2026-09-18' → '18-09'."""
+    return f"{iso[8:10]}-{iso[5:7]}" if iso and len(iso) >= 10 else ""
+
+
 # Urgencia que ninguna planilla respalda: el plazo de una oferta sale de la planilla, no de acá.
 URGENCIA_SIN_RESPALDO = re.compile(r"solo por este mes|hasta fin de mes|termina este mes|[uú]ltimos d[ií]as|oferta especial", re.I)
 # Restos de las plantillas viejas: montos de relleno, marcadores sin completar y superlativos.
@@ -33,6 +54,8 @@ class MarketingContentGenerator:
 
     def __init__(self, config: dict[str, Any] | None = None):
         self.config = config or {}
+        # Contra esta fecha se decide si la oferta de la planilla ya venció (las pruebas la fijan).
+        self.hoy: date = self.config.get("hoy") or date.today()
 
     def generate_all(self, personas: list[dict[str, Any]]) -> dict[str, Any]:
         """
@@ -128,8 +151,6 @@ class MarketingContentGenerator:
     }
     # Búsquedas de posventa o que no son de compra. "manual" no: también es la caja.
     NEGATIVAS = ["repuestos", "repuesto", "taller", "pdf", "alquiler", "empleo", "juguete", "escala"]
-    MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
-             "septiembre", "octubre", "noviembre", "diciembre"]
 
     @staticmethod
     def _primero_que_entra(opciones: list[str], limite: int) -> str | None:
@@ -168,9 +189,12 @@ class MarketingContentGenerator:
         if not pvp and not desc:
             return None
         periodo = ac.get("periodo") or ""
-        mes = ""
-        if re.fullmatch(r"\d{4}-\d{2}", periodo) and 1 <= int(periodo[5:]) <= 12:
-            mes = self.MESES[int(periodo[5:]) - 1]
+        mes = mes_de(periodo)
+        condiciones = [a.strip() for a in ac.get("acciones", []) if a and a.strip() not in ("-", "")]
+        if periodo_vencido(periodo, self.hoy):
+            # Planilla de un mes anterior: se muestra como último dato, nunca como texto listo.
+            return {"periodo": periodo, "mes": mes, "pvp_min": pvp, "descuento_max": desc, "titulos": [],
+                    "descripcion": None, "condiciones": condiciones, "vencida": True}
         titulos = [t for t in ([f"Desde {self._usd(pvp)}"] if pvp else []) +
                    ([f"Hasta {self._usd(desc)} de Descuento"] if desc else [])
                    if len(t) <= self.MAX_TITULO]
@@ -182,10 +206,9 @@ class MarketingContentGenerator:
             opciones = [f"Hasta {self._usd(desc)} de descuento{en_mes}. Consultá condiciones con un asesor."]
         else:
             opciones = [f"Precio de lista desde {self._usd(pvp)}. Pedí tu cotización y consultá formas de pago."]
-        condiciones = [a.strip() for a in ac.get("acciones", []) if a and a.strip() not in ("-", "")]
         return {"periodo": periodo, "mes": mes, "pvp_min": pvp, "descuento_max": desc, "titulos": titulos,
                 "descripcion": self._primero_que_entra(opciones, self.MAX_DESCRIPCION),
-                "condiciones": condiciones}
+                "condiciones": condiciones, "vencida": False}
 
     def _contexto(self, persona: dict[str, Any]) -> dict[str, Any]:
         """Lo que Google Ads, el mail y WhatsApp necesitan saber de una persona."""
@@ -213,6 +236,7 @@ class MarketingContentGenerator:
             "test_drive": test_drive,
             "test_drive_unidades": stock.get("test_drive") if test_drive is not None else None,
             "stock_disponible": stock.get("disponible") if tipo == "model" and stock else None,
+            "stock_fecha": stock.get("fecha") if stock else None,
             "oferta": self._oferta_mes(persona) if tipo == "model" else None,
         }
 
@@ -395,6 +419,7 @@ class MarketingContentGenerator:
             "used": usado,
             "test_drive": c["test_drive"],
             "test_drive_unidades": c["test_drive_unidades"],
+            "stock_fecha": c["stock_fecha"],
         }
         for problema in validar_google_ads(ad):
             logger.warning("Google Ads %s: %s", ad["persona"], problema)
@@ -444,73 +469,120 @@ class MarketingContentGenerator:
     # Meta Ads (Facebook / Instagram)
     # ------------------------------------------------------------------
 
+    MAX_TITULO_META = 40        # título del anuncio
+    MAX_DESCRIPCION_META = 30   # descripción debajo del título
+    MAX_TEXTO_VISIBLE = 125     # lo que se ve antes de «Ver más»
+
     def _gen_meta_ads(self, persona: dict[str, Any]) -> dict[str, Any]:
-        """Genera copys para Meta Ads."""
-        segment = persona.get("segment", {})
-        products = persona.get("top_products", [])
-        categories = persona.get("top_categories", [])
-        pains = persona.get("pains", [])
-        motivations = persona.get("motivations", [])
-        demo = persona.get("demographics", {})
-        channels = persona.get("preferred_channels", [])
+        """Anuncio de Meta para una persona: textos, títulos, botón y público sugerido.
 
-        seg_name = segment.get("name", "vehículos")
-        top_product = products[0] if products else seg_name
-        top_category = categories[0] if categories else seg_name
+        Mismas reglas que Google, el mail y WhatsApp: sale del modelo o la marca y de los
+        temas que repiten sus anuncios, sin tasas, plazos, garantías ni urgencias
+        inventadas; test drive solo si el stock tiene unidad de prueba; la oferta del mes
+        va aparte. Los dolores y motivaciones de la ficha son análisis interno: no se copian.
+        """
+        c = self._contexto(persona)
+        tipo, nombre, marca, corto, usado = c["tipo"], c["nombre"], c["marca"], c["corto"], c["usado"]
+        demo = persona.get("demographics", {}) or {}
+        td = self._invita_test_drive(c)
 
-        gender = demo.get("gender", "")
-        age_range = demo.get("age_range", "")
+        # --- Textos principales ---
+        if tipo == "model" and usado:
+            encabezado = f"{corto} usados certificados"
+            cierre = "Coordiná tu visita y probalo antes de decidir 👇"
+            cortos = [f"{corto} usados certificados en Renew. Coordiná tu visita y probalo antes de decidir 👇",
+                      "Usados certificados en Renew. Coordiná tu visita y probalo antes de decidir 👇"]
+        elif tipo == "model":
+            encabezado = nombre
+            cierre = "Coordiná tu test drive sin compromiso 👇" if td else "Vení a verlo al salón y pedí tu cotización 👇"
+            cortos = [f"{nombre} te espera en el concesionario oficial. " + (
+                          "Probalo antes de decidir: coordiná tu test drive 👇" if td else "Vení a verlo y pedí tu cotización 👇"),
+                      f"{corto} te espera en el concesionario oficial. Pedí tu cotización 👇"]
+        elif usado:
+            encabezado = "Usados certificados Renew"
+            cierre = "Coordiná tu visita y probalo antes de decidir 👇"
+            cortos = ["Usados certificados de varias marcas en Renew. Coordiná tu visita y probalo 👇"]
+        elif tipo == "brand":
+            encabezado = f"Gama {marca}"
+            cierre = "Vení a conocer los modelos al salón 👇"
+            cortos = [f"Toda la gama {marca} en el concesionario oficial. Pedí tu cotización y vení a conocerla 👇",
+                      "Toda la gama en el concesionario oficial. Pedí tu cotización 👇"]
+        else:
+            encabezado = f"{nombre} 0km"
+            cierre = "Vení a conocerlos al salón 👇"
+            cortos = [f"{nombre} 0km de varias marcas en un solo lugar. Compará y pedí tu cotización 👇"]
+        textos = ["\n".join([f"🚗 {encabezado}", *[f"✅ {b}" for b in self._beneficios(c)], "", cierre])]
+        corto_ok = self._primero_que_entra(cortos, self.MAX_TEXTO_VISIBLE)
+        if corto_ok:
+            textos.append(corto_ok)
+        if "Financiación en cuotas" in c["temas"]:
+            textos.append("Planes de financiación y formas de pago a tu medida. "
+                          "Escribinos y te pasamos las opciones 👇 Financiación sujeta a aprobación crediticia.")
 
-        # Primary text (máx ~500 caracteres)
-        pain_text = pains[0] if pains else "Buscás calidad y confianza"
-        motivation_text = motivations[0] if motivations else "Relación calidad-precio"
+        # --- Títulos (hasta 5), descripción y botón ---
+        por_tema = {**self.GOOGLE_POR_TEMA, **(self.GOOGLE_POR_TEMA_USADO if usado else {})}
+        de_temas = [por_tema[t][0] for t in c["temas"] if t in por_tema
+                    and not (c["test_drive"] is False and t == "Probar antes de comprar (test drive)")]
+        if tipo == "model" and usado:
+            candidatos = [[f"{corto} Usados Certificados", f"{corto} Usado"], ["Renew Usados Certificados"],
+                          [f"Cotizá tu {corto} Usado", "Pedí tu Cotización"], ["Probalo Antes de Comprar"]]
+            descripcion = "Usados certificados Renew"
+        elif tipo == "model":
+            candidatos = [[nombre, corto], [f"{nombre} en Paraguay", f"{corto} en Paraguay"], [f"Cotizá tu {corto}"],
+                          ["Agendá tu Test Drive" if td else "Conocelo en el Salón"],
+                          [f"Concesionario Oficial {marca}", "Concesionario Oficial"]]
+            descripcion = "Concesionario oficial"
+        elif usado:
+            candidatos = [["Renew Usados Certificados"], ["Autos Usados Certificados"], ["Probalo Antes de Comprar"]]
+            descripcion = "Usados certificados Renew"
+        elif tipo == "brand":
+            candidatos = [[f"{marca} en Paraguay"], [f"Concesionario Oficial {marca}", "Concesionario Oficial"],
+                          [f"Conocé la Gama {marca}", "Conocé Toda la Gama"], ["Pedí tu Cotización"]]
+            descripcion = "Concesionario oficial"
+        else:
+            candidatos = [[f"{nombre} 0km en Paraguay", f"{nombre} 0km"], ["Varias Marcas en un Lugar"], [f"Encontrá tu {nombre}"]]
+            descripcion = "Varias marcas, un lugar"
+        titulos: list[str] = []
+        for ops in candidatos + [[t] for t in de_temas]:
+            t = self._primero_que_entra(ops, self.MAX_TITULO_META)
+            if t and t.lower() not in {x.lower() for x in titulos}:
+                titulos.append(t)
+        titulos = titulos[:5]
+        canales = str(persona.get("preferred_channels", [])) + str((persona.get("budget") or {}).get("lead_basis", ""))
+        boton = "Enviar mensaje de WhatsApp" if re.search(r"whatsapp|conversaci", canales, re.I) else "Obtener cotización"
+        tarjetas = [{"headline": p[: self.MAX_TITULO_META], "description": "Pedí tu cotización", "cta": boton}
+                    for p in c["productos"]] if len(c["productos"]) >= 2 else []
 
-        primary_text = (
-            f"🚗 ¿Buscás un {top_category.lower()} que realmente valga la pena?\n\n"
-            f"El {top_product} llega con todo:\n"
-            f"✅ Garantía de 5 años\n"
-            f"✅ Financiación a 60 meses\n"
-            f"✅ Test drive GRATIS en tu ciudad\n\n"
-            f"👉 {motivation_text}.\n"
-            f"Reservá tu prueba de manejo hoy.\n\n"
-            f"Escribinos por WhatsApp para más info 👇"
-        )
-
-        # Headline (máx 40 caracteres)
-        headline = f"{top_product} | Test Drive Gratis"
-
-        # Description (máx 30 caracteres)
-        description = "Reservá hoy tu prueba"
-
-        # CTA
-        cta = "Reservar prueba de manejo"
-        if "WhatsApp" in str(channels):
-            cta = "Enviar mensaje de WhatsApp"
-
-        # Carousel cards
-        carousel = []
-        for product in products[:5]:
-            carousel.append({
-                "headline": product[:40],
-                "description": f"Garantía y financiación especial",
-                "cta": "Ver más",
-            })
-
-        return {
+        campana = (f"Meta - {nombre}" if tipo == "model" else f"Meta - Marca {marca}" if tipo == "brand"
+                   else f"Meta - Segmento {nombre}")
+        ad = {
             "persona": persona.get("name", ""),
-            "campaign_name": f"Meta - {top_category} - {persona.get('name', '')}",
+            "tipo": tipo,
+            "used": usado,
+            "campaign_name": campana,
             "targeting": {
-                "age_range": age_range,
-                "gender": gender,
-                "interests": [top_category, top_product.split()[0] if products else ""],
-                "locations": demo.get("location", []),
+                "age_range": demo.get("age_range", ""),
+                "gender": demo.get("gender", ""),
+                "locations": demo.get("location", []) or [],
+                "temas": [t for t in c["temas"] if t][:5],
             },
-            "primary_text": primary_text,
-            "headline": headline,
-            "description": description,
-            "cta": cta,
-            "carousel_cards": carousel,
+            "primary_texts": textos,
+            "primary_text": textos[0],
+            "headlines": titulos,
+            "headline": titulos[0] if titulos else "",
+            "description": descripcion,
+            "cta": boton,
+            "carousel_cards": tarjetas,
+            "test_drive": c["test_drive"],
+            "test_drive_unidades": c["test_drive_unidades"],
+            "stock_disponible": c["stock_disponible"],
+            "stock_fecha": c["stock_fecha"],
+            "offer": c["oferta"],
+            "offer_text": self._oferta_en_texto(c, "meta"),
         }
+        for problema in validar_meta_ads(ad):
+            logger.warning("Meta Ads %s: %s", ad["persona"], problema)
+        return ad
 
     # ------------------------------------------------------------------
     # Email y WhatsApp: lo común
@@ -568,10 +640,14 @@ class MarketingContentGenerator:
     def _oferta_en_texto(self, c: dict[str, Any], canal: str) -> str | None:
         """La oferta del mes redactada para el mail o para WhatsApp (se confirma antes de usar)."""
         of = c.get("oferta")
-        if not of:
+        if not of or of.get("vencida"):
             return None
         pvp, desc = of["pvp_min"], of["descuento_max"]
         cuando = f"En {of['mes']}, " if of["mes"] else ""
+        if canal == "meta":
+            opciones = ([f"Este mes, {c['nombre']} con hasta {self._usd(desc)} de descuento. Consultá condiciones 👇"] if desc else []) + \
+                       ([f"{c['nombre']} desde {self._usd(pvp)} (precio de lista). Pedí tu cotización 👇"] if pvp else [])
+            return self._primero_que_entra(opciones, self.MAX_TEXTO_VISIBLE)
         if canal == "whatsapp":
             if desc:
                 return (f"Este mes {c['nombre']} tiene hasta {self._usd(desc)} de descuento 🎁 "
@@ -666,6 +742,7 @@ class MarketingContentGenerator:
             "test_drive": c["test_drive"],
             "test_drive_unidades": c["test_drive_unidades"],
             "stock_disponible": c["stock_disponible"],
+            "stock_fecha": c["stock_fecha"],
             "offer": c["oferta"],
             "offer_text": self._oferta_en_texto(c, "email"),
         }
@@ -751,6 +828,7 @@ class MarketingContentGenerator:
             "test_drive": c["test_drive"],
             "test_drive_unidades": c["test_drive_unidades"],
             "stock_disponible": c["stock_disponible"],
+            "stock_fecha": c["stock_fecha"],
             "offer": c["oferta"],
             "offer_text": self._oferta_en_texto(c, "whatsapp"),
         }
@@ -805,5 +883,30 @@ def validar_mensajes(msj: dict[str, Any]) -> list[str]:
     problemas += [f"asunto de {len(a)} caracteres: {a}" for a in asuntos
                   if len(a) > MarketingContentGenerator.MAX_ASUNTO]
     if msj.get("test_drive") is False and any("test drive" in t.lower() for t in textos):
+        problemas.append("invita a test drive y el stock no tiene unidad de prueba")
+    return problemas
+
+
+def validar_meta_ads(ad: dict[str, Any]) -> list[str]:
+    """Lo que el aviso de Meta promete sin respaldo o lo que Meta corta. La oferta del mes no cuenta."""
+    g = MarketingContentGenerator
+    textos = ad.get("primary_texts", [])
+    titulos = ad.get("headlines", [])
+    problemas = []
+    if not textos or not titulos:
+        problemas.append("falta texto principal o título")
+    problemas += [f"título de {len(t)} caracteres: {t}" for t in titulos if len(t) > g.MAX_TITULO_META]
+    if len(ad.get("description", "")) > g.MAX_DESCRIPCION_META:
+        problemas.append(f"descripción de {len(ad['description'])} caracteres")
+    if len(textos) > 1 and len(textos[1]) > g.MAX_TEXTO_VISIBLE:
+        problemas.append(f"texto corto de {len(textos[1])} caracteres")
+    fijos = textos + titulos + [ad.get("description", "")] + [x for t in ad.get("carousel_cards", []) for x in t.values()]
+    for patron, que in ((PROMESAS_SIN_RESPALDO, "promesa sin respaldo"), (URGENCIA_SIN_RESPALDO, "urgencia sin respaldo"),
+                        (RESTOS_DE_PLANTILLA, "resto de la plantilla vieja")):
+        for t in fijos:
+            m = patron.search(t or "")
+            if m:
+                problemas.append(f"{que}: «{m.group(0)}»")
+    if ad.get("test_drive") is False and any("test drive" in (t or "").lower() for t in fijos):
         problemas.append("invita a test drive y el stock no tiene unidad de prueba")
     return problemas

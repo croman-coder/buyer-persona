@@ -52,4 +52,4 @@ Sí, podemos evaluar tu usado como parte de pago. Pasame marca, modelo, año y k
 > [!warning] Sale de la planilla de acciones comerciales y del stock del ERP
 > Vence con el mes y puede tener condiciones. No se usa sin confirmarla con la marca.
 
-- Stock disponible hoy (ERP): 10 unidades. «Entrega inmediata» solo si la marca lo confirma.
+- Stock disponible al 18-09 (ERP): 10 unidades. «Entrega inmediata» solo si la marca lo confirma.

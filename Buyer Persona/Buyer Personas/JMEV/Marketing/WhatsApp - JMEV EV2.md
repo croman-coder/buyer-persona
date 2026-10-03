@@ -5,7 +5,7 @@ tags: [marketing, whatsapp]
 ---
 # 💬 WhatsApp - JMEV EV2
 **Persona:** [[JMEV EV2]]
-**Test drive:** hay 1 unidad de prueba en el stock de hoy (ERP).
+**Test drive:** hay 1 unidad de prueba en el stock del 18-09 (ERP).
 
 > [!info] Cuándo usar cada mensaje
 > Bienvenida, seguimiento y respuestas van dentro de las **24 horas** desde el último mensaje del cliente. Fuera de esa ventana, WhatsApp solo deja escribir con una **plantilla aprobada por Meta** (categoría marketing) y a quien aceptó recibir mensajes: esa es la invitación. `{asesor}` y `{nombre}` se completan al enviar. Sin tasas, plazos, garantías ni urgencias: la oferta del mes y el stock van al final, para confirmar antes.
@@ -52,10 +52,9 @@ Te calculamos la cuota según la versión y la forma de pago que prefieras. Para
 Sí, podemos evaluar tu usado como parte de pago. Pasame marca, modelo, año y kilometraje, y te damos una cotización 👍
 ```
 
-## 💲 Oferta del mes y stock: confirmar antes de usar
-> [!warning] Sale de la planilla de acciones comerciales y del stock del ERP
-> Vence con el mes y puede tener condiciones. No se usa sin confirmarla con la marca.
+## 💲 Oferta y stock: la planilla cargada es de septiembre y ya venció
+> [!warning] No usar estos montos en un texto
+> Es el último dato de la planilla de acciones comerciales. Hasta que se cargue la de este mes, confirmar precio y descuento con la marca.
 
-- Mensaje para sumar: `Este mes JMEV EV2 tiene hasta USD 250 de descuento 🎁 (consultá condiciones). ¿Te paso el detalle?`
-- Planilla (2026-09): precio de lista desde USD 11.990 · descuento hasta USD 250
-- Stock disponible hoy (ERP): 3 unidades. «Entrega inmediata» solo si la marca lo confirma.
+- Último dato de la planilla (2026-09): precio de lista desde USD 11.990 · descuento hasta USD 250
+- Stock disponible al 18-09 (ERP): 3 unidades. «Entrega inmediata» solo si la marca lo confirma.

@@ -9,8 +9,8 @@ _2 públicos únicos encontrados en las cuentas de Zeekr. Reusalos para remarket
 
 | Audiencia | Tipo | Tamaño aprox. |
 |---|---|---|
-| Público similar (4%) - MetaAds_Zeekr.csv | Público similar (Lookalike) | 1,000 |
 | MetaAds_Zeekr.csv | Personalizada | 1,000 |
+| Público similar (4%) - MetaAds_Zeekr.csv | Público similar (Lookalike) | N/D |
 
 ## 🔗 Personas de esta marca
 

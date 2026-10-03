@@ -19,8 +19,8 @@ tags: [marketing, google-ads]
 | 3 | Cotizá tu C11 | 13 |
 | 4 | Concesionario Oficial | 21 |
 | 5 | Agendá tu Test Drive | 20 |
-| 6 | Eficiencia en Cada Kilómetro | 28 |
-| 7 | Tecnología y Conectividad | 25 |
+| 6 | Tecnología y Conectividad | 25 |
+| 7 | Eficiencia en Cada Kilómetro | 28 |
 | 8 | Diseño que se Nota | 18 |
 | 9 | C11 0km | 7 |
 | 10 | Versiones y Equipamiento | 24 |
@@ -31,8 +31,8 @@ tags: [marketing, google-ads]
 | # | Descripción | Caract. |
 |---|---|---|
 | 1 | Leapmotor C11: cotizá y agendá tu test drive en el concesionario oficial. | 73 |
-| 2 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
-| 3 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
+| 2 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
+| 3 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
 | 4 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
 
 **URL visible:** `…/C11/Cotizar` (cada tramo, máx. 15 caracteres)
