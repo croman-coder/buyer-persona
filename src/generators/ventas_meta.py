@@ -275,6 +275,11 @@ def cruzar(ventas: list[dict[str, Any]], leads: list[dict[str, Any]], campanas: 
     }
 
 
+def _celda(texto: Any, largo: int = 60) -> str:
+    """Texto para una celda de tabla: los nombres de campaña traen «|» y desarman las columnas."""
+    return str(texto or "—").replace("|", "/")[:largo].strip() or "—"
+
+
 def _n(x: float) -> str:
     return f"{x:,.0f}".replace(",", ".")
 
@@ -332,7 +337,7 @@ def nota(r: dict[str, Any]) -> str:
         for c in r["campanas"][:20]:
             gasto = _n(c["gasto_90d"]) if c.get("gasto_90d") else "—"
             costo = _n(c["costo_por_venta"]) if c.get("costo_por_venta") else "—"
-            L.append(f"| {c['campana'][:60]} | {c['cuenta'][:40] or '—'} | {c['marca_cuenta'] or '—'} | {c['ventas']} | {gasto} | {costo} |")
+            L.append(f"| {_celda(c['campana'])} | {_celda(c['cuenta'], 40)} | {_celda(c['marca_cuenta'])} | {c['ventas']} | {gasto} | {costo} |")
     L += ["", "## Cómo leerlo", "",
           "- **Es un piso, no el total.** Solo cuenta leads de formulario (los chats de WhatsApp no se pueden leer por API), "
           "Meta guarda los leads 90 días y no todas las ventas del ERP traen teléfono o mail.",

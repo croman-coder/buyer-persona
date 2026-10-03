@@ -69,24 +69,24 @@ La gente compara por segmento y precio, no por marca: el lead de una marca termi
 |---|---|---|---|---|---|
 | AON 2025 - LEADS ASU | Jetour | Jetour | 7 | 5.005 | 715 |
 | AON 2025 ASU | GWM Paraguay | GWM | 6 | 5.167 | 861 |
-| Leads JMEV AON 2025 | JMEV  | JMEV | 4 | 561 | 140 |
+| Leads JMEV AON 2025 | JMEV | JMEV | 4 | 561 | 140 |
 | AON 2025 - LEADS CDE | Jetour | Jetour | 3 | 1.558 | 519 |
 | JETOUR SEPTIEMBRE 2026 | KATHERINE VERA JETOUR | Jetour | 3 | 390 | 130 |
 | NOVIEMBRE RODRIGO | RODRIGO DUARTE JETOUR | Jetour | 3 | 323 | 108 |
-| Campaña Formularios / Agosto / RR | JOSE DOMECQ | GWM | GWM | 3 | 150 | 50 |
-| Mitsubishi AO | ASU | Mitsubishi Paraguay | Mitsubishi | 3 | 4.697 | 1.566 |
+| Campaña Formularios / Agosto / RR | JOSE DOMECQ / GWM | GWM | 3 | 150 | 50 |
+| Mitsubishi AO / ASU | Mitsubishi Paraguay | Mitsubishi | 3 | 4.697 | 1.566 |
 | JETOUR JULIO 2026 | KATHERINE VERA JETOUR | Jetour | 2 | 173 | 86 |
-| SOUEAST AO | RMK | Soueast Paraguay | Soueast | 2 | 1.209 | 604 |
+| SOUEAST AO / RMK | Soueast Paraguay | Soueast | 2 | 1.209 | 604 |
 | JETOUR  AGOSTO 2026 | FERNANDO GONZALEZ JETOUR | Jetour | 1 | 182 | 182 |
 | CAMPAÑA AGOSTO 26 | MATIAS FLORENTIN SOUEAST | Soueast | 1 | 100 | 100 |
-| ZEEKR AON ASU 2026 LEADS | Zeekr Paraguay  | Zeekr | 1 | 2.048 | 2.048 |
+| ZEEKR AON ASU 2026 LEADS | Zeekr Paraguay | Zeekr | 1 | 2.048 | 2.048 |
 | Leasing MMC | Mitsubishi Paraguay | Mitsubishi | 1 | 82 | 82 |
 | DIEGO 2026 | DIEGO CARRAPATEIRA JETOUR | Jetour | 1 | 312 | 312 |
-| AON DENISE | DENISE ALONSO | GWM | GWM | 1 | 248 | 248 |
-| JETOUR X70-JULIO-2026 | LUIS ORTIZ | JETOUR | Jetour | 1 | 100 | 100 |
-| SOUEAST AO | CDE | Soueast Paraguay | Soueast | 1 | 1.879 | 1.879 |
-| leads|Nuevos modelos PHEV|cde | Soueast Paraguay | Soueast | 1 | 1.083 | 1.083 |
-| 1.✅ 🔥 HAVAL JOLION PRO / GWM DRIVE PY / Clientes potenciales | JOSE DOMECQ | GWM | GWM | 1 | 94 | 94 |
+| AON DENISE | DENISE ALONSO / GWM | GWM | 1 | 248 | 248 |
+| JETOUR X70-JULIO-2026 | LUIS ORTIZ / JETOUR | Jetour | 1 | 100 | 100 |
+| SOUEAST AO / CDE | Soueast Paraguay | Soueast | 1 | 1.879 | 1.879 |
+| leads/Nuevos modelos PHEV/cde | Soueast Paraguay | Soueast | 1 | 1.083 | 1.083 |
+| 1.✅ 🔥 HAVAL JOLION PRO / GWM DRIVE PY / Clientes potenciales | JOSE DOMECQ / GWM | GWM | 1 | 94 | 94 |
 
 ## Cómo leerlo
 
