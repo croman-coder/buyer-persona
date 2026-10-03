@@ -65,6 +65,6 @@ venv/bin/python3 tests/test_google_ads.py && venv/bin/python3 tests/test_email_w
 
 ## Copia en GitHub
 
-Este repo es una **copia filtrada** del repo del servidor (`srpy-servidor:/home/santarosa/git/buyer-persona.git`, que sigue siendo la fuente): no incluye `Buyer Persona/Seguridad/` (hallazgos, puertos e inventario de los servidores) ni `.github/workflows/` (el pipeline corre en el servidor, no en GitHub Actions) y cada exportación revisa que no viaje ningún secreto (`scripts/publicar_github.sh`). **No editar acá:** la próxima exportación pisa los cambios.
+Este repo es una **copia filtrada** del repo del servidor (`srpy-servidor:/home/santarosa/git/buyer-persona.git`, que sigue siendo la fuente): no incluye `Buyer Persona/Seguridad/` (hallazgos, puertos e inventario de los servidores) ni `.github/workflows/` (el pipeline corre en el servidor, no en GitHub Actions) y cada exportación revisa que no viaje ningún secreto (`scripts/publicar_github.sh`). Se exporta **todos los días a las 08:10** desde la notebook (tarea de Hermes `github-export`, script `~/.hermes/scripts/publicar-github.sh`), después de que llega la corrida de las 06:00 del servidor; si no hubo cambios, no sube nada. **No editar acá:** la próxima exportación pisa los cambios.
 
 Mantiene [Carlos Roman (Croman)](https://github.com/croman-coder), Innovación, Santa Rosa Paraguay S.A.
