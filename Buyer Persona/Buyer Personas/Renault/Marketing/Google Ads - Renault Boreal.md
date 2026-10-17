@@ -20,8 +20,8 @@ tags: [marketing, google-ads]
 | 4 | Concesionario Oficial Renault | 29 |
 | 5 | Agendá tu Test Drive | 20 |
 | 6 | Tecnología y Conectividad | 25 |
-| 7 | Financiación a tu Medida | 24 |
-| 8 | Diseño que se Nota | 18 |
+| 7 | Seguridad en Cada Viaje | 23 |
+| 8 | Financiación a tu Medida | 24 |
 | 9 | Boreal 0km | 10 |
 | 10 | Versiones y Equipamiento | 24 |
 | 11 | Hablá con un Asesor | 19 |
@@ -32,8 +32,8 @@ tags: [marketing, google-ads]
 |---|---|---|
 | 1 | Renault Boreal: cotizá y agendá tu test drive en el concesionario oficial. | 74 |
 | 2 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
-| 3 | Consultá planes de financiación y formas de pago con un asesor. | 63 |
-| 4 | Probalo antes de decidir: coordiná tu test drive en el día y horario que prefieras. | 83 |
+| 3 | Seguridad y asistencias a la conducción para cuidar a los que viajan con vos. | 77 |
+| 4 | Consultá planes de financiación y formas de pago con un asesor. | 63 |
 
 **URL visible:** `…/Boreal/Cotizar` (cada tramo, máx. 15 caracteres)
 

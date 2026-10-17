@@ -1,18 +1,14 @@
 ---
 estado: activo
-firma: 4f0e85db6d27ff9fff2dfd694c655908860f1d1327c323ea10392a19b8e933cd
+firma: 26dc6665486ba936f1b2121237760a68bb83cddeb0674595bb6358cf6080dd0f
 git_rama: main
 git_remoto: https://github.com/croman-coder/jmev-paraguay.git
 git_sin_subir: 0
-git_ultimo_commit: '2026-09-25 888bcd4 analytics: eventos generate_lead y click_whatsapp
-  a GA4'
+git_ultimo_commit: '2026-10-06 d58852e feat(zonas): el formulario y el aviso de WhatsApp
+  ofrecen Asunción, Ciudad del Este y Otras zonas'
 hijos: []
 nombre: JMEV WEB
-resumen: Sitio oficial de JMEV Paraguay (movilidad 100% eléctrica) con home, páginas
-  de modelos dinámicas, contacto, sitemap y JSON-LD, construido con Next.js 16 + React
-  19 + Tailwind v4 + framer-motion y desplegado en Vercel. Activo y al día con el
-  remoto; el último commit fue una mejora de SEO (imágenes, schema, metadatos y copy
-  de la gama).
+resumen: null
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/ASSET WEB SRPY/JMEV WEB
 slug: asset-web-srpy-jmev-web
@@ -20,7 +16,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-09-25'
+ultima_actividad: '2026-10-06'
 ---
 
 <!-- hermes:inicio -->
@@ -29,10 +25,10 @@ ultima_actividad: '2026-09-25'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-09-25 |
+| Última actividad | 2026-10-06 |
 | Stack | git, node |
 | Rama | main |
-| Último commit | 2026-09-25 888bcd4 analytics: eventos generate_lead y click_whatsapp a GA4 |
+| Último commit | 2026-10-06 d58852e feat(zonas): el formulario y el aviso de WhatsApp ofrecen Asunción, Ciudad del Este y Otras zonas |
 | Sin subir | 0 |
 | Ruta | `/home/croman/Escritorio/ASSET WEB SRPY/JMEV WEB` |
 <!-- hermes:fin -->

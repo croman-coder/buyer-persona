@@ -200,7 +200,7 @@ def temas_top(temas, k=6):
 def pie(izq, der):
     return f'<div class="foot"><span>{izq}</span><span>{der}</span></div>'
 
-FUENTE = (f"Edad y género: quién hace clic en los anuncios de Meta ({fecha(VM['start'])} → {fecha(VM['end'])}), no quién firmó la compra · "
+FUENTE = (f"Edad y género: quienes contactan por los anuncios de Meta ({fecha(VM['start'])} → {fecha(VM['end'])}), no quién firmó la compra · "
           "ventas: ERP hasta 11-09")
 
 # ------------------------------------------------------------------ 1. marca
@@ -216,7 +216,7 @@ def lamina_marca(M, titulo, destacado, nota):
 <div class="grid" style="grid-template-columns:1.05fr 1fr 1fr">
   <div class="col">
     <h2>Quién es</h2>
-    <div class="big">Hombre · {pct(M['hombre'])}<small>de los clics</small></div>
+    <div class="big">Hombre · {pct(M['hombre'])}<small>de los contactos</small></div>
     <div class="sub">Edad más frecuente <b>{M['edad']}</b> ({pct(M['edad_pct'])}) · {n(M['clics'])} clics medidos</div>
     <div style="margin-top:16px">{edades(M['edades'], M['edad'])}</div>
     <div class="nota">Leads por ciudad: {ciudades}.</div>

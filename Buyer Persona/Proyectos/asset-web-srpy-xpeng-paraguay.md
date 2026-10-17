@@ -1,15 +1,14 @@
 ---
 estado: activo
-firma: fdd4be81ede6405913e77e339a28c932d7c1e764283a6b703c534e964b14c58e
+firma: ce9a6c78b0581b276b11491c71e6b37c43478bb6da48b41285b2f3e0542b83fb
 git_rama: main
 git_remoto: https://github.com/croman-coder/xpeng-paraguay.git
 git_sin_subir: 0
-git_ultimo_commit: '2026-09-25 da12364 analytics: evento click_whatsapp a GA4'
+git_ultimo_commit: '2026-10-07 cff51a4 SEO: el sitemap deja solo páginas reales (sin
+  las URLs con #fragmento)'
 hijos: []
 nombre: xpeng-paraguay
-resumen: Landing page de preventa del XPENG G9 en Paraguay, hecha en HTML/CSS/JS vanilla
-  sin framework ni build step, con despliegue estático en Vercel. Dormido desde junio
-  2026, sin commits pendientes y con todo subido al remoto.
+resumen: null
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/ASSET WEB SRPY/xpeng-paraguay
 slug: asset-web-srpy-xpeng-paraguay
@@ -18,7 +17,7 @@ stack:
 - node
 - web
 tipo: proyecto
-ultima_actividad: '2026-09-25'
+ultima_actividad: '2026-10-07'
 ---
 
 <!-- hermes:inicio -->
@@ -27,10 +26,10 @@ ultima_actividad: '2026-09-25'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-09-25 |
+| Última actividad | 2026-10-07 |
 | Stack | git, node, web |
 | Rama | main |
-| Último commit | 2026-09-25 da12364 analytics: evento click_whatsapp a GA4 |
+| Último commit | 2026-10-07 cff51a4 SEO: el sitemap deja solo páginas reales (sin las URLs con #fragmento) |
 | Sin subir | 0 |
 | Ruta | `/home/croman/Escritorio/ASSET WEB SRPY/xpeng-paraguay` |
 <!-- hermes:fin -->

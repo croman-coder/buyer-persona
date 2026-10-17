@@ -19,22 +19,21 @@ tags: [marketing, google-ads]
 | 3 | Cotizá tu Montero Sport | 23 |
 | 4 | Concesionario Oficial | 21 |
 | 5 | Agendá tu Test Drive | 20 |
-| 6 | Financiación a tu Medida | 24 |
-| 7 | Respaldo de Posventa Oficial | 28 |
-| 8 | Diseño que se Nota | 18 |
-| 9 | Seguridad en Cada Viaje | 23 |
-| 10 | Montero Sport 0km | 17 |
-| 11 | Versiones y Equipamiento | 24 |
-| 12 | Hablá con un Asesor | 19 |
-| 13 | Pedí tu Cotización Hoy | 22 |
+| 6 | Respaldo de Posventa Oficial | 28 |
+| 7 | Financiación a tu Medida | 24 |
+| 8 | Tecnología y Conectividad | 25 |
+| 9 | Montero Sport 0km | 17 |
+| 10 | Versiones y Equipamiento | 24 |
+| 11 | Hablá con un Asesor | 19 |
+| 12 | Pedí tu Cotización Hoy | 22 |
 
 ## Descripciones (hasta 4 · máx. 90 caracteres)
 | # | Descripción | Caract. |
 |---|---|---|
 | 1 | Mitsubishi Montero Sport: cotizá y agendá tu test drive en el concesionario oficial. | 84 |
-| 2 | Consultá planes de financiación y formas de pago con un asesor. | 63 |
-| 3 | Service oficial y repuestos originales, con el respaldo de la marca. | 68 |
-| 4 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
+| 2 | Service oficial y repuestos originales, con el respaldo de la marca. | 68 |
+| 3 | Consultá planes de financiación y formas de pago con un asesor. | 63 |
+| 4 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
 
 **URL visible:** `…/Montero-Sport/Cotizar` (cada tramo, máx. 15 caracteres)
 

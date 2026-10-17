@@ -1,17 +1,14 @@
 ---
 estado: activo
-firma: 199ab7f44a3877c23638a3a69422aff4e195ce6faa96a8cb570bf7900d3c2654
+firma: 79cf91c4cecb25ddb2a29f6300d8eacf14fb4fe690a143b72bda09c8a1e4aab1
 git_rama: main
 git_remoto: https://github.com/croman-coder/jetour-paraguay.git
 git_sin_subir: 0
-git_ultimo_commit: '2026-09-25 7bdbf67 analytics: eventos generate_lead y click_whatsapp
-  a GA4'
+git_ultimo_commit: '2026-10-07 50b1088 SEO: las páginas del sitio anterior (WordPress)
+  que daban 404 redirigen a su equivalente'
 hijos: []
 nombre: jetour-paraguay
-resumen: Sitio web oficial de Jetour Paraguay (concesionaria Santa Rosa) construido
-  con Next.js + TypeScript + Tailwind, con especificación de marca extraída del guideline
-  oficial 2025. Activo y desplegado en Vercel, con todo subido al remoto; el último
-  commit optimizó el hero video para mobile y corrigió un ghost button.
+resumen: null
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/ASSET WEB SRPY/jetour-paraguay
 slug: asset-web-srpy-jetour-paraguay
@@ -19,7 +16,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-09-25'
+ultima_actividad: '2026-10-07'
 ---
 
 <!-- hermes:inicio -->
@@ -28,10 +25,10 @@ ultima_actividad: '2026-09-25'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-09-25 |
+| Última actividad | 2026-10-07 |
 | Stack | git, node |
 | Rama | main |
-| Último commit | 2026-09-25 7bdbf67 analytics: eventos generate_lead y click_whatsapp a GA4 |
+| Último commit | 2026-10-07 50b1088 SEO: las páginas del sitio anterior (WordPress) que daban 404 redirigen a su equivalente |
 | Sin subir | 0 |
 | Ruta | `/home/croman/Escritorio/ASSET WEB SRPY/jetour-paraguay` |
 <!-- hermes:fin -->

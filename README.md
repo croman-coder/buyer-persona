@@ -1,6 +1,6 @@
 # 🧠 Buyer Persona 360 — Santa Rosa Automotores
 
-Sistema que lee **Meta Ads** (85 cuentas), el **ERP de ventas**, **Bitrix24** (solo agregados) y los precios de mercado, y cada mañana regenera en un vault de **Obsidian** las fichas de quién compra cada modelo y marca (≈97 fichas), con los textos de Meta Ads, Google Ads, Email y WhatsApp de cada una, las notas «👥 Quién mira y quién decide» y las notas de campañas.
+Sistema que lee **Meta Ads** (85 cuentas), el **ERP de ventas**, **Bitrix24** (solo agregados) y los precios de mercado, y cada mañana regenera en un vault de **Obsidian** las fichas de quién compra cada modelo y marca (≈97 fichas), con los textos de Meta Ads, Google Ads, Email y WhatsApp de cada una, las notas «👥 Quién mira y quién decide», «🎬 Materiales que funcionan» (qué formato, ubicación y duración de video rinden en cada marca, con 6 meses de anuncios) y las notas de campañas.
 
 > **Para quien va a pautar:** empezá por el **Manual**, sección 4: [`Buyer Persona/Sistema/📘 Manual Buyer Persona.md`](<Buyer Persona/Sistema/📘 Manual Buyer Persona.md>). Explica qué plataforma usar para qué, cuándo juzgar una campaña y cómo leer cada ficha.
 

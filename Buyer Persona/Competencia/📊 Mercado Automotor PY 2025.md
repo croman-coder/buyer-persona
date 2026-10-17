@@ -6,7 +6,7 @@ unidades_mercado: 78840
 unidades_santa_rosa: 4360
 share_santa_rosa: 5.5
 marcas_en_el_mercado: 74
-actualizado: 2026-09-28
+actualizado: 2026-10-12
 tags: [mercado, cadam, matriculaciones, share]
 ---
 
@@ -95,6 +95,6 @@ Las marcas propias van marcadas.
 > [!danger] Uso interno
 > Por ley de Paraguay no se puede hacer publicidad comparativa nombrando marcas o modelos de la competencia. Estos datos sirven para decidir pauta, producto y precio — nunca para un copy público.
 
-*Generado el 2026-09-28 desde advisor.santarosa.lat*
+*Generado el 2026-10-12 desde advisor.santarosa.lat*
 
 <!-- hermes:fin -->

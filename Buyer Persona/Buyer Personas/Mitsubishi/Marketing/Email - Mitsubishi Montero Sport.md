@@ -22,9 +22,9 @@ Hola {nombre}:
 
 Gracias por tu interés en Mitsubishi Montero Sport. Esto es lo que más nos consultan:
 
-• Financiación: planes y formas de pago a tu medida.
 • Posventa oficial: service y repuestos originales de la marca.
-• Un diseño que se nota en cada detalle.
+• Financiación: planes y formas de pago a tu medida.
+• Tecnología y conectividad para el día a día, según la versión.
 
 Lo mejor es probarlo: coordiná tu test drive el día y horario que prefieras, sin compromiso.
 

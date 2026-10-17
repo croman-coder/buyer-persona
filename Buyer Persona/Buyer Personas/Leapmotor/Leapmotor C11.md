@@ -7,7 +7,7 @@ gender: Masculino
 locations:
 - Asunción
 - San Lorenzo
-created: '2026-10-03'
+created: '2026-10-17'
 tags:
 - buyer-persona
 - marketing
@@ -20,25 +20,25 @@ tags:
 # Leapmotor C11
 
 > [!note]- Cómo leer esta ficha
-> **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (clics por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-05 → 2026-10-03 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
-> **Edad y género son de quién hace clic en los anuncios**, no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
+> **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
+> **Ventanas de cada fuente:** Meta 2026-07-19 → 2026-10-17 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
 > Glosario y detalle de cada bloque: [[📘 Manual Buyer Persona]], sección 3.
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 35-44 (25.8% de los clics) · heredado de la marca
-- **Género predominante:** Masculino (76.5%)
+- **Edad:** 35-44 (25.1% de los contactos) · heredado de la marca
+- **Género predominante:** Masculino (78.3%)
 - **Ubicación:** Asunción, San Lorenzo
-- **Período leído:** Meta 2026-07-05 → 2026-10-03 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-19 → 2026-10-17 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Leapmotor C11`
 - **Marca:** [[Comprador Leapmotor|Leapmotor]]
 - **Tipo de vehículo:** Eléctrico
 - **Ventas reales (ERP):** 8 unidades desde 2018
 - **Pauta real (90 días):** 43 anuncios (19 activos)
-- **Brecha pauta/venta:** sobre-pautado 🔴 revisar — 0.0% de las ventas de la marca (12 meses) vs 19.9% de sus anuncios (ERP hasta 2026-09-11)
+- **Brecha pauta/venta:** sobre-pautado 🔴 revisar — 0.0% de las ventas de la marca (12 meses) vs 19.8% de sus anuncios (ERP hasta 2026-09-11)
   _Cómo se decide: **sub-pautado** si el modelo pone ≥5 % de las ventas de la marca y tiene menos de la mitad de anuncios que de ventas (escalar); **sobre-pautado** si pone ≥5 % de los anuncios y vende menos de la mitad de eso (revisar); **equilibrado** si no pasa ninguna de las dos._
 - **Ticket promedio (ERP, facturado):** USD 37,056
 
@@ -51,13 +51,13 @@ tags:
 
 ## 👤 Demografía
 
-_Qué es: quién hace clic en los anuncios de este público, por edad y género. De dónde sale: Meta, desglose por anuncio, ponderado por clics. No es quién compró: eso el ERP no lo registra._
+_Qué es: quién contacta por los anuncios de este público (deja sus datos o escribe), por edad y género. De dónde sale: Meta, desglose por anuncio, ponderado por contactos; con pocos contactos, por clics, y la ficha lo avisa. No es quién compró: eso el ERP no lo registra._
 
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción, San Lorenzo
-- **Fuente edad/género:** audiencia de Meta de la marca **Leapmotor** (26,147 clics), ponderado por clics — Masculino 76.5%
-- **Distribución de edad (Meta):** 35-44: 25.8%, 45-54: 21.7%, 65+: 19.7%, 55-64: 15.9%, 25-34: 15.0%, 18-24: 1.8%
+- **Fuente edad/género:** audiencia de Meta de la marca **Leapmotor** (3,245 contactos), ponderado por contactos (formularios y chats) — Masculino 78.3%
+- **Distribución de edad (Meta):** 35-44: 25.1%, 45-54: 24.4%, 55-64: 17.9%, 65+: 17.4%, 25-34: 13.3%, 18-24: 1.9%
 - ⚠️ Perfil heredado de la marca: el desglose edad/género por anuncio no estaba disponible en esta corrida (se atribuye por modelo desde el 2026-09-18).
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
@@ -82,8 +82,7 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **NSE estimado:** C (medio)
 - **Señales que se usaron:**
   - ticket promedio USD 37,056 (gama media-alta)
-  - 100% pide financiación en el formulario (1 respuestas)
-  - 17.2% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 16.8% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción, San Lorenzo
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -135,29 +134,28 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > **Mensaje clave:** Enfoca la comunicación en 'Leapmotor C11'.
 > **Canales:** Prioriza Showroom.
-> **Formato:** Reels/Stories (video vertical corto) concentra el 73.7% de las impresiones reales — priorizá ese formato en las piezas nuevas.
-> **Públicos hoy:** 92.5% de los adsets activos van a público frío; 3 de 40 adsets usan base propia (3 lookalike).
+> **Formato:** Para la próxima pauta de formularios: **imagen (gráfica)**, que trajo el lead más barato en campañas comparables y se repitió mes a mes. En el mismo conjunto, sumar el video para seguir comparando. Detalle: [[🎬 Materiales que funcionan — Leapmotor]].
+> **Públicos hoy:** 90.5% de los adsets activos van a público frío; 4 de 42 adsets usan base propia (4 lookalike).
 > **Presupuesto:** sin ventas en el ERP para este modelo.
 > 
-> **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
+> **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
 
 > [!quote] 📥 Leads reales del formulario de Meta — Leapmotor (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 1,273
+> **Total de leads de la marca en la ventana:** 1,257
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
-> **Modelos más pedidos (toda la marca):** T03 (75), C10 Reev (69)
-> **Método de pago preferido:** el precio y financiado (1)
-> **Ciudad:** Asunción (256), Luque (55), San Lorenzo (47)
+> **Modelos más pedidos (toda la marca):** T03 (94), C10 Reev (73)
+> **Ciudad:** Asunción (310), Luque (68), San Lorenzo (61)
 > **Interés de compra:** soy Paraguaya 78año soy sincera (1)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Leapmotor (90 días)
 
-> **Leads:** 1,152 → **convertidos:** 0 (0.0%)
-> **Por canal:** Meta madre 1,113, Meta asesores 39
-> **Deals:** 2 — ganados 0, perdidos 0, en proceso 2 (win rate 0.0%)
+> **Leads:** 1,385 → **convertidos:** 0 (0.0%)
+> **Por canal:** Meta madre 1,380, Meta asesores 5
+> **Deals:** 3 — ganados 0, perdidos 0, en proceso 3 (win rate 0.0%)
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
 
@@ -179,7 +177,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-03 12:34*
+*Generado el 2026-10-17 06:44*
 
 ## 🔗 Contenido Relacionado
 

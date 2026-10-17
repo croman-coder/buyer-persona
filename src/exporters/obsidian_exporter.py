@@ -38,6 +38,7 @@ class ObsidianExporter:
         # marca -> personas de sus modelos (para linkear en ambos sentidos)
         self._brand_persona_names: dict[str, str] = {}
         self._models_by_brand: dict[str, list[str]] = {}
+        self._personas_by_name: dict[str, dict[str, Any]] = {}   # nombre de la persona -> persona (para tablas por modelo)
         # True cuando el histórico de ventas sigue siendo el CSV de ejemplo
         self.sales_is_sample = bool(config.get("sales_is_sample", False))
         self.output_dir = Path(config.get("output_dir", "output/personas"))
@@ -48,6 +49,10 @@ class ObsidianExporter:
         # Centro de compra (quién mira / quién decide): lo carga main antes de
         # export_all para que fichas e índices lo muestren
         self.centro: dict[str, Any] = {}
+        # Compradores reales de Bitrix (ganados + Facturación) con lead de Meta: los carga main (paso 5e)
+        self.compradores: dict[str, Any] = {}
+        # Materiales de Meta (formato, ubicación, duración): también lo carga main
+        self.materiales: dict[str, Any] = {}
 
     # Nota del centro de compra de cada marca (vive en la carpeta de la marca,
     # así la ve el usuario de esa marca en el cerebro)
@@ -57,6 +62,10 @@ class ObsidianExporter:
     @classmethod
     def centro_nota(cls, brand: str) -> str:
         return f"{cls.CENTRO_PREFIJO}{cls._sanitize_filename(brand)}"
+
+    # Qué materiales funcionan en Meta (en la carpeta de la marca) y la comparación (en Sistema/)
+    MATERIALES_PREFIJO = "🎬 Materiales que funcionan — "
+    MATERIALES_HUB = "🎬 Materiales Meta — todas las marcas"
 
     def export_all(self, personas: list[dict[str, Any]]) -> list[Path]:
         """
@@ -74,6 +83,7 @@ class ObsidianExporter:
             if p.get("segment", {}).get("type") == "brand" and p["segment"].get("name")
         }
         self._models_by_brand = {}
+        self._personas_by_name = {p.get("name", ""): p for p in personas}
         for p in personas:
             seg = p.get("segment", {})
             if seg.get("type") == "model" and seg.get("brand"):
@@ -177,6 +187,16 @@ class ObsidianExporter:
 
         # Demografía
         sections.append(self._render_demographics(persona))
+
+        # Quién compró de verdad (Bitrix: ganados + Facturación), solo en la ficha de la marca
+        bloque = self._render_compradores(persona)
+        if bloque:
+            sections.append(bloque)
+
+        # Para eventos y presencia de marca (pedido de un brand de Mitsubishi, 16-10-2026), solo en la ficha de la marca
+        bloque = self._render_eventos(persona)
+        if bloque:
+            sections.append(bloque)
 
         # Intereses
         sections.append(self._render_interests(persona))
@@ -340,6 +360,38 @@ class ObsidianExporter:
                 if vieja.name not in vivas:
                     vieja.unlink()
         logger.info("Centro de compra: %d notas de marca", len(files))
+        return files
+
+    def export_materiales(self, personas: list[dict[str, Any]]) -> list[Path]:
+        """Una nota por marca con los materiales que funcionan, y la comparación entre marcas en Sistema/."""
+        if not self.materiales:
+            return []
+        from src.generators.materiales_meta import nota_hub, nota_marca
+        marcas_persona = self._brands_of(personas)
+        files: list[Path] = []
+        for marca, m in (self.materiales.get("marcas") or {}).items():
+            if marca not in marcas_persona:
+                continue
+            nombre = self._sanitize_filename(marca)
+            path = self.output_dir / nombre / f"{self.MATERIALES_PREFIJO}{nombre}.md"
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(nota_marca(nombre, m, self.materiales), encoding="utf-8")
+            files.append(path)
+        vivas = {p.name for p in files}
+        for vieja in self.output_dir.glob(f"*/{self.MATERIALES_PREFIJO}*.md"):
+            if vieja.name not in vivas:
+                vieja.unlink()
+        vault = self.config.get("obsidian_vault", "")
+        if vault:
+            self._copy_to_vault(files, Path(vault))
+            for vieja in (Path(vault) / "Buyer Personas").glob(f"*/{self.MATERIALES_PREFIJO}*.md"):
+                if vieja.name not in vivas:
+                    vieja.unlink()
+            hub = Path(vault) / "Sistema" / f"{self.MATERIALES_HUB}.md"
+            hub.parent.mkdir(parents=True, exist_ok=True)
+            hub.write_text(nota_hub(self.materiales, {self._sanitize_filename(m) for m in marcas_persona}),
+                           encoding="utf-8")
+        logger.info("Materiales Meta: %d notas de marca", len(files))
         return files
 
     def _render_centro_marca(self, marca: str, m: dict[str, Any]) -> str:
@@ -611,11 +663,11 @@ class ObsidianExporter:
         return "\n".join([
             "> [!note]- Cómo leer esta ficha",
             f"> **Qué es:** el retrato de quién mira y quién compra {quien}, armado solo con datos propios: "
-            "los anuncios de Meta (clics por edad y género, temas, respuestas de formulario), las ventas del ERP "
+            "los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP "
             "y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.",
             f"> **Ventanas de cada fuente:** {cortes_txt}. Si dos números no coinciden, casi siempre es porque vienen "
             "de fuentes con cortes distintos; cada bloque dice de cuál sale.",
-            "> **Edad y género son de quién hace clic en los anuncios**, no de quién firmó la compra: el ERP no guarda "
+            "> **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda "
             "edad ni género. Ubicación en el ERP = sucursal donde se vendió.",
             "> **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato "
             "declarado por el cliente.",
@@ -624,6 +676,88 @@ class ObsidianExporter:
             "> Glosario y detalle de cada bloque: [[📘 Manual Buyer Persona]], sección 3.",
             "",
         ]) + "\n"
+
+    def _render_eventos(self, persona: dict[str, Any]) -> str:
+        """
+        Para eventos y presencia de marca: dónde están los leads (ciudad), quién es por modelo y qué NO sabemos todavía.
+        Pedido de un brand de Mitsubishi (16-10-2026): saber qué les gusta (deporte, música, comunidad) para mapear la marca.
+        Eso Meta ya no lo entrega y ningún formulario lo pregunta: se dice con claridad, sin inventarlo.
+        """
+        seg = persona.get("segment") or {}
+        leads = persona.get("real_leads") or {}
+        ciudades = leads.get("city") or {}
+        total = int(leads.get("total_leads") or 0)
+        if seg.get("type") != "brand" or not ciudades or not total:
+            return ""
+        marca = str(seg.get("name", ""))
+        L = ["## 🎪 Para eventos y presencia de marca", "",
+             "_Qué es: lo que sirve para decidir dónde y para quién hacer un evento. De dónde sale: las respuestas de los formularios "
+             "de Meta y la demografía de quienes contactan por los anuncios._", "",
+             f"**Dónde están los leads** (ciudad que dijeron en el formulario; sobre {total:,} leads):", ""]
+        L += [f"- **{c}** {n:,} ({100 * n / total:.0f} %)" for c, n in list(ciudades.items())[:6]]
+        modelos = [self._personas_by_name.get(n) for n in self._models_by_brand.get(marca, [])]
+        filas = []
+        for m in modelos:
+            if not m:
+                continue
+            d, meta, tm = m.get("demographics") or {}, (m.get("demographics") or {}).get("meta") or {}, (m.get("real_leads") or {}).get("this_model") or {}
+            if not d.get("age_range"):
+                continue
+            nivel = "propio" if d.get("meta_level") == "modelo" else "perfil de la marca"
+            filas.append((tm.get("count") or 0, m.get("name", ""), tm.get("pct") or 0, d.get("age_range"), d.get("gender", ""),
+                          meta.get("gender_share") or 0, nivel))
+        if filas:
+            L += ["", "**Quién es, por modelo** (edad y género de quienes contactan por sus anuncios):", "",
+                  "| Modelo | Leads que lo piden | Edad | Género | Perfil |", "|---|---|---|---|---|"]
+            for n, nombre, pct, edad, gen, share, nivel in sorted(filas, key=lambda f: -f[0]):
+                L.append(f"| {nombre} | {n:,} ({pct:.0f} %) | {edad} | {gen} {share:.0f} % | {nivel} |")
+        temas = ((persona.get("observed_interests") or {}).get("temas")) or []
+        if temas:
+            L += ["", "**Qué les habla** (los temas de los anuncios que ven y con los que interactúan; son lo que les decimos, no lo que les gusta): "
+                  + ", ".join(f"{x['tema'].lower()} ({x['pct']:.0f} %)" for x in temas[:4]) + "."]
+        L += ["", "**Qué les gusta (deporte, música, comunidad): hoy no se mide.** Meta dejó de entregar los intereses declarados de una "
+              "audiencia en 2021, el ERP no los registra y los formularios no los preguntan. Para tenerlo hace falta **preguntarlo**: "
+              "una pregunta de opciones en un formulario nuevo de los anuncios (se coordina con la agencia de la marca y se crea en pausa) "
+              "o en una encuesta a clientes. Mientras tanto, conviene cruzar la agenda de eventos de la marca con las ciudades de arriba."]
+        if marca == "Mitsubishi":
+            L += ["", "**Para Mitsubishi el formulario ya está creado, en pausa:** [[🧪 Formulario de intereses — Mitsubishi 2026-10]]. "
+                  "Cuando se active y llegue a los anuncios, acá van a aparecer los gustos de verdad."]
+        L += [""]
+        return "\n".join(L)
+
+    def _render_compradores(self, persona: dict[str, Any]) -> str:
+        """Quién compró de verdad: negocios de Bitrix (ganados + Facturación) que vinieron de un lead de Meta."""
+        seg = persona.get("segment") or {}
+        if seg.get("type") != "brand" or not self.compradores:
+            return ""
+        b = (self.compradores.get("marcas") or {}).get(str(seg.get("name", "")).strip().upper())
+        if not b:
+            return ""
+        from src.generators import compradores_bitrix as CB
+        t = self.compradores.get("total") or {}
+        minimo = self.compradores.get("min_perfil", CB.MIN_COMPRADORES_PERFIL)
+        L = ["## 🧾 Quién compró de verdad (Bitrix: ganados + Facturación)", "",
+             f"- **{b['negocios']} negocios** de la marca: {b['ganados']} ganados y {b['facturacion']} en Facturación "
+             "(ya son ventas que se van a cerrar).",
+             f"- **{b['con_meta']} vinieron de un lead de Meta** (cruce seguro por teléfono o mail)"
+             + ({0: ".", 1: "; otro 1 es posible, sin confirmar."}.get(b.get("posibles") or 0,
+                                                                   f"; otros {b.get('posibles')} son posibles, sin confirmar."))]
+        if b["con_meta"]:
+            L += [f"- **Plataforma del lead:** {CB.reparto(b['plataforma'])} · **Cuenta:** {CB.reparto(b['cuenta'])}.",
+                  f"- **Del lead a la venta:** {CB.dias_txt(b)}."]
+            if b["con_meta"] >= minimo and b.get("edad_estimada"):
+                L.append(f"- **Edad estimada de quien compra:** {CB.edad_txt(b)} · **Género:** {CB.genero_txt(b)}.")
+            else:
+                L.append(f"- Todavía son pocos para un perfil propio de compra ({b['con_meta']} de {minimo}). En todas las marcas, "
+                         f"la edad estimada de quien compra es {CB.edad_txt(t)} · **Género:** {CB.genero_txt(t)}.")
+        L += ["- _La edad y el género se estiman con quienes contactaron por el anuncio de cada comprador. "
+              "Detalle de todas las marcas: [[🧾 Compradores reales (Bitrix)]]._", ""]
+        return "\n".join(L)
+
+    @staticmethod
+    def _base_demo(meta: dict[str, Any]) -> str:
+        """De qué sale la edad y el género de Meta: «contactos» desde el 14-10-2026; una corrida vieja (sin `basis`), «clics»."""
+        return "contactos" if meta.get("basis") == "contactos" else "clics"
 
     def _render_summary(self, persona: dict[str, Any]) -> str:
         """Resumen rápido en formato callout."""
@@ -648,9 +782,11 @@ class ObsidianExporter:
             gender_txt = f"{gender_txt} ({meta['gender_share']}%)"
         age_txt = demo.get("age_range", "N/D")
         if demo.get("source") == "meta" and meta.get("age_share"):
-            age_txt = f"{age_txt} ({meta['age_share']}% de los clics)"
+            age_txt = f"{age_txt} ({meta['age_share']}% de los {self._base_demo(meta)})"
         level = demo.get("meta_level")
         level_txt = {"modelo": " · perfil propio del modelo", "marca": " · heredado de la marca"}.get(level, "")
+        if level == "marca" and segment.get("type") == "brand":
+            level_txt = " · perfil de la marca"   # la ficha de la marca no hereda de nadie
 
         lines = [
             "> [!summary] Perfil Resumido",
@@ -709,8 +845,8 @@ class ObsidianExporter:
         demo = persona.get("demographics", {})
         lines = ["## 👤 Demografía\n"]
         lines.append(
-            "_Qué es: quién hace clic en los anuncios de este público, por edad y género. "
-            "De dónde sale: Meta, desglose por anuncio, ponderado por clics. "
+            "_Qué es: quién contacta por los anuncios de este público (deja sus datos o escribe), por edad y género. "
+            "De dónde sale: Meta, desglose por anuncio, ponderado por contactos; con pocos contactos, por clics, y la ficha lo avisa. "
             "No es quién compró: eso el ERP no lo registra._\n"
         )
 
@@ -731,29 +867,38 @@ class ObsidianExporter:
             top = ", ".join(f"{k}: {v}%" for k, v in list(dist.items())[:6])
             level = demo.get("meta_level", "marca")
             seg = persona.get("segment", {}) or {}
+            base = self._base_demo(meta)
             if level == "modelo":
                 origen = (
                     f"anuncios de Meta que nombran a **{seg.get('name', '')}** "
-                    f"({meta.get('weight', 0):,} clics en la ventana)"
+                    f"({meta.get('weight', 0):,} {base} en la ventana)"
                 )
             else:
                 origen = (
                     f"audiencia de Meta de la marca **{seg.get('brand') or seg.get('name', '')}** "
-                    f"({meta.get('weight', 0):,} clics)"
+                    f"({meta.get('weight', 0):,} {base})"
                 )
+            ponderado = "ponderado por contactos (formularios y chats)" if base == "contactos" else "ponderado por clics"
             lines.append(
-                f"- **Fuente edad/género:** {origen}, ponderado por clics — "
+                f"- **Fuente edad/género:** {origen}, {ponderado} — "
                 f"{meta.get('gender', '')} {meta.get('gender_share', 0)}%"
             )
+            if base == "clics" and meta.get("basis") == "clics":
+                lines.append(f"- ⚠️ Pocos contactos en la ventana ({meta.get('contactos', 0)}): la edad sale de los clics, "
+                             "que exageran a los mayores de 55 (hacen muchos clics y contactan menos).")
             if top:
                 lines.append(f"- **Distribución de edad (Meta):** {top}")
             sample = meta.get("model_sample")
             if level == "marca" and sample:
+                from src.generators.persona_generator import PersonaGenerator as _PG
+                if sample.get("basis") == "contactos":
+                    poco, falta = f"pocos contactos ({sample.get('weight', 0)})", f"{_PG.MIN_CONTACTOS_DEMO} contactos"
+                else:
+                    poco, falta = f"pocos contactos (se midió por {sample.get('weight', 0)} clics)", f"{_PG.MIN_CONTACTOS_DEMO} contactos"
                 lines.append(
-                    f"- ⚠️ El modelo tiene anuncios propios pero pocos clics "
-                    f"({sample.get('weight', 0)}): {sample.get('gender', '')} {sample.get('gender_share', 0)}%, "
-                    f"edad {sample.get('age_range', '')}. Se usa el perfil de la marca hasta juntar "
-                    f"más de 100 clics."
+                    f"- ⚠️ El modelo tiene anuncios propios pero {poco}: {sample.get('gender', '')} "
+                    f"{sample.get('gender_share', 0)}%, edad {sample.get('age_range', '')}. Se usa el perfil de la marca "
+                    f"hasta juntar {falta}."
                 )
             elif level == "marca" and seg.get("type") == "model":
                 if seg.get("ad_count"):
@@ -966,12 +1111,23 @@ class ObsidianExporter:
             top_3 = interests[:3]
             lines.append(f"> **Targeting:** Crea audiencias similares basadas en: {', '.join(top_3)}.")
 
-        # Formato de creatividad (real, según dónde cae hoy el gasto)
+        # Formato de creatividad: lo que trajo el resultado más barato en la marca (nota 🎬);
+        # si no hay, solo dónde caen las impresiones (que no es lo mismo que dónde rinde)
         fmt = persona.get("creative_format")
-        if fmt:
+        seg = persona.get("segment", {})
+        marca = seg.get("brand") or (seg.get("name") if seg.get("type") == "brand" else "")
+        m_mat = (self.materiales.get("marcas") or {}).get(marca) if (self.materiales and marca) else None
+        if m_mat and m_mat.get("recomendacion"):
+            lines.append(f"> **Formato:** {m_mat['recomendacion']} Detalle: "
+                         f"[[{self.MATERIALES_PREFIJO}{self._sanitize_filename(marca)}]].")
+        elif fmt:
             lines.append(
                 f"> **Formato:** {fmt['top_format']} concentra el {fmt['top_format_share']}% "
-                f"de las impresiones reales — priorizá ese formato en las piezas nuevas."
+                f"de las impresiones reales. Concentrar impresiones no es traer el lead más barato: "
+                f"mirá también [[{self.MATERIALES_PREFIJO}{self._sanitize_filename(marca)}]]."
+                if marca else
+                f"> **Formato:** {fmt['top_format']} concentra el {fmt['top_format_share']}% "
+                f"de las impresiones reales."
             )
 
         # Públicos: ¿la pauta actual va toda a público frío?
@@ -1015,7 +1171,8 @@ class ObsidianExporter:
         # De dónde sale cada recomendación (pedido de marketing: "¿y de dónde lo saca?")
         lines.append("> ")
         lines.append("> **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del "
-                     "formato con más impresiones reales en Meta; el targeting, de los intereses configurados "
+                     "formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato "
+                     "en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados "
                      "hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, "
                      "del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.")
 
@@ -1298,6 +1455,10 @@ class ObsidianExporter:
             if emp:
                 lines.append(f"- El {self._pct(emp.get('empresa_pct'))} de las compras a cliente final las factura una empresa.")
             lines.append(f"- **Qué hacer en Meta Ads y cómo leerlo:** [[{self.centro_nota(brand)}]]\n")
+        m_mat = (self.materiales.get("marcas") or {}).get(brand) if self.materiales else None
+        if m_mat:
+            from src.generators.materiales_meta import resumen_moc
+            lines.extend(resumen_moc(self._sanitize_filename(brand), m_mat))
         if models:
             lines.append("## 🚘 Modelos\n")
             lines.append(self.MODEL_TABLE_HEADER)

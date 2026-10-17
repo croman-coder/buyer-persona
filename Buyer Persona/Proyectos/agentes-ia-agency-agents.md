@@ -1,6 +1,6 @@
 ---
-estado: dormido
-firma: ec6169600d07bd68326b878353de8e0c38b0fd8946546de3b2bdf5849a5fc714
+estado: archivado
+firma: d002e496900913aed745d3d35af930c79260582747b66afe837533b005e023d6
 git_rama: main
 git_remoto: https://github.com/msitarzewski/agency-agents
 git_sin_subir: 0
@@ -8,11 +8,7 @@ git_ultimo_commit: 2026-03-27 4feb0cd Add CMS Developer, Email Intelligence Engi
   China Market Localization Strategist, and Civil Engineer to README
 hijos: []
 nombre: agency-agents
-resumen: Colección open-source de 144+ personalidades de agentes de IA especializados
-  (engineering, design, marketing, sales, product, testing, game-dev y más) listas
-  para usar con Claude Code y otros CLIs vía scripts de integración. Repositorio documentado
-  y completo, sin build ni deployment. Dormido desde marzo 2026 con todo subido al
-  remoto.
+resumen: null
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/AGENTES IA/agency-agents
 slug: agentes-ia-agency-agents
@@ -27,7 +23,7 @@ ultima_actividad: '2026-04-16'
 
 | Campo | Valor |
 | --- | --- |
-| Estado | dormido |
+| Estado | archivado |
 | Última actividad | 2026-04-16 |
 | Stack | git |
 | Rama | main |

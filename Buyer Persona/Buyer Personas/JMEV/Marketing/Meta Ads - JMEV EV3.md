@@ -15,15 +15,15 @@ tags: [marketing, meta-ads]
 - **Edad:** 35-44
 - **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
 - **Zonas:** Asunción
-- **Temas que atraen** (para el creativo, no para segmentar): Autos eléctricos y ahorro de combustible, Tecnología y conectividad, Diseño y estatus, Garantía y respaldo posventa, Financiación en cuotas
+- **Temas que atraen** (para el creativo, no para segmentar): Autos eléctricos y ahorro de combustible, Diseño y estatus, Garantía y respaldo posventa, Probar antes de comprar (test drive), Tecnología y conectividad
 
 ## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)
-**Opción 1** · 225 caracteres
+**Opción 1** · 224 caracteres
 ```
 🚗 JMEV EV3
 ✅ Consumo y autonomía: te pasamos los datos reales de cada versión.
-✅ Tecnología y conectividad para el día a día, según la versión.
 ✅ Un diseño que se nota en cada detalle.
+✅ Posventa oficial: service y repuestos originales de la marca.
 
 Coordiná tu test drive sin compromiso 👇
 ```

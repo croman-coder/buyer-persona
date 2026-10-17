@@ -532,6 +532,17 @@ def run_pipeline(config_path: str = "config/settings.yaml", demo: bool = False, 
         except Exception as e:
             logger.error("❌ Error con Meta Ads: %s", e)
             data_sources["meta_ads"] = {}
+        # Materiales: anuncio por anuncio, qué formato, ubicación y duración rinden (últimos meses)
+        mat_cfg = meta_cfg.get("materiales") or {}
+        if meta_connector is not None and data_sources["meta_ads"] and mat_cfg.get("enabled", True):
+            try:
+                from src.connectors.meta_materiales import leer_materiales
+                mat = leer_materiales(meta_connector, meses=int(mat_cfg.get("meses", 6)))
+                data_sources["meta_ads"]["materiales"] = mat
+                logger.info("✅ Materiales Meta: %d anuncios de %d cuentas (%s a %s)", len(mat["anuncios"]),
+                            len(mat["cuentas"]), mat["desde"], mat["hasta"])
+            except Exception as e:  # no debe tumbar el resto de Meta
+                logger.warning("⚠️  Materiales Meta: no se pudieron leer: %s", e)
     else:
         logger.info("⏭️  Meta Ads: deshabilitado")
         data_sources["meta_ads"] = {}
@@ -711,11 +722,13 @@ def run_pipeline(config_path: str = "config/settings.yaml", demo: bool = False, 
         logger.warning("👥 Centro de compra: no se pudo calcular: %s", exc)
 
     # --- 5c. Ventas que vinieron de Meta: cruce con claves cifradas, solo se guardan totales ---
+    ventas_meta: dict = {}
     if meta_connector is not None and sales_connector is not None:
         try:
             from src.generators.ventas_meta import cruzar, nota as nota_ventas_meta
+            atribuciones: list = []   # qué lead de Meta compró (sin datos de la persona): para ROI Pauta del tablero
             ventas_meta = cruzar(sales_connector.claves_ventas, meta_connector.claves_leads,
-                                 data_sources.get("meta_ads", {}).get("campaigns", []))
+                                 data_sources.get("meta_ads", {}).get("campaigns", []), atribuciones=atribuciones)
             if ventas_meta:
                 with open(raw_dir / f"ventas_meta_{start_time.strftime('%Y%m%d_%H%M%S')}.json", "w", encoding="utf-8") as f:
                     json.dump(ventas_meta, f, indent=1, ensure_ascii=False, default=_json_default)
@@ -725,11 +738,52 @@ def run_pipeline(config_path: str = "config/settings.yaml", demo: bool = False, 
                         nota_ventas_meta(ventas_meta), encoding="utf-8")
                 total = sum(m["con_meta"] for m in ventas_meta["por_marca"].values())
                 logger.info("💰 Ventas de Meta: %d de %d ventas con lead previo", total, ventas_meta["ventas_evaluadas"])
+                from src.exporters.tablero_meta import publicar_ventas_erp
+                logger.info("💹 ROI Pauta (tablero de Meta): %s", publicar_ventas_erp(atribuciones, ventas_meta))
         except Exception as exc:  # no debe tumbar las fichas
             logger.warning("💰 Ventas de Meta: no se pudo calcular: %s", exc)
         finally:
             meta_connector.claves_leads.clear()
             sales_connector.claves_ventas.clear()
+
+    # --- 5d. Materiales de Meta: qué formato, ubicación y duración rinden en cada marca ---
+    materiales: dict = {}
+    mat_raw = (data_sources.get("meta_ads") or {}).get("materiales")
+    if mat_raw:
+        try:
+            from src.generators.materiales_meta import analizar as analizar_materiales, ventas_por_anuncio_guardadas
+            vpa = ventas_meta.get("por_anuncio") or ventas_por_anuncio_guardadas(raw_dir)
+            materiales = analizar_materiales(mat_raw, vpa)
+            vault_dir = config["paths"].get("obsidian_vault", "")
+            if vault_dir:
+                from src.generators.materiales_meta import incorporar_historial
+                incorporar_historial(materiales, Path(vault_dir) / "Sistema" / "Memoria" / "materiales_por_mes.jsonl")
+            with open(raw_dir / f"materiales_meta_{start_time.strftime('%Y%m%d_%H%M%S')}.json", "w", encoding="utf-8") as f:
+                json.dump(materiales, f, indent=1, ensure_ascii=False, default=_json_default)
+            logger.info("🎬 Materiales Meta: %d marcas analizadas (ventas por anuncio: %d)", len(materiales["marcas"]), len(vpa))
+        except Exception as exc:  # no debe tumbar las fichas
+            logger.warning("🎬 Materiales Meta: no se pudo analizar: %s", exc)
+
+    # --- 5e. Compradores reales de Bitrix (ganados + Facturación) con lead de Meta: afinan el persona con quien compra ---
+    compradores: dict = {}
+    try:
+        from src.generators.compradores_bitrix import leer as leer_compradores, nota as nota_compradores, resumir as resumir_compradores
+        filas_vo = leer_compradores()
+        if filas_vo is None:
+            logger.info("🧾 Compradores de Bitrix: acá no está la base del tablero (solo en el servidor)")
+        elif filas_vo:
+            demo_ad = ((data_sources.get("meta_ads") or {}).get("demographics") or {}).get("age_gender_ad", [])
+            compradores = resumir_compradores(filas_vo, demo_ad)
+            with open(raw_dir / f"compradores_bitrix_{start_time.strftime('%Y%m%d_%H%M%S')}.json", "w", encoding="utf-8") as f:
+                json.dump(compradores, f, indent=1, ensure_ascii=False, default=_json_default)
+            vault = config["paths"].get("obsidian_vault", "")
+            if vault:
+                (Path(vault) / "Sistema" / "🧾 Compradores reales (Bitrix).md").write_text(
+                    nota_compradores(compradores, start_time.strftime("%Y-%m-%d")), encoding="utf-8")
+            logger.info("🧾 Compradores de Bitrix: %d negocios, %d con lead de Meta",
+                        compradores["total"]["negocios"], compradores["total"]["con_meta"])
+    except Exception as exc:  # no debe tumbar las fichas
+        logger.warning("🧾 Compradores de Bitrix: no se pudo leer: %s", exc)
 
     # --- 6. Exportar a Obsidian ---
     logger.info("📝 Exportando a Obsidian...")
@@ -746,6 +800,8 @@ def run_pipeline(config_path: str = "config/settings.yaml", demo: bool = False, 
 
     exporter = ObsidianExporter(export_cfg)
     exporter.centro = centro
+    exporter.materiales = materiales
+    exporter.compradores = compradores
     generated_files = exporter.export_all(personas)
     try:
         generated_files.extend(exporter.export_centro_de_compra(personas))
@@ -754,6 +810,10 @@ def run_pipeline(config_path: str = "config/settings.yaml", demo: bool = False, 
             logger.info("👥 Centro de compra: comparación entre marcas en %s", hub)
     except Exception as exc:
         logger.warning("👥 Centro de compra: no se pudieron escribir las notas: %s", exc)
+    try:
+        generated_files.extend(exporter.export_materiales(personas))
+    except Exception as exc:
+        logger.warning("🎬 Materiales Meta: no se pudieron escribir las notas: %s", exc)
 
     # --- 6b. Generar contenido de marketing ---
     logger.info("📣 Generando contenido de marketing (Google Ads, Meta Ads, Emails, WhatsApp)...")

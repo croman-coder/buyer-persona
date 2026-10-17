@@ -19,21 +19,22 @@ tags: [marketing, google-ads]
 | 3 | Cotizá tu S07 | 13 |
 | 4 | Concesionario Oficial Soueast | 29 |
 | 5 | Agendá tu Test Drive | 20 |
-| 6 | Respaldo de Posventa Oficial | 28 |
+| 6 | Diseño que se Nota | 18 |
 | 7 | Tecnología y Conectividad | 25 |
-| 8 | Diseño que se Nota | 18 |
-| 9 | S07 0km | 7 |
-| 10 | Versiones y Equipamiento | 24 |
-| 11 | Hablá con un Asesor | 19 |
-| 12 | Pedí tu Cotización Hoy | 22 |
+| 8 | Respaldo de Posventa Oficial | 28 |
+| 9 | Financiación a tu Medida | 24 |
+| 10 | S07 0km | 7 |
+| 11 | Versiones y Equipamiento | 24 |
+| 12 | Hablá con un Asesor | 19 |
+| 13 | Pedí tu Cotización Hoy | 22 |
 
 ## Descripciones (hasta 4 · máx. 90 caracteres)
 | # | Descripción | Caract. |
 |---|---|---|
 | 1 | Soueast S07: cotizá y agendá tu test drive en el concesionario oficial. | 71 |
-| 2 | Service oficial y repuestos originales, con el respaldo de la marca. | 68 |
+| 2 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
 | 3 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
-| 4 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
+| 4 | Service oficial y repuestos originales, con el respaldo de la marca. | 68 |
 
 **URL visible:** `…/S07/Cotizar` (cada tramo, máx. 15 caracteres)
 

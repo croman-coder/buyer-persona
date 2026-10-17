@@ -5,7 +5,9 @@ Lee los leads de formulario de los últimos 90 días (claves cifradas, ver
 src/generators/ventas_meta.py), el gasto por campaña de todas las cuentas y las
 ventas del ERP; escribe output/raw/ventas_meta_<fecha>.json y la nota
 «Sistema/💰 Ventas que vinieron de Meta». Solo totales: ningún nombre, teléfono ni
-mail sale de la memoria.
+mail sale de la memoria. En el servidor publica además qué lead de Meta compró (su
+ID, sin datos de la persona) en el tablero de Meta, para ROI Pauta
+(src/exporters/tablero_meta.py).
 
 Uso: venv/bin/python3 scripts/cruce_ventas_meta.py
 """
@@ -24,6 +26,7 @@ from src.config_loader import load_config  # noqa: E402
 from src.connectors.meta_ads_connector import MetaAdsConnector  # noqa: E402
 from src.connectors.sales_connector import SalesConnector  # noqa: E402
 from src.generators.ventas_meta import cruzar, nota  # noqa: E402
+from src.exporters.tablero_meta import publicar_ventas_erp  # noqa: E402
 
 logging.basicConfig(level=logging.WARNING, format="%(levelname)s %(message)s")
 
@@ -54,11 +57,13 @@ def main() -> None:
     config = load_config("config/settings.yaml")
     ventas, leads, campanas = leer_fuentes(config)
     print(f"ventas del ERP: {len(ventas)} · leads de Meta: {len(leads)} · campañas con gasto: {len(campanas)}")
-    r = cruzar(ventas, leads, campanas)
+    atribuciones: list = []   # qué lead de Meta compró (sin datos de la persona): para ROI Pauta del tablero
+    r = cruzar(ventas, leads, campanas, atribuciones=atribuciones)
     ventas.clear()
     leads.clear()
     if not r:
         sys.exit("Sin datos para cruzar.")
+    print("ROI Pauta (tablero de Meta):", publicar_ventas_erp(atribuciones, r))
     salida = ROOT / "output" / "raw" / f"ventas_meta_{datetime.now():%Y%m%d_%H%M%S}.json"
     salida.write_text(json.dumps(r, ensure_ascii=False, indent=1), encoding="utf-8")
     vault = config["paths"].get("obsidian_vault", "")

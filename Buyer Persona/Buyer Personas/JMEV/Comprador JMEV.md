@@ -6,7 +6,7 @@ age_range: 35-44
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-03'
+created: '2026-10-17'
 tags:
 - buyer-persona
 - marketing
@@ -17,26 +17,26 @@ tags:
 # Comprador JMEV
 
 > [!note]- Cómo leer esta ficha
-> **Qué es:** el retrato de quién mira y quién compra este público, armado solo con datos propios: los anuncios de Meta (clics por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-05 → 2026-10-03 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
-> **Edad y género son de quién hace clic en los anuncios**, no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
+> **Qué es:** el retrato de quién mira y quién compra este público, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
+> **Ventanas de cada fuente:** Meta 2026-07-19 → 2026-10-17 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
 > Glosario y detalle de cada bloque: [[📘 Manual Buyer Persona]], sección 3.
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 35-44 (34.8% de los clics) · heredado de la marca
-- **Género predominante:** Masculino (88.7%)
+- **Edad:** 35-44 (31.0% de los contactos) · perfil de la marca
+- **Género predominante:** Masculino (85.3%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-05 → 2026-10-03 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-19 → 2026-10-17 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Marca → `JMEV`
 - **Ticket promedio (ERP, facturado):** USD 13,464
 
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 10,8 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,36×).
+- **Meta:** ellas son el 11,1 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,39×).
 - **Quién paga (ERP, 12 meses):** el 3,6 % de las compras a cliente final las factura una empresa.
 - **Para Meta Ads:** Una pieza que les hable a ellas, que son las que avanzan.
 
@@ -44,26 +44,35 @@ tags:
 
 ## 👤 Demografía
 
-_Qué es: quién hace clic en los anuncios de este público, por edad y género. De dónde sale: Meta, desglose por anuncio, ponderado por clics. No es quién compró: eso el ERP no lo registra._
+_Qué es: quién contacta por los anuncios de este público (deja sus datos o escribe), por edad y género. De dónde sale: Meta, desglose por anuncio, ponderado por contactos; con pocos contactos, por clics, y la ficha lo avisa. No es quién compró: eso el ERP no lo registra._
 
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** audiencia de Meta de la marca **JMEV** (15,869 clics), ponderado por clics — Masculino 88.7%
-- **Distribución de edad (Meta):** 35-44: 34.8%, 25-34: 25.5%, 45-54: 22.2%, 55-64: 8.9%, 18-24: 5.4%, 65+: 3.2%
+- **Fuente edad/género:** audiencia de Meta de la marca **JMEV** (2,319 contactos), ponderado por contactos (formularios y chats) — Masculino 85.3%
+- **Distribución de edad (Meta):** 35-44: 31.0%, 25-34: 29.3%, 45-54: 21.0%, 55-64: 8.3%, 18-24: 6.3%, 65+: 4.1%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
+
+## 🧾 Quién compró de verdad (Bitrix: ganados + Facturación)
+
+- **9 negocios** de la marca: 0 ganados y 9 en Facturación (ya son ventas que se van a cerrar).
+- **2 vinieron de un lead de Meta** (cruce seguro por teléfono o mail).
+- **Plataforma del lead:** Facebook 1 · Instagram 1 · **Cuenta:** Cuenta madre 2.
+- **Del lead a la venta:** mediana de 30 días; el 75 % compra antes de los 39.
+- Todavía son pocos para un perfil propio de compra (2 de 15). En todas las marcas, la edad estimada de quien compra es 35-44: 32 % · 25-34: 25 % · 45-54: 21 % · 55-64: 9 % · **Género:** Masculino 77 % · Femenino 23 %.
+- _La edad y el género se estiman con quienes contactaron por el anuncio de cada comprador. Detalle de todas las marcas: [[🧾 Compradores reales (Bitrix)]]._
 
 ## 🎯 Intereses y Comportamientos
 
 _Qué es: los temas que aparecen en los anuncios que este público ve y clickea. No son intereses declarados (Meta dejó de exponerlos en 2021): es con qué le estamos hablando y qué responde. El % es la parte de los anuncios que toca cada tema._
 
-**Intereses observados** (35 anuncios reales leídos):
-- Autos eléctricos y ahorro de combustible · 74.3% de los anuncios
-- Garantía y respaldo posventa · 25.7% de los anuncios
-- Tecnología y conectividad · 17.1% de los anuncios
-- Diseño y estatus · 14.3% de los anuncios
-- Probar antes de comprar (test drive) · 11.4% de los anuncios
-- Primer auto / primera SUV · 11.4% de los anuncios
+**Intereses observados** (41 anuncios reales leídos):
+- Autos eléctricos y ahorro de combustible · 78.0% de los anuncios
+- Garantía y respaldo posventa · 29.3% de los anuncios
+- Probar antes de comprar (test drive) · 22.0% de los anuncios
+- Diseño y estatus · 19.5% de los anuncios
+- Financiación en cuotas · 14.6% de los anuncios
+- Tecnología y conectividad · 14.6% de los anuncios
 
 > _Meta ya no expone intereses declarados de la audiencia (Audience Insights cerró en 2021); esto es lo que el público ve y con lo que interactúa._
 
@@ -72,7 +81,7 @@ _Qué es: los temas que aparecen en los anuncios que este público ve y clickea.
 - **NSE estimado:** C- / D (medio-bajo)
 - **Señales que se usaron:**
   - ticket promedio USD 13,464 (entrada)
-  - 19.8% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 19.3% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -105,11 +114,11 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!warning] 🔴 Dolores y Frustraciones
 
-> _De dónde sale: del texto de 35 anuncios reales de esta marca. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
+> _De dónde sale: del texto de 41 anuncios reales de esta marca. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
 >
 > - Ansiedad de autonomía/carga: evalúa km reales y tiempo de carga antes de decidir
-> - Comprador primerizo en la categoría; necesita orientación básica antes de decidir
 > - Compara el valor de la cuota mensual, no solo el precio de lista
+> - Comprador primerizo en la categoría; necesita orientación básica antes de decidir
 
 
 > [!tip] 🎯 Objetivos y Necesidades
@@ -122,8 +131,8 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > - Ahorro de combustible y mantenimiento a largo plazo
 > - Confianza en la garantía y el respaldo de posventa de la marca/concesionaria
-> - Tecnología y conectividad de última generación
 > - Status y diseño en el segmento premium
+> - Tecnología y conectividad de última generación
 > - Seguridad y tecnología de asistencia a la conducción verificable
 
 
@@ -131,11 +140,11 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > **Mensaje clave:** Enfoca la comunicación en 'JMEV'.
 > **Canales:** Prioriza Showroom.
-> **Formato:** Feed (imagen/carrusel estático) concentra el 67.3% de las impresiones reales — priorizá ese formato en las piezas nuevas.
-> **Públicos hoy:** los 5 adsets activos van a público frío (5 con Advantage+). Sumar retargeting (formulario abierto sin enviar, visitantes web) y la base de compradores del ERP.
-> **Inversión actual:** USD 591 en la ventana (~USD 197/mes), 1,199 leads → costo por lead USD 0.49.
+> **Formato:** En formularios, el carrusel y la imagen (gráfica) no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — JMEV]].
+> **Públicos hoy:** los 5 adsets activos van a público frío (4 con Advantage+). Sumar retargeting (formulario abierto sin enviar, visitantes web) y la base de compradores del ERP.
+> **Inversión actual:** USD 631 en la ventana (~USD 210/mes), 1,222 leads → costo por lead USD 0.52.
 > 
-> **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
+> **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
 
 ## 🚗 Modelos de JMEV
@@ -146,14 +155,14 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — JMEV (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 1,199
+> **Total de leads de la marca en la ventana:** 1,222
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — JMEV (90 días)
 
-> **Leads:** 1,267 → **convertidos:** 2 (0.2%)
-> **Por canal:** Meta madre 1,263, Otros canales 4
-> **Deals:** 14 — ganados 0, perdidos 0, en proceso 14 (win rate 0.0%)
+> **Leads:** 1,377 → **convertidos:** 3 (0.2%)
+> **Por canal:** Meta madre 1,372, Otros canales 5
+> **Deals:** 17 — ganados 0, perdidos 1, en proceso 16 (win rate 0.0%)
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 
 
@@ -173,7 +182,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-03 12:34*
+*Generado el 2026-10-17 06:44*
 
 ## 🔗 Contenido Relacionado
 

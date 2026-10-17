@@ -118,8 +118,11 @@ def claves_de_lead(lead: dict[str, Any], marca_pagina: str) -> dict[str, Any] | 
     claves = claves_de_nombre(f"{nombre} {apellido}")
     if not (claves or tels or mail):
         return None
-    return {"fecha": fecha, "marca_pagina": marca_pagina, "campaign_id": lead.get("campaign_id") or "",
-            "campaign_name": lead.get("campaign_name") or "", "ad_name": lead.get("ad_name") or "",
+    # El ID de Meta del lead no es un dato de la persona: con él, ROI Pauta del tablero de Meta sabe qué lead compró.
+    return {"meta_lead_id": str(lead.get("id") or ""), "fecha": fecha, "marca_pagina": marca_pagina,
+            "campaign_id": lead.get("campaign_id") or "",
+            "campaign_name": lead.get("campaign_name") or "", "ad_id": str(lead.get("ad_id") or ""),
+            "ad_name": lead.get("ad_name") or "",
             "organico": bool(lead.get("is_organic")), "nombre": claves, "tels": tels, "mail": mail}
 
 
@@ -161,8 +164,14 @@ def _origen(lead: dict[str, Any], marca_venta: str, info: dict[str, dict[str, An
 
 
 def cruzar(ventas: list[dict[str, Any]], leads: list[dict[str, Any]], campanas: list[dict[str, Any]],
-           dias_max: int = DIAS_MAX) -> dict[str, Any]:
-    """Cruza ventas y leads (claves cifradas) y devuelve solo totales."""
+           dias_max: int = DIAS_MAX, atribuciones: list[dict[str, Any]] | None = None) -> dict[str, Any]:
+    """Cruza ventas y leads (claves cifradas) y devuelve solo totales.
+
+    ``atribuciones`` (opcional): por cada venta con lead se le agrega el ID de Meta del lead, la fecha del lead, la
+    fecha, marca y modelo de la venta, si coincidió por teléfono/mail («contacto») o por nombre y los días entre uno
+    y otra. Sin datos de la persona. Lo publica ``src.exporters.tablero_meta`` para ROI Pauta del tablero de Meta;
+    no va en el resultado (ni en el JSON de la corrida).
+    """
     if not ventas or not leads:
         return {}
     info = _info_campanas(campanas)
@@ -201,6 +210,12 @@ def cruzar(ventas: list[dict[str, Any]], leads: list[dict[str, Any]], campanas: 
 
     por_marca: dict[str, dict[str, Any]] = {}
     entre_marcas: Counter = Counter()
+    # Por anuncio: cuántos leads trajo en la ventana y cuántos terminaron en venta (de la misma
+    # marca de la cuenta). Lo usa la nota de materiales para ver qué formato vende más.
+    por_anuncio: dict[str, dict[str, int]] = defaultdict(lambda: {"leads": 0, "ventas": 0, "ventas_otra_marca": 0})
+    for l in leads:
+        if l.get("ad_id") and not l["organico"]:
+            por_anuncio[l["ad_id"]]["leads"] += 1
     por_campana: dict[str, dict[str, Any]] = {}
     dias_todos: list[int] = []
     for v in evaluadas:
@@ -232,6 +247,11 @@ def cruzar(ventas: list[dict[str, Any]], leads: list[dict[str, Any]], campanas: 
             continue
         origen, marca_lead = _origen(elegido, v["marca"], info)
         dias = (v["fecha"] - elegido["fecha"]).days
+        if atribuciones is not None and elegido.get("meta_lead_id"):
+            modelo = v["modelo"] if isinstance(v["modelo"], str) and v["modelo"].strip() else None
+            atribuciones.append({"meta_lead_id": elegido["meta_lead_id"], "fecha_lead": elegido["fecha"].isoformat(),
+                                 "fecha_venta": v["fecha"].isoformat(), "marca": str(v["marca"] or "").upper() or None,
+                                 "modelo": modelo, "evidencia": evidencia, "dias": dias})
         m["con_meta"] += 1
         m["por_mes"][mes][1] += 1
         m["por_contacto" if evidencia == "contacto" else "por_nombre"] += 1
@@ -240,6 +260,9 @@ def cruzar(ventas: list[dict[str, Any]], leads: list[dict[str, Any]], campanas: 
         dias_todos.append(dias)
         if marca_lead and marca_lead != v["marca"]:
             entre_marcas[(marca_lead, v["marca"])] += 1
+        if elegido.get("ad_id") and not elegido["organico"]:
+            misma = (info.get(elegido["campaign_id"]) or {}).get("marca_cuenta", elegido["marca_pagina"]) == v["marca"]
+            por_anuncio[elegido["ad_id"]]["ventas" if misma else "ventas_otra_marca"] += 1
         if elegido["campaign_id"] and not elegido["organico"]:
             c = info.get(elegido["campaign_id"], {})
             pc = por_campana.setdefault(elegido["campaign_id"], {
@@ -270,6 +293,7 @@ def cruzar(ventas: list[dict[str, Any]], leads: list[dict[str, Any]], campanas: 
                       for k, v in sorted(por_marca.items(), key=lambda kv: -kv[1]["ventas"])},
         "entre_marcas": [{"campana_de": a, "venta_de": b, "ventas": n} for (a, b), n in entre_marcas.most_common()],
         "campanas": campanas_out[:25],
+        "por_anuncio": dict(por_anuncio),
         "dias": {"mediana": mediana(dias_todos), "p25": round(q[0]) if q else None, "p75": round(q[2]) if q else None,
                  "n": len(dias_todos)},
     }

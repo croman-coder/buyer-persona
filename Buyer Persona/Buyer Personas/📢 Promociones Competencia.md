@@ -1,22 +1,22 @@
 ---
 type: monitor-competencia
-created: '2026-08-25'
+created: '2026-10-16'
 tags:
 - competencia
 - monitor
 - promociones
-last_scan: '2026-08-25 14:12'
+last_scan: '2026-10-16 08:00'
 ---
 
 # 📢 Promociones de la Competencia
 
-> [!info] Última actualización: **2026-08-25 14:12** · Próximo scan automático
+> [!info] Última actualización: **2026-10-16 08:00** · Próximo scan automático
 
 > [!warning] 🔴 = Cambio detectado en este scan · 🟢 = Sin cambios
 
 ## ✅ Sin Cambios Detectados
 
-No se detectaron cambios en promociones, precios o modelos desde el último scan (2026-08-25 14:12).
+No se detectaron cambios en promociones, precios o modelos desde el último scan (2026-10-16 08:00).
 
 ---
 
@@ -30,18 +30,19 @@ No se detectaron cambios en promociones, precios o modelos desde el último scan
 **Promociones / Keywords detectados:**
 
 - `oferta`
+- `cuota`
 - `0 km`
 - `prueba de manejo`
 - `test drive`
 
-**Modelos mencionados:** X-Trail, X-Trail E-Power, Sentra, Patrol, Kait, Kicks, Pathfinder, Frontier, Qashqai
+**Modelos mencionados:** Qashqai, X-Trail, Kait, Frontier, Kicks, Patrol, X-Trail E-Power, Pathfinder
 
 <details><summary>📄 Headings de la página</summary>
 
 - Nissan Paraguay
-- ESTO ES NISSAN KAIT
+- ESTO ES NISSAN X-TERRA
 - ESTO ES NISSAN KICKS
-- ESTO ES NISSAN X-TRAIL e-POWER
+- NUEVA NISSAN X-TRAIL E-POWER
 - ESTO ES NISSAN QASHQAI
 - SERVICE EN CASA
 - ME GUSTARÍA
@@ -71,7 +72,7 @@ No se detectaron cambios en promociones, precios o modelos desde el último scan
 
 - `0km`
 
-**Modelos mencionados:** L200, Eclipse Cross, Triton, Montero
+**Modelos mencionados:** Eclipse Cross, Triton, L200, Montero
 
 <details><summary>📄 Headings de la página</summary>
 
@@ -98,22 +99,23 @@ No se detectaron cambios en promociones, precios o modelos desde el último scan
 **Promociones / Keywords detectados:**
 
 - `promocion`
+- `0 km`
 - `test drive`
 
-**Modelos mencionados:** Picanto, Carnival, Niro, Sportage, Sorento, Tasman, Sonet, Seltos, K2700, EV9, K3, Soluto, Carens, EV5
+**Modelos mencionados:** Tasman, EV9, Sorento, Sportage, Carens, K2700, Soluto, Niro, K3, Sonet, Picanto, Seltos, Carnival, EV5
 
 <details><summary>📄 Headings de la página</summary>
 
-- Nueva Sportage Híbrida8 años de garantía de batería
-- Nueva Sorento Híbrida8 años de garantía de batería
-- Nueva Kia TasmanA diésel y naftera. 4x4. Hasta 280 hp
-- EV5 100% eléctricoHasta 555 km de autonomía
-- Service en CasaRealizá tu service donde lo necesités
-- Nueva Sportage Híbrida8 años de garantía de batería
-- Nueva Sorento Híbrida8 años de garantía de batería
-- Nueva Kia TasmanA diésel y naftera. 4x4. Hasta 280 hp
-- EV5 100% eléctricoHasta 555 km de autonomía
-- Service en CasaRealizá tu service donde lo necesités
+- All-new Kia SeltosMás grande y tecnológico
+- Nueva Sportage1.6 híbrida
+- Nueva Sorento1.6 híbrida
+- Nueva Kia TasmanHasta 280 hp
+- EV5 100% eléctricoHasta 550 km de autonomía
+- Service en CasaRealizá tu servicio donde estés
+- All-new Kia SeltosMás grande y tecnológico
+- Nueva Sportage1.6 híbrida
+- Nueva Sorento1.6 híbrida
+- Nueva Kia TasmanHasta 280 hp
 
 </details>
 
@@ -124,7 +126,7 @@ No se detectaron cambios en promociones, precios o modelos desde el último scan
 **Marcas que compiten con:** Chery (SUV chino, compite con Jetour/Soueast)
 **URL:** [https://www.chery.com.py](https://www.chery.com.py)
 
-**Modelos mencionados:** T7 Pro, T2 Pro, T4 Pro, Himla, M7, T8 Pro
+**Modelos mencionados:** Himla, T8 Pro, T7 Pro, T2 Pro, T4 Pro, M7
 
 ---
 
@@ -138,7 +140,7 @@ No se detectaron cambios en promociones, precios o modelos desde el último scan
 - `0km`
 - `test drive`
 
-**Modelos mencionados:** Cityray, Starray, Azkarra, Coolray, EX5, GX3
+**Modelos mencionados:** GX3, Coolray, Starray, Azkarra, Cityray, EX5
 
 <details><summary>📄 Headings de la página</summary>
 
@@ -166,7 +168,7 @@ No se detectaron cambios en promociones, precios o modelos desde el último scan
 
 - `exclusivo`
 
-**Modelos mencionados:** T-Cross, Polo, Amarok
+**Modelos mencionados:** Polo, T-Cross, Amarok
 
 <details><summary>📄 Headings de la página</summary>
 
@@ -215,11 +217,8 @@ No se detectaron cambios en promociones, precios o modelos desde el último scan
 
 **Promociones / Keywords detectados:**
 
-- `oferta`
-- `promocion`
+- `0km`
 - `entrega`
-- `promociones más esperadas`
-- `llevás`
 
 <details><summary>📄 Headings de la página</summary>
 
@@ -288,4 +287,4 @@ No se detectaron cambios en promociones, precios o modelos desde el último scan
 - [[Buyer Personas MOC]]
 
 ---
-*Generado automáticamente el 2026-08-25 14:12 por monitor_competencia.py*
+*Generado automáticamente el 2026-10-16 08:00 por monitor_competencia.py*

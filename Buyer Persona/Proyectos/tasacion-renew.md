@@ -1,18 +1,14 @@
 ---
 estado: activo
-firma: d21503c6118b404f2bbd9f6b814faff3ff417be7b1d8e4f640c97bb2dec0e21b
+firma: f245d4e83e28d71fa52cc62daa3e301067b57bd11f43b4e54dd10eab1a59a07a
 git_rama: main
 git_remoto: https://github.com/croman-coder/tasacion-renew.git
 git_sin_subir: 1
-git_ultimo_commit: '2026-09-30 61fdc69 Auditoría: fecha de la cita sin corrimiento,
-  el correo sin "al asesor" y sin baja de cuenta'
+git_ultimo_commit: '2026-10-12 b70b1ee DEPLOY: rebotes en bitrix@ por avisos a cuentas
+  compartidas sin buzón'
 hijos: []
 nombre: Tasacion RENEW
-resumen: Web app que reemplaza la planilla Excel de tasación de usados y el peritaje
-  en papel. Fases 1-3, la Fase 4 (salvo el seguimiento) y el circuito en dos manos
-  (el asesor carga y entrega, el tasador tasa, gerencia aprueba, el asesor recibe
-  el aviso) en producción en tasacion.santarosa.lat (Coolify + Supabase self-hosted
-  en SRPY186). Nació del incidente del margen 27% que la planilla no detectó.
+resumen: null
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/Tasacion RENEW
 slug: tasacion-renew
@@ -20,7 +16,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-09-30'
+ultima_actividad: '2026-10-12'
 ---
 
 <!-- hermes:inicio -->
@@ -29,10 +25,10 @@ ultima_actividad: '2026-09-30'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-09-30 |
+| Última actividad | 2026-10-12 |
 | Stack | git, node |
 | Rama | main |
-| Último commit | 2026-09-30 61fdc69 Auditoría: fecha de la cita sin corrimiento, el correo sin "al asesor" y sin baja de cuenta |
+| Último commit | 2026-10-12 b70b1ee DEPLOY: rebotes en bitrix@ por avisos a cuentas compartidas sin buzón |
 | Sin subir | 1 |
 | Ruta | `/home/croman/Escritorio/Tasacion RENEW` |
 <!-- hermes:fin -->
@@ -451,15 +447,74 @@ Dos pedidos de Rodrigo Sánchez (admin, hace de tasador):
   solo Jetour: el 0 km se tipea a mano); "Consultar a los reventas ahora";
   sugerir como referencia lo que Renew ya tiene en stock; "Entregar al tasador"
   se ofrece a quien tasa en borradores ajenos.
-- **Auditoría (rol de solo lectura para José Amado y Hernán Goydy):** base
-  (070, con el barrido de funciones `security definer`), código y cortes de las
-  acciones hechos y revisados; la 070 **sigue sin aplicar en producción**; faltan
-  las pantallas (Tareas 4–8 del plan: ficha y listado sin botones, stock y
-  catálogos en lectura, E2E 14, capítulo del manual y despliegue) y crear los dos
-  usuarios.
+- **Auditoría (rol de solo lectura para José Amado y Hernán Goydy):** en producción desde el
+  5/10/2026 (ver la sección de esa fecha).
 - Un `git push` desde el repo despliega todo lo commiteado en `main`, aunque
   sea de otra sesión (el 27/9 arrastró a producción los commits de la
   auditoría).
+
+## 5/10/2026 — "Otra marca…": la marca que no está en la lista
+
+Pedido de Croman a raíz de Emilio (asesor): "no hay Geely para tasar". El **modelo ya
+era texto libre**; lo cerrado era la marca (31 en producción, sin Toyota, Chery ni
+Audi; Suzuki se había sumado a mano).
+
+- Al final del desplegable de marca (Nueva, Editar y Express): **"Otra marca…"**.
+  "Agregar marca" crea la marca en el catálogo (o usa la que ya estaba) y la deja
+  elegida; el modelo se escribe como siempre. Nace activa, con la banda de la mayoría
+  (12–15 %), y **para revisar**.
+- Reglas: mayúsculas, 2–40 caracteres, solo letras latinas (con tildes); no se duplica
+  (`Land-Rover` = `LAND ROVER`, `Škoda` = `SKODA`; una desactivada se reactiva); tope de
+  15 marcas nuevas sin revisar por persona y por día; solo los roles que pueden crear una
+  tasación.
+- **Admin › Marcas** señala las agregadas por un asesor ("Agregada por …", botón "Está
+  bien", aviso arriba). Las no revisadas **no cuentan para leer títulos de Clasipar**
+  (harvester y "traer referencia"): una marca "0KM" o "VENDO" le robaría la marca a
+  cualquier aviso.
+- Editar conserva la marca de la tasación aunque Admin la desactive ("GELLY
+  (desactivada)").
+- Migración 074 aplicada en producción el 5/10 **antes** del push (b99cd56); la prueba de
+  la base (`supabase/tests/074_marca_libre.sql`, con rollback) dio TODO OK en producción;
+  E2E 16 (10 tests) y suite completa 82/82.
+- Revisión independiente en dos rondas (65 y 94 entradas raras por TS y SQL, concurrencia,
+  40+ mutantes): se arregló un Importante y ocho Menores antes de salir.
+- **Falta / no incluido:** alta de marca desde el formulario de stock; unir dos marcas
+  duplicadas; cargar de golpe las que faltan (decisión de Producto); regenerar las
+  capturas del manual.
+- **Descubierto de paso** (resuelto esa misma tarde, ver abajo): `jamado@` y `hgoydy@` existían
+  como **admin**, las migraciones 072 y 073 estaban sin aplicar y la auditoría sin subir.
+
+## 5/10/2026 (tarde) — Auditoría en producción y las fotos de Gabi
+
+**Rol Auditoría (solo lectura).** José Amado (`jamado@`) y Hernán Goydy (`hgoydy@`) pasaron de
+admin a **Auditoría**: ven todo el negocio (cliente, fotos, precio de toma, margen, peritaje,
+referencias, gastos, quién movió cada estado, ofertas de reventas con montos, stock,
+verificaciones y catálogos, en texto) y no pueden escribir nada. No ven Usuarios, solicitudes,
+Integraciones ni un token. Garantizado en tres capas: la base (migración 070), el servidor
+(`esSoloLectura` en cada acción) y la pantalla (prop `soloLectura` obligatoria).
+
+- **Migraciones aplicadas en producción ese día: 070, 072, 073 y 075** (más la 074 de la mañana),
+  con respaldo previo (`~/backups/tasacion_pre_070_20261005_1614.dump`) y ensayadas antes sobre
+  una copia del esquema de producción. 072/073 son de las reventas (Admin › Integraciones deja de
+  decir "Falta aplicar la 072"; la oferta del reventa es definitiva). La 075 salió de la revisión
+  final: la base seguía dejando que el auditor se diera de baja por RPC.
+- **Prueba:** `supabase/tests/070_rol_auditoria.sql` es un barrido (UPDATE/DELETE/INSERT en las 35
+  tablas con el JWT del auditor, funciones `security definer`, tablas sin RLS, tokens) con
+  rollback; 22 mutaciones la rompen y en producción da `TODO OK`. Con el JWT real de cada uno
+  ven lo mismo que el admin en 29 tablas.
+- **Herramienta nueva:** `scripts/ensayar-migracion.sh` ensaya una migración sobre una copia del
+  esquema de producción (sin datos) en un Postgres descartable y compara con la base local.
+- Revisión final independiente: limpia; sus Menores se cerraron (075, tests de los cortes de
+  servidor que no tenían ninguno, aviso_error sin el token del link, enlace de Bitrix solo
+  http/https, plural en Marcas, tests inestables).
+- E2E 14 (12 tests) y suite completa 95/95; el manual tiene el capítulo Auditoría.
+- **Falta que ellos confirmen** entrando (José no había entrado nunca) y decidir
+  `encolar_envio_bitrix` (acepta cualquier evento sin mirar el estado; previo y aparte).
+
+**Fotos de Gabi (GWM).** "No puedo adjuntar la foto": elegía la foto y quedaba en 0 / 10 sin
+mensaje. La primera foto guarda el borrador y este pide marca y modelo; el aviso salía debajo
+de la grilla, fuera de la pantalla. Ahora el motivo sale arriba de la grilla con "Ir al campo",
+y antes de intentar el paso Fotos avisa lo que falta. E2E 17 (con la pantalla de una notebook).
 
 ## Documento para el manual de procedimientos
 
@@ -573,4 +628,4 @@ README; el spec y el plan del bloque A, en `docs/superpowers/`.
 - [[renew]] · [[asset-web-srpy-renew-usados]] · CARBID (renewsubastas.com.py)
 - Los usados tasados acá alimentan el stock que se publica en CARBID.
 
-*Última actualización de esta sección: 29 de septiembre de 2026 (Claude).*
+*Última actualización de esta sección: 5 de octubre de 2026 (Claude).*

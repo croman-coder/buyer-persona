@@ -1,18 +1,14 @@
 ---
 estado: activo
-firma: 87f0d93450f8dc83624d190b7b1ca5fc4748c09eb2a584b4b636b492e36f2d37
+firma: c8ffead4107acdf3619c7aad5ab90d1b81ceb43ecd9dc25ceefae9b144bc9413
 git_rama: feat/vitria-bitrix-openline
 git_remoto: https://github.com/ymk5py-commits/botika.git
-git_sin_subir: 2
-git_ultimo_commit: '2026-10-01 a2b8eed fix(asesores): el enlace de Mi WhatsApp y el
-  aviso de sesión caída van por chat directo'
+git_sin_subir: 0
+git_ultimo_commit: '2026-10-03 fd442dd fix(vercel): los pushes a main dejan de desplegar
+  en Vercel (pisaban el puente de botsrpy)'
 hijos: []
 nombre: botika
-resumen: SaaS multi-tenant de bot de ventas para WhatsApp/Messenger/Instagram con
-  handoff a humano y RAG sobre Postgres FTS, corriendo en Vercel serverless + Supabase
-  + Kimi/GLM LLM. Activo en producción comercial LATAM con 63 migraciones aplicadas;
-  le quedan 5 commits sin subir y tareas operativas pendientes (rotación de keys,
-  migraciones 0058/0063, crons de survey y re-engagement).
+resumen: null
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/Agente Bot/botika
 slug: agente-bot-botika
@@ -21,7 +17,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-10-01'
+ultima_actividad: '2026-10-13'
 ---
 
 <!-- hermes:inicio -->
@@ -30,10 +26,10 @@ ultima_actividad: '2026-10-01'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-01 |
+| Última actividad | 2026-10-13 |
 | Stack | docker, git, node |
 | Rama | feat/vitria-bitrix-openline |
-| Último commit | 2026-10-01 a2b8eed fix(asesores): el enlace de Mi WhatsApp y el aviso de sesión caída van por chat directo |
-| Sin subir | 2 |
+| Último commit | 2026-10-03 fd442dd fix(vercel): los pushes a main dejan de desplegar en Vercel (pisaban el puente de botsrpy) |
+| Sin subir | 0 |
 | Ruta | `/home/croman/Escritorio/Agente Bot/botika` |
 <!-- hermes:fin -->

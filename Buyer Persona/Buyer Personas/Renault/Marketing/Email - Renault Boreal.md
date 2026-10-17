@@ -23,8 +23,8 @@ Hola {nombre}:
 Gracias por tu interés en Renault Boreal. Esto es lo que más nos consultan:
 
 • Tecnología y conectividad para el día a día, según la versión.
+• Seguridad y asistencias a la conducción, según la versión.
 • Financiación: planes y formas de pago a tu medida.
-• Test drive sin compromiso, el día y horario que elijas.
 
 Lo mejor es probarlo: coordiná tu test drive el día y horario que prefieras, sin compromiso.
 

@@ -1,17 +1,14 @@
 ---
 estado: activo
-firma: 40d111b709e446bf7a11a631fb1bdc29d6ac6d286d1b4bc1566d7849259d7831
+firma: b66fa738926a07a5c1e3a5b4a0b53ccd6624eee3f895dfa15da6d7170773ab6a
 git_rama: main
 git_remoto: git@github-croman:croman-coder/santa-rosa-automotive.git
 git_sin_subir: 1
-git_ultimo_commit: '2026-09-25 aad8d59 csp: permitir stats.g.doubleclick.net para
-  GA4'
+git_ultimo_commit: '2026-10-16 b903828 fix(trabaja): manda cuánto tardó la persona,
+  medido con el reloj del navegador'
 hijos: []
 nombre: SANTA ROSA WEB
-resumen: Sitio web de Santa Rosa SA, concesionaria multimarca oficial (Renault, Mitsubishi,
-  Jetour, GWM, entre otras) en Paraguay, construido con Vite + React + TypeScript
-  + i18n. Activo y desplegado; el último commit ajustó el contenido del footer y queda
-  1 commit sin subir.
+resumen: null
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/ASSET WEB SRPY/SANTA ROSA WEB
 slug: asset-web-srpy-santa-rosa-web
@@ -20,7 +17,7 @@ stack:
 - node
 - web
 tipo: proyecto
-ultima_actividad: '2026-09-25'
+ultima_actividad: '2026-10-16'
 ---
 
 <!-- hermes:inicio -->
@@ -29,10 +26,10 @@ ultima_actividad: '2026-09-25'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-09-25 |
+| Última actividad | 2026-10-16 |
 | Stack | git, node, web |
 | Rama | main |
-| Último commit | 2026-09-25 aad8d59 csp: permitir stats.g.doubleclick.net para GA4 |
+| Último commit | 2026-10-16 b903828 fix(trabaja): manda cuánto tardó la persona, medido con el reloj del navegador |
 | Sin subir | 1 |
 | Ruta | `/home/croman/Escritorio/ASSET WEB SRPY/SANTA ROSA WEB` |
 <!-- hermes:fin -->

@@ -13,7 +13,7 @@ tags: [marketing, meta-ads]
 
 ## Público sugerido (de la ficha)
 - **Edad:** 65+
-- **Género:** Femenino (con público Advantage+, como sugerencia: no cortar por género)
+- **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
 - **Zonas:** Asunción
 - **Temas que atraen** (para el creativo, no para segmentar): Autos eléctricos y ahorro de combustible, Tecnología y conectividad, Seguridad y asistencias a la conducción, Probar antes de comprar (test drive), Garantía y respaldo posventa
 

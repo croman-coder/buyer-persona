@@ -1,20 +1,14 @@
 ---
 estado: activo
-firma: ea050503323796d8fd72fbf0b53325d6a7babcdf25258f040a641999cae0a0e8
+firma: 93dc3d172bc5a0ffb27262e27e04eabf09d8555175164c8d6b1e298c70f16b3f
 git_rama: main
 git_remoto: https://github.com/croman-coder/crm-santarosa.git
 git_sin_subir: 2
-git_ultimo_commit: '2026-09-30 0b028c1 Merge b1f-demanda: 0126 — demanda sin stock
-  dentro de los 8 s de PostgREST'
+git_ultimo_commit: '2026-10-05 9ea19d5 docs: pool de PostgREST aplicado el 5/10 (ajuste
+  de Postgres completo)'
 hijos: []
 nombre: botika
-resumen: SaaS multi-tenant de bots de ventas IA para WhatsApp, Messenger e Instagram
-  (LATAM) sobre Vercel serverless (api/*.js), Supabase Postgres con RLS, Kimi LLM
-  y OpenAI (Whisper STT + gpt-4o-mini vision), con webhooks de YCloud y Meta Graph
-  y frontend React + Vite; incluye RAG anti-alucinación, handoff humano y detección
-  de comprobantes de pago por visión. Activo y sincronizado con el remoto. Antes de
-  lanzar comercialmente faltan rotar las API keys, endurecer RLS y programar la purga
-  mensual de PII.
+resumen: null
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/CRM SRPY/botika
 slug: crm-srpy-botika
@@ -23,7 +17,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-09-30'
+ultima_actividad: '2026-10-12'
 ---
 
 <!-- hermes:inicio -->
@@ -32,10 +26,10 @@ ultima_actividad: '2026-09-30'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-09-30 |
+| Última actividad | 2026-10-12 |
 | Stack | docker, git, node |
 | Rama | main |
-| Último commit | 2026-09-30 0b028c1 Merge b1f-demanda: 0126 — demanda sin stock dentro de los 8 s de PostgREST |
+| Último commit | 2026-10-05 9ea19d5 docs: pool de PostgREST aplicado el 5/10 (ajuste de Postgres completo) |
 | Sin subir | 2 |
 | Ruta | `/home/croman/Escritorio/CRM SRPY/botika` |
 <!-- hermes:fin -->

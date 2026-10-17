@@ -23,7 +23,7 @@ Gracias por tu interés en la gama JMEV. Esto es lo que más nos consultan:
 
 • Consumo y autonomía: te pasamos los datos reales de cada versión.
 • Posventa oficial: service y repuestos originales de la marca.
-• Tecnología y conectividad para el día a día, según la versión.
+• Test drive sin compromiso, el día y horario que elijas.
 
 Lo mejor es verlo en persona: coordiná tu visita al salón el día y horario que prefieras.
 

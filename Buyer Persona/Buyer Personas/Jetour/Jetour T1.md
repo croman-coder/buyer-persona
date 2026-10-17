@@ -6,7 +6,7 @@ age_range: 65+
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-03'
+created: '2026-10-17'
 tags:
 - buyer-persona
 - marketing
@@ -19,24 +19,24 @@ tags:
 # Jetour T1
 
 > [!note]- Cómo leer esta ficha
-> **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (clics por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-05 → 2026-10-03 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
-> **Edad y género son de quién hace clic en los anuncios**, no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
+> **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
+> **Ventanas de cada fuente:** Meta 2026-07-19 → 2026-10-17 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
 > Glosario y detalle de cada bloque: [[📘 Manual Buyer Persona]], sección 3.
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 65+ (36.3% de los clics) · perfil propio del modelo
-- **Género predominante:** Masculino (56.5%)
+- **Edad:** 65+ (32.7% de los contactos) · perfil propio del modelo
+- **Género predominante:** Masculino (67.5%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-05 → 2026-10-03 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-19 → 2026-10-17 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Jetour T1`
 - **Marca:** [[Comprador Jetour|Jetour]]
 - **Tipo de vehículo:** SUV
 - **Ventas reales (ERP):** 178 unidades desde 2018 · últimos 12 meses: 162 · últimos 90 días: 42
-- **Pauta real (90 días):** 119 anuncios (69 activos)
+- **Pauta real (90 días):** 120 anuncios (70 activos)
 - **Brecha pauta/venta:** equilibrado ⚖️ — 13.5% de las ventas de la marca (12 meses) vs 14.0% de sus anuncios (ERP hasta 2026-09-11)
   _Cómo se decide: **sub-pautado** si el modelo pone ≥5 % de las ventas de la marca y tiene menos de la mitad de anuncios que de ventas (escalar); **sobre-pautado** si pone ≥5 % de los anuncios y vende menos de la mitad de eso (revisar); **equilibrado** si no pasa ninguna de las dos._
 - **Ticket promedio (ERP, facturado):** USD 30,645
@@ -44,33 +44,35 @@ tags:
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 42,9 % de los clics pero, viendo el mismo anuncio, contactan 0,84× lo que ellos (menos en 7 de 10 conjuntos): **ella investiga y él da el paso**.
+- **Meta:** ellas son el 41,8 % de los clics pero, viendo el mismo anuncio, contactan 0,87× lo que ellos (menos en 7 de 11 conjuntos): **ella investiga y él da el paso**.
+- **Lo que más las atrae:** anuncios de *probar antes de comprar (test drive)* (45,1 % de mujeres contra 37,5 % del modelo).
+- **Lo que más atrae a los mayores de 55:** *probar antes de comprar (test drive)* (75,6 % contra 59,7 % del modelo).
 - **Quién paga (ERP, 12 meses):** el 15,9 % de sus 151 ventas a cliente final las facturó una empresa.
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — Jetour]]
 
 ## 👤 Demografía
 
-_Qué es: quién hace clic en los anuncios de este público, por edad y género. De dónde sale: Meta, desglose por anuncio, ponderado por clics. No es quién compró: eso el ERP no lo registra._
+_Qué es: quién contacta por los anuncios de este público (deja sus datos o escribe), por edad y género. De dónde sale: Meta, desglose por anuncio, ponderado por contactos; con pocos contactos, por clics, y la ficha lo avisa. No es quién compró: eso el ERP no lo registra._
 
 - **Rango de edad:** 65+
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** anuncios de Meta que nombran a **Jetour T1** (20,987 clics en la ventana), ponderado por clics — Masculino 56.5%
-- **Distribución de edad (Meta):** 65+: 36.3%, 35-44: 16.2%, 55-64: 15.3%, 25-34: 12.9%, 45-54: 12.2%, 18-24: 7.1%
+- **Fuente edad/género:** anuncios de Meta que nombran a **Jetour T1** (1,292 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 67.5%
+- **Distribución de edad (Meta):** 65+: 32.7%, 35-44: 20.6%, 45-54: 16.6%, 25-34: 13.5%, 55-64: 12.7%, 18-24: 3.9%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
 
 _Qué es: los temas que aparecen en los anuncios que este público ve y clickea. No son intereses declarados (Meta dejó de exponerlos en 2021): es con qué le estamos hablando y qué responde. El % es la parte de los anuncios que toca cada tema._
 
-**Intereses observados** (119 anuncios reales leídos):
-- Tecnología y conectividad · 60.5% de los anuncios
-- Diseño y estatus · 31.1% de los anuncios
-- Autos eléctricos y ahorro de combustible · 29.4% de los anuncios
-- Financiación en cuotas · 29.4% de los anuncios
-- Garantía y respaldo posventa · 22.7% de los anuncios
-- Probar antes de comprar (test drive) · 16.8% de los anuncios
+**Intereses observados** (120 anuncios reales leídos):
+- Tecnología y conectividad · 60.0% de los anuncios
+- Diseño y estatus · 30.8% de los anuncios
+- Autos eléctricos y ahorro de combustible · 30.0% de los anuncios
+- Financiación en cuotas · 30.0% de los anuncios
+- Garantía y respaldo posventa · 22.5% de los anuncios
+- Probar antes de comprar (test drive) · 16.7% de los anuncios
 
 _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, para no tener el mismo número dos veces._
 
@@ -81,7 +83,7 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **NSE estimado:** C+ (medio-alto)
 - **Señales que se usaron:**
   - ticket promedio USD 30,645 (gama media-alta)
-  - 26.0% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 25.7% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -110,7 +112,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!warning] 🔴 Dolores y Frustraciones
 
-> _De dónde sale: del texto de 119 anuncios reales de este modelo. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
+> _De dónde sale: del texto de 120 anuncios reales de este modelo. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
 >
 > - Compara el valor de la cuota mensual, no solo el precio de lista
 > - Necesita espacio y capacidad suficiente para uso familiar
@@ -138,30 +140,30 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Mensaje clave:** Enfoca la comunicación en 'Jetour T1'.
 > **Canales:** Prioriza Showroom.
 > **Oferta:** la planilla de acciones comerciales cargada es de septiembre y ya venció (último dato: descuento hasta USD 1,500). No usar el descuento en el copy hasta cargar la de este mes.
-> **Formato:** Reels/Stories (video vertical corto) concentra el 59.2% de las impresiones reales — priorizá ese formato en las piezas nuevas.
-> **Públicos hoy:** los 258 adsets activos van a público frío (255 con Advantage+). Sumar retargeting (formulario abierto sin enviar, visitantes web) y la base de compradores del ERP.
-> **Presupuesto sugerido:** ~USD 559/mes (hoy ~USD 579/mes según su peso en anuncios) → ~294 leads/mes al CPL actual de la marca (USD 1.9).
-> _Base del cálculo: 13.5% de las ventas de la marca sobre USD 4,139/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Formato:** Para la próxima pauta de formularios: **imagen (gráfica)**, que trajo el lead más barato en campañas comparables y se repitió mes a mes. En el mismo conjunto, sumar el carrusel para seguir comparando. Detalle: [[🎬 Materiales que funcionan — Jetour]].
+> **Públicos hoy:** los 263 adsets activos van a público frío (260 con Advantage+). Sumar retargeting (formulario abierto sin enviar, visitantes web) y la base de compradores del ERP.
+> **Presupuesto sugerido:** ~USD 545/mes (hoy ~USD 565/mes según su peso en anuncios) → ~332 leads/mes al CPL actual de la marca (USD 1.64).
+> _Base del cálculo: 13.5% de las ventas de la marca sobre USD 4,036/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
-> **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
+> **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
 
 > [!quote] 📥 Leads reales del formulario de Meta — Jetour (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 6,532
-> **Pidieron este modelo:** 8 de esos leads (0.1 %)
-> **Modelos más pedidos (toda la marca):** T1 Phev (8), X70 (2), T2 Phev (1)
-> **Ciudad:** Asunción (341), Ciudad del Este (136), Luque (66)
+> **Total de leads de la marca en la ventana:** 7,388
+> **Pidieron este modelo:** 21 de esos leads (0.3 %)
+> **Modelos más pedidos (toda la marca):** X50 (101), X70 (53), Dashing (31)
+> **Ciudad:** Asunción (458), Ciudad del Este (175), Luque (78)
 > **Interés de compra:** nececito saber como es el plan de 330c ds por mes (1), Colonia Mayor Otaño (1), solo_estoy_averiguando (1)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Jetour (90 días)
 
-> **Leads:** 4,295 → **convertidos:** 17 (0.4%)
-> **Por canal:** Meta madre 2,080, Meta asesores 2,001, Otros canales 214
-> **Deals:** 52 — ganados 1, perdidos 5, en proceso 46 (win rate 16.7%)
-> **Monto ganado:** USD 0 · ticket promedio USD 0
+> **Leads:** 5,651 → **convertidos:** 27 (0.5%)
+> **Por canal:** Meta madre 2,730, Meta asesores 2,702, Otros canales 219
+> **Deals:** 139 — ganados 15, perdidos 12, en proceso 112 (win rate 55.6%)
+> **Monto ganado:** USD 326,930 · ticket promedio USD 21,795
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
 
@@ -173,7 +175,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > - MAZDA CX-5 CORE FULL 2WD — USD 31,990 (+0%) · Grupo Garden
 > - MG EHS HS PHEV LUXURY — USD 31,500 (-2%) · Condor
 > - SSANGYONG KGM TORRES Limited — USD 32,500 (+2%) · Automotor
-> - VOLKSWAGEN TAOS Highline — USD 32,900 (+3%) · Diesa
+> - VOLKSWAGEN TAOS Comfortline — USD 32,500 (+2%) · Diesa
 > - GAC EMKOO GL 2.0 HEV AT (2026) — USD 30,990 (-3%) · De La Sobera
 > - ICAUR 03T REEV Luxury — USD 32,990 (+3%) · Grupo Garden
 > **Solapa con modelos propios:** GWM NEW HAVAL H6 (-3%), MITSUBISHI ECLIPSE CROSS (-3%), ZEEKR X (+9%), RENAULT BOREAL (-12%)
@@ -182,7 +184,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!info] 📦 Stock, oferta y objetivos — uso interno
 
-> **Stock al 18-09:** 40 unidades (35 disponibles, 0 en viaje, 7 con propuesta) · 72 días promedio en stock.
+> **Stock al 18-09:** 40 unidades (35 disponibles, 0 en viaje, 7 con propuesta) · 86 días promedio en stock.
 > **Precio de lista (2026-09, planilla vencida):** USD 27,990 a 35,990 en 3 versión(es) · descuento hasta USD 1,500 (vencido) · ritmo 12 unidades/mes.
 > **Negociaciones abiertas del modelo:** 1 (2026-09 semana 1).
 > **Objetivo de la marca (según el ERP):** mes 10/2026: 0 de 106 (0.0%) · acumulado 2026: 882 de 991 (89.0%) · anual 1205 unidades. Ventas cargadas hasta 2026-09-11: lo vendido después de esa fecha todavía no cuenta acá.
@@ -200,7 +202,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-03 12:34*
+*Generado el 2026-10-17 06:44*
 
 ## 🔗 Contenido Relacionado
 

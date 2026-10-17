@@ -1,5 +1,5 @@
 ---
-created: 2026-10-03
+created: 2026-10-17
 type: moc
 tags:
   - buyer-persona
@@ -9,157 +9,157 @@ tags:
 
 # 🗺️ Buyer Personas - Mapa de Contenidos
 
-> Generado el **2026-10-03 12:34** con **97** perfiles, agrupados por marca.
+> Generado el **2026-10-17 06:44** con **97** perfiles, agrupados por marca.
 
-> **Período:** Meta 2026-07-05 → 2026-10-03 · ERP 2018-07-03 → 2026-09-11
+> **Período:** Meta 2026-07-19 → 2026-10-17 · ERP 2018-07-03 → 2026-09-11
 
 ## [[Renault]]
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Comprador Renault]] | 35-44 | Masculino 77.7% | marca | | | | |
-| [[Renault Kwid]] | 35-44 | Masculino 74.9% | modelo | 83 | 135 | ⚖️ equilibrado | USD 832 |
-| [[Renault Master]] | 35-44 | Masculino 71.0% | modelo | 76 | 111 | ⚖️ equilibrado | USD 763 |
-| [[Renault Koleos]] | 25-34 | Masculino 69.6% | modelo | 57 | 96 | ⚖️ equilibrado | USD 571 |
-| [[Renault Kardian]] | 18-24 | Masculino 62.9% | modelo | 28 | 124 | ⚖️ equilibrado | USD 281 |
-| [[Renault Oroch]] | 35-44 | Masculino 82.9% | modelo | 24 | 79 | ⚖️ equilibrado | USD 241 |
-| [[Renault Duster]] | 35-44 | Masculino 77.7% | marca | 11 | 96 | 🔴 sobre-pautado | USD 109 |
-| [[Renault Boreal]] | 35-44 | Masculino 66.5% | modelo | 4 | 17 | ⚖️ equilibrado | USD 40 |
-| [[Renault Arkana]] | 35-44 | Masculino 77.7% | marca | 2 | 33 | ⚖️ equilibrado | USD 20 |
-| [[Renault Clio]] | 35-44 | Masculino 77.7% | marca | 1 | 29 | ⚖️ equilibrado | USD 9 |
-| [[Renault Kangoo]] | 35-44 | Masculino 77.7% | marca | 242 | 26 | ⚖️ equilibrado | — |
-| [[Renault Captur]] | 35-44 | Masculino 77.7% | marca | 154 | 0 | ⚖️ equilibrado | — |
-| [[Renault Stepway]] | 35-44 | Masculino 77.7% | marca | 125 | 0 | ⚖️ equilibrado | — |
-| [[Renault Logan]] | 35-44 | Masculino 77.7% | marca | 21 | 0 | ⚖️ equilibrado | — |
+| [[Comprador Renault]] | 35-44 | Masculino 74.3% | marca | | | | |
+| [[Renault Kwid]] | 25-34 | Masculino 79.0% | modelo | 83 | 135 | ⚖️ equilibrado | USD 775 |
+| [[Renault Master]] | 35-44 | Masculino 80.5% | modelo | 76 | 117 | ⚖️ equilibrado | USD 711 |
+| [[Renault Koleos]] | 35-44 | Masculino 69.1% | modelo | 57 | 109 | ⚖️ equilibrado | USD 532 |
+| [[Renault Kardian]] | 35-44 | Masculino 74.3% | marca | 28 | 124 | ⚖️ equilibrado | USD 262 |
+| [[Renault Oroch]] | 35-44 | Masculino 79.1% | modelo | 24 | 80 | ⚖️ equilibrado | USD 225 |
+| [[Renault Duster]] | 35-44 | Masculino 74.3% | marca | 11 | 96 | 🔴 sobre-pautado | USD 102 |
+| [[Renault Boreal]] | 35-44 | Masculino 76.9% | modelo | 4 | 21 | ⚖️ equilibrado | USD 37 |
+| [[Renault Arkana]] | 35-44 | Masculino 74.3% | marca | 2 | 33 | ⚖️ equilibrado | USD 19 |
+| [[Renault Clio]] | 35-44 | Masculino 74.3% | marca | 1 | 29 | ⚖️ equilibrado | USD 8 |
+| [[Renault Kangoo]] | 35-44 | Masculino 74.3% | marca | 242 | 26 | ⚖️ equilibrado | — |
+| [[Renault Captur]] | 35-44 | Masculino 74.3% | marca | 154 | 0 | ⚖️ equilibrado | — |
+| [[Renault Stepway]] | 35-44 | Masculino 74.3% | marca | 125 | 0 | ⚖️ equilibrado | — |
+| [[Renault Logan]] | 35-44 | Masculino 74.3% | marca | 21 | 0 | ⚖️ equilibrado | — |
 
 ## [[Jetour]]
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Comprador Jetour]] | 65+ | Masculino 66.5% | marca | | | | |
-| [[Jetour X50]] | 35-44 | Masculino 68.2% | modelo | 291 | 75 | 🟢 sub-pautado | USD 1,002 |
-| [[Jetour Dashing]] | 35-44 | Masculino 70.7% | modelo | 243 | 174 | ⚖️ equilibrado | USD 836 |
-| [[Jetour X70]] | 55-64 | Masculino 62.6% | modelo | 239 | 218 | ⚖️ equilibrado | USD 824 |
-| [[Jetour T2]] | 65+ | Femenino 50.0% | modelo | 219 | 201 | ⚖️ equilibrado | USD 753 |
-| [[Jetour T1]] | 65+ | Masculino 56.5% | modelo | 162 | 119 | ⚖️ equilibrado | USD 559 |
-| [[Jetour G700]] | 65+ | Masculino 65.1% | modelo | 46 | 22 | ⚖️ equilibrado | USD 157 |
-| [[Jetour X90]] | 65+ | Masculino 60.9% | modelo | 43 | 43 | 🔴 sobre-pautado | — |
+| [[Comprador Jetour]] | 35-44 | Masculino 66.6% | marca | | | | |
+| [[Jetour X50]] | 25-34 | Masculino 67.6% | modelo | 291 | 79 | 🟢 sub-pautado | USD 977 |
+| [[Jetour Dashing]] | 35-44 | Masculino 70.6% | modelo | 243 | 174 | ⚖️ equilibrado | USD 815 |
+| [[Jetour X70]] | 65+ | Masculino 63.9% | modelo | 239 | 219 | ⚖️ equilibrado | USD 803 |
+| [[Jetour T2]] | 65+ | Masculino 63.5% | modelo | 219 | 201 | ⚖️ equilibrado | USD 735 |
+| [[Jetour T1]] | 65+ | Masculino 67.5% | modelo | 162 | 120 | ⚖️ equilibrado | USD 545 |
+| [[Jetour G700]] | 65+ | Masculino 50.7% | modelo | 46 | 21 | ⚖️ equilibrado | USD 153 |
+| [[Jetour X90]] | 65+ | Masculino 68.7% | modelo | 43 | 43 | 🔴 sobre-pautado | — |
 
 ## [[Mitsubishi]]
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Comprador Mitsubishi]] | 35-44 | Masculino 87.7% | marca | | | | |
-| [[Mitsubishi L200]] | 35-44 | Masculino 83.9% | modelo | 190 | 94 | ⚖️ equilibrado | USD 1,586 |
-| [[Mitsubishi Montero Sport]] | 35-44 | Masculino 77.5% | modelo | 66 | 53 | ⚖️ equilibrado | USD 551 |
-| [[Mitsubishi Eclipse Cross]] | 35-44 | Masculino 71.1% | modelo | 17 | 42 | 🔴 sobre-pautado | USD 141 |
-| [[Mitsubishi Outlander]] | 35-44 | Masculino 79.5% | modelo | 6 | 24 | 🔴 sobre-pautado | USD 49 |
-| [[Mitsubishi Destinator]] | 35-44 | Masculino 89.8% | modelo | 3 | 15 | 🔴 sobre-pautado | USD 26 |
-| [[Mitsubishi Asx]] | 35-44 | Masculino 87.7% | marca | 74 | 0 | ⚖️ equilibrado | — |
-| [[Mitsubishi Mirage]] | 35-44 | Masculino 87.7% | marca | 50 | 14 | 🔴 sobre-pautado | — |
+| [[Comprador Mitsubishi]] | 35-44 | Masculino 84.8% | marca | | | | |
+| [[Mitsubishi L200]] | 35-44 | Masculino 84.7% | modelo | 190 | 105 | ⚖️ equilibrado | USD 1,603 |
+| [[Mitsubishi Montero Sport]] | 35-44 | Masculino 86.5% | modelo | 66 | 74 | ⚖️ equilibrado | USD 556 |
+| [[Mitsubishi Eclipse Cross]] | 35-44 | Masculino 71.3% | modelo | 17 | 45 | 🔴 sobre-pautado | USD 143 |
+| [[Mitsubishi Outlander]] | 45-54 | Masculino 81.8% | modelo | 6 | 26 | 🔴 sobre-pautado | USD 50 |
+| [[Mitsubishi Destinator]] | 35-44 | Masculino 88.0% | modelo | 3 | 20 | 🔴 sobre-pautado | USD 26 |
+| [[Mitsubishi Asx]] | 35-44 | Masculino 84.8% | marca | 74 | 0 | ⚖️ equilibrado | — |
+| [[Mitsubishi Mirage]] | 35-44 | Masculino 84.8% | marca | 50 | 14 | ⚖️ equilibrado | — |
 
 ## [[GWM]]
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Comprador GWM]] | 35-44 | Masculino 73.4% | marca | | | | |
-| [[GWM Haval H6]] | 25-34 | Masculino 57.8% | modelo | 295 | 230 | ⚖️ equilibrado | USD 1,510 |
-| [[GWM Haval Jolion]] | 25-34 | Masculino 75.9% | modelo | 193 | 165 | ⚖️ equilibrado | USD 989 |
-| [[GWM Poer]] | 25-34 | Masculino 70.1% | modelo | 101 | 112 | ⚖️ equilibrado | USD 517 |
-| [[GWM Tank 400]] | 25-34 | Femenino 50.0% | modelo | 95 | 97 | ⚖️ equilibrado | USD 486 |
-| [[GWM Haval H9]] | 65+ | Femenino 63.1% | modelo | 70 | 48 | ⚖️ equilibrado | USD 356 |
-| [[GWM Wingle]] | 35-44 | Masculino 73.4% | marca | 44 | 12 | 🟢 sub-pautado | USD 227 |
-| [[GWM Tank 300]] | 35-44 | Masculino 63.9% | modelo | 34 | 38 | ⚖️ equilibrado | USD 174 |
-| [[GWM Tank 500]] | 45-54 | Masculino 57.3% | modelo | 19 | 11 | ⚖️ equilibrado | USD 98 |
-| [[GWM Haval H7]] | 65+ | Femenino 52.0% | modelo | 13 | 45 | 🔴 sobre-pautado | USD 67 |
-| [[GWM Ora]] | 25-34 | Masculino 74.2% | modelo | 6 | 53 | 🔴 sobre-pautado | USD 31 |
+| [[Comprador GWM]] | 35-44 | Masculino 78.1% | marca | | | | |
+| [[GWM Haval H6]] | 35-44 | Masculino 73.1% | modelo | 295 | 231 | ⚖️ equilibrado | USD 1,505 |
+| [[GWM Haval Jolion]] | 35-44 | Masculino 80.9% | modelo | 193 | 172 | ⚖️ equilibrado | USD 985 |
+| [[GWM Poer]] | 35-44 | Masculino 82.5% | modelo | 101 | 112 | ⚖️ equilibrado | USD 515 |
+| [[GWM Tank 400]] | 35-44 | Masculino 85.9% | modelo | 95 | 98 | ⚖️ equilibrado | USD 484 |
+| [[GWM Haval H9]] | 65+ | Masculino 65.3% | modelo | 70 | 48 | ⚖️ equilibrado | USD 355 |
+| [[GWM Wingle]] | 35-44 | Masculino 78.1% | marca | 44 | 12 | 🟢 sub-pautado | USD 226 |
+| [[GWM Tank 300]] | 35-44 | Masculino 78.1% | marca | 34 | 38 | ⚖️ equilibrado | USD 173 |
+| [[GWM Tank 500]] | 35-44 | Masculino 78.1% | marca | 19 | 11 | ⚖️ equilibrado | USD 98 |
+| [[GWM Haval H7]] | 65+ | Masculino 64.5% | modelo | 13 | 47 | 🔴 sobre-pautado | USD 67 |
+| [[GWM Ora]] | 35-44 | Masculino 81.2% | modelo | 6 | 53 | 🔴 sobre-pautado | USD 31 |
 
 ## [[Renew]]
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Comprador Renew]] | 35-44 | Masculino 79.1% | marca | | | | |
-| [[Renew Jetour]] | 35-44 | Masculino 76.6% | modelo | 31 | 66 | ⚖️ equilibrado | USD 220 |
-| [[Renew Renault]] | 25-34 | Masculino 76.4% | modelo | 23 | 78 | ⚖️ equilibrado | USD 164 |
-| [[Renew GWM]] | 35-44 | Masculino 81.3% | modelo | 21 | 42 | ⚖️ equilibrado | USD 150 |
-| [[Renew Chevrolet]] | 25-34 | Masculino 76.4% | modelo | 16 | 42 | ⚖️ equilibrado | USD 113 |
-| [[Renew Kia]] | 25-34 | Masculino 76.2% | modelo | 14 | 44 | ⚖️ equilibrado | USD 99 |
-| [[Renew Nissan]] | 65+ | Femenino 52.0% | modelo | 13 | 22 | ⚖️ equilibrado | USD 92 |
-| [[Renew Volkswagen]] | 25-34 | Masculino 90.6% | modelo | 13 | 20 | ⚖️ equilibrado | USD 92 |
-| [[Renew SsangYong]] | 35-44 | Masculino 72.4% | modelo | 10 | 23 | ⚖️ equilibrado | USD 71 |
-| [[Renew Jeep]] | 35-44 | Masculino 70.9% | modelo | 7 | 14 | ⚖️ equilibrado | USD 50 |
-| [[Renew Toyota]] | 35-44 | Masculino 79.1% | marca | 7 | 17 | ⚖️ equilibrado | USD 50 |
-| [[Renew Ford]] | 35-44 | Masculino 88.2% | modelo | 7 | 18 | ⚖️ equilibrado | USD 50 |
-| [[Renew Hyundai]] | 35-44 | Masculino 69.4% | modelo | 6 | 29 | ⚖️ equilibrado | USD 42 |
-| [[Renew Honda]] | 35-44 | Masculino 90.0% | modelo | 6 | 14 | ⚖️ equilibrado | USD 42 |
-| [[Renew JAC]] | 35-44 | Masculino 88.7% | modelo | 6 | 6 | ⚖️ equilibrado | USD 42 |
-| [[Renew Fiat]] | 35-44 | Masculino 64.4% | modelo | 6 | 9 | ⚖️ equilibrado | USD 42 |
-| [[Renew Mini]] | 18-24 | Femenino 61.7% | modelo | 6 | 14 | ⚖️ equilibrado | USD 42 |
-| [[Renew Peugeot]] | 35-44 | Masculino 83.5% | modelo | 5 | 29 | 🔴 sobre-pautado | USD 35 |
-| [[Renew Usados]] | 35-44 | Masculino 83.5% | modelo | 149 | 60 | 🔴 sobre-pautado | — |
-| [[Renew Mitsubishi]] | 35-44 | Masculino 79.1% | marca | 2 | 8 | ⚖️ equilibrado | — |
+| [[Comprador Renew]] | 35-44 | Masculino 80.1% | marca | | | | |
+| [[Renew Jetour]] | 35-44 | Masculino 77.2% | modelo | 31 | 67 | ⚖️ equilibrado | USD 215 |
+| [[Renew Renault]] | 35-44 | Masculino 77.4% | modelo | 23 | 78 | ⚖️ equilibrado | USD 160 |
+| [[Renew GWM]] | 35-44 | Masculino 89.5% | modelo | 21 | 42 | ⚖️ equilibrado | USD 146 |
+| [[Renew Chevrolet]] | 25-34 | Masculino 77.5% | modelo | 16 | 42 | ⚖️ equilibrado | USD 111 |
+| [[Renew Kia]] | 25-34 | Masculino 76.6% | modelo | 14 | 44 | ⚖️ equilibrado | USD 97 |
+| [[Renew Nissan]] | 65+ | Masculino 57.0% | modelo | 13 | 22 | ⚖️ equilibrado | USD 90 |
+| [[Renew Volkswagen]] | 25-34 | Masculino 90.9% | modelo | 13 | 20 | ⚖️ equilibrado | USD 90 |
+| [[Renew SsangYong]] | 45-54 | Masculino 94.0% | modelo | 10 | 23 | ⚖️ equilibrado | USD 70 |
+| [[Renew Jeep]] | 45-54 | Masculino 71.3% | modelo | 7 | 14 | ⚖️ equilibrado | USD 49 |
+| [[Renew Toyota]] | 35-44 | Masculino 80.1% | marca | 7 | 17 | ⚖️ equilibrado | USD 49 |
+| [[Renew Ford]] | 35-44 | Masculino 88.7% | modelo | 7 | 18 | ⚖️ equilibrado | USD 49 |
+| [[Renew Hyundai]] | 35-44 | Masculino 66.0% | modelo | 6 | 29 | ⚖️ equilibrado | USD 41 |
+| [[Renew Honda]] | 35-44 | Masculino 93.1% | modelo | 6 | 14 | ⚖️ equilibrado | USD 41 |
+| [[Renew JAC]] | 35-44 | Masculino 95.7% | modelo | 6 | 6 | ⚖️ equilibrado | USD 41 |
+| [[Renew Fiat]] | 25-34 | Masculino 79.5% | modelo | 6 | 9 | ⚖️ equilibrado | USD 41 |
+| [[Renew Mini]] | 35-44 | Masculino 80.1% | marca | 6 | 14 | ⚖️ equilibrado | USD 41 |
+| [[Renew Peugeot]] | 45-54 | Masculino 84.2% | modelo | 5 | 29 | 🔴 sobre-pautado | USD 34 |
+| [[Renew Usados]] | 35-44 | Masculino 86.4% | modelo | 149 | 61 | 🔴 sobre-pautado | — |
+| [[Renew Mitsubishi]] | 35-44 | Masculino 80.1% | marca | 2 | 8 | ⚖️ equilibrado | — |
 
 ## [[Soueast]]
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Comprador Soueast]] | 35-44 | Masculino 78.9% | marca | | | | |
-| [[Soueast S06]] | 35-44 | Masculino 80.0% | modelo | 143 | 86 | ⚖️ equilibrado | USD 1,732 |
-| [[Soueast S08]] | 35-44 | Masculino 71.9% | modelo | 39 | 44 | ⚖️ equilibrado | USD 472 |
-| [[Soueast S09]] | 35-44 | Masculino 76.0% | modelo | 26 | 42 | ⚖️ equilibrado | USD 315 |
-| [[Soueast S07]] | 35-44 | Masculino 75.3% | modelo | 16 | 37 | 🔴 sobre-pautado | USD 193 |
+| [[Comprador Soueast]] | 35-44 | Masculino 76.9% | marca | | | | |
+| [[Soueast S06]] | 35-44 | Masculino 78.0% | modelo | 143 | 18 | ⚖️ equilibrado | USD 1,653 |
+| [[Soueast S08]] | 35-44 | Masculino 67.7% | modelo | 39 | 5 | ⚖️ equilibrado | USD 451 |
+| [[Soueast S09]] | 35-44 | Masculino 80.5% | modelo | 26 | 7 | ⚖️ equilibrado | USD 301 |
+| [[Soueast S07]] | 35-44 | Masculino 72.3% | modelo | 16 | 6 | 🔴 sobre-pautado | USD 184 |
 
 ## [[JAC]]
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Comprador JAC]] | 35-44 | Masculino 85.3% | marca | | | | |
-| [[JAC X200]] | 35-44 | Masculino 80.2% | modelo | 36 | 63 | ⚖️ equilibrado | USD 571 |
-| [[JAC Sunray]] | 45-54 | Masculino 84.1% | modelo | 17 | 29 | ⚖️ equilibrado | USD 271 |
-| [[JAC LD250]] | 25-34 | Masculino 75.1% | modelo | 17 | 17 | 🟢 sub-pautado | USD 271 |
-| [[JAC T9]] | 35-44 | Masculino 76.7% | modelo | 14 | 95 | 🔴 sobre-pautado | USD 223 |
-| [[JAC T8]] | 35-44 | Masculino 82.6% | modelo | 14 | 42 | ⚖️ equilibrado | USD 223 |
-| [[JAC E30X]] | 35-44 | Masculino 85.2% | modelo | 12 | 37 | ⚖️ equilibrado | USD 189 |
-| [[JAC RF8]] | 35-44 | Masculino 77.0% | modelo | 11 | 53 | ⚖️ equilibrado | USD 175 |
-| [[JAC LD123]] | 35-44 | Masculino 82.7% | modelo | 9 | 14 | ⚖️ equilibrado | USD 144 |
-| [[JAC D8Bs0]] | 35-44 | Masculino 85.3% | marca | 8 | 0 | 🟢 sub-pautado | USD 127 |
-| [[JAC JS4]] | 35-44 | Masculino 70.5% | modelo | 7 | 69 | 🔴 sobre-pautado | USD 110 |
-| [[JAC LE420]] | 35-44 | Masculino 84.6% | modelo | 6 | 7 | ⚖️ equilibrado | USD 96 |
-| [[JAC E-JS1]] | 35-44 | Masculino 85.3% | marca | 0 | 16 | ⚖️ equilibrado | — |
+| [[Comprador JAC]] | 35-44 | Masculino 86.5% | marca | | | | |
+| [[JAC X200]] | 35-44 | Masculino 89.0% | modelo | 36 | 63 | ⚖️ equilibrado | USD 547 |
+| [[JAC Sunray]] | 35-44 | Masculino 87.8% | modelo | 17 | 30 | ⚖️ equilibrado | USD 260 |
+| [[JAC LD250]] | 35-44 | Masculino 87.7% | modelo | 17 | 17 | 🟢 sub-pautado | USD 260 |
+| [[JAC T9]] | 35-44 | Masculino 90.1% | modelo | 14 | 95 | 🔴 sobre-pautado | USD 214 |
+| [[JAC T8]] | 35-44 | Masculino 95.9% | modelo | 14 | 42 | ⚖️ equilibrado | USD 214 |
+| [[JAC E30X]] | 35-44 | Masculino 88.4% | modelo | 12 | 37 | ⚖️ equilibrado | USD 182 |
+| [[JAC RF8]] | 35-44 | Masculino 83.4% | modelo | 11 | 53 | ⚖️ equilibrado | USD 168 |
+| [[JAC LD123]] | 25-34 | Masculino 90.3% | modelo | 9 | 14 | ⚖️ equilibrado | USD 138 |
+| [[JAC D8Bs0]] | 35-44 | Masculino 86.5% | marca | 8 | 0 | 🟢 sub-pautado | USD 122 |
+| [[JAC JS4]] | 35-44 | Masculino 71.1% | modelo | 7 | 69 | 🔴 sobre-pautado | USD 106 |
+| [[JAC LE420]] | 35-44 | Masculino 88.7% | modelo | 6 | 7 | ⚖️ equilibrado | USD 92 |
+| [[JAC E-JS1]] | 35-44 | Masculino 86.5% | marca | 0 | 16 | ⚖️ equilibrado | — |
 
 ## [[JMEV]]
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Comprador JMEV]] | 35-44 | Masculino 88.7% | marca | | | | |
-| [[JMEV EV3]] | 35-44 | Masculino 83.6% | modelo | 41 | 11 | ⚖️ equilibrado | USD 147 |
-| [[JMEV EV2]] | 35-44 | Masculino 88.0% | modelo | 14 | 16 | 🔴 sobre-pautado | USD 50 |
+| [[Comprador JMEV]] | 35-44 | Masculino 85.3% | marca | | | | |
+| [[JMEV EV3]] | 35-44 | Masculino 78.1% | modelo | 41 | 17 | ⚖️ equilibrado | USD 157 |
+| [[JMEV EV2]] | 35-44 | Masculino 86.2% | modelo | 14 | 16 | ⚖️ equilibrado | USD 54 |
 
 ## [[Leapmotor]]
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Comprador Leapmotor]] | 35-44 | Masculino 76.5% | marca | | | | |
-| [[Leapmotor C10]] | 35-44 | Masculino 64.9% | modelo | 9 | 92 | ⚖️ equilibrado | USD 557 |
-| [[Leapmotor T03]] | 35-44 | Masculino 72.6% | modelo | 4 | 63 | ⚖️ equilibrado | USD 247 |
-| [[Leapmotor C16]] | 35-44 | Femenino 79.7% | modelo | 4 | 18 | 🟢 sub-pautado | USD 247 |
-| [[Leapmotor C11]] | 35-44 | Masculino 76.5% | marca | 8 | 43 | 🔴 sobre-pautado | — |
+| [[Comprador Leapmotor]] | 35-44 | Masculino 78.3% | marca | | | | |
+| [[Leapmotor C10]] | 45-54 | Masculino 75.3% | modelo | 9 | 93 | ⚖️ equilibrado | USD 513 |
+| [[Leapmotor T03]] | 35-44 | Masculino 81.2% | modelo | 4 | 63 | ⚖️ equilibrado | USD 228 |
+| [[Leapmotor C16]] | 35-44 | Masculino 78.3% | marca | 4 | 18 | 🟢 sub-pautado | USD 228 |
+| [[Leapmotor C11]] | 35-44 | Masculino 78.3% | marca | 8 | 43 | 🔴 sobre-pautado | — |
 
 ## [[Zeekr]]
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Comprador Zeekr]] | 65+ | Masculino 76.4% | marca | | | | |
-| [[Zeekr X]] | 65+ | Masculino 76.4% | marca | 12 | 51 | ⚖️ equilibrado | USD 555 |
-| [[Zeekr 001]] | 35-44 | Masculino 67.7% | modelo | 4 | 56 | 🔴 sobre-pautado | USD 185 |
-| [[Zeekr 7X]] | 65+ | Masculino 67.2% | modelo | 4 | 21 | ⚖️ equilibrado | USD 185 |
+| [[Comprador Zeekr]] | 65+ | Masculino 72.2% | marca | | | | |
+| [[Zeekr X]] | 45-54 | Masculino 72.3% | modelo | 12 | 60 | ⚖️ equilibrado | USD 513 |
+| [[Zeekr 001]] | 35-44 | Masculino 80.0% | modelo | 4 | 62 | 🔴 sobre-pautado | USD 171 |
+| [[Zeekr 7X]] | 65+ | Masculino 69.1% | modelo | 4 | 21 | ⚖️ equilibrado | USD 171 |
 
 ## [[XPeng]]
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Comprador XPeng]] | 65+ | Masculino 57.5% | marca | | | | |
-| [[XPeng G9]] | 65+ | Masculino 57.5% | modelo | 1 | 25 | ⚖️ equilibrado | USD 914 |
+| [[Comprador XPeng]] | 65+ | Masculino 56.5% | marca | | | | |
+| [[XPeng G9]] | 65+ | Masculino 59.2% | modelo | 1 | 25 | ⚖️ equilibrado | USD 737 |
 
 ## Segmentos (tipo de vehículo)
 

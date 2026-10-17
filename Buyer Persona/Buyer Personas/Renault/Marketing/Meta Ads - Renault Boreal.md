@@ -15,15 +15,15 @@ tags: [marketing, meta-ads]
 - **Edad:** 35-44
 - **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
 - **Zonas:** Asunción
-- **Temas que atraen** (para el creativo, no para segmentar): Tecnología y conectividad, Financiación en cuotas, Probar antes de comprar (test drive), Diseño y estatus, Seguridad y asistencias a la conducción
+- **Temas que atraen** (para el creativo, no para segmentar): Tecnología y conectividad, Seguridad y asistencias a la conducción, Financiación en cuotas, Probar antes de comprar (test drive), Garantía y respaldo posventa
 
 ## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)
-**Opción 1** · 233 caracteres
+**Opción 1** · 236 caracteres
 ```
 🚗 Renault Boreal
 ✅ Tecnología y conectividad para el día a día, según la versión.
+✅ Seguridad y asistencias a la conducción, según la versión.
 ✅ Financiación: planes y formas de pago a tu medida.
-✅ Test drive sin compromiso, el día y horario que elijas.
 
 Coordiná tu test drive sin compromiso 👇
 ```

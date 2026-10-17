@@ -2,12 +2,12 @@
 id: Persona-46
 name: JAC Sunray
 type: buyer-persona
-age_range: 45-54
+age_range: 35-44
 gender: Masculino
 locations:
 - Asunción
 - San Lorenzo
-created: '2026-10-03'
+created: '2026-10-17'
 tags:
 - buyer-persona
 - marketing
@@ -20,57 +20,57 @@ tags:
 # JAC Sunray
 
 > [!note]- Cómo leer esta ficha
-> **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (clics por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-05 → 2026-10-03 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
-> **Edad y género son de quién hace clic en los anuncios**, no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
+> **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
+> **Ventanas de cada fuente:** Meta 2026-07-19 → 2026-10-17 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
 > Glosario y detalle de cada bloque: [[📘 Manual Buyer Persona]], sección 3.
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 45-54 (29.9% de los clics) · perfil propio del modelo
-- **Género predominante:** Masculino (84.1%)
+- **Edad:** 35-44 (30.5% de los contactos) · perfil propio del modelo
+- **Género predominante:** Masculino (87.8%)
 - **Ubicación:** Asunción, San Lorenzo
-- **Período leído:** Meta 2026-07-05 → 2026-10-03 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-19 → 2026-10-17 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `JAC Sunray`
 - **Marca:** [[Comprador JAC|JAC]]
 - **Tipo de vehículo:** Furgoneta
 - **Ventas reales (ERP):** 19 unidades desde 2018 · últimos 12 meses: 17 · últimos 90 días: 5
-- **Pauta real (90 días):** 29 anuncios (13 activos)
-- **Brecha pauta/venta:** equilibrado ⚖️ — 11.3% de las ventas de la marca (12 meses) vs 6.6% de sus anuncios (ERP hasta 2026-09-11)
+- **Pauta real (90 días):** 30 anuncios (10 activos)
+- **Brecha pauta/venta:** equilibrado ⚖️ — 11.3% de las ventas de la marca (12 meses) vs 6.8% de sus anuncios (ERP hasta 2026-09-11)
   _Cómo se decide: **sub-pautado** si el modelo pone ≥5 % de las ventas de la marca y tiene menos de la mitad de anuncios que de ventas (escalar); **sobre-pautado** si pone ≥5 % de los anuncios y vende menos de la mitad de eso (revisar); **equilibrado** si no pasa ninguna de las dos._
 - **Ticket promedio (ERP, facturado):** USD 31,797
 
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 10,1 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,25×).
+- **Meta:** ellas son el 10,7 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,24×).
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — JAC]]
 
 ## 👤 Demografía
 
-_Qué es: quién hace clic en los anuncios de este público, por edad y género. De dónde sale: Meta, desglose por anuncio, ponderado por clics. No es quién compró: eso el ERP no lo registra._
+_Qué es: quién contacta por los anuncios de este público (deja sus datos o escribe), por edad y género. De dónde sale: Meta, desglose por anuncio, ponderado por contactos; con pocos contactos, por clics, y la ficha lo avisa. No es quién compró: eso el ERP no lo registra._
 
-- **Rango de edad:** 45-54
+- **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción, San Lorenzo
-- **Fuente edad/género:** anuncios de Meta que nombran a **JAC Sunray** (3,256 clics en la ventana), ponderado por clics — Masculino 84.1%
-- **Distribución de edad (Meta):** 45-54: 29.9%, 35-44: 26.0%, 55-64: 19.1%, 25-34: 14.8%, 65+: 7.4%, 18-24: 2.8%
+- **Fuente edad/género:** anuncios de Meta que nombran a **JAC Sunray** (545 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 87.8%
+- **Distribución de edad (Meta):** 35-44: 30.5%, 45-54: 29.4%, 25-34: 17.4%, 55-64: 15.0%, 65+: 6.6%, 18-24: 1.1%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
 
 _Qué es: los temas que aparecen en los anuncios que este público ve y clickea. No son intereses declarados (Meta dejó de exponerlos en 2021): es con qué le estamos hablando y qué responde. El % es la parte de los anuncios que toca cada tema._
 
-**Intereses observados** (29 anuncios reales leídos):
-- Trabajo, negocio y carga · 66.7% de los anuncios
-- Garantía y respaldo posventa · 51.9% de los anuncios
-- Familia y espacio · 48.1% de los anuncios
-- Seguridad y asistencias a la conducción · 29.6% de los anuncios
-- Financiación en cuotas · 25.9% de los anuncios
-- Ofertas y promociones · 11.1% de los anuncios
+**Intereses observados** (30 anuncios reales leídos):
+- Trabajo, negocio y carga · 67.9% de los anuncios
+- Garantía y respaldo posventa · 50.0% de los anuncios
+- Familia y espacio · 46.4% de los anuncios
+- Financiación en cuotas · 28.6% de los anuncios
+- Seguridad y asistencias a la conducción · 28.6% de los anuncios
+- Ofertas y promociones · 10.7% de los anuncios
 
 _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, para no tener el mismo número dos veces._
 
@@ -81,7 +81,8 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **NSE estimado:** C (medio)
 - **Señales que se usaron:**
   - ticket promedio USD 31,796 (gama media-alta)
-  - 17.4% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 0% pide financiación en el formulario (1 respuestas)
+  - 16.9% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción, San Lorenzo
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -109,7 +110,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!warning] 🔴 Dolores y Frustraciones
 
-> _De dónde sale: del texto de 27 anuncios reales de este modelo. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
+> _De dónde sale: del texto de 28 anuncios reales de este modelo. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
 >
 > - Necesita justificar el vehículo como inversión productiva, no solo transporte
 > - Necesita espacio y capacidad suficiente para uso familiar
@@ -136,30 +137,31 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Mensaje clave:** Enfoca la comunicación en 'JAC Sunray'.
 > **Canales:** Prioriza Showroom.
 > **Oferta:** la planilla de acciones comerciales cargada es de septiembre y ya venció (último dato: descuento hasta USD 2,000). No usar el descuento en el copy hasta cargar la de este mes.
-> **Formato:** Reels/Stories (video vertical corto) concentra el 55.7% de las impresiones reales — priorizá ese formato en las piezas nuevas.
-> **Públicos hoy:** 97.4% de los adsets activos van a público frío; 2 de 76 adsets usan base propia.
-> **Presupuesto sugerido:** ~USD 271/mes (hoy ~USD 158/mes según su peso en anuncios) → ~117 leads/mes al CPL actual de la marca (USD 2.31).
-> _Base del cálculo: 11.3% de las ventas de la marca sobre USD 2,398/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Formato:** Para la próxima pauta de formularios: **video**, que trajo el lead más barato en campañas comparables y se repitió mes a mes. En el mismo conjunto, sumar la imagen (gráfica) para seguir comparando. Detalle: [[🎬 Materiales que funcionan — JAC]].
+> **Públicos hoy:** 97.0% de los adsets activos van a público frío; 2 de 66 adsets usan base propia.
+> **Presupuesto sugerido:** ~USD 260/mes (hoy ~USD 156/mes según su peso en anuncios) → ~123 leads/mes al CPL actual de la marca (USD 2.11).
+> _Base del cálculo: 11.3% de las ventas de la marca sobre USD 2,299/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
-> **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
+> **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
 
 > [!quote] 📥 Leads reales del formulario de Meta — JAC (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 3,120
+> **Total de leads de la marca en la ventana:** 3,269
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
-> **Modelos más pedidos (toda la marca):** E30 X Electrico (482), X200 (1.500 Kg) (207), Js 4 (147)
-> **Ciudad:** Asunción (460), Ciudad del Este (184), San Lorenzo (125)
-> **Interés de compra:** inmediatamente (254), en_2–3_meses (222), en_1_mes (170)
+> **Modelos más pedidos (toda la marca):** E30 X Electrico (530), X200 (1.500 Kg) (224), Js 4 (152)
+> **Método de pago preferido:** Mabancoriano Roque Alonso (1)
+> **Ciudad:** Asunción (564), Ciudad del Este (227), Luque (152)
+> **Interés de compra:** inmediatamente (247), en_2–3_meses (212), en_1_mes (163)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — JAC (90 días)
 
-> **Leads:** 4,201 → **convertidos:** 12 (0.3%)
-> **Por canal:** Meta madre 3,475, Meta asesores 697, Otros canales 29
-> **Deals:** 60 — ganados 5, perdidos 13, en proceso 42 (win rate 27.8%)
-> **Monto ganado:** USD 180,950 · ticket promedio USD 36,190
+> **Leads:** 4,531 → **convertidos:** 35 (0.8%)
+> **Por canal:** Meta madre 3,635, Meta asesores 855, Otros canales 41
+> **Deals:** 90 — ganados 11, perdidos 16, en proceso 63 (win rate 40.7%)
+> **Monto ganado:** USD 330,910 · ticket promedio USD 30,083
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
 
@@ -191,7 +193,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-03 12:34*
+*Generado el 2026-10-17 06:44*
 
 ## 🔗 Contenido Relacionado
 

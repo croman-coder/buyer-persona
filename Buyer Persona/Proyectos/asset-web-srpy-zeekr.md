@@ -1,14 +1,14 @@
 ---
 estado: activo
-firma: 156d1934f85e076d56509cbf02aad0d19fdaa0c92b821bf21ea674ac0d4cc386
+firma: 1e3b8a4fb39ce5c5aaea72bcb6c11db0f339238fe23dfc6ed7b5e1db99dac746
 git_rama: main
 git_remoto: https://github.com/croman-coder/zeekrweb.git
-git_sin_subir: 1
-git_ultimo_commit: '2026-09-25 7d53209 sitio: evento click_whatsapp a GA4 y parámetro
-  form en generate_lead'
+git_sin_subir: 0
+git_ultimo_commit: '2026-10-13 5877349 fix(chat): nginx no contesta 304 a las páginas
+  (los navegadores con la página vieja nunca recibían el script del chat)'
 hijos: []
 nombre: zeekr
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/ASSET WEB SRPY/zeekr. Sin README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/ASSET WEB SRPY/zeekr
 slug: asset-web-srpy-zeekr
@@ -17,7 +17,7 @@ stack:
 - git
 - web
 tipo: proyecto
-ultima_actividad: '2026-09-25'
+ultima_actividad: '2026-10-13'
 ---
 
 <!-- hermes:inicio -->
@@ -26,10 +26,10 @@ ultima_actividad: '2026-09-25'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-09-25 |
+| Última actividad | 2026-10-13 |
 | Stack | docker, git, web |
 | Rama | main |
-| Último commit | 2026-09-25 7d53209 sitio: evento click_whatsapp a GA4 y parámetro form en generate_lead |
-| Sin subir | 1 |
+| Último commit | 2026-10-13 5877349 fix(chat): nginx no contesta 304 a las páginas (los navegadores con la página vieja nunca recibían el script del chat) |
+| Sin subir | 0 |
 | Ruta | `/home/croman/Escritorio/ASSET WEB SRPY/zeekr` |
 <!-- hermes:fin -->

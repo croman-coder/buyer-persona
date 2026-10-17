@@ -1,9 +1,9 @@
 ---
-estado: dormido
-firma: c3e5bc02bee6ac291a2d1cf0d6f1d4030c194b19ef527c8a6e04419e0b0b6333
+estado: activo
+firma: 37005ae273c4e11f28843629fe96b3479db9c1e0bc4017a5723ddace7b2bcafd
 git_rama: feat/loop-ofertas-subastas-plan-a
 git_remoto: https://github.com/croman-coder/renewweb.git
-git_sin_subir: 3
+git_sin_subir: 5
 git_ultimo_commit: '2026-08-11 2849484 fix: 3 arreglos de la revision final de la
   rama (restos Tarea 4, trim VENDIDO, dedupe imagenes)'
 hijos: []
@@ -20,7 +20,7 @@ stack:
 - node
 - web
 tipo: proyecto
-ultima_actividad: '2026-08-11'
+ultima_actividad: '2026-10-15'
 ---
 
 <!-- hermes:inicio -->
@@ -28,11 +28,11 @@ ultima_actividad: '2026-08-11'
 
 | Campo | Valor |
 | --- | --- |
-| Estado | dormido |
-| Última actividad | 2026-08-11 |
+| Estado | activo |
+| Última actividad | 2026-10-15 |
 | Stack | git, node, web |
 | Rama | feat/loop-ofertas-subastas-plan-a |
 | Último commit | 2026-08-11 2849484 fix: 3 arreglos de la revision final de la rama (restos Tarea 4, trim VENDIDO, dedupe imagenes) |
-| Sin subir | 3 |
+| Sin subir | 5 |
 | Ruta | `/home/croman/Escritorio/ASSET WEB SRPY/renew-usados` |
 <!-- hermes:fin -->

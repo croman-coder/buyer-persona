@@ -15,15 +15,15 @@ tags: [marketing, meta-ads]
 - **Edad:** 35-44
 - **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
 - **Zonas:** Asunción
-- **Temas que atraen** (para el creativo, no para segmentar): Diseño y estatus, Tecnología y conectividad, Probar antes de comprar (test drive), Autos eléctricos y ahorro de combustible, Financiación en cuotas
+- **Temas que atraen** (para el creativo, no para segmentar): Diseño y estatus, Tecnología y conectividad, Autos eléctricos y ahorro de combustible, Probar antes de comprar (test drive), Financiación en cuotas
 
 ## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)
-**Opción 1** · 216 caracteres
+**Opción 1** · 226 caracteres
 ```
 🚗 Zeekr 001
 ✅ Un diseño que se nota en cada detalle.
 ✅ Tecnología y conectividad para el día a día, según la versión.
-✅ Test drive sin compromiso, el día y horario que elijas.
+✅ Consumo y autonomía: te pasamos los datos reales de cada versión.
 
 Coordiná tu test drive sin compromiso 👇
 ```

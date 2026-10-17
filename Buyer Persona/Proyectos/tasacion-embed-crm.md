@@ -8,8 +8,9 @@ git_ultimo_commit: 2026-09-27 235d526 Permitir el embed del CRM (Sarpy) y prefil
   de cliente por URL
 hijos: []
 nombre: tasacion-embed-crm
-resumen: null
-resumen_pendiente: true
+resumen: Proyecto en /home/croman/Escritorio/tasacion-embed-crm. Sin info de lenguaje
+  en README.
+resumen_pendiente: false
 ruta: /home/croman/Escritorio/tasacion-embed-crm
 slug: tasacion-embed-crm
 stack:

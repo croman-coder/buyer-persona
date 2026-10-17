@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: c0ff8dc168880289831e94ea0db93231d759a55674b3a46cffe9c199ab2a7567
+firma: fd503656d6b62199047e0f9388705fea5d48722c3edcc8d78f7b3b7a9253b80b
 git_rama: master
 git_remoto: https://github.com/fercorrea777/Santa-Rosa-Advisor
 git_sin_subir: 2
@@ -8,13 +8,7 @@ git_ultimo_commit: '2026-07-22 e6c6b88 Planes de implementación: rediseño visu
   bot agéntico'
 hijos: []
 nombre: Santa-Rosa-Advisor
-resumen: 'Dashboard de inteligencia comercial sobre el mercado automotor paraguayo
-  para Santa Rosa (datos CADAM/DNRA), en Next.js 16 + TypeScript + Tailwind v4 + ECharts
-  + SQLite, con un pipeline Python (pandas) de ingesta de archivos mensuales en CADAM/scripts.
-  Tiene 12 secciones en producción: rankings, segmentos, propulsión, market share,
-  copiloto con Claude API y centro de inteligencia por reglas. Activo; el último commit
-  documenta planes de rediseño visual y un bot agéntico. Faltan ejecutar esos planes
-  y pushear 2 commits.'
+resumen: null
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/DASHBOARD FERNANDO/Santa-Rosa-Advisor
 slug: dashboard-fernando-santa-rosa-advisor

@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: fe3baad5e70269d1c3247f4ef16b21f3c0f29a4333d879f887c272f6826243b4
+firma: 442daca88760535cdc6fd28c28334258617aa65d58fa848c3fd72ec56c661484
 git_rama: main
 git_remoto: https://github.com/croman-coder/pdi-seguimiento-preentrega.git
 git_sin_subir: 1
@@ -8,13 +8,7 @@ git_ultimo_commit: '2026-09-25 71ddd6a fix(email): el aviso de inicio dice "tras
   cuando es un traslado, no "gestión de despacho"'
 hijos: []
 nombre: PDI PLAINILLA
-resumen: 'Dashboard web (Next.js 14 + Supabase + Tailwind) para el seguimiento de
-  la preentrega de vehículos (PDI) de Santa Rosa Automotores Paraguay, basado en la
-  planilla FO-PE-01: carga dinámica de vehículos, control de avance, priorización
-  automática por fecha de facturación, exportación a Excel y login con roles (admin,
-  operador, lector). Muy activo (v2.36, con 217 tests y verificador de arquitectura
-  propio): el último commit (2026-08-04) agranda títulos y subtítulos, con 10 commits
-  sin subir. Le falta pushear al remoto.'
+resumen: null
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/PDI PLAINILLA
 slug: pdi-plainilla
@@ -22,7 +16,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-10-02'
+ultima_actividad: '2026-10-17'
 ---
 
 <!-- hermes:inicio -->
@@ -31,7 +25,7 @@ ultima_actividad: '2026-10-02'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-02 |
+| Última actividad | 2026-10-17 |
 | Stack | git, node |
 | Rama | main |
 | Último commit | 2026-09-25 71ddd6a fix(email): el aviso de inicio dice "traslado" cuando es un traslado, no "gestión de despacho" |

@@ -1,21 +1,21 @@
 ---
 estado: activo
-firma: d2d093f846ace984af8e5815f1c31992ca4f051f24d9b8fdc17c92f6d8792c6f
+firma: 8c2ae297cede2f79df4cc5f77d88828c3a37ced240dff6bacf497ed5612448df
 git_rama: main
-git_remoto: null
+git_remoto: https://github.com/croman-coder/cerebro-santarosa.git
 git_sin_subir: 0
-git_ultimo_commit: '2026-09-26 03054bb Cerebro: la repetición del análisis arranca
-  sola en la primera visita'
+git_ultimo_commit: '2026-10-16 1191fc0 Cerebro: la configuración del servidor muestra
+  todo el vault (salvo Seguridad)'
 hijos: []
 nombre: AIS-OS
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/AIS-OS. Sin info de lenguaje en README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/AIS-OS
 slug: ais-os
 stack:
 - git
 tipo: proyecto
-ultima_actividad: '2026-10-02'
+ultima_actividad: '2026-10-17'
 ---
 
 <!-- hermes:inicio -->
@@ -24,10 +24,10 @@ ultima_actividad: '2026-10-02'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-02 |
+| Última actividad | 2026-10-17 |
 | Stack | git |
 | Rama | main |
-| Último commit | 2026-09-26 03054bb Cerebro: la repetición del análisis arranca sola en la primera visita |
+| Último commit | 2026-10-16 1191fc0 Cerebro: la configuración del servidor muestra todo el vault (salvo Seguridad) |
 | Sin subir | 0 |
 | Ruta | `/home/croman/Escritorio/AIS-OS` |
 <!-- hermes:fin -->

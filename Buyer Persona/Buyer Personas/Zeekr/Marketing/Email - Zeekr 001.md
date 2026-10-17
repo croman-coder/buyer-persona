@@ -24,7 +24,7 @@ Gracias por tu interés en Zeekr 001. Esto es lo que más nos consultan:
 
 • Un diseño que se nota en cada detalle.
 • Tecnología y conectividad para el día a día, según la versión.
-• Test drive sin compromiso, el día y horario que elijas.
+• Consumo y autonomía: te pasamos los datos reales de cada versión.
 
 Lo mejor es probarlo: coordiná tu test drive el día y horario que prefieras, sin compromiso.
 

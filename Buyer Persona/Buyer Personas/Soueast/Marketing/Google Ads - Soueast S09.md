@@ -20,9 +20,9 @@ tags: [marketing, google-ads]
 | 4 | Concesionario Oficial Soueast | 29 |
 | 5 | Agendá tu Test Drive | 20 |
 | 6 | Respaldo de Posventa Oficial | 28 |
-| 7 | Diseño que se Nota | 18 |
-| 8 | Tecnología y Conectividad | 25 |
-| 9 | Espacio para Toda la Familia | 28 |
+| 7 | Seguridad en Cada Viaje | 23 |
+| 8 | Diseño que se Nota | 18 |
+| 9 | Tecnología y Conectividad | 25 |
 | 10 | S09 0km | 7 |
 | 11 | Versiones y Equipamiento | 24 |
 | 12 | Hablá con un Asesor | 19 |
@@ -33,8 +33,8 @@ tags: [marketing, google-ads]
 |---|---|---|
 | 1 | Soueast S09: cotizá y agendá tu test drive en el concesionario oficial. | 71 |
 | 2 | Service oficial y repuestos originales, con el respaldo de la marca. | 68 |
-| 3 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
-| 4 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
+| 3 | Seguridad y asistencias a la conducción para cuidar a los que viajan con vos. | 77 |
+| 4 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
 
 **URL visible:** `…/S09/Cotizar` (cada tramo, máx. 15 caracteres)
 

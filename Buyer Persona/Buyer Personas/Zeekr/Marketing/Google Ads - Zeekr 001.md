@@ -33,7 +33,7 @@ tags: [marketing, google-ads]
 | 1 | Zeekr 001: cotizá y agendá tu test drive en el concesionario oficial. | 69 |
 | 2 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
 | 3 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
-| 4 | Probalo antes de decidir: coordiná tu test drive en el día y horario que prefieras. | 83 |
+| 4 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
 
 **URL visible:** `…/001/Cotizar` (cada tramo, máx. 15 caracteres)
 

@@ -22,7 +22,7 @@ tags: [marketing, google-ads]
 | 6 | Lista para Trabajar | 19 |
 | 7 | Respaldo de Posventa Oficial | 28 |
 | 8 | Espacio para Toda la Familia | 28 |
-| 9 | Seguridad en Cada Viaje | 23 |
+| 9 | Financiación a tu Medida | 24 |
 | 10 | Sunray 0km | 10 |
 | 11 | Versiones y Equipamiento | 24 |
 | 12 | Hablá con un Asesor | 19 |

@@ -1,5 +1,5 @@
 ---
-estado: dormido
+estado: archivado
 firma: 8da91257951f044bf87025dc1c7ea2a260386b205db31437c351703ec138e3e3
 git_rama: null
 git_remoto: null
@@ -24,7 +24,7 @@ ultima_actividad: '2026-04-11'
 
 | Campo | Valor |
 | --- | --- |
-| Estado | dormido |
+| Estado | archivado |
 | Última actividad | 2026-04-11 |
 | Stack | web |
 | Rama | — |

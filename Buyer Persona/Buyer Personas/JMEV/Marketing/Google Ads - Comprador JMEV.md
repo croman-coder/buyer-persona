@@ -20,12 +20,11 @@ tags: [marketing, google-ads]
 | 5 | Agendá tu Test Drive | 20 |
 | 6 | Eficiencia en Cada Kilómetro | 28 |
 | 7 | Respaldo de Posventa Oficial | 28 |
-| 8 | Tecnología y Conectividad | 25 |
-| 9 | Diseño que se Nota | 18 |
-| 10 | JMEV EV3 | 8 |
-| 11 | JMEV EV2 | 8 |
-| 12 | Hablá con un Asesor | 19 |
-| 13 | Pedí tu Cotización Hoy | 22 |
+| 8 | Diseño que se Nota | 18 |
+| 9 | JMEV EV3 | 8 |
+| 10 | JMEV EV2 | 8 |
+| 11 | Hablá con un Asesor | 19 |
+| 12 | Pedí tu Cotización Hoy | 22 |
 
 ## Descripciones (hasta 4 · máx. 90 caracteres)
 | # | Descripción | Caract. |
@@ -33,7 +32,7 @@ tags: [marketing, google-ads]
 | 1 | Conocé la gama JMEV en el concesionario oficial. Pedí tu cotización hoy. | 72 |
 | 2 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
 | 3 | Service oficial y repuestos originales, con el respaldo de la marca. | 68 |
-| 4 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
+| 4 | Probalo antes de decidir: coordiná tu test drive en el día y horario que prefieras. | 83 |
 
 **URL visible:** `…/JMEV/Modelos` (cada tramo, máx. 15 caracteres)
 

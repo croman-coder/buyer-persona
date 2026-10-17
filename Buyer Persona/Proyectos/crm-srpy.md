@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 9f2abc6e8bb0893aeca81e91a6ffa64ac8c9a2fc23360734ad01637b19b6f9ad
+firma: 04c17ac53fcbb2057b867357a095d4d5c703f6a4414cae8aec5161cf42f0ccf0
 git_rama: null
 git_remoto: null
 git_sin_subir: null
@@ -14,7 +14,7 @@ ruta: /home/croman/Escritorio/CRM SRPY
 slug: crm-srpy
 stack: []
 tipo: cajon
-ultima_actividad: '2026-09-30'
+ultima_actividad: '2026-10-12'
 ---
 
 <!-- hermes:inicio -->
@@ -23,7 +23,7 @@ ultima_actividad: '2026-09-30'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-09-30 |
+| Última actividad | 2026-10-12 |
 | Stack | — |
 | Rama | — |
 | Último commit | — |

@@ -76,6 +76,55 @@ def test_cruce():
     assert "Por marca" in texto and "Soueast" in texto and "ANA" not in texto and "BRUNO" not in texto
 
 
+def test_ventas_por_anuncio():
+    """La nota de materiales necesita leads y ventas por anuncio: solo conteos, sin datos de personas."""
+    def lead(nombre, tel, fecha, campana, anuncio):
+        campos = [{"name": "full_name", "values": [nombre]}, {"name": "phone_number", "values": [tel]}]
+        return claves_de_lead({"created_time": f"{fecha}T10:00:00+0000", "field_data": campos, "campaign_id": campana,
+                               "ad_id": anuncio, "is_organic": False}, "Soueast")
+    leads = [lead("Ana Pérez", "0981111222", "2026-08-01", "1", "A1"),
+             lead("Luis Mora", "0981555666", "2026-08-02", "1", "A1"),
+             lead("Bruno Gómez", "0981777888", "2026-08-05", "2", "B2")]     # campaña de Renault
+    ventas = _ventas([("2026-09-05", "Soueast", "ANA PEREZ", "0981111222", "", "persona"),
+                      ("2026-09-10", "Soueast", "BRUNO GOMEZ", "0981777888", "", "persona")])
+    r = cruzar(ventas, leads, CAMPANAS)
+    assert r["por_anuncio"] == {"A1": {"leads": 2, "ventas": 1, "ventas_otra_marca": 0},
+                                "B2": {"leads": 1, "ventas": 0, "ventas_otra_marca": 1}}
+
+
+
+def test_atribuciones_para_el_tablero():
+    """ROI Pauta del tablero de Meta necesita saber QUÉ lead compró: su ID de Meta, sin datos de la persona."""
+    def lead(id_, nombre, tel, fecha, campana):
+        campos = [{"name": "full_name", "values": [nombre]}, {"name": "phone_number", "values": [tel]}]
+        return claves_de_lead({"id": id_, "created_time": f"{fecha}T10:00:00+0000", "field_data": campos,
+                               "campaign_id": campana, "is_organic": False}, "Soueast")
+    leads = [lead("111", "Ana Pérez", "0981111222", "2026-08-01", "1"),
+             lead("222", "Bruno Gómez", "", "2026-08-05", "2"),
+             lead("333", "Otra Persona", "0981000000", "2026-06-01", "1")]   # abre la ventana: se evalúa desde el 01-07
+    assert leads[0]["meta_lead_id"] == "111"
+    ventas = _ventas([("2026-08-20", "Soueast", "ANA MARIA PEREZ", "+595 981 111222", "", "persona"),
+                      ("2026-08-25", "XPeng", "BRUNO ALEJANDRO GOMEZ ROJAS", "", "", "persona")])
+    atribuciones = []
+    r = cruzar(ventas, leads, CAMPANAS, atribuciones=atribuciones)
+    assert sorted(atribuciones, key=lambda a: a["meta_lead_id"]) == [
+        {"meta_lead_id": "111", "fecha_lead": "2026-08-01", "fecha_venta": "2026-08-20", "marca": "SOUEAST",
+         "modelo": "Soueast X", "evidencia": "contacto", "dias": 19},
+        {"meta_lead_id": "222", "fecha_lead": "2026-08-05", "fecha_venta": "2026-08-25", "marca": "XPENG",
+         "modelo": "XPeng X", "evidencia": "nombre", "dias": 20}]
+    assert "atribuciones" not in r, "no va al JSON de la corrida"
+    texto = repr(atribuciones)
+    for crudo in ("Ana", "ANA", "PEREZ", "BRUNO", "0981", "111222"):
+        assert crudo not in texto, crudo
+
+
+def test_sin_id_de_meta_no_hay_atribucion():
+    leads = [_lead("Ana Pérez", "0981111222", "", "2026-08-01", "1"), _lead("Otra Persona", "0981000000", "", "2026-06-01", "1")]
+    ventas = _ventas([("2026-08-20", "Soueast", "ANA PEREZ", "0981111222", "", "persona")])
+    atribuciones = []
+    r = cruzar(ventas, leads, CAMPANAS, atribuciones=atribuciones)
+    assert r["por_marca"]["Soueast"]["con_meta"] == 1 and atribuciones == [], "la venta cuenta en los totales, pero sin ID no hay atribución"
+
 if __name__ == "__main__":
     pruebas = [v for k, v in dict(globals()).items() if k.startswith("test_")]
     for t in pruebas:

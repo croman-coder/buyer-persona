@@ -1,7 +1,7 @@
 ---
 type: anuncio-meta
 cuenta: "Mitsubishi"
-estado: "Con problemas en Meta"
+estado: "Activo"
 revisar: "—"
 riesgo_comparativa: 0.04
 oferta: "Lanzamiento o preventa"
@@ -21,10 +21,7 @@ tags:
 
 # Nuevo anuncio de Clientes potenciales
 
-> [!danger] Con problemas en Meta
-> Meta frenó este aviso o le encontró un problema. El motivo está en el Administrador de anuncios.
-
-**Cuenta:** Mitsubishi · **Estado:** Con problemas en Meta · **Botón:** Enviar WhatsApp
+**Cuenta:** Mitsubishi · **Estado:** Activo · **Botón:** Enviar WhatsApp
 
 | Qué miró la IA | Resultado |
 |---|---|

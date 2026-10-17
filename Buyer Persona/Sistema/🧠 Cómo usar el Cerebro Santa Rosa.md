@@ -1,7 +1,7 @@
 ---
 type: instructivo
 created: 2026-09-22
-updated: 2026-09-22
+updated: 2026-10-08
 tags: [buyer-persona, sistema, cerebro, instructivo]
 ---
 
@@ -16,13 +16,14 @@ Cada punto del globo es **una nota** de este vault. Las líneas entre puntos son
 
 Los puntos más grandes son las notas más conectadas — suelen ser los mapas y los índices, buenos lugares para empezar.
 
-### Los tres colores
+### Los cuatro colores
 
 | Color | Qué agrupa | En el vault |
 |---|---|---|
 | 🔵 **Buyer Personas** | Quién compra cada modelo: edad, género, zona, nivel socioeconómico estimado, intereses, y los textos de aviso listos para Meta, Google, mail y WhatsApp. Es el grueso del globo. | `Buyer Personas/<Marca>/` |
 | 🟠 **Pauta y competencia** | Las campañas armadas con IA y cómo vienen rindiendo, más el mapa de lo que hace la competencia. | `Campañas/` y `Competencia/` |
 | 🟢 **Sistema y memoria** | Cómo funciona todo esto por dentro y qué fue aprendiendo solo, corrida tras corrida. | `Sistema/` |
+| 🔴 **Fichas técnicas** | Las fichas oficiales de cada modelo (motor, medidas, equipamiento, seguridad, colores), pasadas de los PDF de la marca. Cada marca ve solo las suyas. No cambian con la actualización de cada mañana: se cargan cuando llega una ficha nueva. | `Marcas/<Marca>/` |
 
 ## Moverse por el globo
 
@@ -47,6 +48,7 @@ La búsqueda es lo más rápido, y busca por el **nombre de la nota**. Ejemplos 
 - `Renault` — el índice de la marca y de ahí colgado el resto
 - `Recompra` — la base de clientes de 3 y 4 años para renovar
 - `Memoria` — lo que el sistema viene aprendiendo solo
+- `Gama` — los modelos de la marca, con un enlace a la ficha técnica de cada uno
 
 Escribí el modelo o la marca, no una frase entera. `Koleos` anda; `quién compra el Koleos` no.
 
@@ -65,19 +67,24 @@ Al hacer clic en un punto se abre un panel lateral. De arriba hacia abajo:
 > [!warning] De dónde salen los números
 > La edad, el género y el dispositivo vienen de lo que Meta reporta de nuestros propios avisos: son de **quién hace clic**, no de quién firmó la compra. Las ventas salen del ERP y el embudo del CRM. El nivel socioeconómico es una *estimación* nuestra a partir de precio, financiación, dispositivo y zona: sirve para orientar la pauta, no es un dato declarado por el cliente. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos — el detalle está en [[📘 Manual Buyer Persona]], sección 3.
 
+> [!warning] 🔴 Antes de pasarle a un cliente un dato de una ficha técnica
+> Las fichas técnicas se pasaron con IA desde los PDF oficiales y todavía nadie las revisó una por una. Confirmá el dato con el PDF: el enlace a la carpeta está en [[🚗 Fichas técnicas]] y en la nota «Gama» de cada marca. Las que tienen una duda anotada (un valor corrido, una página ilegible, dos fichas que no coinciden) arrancan con el aviso **«Revisar antes de usar con clientes»**, que dice qué mirar, y en la Gama llevan ⚠️.
+
 > [!tip] 👥 Nuevo: quién mira y quién decide
 > Cada marca tiene una nota **«👥 Quién mira y quién decide — <Marca>»**. Buscala escribiendo `Quién mira` o desde el punto de la marca. Cuenta quién investiga y quién deja el contacto (por género y edad), qué temas de anuncio atraen a cada uno, cuántas compras hace una empresa y quién más aparece en los chats. Al final trae **qué pieza hacer en Meta Ads**, con el texto base, dónde ponerla y cómo medirla. Cada ficha de modelo tiene además un resumen de 3 o 4 líneas, arriba, debajo del resumen principal. Cómo se calcula: [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Manual]].
 
 > [!tip] 📈 Nuevo: cómo usar el Buyer Persona en Meta y en Google, y cuándo juzgar una campaña
 > La sección 4 del [[📘 Manual Buyer Persona#4. Pauta con el Buyer Persona — Meta Ads hoy, Google Ads próximamente|Manual]] explica qué sacar de cada ficha para Meta Ads (hoy) y para Google Ads (próximamente), qué plataforma usar para qué y **cuándo juzgar una campaña**. Lo más importante, con datos de nuestras propias cuentas: la primera semana suele salir más barata de lo que después cuesta, así que se juzga a las 3-4 semanas; y una campaña que arranca al doble del costo de su marca casi nunca se arregla sola.
 
-## Dos botones que vale la pena conocer
+## Tres botones que vale la pena conocer
 
-**«Qué hay acá dentro»** (arriba a la derecha). Te da el inventario: cuántas notas hay de cada categoría y cuáles están quedando viejas o tienen enlaces rotos. Es la forma rápida de ver si algo dejó de actualizarse.
+**«Qué hay acá dentro»** (arriba a la derecha; en pantallas chicas dice «Inventario»). Te da el inventario: cuántas notas hay de cada categoría y cuáles están quedando viejas o tienen enlaces rotos. Es la forma rápida de ver si algo dejó de actualizarse.
 
-**Play demo** (o la tecla `D`). Reconstruye el globo desde una sola idea hasta el mapa completo, en unos 30 segundos. Podés girar y acercar mientras crece. Va siguiendo conexiones reales, *no* el orden en que se escribieron las notas — es para entender cómo se enlaza todo, y queda bien para mostrarlo en una reunión.
+**«Anuncios · Jev»** (arriba a la derecha, en verde). Abre el panel de **Jev**, el modelo que lee cada anuncio de Meta: de qué habla, con qué engancha la primera frase, cómo está armado el texto y qué papel cumple cada frase (gancho, desarrollo, oferta, llamado o letra chica). Cada cuadrado es un anuncio: tocá uno para ver cómo lo leyó. Más abajo está cómo le fue a cada uno en los últimos 90 días —inversión, contactos y costo por contacto— y qué ganchos o temas traen contactos más baratos. Se actualiza todas las mañanas, y cada marca ve solo sus anuncios.
 
-**Cinema** (tecla `C`) esconde los botones y deja solo el globo, para proyectar. Salís con `Esc`.
+**«Ver crecer»** (abajo, o la tecla `D`). Reconstruye el globo desde una sola idea hasta el mapa completo, en unos 30 segundos. Podés girar y acercar mientras crece. Va siguiendo conexiones reales, *no* el orden en que se escribieron las notas — es para entender cómo se enlaza todo, y queda bien para mostrarlo en una reunión.
+
+**«Cine»** (tecla `C`) esconde los botones y deja solo el globo, para proyectar. Salís con `Esc`.
 
 ## Cada cuánto se actualiza
 

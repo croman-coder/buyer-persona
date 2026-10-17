@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 2ae9b50ec0aa69e3849625302236b6748b0e1de28226eb09df8803b6e56dfd75
+firma: c2bbcfc8b5e643efb6984037e8ce05d5a2865de92e8c8ef1d00bb9963469ab2d
 git_rama: main
 git_remoto: git@github-croman:croman-coder/callbots.git
 git_sin_subir: 0
@@ -8,7 +8,7 @@ git_ultimo_commit: '2026-09-29 2f20bf4 chore: make test-api repetible y dejar el
   desde el CRM como puesto en produccion'
 hijos: []
 nombre: CALLBOT
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/CALLBOT. Sin info de lenguaje en README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/CALLBOT
 slug: callbot

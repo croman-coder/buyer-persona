@@ -74,6 +74,11 @@ RANGO_GS = (30_000_000, 2_500_000_000)
 # nada sin él). Chrome tarda ~5 s por página, por eso no va en todos.
 # `marcas` = qué catálogos buscar en ese sitio (una concesionaria multimarca
 # lista varias; buscar todo en todos lados mete ruido).
+# Kia, Chery y Hyundai pasaron a `js: False` el 2026-10-15: el HTML sin
+# renderizar ya trae la gama completa (misma gama con y sin Chrome, medido con
+# este script; ver nota "🔬 REA — Ingeniería inversa"). Kia usaba
+# www.kia.com.py/modelos, que responde 301 a kia.com.py: como subpaginas()
+# compara el host contra la URL configurada, con www no seguía ninguna ficha.
 SITIOS = [
     # ---- propios: publican precio; vigilar lo publicado ----
     {"nombre": "GWM Paraguay",        "url": "https://www.gwm.com.py",        "propio": True,  "js": False, "marcas": ["GWM"]},
@@ -86,10 +91,10 @@ SITIOS = [
     # ---- competencia ----
     {"nombre": "Nissan Paraguay",     "url": "https://www.nissan.com.py",     "propio": False, "js": False, "js_sub": True, "marcas": ["Nissan"]},
     {"nombre": "Nipon (Mitsubishi)",  "url": "https://www.nipon.com.py",      "propio": False, "js": False, "marcas": ["Mitsubishi"]},
-    {"nombre": "Kia Paraguay (Garden)", "url": "https://www.kia.com.py/modelos", "propio": False, "js": True, "marcas": ["Kia"]},
-    {"nombre": "Chery Paraguay (Garden)", "url": "https://www.chery.com.py",  "propio": False, "js": True,  "marcas": ["Chery"]},
+    {"nombre": "Kia Paraguay (Garden)", "url": "https://kia.com.py",          "propio": False, "js": False, "marcas": ["Kia"]},
+    {"nombre": "Chery Paraguay (Garden)", "url": "https://www.chery.com.py",  "propio": False, "js": False, "marcas": ["Chery"]},
     {"nombre": "Geely Paraguay",      "url": "https://geelyparaguay.com",     "propio": False, "js": False, "marcas": ["Geely"]},
-    {"nombre": "Hyundai Paraguay",    "url": "https://www.hyundai.com.py",    "propio": False, "js": True,  "marcas": ["Hyundai"]},
+    {"nombre": "Hyundai Paraguay",    "url": "https://www.hyundai.com.py",    "propio": False, "js": False, "marcas": ["Hyundai"]},
     {"nombre": "Diesa (VW/Honda/BYD)", "url": "https://www.diesa.com.py",     "propio": False, "js": False, "marcas": ["Volkswagen", "Honda", "BYD"]},
     {"nombre": "Toyotoshi (Toyota)",  "url": "https://www.toyotoshi.com.py",  "propio": False, "js": False, "marcas": ["Toyota"]},
     {"nombre": "Automaq (Peugeot/Citroën)", "url": "https://automaq.com.py",  "propio": False, "js": False, "marcas": ["Peugeot", "Citroën"]},

@@ -14,21 +14,25 @@ tags: [marketing, meta-ads]
 - **Edad:** 35-44
 - **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
 - **Zonas:** Asunción
-- **Temas que atraen** (para el creativo, no para segmentar): Autos eléctricos y ahorro de combustible, Garantía y respaldo posventa, Tecnología y conectividad, Diseño y estatus, Probar antes de comprar (test drive)
+- **Temas que atraen** (para el creativo, no para segmentar): Autos eléctricos y ahorro de combustible, Garantía y respaldo posventa, Probar antes de comprar (test drive), Diseño y estatus, Financiación en cuotas
 
 ## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)
-**Opción 1** · 247 caracteres
+**Opción 1** · 240 caracteres
 ```
 🚗 Gama JMEV
 ✅ Consumo y autonomía: te pasamos los datos reales de cada versión.
 ✅ Posventa oficial: service y repuestos originales de la marca.
-✅ Tecnología y conectividad para el día a día, según la versión.
+✅ Test drive sin compromiso, el día y horario que elijas.
 
 Vení a conocer los modelos al salón 👇
 ```
 **Opción 2** · 86 caracteres
 ```
 Toda la gama JMEV en el concesionario oficial. Pedí tu cotización y vení a conocerla 👇
+```
+**Opción 3** · 136 caracteres
+```
+Planes de financiación y formas de pago a tu medida. Escribinos y te pasamos las opciones 👇 Financiación sujeta a aprobación crediticia.
 ```
 
 ## Títulos (hasta 5 · máx. 40 caracteres)

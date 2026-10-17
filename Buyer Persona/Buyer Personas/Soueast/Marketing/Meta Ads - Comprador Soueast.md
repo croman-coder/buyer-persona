@@ -14,14 +14,14 @@ tags: [marketing, meta-ads]
 - **Edad:** 35-44
 - **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
 - **Zonas:** Asunción
-- **Temas que atraen** (para el creativo, no para segmentar): Tecnología y conectividad, Garantía y respaldo posventa, Diseño y estatus, Financiación en cuotas, Autos eléctricos y ahorro de combustible
+- **Temas que atraen** (para el creativo, no para segmentar): Financiación en cuotas, Tecnología y conectividad, Diseño y estatus, Garantía y respaldo posventa, Seguridad y asistencias a la conducción
 
 ## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)
-**Opción 1** · 223 caracteres
+**Opción 1** · 212 caracteres
 ```
 🚗 Gama Soueast
+✅ Financiación: planes y formas de pago a tu medida.
 ✅ Tecnología y conectividad para el día a día, según la versión.
-✅ Posventa oficial: service y repuestos originales de la marca.
 ✅ Un diseño que se nota en cada detalle.
 
 Vení a conocer los modelos al salón 👇
@@ -42,7 +42,7 @@ Planes de financiación y formas de pago a tu medida. Escribinos y te pasamos la
 | 2 | Concesionario Oficial Soueast | 29 |
 | 3 | Conocé la Gama Soueast | 22 |
 | 4 | Pedí tu Cotización | 18 |
-| 5 | Tecnología y Conectividad | 25 |
+| 5 | Financiación a tu Medida | 24 |
 
 **Descripción** (máx. 30): Concesionario oficial · **Botón:** Obtener cotización
 

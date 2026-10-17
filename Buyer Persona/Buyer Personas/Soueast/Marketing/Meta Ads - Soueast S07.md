@@ -15,21 +15,25 @@ tags: [marketing, meta-ads]
 - **Edad:** 35-44
 - **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
 - **Zonas:** Asunción
-- **Temas que atraen** (para el creativo, no para segmentar): Garantía y respaldo posventa, Tecnología y conectividad, Diseño y estatus, Ofertas y promociones, Probar antes de comprar (test drive)
+- **Temas que atraen** (para el creativo, no para segmentar): Diseño y estatus, Tecnología y conectividad, Garantía y respaldo posventa, Financiación en cuotas, Probar antes de comprar (test drive)
 
 ## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)
 **Opción 1** · 224 caracteres
 ```
 🚗 Soueast S07
-✅ Posventa oficial: service y repuestos originales de la marca.
-✅ Tecnología y conectividad para el día a día, según la versión.
 ✅ Un diseño que se nota en cada detalle.
+✅ Tecnología y conectividad para el día a día, según la versión.
+✅ Posventa oficial: service y repuestos originales de la marca.
 
 Coordiná tu test drive sin compromiso 👇
 ```
 **Opción 2** · 101 caracteres
 ```
 Soueast S07 te espera en el concesionario oficial. Probalo antes de decidir: coordiná tu test drive 👇
+```
+**Opción 3** · 136 caracteres
+```
+Planes de financiación y formas de pago a tu medida. Escribinos y te pasamos las opciones 👇 Financiación sujeta a aprobación crediticia.
 ```
 
 ## Títulos (hasta 5 · máx. 40 caracteres)

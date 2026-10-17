@@ -11,7 +11,7 @@ muestra_precio: false
 menciona_cuotas: false
 invita_a_actuar: true
 urgencia: "Sin urgencia"
-boton: "Sin botón"
+boton: "Enviar WhatsApp"
 anuncio: "MASTER - MINIBUS"
 titulo: ""
 ad_id: "6980987634594"
@@ -21,7 +21,7 @@ tags:
 
 # MASTER - MINIBUS
 
-**Cuenta:** Renault · **Estado:** Activo · **Botón:** Sin botón
+**Cuenta:** Renault · **Estado:** Activo · **Botón:** Enviar WhatsApp
 
 | Qué miró la IA | Resultado |
 |---|---|

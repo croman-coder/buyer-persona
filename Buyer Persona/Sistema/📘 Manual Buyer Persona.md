@@ -36,6 +36,7 @@ Buyer Personas/
 │   ├── Comprador <Marca>.md         persona de la marca
 │   ├── <Marca Modelo>.md            una nota por modelo (ej. "Renault Kwid", "Mitsubishi L200")
 │   ├── Audiencias Meta - <Marca>.md públicos ya guardados en Meta
+│   ├── 🎬 Materiales que funcionan — <Marca>.md  imagen, video o carrusel; Reels, Stories o Feed; video corto o largo (4.7)
 │   └── Marketing/                   Meta Ads | Google Ads | Email | WhatsApp - <nota>  (copy listo, legal)
 ├── Segmentos/                    Segmento SUV / Pickup / Hatchback / Furgoneta / Eléctrico / Camión (+ Marketing/)
 ├── Audiencias/                   Semillas Custom Audiences - Ventas Reales · 🔁 Base de Recompra (ERP)
@@ -138,7 +139,8 @@ Lo que muestra la curva, en dos líneas:
                      (+ semilla de compradores reales cuando se active, ver §5)
 3. Mensaje         → Dolores/Motivaciones de la ficha → Marketing/Meta Ads - <modelo>
                      (+ la pieza de «👥 Quién mira y quién decide» de la marca)
-4. Formato         → Estrategia: el placement que concentra las impresiones reales
+4. Formato         → 🎬 Materiales que funcionan — <Marca>: el formato, la duración
+                     y la ubicación que trajeron el resultado más barato (4.7)
 5. Estructura      → pocos conjuntos, cada uno con plata para ~50 resultados por semana
 6. Lanzar PAUSADA  → revisar en Ads Manager, activar a mano
 7. Dejar aprender  → nada de cambios grandes las primeras 2 semanas (4.4)
@@ -226,6 +228,26 @@ Es la continuación natural de lo que pidió Valentina (👥): medir quién avan
 > [!info] Primer paso, desde el 03-10-2026: qué ventas vinieron de Meta
 > [[💰 Ventas que vinieron de Meta]] (uso interno) cruza en cada corrida cada venta del ERP a cliente final con los leads de formulario de Meta de los 120 días anteriores, por teléfono o mail y si no por nombre. Dice cuántas ventas de cada marca tuvieron un lead previo, de qué campaña (de la marca, de un asesor o de otra marca), cuántos días pasaron y el **costo por venta** de cada campaña. Nombre, teléfono y mail se cruzan cifrados y no se guardan: solo totales. Es un piso: desde agosto de 2026 el ERP casi no trae teléfono ni mail, y por nombre la coincidencia es solo probable.
 
+### 4.7 Qué materiales funcionan: gráfica, video, reel o carrusel
+
+Desde el 05-10-2026 cada marca tiene la nota **🎬 Materiales que funcionan — <Marca>**, en su carpeta y enlazada desde el índice de la marca. La arma cada corrida con **los últimos 6 meses de todos los anuncios** de la marca (la cuenta de la marca y las de los asesores), anuncio por anuncio:
+
+| Pregunta | Qué compara |
+|---|---|
+| ¿Imagen (gráfica), video o carrusel? | Costo por resultado, CTR, resultados cada 100 clics y **ventas cada 100 leads** (cruce con el ERP, 4.6) |
+| ¿Reels, Stories o Feed? | Lo mismo por ubicación, y cada formato en cada ubicación |
+| ¿Video corto o largo? ¿Con versión vertical? | Costo y retención: cuántos miran 3 segundos y cuántos lo ven completo |
+| ¿Qué anuncios rindieron? | Los más baratos que el promedio y los que gastaron el doble o más para lo que trajeron |
+
+Arriba, en **Qué dice el historial**, están las conclusiones en una línea cada una y la pieza que conviene probar primero. Reglas para no leer ruido:
+- **Formularios y WhatsApp no se mezclan:** cada uno se compara consigo mismo.
+- Una fila con menos de USD 50 o de 20 resultados queda marcada _(poca muestra)_ y no entra en las conclusiones. Menos de 15 % de diferencia se toma como empate.
+- **Reels es una ubicación, no un formato:** ahí sale cualquier pieza con versión vertical (9:16). Meta reparte solo entre ubicaciones; lo que sirve es tener la pieza en el tamaño que rinde, no forzar una.
+- **Ventas por formato** sale del cruce de [[💰 Ventas que vinieron de Meta]]: es un piso (los chats no se cruzan y el ERP casi no trae teléfono ni mail desde agosto) y con pocas ventas la nota lo dice en vez de elegir.
+- El formato no es lo único que cambia entre anuncios (modelo, oferta, público). Lo que vale es una diferencia grande y que se repite mes a mes.
+
+La comparación entre todas las marcas está en `Sistema/🎬 Materiales Meta — todas las marcas` (uso interno). Datos: `output/raw/materiales_meta_<fecha>.json`.
+
 ## 👥 Quién mira y quién decide
 
 *Desde el 24-09-2026, a pedido de Valentina.* El Buyer Persona describía a un solo actor: el que compra. Pero en la compra de un auto hay más papeles: quien **investiga o influye**, quien **da el paso** (deja el contacto), quien **decide** y quien **paga**. Cada marca tiene ahora una nota **«👥 Quién mira y quién decide — <Marca>»** en su carpeta, y cada ficha de modelo un bloque corto arriba, debajo del resumen.
@@ -293,6 +315,8 @@ Antes de tocar una campaña: público confirmado del modelo → qué cambió →
 | Modelo nuevo | al lanzar | agregarlo en `src/catalog/models_py.py` (nombre + regex) y correr `scripts/validate_model_catalog.py` |
 | Cuenta Meta nueva | al crearla | agregarla a `META_ADS_AD_ACCOUNT_IDS` en `.env` con su etiqueta de marca |
 | Revalidar catálogo | mensual | `venv/bin/python3 scripts/validate_model_catalog.py` |
+| Láminas para el comité | cuando las pidan | `venv/bin/python3 scripts/laminas_comite.py --raw <carpeta con los JSON de la última corrida>`: 7 láminas 1920×1080 (las pruebas con el Buyer Persona y una tarjeta por marca, de a dos) en `output/presentacion/comite_<fecha>/` y la nota en `Sistema/Comité <fecha>/`. En la notebook, copiar antes los JSON del servidor (`output/raw/personas_*`, `materiales_meta_*`, `centro_de_compra_*`, `ventas_meta_*`). |
+| Láminas para el directorio | cuando las pidan | `venv/bin/python3 scripts/laminas_directorio.py --raw <carpeta con los JSON>`: una lámina por marca con quién es, NSE estimado, centro de compra, segmentación y retargeting, intereses, cómo le va, qué funciona y qué hacer, más una de términos y un PDF; quedan en `Sistema/Directorio <fecha>/`. |
 
 Forzar una corrida ahora (servidor): `systemctl --user start buyer-persona-pipeline.service`. Tarda ~25 min. El vault se publica solo por git en la hora siguiente.
 

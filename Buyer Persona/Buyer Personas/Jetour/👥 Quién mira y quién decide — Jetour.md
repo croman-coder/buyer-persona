@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: Jetour
-periodo_meta: 2026-07-05 a 2026-10-03
-created: 2026-10-03
+periodo_meta: 2026-07-19 a 2026-10-17
+created: 2026-10-17
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,12 +12,12 @@ tags:
 # 👥 Quién mira y quién decide — Jetour
 
 > [!summary] En una línea
-> En Meta, ellas son el 37,6 % de los clics y contactan igual que ellos con el mismo anuncio (1,04×). El 25,8 % de las compras a cliente final las factura una empresa.
+> En Meta, ellas son el 36,7 % de los clics y contactan igual que ellos con el mismo anuncio (1,03×). El 25,8 % de las compras a cliente final las factura una empresa. En el 33,3 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
-> 1. **Una pieza para quien acompaña la decisión** — «Respaldo para manejar tranquilos». Detalle en la sección 5.
-> 2. **Una pieza que les hable a ellas, que son las que avanzan** — «Respaldo para manejar tranquilos». Detalle en la sección 5.
-> 3. **Una pieza para quien compra a nombre de su empresa** — «Para tu empresa». Detalle en la sección 5.
+> 1. **Una pieza para quien acompaña la decisión** — «Vengan a probarla juntos». Detalle en la sección 5.
+> 2. **Una pieza para quien compra a nombre de su empresa** — «Para tu empresa». Detalle en la sección 5.
+> 3. **Darle al cliente algo para mostrarle a quien decide con él** — «Compartila con quien decide con vos». Detalle en la sección 5.
 
 > [!question]- Cómo leer esta nota (abrir)
 > - **El Buyer Persona describe a quien compra. Esta nota agrega a los otros papeles**: quien investiga o influye, quien da el paso (deja el contacto) y quien paga.
@@ -29,26 +29,26 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-05** al **2026-10-03**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-19** al **2026-10-17**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **Jetour** | 37,6 % | 33,8 % | **1,04×** | 51 (ellas menos en 22) | Sin diferencia: ellas y ellos contactan igual |
-| [[Jetour X50|Jetour X50]] | 32,7 % | 33,2 % | 1,10× | 17 (ellas menos en 6) | Las que miran, contactan más que ellos |
-| [[Jetour Dashing|Jetour Dashing]] | 29,9 % | 28,3 % | 1,09× | 11 (ellas menos en 2) | Las que miran, contactan más que ellos |
-| [[Jetour T2|Jetour T2]] | 44,9 % | 37,8 % | 0,86× | 11 (ellas menos en 8) | Ellas miran y el contacto lo deja él |
-| [[Jetour T1|Jetour T1]] | 42,9 % | 32,5 % | 0,84× | 10 (ellas menos en 7) | Ellas miran y el contacto lo deja él |
-| [[Jetour X70|Jetour X70]] | 37,5 % | 35,0 % | 0,98× | 9 (ellas menos en 2) | Sin diferencia: ellas y ellos contactan igual |
-| [[Jetour G700|Jetour G700]] | 38,5 % | 45,6 % | 1,31× | 3 (ellas menos en 0) | Las que miran, contactan más que ellos |
+| **Jetour** | 36,7 % | 32,5 % | **1,03×** | 54 (ellas menos en 27) | Sin diferencia: ellas y ellos contactan igual |
+| [[Jetour X50|Jetour X50]] | 33,0 % | 32,4 % | 1,05× | 15 (ellas menos en 7) | Sin diferencia: ellas y ellos contactan igual |
+| [[Jetour T2|Jetour T2]] | 44,1 % | 36,5 % | 0,89× | 10 (ellas menos en 7) | Ellas miran y el contacto lo deja él |
+| [[Jetour Dashing|Jetour Dashing]] | 30,4 % | 27,4 % | 1,01× | 9 (ellas menos en 4) | Sin diferencia: ellas y ellos contactan igual |
+| [[Jetour T1|Jetour T1]] | 41,8 % | 32,5 % | 0,87× | 11 (ellas menos en 7) | Ellas miran y el contacto lo deja él |
+| [[Jetour X70|Jetour X70]] | 38,6 % | 36,1 % | 0,93× | 7 (ellas menos en 2) | Sin diferencia: ellas y ellos contactan igual |
+| [[Jetour G700|Jetour G700]] | 43,2 % | 49,3 % | 1,25× | 2 (ellas menos en 1) | Las que miran, contactan más que ellos |
 | [[Jetour X90|Jetour X90]] | 43,0 % | 31,3 % | 0,60× | 1 (ellas menos en 1) | Misma tendencia, con pocos conjuntos para confirmarlo |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|---|
-| 14,2 % | 17,4 % | 16,8 % | 15,6 % | 8,7 % | 7,8 % |
+| 15,5 % | 19,2 % | 18,2 % | 17,1 % | 9,3 % | 8,5 % |
 
-Los **mayores de 55** hacen clic pero, con el mismo anuncio, contactan 0,71× lo que los menores de 55: miran mucho y el contacto suele dejarlo alguien más joven (o no lo deja). Pieza sugerida: invitarlos a probarla con quien los acompaña.
+Los **mayores de 55** hacen clic pero, con el mismo anuncio, contactan 0,74× lo que los menores de 55: miran mucho y el contacto suele dejarlo alguien más joven (o no lo deja). Pieza sugerida: invitarlos a probarla con quien los acompaña.
 
 ## 2. ¿Qué le interesa a cada uno?
 
@@ -58,22 +58,29 @@ Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema su
 
 | Modelo | Tema del anuncio | Mujeres en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| Jetour Dashing | Garantía y respaldo posventa | 33,1 % | +5,9 | 6.984 (10) |
-| Jetour X50 | Garantía y respaldo posventa | 36,5 % | +5,6 | 15.367 (11) |
-| Jetour X50 | Seguridad y asistencias a la conducción | 36,0 % | +5,1 | 15.461 (6) |
-| Jetour T2 | Probar antes de comprar (test drive) | 44,5 % | +4,2 | 8.008 (17) |
+| Jetour T1 | Probar antes de comprar (test drive) | 45,1 % | +7,6 | 9.351 (11) |
+| Jetour T2 | Probar antes de comprar (test drive) | 46,5 % | +6,8 | 9.282 (15) |
+| Jetour T2 | Garantía y respaldo posventa | 45,8 % | +6,1 | 12.705 (11) |
+| Jetour X50 | Primer auto / primera SUV | 37,2 % | +5,9 | 10.484 (5) |
+| Jetour X50 | Garantía y respaldo posventa | 37,0 % | +5,8 | 15.500 (9) |
+| Jetour Dashing | Garantía y respaldo posventa | 33,4 % | +5,4 | 6.571 (9) |
+| Jetour T2 | Tecnología y conectividad | 44,9 % | +5,3 | 13.495 (19) |
+| Jetour X50 | Probar antes de comprar (test drive) | 36,4 % | +5,2 | 11.718 (7) |
+| Jetour T1 | Autos eléctricos y ahorro de combustible | 42,1 % | +4,7 | 3.698 (16) |
+| Jetour X50 | Seguridad y asistencias a la conducción | 35,4 % | +4,2 | 16.703 (5) |
 
 **Lo que más atrae a los mayores de 55:**
 
 | Modelo | Tema del anuncio | 55+ en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| Jetour T2 | Probar antes de comprar (test drive) | 70,6 % | +12,3 | 8.008 (17) |
-| Jetour X50 | Garantía y respaldo posventa | 32,1 % | +10,9 | 15.367 (11) |
-| Jetour X70 | Garantía y respaldo posventa | 46,9 % | +9,4 | 13.970 (10) |
-| Jetour G700 | Probar antes de comprar (test drive) | 59,3 % | +8,3 | 3.289 (5) |
-| Jetour T2 | Tecnología y conectividad | 66,6 % | +8,2 | 12.240 (23) |
-| Jetour T2 | Garantía y respaldo posventa | 64,8 % | +6,5 | 14.538 (16) |
-| Jetour G700 | Tecnología y conectividad | 57,3 % | +6,3 | 3.041 (4) |
+| Jetour T2 | Probar antes de comprar (test drive) | 73,7 % | +17,2 | 9.282 (15) |
+| Jetour T1 | Probar antes de comprar (test drive) | 75,6 % | +15,9 | 9.351 (11) |
+| Jetour T2 | Tecnología y conectividad | 70,1 % | +13,6 | 13.495 (19) |
+| Jetour T2 | Garantía y respaldo posventa | 69,7 % | +13,2 | 12.705 (11) |
+| Jetour X50 | Garantía y respaldo posventa | 30,4 % | +9,3 | 15.500 (9) |
+| Jetour T1 | Tecnología y conectividad | 67,0 % | +7,3 | 14.277 (36) |
+
+**Lo que menos las atrae** (evitarlo en la pieza para ellas): Jetour Dashing: financiación en cuotas (-7,2).
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -94,9 +101,10 @@ Cuando compra una empresa hay un **comité**: decide el dueño o un gerente, pag
 
 ## 4. ¿Quién más aparece en las conversaciones?
 
-Chats de **Messenger e Instagram** de las páginas de Jetour y de sus asesores, del 2026-06-30 al 2026-09-28. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
+Chats de **Messenger e Instagram** de las páginas de Jetour y de sus asesores, del 2026-07-14 al 2026-10-12. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
 
-- **86** chats con texto del cliente · **0,0 %** nombran a otra persona.
+- **138** chats con texto del cliente · **33,3 %** nombran a otra persona.
+  - empresa o socio: 46
 
 _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más que cuántas veces._
 
@@ -104,35 +112,20 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza para quien acompaña la decisión
 
-**Por qué:** Donde más se nota: Jetour T1 (0,84×), Jetour T2 (0,86×). El tema **garantía y respaldo posventa** es el que más las atrae: en Jetour Dashing, Jetour X50 suma entre 6 y 6 puntos de mujeres sobre el promedio del modelo (hasta 33,1 %).
+**Por qué:** Donde más se nota: Jetour T1 (0,87×), Jetour T2 (0,89×). El tema **probar antes de comprar (test drive)** es el que más las atrae: en Jetour T1, Jetour T2, Jetour X50 suma entre 5 y 8 puntos de mujeres sobre el promedio del modelo (hasta 45,1 %).
 
-**Modelos donde más pesa:** Jetour Dashing, Jetour X50
+**Modelos donde más pesa:** Jetour T1, Jetour T2, Jetour X50
 
 **La pieza (texto base, ajustar al tono de la marca):**
 
-> **Respaldo para manejar tranquilos**
-> Garantía y servicio Santa Rosa: la tranquilidad también se prueba.
+> **Vengan a probarla juntos**
+> Agendá una prueba de manejo para los dos: manejala, sentila en el día a día y decidan juntos.
 
 **Dónde ponerla:** Como un anuncio más dentro del conjunto que ya funciona, con el mismo formulario o WhatsApp. Sin cortar por género ni por edad: con Advantage+ Meta se la muestra a quien responde. No usar la edad sugerida: en Renew dejó sin entrega a las campañas (23-09-2026).
 
 **Cómo medirla:** Ads Manager → Desglose → Por entrega → Edad y Sexo. Tasa de contacto = resultados ÷ clics en el enlace. Éxito: que la tasa de ellas en la pieza nueva se acerque a la de ellos, sin subir el costo por resultado del conjunto. Mirarlo después de 7 días y con al menos 30 resultados.
 
-### 5.2 Una pieza que les hable a ellas, que son las que avanzan
-
-**Por qué:** Ellas son solo el 38,5 % de los clics, pero las que hacen clic contactan 1,31× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan. Más fuerte en Jetour G700 (1,31×).
-
-**Modelos donde más pesa:** Jetour G700
-
-**La pieza (texto base, ajustar al tono de la marca):**
-
-> **Respaldo para manejar tranquilos**
-> Garantía y servicio Santa Rosa: la tranquilidad también se prueba.
-
-**Dónde ponerla:** Como un anuncio más en el conjunto del modelo, con el mismo formulario o WhatsApp. Sin cortar por género: si la pieza les habla, Meta se la muestra más a ellas solo.
-
-**Cómo medirla:** Ads Manager → Desglose → Por entrega → Edad y Sexo: que suba la parte de mujeres en los resultados sin subir el costo por resultado. Mirarlo después de 7 días y con al menos 30 resultados.
-
-### 5.3 Una pieza para quien compra a nombre de su empresa
+### 5.2 Una pieza para quien compra a nombre de su empresa
 
 **Por qué:** El 25,8 % de las compras a cliente final de Jetour las factura una empresa (1161 ventas en 12 meses). Más alto en Jetour G700 (65,2 %), Jetour T2 (41,0 %). Cuando compra una empresa, decide el dueño o un gerente y maneja otro: el mensaje de la persona (familia, estilo) no le habla a quien firma.
 
@@ -147,6 +140,19 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 **Cómo medirla:** Resultados y costo por resultado de la pieza contra el anuncio principal, y en Bitrix/ERP cuántas ventas salen facturadas a empresa. Mirarlo a los 14 días.
 
+### 5.3 Darle al cliente algo para mostrarle a quien decide con él
+
+**Por qué:** En el 33,3 % de los chats de Messenger e Instagram el cliente nombra a otra persona (sobre todo: empresa o socio 46).
+
+**La pieza (texto base, ajustar al tono de la marca):**
+
+> **Compartila con quien decide con vos**
+> Te mandamos la ficha y la cotización para que la vean juntos, y los esperamos a los dos para la prueba.
+
+**Dónde ponerla:** En el mensaje de bienvenida del chat (WhatsApp/Messenger) y en el guion del asesor, no en el anuncio: es el momento en que aparece la otra persona.
+
+**Cómo medirla:** Cuántos chats piden la ficha para compartir y cuántos agendan prueba para dos (Bitrix).
+
 > [!warning] Reglas que no cambian
 > - Por ley, **nunca nombrar marcas ni modelos de la competencia** en los anuncios: solo argumentos propios.
 > - Un cambio por vez, para saber qué movió el resultado.
@@ -160,9 +166,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-05 a 2026-10-03, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-19 a 2026-10-17, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: ventas a cliente final, 2025-09-11 a 2026-09-11.
-- Chats: Messenger e Instagram, lectura semanal (2026-09-28).
-- Generado el 2026-10-03 12:34 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Chats: Messenger e Instagram, lectura semanal (2026-10-12).
+- Generado el 2026-10-17 06:44 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[Jetour|Volver a Jetour]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

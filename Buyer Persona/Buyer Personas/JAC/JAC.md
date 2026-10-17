@@ -1,7 +1,7 @@
 ---
 type: moc-marca
 marca: JAC
-created: 2026-10-03
+created: 2026-10-17
 tags:
   - moc
   - marca/jac
@@ -9,36 +9,44 @@ tags:
 
 # 🚗 JAC
 
-> Generado el **2026-10-03 12:34** · 12 modelos con persona propia.
+> Generado el **2026-10-17 06:44** · 12 modelos con persona propia.
 
 ## 👤 Comprador de la marca
 
 - [[Comprador JAC]]
-- **Inversión Meta:** ~USD 2,398/mes · CPL USD 2.31 · 3,120 leads en la ventana
-- **Públicos:** 97.4% de 76 adsets activos a público frío
+- **Inversión Meta:** ~USD 2,299/mes · CPL USD 2.11 · 3,269 leads en la ventana
+- **Públicos:** 97.0% de 66 adsets activos a público frío
 
 ## 👥 Quién mira y quién decide
 
-- En Meta, ellas son el 17,2 % de los clics y contactan igual que ellos con el mismo anuncio (1,00×).
+- En Meta, ellas son el 17,4 % de los clics y contactan igual que ellos con el mismo anuncio (0,95×).
 - El 46,6 % de las compras a cliente final las factura una empresa.
 - **Qué hacer en Meta Ads y cómo leerlo:** [[👥 Quién mira y quién decide — JAC]]
+
+## 🎬 Materiales que mejor funcionan
+
+- Para la próxima pauta de formularios: **video**, que trajo el lead más barato en campañas comparables y se repitió mes a mes. En el mismo conjunto, sumar la imagen (gráfica) para seguir comparando.
+- **Formularios — formato:** **El video** trae el lead más barato: 31 % menos que la imagen (gráfica) en campañas comparables (marca · volumen: USD 1,88 contra USD 3,04; asesores · volumen: USD 1,31 contra USD 1,36; marca · calidad: USD 1,30 contra USD 1,92; base: 6.147 leads). Se repite: ganó en 3 de 5 meses.
+- **Formularios — Reels, Stories o Feed:** cuesta parecido en las tres (Reels USD 1,97 · Feed USD 2,00 · Stories USD 2,15).
+- **Formularios — duración del video:** Los videos de 16 a 30 s y los videos de 31 a 60 s cuestan parecido en campañas comparables (marca · volumen: USD 1,56 y USD 2,44; asesores · volumen: USD 2,39 y USD 1,01; marca · calidad: USD 0,73 y USD 2,28 por lead): menos de 15 % de diferencia no alcanza para elegir.
+- **Formato, ubicación, duración, mes a mes y mejores anuncios:** [[🎬 Materiales que funcionan — JAC]]
 
 ## 🚘 Modelos
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[JAC X200]] | 35-44 | Masculino 80.2% | modelo | 36 | 63 | ⚖️ equilibrado | USD 571 |
-| [[JAC Sunray]] | 45-54 | Masculino 84.1% | modelo | 17 | 29 | ⚖️ equilibrado | USD 271 |
-| [[JAC LD250]] | 25-34 | Masculino 75.1% | modelo | 17 | 17 | 🟢 sub-pautado | USD 271 |
-| [[JAC T9]] | 35-44 | Masculino 76.7% | modelo | 14 | 95 | 🔴 sobre-pautado | USD 223 |
-| [[JAC T8]] | 35-44 | Masculino 82.6% | modelo | 14 | 42 | ⚖️ equilibrado | USD 223 |
-| [[JAC E30X]] | 35-44 | Masculino 85.2% | modelo | 12 | 37 | ⚖️ equilibrado | USD 189 |
-| [[JAC RF8]] | 35-44 | Masculino 77.0% | modelo | 11 | 53 | ⚖️ equilibrado | USD 175 |
-| [[JAC LD123]] | 35-44 | Masculino 82.7% | modelo | 9 | 14 | ⚖️ equilibrado | USD 144 |
-| [[JAC D8Bs0]] | 35-44 | Masculino 85.3% | marca | 8 | 0 | 🟢 sub-pautado | USD 127 |
-| [[JAC JS4]] | 35-44 | Masculino 70.5% | modelo | 7 | 69 | 🔴 sobre-pautado | USD 110 |
-| [[JAC LE420]] | 35-44 | Masculino 84.6% | modelo | 6 | 7 | ⚖️ equilibrado | USD 96 |
-| [[JAC E-JS1]] | 35-44 | Masculino 85.3% | marca | 0 | 16 | ⚖️ equilibrado | — |
+| [[JAC X200]] | 35-44 | Masculino 89.0% | modelo | 36 | 63 | ⚖️ equilibrado | USD 547 |
+| [[JAC Sunray]] | 35-44 | Masculino 87.8% | modelo | 17 | 30 | ⚖️ equilibrado | USD 260 |
+| [[JAC LD250]] | 35-44 | Masculino 87.7% | modelo | 17 | 17 | 🟢 sub-pautado | USD 260 |
+| [[JAC T9]] | 35-44 | Masculino 90.1% | modelo | 14 | 95 | 🔴 sobre-pautado | USD 214 |
+| [[JAC T8]] | 35-44 | Masculino 95.9% | modelo | 14 | 42 | ⚖️ equilibrado | USD 214 |
+| [[JAC E30X]] | 35-44 | Masculino 88.4% | modelo | 12 | 37 | ⚖️ equilibrado | USD 182 |
+| [[JAC RF8]] | 35-44 | Masculino 83.4% | modelo | 11 | 53 | ⚖️ equilibrado | USD 168 |
+| [[JAC LD123]] | 25-34 | Masculino 90.3% | modelo | 9 | 14 | ⚖️ equilibrado | USD 138 |
+| [[JAC D8Bs0]] | 35-44 | Masculino 86.5% | marca | 8 | 0 | 🟢 sub-pautado | USD 122 |
+| [[JAC JS4]] | 35-44 | Masculino 71.1% | modelo | 7 | 69 | 🔴 sobre-pautado | USD 106 |
+| [[JAC LE420]] | 35-44 | Masculino 88.7% | modelo | 6 | 7 | ⚖️ equilibrado | USD 92 |
+| [[JAC E-JS1]] | 35-44 | Masculino 86.5% | marca | 0 | 16 | ⚖️ equilibrado | — |
 
 _Demo = de dónde sale edad/género: **modelo** (anuncios propios del modelo) o **marca** (heredado, pocos clics propios). Brecha: 🟢 sub-pautado = vende más de lo que se pauta, 🔴 sobre-pautado, 🆕 lanzamiento sin ventas en el ERP aún._
 

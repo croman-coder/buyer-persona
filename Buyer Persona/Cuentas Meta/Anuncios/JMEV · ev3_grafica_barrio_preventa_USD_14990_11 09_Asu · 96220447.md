@@ -1,7 +1,7 @@
 ---
 type: anuncio-meta
 cuenta: "JMEV"
-estado: "Activo"
+estado: "Con problemas en Meta"
 revisar: "—"
 riesgo_comparativa: 0.03
 oferta: "Lanzamiento o preventa"
@@ -21,7 +21,10 @@ tags:
 
 # ev3_grafica_barrio_preventa_USD_14990_11/09_Asu
 
-**Cuenta:** JMEV · **Estado:** Activo · **Botón:** Pedir cotización
+> [!danger] Con problemas en Meta
+> Meta frenó este aviso o le encontró un problema. El motivo está en el Administrador de anuncios.
+
+**Cuenta:** JMEV · **Estado:** Con problemas en Meta · **Botón:** Pedir cotización
 
 | Qué miró la IA | Resultado |
 |---|---|

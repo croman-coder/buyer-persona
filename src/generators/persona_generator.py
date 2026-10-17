@@ -213,7 +213,7 @@ class PersonaGenerator:
         self._placement_by_brand = self._summarize_placements(meta_data.get("placements", []))
 
         # Leads reales agregados por marca (sin PII, ya vienen agregados del conector)
-        self._leads_by_brand = meta_data.get("leads_by_brand", {})
+        self._leads_by_brand = self._con_ciudades_unificadas(meta_data.get("leads_by_brand", {}))
 
         # Custom audiences existentes (para exportar como nota de referencia)
         self.audiences = meta_data.get("audiences", [])
@@ -411,48 +411,88 @@ class PersonaGenerator:
         return None
 
     @staticmethod
+    def _contactos_de_fila(row: dict[str, Any]) -> float:
+        """Contactos (formulario o chat) de una fila del desglose: las filas por anuncio ya los traen sumados
+        (`contactos`); las de cuenta, dentro de `actions`."""
+        if row.get("contactos") is not None:
+            return float(row.get("contactos") or 0)
+        return sum(float(a.get("value", 0) or 0) for a in (row.get("actions") or [])
+                   if a.get("action_type") in PersonaGenerator.CONTACT_ACTIONS)
+
+    @staticmethod
     def _summarize_meta_demographics(rows: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
         """
-        Edad y género dominantes por marca a partir del desglose age+gender
-        de Meta, ponderado por clics (quien interactúa, no solo quien ve).
+        Edad y género dominantes por marca (o por modelo) a partir del desglose age+gender de Meta, ponderado por
+        CONTACTOS (formularios y chats): quien deja sus datos, no quien solo hace clic. Desde el 14-10-2026; antes
+        se pesaba por clics y en Jetour daba «65+» (25 % de los clics, pero 20 % de los contactos: los mayores de 65
+        hacen muchos clics y contactan la mitad). Con menos de MIN_CONTACTOS_DEMO contactos se pesa por clics (o
+        impresiones) y `basis` lo dice.
         """
         gender_label = {"male": "Masculino", "female": "Femenino"}
-        by_brand: dict[str, dict[str, Counter]] = {}
+        by_brand: dict[str, dict[str, Any]] = {}
         for row in rows:
             brand = row.get("account", "")
             if not brand:
                 continue
-            weight = int(row.get("clicks", 0) or 0) or int(row.get("impressions", 0) or 0)
-            if not weight:
-                continue
-            d = by_brand.setdefault(brand, {"age": Counter(), "gender": Counter()})
+            clics = int(row.get("clicks", 0) or 0)
+            por_clics = clics or int(row.get("impressions", 0) or 0)
+            contactos = PersonaGenerator._contactos_de_fila(row)
+            d = by_brand.setdefault(brand, {"age": {"clics": Counter(), "contactos": Counter()},
+                                            "gender": {"clics": Counter(), "contactos": Counter()}, "clicks": 0})
+            d["clicks"] += clics
             if row.get("age") and str(row["age"]).lower() != "unknown":
-                d["age"][str(row["age"])] += weight
+                d["age"]["clics"][str(row["age"])] += por_clics
+                d["age"]["contactos"][str(row["age"])] += contactos
             g = gender_label.get(str(row.get("gender", "")).lower())
             if g:
-                d["gender"][g] += weight
+                d["gender"]["clics"][g] += por_clics
+                d["gender"]["contactos"][g] += contactos
 
         out: dict[str, dict[str, Any]] = {}
         for brand, d in by_brand.items():
-            if not d["age"]:
+            total_contactos = sum(d["age"]["contactos"].values())
+            basis = "contactos" if total_contactos >= PersonaGenerator.MIN_CONTACTOS_DEMO else "clics"
+            ages, genders = d["age"][basis], d["gender"][basis]
+            total_age = sum(ages.values())
+            if not total_age:
                 continue
-            total_age = sum(d["age"].values())
-            top_age, top_w = d["age"].most_common(1)[0]
-            top_gender = d["gender"].most_common(1)[0][0] if d["gender"] else "mixto"
-            gender_share = (
-                round(d["gender"][top_gender] / sum(d["gender"].values()) * 100, 1)
-                if d["gender"] else 0
-            )
+            top_age, top_w = ages.most_common(1)[0]
+            total_gender = sum(genders.values())
+            top_gender = genders.most_common(1)[0][0] if total_gender else "mixto"
+            gender_share = round(genders[top_gender] / total_gender * 100, 1) if total_gender else 0
             out[brand] = {
                 "age_range": top_age,
                 "age_share": round(top_w / total_age * 100, 1),
-                "age_distribution": {k: round(v / total_age * 100, 1) for k, v in d["age"].most_common()},
+                "age_distribution": {k: round(v / total_age * 100, 1) for k, v in ages.most_common() if v > 0},
                 "gender": top_gender,
                 "gender_share": gender_share,
-                "weight": int(total_age),   # clics (o impresiones) que sostienen el perfil
+                "weight": int(round(total_age)),   # contactos (o clics, si no alcanzan) que sostienen el perfil
+                "basis": basis,
+                "clicks": d["clicks"],
+                "contactos": int(round(total_contactos)),
                 "source": "meta",
             }
         return out
+
+    @staticmethod
+    def _elegir_demografia_meta(brand_demo: dict[str, Any], model_demo: dict[str, Any]) -> tuple[dict[str, Any], str]:
+        """
+        (perfil, nivel) de un modelo: el propio si junta lo suficiente (MIN_CONTACTOS_DEMO contactos) y, si no, el de su
+        marca, con la muestra del modelo anotada. Un perfil propio por clics solo se usa si la marca tampoco tiene
+        contactos: no se mezclan las dos medidas.
+        """
+        brand_demo, model_demo = brand_demo or {}, model_demo or {}
+        if model_demo:
+            if model_demo.get("basis") == "contactos":
+                suficiente = model_demo.get("weight", 0) >= PersonaGenerator.MIN_CONTACTOS_DEMO
+            else:
+                suficiente = (brand_demo.get("basis") != "contactos"
+                              and model_demo.get("weight", 0) >= PersonaGenerator.MODEL_DEMO_MIN_CLICKS)
+            if suficiente:
+                return model_demo, "modelo"
+            if brand_demo:
+                return {**brand_demo, "model_sample": model_demo}, "marca"
+        return brand_demo, ("marca" if brand_demo else "")
 
     @staticmethod
     def _attribute_rows_to_models(
@@ -795,18 +835,14 @@ class PersonaGenerator:
         seg_age = seg_stats.get("age", {})
 
         # Demografía real de Meta: primero la del MODELO (anuncios que lo
-        # nombran, mínimo de clics para que sea estadísticamente útil) y, si
-        # no alcanza, la de su marca (se deja constancia del nivel usado).
+        # nombran, con contactos suficientes para que sea útil) y, si no
+        # alcanza, la de su marca (se deja constancia del nivel usado).
         demo_brand = segment.get("brand") if segment.get("type") == "model" else segment.get("name", "")
         meta_demo = self._meta_demo_by_brand.get(demo_brand or "", {})
         meta_level = "marca" if meta_demo else ""
         if segment.get("type") == "model":
-            model_demo = self._meta_demo_by_model.get(segment.get("name", ""), {})
-            if model_demo and model_demo.get("weight", 0) >= self.MODEL_DEMO_MIN_CLICKS:
-                meta_demo = model_demo
-                meta_level = "modelo"
-            elif model_demo:
-                meta_demo = {**meta_demo, "model_sample": model_demo}
+            meta_demo, meta_level = self._elegir_demografia_meta(
+                meta_demo, self._meta_demo_by_model.get(segment.get("name", ""), {}))
         demo_source = "ventas"
 
         # --- Edad predominante ---
@@ -930,6 +966,9 @@ class PersonaGenerator:
     # ------------------------------------------------------------------
 
     MODEL_DEMO_MIN_CLICKS = 100
+    # Edad y género se pesan por contactos (formulario o chat) desde el 14-10-2026; con menos que esto, por clics.
+    MIN_CONTACTOS_DEMO = 30
+    CONTACT_ACTIONS = ("lead", "onsite_conversion.messaging_conversation_started_7d")   # los mismos de MetaAdsConnector
 
     def _observed_interests_for(self, segment: dict[str, Any], brand: str) -> dict[str, Any] | None:
         """Intereses observados: temas de los anuncios que ve el público + modelos que pide en el formulario."""
@@ -982,6 +1021,23 @@ class PersonaGenerator:
             return False
         # También sufijo de 3+ caracteres: "Js 1" es el E-JS1 ("ejs1" termina en "js1").
         return b in a or (len(a) >= 4 and a in b) or (len(a) >= 3 and b.endswith(a))
+
+    @staticmethod
+    def _con_ciudades_unificadas(leads_by_brand: dict[str, Any]) -> dict[str, Any]:
+        """Suma la misma ciudad escrita distinto («Asunción» y «Asuncion») en los conteos de cada marca. Vale también para
+        archivos guardados antes de que el conector las unificara."""
+        from src.connectors.meta_ads_connector import normalizar_ciudad
+        out = {}
+        for marca, agg in (leads_by_brand or {}).items():
+            ciudades = (agg or {}).get("city")
+            if not ciudades:
+                out[marca] = agg
+                continue
+            suma: Counter = Counter()
+            for c, n in ciudades.items():
+                suma[normalizar_ciudad(c) or c] += n
+            out[marca] = {**agg, "city": dict(suma.most_common(10))}
+        return out
 
     def _leads_del_modelo(self, real_leads: dict[str, Any] | None, segment: dict[str, Any], brand: str) -> dict[str, Any] | None:
         """

@@ -32,6 +32,7 @@ Follow these steps in order. Don't skip the confirmation step — a wrong accoun
   | reconocimiento / alcance | `OUTCOME_AWARENESS` |
 
 ### 2. Get the creative ready
+- **Check what has worked for this brand first:** `Buyer Persona/Buyer Personas/<Marca>/🎬 Materiales que funcionan — <Marca>.md` (regenerated daily from the last 6 months of the brand's ads) says which format (image, video, carousel), video length, vertical 9:16 version and placement brought the cheapest result and the most ERP sales. If the user's creative goes against it, say so in the confirmation summary (one line) — don't block, the user decides.
 - If the user gave a flyer as a public URL → pass it as `asset_url` in the ad's `creative.assets`.
 - If it's a local file or they want to browse/generate → use `resources_manage` (action `browse_assets`) to upload first, then use the returned ref/id.
 - Flyers are usually 1:1 or 4:5 (feed) or 9:16 (stories). If the user gives one image, a single-image ad is fine. If they give multiple sizes, pass them all in `assets` (max 10) so Meta picks the best per placement.

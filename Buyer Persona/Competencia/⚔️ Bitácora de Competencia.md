@@ -15,6 +15,23 @@ Relacionado: [[⚔️ Benchmark Competitivo]] · [[⚔️ Battle Cards Modelo vs
 
 <!-- INICIO EVENTOS -->
 
+## 2026-10
+
+- **12/10 12:41** · GWM Paraguay (propio) — GWM Haval Jolion: USD 19.990 → USD 20.990 (+5.0%)
+
+- **06/10 17:21** · Kia Paraguay (Garden) (competencia) — modelo nuevo en la web: Kia Carens, Kia Carnival, Kia EV5, Kia EV9, Kia K2700, Kia K3, Kia Niro, Kia Picanto, Kia Seltos, Kia Soluto, Kia Sonet, Kia Sorento, Kia Sportage, Kia Tasman
+
+- **06/10 11:17** · Kia Paraguay (Garden) (competencia) — ya no lista: Kia Carens, Kia Carnival, Kia EV5, Kia EV9, Kia K2700, Kia K3, Kia Niro, Kia Picanto, Kia Seltos, Kia Soluto, Kia Sonet, Kia Sorento, Kia Sportage, Kia Tasman
+
+- **05/10 17:06** · Kia Paraguay (Garden) (competencia) — modelo nuevo en la web: Kia Carens, Kia Carnival, Kia EV5, Kia EV9, Kia K2700, Kia K3, Kia Niro, Kia Picanto, Kia Seltos, Kia Soluto, Kia Sonet, Kia Sorento, Kia Sportage, Kia Tasman
+
+- **05/10 04:58** · Mitsubishi Paraguay (propio) — modelo nuevo en la web: Mitsubishi Outlander
+- **05/10 04:58** · Mitsubishi Paraguay (propio) — precio publicado Mitsubishi L200: USD 35.990
+- **05/10 04:58** · Mitsubishi Paraguay (propio) — precio publicado Mitsubishi Eclipse Cross: USD 30.990
+- **05/10 04:58** · Mitsubishi Paraguay (propio) — precio publicado Mitsubishi Montero Sport: USD 47.990
+
+- **04/10 16:51** · Mitsubishi Paraguay (propio) — ya no lista: Mitsubishi Outlander
+- **04/10 16:52** · Kia Paraguay (Garden) (competencia) — ya no lista: Kia Carens, Kia Carnival, Kia EV5, Kia EV9, Kia K2700, Kia K3, Kia Niro, Kia Picanto, Kia Seltos, Kia Soluto, Kia Sonet, Kia Sorento, Kia Sportage, Kia Tasman
 ## 2026-09
 
 - **30/09 03:47** · Mitsubishi Paraguay (propio) — modelo nuevo en la web: Mitsubishi Outlander

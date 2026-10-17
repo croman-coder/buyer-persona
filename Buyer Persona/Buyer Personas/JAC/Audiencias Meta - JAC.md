@@ -9,11 +9,11 @@ _18 públicos únicos encontrados en las cuentas de JAC. Reusalos para remarketi
 
 | Audiencia | Tipo | Tamaño aprox. |
 |---|---|---|
-| RMK FB | General (365) | Interacción (IG/FB/anuncios) | 8,400 |
-| JAC | Público 2 | Instagram | Interacción Instagram | 8,000 |
-| RMK IG | General (365) | Interacción Instagram | 7,800 |
-| RMK FORM | Abrió no envió Camiones | 90D | Interacción (IG/FB/anuncios) | 6,600 |
-| RMK FORM | Abrió no envió Utilitarios | 90D | Interacción (IG/FB/anuncios) | 2,000 |
+| RMK FB | General (365) | Interacción (IG/FB/anuncios) | 8,600 |
+| RMK IG | General (365) | Interacción Instagram | 7,600 |
+| JAC | Público 2 | Instagram | Interacción Instagram | 7,500 |
+| RMK FORM | Abrió no envió Camiones | 90D | Interacción (IG/FB/anuncios) | 5,800 |
+| RMK FORM | Abrió no envió Utilitarios | 90D | Interacción (IG/FB/anuncios) | 2,100 |
 | Público similar (5%) - RMK FORM | Enviaron formulario utilitarios | 90D | Público similar (Lookalike) | 1,000 |
 | RMK FORM | Enviaron formulario utilitarios | 90D | Interacción (IG/FB/anuncios) | 1,000 |
 | Público similar (5%) - RMK FORM | Enviaron formulario camiones | 90D | Público similar (Lookalike) | 1,000 |

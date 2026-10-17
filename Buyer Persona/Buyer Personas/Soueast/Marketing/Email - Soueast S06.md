@@ -22,9 +22,9 @@ Hola {nombre}:
 
 Gracias por tu interés en Soueast S06. Esto es lo que más nos consultan:
 
-• Posventa oficial: service y repuestos originales de la marca.
 • Tecnología y conectividad para el día a día, según la versión.
 • Un diseño que se nota en cada detalle.
+• Posventa oficial: service y repuestos originales de la marca.
 
 Lo mejor es probarlo: coordiná tu test drive el día y horario que prefieras, sin compromiso.
 

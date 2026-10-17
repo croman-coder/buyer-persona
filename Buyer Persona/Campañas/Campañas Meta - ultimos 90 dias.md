@@ -2,13 +2,13 @@
 tipo: campanias
 fuente: Meta Ads (pipeline)
 periodo: ? → ?
-actualizado: 2026-09-28
+actualizado: 2026-10-12
 tags: [meta-ads, campanias]
 ---
 
 # Campañas Meta — últimos 90 días
 
-**214 campañas** en el período ? → ?. Inversión total: **$71,081** · Leads atribuidos a campañas: **28,174** · CPL global: **$2.52**.
+**214 campañas** en el período ? → ?. Inversión total: **$68,596** · Leads atribuidos a campañas: **28,841** · CPL global: **$2.38**.
 
 Relacionado: [[Buyer Persona Real - Meta 90 dias]] · [[Scorecard Asesores - ultimos 90 dias|Scorecard Asesores]] · [[Mapa de cuentas Meta]]
 
@@ -16,37 +16,37 @@ Relacionado: [[Buyer Persona Real - Meta 90 dias]] · [[Scorecard Asesores - ult
 
 | Marca | Inversión | Leads (campañas) | CPL | CTR medio | Leads (formularios) |
 | --- | --: | --: | --: | --: | --: |
-| GWM | $13,344 | 5,148 | $2.59 | 1.12% | 4,730 |
-| Jetour | $12,720 | 7,801 | $1.63 | 1.85% | 6,477 |
-| Renault | $8,752 | 1,739 | $5.03 | 1.89% | 1,136 |
-| Soueast | $8,092 | 2,109 | $3.84 | 2.66% | 1,342 |
-| JAC | $7,258 | 3,778 | $1.92 | 1.81% | 2,664 |
-| Mitsubishi | $7,140 | 2,701 | $2.64 | 1.99% | 2,369 |
-| Renew | $4,218 | 396 | $10.65 | 3.78% | 0 |
-| Leapmotor | $3,266 | 1,332 | $2.45 | 1.64% | 1,170 |
-| XPeng | $2,840 | 727 | $3.91 | 1.54% | 735 |
-| Zeekr | $2,834 | 1,123 | $2.52 | 2.19% | 1,103 |
-| JMEV | $619 | 1,320 | $0.47 | 3.58% | 1,319 |
+| GWM | $13,332 | 5,250 | $2.54 | 1.24% | 4,894 |
+| Jetour | $12,176 | 8,169 | $1.49 | 2.15% | 7,115 |
+| Renault | $8,262 | 1,704 | $4.85 | 2.07% | 1,549 |
+| Soueast | $8,031 | 2,227 | $3.61 | 2.70% | 1,442 |
+| JAC | $7,066 | 4,137 | $1.71 | 2.02% | 3,264 |
+| Mitsubishi | $6,903 | 2,617 | $2.64 | 2.10% | 2,602 |
+| Renew | $4,162 | 377 | $11.04 | 3.74% | 377 |
+| Leapmotor | $3,037 | 1,283 | $2.37 | 1.39% | 1,275 |
+| Zeekr | $2,639 | 1,190 | $2.22 | 2.26% | 1,188 |
+| XPeng | $2,397 | 715 | $3.35 | 1.62% | 712 |
+| JMEV | $591 | 1,172 | $0.50 | 3.57% | 1,169 |
 
 ## Top 15 campañas por inversión
 
 | Campaña | Marca | Inversión | Leads | CPL |
 | --- | --- | --: | --: | --: |
-| AON 2025 ASU | GWM | $5,034 | 1,631 | $3.09 |
-| AON 2025 - LEADS ASU | Jetour | $5,007 | 2,854 | $1.75 |
-| Mitsubishi_AON_Lead_Ads / ASU | Mitsubishi | $4,880 | 1,849 | $2.64 |
-| LEADS 2026 - VENTAS WHATSAPP | Renew | $3,195 | 0 | — |
-| NUEVA PAUTA ASU 1 | Renault | $2,551 | 413 | $6.18 |
-| LEADS PY 2026 CAMIONES | JAC | $2,514 | 902 | $2.79 |
-| AON 2025 CDE | GWM | $2,232 | 612 | $3.65 |
-| AON LEAP ASU 2026 | Leapmotor | $2,071 | 996 | $2.08 |
-| ZEEKR AON ASU 2026 LEADS | Zeekr | $2,066 | 850 | $2.43 |
-| [LEADS] SOUEAST 2026 CDE | Soueast | $1,861 | 403 | $4.62 |
-| AON LEADS ASU 2026 / XPENG | XPeng | $1,705 | 517 | $3.30 |
-| [LEADS] SOUEAST 2026 ASU | Soueast | $1,699 | 402 | $4.23 |
-| AON 2025 - LEADS CDE | Jetour | $1,608 | 722 | $2.23 |
-| NUEVA PAUTA CDE 1 | Renault | $1,468 | 283 | $5.19 |
-| LEADS PY 2026 CAMIONES - geogalizada | JAC | $1,173 | 487 | $2.41 |
+| AON 2025 ASU | GWM | $5,153 | 1,660 | $3.10 |
+| AON 2025 - LEADS ASU | Jetour | $4,891 | 3,002 | $1.63 |
+| Mitsubishi AO / ASU | Mitsubishi | $4,318 | 1,735 | $2.49 |
+| LEADS 2026 - VENTAS WHATSAPP | Renew | $3,072 | 0 | — |
+| AON 2025 CDE | GWM | $2,215 | 618 | $3.58 |
+| RENAULT AO / ASU | Renault | $2,100 | 456 | $4.61 |
+| LEADS PY 2026 CAMIONES | JAC | $2,067 | 869 | $2.38 |
+| ZEEKR AON ASU 2026 LEADS | Zeekr | $1,958 | 915 | $2.14 |
+| AON LEAP ASU 2026 | Leapmotor | $1,859 | 997 | $1.86 |
+| SOUEAST AO / CDE | Soueast | $1,834 | 419 | $4.38 |
+| SOUEAST AO / ASU | Soueast | $1,745 | 457 | $3.82 |
+| AON 2025 - LEADS CDE | Jetour | $1,569 | 719 | $2.18 |
+| RENAULT AO / CDE | Renault | $1,470 | 372 | $3.95 |
+| AON LEADS ASU 2026 / XPENG | XPeng | $1,413 | 490 | $2.88 |
+| SOUEAST AO / RMK | Soueast | $1,232 | 303 | $4.07 |
 
 ## Notas sobre los datos
 

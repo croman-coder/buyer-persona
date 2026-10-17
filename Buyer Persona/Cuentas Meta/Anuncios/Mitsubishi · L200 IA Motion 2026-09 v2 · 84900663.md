@@ -1,7 +1,7 @@
 ---
 type: anuncio-meta
 cuenta: "Mitsubishi"
-estado: "Activo"
+estado: "Con problemas en Meta"
 revisar: "—"
 riesgo_comparativa: 0.03
 oferta: "Precio como gancho"
@@ -21,7 +21,10 @@ tags:
 
 # L200 | IA | Motion | 2026-09 v2
 
-**Cuenta:** Mitsubishi · **Estado:** Activo · **Botón:** Sin botón
+> [!danger] Con problemas en Meta
+> Meta frenó este aviso o le encontró un problema. El motivo está en el Administrador de anuncios.
+
+**Cuenta:** Mitsubishi · **Estado:** Con problemas en Meta · **Botón:** Sin botón
 
 | Qué miró la IA | Resultado |
 |---|---|

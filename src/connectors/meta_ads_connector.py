@@ -17,6 +17,7 @@ from __future__ import annotations
 import logging
 import re
 import time
+import unicodedata
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from typing import Any
@@ -24,6 +25,35 @@ from typing import Any
 import requests
 
 logger = logging.getLogger(__name__)
+
+# Ciudades de Paraguay que aparecen en los formularios, con su nombre correcto. Se compara sin tildes ni mayúsculas.
+_CIUDADES_PY = ["Asunción", "Ciudad del Este", "San Lorenzo", "Luque", "Capiatá", "Lambaré", "Fernando de la Mora", "Encarnación",
+                "Pedro Juan Caballero", "Hernandarias", "Coronel Oviedo", "Villa Elisa", "Ñemby", "Limpio", "Mariano Roque Alonso",
+                "San Antonio", "Itauguá", "Areguá", "Villarrica", "Caaguazú", "Concepción", "Presidente Franco", "Minga Guazú",
+                "Santa Rita", "Villa Hayes", "Itá", "Ypané", "Julián Augusto Saldívar", "Cambyretá", "Caacupé", "Pilar", "Salto del Guairá"]
+_MINUSCULAS = {"de", "del", "la", "las", "los", "y"}
+
+
+def _sin_tildes(texto: str) -> str:
+    """Minúsculas y sin tildes, pero conservando la ñ (es una letra, no una tilde)."""
+    t = unicodedata.normalize("NFC", texto).lower()
+    return "".join(c if c == "ñ" else unicodedata.normalize("NFD", c)[0] for c in t)
+
+
+_CIUDAD_POR_CLAVE = {_sin_tildes(c): c for c in _CIUDADES_PY}
+_CIUDAD_POR_CLAVE["nemby"] = "Ñemby"            # sin la ñ también es Ñemby
+
+
+def normalizar_ciudad(valor: Any) -> str:
+    """Una misma ciudad escrita distinto («Asunción», «Asuncion», «ASUNCIÓN») cuenta como una sola. Las que no conocemos
+    quedan prolijas (espacios y mayúsculas) sin inventar tildes."""
+    texto = re.sub(r"\s+", " ", str(valor or "")).strip()
+    if not texto:
+        return ""
+    clave = _sin_tildes(texto)
+    if clave in _CIUDAD_POR_CLAVE:
+        return _CIUDAD_POR_CLAVE[clave]
+    return " ".join(p if i and p in _MINUSCULAS else p.capitalize() for i, p in enumerate(texto.lower().split(" ")))
 
 
 class MetaAdsConnector:
@@ -667,7 +697,7 @@ class MetaAdsConnector:
                 continue
             leads = self._request_paginated(
                 f"{form['id']}/leads",
-                {"fields": "created_time,field_data,campaign_id,campaign_name,ad_name,is_organic"},
+                {"fields": "id,created_time,field_data,campaign_id,campaign_name,ad_id,ad_name,is_organic"},
                 limit=200,
                 token=page_token,
             )
@@ -697,7 +727,7 @@ class MetaAdsConnector:
                     for agg_key, pattern in self._LEAD_FIELD_PATTERNS.items():
                         if re.search(pattern, field_name):
                             destino = self._clasificar_valor(agg_key, value)
-                            agg[destino][value] += 1
+                            agg[destino][normalizar_ciudad(value) if destino == "city" else value] += 1
                             break
 
         return agg if has_data else None

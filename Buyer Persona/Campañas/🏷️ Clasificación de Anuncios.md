@@ -1,10 +1,10 @@
 ---
 type: clasificacion-anuncios
-generado: '2026-10-03 06:50'
-fuente: data_sources_20261003_060425.json
+generado: '2026-10-17 06:50'
+fuente: data_sources_20261017_060449.json
 modelo: typesafe/jev (Vercel AI Gateway)
-anuncios_activos: 1467
-textos_clasificados: 1116
+anuncios_activos: 1303
+textos_clasificados: 988
 tags:
 - meta-ads
 - clasificacion
@@ -17,7 +17,7 @@ Todos los días una IA lee el texto de **cada anuncio de Meta** de todas las mar
 
 > [!danger] Incompleta: Vercel AI Gateway cortó la corrida (Vercel AI Gateway 403: no_providers_available: Free tier users do not have access to this model. Upgrade to paid credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up for unrestricted access.). La próxima corrida completa lo que falta.
 
-> [!info] Actualizado el **2026-10-03 06:50** · 1467 anuncios activos · 1116 de 1150 textos leídos
+> [!info] Actualizado el **2026-10-17 06:50** · 1303 anuncios activos · 988 de 1094 textos leídos
 
 > [!info]- Cómo leer esta nota (tocá para abrir)
 > - **Es una ayuda para revisar, no un dictamen.** La IA (Jev, de TypeSafe) lee solo el *texto* del aviso: no ve la imagen ni el video.
@@ -29,7 +29,7 @@ Todos los días una IA lee el texto de **cada anuncio de Meta** de todas las mar
 > - **Apura:** si el aviso transmite urgencia («aprovechá ya») o pone fecha o cupo.
 > - Se actualiza solo todas las mañanas (06:50). Si cambian un aviso en Meta, se ve acá al día siguiente.
 
-**Fichas de marca:** [[Jetour]] · [[GWM]] · [[Renew]] · [[JAC]] · [[Renault]] · [[Leapmotor]] · [[Soueast]] · [[Zeekr]] · [[Mitsubishi]] · [[XPeng]] · [[JMEV]]
+**Fichas de marca:** [[Jetour]] · [[GWM]] · [[Renew]] · [[Renault]] · [[JAC]] · [[Leapmotor]] · [[Soueast]] · [[Zeekr]] · [[XPeng]] · [[JMEV]] · [[Mitsubishi]]
 
 **Relacionado:** [[Campañas Meta - ultimos 90 dias]] · [[🎯 Playbook Meta Ads]] · [[🤖 Meta Ads Lo Que Funciona]] · [[💸 Pauta Meta Rendimiento]]
 
@@ -49,7 +49,7 @@ Ningún aviso se compara con otra marca. ✅
 
 </details>
 
-## 🚫 Frenados por Meta (37)
+## 🚫 Frenados por Meta (40)
 
 Meta rechazó estos avisos o les encontró un problema, así que no se están mostrando bien. El motivo exacto está en el Administrador de anuncios de cada cuenta.
 
@@ -67,11 +67,15 @@ Meta rechazó estos avisos o les encontró un problema, así que no se están mo
 | Con problemas en Meta | JAC | IMG E30X / JULIO 2026 | Precio como gancho | Conocé el JAC E30X | 1 |
 | Con problemas en Meta | JAC | T9 REEL 1 | Sin oferta concreta | JAC T9 | 1 |
 | Con problemas en Meta | JAC | D8B OCTUBRE JORGE - 2DO VID | Precio como gancho | Camiones JAC D8B Cargo Box 🚛 | 1 |
+| Con problemas en Meta | JMEV | ev3_grafica_barrio_preventa_USD_14990_1… | Lanzamiento o preventa | Precio exclusivo de preventa | 1 |
 | Con problemas en Meta | Jetour | t2 0km | Sin oferta concreta |  | 1 |
 | Con problemas en Meta | Jetour | JETOUR X50 - Copia | Precio como gancho |  | 1 |
 | Con problemas en Meta | Jetour | Montse / Jetour / X50 | Financiación o cuotas | Tu próxima SUV está aquí | 1 |
+| Con problemas en Meta | Jetour | Video_Portugues_aprobado | Sin oferta concreta |  | 1 |
 | Con problemas en Meta | Jetour | LOCAL SAN BERNARDINO | Invitación a probar o a un evento | El destino de este verano: Santa Rosa Off Road. 🧭✨ | 1 |
-| Con problemas en Meta | Mitsubishi | Nuevo anuncio de Clientes potenciales | Lanzamiento o preventa |  | 1 |
+| Con problemas en Meta | Mitsubishi | L200 / IA / Gráfica / 2026-09 v2 | Financiación o cuotas | L200 4x4 · cuotas desde USD 465 | 1 |
+| Con problemas en Meta | Mitsubishi | L200 / IA / Motion / 2026-09 v2 | Precio como gancho | L200 4x4 · cotizá la tuya hoy | 1 |
+| Con problemas en Meta | Mitsubishi | L200 / IA / Gráfica principal / 2026-09 | Financiación o cuotas | L200 4x4 · cuotas desde USD 465 | 1 |
 | Con problemas en Meta | Mitsubishi | Mitsubishi Presentación | Sin oferta concreta |  | 1 |
 | Con problemas en Meta | Mitsubishi | Mitsubishi Eclipse | Lanzamiento o preventa | German Paez Mitsubishi Paraguay | 1 |
 | Con problemas en Meta | Mitsubishi | Montero Sport | Sin oferta concreta |  | 1 |
@@ -81,7 +85,6 @@ Meta rechazó estos avisos o les encontró un problema, así que no se están mo
 | Con problemas en Meta | Renault | KARDIAN NEGRO | Lanzamiento o preventa |  | 1 |
 | Con problemas en Meta | Renault | MASTER FLYER | Sin oferta concreta |  | 1 |
 | Con problemas en Meta | Renault | IMAG/KARDIAN0726 | Invitación a probar o a un evento | Agenda tu test drive / Conocé tu nueva Kardian / Solicitá t… | 1 |
-| Con problemas en Meta | Soueast | S08PHEV1/ Asuncion | Lanzamiento o preventa |  | 1 |
 | Con problemas en Meta | Soueast | Lookalike - S06 PHEV Grafica | Lanzamiento o preventa | S06 PHEV | 1 |
 | Rechazado por Meta | Renault | OROCH GRAFICA | Sin oferta concreta | RENAULT OROCH | 2 |
 | Rechazado por Meta | Renault | MASTER VIDEO | Sin oferta concreta |  | 1 |
@@ -96,17 +99,17 @@ Para cada cuenta: la oferta y el argumento que más usa, y qué parte de sus avi
 
 | Cuenta | Activos | Oferta que más usa | Argumento que más usa | Muestra precio | Menciona cuotas | Invita a actuar | Apura |
 |---|---:|---|---|---:|---:|---:|---:|
-| Jetour | 560 | Financiación o cuotas (38 %) | Espacio y familia (18 %) | 60 % | 54 % | 55 % | 38 % |
-| GWM | 176 | Financiación o cuotas (24 %) | Eléctrico o híbrido (31 %) | 38 % | 31 % | 45 % | 45 % |
-| Renew | 148 | Usado puntual (73 %) | Precio y ahorro (59 %) | 80 % | 81 % | 23 % | 24 % |
-| JAC | 135 | Sin oferta concreta (60 %) | Potencia y trabajo (44 %) | 26 % | 23 % | 22 % | 48 % |
-| Renault | 134 | Sin oferta concreta (54 %) | Seguridad (24 %) | 14 % | 22 % | 37 % | 44 % |
-| Leapmotor | 101 | Sin oferta concreta (34 %) | Eléctrico o híbrido (77 %) | 33 % | 30 % | 68 % | 56 % |
-| Soueast | 81 | Precio como gancho (25 %) | Precio y ahorro (27 %) | 33 % | 53 % | 51 % | 69 % |
-| Zeekr | 59 | Sin oferta concreta (36 %) | Diseño y estatus (46 %) | 31 % | 14 % | 49 % | 41 % |
-| Mitsubishi | 39 | Precio como gancho (62 %) | Potencia y trabajo (36 %) | 74 % | 74 % | 21 % | 64 % |
+| Jetour | 558 | Financiación o cuotas (38 %) | Espacio y familia (18 %) | 60 % | 54 % | 55 % | 38 % |
+| GWM | 153 | Financiación o cuotas (27 %) | Eléctrico o híbrido (33 %) | 42 % | 35 % | 47 % | 45 % |
+| Renew | 143 | Usado puntual (74 %) | Precio y ahorro (59 %) | 82 % | 80 % | 22 % | 24 % |
+| Renault | 116 | Sin oferta concreta (56 %) | Seguridad (28 %) | 12 % | 20 % | 39 % | 41 % |
+| JAC | 105 | Sin oferta concreta (57 %) | Potencia y trabajo (34 %) | 30 % | 25 % | 20 % | 45 % |
+| Leapmotor | 103 | Sin oferta concreta (34 %) | Eléctrico o híbrido (77 %) | 33 % | 30 % | 67 % | 56 % |
+| Soueast | 50 | Precio como gancho (38 %) | Precio y ahorro (42 %) | 40 % | 72 % | 50 % | 82 % |
+| Zeekr | 35 | Invitación a probar o a un evento (29 %) | Diseño y estatus (31 %) | 31 % | 3 % | 54 % | 37 % |
 | XPeng | 20 | Sin oferta concreta (40 %) | Diseño y estatus (65 %) | 35 % | 0 % | 20 % | 20 % |
-| JMEV | 13 | Sin oferta concreta (54 %) | Eléctrico o híbrido (77 %) | 46 % | 0 % | 15 % | 38 % |
+| JMEV | 12 | Sin oferta concreta (58 %) | Eléctrico o híbrido (75 %) | 42 % | 0 % | 17 % | 33 % |
+| Mitsubishi | 7 | Sin oferta concreta (29 %) | Potencia y trabajo (43 %) | 29 % | 29 % | 29 % | 14 % |
 | Santa Rosa | 1 | Invitación a probar o a un evento (100 %) | Potencia y trabajo (100 %) | 0 % | 0 % | 0 % | 100 % |
 
 ## Qué ofrecen los avisos
@@ -115,13 +118,13 @@ El gancho principal de cada aviso activo.
 
 | | Avisos | % |
 |---|---:|---:|
-| Sin oferta concreta | 400 | 27 % |
-| Financiación o cuotas | 319 | 22 % |
-| Precio como gancho | 283 | 19 % |
-| Invitación a probar o a un evento | 199 | 14 % |
-| Lanzamiento o preventa | 115 | 8 % |
-| Usado puntual | 108 | 7 % |
-| Descuento o bono | 25 | 2 % |
+| Sin oferta concreta | 339 | 26 % |
+| Financiación o cuotas | 310 | 24 % |
+| Precio como gancho | 245 | 19 % |
+| Invitación a probar o a un evento | 160 | 12 % |
+| Usado puntual | 106 | 8 % |
+| Lanzamiento o preventa | 103 | 8 % |
+| Descuento o bono | 22 | 2 % |
 | Toma de usado | 18 | 1 % |
 
 ## Con qué argumento venden
@@ -130,14 +133,14 @@ La razón que da el aviso para comprar.
 
 | | Avisos | % |
 |---|---:|---:|
-| Precio y ahorro | 278 | 19 % |
-| Eléctrico o híbrido | 277 | 19 % |
-| Potencia y trabajo | 222 | 15 % |
-| Tecnología | 202 | 14 % |
-| Diseño y estatus | 171 | 12 % |
-| Espacio y familia | 148 | 10 % |
-| Respaldo y garantía | 113 | 8 % |
-| Seguridad | 56 | 4 % |
+| Precio y ahorro | 264 | 20 % |
+| Eléctrico o híbrido | 263 | 20 % |
+| Potencia y trabajo | 181 | 14 % |
+| Tecnología | 166 | 13 % |
+| Diseño y estatus | 145 | 11 % |
+| Espacio y familia | 128 | 10 % |
+| Respaldo y garantía | 102 | 8 % |
+| Seguridad | 54 | 4 % |
 
 ## Qué tipo de vehículo muestran
 
@@ -145,14 +148,14 @@ Según lo que dice el texto.
 
 | | Avisos | % |
 |---|---:|---:|
-| SUV | 1008 | 69 % |
-| No se sabe | 167 | 11 % |
-| Sedán o hatchback | 100 | 7 % |
-| Pickup | 95 | 6 % |
-| Utilitario o van | 66 | 4 % |
+| SUV | 926 | 71 % |
+| No se sabe | 139 | 11 % |
+| Pickup | 82 | 6 % |
+| Sedán o hatchback | 76 | 6 % |
+| Utilitario o van | 49 | 4 % |
 | Varios modelos | 31 | 2 % |
 
-En **813** avisos activos el texto no le dice al cliente qué hacer (el botón de Meta está igual). La lista completa está en la vista «El texto no invita a actuar» de la tabla.
+En **706** avisos activos el texto no le dice al cliente qué hacer (el botón de Meta está igual). La lista completa está en la vista «El texto no invita a actuar» de la tabla.
 
 ## 🗂️ Tabla para filtrar (en Obsidian)
 
@@ -167,4 +170,4 @@ Cada aviso tiene su ficha en `Cuentas Meta/Anuncios/`, y la tabla [🏷️ Anunc
 Se puede ordenar tocando el nombre de una columna y filtrar desde el menú de la tabla. Lo que se edite a mano se pisa en la próxima actualización.
 
 ---
-*Generado por `scripts/clasificar_anuncios.py` · fuente data_sources_20261003_060425.json · última corrida US$ 0.0000*
+*Generado por `scripts/clasificar_anuncios.py` · fuente data_sources_20261017_060449.json · última corrida US$ 0.0000*

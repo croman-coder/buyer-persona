@@ -522,7 +522,7 @@ if recompra_rows:
 S(f'''<section class="slide"><div class="k">Radar de competencia</div><h2>Qué pauta, qué promociona y a qué precio cada competidor. Cada día.</h2>
 <div class="cols" style="grid-template-columns:1fr 1fr 1fr;margin-top:52px;gap:0 64px">
 <div class="row"><div class="idx">Sus webs</div><p><b>Nueve casas</b> escaneadas a las 08:00 y cada seis horas: Garden, Diesa, Toyotoshi, Automaq, Nipon, Nissan, DLS. Promos, modelos nuevos, precios. Cada cambio, con fecha, en la bitácora.</p></div>
-<div class="row"><div class="idx">Sus anuncios</div><p>La Biblioteca de Anuncios de Meta es pública. Leemos el <b>copy, la oferta y el formato</b> con que cada rival pauta ahora mismo, con el mismo motor que lee los nuestros.</p></div>
+<div class="row"><div class="idx">Sus anuncios</div><p>La Biblioteca de Anuncios de Meta es pública. A pedido, una sesión de Claude lee con un navegador real el <b>copy, la oferta y el formato</b> de sus anuncios activos; no corre sola. La nota queda en el vault, solo para uso interno.</p></div>
 <div class="row"><div class="idx">Sus precios</div><p>692 versiones contra el día anterior. Subió, bajó o lanzó: <b>lo vemos antes que el cliente.</b></p></div></div>
 <p class="lead" style="margin-top:64px">Rival baja una SUV B → mañana lo refleja la persona de Kardian, Jolion y X50 → el copy responde con argumentos absolutos, sin nombrar a nadie.</p>{foot()}</section>''')
 

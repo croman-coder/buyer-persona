@@ -15,15 +15,15 @@ tags: [marketing, meta-ads]
 - **Edad:** 35-44
 - **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
 - **Zonas:** Asunción, Ciudad del Este
-- **Temas que atraen** (para el creativo, no para segmentar): Financiación en cuotas, Garantía y respaldo posventa, Diseño y estatus, Seguridad y asistencias a la conducción, Probar antes de comprar (test drive)
+- **Temas que atraen** (para el creativo, no para segmentar): Garantía y respaldo posventa, Financiación en cuotas, Tecnología y conectividad, Probar antes de comprar (test drive), Seguridad y asistencias a la conducción
 
 ## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)
-**Opción 1** · 225 caracteres
+**Opción 1** · 249 caracteres
 ```
 🚗 Mitsubishi Montero Sport
-✅ Financiación: planes y formas de pago a tu medida.
 ✅ Posventa oficial: service y repuestos originales de la marca.
-✅ Un diseño que se nota en cada detalle.
+✅ Financiación: planes y formas de pago a tu medida.
+✅ Tecnología y conectividad para el día a día, según la versión.
 
 Coordiná tu test drive sin compromiso 👇
 ```

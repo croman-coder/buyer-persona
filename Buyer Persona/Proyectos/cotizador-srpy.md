@@ -1,14 +1,15 @@
 ---
 estado: activo
-firma: d105697955ddd0f56250063ea53fcd74c966752c59e18cc7b91a509f8496646b
+firma: 917aab48744020d884f38cb12a161caf781631d9f4cd833ff85723d0fb88b676
 git_rama: main
 git_remoto: https://github.com/bortiz-source-srpy/CotizacionSR.git
 git_sin_subir: 0
-git_ultimo_commit: '2026-09-15 d92f802 correos: cada aviso sale solo a los tildados
-  de esa sucursal'
+git_ultimo_commit: '2026-10-06 3dd24ee whatsapp: la comprobacion del respaldo pide
+  la linea entera, el arranque tiene prueba de los tres indices y el plan registra
+  los ultimos desvios'
 hijos: []
 nombre: COTIZADOR SRPY
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/COTIZADOR SRPY. Basado en JavaScript/Node.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/COTIZADOR SRPY
 slug: cotizador-srpy
@@ -17,7 +18,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-09-15'
+ultima_actividad: '2026-10-06'
 ---
 
 <!-- hermes:inicio -->
@@ -26,10 +27,10 @@ ultima_actividad: '2026-09-15'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-09-15 |
+| Última actividad | 2026-10-06 |
 | Stack | docker, git, node |
 | Rama | main |
-| Último commit | 2026-09-15 d92f802 correos: cada aviso sale solo a los tildados de esa sucursal |
+| Último commit | 2026-10-06 3dd24ee whatsapp: la comprobacion del respaldo pide la linea entera, el arranque tiene prueba de los tres indices y el plan registra los ultimos desvios |
 | Sin subir | 0 |
 | Ruta | `/home/croman/Escritorio/COTIZADOR SRPY` |
 <!-- hermes:fin -->

@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 34461e6c2753ef257f813f1a83eeedb642c598560943ae173fbeef1bb7eda754
+firma: 7b6ee609b00059aafa9de2f56b2674d1162338dae769d264eff745bb57856f6d
 git_rama: feat/loop-ofertas-subastas-plan-a
 git_remoto: git@github-croman:croman-coder/RenewSubastas.git
 git_sin_subir: 0
@@ -8,13 +8,7 @@ git_ultimo_commit: '2026-09-18 9f79353 fix(oportunidades): cancelar una oportuni
   archiva el vehículo, no lo vuelve a ready'
 hijos: []
 nombre: CARBID
-resumen: 'Plataforma de subastas asincrónicas de vehículos de Santa Rosa Automotores
-  (Renew Subastas): monorepo pnpm con apps/web (Next.js 14 App Router + i18n + Sentry),
-  functions (Firebase Cloud Functions para auctions, auth, vehicles, insights, notifications)
-  y packages (firebase-client, shared-types), con Firestore y roles admin/staff/finanzas/buyer
-  (retail/wholesale). Activo en feat/auction-insights; el último commit documenta
-  la arquitectura (ARCHITECTURE.md). Faltan pushear 17 commits y cerrar la feature
-  de auction-insights.'
+resumen: null
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/CARBID
 slug: carbid
@@ -22,7 +16,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-09-27'
+ultima_actividad: '2026-10-07'
 ---
 
 <!-- hermes:inicio -->
@@ -31,7 +25,7 @@ ultima_actividad: '2026-09-27'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-09-27 |
+| Última actividad | 2026-10-07 |
 | Stack | git, node |
 | Rama | feat/loop-ofertas-subastas-plan-a |
 | Último commit | 2026-09-18 9f79353 fix(oportunidades): cancelar una oportunidad archiva el vehículo, no lo vuelve a ready |

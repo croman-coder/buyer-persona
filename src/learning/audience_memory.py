@@ -52,7 +52,8 @@ def _snapshot_rows(personas: list[dict[str, Any]], data_sources: dict[str, Any],
             "gender_share": meta.get("gender_share"),
             "age_range": demo.get("age_range"),
             "age_share": meta.get("age_share"),
-            "clicks": meta.get("weight"),
+            "clicks": meta.get("weight"),            # contactos o clics, según `basis`
+            "basis": meta.get("basis") or ("clics" if meta else None),   # desde el 14-10-2026, por contactos
             "level": demo.get("meta_level") or "",
             "orders": seg.get("orders"),
             "orders_365d": seg.get("orders_last_365d"),
@@ -149,17 +150,19 @@ def analyze(history: list[dict[str, Any]], today: str) -> dict[str, Any]:
             new_models.append(name)
         # confirmaciones de público
         if last.get("level") == "modelo" and last.get("gender"):
-            streak = _run_streak(rows, ("gender", "age_range"))
+            streak = _run_streak(rows, ("gender", "age_range", "basis"))   # cambiar la medida reinicia la cuenta
             if streak >= CONFIRMED_RUNS:
                 confirmed.append({
                     "name": name, "gender": last["gender"], "gender_share": last.get("gender_share"),
                     "age_range": last["age_range"], "streak": streak,
-                    "since": rows[-streak]["date"], "clicks": last.get("clicks"),
+                    "since": rows[-streak]["date"], "clicks": last.get("clicks"), "basis": last.get("basis") or "clics",
                     "status": "sólido" if streak >= SOLID_RUNS else "confirmado",
                 })
         # movimientos de público vs hace 7 días
         ref = _row_on_or_before(rows, d7) or (rows[-2] if len(rows) >= 2 else None)
-        if ref and ref is not last and last.get("level") == "modelo" and ref.get("level") == "modelo":
+        # Solo con la misma medida: el 14-10-2026 la edad pasó de pesarse por clics a contactos, y eso no es un cambio de público.
+        if (ref and ref is not last and last.get("level") == "modelo" and ref.get("level") == "modelo"
+                and (ref.get("basis") or "clics") == (last.get("basis") or "clics")):
             gs, gr = last.get("gender_share"), ref.get("gender_share")
             if last.get("gender") != ref.get("gender"):
                 shifts.append(f"**{name}**: el género dominante pasó de {ref.get('gender')} a {last.get('gender')} ({gs}%) desde el {ref['date']}.")
@@ -234,9 +237,9 @@ def render_note(a: dict[str, Any], today: str, market: dict[str, Any], hermes_le
         "## ✅ Lo que ya sabemos (público confirmado por modelo)", "",
     ]
     if a["confirmed"]:
-        L += ["| Modelo | Público | Corridas iguales | Desde | Clics | Estado |", "|---|---|---|---|---|---|"]
+        L += ["| Modelo | Público | Corridas iguales | Desde | Medido sobre | Estado |", "|---|---|---|---|---|---|"]
         for c in a["confirmed"]:
-            L.append(f"| {c['name']} | {c['gender']} {c['gender_share']}% · {c['age_range']} | {c['streak']} | {c['since']} | {c['clicks']:,} | {'🟢 ' if c['status']=='sólido' else '🟡 '}{c['status']} |")
+            L.append(f"| {c['name']} | {c['gender']} {c['gender_share']}% · {c['age_range']} | {c['streak']} | {c['since']} | {c['clicks']:,} {c.get('basis', 'clics')} | {'🟢 ' if c['status']=='sólido' else '🟡 '}{c['status']} |")
     else:
         L.append(f"_Todavía no hay {CONFIRMED_RUNS} corridas seguidas con el mismo público. Empieza a confirmar a partir del {(date.fromisoformat(a['first']) + timedelta(days=CONFIRMED_RUNS-1)).isoformat()}._")
     L += ["", "## 🔄 Qué cambió", ""]

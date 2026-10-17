@@ -1,7 +1,7 @@
 ---
 type: anuncio-meta
 cuenta: "Jetour"
-estado: "Activo"
+estado: "Con problemas en Meta"
 revisar: "—"
 riesgo_comparativa: 0.05
 oferta: "Sin oferta concreta"
@@ -21,7 +21,10 @@ tags:
 
 # Video_Portugues_aprobado
 
-**Cuenta:** Jetour · **Estado:** Activo · **Botón:** Sin botón
+> [!danger] Con problemas en Meta
+> Meta frenó este aviso o le encontró un problema. El motivo está en el Administrador de anuncios.
+
+**Cuenta:** Jetour · **Estado:** Con problemas en Meta · **Botón:** Sin botón
 
 | Qué miró la IA | Resultado |
 |---|---|

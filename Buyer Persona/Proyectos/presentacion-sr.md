@@ -1,5 +1,5 @@
 ---
-estado: activo
+estado: dormido
 firma: aba014c061bf4d56b7d6e42bbb1c2b47b8b6675c41abd2b534d6521a41388b5d
 git_rama: null
 git_remoto: null
@@ -7,8 +7,8 @@ git_sin_subir: null
 git_ultimo_commit: null
 hijos: []
 nombre: PRESENTACION SR
-resumen: null
-resumen_pendiente: true
+resumen: Proyecto en /home/croman/Escritorio/PRESENTACION SR. Basado en Python.
+resumen_pendiente: false
 ruta: /home/croman/Escritorio/PRESENTACION SR
 slug: presentacion-sr
 stack:
@@ -22,7 +22,7 @@ ultima_actividad: '2026-09-15'
 
 | Campo | Valor |
 | --- | --- |
-| Estado | activo |
+| Estado | dormido |
 | Última actividad | 2026-09-15 |
 | Stack | web |
 | Rama | — |

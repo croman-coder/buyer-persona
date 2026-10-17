@@ -7,7 +7,7 @@ gender: Masculino
 locations:
 - Asunción
 - Ciudad del Este
-created: '2026-10-03'
+created: '2026-10-17'
 tags:
 - buyer-persona
 - marketing
@@ -20,57 +20,57 @@ tags:
 # Renew Usados
 
 > [!note]- Cómo leer esta ficha
-> **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (clics por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-05 → 2026-10-03 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
-> **Edad y género son de quién hace clic en los anuncios**, no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
+> **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
+> **Ventanas de cada fuente:** Meta 2026-07-19 → 2026-10-17 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
 > Glosario y detalle de cada bloque: [[📘 Manual Buyer Persona]], sección 3.
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 35-44 (29.0% de los clics) · perfil propio del modelo
-- **Género predominante:** Masculino (83.5%)
+- **Edad:** 35-44 (30.1% de los contactos) · perfil propio del modelo
+- **Género predominante:** Masculino (86.4%)
 - **Ubicación:** Asunción, Ciudad del Este
-- **Período leído:** Meta 2026-07-05 → 2026-10-03 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-19 → 2026-10-17 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Renew Usados`
 - **Marca:** [[Comprador Renew|Renew]]
 - **Tipo de vehículo:** Usado
 - **Ventas reales (ERP):** 149 unidades desde 2018
-- **Pauta real (90 días):** 60 anuncios (21 activos)
-- **Brecha pauta/venta:** sobre-pautado 🔴 revisar — 0.0% de las ventas de la marca (12 meses) vs 10.8% de sus anuncios (ERP hasta 2026-09-11)
+- **Pauta real (90 días):** 61 anuncios (19 activos)
+- **Brecha pauta/venta:** sobre-pautado 🔴 revisar — 0.0% de las ventas de la marca (12 meses) vs 11.0% de sus anuncios (ERP hasta 2026-09-11)
   _Cómo se decide: **sub-pautado** si el modelo pone ≥5 % de las ventas de la marca y tiene menos de la mitad de anuncios que de ventas (escalar); **sobre-pautado** si pone ≥5 % de los anuncios y vende menos de la mitad de eso (revisar); **equilibrado** si no pasa ninguna de las dos._
 - **Ticket promedio (ERP, facturado):** USD 11,657
 
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 14,5 % de los clics y contactan igual que ellos con el mismo anuncio (0,96×).
+- **Meta:** ellas son el 13,7 % de los clics y contactan igual que ellos con el mismo anuncio (0,96×).
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — Renew]]
 
 ## 👤 Demografía
 
-_Qué es: quién hace clic en los anuncios de este público, por edad y género. De dónde sale: Meta, desglose por anuncio, ponderado por clics. No es quién compró: eso el ERP no lo registra._
+_Qué es: quién contacta por los anuncios de este público (deja sus datos o escribe), por edad y género. De dónde sale: Meta, desglose por anuncio, ponderado por contactos; con pocos contactos, por clics, y la ficha lo avisa. No es quién compró: eso el ERP no lo registra._
 
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción, Ciudad del Este
-- **Fuente edad/género:** anuncios de Meta que nombran a **Renew Usados** (27,087 clics en la ventana), ponderado por clics — Masculino 83.5%
-- **Distribución de edad (Meta):** 35-44: 29.0%, 25-34: 24.5%, 45-54: 20.1%, 55-64: 12.4%, 18-24: 7.5%, 65+: 6.5%
+- **Fuente edad/género:** anuncios de Meta que nombran a **Renew Usados** (3,211 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 86.4%
+- **Distribución de edad (Meta):** 35-44: 30.1%, 25-34: 26.7%, 45-54: 20.2%, 55-64: 10.6%, 18-24: 6.8%, 65+: 5.6%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
 
 _Qué es: los temas que aparecen en los anuncios que este público ve y clickea. No son intereses declarados (Meta dejó de exponerlos en 2021): es con qué le estamos hablando y qué responde. El % es la parte de los anuncios que toca cada tema._
 
-**Intereses observados** (60 anuncios reales leídos):
-- Financiación en cuotas · 91.7% de los anuncios
-- Probar antes de comprar (test drive) · 58.3% de los anuncios
-- Garantía y respaldo posventa · 43.3% de los anuncios
-- Ofertas y promociones · 13.3% de los anuncios
-- Familia y espacio · 11.7% de los anuncios
-- Diseño y estatus · 11.7% de los anuncios
+**Intereses observados** (61 anuncios reales leídos):
+- Financiación en cuotas · 90.2% de los anuncios
+- Probar antes de comprar (test drive) · 57.4% de los anuncios
+- Garantía y respaldo posventa · 42.6% de los anuncios
+- Ofertas y promociones · 13.1% de los anuncios
+- Familia y espacio · 11.5% de los anuncios
+- Diseño y estatus · 11.5% de los anuncios
 
 _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, para no tener el mismo número dos veces._
 
@@ -81,8 +81,8 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **NSE estimado:** C- / D (medio-bajo)
 - **Señales que se usaron:**
   - ticket promedio USD 11,657 (entrada)
-  - 100% pide financiación en el formulario (1 respuestas)
-  - 27.8% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 100% pide financiación en el formulario (2 respuestas)
+  - 27.0% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción, Ciudad del Este
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -106,7 +106,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!warning] 🔴 Dolores y Frustraciones
 
-> _De dónde sale: del texto de 60 anuncios reales de este modelo. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
+> _De dónde sale: del texto de 61 anuncios reales de este modelo. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
 >
 > - Compara el valor de la cuota mensual, no solo el precio de lista
 > - Sensible a promociones y precio por tiempo limitado
@@ -134,28 +134,28 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > **Mensaje clave:** Enfoca la comunicación en 'Renew Usados'.
 > **Canales:** Prioriza Showroom.
-> **Formato:** Feed (imagen/carrusel estático) concentra el 38.0% de las impresiones reales — priorizá ese formato en las piezas nuevas.
-> **Públicos hoy:** 98.6% de los adsets activos van a público frío; 1 de 73 adsets usan base propia (1 lookalike).
+> **Formato:** En formularios casi todo fue imagen (gráfica): para saber si otro formato rinde más, sumar uno distinto en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — Renew]].
+> **Públicos hoy:** los 72 adsets activos van a público frío (69 con Advantage+). Sumar retargeting (formulario abierto sin enviar, visitantes web) y la base de compradores del ERP.
 > **Presupuesto:** sin ventas en el ERP para este modelo.
 > 
-> **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
+> **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
 
 > [!quote] 📥 Leads reales del formulario de Meta — Renew (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 343
+> **Total de leads de la marca en la ventana:** 378
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
-> **Modelos más pedidos (toda la marca):** Suv (197), Auto (73), Pick Up (18)
-> **Método de pago preferido:** Financiad0 (1)
+> **Modelos más pedidos (toda la marca):** Suv (240), Auto (77), Pick Up (20)
+> **Método de pago preferido:** financian? cualquier marca (1), financiado hasta 12.500 Kia (1)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Renew (90 días)
 
-> **Leads:** 1,383 → **convertidos:** 2 (0.1%)
-> **Por canal:** Meta madre 1,267, Meta asesores 116
-> **Deals:** 51 — ganados 34, perdidos 3, en proceso 14 (win rate 91.9%)
-> **Monto ganado:** USD 549,699 · ticket promedio USD 16,168
+> **Leads:** 1,558 → **convertidos:** 4 (0.3%)
+> **Por canal:** Meta madre 1,362, Meta asesores 188, Otros canales 8
+> **Deals:** 64 — ganados 42, perdidos 3, en proceso 19 (win rate 93.3%)
+> **Monto ganado:** USD 655,300 · ticket promedio USD 15,602
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
 
@@ -177,7 +177,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-03 12:34*
+*Generado el 2026-10-17 06:44*
 
 ## 🔗 Contenido Relacionado
 

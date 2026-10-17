@@ -6,7 +6,7 @@ age_range: 65+
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-03'
+created: '2026-10-17'
 tags:
 - buyer-persona
 - marketing
@@ -19,19 +19,19 @@ tags:
 # XPeng G9
 
 > [!note]- Cómo leer esta ficha
-> **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (clics por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-05 → 2026-10-03 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
-> **Edad y género son de quién hace clic en los anuncios**, no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
+> **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
+> **Ventanas de cada fuente:** Meta 2026-07-19 → 2026-10-17 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
 > Glosario y detalle de cada bloque: [[📘 Manual Buyer Persona]], sección 3.
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 65+ (30.8% de los clics) · perfil propio del modelo
-- **Género predominante:** Masculino (57.5%)
+- **Edad:** 65+ (51.2% de los contactos) · perfil propio del modelo
+- **Género predominante:** Masculino (59.2%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-05 → 2026-10-03 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-19 → 2026-10-17 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `XPeng G9`
 - **Marca:** [[Comprador XPeng|XPeng]]
 - **Tipo de vehículo:** Eléctrico
@@ -44,20 +44,20 @@ tags:
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 46,3 % de los clics; con el mismo anuncio contactan 0,87× lo que ellos, pero con 2 conjuntos todavía es una tendencia.
-- **Lo que más atrae a los mayores de 55:** *autos eléctricos y ahorro de combustible* (66,9 % contra 49,5 % del modelo).
+- **Meta:** ellas son el 46,2 % de los clics; con el mismo anuncio contactan 0,83× lo que ellos, pero con 2 conjuntos todavía es una tendencia.
+- **Lo que más atrae a los mayores de 55:** *autos eléctricos y ahorro de combustible* (67,3 % contra 59,5 % del modelo).
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — XPeng]]
 
 ## 👤 Demografía
 
-_Qué es: quién hace clic en los anuncios de este público, por edad y género. De dónde sale: Meta, desglose por anuncio, ponderado por clics. No es quién compró: eso el ERP no lo registra._
+_Qué es: quién contacta por los anuncios de este público (deja sus datos o escribe), por edad y género. De dónde sale: Meta, desglose por anuncio, ponderado por contactos; con pocos contactos, por clics, y la ficha lo avisa. No es quién compró: eso el ERP no lo registra._
 
 - **Rango de edad:** 65+
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** anuncios de Meta que nombran a **XPeng G9** (23,167 clics en la ventana), ponderado por clics — Masculino 57.5%
-- **Distribución de edad (Meta):** 65+: 30.8%, 25-34: 22.5%, 55-64: 15.1%, 35-44: 13.7%, 45-54: 12.4%, 18-24: 5.4%
+- **Fuente edad/género:** anuncios de Meta que nombran a **XPeng G9** (1,080 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 59.2%
+- **Distribución de edad (Meta):** 65+: 51.2%, 55-64: 19.4%, 35-44: 11.6%, 45-54: 11.3%, 25-34: 6.4%, 18-24: 0.2%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
@@ -75,10 +75,10 @@ _Qué es: los temas que aparecen en los anuncios que este público ve y clickea.
 
 ## 🏷️ Nivel socioeconómico (estimado)
 
-- **NSE estimado:** AB (alto)
+- **NSE estimado:** C+ (medio-alto)
 - **Señales que se usaron:**
   - ticket promedio USD 56,990 (gama alta)
-  - 32.7% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 23.5% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -126,18 +126,18 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Mensaje clave:** Enfoca la comunicación en 'XPeng G9'.
 > **Canales:** Prioriza Showroom.
 > **Oferta:** la planilla de acciones comerciales cargada es de septiembre y ya venció (último dato: descuento hasta USD 4,000). No usar el descuento en el copy hasta cargar la de este mes.
-> **Formato:** Reels/Stories (video vertical corto) concentra el 76.6% de las impresiones reales — priorizá ese formato en las piezas nuevas.
+> **Formato:** En formularios, el video y la imagen (gráfica) no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — XPeng]].
 > **Públicos hoy:** 60.0% de los adsets activos van a público frío; 2 de 5 adsets usan base propia (2 lookalike).
-> **Presupuesto sugerido:** ~USD 914/mes (hoy ~USD 914/mes según su peso en anuncios) → ~246 leads/mes al CPL actual de la marca (USD 3.71).
-> _Base del cálculo: 100.0% de las ventas de la marca sobre USD 914/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Presupuesto sugerido:** ~USD 737/mes (hoy ~USD 737/mes según su peso en anuncios) → ~235 leads/mes al CPL actual de la marca (USD 3.13).
+> _Base del cálculo: 100.0% de las ventas de la marca sobre USD 737/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
-> **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
+> **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
 
 > [!quote] 📥 Leads reales del formulario de Meta — XPeng (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 738
+> **Total de leads de la marca en la ventana:** 706
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
 
 
@@ -160,7 +160,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-03 12:34*
+*Generado el 2026-10-17 06:44*
 
 ## 🔗 Contenido Relacionado
 

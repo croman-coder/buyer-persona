@@ -1,7 +1,7 @@
 ---
 type: moc-marca
 marca: XPeng
-created: 2026-10-03
+created: 2026-10-17
 tags:
   - moc
   - marca/xpeng
@@ -9,24 +9,32 @@ tags:
 
 # 🚗 XPeng
 
-> Generado el **2026-10-03 12:34** · 1 modelos con persona propia.
+> Generado el **2026-10-17 06:44** · 1 modelos con persona propia.
 
 ## 👤 Comprador de la marca
 
 - [[Comprador XPeng]]
-- **Inversión Meta:** ~USD 914/mes · CPL USD 3.71 · 738 leads en la ventana
+- **Inversión Meta:** ~USD 737/mes · CPL USD 3.13 · 706 leads en la ventana
 - **Públicos:** 60.0% de 5 adsets activos a público frío
 
 ## 👥 Quién mira y quién decide
 
-- En Meta, ellas son el 45,1 % de los clics; con el mismo anuncio contactan 0,91× lo que ellos, pero con 2 conjuntos todavía es una tendencia.
+- En Meta, ellas son el 45,2 % de los clics; con el mismo anuncio contactan 0,86× lo que ellos, pero con 2 conjuntos todavía es una tendencia.
 - **Qué hacer en Meta Ads y cómo leerlo:** [[👥 Quién mira y quién decide — XPeng]]
+
+## 🎬 Materiales que mejor funcionan
+
+- En formularios, el video y la imagen (gráfica) no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto.
+- **Formularios — formato:** **El video** trae el lead más barato: 26 % menos que la imagen (gráfica) en campañas comparables (marca · volumen: USD 2,56 contra USD 3,47; base: 819 leads). Pero ganó solo en 1 de 3 meses: tomarlo como pista, no como regla.
+- **Formularios — Reels, Stories o Feed:** el lead más barato sale en **Stories** (USD 2,74); después Reels USD 2,99 · Feed USD 3,51. Son las mismas piezas en distintas ubicaciones: tener la versión para la que rinde.
+- **Formularios — videos con o sin versión vertical:** Los videos con versión vertical (9:16) y los videos sin versión vertical cuestan parecido en campañas comparables (marca · volumen: USD 2,53 y USD 2,62 por lead): menos de 15 % de diferencia no alcanza para elegir.
+- **Formato, ubicación, duración, mes a mes y mejores anuncios:** [[🎬 Materiales que funcionan — XPeng]]
 
 ## 🚘 Modelos
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[XPeng G9]] | 65+ | Masculino 57.5% | modelo | 1 | 25 | ⚖️ equilibrado | USD 914 |
+| [[XPeng G9]] | 65+ | Masculino 59.2% | modelo | 1 | 25 | ⚖️ equilibrado | USD 737 |
 
 _Demo = de dónde sale edad/género: **modelo** (anuncios propios del modelo) o **marca** (heredado, pocos clics propios). Brecha: 🟢 sub-pautado = vende más de lo que se pauta, 🔴 sobre-pautado, 🆕 lanzamiento sin ventas en el ERP aún._
 

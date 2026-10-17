@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: XPeng
-periodo_meta: 2026-07-05 a 2026-10-03
-created: 2026-10-03
+periodo_meta: 2026-07-19 a 2026-10-17
+created: 2026-10-17
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,7 +12,7 @@ tags:
 # 👥 Quién mira y quién decide — XPeng
 
 > [!summary] En una línea
-> En Meta, ellas son el 45,1 % de los clics; con el mismo anuncio contactan 0,91× lo que ellos, pero con 2 conjuntos todavía es una tendencia. En el 0,0 % de los chats el cliente nombra a otra persona.
+> En Meta, ellas son el 45,2 % de los clics; con el mismo anuncio contactan 0,86× lo que ellos, pero con 2 conjuntos todavía es una tendencia. En el 0,0 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
 > 1. **Una pieza para quien acompaña la decisión** — «Vengan a probarla juntos». Detalle en la sección 5.
@@ -27,20 +27,20 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-05** al **2026-10-03**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-19** al **2026-10-17**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **XPeng** | 45,1 % | 42,1 % | **0,91×** | 2 (ellas menos en 1) | Misma tendencia, con pocos conjuntos para confirmarlo |
-| [[XPeng G9|XPeng G9]] | 46,3 % | 39,4 % | 0,87× | 2 (ellas menos en 1) | Misma tendencia, con pocos conjuntos para confirmarlo |
+| **XPeng** | 45,2 % | 43,5 % | **0,86×** | 2 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
+| [[XPeng G9|XPeng G9]] | 46,2 % | 40,8 % | 0,83× | 2 (ellas menos en 1) | Misma tendencia, con pocos conjuntos para confirmarlo |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|---|
-| 0,6 % | 2,0 % | 5,7 % | 6,9 % | 7,9 % | 9,8 % |
+| 2,6 % | 3,3 % | 6,9 % | 7,3 % | 8,2 % | 9,7 % |
 
-Los mayores de 55 contactan parecido al resto con el mismo anuncio (1,10×).
+Los mayores de 55 contactan parecido al resto con el mismo anuncio (1,06×).
 
 ## 2. ¿Qué le interesa a cada uno?
 
@@ -50,12 +50,11 @@ Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema su
 
 | Modelo | Tema del anuncio | 55+ en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| XPeng G9 | Autos eléctricos y ahorro de combustible | 66,9 % | +17,3 | 11.325 (14) |
-| XPeng G9 | Diseño y estatus | 66,6 % | +17,1 | 11.627 (17) |
-| XPeng G9 | Tecnología y conectividad | 65,0 % | +15,5 | 10.954 (16) |
-| XPeng G9 | Familia y espacio | 63,0 % | +13,4 | 2.017 (4) |
+| XPeng G9 | Autos eléctricos y ahorro de combustible | 67,3 % | +7,8 | 11.907 (14) |
+| XPeng G9 | Diseño y estatus | 67,0 % | +7,6 | 12.226 (17) |
+| XPeng G9 | Tecnología y conectividad | 65,8 % | +6,3 | 11.366 (16) |
 
-**Lo que menos las atrae** (evitarlo en la pieza para ellas): XPeng G9: familia y espacio (-5,7).
+**Lo que menos las atrae** (evitarlo en la pieza para ellas): XPeng G9: familia y espacio (-4,9).
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -63,9 +62,9 @@ _Sin ventas suficientes a cliente final en el ERP._
 
 ## 4. ¿Quién más aparece en las conversaciones?
 
-Chats de **Messenger e Instagram** de las páginas de XPeng y de sus asesores, del 2026-06-30 al 2026-09-28. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
+Chats de **Messenger e Instagram** de las páginas de XPeng y de sus asesores, del 2026-07-14 al 2026-10-12. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
 
-- **653** chats con texto del cliente · **0,0 %** nombran a otra persona.
+- **646** chats con texto del cliente · **0,0 %** nombran a otra persona.
 
 _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más que cuántas veces._
 
@@ -73,7 +72,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza para quien acompaña la decisión
 
-**Por qué:** Ellas son el 45,1 % de los clics, pero con el mismo anuncio contactan 0,91× lo que ellos (menos en 1 de 2 conjuntos): ella investiga y él da el paso.
+**Por qué:** Ellas son el 45,2 % de los clics, pero con el mismo anuncio contactan 0,86× lo que ellos (menos en 2 de 2 conjuntos): ella investiga y él da el paso.
 
 **La pieza (texto base, ajustar al tono de la marca):**
 
@@ -97,9 +96,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-05 a 2026-10-03, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-19 a 2026-10-17, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: sin datos suficientes.
-- Chats: Messenger e Instagram, lectura semanal (2026-09-28).
-- Generado el 2026-10-03 12:34 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Chats: Messenger e Instagram, lectura semanal (2026-10-12).
+- Generado el 2026-10-17 06:44 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[XPeng|Volver a XPeng]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

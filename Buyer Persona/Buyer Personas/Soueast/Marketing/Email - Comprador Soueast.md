@@ -21,8 +21,8 @@ Hola {nombre}:
 
 Gracias por tu interés en la gama Soueast. Esto es lo que más nos consultan:
 
+• Financiación: planes y formas de pago a tu medida.
 • Tecnología y conectividad para el día a día, según la versión.
-• Posventa oficial: service y repuestos originales de la marca.
 • Un diseño que se nota en cada detalle.
 
 Lo mejor es verlo en persona: coordiná tu visita al salón el día y horario que prefieras.

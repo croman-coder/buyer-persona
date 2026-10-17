@@ -1,27 +1,27 @@
 ---
 estado: activo
-firma: b20369891d436c93dc792a4115b69a3dcd77b9605149fd020b1635053257f3ba
-git_rama: main
-git_remoto: https://github.com/croman-coder/croman-ads-dashboard.git
-git_sin_subir: 30
-git_ultimo_commit: '2026-08-14 1b7c0eb feat(agent): el asistente flotante responde
-  con el modelo'
+firma: c145fbfeddd64405f339e5b66219bfe3deae98277112fabcfee67df24782070a
+git_rama: diseno-ads
+git_remoto: https://github.com/croman-coder/APP-DE-PAUTAS.git
+git_sin_subir: 1
+git_ultimo_commit: '2026-10-11 20e4156 fix(aprobaciones): un 424 cuyo cuerpo no se
+  pudo leer («El servidor respondió 424») cuenta como «no se pudo confirmar» y no
+  como «falló»; en «Aprobar ahora» el 424 ya no oculta el aviso (sin texto del servidor,
+  la pantalla lo dice ella); también una ejecución interrumpida (failed + incierto,
+  sin ids) dice que no se pudo confirmar qué quedó creado (revisión independiente,
+  tercera ronda, ítem 3)'
 hijos: []
 nombre: croman-ads-dashboard
-resumen: 'Dashboard de gestión de Meta Ads para Santa Rosa Paraguay (Next.js 16 +
-  TypeScript + Tailwind 4 + Recharts + Meta Marketing API v21.0), en Phase 1 read-only:
-  KPIs, tabla de campañas multi-cuenta y cola de aprobación de mutaciones en /approvals,
-  con un asistente agéntico reactivo (orb). Dormido desde junio 2026 con 30 commits
-  sin subir. Faltan pushear esos commits y avanzar a Phase 2 (mutaciones) y Phase
-  3 (gestión de creatividades).'
+resumen: null
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/croman-ads-dashboard
 slug: croman-ads-dashboard
 stack:
+- docker
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-10-01'
+ultima_actividad: '2026-10-11'
 ---
 
 <!-- hermes:inicio -->
@@ -30,10 +30,10 @@ ultima_actividad: '2026-10-01'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-01 |
-| Stack | git, node |
-| Rama | main |
-| Último commit | 2026-08-14 1b7c0eb feat(agent): el asistente flotante responde con el modelo |
-| Sin subir | 30 |
+| Última actividad | 2026-10-11 |
+| Stack | docker, git, node |
+| Rama | diseno-ads |
+| Último commit | 2026-10-11 20e4156 fix(aprobaciones): un 424 cuyo cuerpo no se pudo leer («El servidor respondió 424») cuenta como «no se pudo confirmar» y no como «falló»; en «Aprobar ahora» el 424 ya no oculta el aviso (sin texto del servidor, la pantalla lo dice ella); también una ejecución interrumpida (failed + incierto, sin ids) dice que no se pudo confirmar qué quedó creado (revisión independiente, tercera ronda, ítem 3) |
+| Sin subir | 1 |
 | Ruta | `/home/croman/Escritorio/croman-ads-dashboard` |
 <!-- hermes:fin -->

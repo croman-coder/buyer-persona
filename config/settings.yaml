@@ -46,6 +46,11 @@ meta_ads:
     - "Karry"
     - "Multimarcas"
     - "JAC/Renault"
+  # Materiales: anuncio por anuncio, qué formato (imagen/video/carrusel), ubicación
+  # (Feed/Reels/Stories) y duración de video rinden en cada marca. Nota por marca.
+  materiales:
+    enabled: true
+    meses: 6
 
 # --- Embudo Completo (Full Funnel) ---
 # Datos de cada etapa del viaje del cliente

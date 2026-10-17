@@ -6,7 +6,7 @@ age_range: 65+
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-03'
+created: '2026-10-17'
 tags:
 - buyer-persona
 - marketing
@@ -17,52 +17,58 @@ tags:
 # Comprador Zeekr
 
 > [!note]- Cómo leer esta ficha
-> **Qué es:** el retrato de quién mira y quién compra este público, armado solo con datos propios: los anuncios de Meta (clics por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-05 → 2026-10-03 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
-> **Edad y género son de quién hace clic en los anuncios**, no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
+> **Qué es:** el retrato de quién mira y quién compra este público, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
+> **Ventanas de cada fuente:** Meta 2026-07-19 → 2026-10-17 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
 > Glosario y detalle de cada bloque: [[📘 Manual Buyer Persona]], sección 3.
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 65+ (25.6% de los clics) · heredado de la marca
-- **Género predominante:** Masculino (76.4%)
+- **Edad:** 65+ (34.4% de los contactos) · perfil de la marca
+- **Género predominante:** Masculino (72.2%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-05 → 2026-10-03 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-19 → 2026-10-17 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Marca → `Zeekr`
 - **Ticket promedio (ERP, facturado):** USD 42,999
 
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 29,0 % de los clics pero, viendo el mismo anuncio, contactan 0,78× lo que ellos (menos en 3 de 4 conjuntos): **ella investiga y él da el paso**.
+- **Meta:** ellas son el 32,8 % de los clics pero, viendo el mismo anuncio, contactan 0,79× lo que ellos (menos en 5 de 5 conjuntos): **ella investiga y él da el paso**.
 - **Para Meta Ads:** Una pieza para quien acompaña la decisión.
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — Zeekr]]
 
 ## 👤 Demografía
 
-_Qué es: quién hace clic en los anuncios de este público, por edad y género. De dónde sale: Meta, desglose por anuncio, ponderado por clics. No es quién compró: eso el ERP no lo registra._
+_Qué es: quién contacta por los anuncios de este público (deja sus datos o escribe), por edad y género. De dónde sale: Meta, desglose por anuncio, ponderado por contactos; con pocos contactos, por clics, y la ficha lo avisa. No es quién compró: eso el ERP no lo registra._
 
 - **Rango de edad:** 65+
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** audiencia de Meta de la marca **Zeekr** (25,376 clics), ponderado por clics — Masculino 76.4%
-- **Distribución de edad (Meta):** 65+: 25.6%, 35-44: 23.4%, 45-54: 18.2%, 25-34: 15.6%, 55-64: 14.8%, 18-24: 2.4%
+- **Fuente edad/género:** audiencia de Meta de la marca **Zeekr** (1,915 contactos), ponderado por contactos (formularios y chats) — Masculino 72.2%
+- **Distribución de edad (Meta):** 65+: 34.4%, 35-44: 18.2%, 55-64: 16.7%, 45-54: 15.9%, 25-34: 11.4%, 18-24: 3.4%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
+
+## 🧾 Quién compró de verdad (Bitrix: ganados + Facturación)
+
+- **3 negocios** de la marca: 0 ganados y 3 en Facturación (ya son ventas que se van a cerrar).
+- **0 vinieron de un lead de Meta** (cruce seguro por teléfono o mail).
+- _La edad y el género se estiman con quienes contactaron por el anuncio de cada comprador. Detalle de todas las marcas: [[🧾 Compradores reales (Bitrix)]]._
 
 ## 🎯 Intereses y Comportamientos
 
 _Qué es: los temas que aparecen en los anuncios que este público ve y clickea. No son intereses declarados (Meta dejó de exponerlos en 2021): es con qué le estamos hablando y qué responde. El % es la parte de los anuncios que toca cada tema._
 
-**Intereses observados** (145 anuncios reales leídos):
-- Diseño y estatus · 56.6% de los anuncios
-- Tecnología y conectividad · 51.7% de los anuncios
-- Autos eléctricos y ahorro de combustible · 39.2% de los anuncios
-- Probar antes de comprar (test drive) · 37.1% de los anuncios
-- Financiación en cuotas · 8.4% de los anuncios
-- Garantía y respaldo posventa · 4.9% de los anuncios
+**Intereses observados** (160 anuncios reales leídos):
+- Diseño y estatus · 58.2% de los anuncios
+- Tecnología y conectividad · 50.6% de los anuncios
+- Autos eléctricos y ahorro de combustible · 43.7% de los anuncios
+- Probar antes de comprar (test drive) · 33.5% de los anuncios
+- Financiación en cuotas · 7.6% de los anuncios
+- Garantía y respaldo posventa · 6.3% de los anuncios
 
 > _Meta ya no expone intereses declarados de la audiencia (Audience Insights cerró en 2021); esto es lo que el público ve y con lo que interactúa._
 
@@ -71,7 +77,7 @@ _Qué es: los temas que aparecen en los anuncios que este público ve y clickea.
 - **NSE estimado:** C+ (medio-alto)
 - **Señales que se usaron:**
   - ticket promedio USD 42,999 (gama media-alta)
-  - 28.0% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 24.9% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -106,7 +112,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!warning] 🔴 Dolores y Frustraciones
 
-> _De dónde sale: del texto de 143 anuncios reales de esta marca. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
+> _De dónde sale: del texto de 158 anuncios reales de esta marca. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
 >
 > - Ansiedad de autonomía/carga: evalúa km reales y tiempo de carga antes de decidir
 > - Compara el valor de la cuota mensual, no solo el precio de lista
@@ -134,11 +140,11 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > **Mensaje clave:** Enfoca la comunicación en 'Zeekr'.
 > **Canales:** Prioriza Showroom.
-> **Formato:** Feed (imagen/carrusel estático) concentra el 49.4% de las impresiones reales — priorizá ese formato en las piezas nuevas.
-> **Públicos hoy:** 77.8% de los adsets activos van a público frío; 4 de 18 adsets usan base propia (4 lookalike).
-> **Inversión actual:** USD 2,773 en la ventana (~USD 924/mes), 1,131 leads → costo por lead USD 2.45.
+> **Formato:** En formularios, el video y la imagen (gráfica) no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — Zeekr]].
+> **Públicos hoy:** 80.0% de los adsets activos van a público frío; 4 de 20 adsets usan base propia (4 lookalike).
+> **Inversión actual:** USD 2,564 en la ventana (~USD 855/mes), 1,183 leads → costo por lead USD 2.17.
 > 
-> **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
+> **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
 
 ## 🚗 Modelos de Zeekr
@@ -150,13 +156,13 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Zeekr (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 1,131
+> **Total de leads de la marca en la ventana:** 1,183
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Zeekr (90 días)
 
-> **Leads:** 1,228 → **convertidos:** 0 (0.0%)
-> **Por canal:** Meta madre 1,219, Otros canales 6, Meta asesores 3
+> **Leads:** 1,393 → **convertidos:** 0 (0.0%)
+> **Por canal:** Meta madre 1,380, Otros canales 10, Meta asesores 3
 > **Deals:** 5 — ganados 0, perdidos 1, en proceso 4 (win rate 0.0%)
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 
@@ -179,7 +185,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-03 12:34*
+*Generado el 2026-10-17 06:44*
 
 ## 🔗 Contenido Relacionado
 

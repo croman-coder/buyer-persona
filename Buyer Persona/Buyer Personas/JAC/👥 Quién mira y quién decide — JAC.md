@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: JAC
-periodo_meta: 2026-07-05 a 2026-10-03
-created: 2026-10-03
+periodo_meta: 2026-07-19 a 2026-10-17
+created: 2026-10-17
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,7 +12,7 @@ tags:
 # 👥 Quién mira y quién decide — JAC
 
 > [!summary] En una línea
-> En Meta, ellas son el 17,2 % de los clics y contactan igual que ellos con el mismo anuncio (1,00×). El 46,6 % de las compras a cliente final las factura una empresa. En el 97,2 % de los chats el cliente nombra a otra persona.
+> En Meta, ellas son el 17,4 % de los clics y contactan igual que ellos con el mismo anuncio (0,95×). El 46,6 % de las compras a cliente final las factura una empresa. En el 97,4 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
 > 1. **Una pieza para quien acompaña la decisión** — «Espacio para todos». Detalle en la sección 5.
@@ -30,27 +30,27 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-05** al **2026-10-03**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-19** al **2026-10-17**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **JAC** | 17,2 % | 14,4 % | **1,00×** | 46 (ellas menos en 20) | Sin diferencia: ellas y ellos contactan igual |
-| [[JAC X200|JAC X200]] | 18,3 % | 12,1 % | 0,75× | 8 (ellas menos en 7) | Ellas miran y el contacto lo deja él |
-| [[JAC E30X|JAC E30X]] | 11,2 % | 12,5 % | 1,17× | 5 (ellas menos en 0) | Las que miran, contactan más que ellos |
-| [[JAC T9|JAC T9]] | 21,2 % | 11,1 % | 0,78× | 7 (ellas menos en 3) | Misma tendencia, con pocos conjuntos para confirmarlo |
-| [[JAC JS4|JAC JS4]] | 29,6 % | 28,9 % | 1,07× | 5 (ellas menos en 1) | Sin diferencia: ellas y ellos contactan igual |
-| [[JAC LD250|JAC LD250]] | 23,4 % | 13,8 % | 0,71× | 5 (ellas menos en 3) | Ellas miran y el contacto lo deja él |
-| [[JAC LD123|JAC LD123]] | 14,9 % | 10,7 % | 1,09× | 4 (ellas menos en 1) | Las que miran, contactan más que ellos |
-| [[JAC RF8|JAC RF8]] | 15,4 % | 19,5 % | 1,38× | 5 (ellas menos en 1) | Las que miran, contactan más que ellos |
-| [[JAC Sunray|JAC Sunray]] | 10,1 % | 11,6 % | 1,25× | 3 (ellas menos en 1) | Las que miran, contactan más que ellos |
+| **JAC** | 17,4 % | 13,7 % | **0,95×** | 45 (ellas menos en 21) | Sin diferencia: ellas y ellos contactan igual |
+| [[JAC X200|JAC X200]] | 16,6 % | 11,0 % | 0,74× | 8 (ellas menos en 6) | Ellas miran y el contacto lo deja él |
+| [[JAC E30X|JAC E30X]] | 10,6 % | 11,6 % | 1,12× | 5 (ellas menos en 1) | Las que miran, contactan más que ellos |
+| [[JAC JS4|JAC JS4]] | 30,5 % | 28,9 % | 1,06× | 6 (ellas menos en 3) | Sin diferencia: ellas y ellos contactan igual |
+| [[JAC T9|JAC T9]] | 21,0 % | 10,1 % | 0,68× | 7 (ellas menos en 3) | Misma tendencia, con pocos conjuntos para confirmarlo |
+| [[JAC LD123|JAC LD123]] | 14,4 % | 9,7 % | 0,92× | 3 (ellas menos en 1) | Sin diferencia: ellas y ellos contactan igual |
+| [[JAC RF8|JAC RF8]] | 15,5 % | 16,6 % | 1,10× | 4 (ellas menos en 2) | Las que miran, contactan más que ellos |
+| [[JAC Sunray|JAC Sunray]] | 10,7 % | 12,2 % | 1,24× | 4 (ellas menos en 1) | Las que miran, contactan más que ellos |
+| [[JAC LD250|JAC LD250]] | 21,3 % | 12,3 % | 0,69× | 5 (ellas menos en 3) | Ellas miran y el contacto lo deja él |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|---|
-| 20,4 % | 21,2 % | 25,5 % | 24,4 % | 23,8 % | 15,2 % |
+| 20,5 % | 22,4 % | 26,2 % | 25,2 % | 21,2 % | 13,7 % |
 
-Los mayores de 55 contactan parecido al resto con el mismo anuncio (1,01×).
+Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,94×).
 
 ## 2. ¿Qué le interesa a cada uno?
 
@@ -60,20 +60,18 @@ Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema su
 
 | Modelo | Tema del anuncio | Mujeres en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| JAC JS4 | Familia y espacio | 33,4 % | +5,8 | 2.810 (10) |
-| JAC RF8 | Financiación en cuotas | 20,0 % | +5,5 | 1.013 (3) |
-| JAC RF8 | Probar antes de comprar (test drive) | 19,1 % | +4,6 | 1.082 (7) |
-| JAC LD250 | Financiación en cuotas | 23,0 % | +4,1 | 3.219 (5) |
+| JAC JS4 | Familia y espacio | 32,7 % | +4,6 | 3.733 (10) |
+| JAC RF8 | Garantía y respaldo posventa | 18,9 % | +4,3 | 1.523 (10) |
 
 **Lo que más atrae a los mayores de 55:**
 
 | Modelo | Tema del anuncio | 55+ en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| JAC JS4 | Familia y espacio | 31,4 % | +11,8 | 2.810 (10) |
-| JAC JS4 | Garantía y respaldo posventa | 31,1 % | +11,5 | 3.235 (11) |
-| JAC RF8 | Garantía y respaldo posventa | 23,7 % | +7,0 | 1.062 (9) |
+| JAC JS4 | Familia y espacio | 32,6 % | +8,7 | 3.733 (10) |
+| JAC JS4 | Garantía y respaldo posventa | 32,6 % | +8,7 | 4.271 (11) |
+| JAC RF8 | Garantía y respaldo posventa | 24,7 % | +7,0 | 1.523 (10) |
 
-**Lo que menos las atrae** (evitarlo en la pieza para ellas): JAC X200: probar antes de comprar (test drive) (-6,3); JAC T9: garantía y respaldo posventa (-5,3); JAC T9: tecnología y conectividad (-4,7); JAC JS4: probar antes de comprar (test drive) (-4,3).
+**Lo que menos las atrae** (evitarlo en la pieza para ellas): JAC T9: garantía y respaldo posventa (-6,1); JAC T9: tecnología y conectividad (-5,7); JAC X200: probar antes de comprar (test drive) (-5,0); JAC JS4: diseño y estatus (-4,7); JAC JS4: probar antes de comprar (test drive) (-4,4).
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -89,10 +87,11 @@ Cuando compra una empresa hay un **comité**: decide el dueño o un gerente, pag
 
 ## 4. ¿Quién más aparece en las conversaciones?
 
-Chats de **Messenger e Instagram** de las páginas de JAC y de sus asesores, del 2026-06-30 al 2026-09-28. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
+Chats de **Messenger e Instagram** de las páginas de JAC y de sus asesores, del 2026-07-14 al 2026-10-12. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
 
-- **1.431** chats con texto del cliente · **97,2 %** nombran a otra persona.
-  - empresa o socio: 1391
+- **1.670** chats con texto del cliente · **97,4 %** nombran a otra persona.
+  - empresa o socio: 1626
+  - hijos: 1
 
 _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más que cuántas veces._
 
@@ -100,7 +99,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza para quien acompaña la decisión
 
-**Por qué:** Donde más se nota: JAC LD250 (0,71×), JAC X200 (0,75×). El tema **familia y espacio** es el que más las atrae: en JAC JS4 suma 6 puntos de mujeres sobre el promedio del modelo (hasta 33,4 %).
+**Por qué:** Donde más se nota: JAC LD250 (0,69×), JAC X200 (0,74×). El tema **familia y espacio** es el que más las atrae: en JAC JS4 suma 5 puntos de mujeres sobre el promedio del modelo (hasta 32,7 %).
 
 **Modelos donde más pesa:** JAC JS4
 
@@ -115,9 +114,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.2 Una pieza que les hable a ellas, que son las que avanzan
 
-**Por qué:** Ellas son solo el 15,4 % de los clics, pero las que hacen clic contactan 1,38× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan. Más fuerte en JAC RF8 (1,38×), JAC Sunray (1,25×).
+**Por qué:** Ellas son solo el 10,7 % de los clics, pero las que hacen clic contactan 1,24× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan. Más fuerte en JAC Sunray (1,24×).
 
-**Modelos donde más pesa:** JAC RF8, JAC Sunray
+**Modelos donde más pesa:** JAC Sunray
 
 **La pieza (texto base, ajustar al tono de la marca):**
 
@@ -143,7 +142,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.4 Darle al cliente algo para mostrarle a quien decide con él
 
-**Por qué:** En el 97,2 % de los chats de Messenger e Instagram el cliente nombra a otra persona (sobre todo: empresa o socio 1391).
+**Por qué:** En el 97,4 % de los chats de Messenger e Instagram el cliente nombra a otra persona (sobre todo: empresa o socio 1626, hijos 1).
 
 **La pieza (texto base, ajustar al tono de la marca):**
 
@@ -167,9 +166,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-05 a 2026-10-03, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-19 a 2026-10-17, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: ventas a cliente final, 2025-09-11 a 2026-09-11.
-- Chats: Messenger e Instagram, lectura semanal (2026-09-28).
-- Generado el 2026-10-03 12:34 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Chats: Messenger e Instagram, lectura semanal (2026-10-12).
+- Generado el 2026-10-17 06:44 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[JAC|Volver a JAC]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

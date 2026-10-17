@@ -6,7 +6,7 @@ hasta_mes: 7
 unidades_mercado: 33592
 unidades_santa_rosa: 2239
 modelos_propios: 103
-actualizado: 2026-09-28
+actualizado: 2026-10-12
 tags: [mercado, cadam, matriculaciones, modelos, segmentos]
 ---
 
@@ -439,6 +439,6 @@ Vehículos livianos importados (aduana) hasta agosto. Se importa meses antes de 
 > [!danger] Uso interno
 > Por ley de Paraguay no se puede hacer publicidad comparativa nombrando marcas o modelos de la competencia. Estos datos sirven para decidir pauta, producto y precio — nunca para un copy público.
 
-*Generado el 2026-09-28 desde advisor.santarosa.lat*
+*Generado el 2026-10-12 desde advisor.santarosa.lat*
 
 <!-- hermes:fin -->

@@ -22,11 +22,10 @@ tags: [marketing, google-ads]
 | 6 | Tecnología y Conectividad | 25 |
 | 7 | Financiación a tu Medida | 24 |
 | 8 | Seguridad en Cada Viaje | 23 |
-| 9 | Diseño que se Nota | 18 |
-| 10 | Outlander 0km | 13 |
-| 11 | Versiones y Equipamiento | 24 |
-| 12 | Hablá con un Asesor | 19 |
-| 13 | Pedí tu Cotización Hoy | 22 |
+| 9 | Outlander 0km | 13 |
+| 10 | Versiones y Equipamiento | 24 |
+| 11 | Hablá con un Asesor | 19 |
+| 12 | Pedí tu Cotización Hoy | 22 |
 
 ## Descripciones (hasta 4 · máx. 90 caracteres)
 | # | Descripción | Caract. |

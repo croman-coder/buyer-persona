@@ -1,14 +1,14 @@
 ---
 estado: activo
-firma: ce3a3a989481817eedc233a85a6114975a5f177d9d96688403fc503531342796
+firma: 81046241c6b65d9af2851314e0332f6d3c8bcb588dd8f56d10cc43a5e7cd28b8
 git_rama: main
 git_remoto: https://github.com/croman-coder/soueastweb.git
 git_sin_subir: 0
-git_ultimo_commit: '2026-09-30 948dfc0 Docs: Cloudflare y Search Console configurados;
-  el rango del video dependía de Traefik, no de Cloudflare'
+git_ultimo_commit: '2026-10-13 7edd2be feat(chat): robot del chat de marcas en el
+  sitio; /api/lead acepta origen chat y devuelve leadId al chat'
 hijos: []
 nombre: SOUEAST WEB
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/ASSET WEB SRPY/SOUEAST WEB. Sin README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/ASSET WEB SRPY/SOUEAST WEB
 slug: asset-web-srpy-soueast-web
@@ -16,7 +16,7 @@ stack:
 - docker
 - git
 tipo: proyecto
-ultima_actividad: '2026-09-30'
+ultima_actividad: '2026-10-13'
 ---
 
 <!-- hermes:inicio -->
@@ -25,10 +25,10 @@ ultima_actividad: '2026-09-30'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-09-30 |
+| Última actividad | 2026-10-13 |
 | Stack | docker, git |
 | Rama | main |
-| Último commit | 2026-09-30 948dfc0 Docs: Cloudflare y Search Console configurados; el rango del video dependía de Traefik, no de Cloudflare |
+| Último commit | 2026-10-13 7edd2be feat(chat): robot del chat de marcas en el sitio; /api/lead acepta origen chat y devuelve leadId al chat |
 | Sin subir | 0 |
 | Ruta | `/home/croman/Escritorio/ASSET WEB SRPY/SOUEAST WEB` |
 <!-- hermes:fin -->

@@ -1,6 +1,6 @@
 ---
-estado: inaccesible
-firma: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+estado: activo
+firma: 05c5e3bcb722fd403de7f9a3c55e2ee355185ac1037fe005bf5804999d965466
 git_rama: null
 git_remoto: null
 git_sin_subir: null
@@ -13,7 +13,7 @@ ruta: /home/croman/Escritorio/SERVIDOR SRPY
 slug: servidor-srpy
 stack: []
 tipo: cajon
-ultima_actividad: null
+ultima_actividad: '2026-10-16'
 ---
 
 <!-- hermes:inicio -->
@@ -21,8 +21,8 @@ ultima_actividad: null
 
 | Campo | Valor |
 | --- | --- |
-| Estado | inaccesible |
-| Última actividad | — |
+| Estado | activo |
+| Última actividad | 2026-10-16 |
 | Stack | — |
 | Rama | — |
 | Último commit | — |

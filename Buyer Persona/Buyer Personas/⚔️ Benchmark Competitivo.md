@@ -1,8 +1,8 @@
 ---
 type: benchmark-competitivo
 created: '2026-08-03'
-updated: '2026-09-21'
-period: '2026-09-21'
+updated: '2026-10-12'
+period: '2026-10-12'
 tags:
 - benchmark
 - competitivo
@@ -12,14 +12,17 @@ tags:
 
 # ⚔️ Benchmark Competitivo — Mercado Automotor Paraguay
 
-> [!info] **Armado por script el 2026-09-21, no escrito a mano.**
+> [!info] **Armado por script el 2026-10-12, no escrito a mano.**
 > Cada cifra sale de una de estas tres fuentes, y ninguna se mezcla con otra:
 > - **Volúmenes:** CADAM / DNRA, matriculaciones de enero–julio 2026.
-> - **Nuestros precios:** API de Cars (nuestro DMS), lista vigente — 122 versiones.
-> - **Precios de competencia:** relevamiento con navegador real el 2026-09-21.
+> - **Nuestros precios:** API de Cars (nuestro DMS), lista vigente — 125 versiones.
+> - **Precios de competencia:** relevamiento con navegador real el 2026-10-12.
 >
 > ⚖️ Uso **interno**. Por ley paraguaya no se puede hacer publicidad comparativa
 > nombrando marcas o modelos de la competencia.
+
+Qué herramientas de marketing carga cada web (pixel, programática, CRM), relevado cada lunes:
+[[🛰️ Stack de Marketing — Competencia]].
 
 ---
 
@@ -198,167 +201,170 @@ Es donde juegan las dos y donde se define el volumen del mercado chino.
 
 ## 💵 Nuestra lista de precios — la única verificada
 
-> [!note] Salen del stock de Cars al 2026-09-21: son precios de lista en
+> [!note] Salen del stock de Cars al 2026-10-12: son precios de lista en
 > dólares, por versión. Es el único precio de este documento que está
 > verificado contra un sistema y no contra una web.
 
 
-### GREAT WALL — 32 versiones, $15.990 a $72.990
+### GREAT WALL — 31 versiones, $15.990 a $72.990
 
 | Modelo | Versión | Precio | Unidades en stock |
 |---|---|---|---|
-| HAVAL | JOLION H2 1.5T MT | **$15.990** | 1 |
-| JOLION | JOLION PRO HEV HIGH | **$19.990** | 53 |
-| WINGLE | NEW WINGLE 4X2 | **$19.990** | 4 |
+| HAVAL | JOLION H2 1.5T MT | **$15.990** | 2 |
+| JOLION | JOLION PRO HEV HIGH | **$19.990** | 39 |
+| WINGLE | NEW WINGLE 4X2 | **$19.990** | 6 |
+| JOLION | JOLION PRO HEV DELUXE | **$21.990** | 22 |
+| WINGLE | NEW WINGLE 4X4 | **$21.990** | 8 |
 | WINGLE 7 LUXURY 4X4 MT DC | WINGLE 7 D 4X4 LUX | **$21.990** | 2 |
-| JOLION | JOLION PRO HEV DELUXE | **$21.990** | 29 |
-| WINGLE | NEW WINGLE 4X4 | **$21.990** | 7 |
 | ORA 03 | ORA 03 SKIN 480 BITONO | **$22.990** | 5 |
-| ORA 5 | ORA 5 HIGH | **$22.990** | 9 |
-| H6 | NEW H6 HEV | **$24.990** | 37 |
+| ORA 5 | ORA 5 EV HIGH | **$23.990** | 6 |
 | POER | POER TOOL ELITE 4X4 MT DIE | **$24.990** | 1 |
+| H6 | NEW H6 HEV | **$24.990** | 43 |
 | POER | POER TOOL LUXURY 4X2 MT DIE | **$24.990** | 1 |
-| POER | POER FAMILY ELITE 4X4 AT DIE | **$28.990** | 5 |
+| POER | POER FAMILY ELITE 4X4 AT DIE | **$28.990** | 4 |
 | H6 HEV DELUXE | H6 HEV DELUXE | **$28.990** | 1 |
 | POER | POER 2.0 LUX 4X4 | **$29.990** | 6 |
-| H6 | NEW H6 PHEV 4X2 | **$30.990** | 47 |
+| H6 | NEW H6 PHEV 4X2 | **$30.990** | 44 |
 | H6 | H6 DELUXE PHEV 2WD | **$31.990** | 1 |
 | ORA 03 | ORA 03 GT | **$34.990** | 3 |
+| H7 | H7 PHEV 4X2 | **$34.990** | 48 |
+| POER | POER 2.4 SUPER LUX 4X4 | **$34.990** | 28 |
 | H6 | NEW H6 PHEV 4X4 | **$34.990** | 1 |
-| H6 | H6 DELUXE PHEV 4WD | **$34.990** | 1 |
-| POER | POER 2.4 SUPER LUX 4X4 | **$35.990** | 25 |
-| H7 | H7 PHEV 4X2 | **$35.990** | 54 |
-| H9 | H9 4WD DIESEL | **$38.990** | 53 |
-| H6 GT DELUXE HÍBRIDO ENCHUFABL | H6 GT DELUXE PHEV | **$39.990** | 21 |
-| TANK | TANK 300 PHEV | **$39.990** | 6 |
-| TANK | TANK 300 HEV ELITE | **$39.990** | 4 |
-| POER | POER P500 HIGH PHEV 4X4 | **$42.990** | 3 |
+| H9 | H9 4WD DIESEL | **$38.990** | 68 |
+| TANK | TANK 300 PHEV | **$39.990** | 4 |
+| H6 GT DELUXE HÍBRIDO ENCHUFABL | H6 GT DELUXE PHEV | **$39.990** | 16 |
+| TANK | TANK 300 HEV ELITE | **$39.990** | 3 |
+| POER | POER P500 HIGH PHEV 4X4 | **$42.990** | 1 |
 | POER | POER P500 | **$44.990** | 1 |
 | POER | POER P500 TOP PHEV 4X4 | **$46.990** | 13 |
-| TANK | TANK 400 PHEV 4WD | **$48.990** | 60 |
-| TANK | TANK 500 HEV DELUXE | **$49.990** | 2 |
-| TANK | TANK 500 PHEV | **$54.990** | 6 |
-| TANK | TANK 700 PHEV | **$72.990** | 11 |
+| TANK | TANK 400 PHEV 4WD | **$48.990** | 77 |
+| TANK | TANK 500 HEV DELUXE | **$49.990** | 1 |
+| TANK | TANK 500 PHEV | **$54.990** | 8 |
+| TANK | TANK 700 PHEV | **$72.990** | 15 |
 
-### JAC — 20 versiones, $15.990 a $59.990
+### JAC — 21 versiones, $15.990 a $59.990
 
 | Modelo | Versión | Precio | Unidades en stock |
 |---|---|---|---|
-| JS4 | JS4 1.6 + MT COMFORT | **$15.990** | 5 |
+| JS4 | JS4 1.6 + MT COMFORT | **$15.990** | 4 |
 | X200 | X200 CABINA SIMPLE | **$17.990** | 6 |
 | JS4 | JS4 1.5T + CVT LUXURY | **$17.990** | 4 |
+| LD250 | LD250 CHASIS 2.5T | **$18.490** | 3 |
 | JS1 | JS1 EV | **$18.990** | 2 |
-| X200 | X200 CABINA SIMPLE DE | **$18.990** | 4 |
-| T8 | T8 4X2 INTERMEDIA | **$19.990** | 1 |
-| LD123 | LD123 CHASIS 3.2T | **$20.490** | 3 |
+| X200 | X200 CABINA SIMPLE DE | **$18.990** | 8 |
+| LD250 | LD250 CARGO BOX 2.5T | **$19.490** | 1 |
+| X200 | X200 DOBLE CABINA | **$19.990** | 2 |
 | JS4 | JS4 1.5T + CVT ADVANCE AD | **$20.490** | 1 |
+| LD123 | LD123 CHASIS 3.2T | **$20.490** | 1 |
+| LD123 | LD123 CARGO BOX 3.2T | **$21.490** | 4 |
 | E30X | E30X LUXURY | **$22.990** | 4 |
-| T8 | T8 4X4 FULL | **$23.490** | 3 |
-| LE420 | LE420 CARGO BOX 5.5T | **$27.990** | 1 |
+| T8 | T8 4X4 FULL | **$23.490** | 1 |
 | LE79P | LE79P CHASIS 6.0T | **$29.490** | 6 |
 | T9 | T9 ADVANCE ADVANCE 4X2 AT | **$29.990** | 1 |
-| SUNRAY | SUNRAY FURGON | **$31.990** | 1 |
 | T9 | T9 ADVANCE LUXURY 4X4 AT | **$32.490** | 7 |
-| LE112 | LE112 CHASIS 7.5T | **$34.990** | 1 |
-| LE112 | LE112 CARGO BOX 7.5T | **$35.990** | 2 |
-| SUNRAY | SUNRAY 16+1 MINIBUS | **$36.990** | 5 |
-| REFINE | REFINE RF8 PHEV | **$38.990** | 4 |
+| LE112 | LE112 CHASIS 7.5T | **$34.990** | 2 |
+| LE112 | LE112 CARGO BOX 7.5T | **$35.990** | 1 |
+| SUNRAY | SUNRAY 16+1 MINIBUS | **$36.990** | 3 |
+| REFINE | REFINE RF8 PHEV | **$40.990** | 2 |
 | G15EA | G15EA | **$59.990** | 3 |
 
 ### JETOUR — 21 versiones, $14.990 a $70.990
 
 | Modelo | Versión | Precio | Unidades en stock |
 |---|---|---|---|
-| X50 | X50 MT | **$14.990** | 15 |
+| X50 | X50 MT | **$14.990** | 9 |
+| X50 | X50 LUXURY | **$16.990** | 74 |
 | X70 | X70 GL FL | **$16.990** | 2 |
-| X50 | X50 LUXURY | **$16.990** | 112 |
 | X70 | X70 GLS - 8AT (-2) | **$19.990** | 2 |
-| DASHING | DASHING X1 GL | **$20.990** | 24 |
-| X70 | X70 GLS FL | **$20.990** | 24 |
+| DASHING | DASHING X1 GL | **$20.990** | 15 |
+| X70 | X70 GLS FL | **$20.990** | 23 |
 | X70 | X70 GLX - 8AT (-3) | **$23.490** | 3 |
 | DASHING | DASHING X1 GLS | **$24.990** | 4 |
-| X70 | X70PLUS 1.5 GLX-6DCT | **$24.990** | 21 |
+| X70 | X70PLUS 1.5 GLX-6DCT | **$24.990** | 20 |
 | DASHING | DASHING X1 GLX | **$26.990** | 2 |
 | X70 | X70 PLUS GLX - 7DCT 1.6 | **$26.990** | 1 |
 | TRAVELLER | T1 COMFORT | **$27.990** | 3 |
+| TRAVELLER | T1 PHEV VI | **$29.990** | 10 |
 | TRAVELLER | T1 LUXURY | **$31.990** | 1 |
 | X90 | X90 PLUS PREMIUM - 7DCT | **$33.490** | 1 |
-| TRAVELLER | T1 PHEV | **$35.990** | 31 |
-| TRAVELLER | T2 LUXURY | **$35.990** | 13 |
-| TRAVELLER | T2 PHEV | **$40.990** | 13 |
-| TRAVELLER | T2 PHEV 4WD | **$45.990** | 3 |
-| G700 | G700 PHEV LUXURY | **$50.990** | 12 |
-| F700 | F700 PHEV | **$60.990** | 31 |
-| G700 | G700 PHEV EXCLUSIVE | **$70.990** | 17 |
+| TRAVELLER | T2 LUXURY | **$35.990** | 12 |
+| TRAVELLER | T1 PHEV | **$35.990** | 37 |
+| TRAVELLER | T2 PHEV | **$40.990** | 26 |
+| G700 | G700 PHEV LUXURY | **$50.990** | 9 |
+| F700 | F700 PHEV | **$60.990** | 26 |
+| G700 | G700 PHEV EXCLUSIVE | **$70.990** | 10 |
 
 ### JMEV — 2 versiones, $11.990 a $14.990
 
 | Modelo | Versión | Precio | Unidades en stock |
 |---|---|---|---|
-| EV2 | EV2 | **$11.990** | 33 |
-| EV3 | EV3 | **$14.990** | 31 |
+| EV2 | EV2 | **$11.990** | 30 |
+| EV3 | EV3 | **$14.990** | 26 |
 
 ### LEAPMOTOR — 4 versiones, $18.990 a $36.990
 
 | Modelo | Versión | Precio | Unidades en stock |
 |---|---|---|---|
 | T03 | T03 LUXURY | **$18.990** | 2 |
-| C10 | C10 | **$30.990** | 2 |
-| C10 | C10 REEV | **$30.990** | 14 |
+| C10 | C10 REEV | **$30.990** | 13 |
+| C10 | C10 | **$30.990** | 3 |
 | C16 | C16 | **$36.990** | 1 |
 
-### MITSUBISHI — 12 versiones, $20.684 a $41.990
+### MITSUBISHI — 13 versiones, $20.684 a $41.990
 
 | Modelo | Versión | Precio | Unidades en stock |
 |---|---|---|---|
 | ECLIPSE CROSS | ECLIPSE CROSS 4X2 1.5T | **$20.684** | 13 |
 | NEW L200 | L200 TRITON SPORT 4WD GLX MT BAS. | **$23.674** | 3 |
+| DESTINATOR | DESTINATOR EXCEED | **$29.990** | 5 |
 | MONTERO | MONTERO SPORT GLS 2WD 2.4DIT 8AT | **$30.640** | 25 |
 | NEW L200 | L200 TRITON SPORT 4WD MT GLS HPE | **$31.762** | 32 |
 | NEW L200 | L200 TRITON SPORT 4WD GLS HPE MT | **$31.792** | 9 |
 | ECLIPSE CROSS | ECLIPSE CROSS HPE-S 1.5T | **$32.990** | 7 |
-| NEW L200 | L200 TRITON SPORT 4WD CVT GLS HPE | **$34.222** | 15 |
+| NEW L200 | L200 TRITON SPORT 4WD CVT GLS HPE | **$34.222** | 13 |
 | NEW L200 | L200 GL 4WD SC MT | **$35.990** | 11 |
-| MONTERO | MONTERO SPORT GLS 4WD 2.4DIT 8AT | **$36.491** | 34 |
+| MONTERO | MONTERO SPORT GLS 4WD 2.4DIT 8AT | **$36.491** | 33 |
 | OUTLANDER | NEW OUTLANDER 2WD | **$36.990** | 2 |
 | MONTERO | MONTERO SPORT GLS SAM 4WD 2.4DIT 8AT | **$37.613** | 30 |
 | OUTLANDER | NEW OUTLANDER 4WD PLUS | **$41.990** | 2 |
 
-### RENAULT — 19 versiones, $9.990 a $52.990
+### RENAULT — 21 versiones, $9.990 a $52.990
 
 | Modelo | Versión | Precio | Unidades en stock |
 |---|---|---|---|
 | KWID | NUEVO KWID INTENS 1.0 | **$9.990** | 1 |
 | KWID | NUEVO KWID ZEN 1.0 | **$9.990** | 1 |
-| KWID | KWID EVOLUTION | **$10.490** | 11 |
+| KWID | KWID EVOLUTION | **$10.490** | 6 |
 | KANGOO | NUEVA KANGOO EXPRESS | **$12.586** | 2 |
+| KWID | KWID ZEN 1.0 MT | **$13.490** | 1 |
 | KWID | NUEVO KWID E-TECH | **$16.990** | 1 |
-| KARDIAN | KARDIAN EVOLUTION 1.0 DCT | **$17.990** | 1 |
-| OROCH | NUEVA OROCH ZEN 1.6 MT E3 | **$18.990** | 22 |
+| OROCH | NUEVA OROCH ZEN 1.6 MT E3 | **$18.990** | 20 |
 | KARDIAN | KARDIAN PREMIERE EDITION 1.0 DCT | **$19.990** | 1 |
-| KARDIAN | KARDIAN ICONIC | **$20.990** | 4 |
+| KARDIAN | KARDIAN ICONIC | **$20.990** | 2 |
 | DUSTER | DUSTER INTENS AT6 DIESEL | **$21.990** | 2 |
 | ARKANA | ARKANA E-TECH HYBRID | **$22.990** | 1 |
 | OROCH | NUEVA OROCH INT OUT 1.3 MT 4X4 E3 | **$25.490** | 2 |
 | ARKANA | ARKANA INTENS 1.3T | **$26.990** | 2 |
 | BOREAL | BOREAL EVOLUTION | **$27.990** | 4 |
 | BOREAL | BOREAL ICONIC | **$31.990** | 6 |
-| KOLEOS | KOLEOS ALPINE | **$36.990** | 45 |
-| FILANTE | FILANTE ALPINE HEV | **$41.990** | 21 |
-| MASTER | NUEVA MASTER L2H2 DIESEL PLUS | **$43.240** | 2 |
+| KOLEOS | KOLEOS ALPINE | **$36.990** | 40 |
+| MASTER | NUEVA MASTER L1H1 DIESEL PLUS | **$37.990** | 1 |
+| FILANTE | FILANTE ALPINE HEV | **$41.990** | 20 |
+| MASTER | NUEVA MASTER L2H2 DIESEL PLUS | **$42.990** | 3 |
+| MASTER | NUEVA MASTER L3H2 FURGON DIESEL | **$45.490** | 1 |
 | MASTER | NUEVA MASTER L3H2 MINIBUS DIESEL | **$52.990** | 6 |
 
 ### SOUEAST — 8 versiones, $22.990 a $32.990
 
 | Modelo | Versión | Precio | Unidades en stock |
 |---|---|---|---|
-| S07 | S07 LITE 1.5T + 6DCT III | **$22.990** | 14 |
-| S06 | S06 PHEV III GL | **$24.990** | 33 |
-| S06 | S06 1.6T 7DCT IV | **$25.990** | 7 |
-| S07 | S07 PLUS 1.6  7DCT IV | **$26.990** | 4 |
+| S07 | S07 LITE 1.5T + 6DCT III | **$22.990** | 13 |
+| S06 | S06 PHEV III GL | **$24.990** | 19 |
+| S06 | S06 1.6T 7DCT IV | **$25.990** | 5 |
+| S07 | S07 PLUS 1.6  7DCT IV | **$26.990** | 2 |
 | S09 | S09 1.6 2WD | **$27.990** | 3 |
-| S06 | S06 PHEV V GLS | **$28.990** | 26 |
-| S08 | S08 1.5 PHEV GLS | **$32.990** | 58 |
+| S06 | S06 PHEV V GLS | **$28.990** | 4 |
+| S08 | S08 1.5 PHEV GLS | **$32.990** | 48 |
 | S09 | S09 2.0 4WD | **$32.990** | 9 |
 
 ### ZEEKR — 4 versiones, $44.990 a $61.990
@@ -367,10 +373,10 @@ Es donde juegan las dos y donde se define el volumen del mercado chino.
 |---|---|---|---|
 | ZEEKR X | X FLAGSHIP | **$44.990** | 1 |
 | ZEERK 7X | 7X RWD SMART | **$49.990** | 3 |
-| ZEEKR 001 | 001 SPORT | **$59.990** | 2 |
-| ZEERK 7X | 7X AWD PERFORMANCE | **$61.990** | 3 |
+| ZEEKR 001 | 001 SPORT | **$59.990** | 1 |
+| ZEERK 7X | 7X AWD PERFORMANCE | **$61.990** | 1 |
 
 ---
 
-*Armado el 2026-09-21 por `armar-benchmark.py`. Para actualizarlo, volvé a correr el script: no lo edites a mano o el próximo run te pisa los cambios.*
+*Armado el 2026-10-12 por `armar-benchmark.py`. Para actualizarlo, volvé a correr el script: no lo edites a mano o el próximo run te pisa los cambios.*
 
