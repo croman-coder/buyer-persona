@@ -1,8 +1,8 @@
 ---
 type: materiales-meta
 marca: Renew
-periodo: 2026-05-01 a 2026-10-17
-created: 2026-10-17
+periodo: 2026-05-01 a 2026-10-20
+created: 2026-10-20
 tags:
   - meta-ads
   - materiales
@@ -12,26 +12,26 @@ tags:
 # 🎬 Materiales que funcionan — Renew
 
 > [!info] De dónde sale
-> Todos los anuncios de Meta de Renew de **may a oct (al 17) (6 meses, del 2026-05-01 al 2026-10-17)**: 191 anuncios con gasto en 4 cuentas (la de la marca y las de los asesores), USD 9.204 de inversión. Se lee anuncio por anuncio de la API de Meta (formato, duración y tamaño de cada pieza, ubicación y resultados) y se cruza con las ventas del ERP. Se actualiza en cada corrida: **no editar a mano**.
+> Todos los anuncios de Meta de Renew de **may a oct (al 20) (6 meses, del 2026-05-01 al 2026-10-20)**: 191 anuncios con gasto en 4 cuentas (la de la marca y las de los asesores), USD 9.282 de inversión. Se lee anuncio por anuncio de la API de Meta (formato, duración y tamaño de cada pieza, ubicación y resultados) y se cruza con las ventas del ERP. Se actualiza en cada corrida: **no editar a mano**.
 
 ## ✅ Qué dice el historial
 
 > [!success] En formularios casi todo fue imagen (gráfica): para saber si otro formato rinde más, sumar uno distinto en el mismo conjunto.
 
 - **Formularios — formato:** solo imagen (gráfica) tiene muestra suficiente; se probó poco carrusel.
-- **Formularios — Reels, Stories o Feed:** el lead más barato sale en **Stories** (USD 1,20); después Reels USD 1,38 · Feed USD 1,77. Son las mismas piezas en distintas ubicaciones: tener la versión para la que rinde.
+- **Formularios — Reels, Stories o Feed:** el lead más barato sale en **Stories** (USD 1,20); después Reels USD 1,39 · Feed USD 1,77. Son las mismas piezas en distintas ubicaciones: tener la versión para la que rinde.
 - **Formularios — imágenes con o sin versión vertical:** Las imágenes con versión vertical (9:16) y las imágenes sin versión vertical no se pueden comparar: se usaron en cuentas o tipos de formulario distintos (por ejemplo, uno en la cuenta de la marca y el otro en las de asesores).
 - **Ventas:** todavía ninguna venta del ERP se pudo cruzar con los leads de formulario de los últimos 90 días (el ERP casi no trae teléfono ni mail): no se puede decir qué formato vende más.
 - **WhatsApp y mensajes — formato:** solo imagen (gráfica) tiene muestra suficiente; se probó poco video, carrusel.
 - **WhatsApp y mensajes — Reels, Stories o Feed:** cuesta parecido en las tres (Reels USD 0,59 · Stories USD 0,59 · Feed USD 0,62).
-- **WhatsApp y mensajes — imágenes con o sin versión vertical:** **Las imágenes con versión vertical (9:16)** traen la conversación más barata: 36 % menos que las imágenes sin versión vertical en campañas comparables (cuenta de la marca: USD 0,47 contra USD 0,72; base: 7.149 conversaciones). Se repite: ganó en 3 de 4 meses.
+- **WhatsApp y mensajes — imágenes con o sin versión vertical:** **Las imágenes con versión vertical (9:16)** traen la conversación más barata: 35 % menos que las imágenes sin versión vertical en campañas comparables (cuenta de la marca: USD 0,47 contra USD 0,72; base: 7.255 conversaciones). Se repite: ganó en 3 de 4 meses.
 
 > [!tip] Cómo usarlo
 > Para la próxima pieza, empezar por lo que ganó acá y probarlo contra una variante (otro formato u otra duración) en el mismo conjunto. Juzgar a las 3-4 semanas, no antes ([[📘 Manual Buyer Persona#4.4 Cuándo juzgar una campaña|Manual, 4.4]]).
 
 ## 📝 Formularios
 
-USD 4.584 de inversión, 3.359 leads, **USD 1,36 por lead** en promedio.
+USD 4.598 de inversión, 3.362 leads, **USD 1,37 por lead** en promedio.
 
 ### ¿Imagen, video o carrusel?
 
@@ -39,14 +39,14 @@ USD 4.584 de inversión, 3.359 leads, **USD 1,36 por lead** en promedio.
 
 | | Marca · volumen | Marca · calidad | Asesores · volumen |
 |---|---|---|---|
-| **Imagen (gráfica)** | USD 1,38 (1.494) | USD 1,62 (806) | USD 1,04 (1.011) |
+| **Imagen (gráfica)** | USD 1,38 (1.494) | USD 1,62 (806) | USD 1,05 (1.014) |
 | **Carrusel** | — | — | USD 3,46 (48) |
 
 **Totales por formato** (mezclan contextos: sirven para ver volumen, CTR, retención y ventas).
 
 |  | Anuncios | Inversión | % inversión | Leads | Costo por lead | CTR | Leads cada 100 clics | Lo miran 3 s | Lo ven completo | Ventas (cruce ERP) | Ventas cada 100 leads |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| **Imagen (gráfica)** | 62 | USD 4.418 | 96 % | 3.311 | **USD 1,33** | 1,29 % | 12,1 | — | — | 0 | 0,0 % |
+| **Imagen (gráfica)** | 62 | USD 4.432 | 96 % | 3.314 | **USD 1,34** | 1,29 % | 12,1 | — | — | 0 | 0,0 % |
 | **Carrusel** _(poca muestra)_ | 1 | USD 166 | 4 % | 48 | **USD 3,46** | 2,80 % | 6,4 | — | — | 0 | 0,0 % |
 
 ### ¿Reels, Stories o Feed?
@@ -55,9 +55,9 @@ Cada anuncio sale en todas las ubicaciones a la vez, así que acá se comparan l
 
 |  | Anuncios | Inversión | % inversión | Leads | Costo por lead | CTR | Leads cada 100 clics |
 |---|---|---|---|---|---|---|---|
-| **Feed** | 61 | USD 1.137 | 25 % | 643 | **USD 1,77** | 1,26 % | 10,4 |
-| **Reels** | 57 | USD 1.293 | 28 % | 938 | **USD 1,38** | 1,56 % | 10,1 |
-| **Stories** | 59 | USD 1.999 | 44 % | 1.665 | **USD 1,20** | 1,18 % | 14,9 |
+| **Feed** | 61 | USD 1.140 | 25 % | 645 | **USD 1,77** | 1,26 % | 10,4 |
+| **Reels** | 57 | USD 1.302 | 28 % | 939 | **USD 1,39** | 1,56 % | 10,1 |
+| **Stories** | 59 | USD 2.002 | 44 % | 1.665 | **USD 1,20** | 1,18 % | 14,8 |
 | **Banner sobre Reels y videos** | 47 | USD 134 | 3 % | 101 | **USD 1,33** | 1,29 % | 8,2 |
 | **Marketplace y búsqueda** _(poca muestra)_ | 10 | USD 11,63 | 0 % | 6 | **USD 1,94** | 0,72 % | 6,1 |
 | **Audience Network (otras apps)** _(poca muestra)_ | 6 | USD 8,90 | 0 % | 4 | **USD 2,22** | 21,89 % | 2,9 |
@@ -67,7 +67,7 @@ Cada anuncio sale en todas las ubicaciones a la vez, así que acá se comparan l
 
 | Formato | Feed | Reels | Stories |
 |---|---|---|---|
-| Imagen (gráfica) | USD 1,73 | USD 1,35 | USD 1,17 |
+| Imagen (gráfica) | USD 1,72 | USD 1,36 | USD 1,18 |
 | Carrusel | USD 2,82 | — | — |
 
 ### ¿Con versión vertical (9:16)?
@@ -77,7 +77,7 @@ La versión vertical es la que llena la pantalla en Reels y Stories. Se compara 
 | | Marca · volumen | Marca · calidad | Asesores · volumen |
 |---|---|---|---|
 | **Imagen (gráfica), con versión vertical** | USD 1,38 (1.494) | USD 1,62 (806) | — |
-| **Imagen (gráfica), sin versión vertical** | — | — | USD 0,97 (970) |
+| **Imagen (gráfica), sin versión vertical** | — | — | USD 0,98 (973) |
 
 ### Mes a mes
 
@@ -90,7 +90,7 @@ Costo por lead de cada formato (entre paréntesis, cuántos leads). Mezcla conte
 | jul | USD 1,40 (143) | — | USD 1,40 (143) |
 | ago | USD 1,19 (104) | USD 2,93 (26) | USD 1,54 (130) |
 | sep | USD 1,01 (99) | USD 4,09 (22) | USD 1,57 (121) |
-| oct (al 17) | USD 1,02 (120) | — | USD 1,02 (120) |
+| oct (al 20) | USD 1,11 (123) | — | USD 1,11 (123) |
 
 ### 🏆 Los anuncios que mejor rindieron
 
@@ -101,7 +101,7 @@ Cada anuncio contra el promedio de su contexto (al menos USD 30,00 y 10 leads).
 | CHEVROLET S10 | Imagen (gráfica), con vertical | Marca · volumen | may | USD 41,37 | 169 | USD 0,24 | −83 % | 2,16 % | — |
 | KIA CERATO_ | Imagen (gráfica), con vertical | Marca · calidad | jun | USD 61,04 | 120 | USD 0,51 | −69 % | 1,03 % | — |
 | Renault kwid intens_10_03 | Imagen (gráfica), con vertical | Marca · volumen | may–jun | USD 217 | 258 | USD 0,84 | −39 % | 1,83 % | — |
-| Kia Sportage 2024 | Imagen (gráfica) | Asesores · volumen | may–jun | USD 118 | 163 | USD 0,73 | −36 % | 1,69 % | — |
+| Kia Sportage 2024 | Imagen (gráfica) | Asesores · volumen | may–jun | USD 118 | 163 | USD 0,73 | −37 % | 1,69 % | — |
 | Volkswagen Nivus | Imagen (gráfica), con vertical | Marca · calidad | may | USD 54,89 | 47 | USD 1,17 | −28 % | 0,79 % | — |
 
 ### 💸 Los que más gastaron para lo que trajeron
@@ -111,14 +111,14 @@ Costo por lead del doble o más que el promedio de su contexto, o sin leads.
 | Anuncio | Formato | Dónde | Meses | Inversión | Leads | Costo por lead | Contra su contexto | CTR | Ventas |
 |---|---|---|---|---|---|---|---|---|---|
 | JETOUR X90 | Imagen (gráfica), con vertical | Marca · volumen | may–jun | USD 217 | 51 | USD 4,26 | +208 % | 1,01 % | — |
-| TU VEHICULO USADO CERTIFICADO | Carrusel | Asesores · volumen | ago–sep | USD 166 | 48 | USD 3,46 | +202 % | 2,80 % | 0 |
+| TU VEHICULO USADO CERTIFICADO | Carrusel | Asesores · volumen | ago–sep | USD 166 | 48 | USD 3,46 | +200 % | 2,80 % | 0 |
 | RENAULT DUSTER NEW ICONIC_10/03 | Imagen (gráfica), con vertical | Marca · calidad | may–jun | USD 128 | 32 | USD 4,00 | +147 % | 0,95 % | — |
-| Nissan Kicks 2026 con 1.300kms - Copia | Imagen (gráfica) | Asesores · volumen | jul–ago | USD 110 | 41 | USD 2,67 | +133 % | 3,56 % | 0 |
+| Nissan Kicks 2026 con 1.300kms - Copia | Imagen (gráfica) | Asesores · volumen | jul–ago | USD 110 | 41 | USD 2,67 | +131 % | 3,56 % | 0 |
 | JETOUR T2 PHEV - Copia | Imagen (gráfica), con vertical | Marca · volumen | may–jun | USD 89,02 | 17 | USD 5,24 | +279 % | 0,94 % | — |
 
 ## 💬 WhatsApp y mensajes
 
-USD 4.345 de inversión, 7.219 conversaciones, **USD 0,60 por conversación** en promedio.
+USD 4.409 de inversión, 7.325 conversaciones, **USD 0,60 por conversación** en promedio.
 
 ### ¿Imagen, video o carrusel?
 
@@ -126,7 +126,7 @@ USD 4.345 de inversión, 7.219 conversaciones, **USD 0,60 por conversación** en
 
 | | Cuenta de la marca |
 |---|---|
-| **Imagen (gráfica)** | USD 0,60 (7.149) |
+| **Imagen (gráfica)** | USD 0,60 (7.255) |
 | **Video** | _poca muestra_ |
 | **Carrusel** | — |
 
@@ -134,7 +134,7 @@ USD 4.345 de inversión, 7.219 conversaciones, **USD 0,60 por conversación** en
 
 |  | Anuncios | Inversión | % inversión | Conversaciones | Costo por conversación | CTR | Conversaciones cada 100 clics | Lo miran 3 s | Lo ven completo |
 |---|---|---|---|---|---|---|---|---|---|
-| **Imagen (gráfica)** | 73 | USD 4.260 | 98 % | 7.149 | **USD 0,60** | 1,54 % | 21,4 | — | — |
+| **Imagen (gráfica)** | 73 | USD 4.325 | 98 % | 7.255 | **USD 0,60** | 1,54 % | 21,4 | — | — |
 | **Video** _(poca muestra)_ | 1 | USD 8,03 | 0 % | 1 | **USD 8,03** | 0,00 % | — | 4,0 % | 4,5 % |
 | **Carrusel** _(poca muestra)_ | 1 | USD 76,46 | 2 % | 69 | **USD 1,11** | 0,95 % | 13,9 | — | — |
 
@@ -144,13 +144,13 @@ Cada anuncio sale en todas las ubicaciones a la vez, así que acá se comparan l
 
 |  | Anuncios | Inversión | % inversión | Conversaciones | Costo por conversación | CTR | Conversaciones cada 100 clics |
 |---|---|---|---|---|---|---|---|
-| **Feed** | 75 | USD 2.259 | 52 % | 3.658 | **USD 0,62** | 1,50 % | 25,8 |
-| **Reels** | 75 | USD 1.095 | 25 % | 1.851 | **USD 0,59** | 1,88 % | 22,2 |
-| **Stories** | 73 | USD 421 | 10 % | 710 | **USD 0,59** | 1,92 % | 19,4 |
-| **Estados de WhatsApp** | 62 | USD 292 | 7 % | 550 | **USD 0,53** | 0,56 % | 36,6 |
-| **Banner sobre Reels y videos** _(poca muestra)_ | 62 | USD 29,99 | 1 % | 32 | **USD 0,94** | 1,77 % | 6,2 |
-| **Marketplace y búsqueda** | 71 | USD 227 | 5 % | 417 | **USD 0,54** | 1,28 % | 9,8 |
-| **Audience Network (otras apps)** _(poca muestra)_ | 13 | USD 21,28 | 0 % | 0 | — | 3,55 % | 0,0 |
+| **Feed** | 75 | USD 2.296 | 52 % | 3.711 | **USD 0,62** | 1,51 % | 25,7 |
+| **Reels** | 75 | USD 1.107 | 25 % | 1.875 | **USD 0,59** | 1,89 % | 22,2 |
+| **Stories** | 73 | USD 425 | 10 % | 715 | **USD 0,59** | 1,91 % | 19,5 |
+| **Estados de WhatsApp** | 62 | USD 298 | 7 % | 562 | **USD 0,53** | 0,57 % | 36,7 |
+| **Banner sobre Reels y videos** _(poca muestra)_ | 62 | USD 30,35 | 1 % | 33 | **USD 0,92** | 1,77 % | 6,4 |
+| **Marketplace y búsqueda** | 71 | USD 231 | 5 % | 428 | **USD 0,54** | 1,29 % | 9,9 |
+| **Audience Network (otras apps)** _(poca muestra)_ | 14 | USD 21,41 | 0 % | 0 | — | 3,55 % | 0,0 |
 | **Otras** _(poca muestra)_ | 8 | USD 0,22 | 0 % | 0 | — | 5,88 % | 0,0 |
 
 **Costo por conversación de cada formato en cada ubicación** (solo combinaciones con 20 conversaciones o más):
@@ -180,8 +180,8 @@ La versión vertical es la que llena la pantalla en Reels y Stories. Se compara 
 
 | | Cuenta de la marca |
 |---|---|
-| **Imagen (gráfica), con versión vertical** | USD 0,47 (3.509) |
-| **Imagen (gráfica), sin versión vertical** | USD 0,72 (3.640) |
+| **Imagen (gráfica), con versión vertical** | USD 0,47 (3.591) |
+| **Imagen (gráfica), sin versión vertical** | USD 0,72 (3.664) |
 | **Video, con versión vertical** | _poca muestra_ |
 
 ### Mes a mes
@@ -195,7 +195,7 @@ Costo por conversación de cada formato (entre paréntesis, cuántas conversacio
 | jul | USD 0,60 (2.037) | — | — | USD 0,60 (2.037) |
 | ago | USD 0,60 (2.050) | — | — | USD 0,60 (2.050) |
 | sep | USD 0,59 (1.812) | — | USD 1,11 (69) | USD 0,61 (1.881) |
-| oct (al 17) | USD 0,65 (701) | — | — | USD 0,65 (701) |
+| oct (al 20) | USD 0,64 (807) | — | — | USD 0,64 (807) |
 
 ### 🏆 Los anuncios que mejor rindieron
 
@@ -203,7 +203,7 @@ Cada anuncio contra el promedio de su contexto (al menos USD 30,00 y 10 conversa
 
 | Anuncio | Formato | Dónde | Meses | Inversión | Conversaciones | Costo por conversación | Contra su contexto | CTR |
 |---|---|---|---|---|---|---|---|---|
-| GWM Wingle 7 2020 17/08 | Imagen (gráfica), con vertical | Cuenta de la marca | ago | USD 68,05 | 343 | USD 0,20 | −66 % | 3,03 % |
+| GWM Wingle 7 2020 17/08 | Imagen (gráfica), con vertical | Cuenta de la marca | ago | USD 68,05 | 343 | USD 0,20 | −67 % | 3,03 % |
 | Chevrolet_onix_17/08_Grafica | Imagen (gráfica), con vertical | Cuenta de la marca | ago | USD 78,51 | 339 | USD 0,23 | −61 % | 1,83 % |
 | Jac_x200_2020_septiembre | Imagen (gráfica), con vertical | Cuenta de la marca | sep–oct | USD 107 | 378 | USD 0,28 | −53 % | 1,57 % |
 | Peugeot 2008 / IA / clavos / WhatsApp / 2026-09 | Imagen (gráfica) | Cuenta de la marca | sep | USD 41,59 | 151 | USD 0,28 | −53 % | 2,30 % |
@@ -218,7 +218,7 @@ Costo por conversación del doble o más que el promedio de su contexto, o sin c
 | CITROËN C5 AIRCROSS 19/05 | Imagen (gráfica) | Cuenta de la marca | jun–oct | USD 216 | 73 | USD 2,96 | +396 % | 0,79 % |
 | JETOUR X70 - 11-05 | Imagen (gráfica) | Cuenta de la marca | jun–sep | USD 146 | 116 | USD 1,26 | +111 % | 0,97 % |
 | Honda Pilot 10/03 - Copia | Imagen (gráfica) | Cuenta de la marca | jun–sep | USD 131 | 72 | USD 1,82 | +205 % | 0,67 % |
-| JETOUR X90 | Imagen (gráfica) | Cuenta de la marca | jun–oct | USD 83,55 | 41 | USD 2,04 | +242 % | 0,96 % |
+| JETOUR X90 | Imagen (gráfica) | Cuenta de la marca | jun–oct | USD 83,77 | 42 | USD 1,99 | +233 % | 0,96 % |
 | NISSAN KICKS | Imagen (gráfica) | Cuenta de la marca | jun–ago | USD 74,58 | 54 | USD 1,38 | +131 % | 1,12 % |
 
 ## 📣 Alcance, tráfico e interacción

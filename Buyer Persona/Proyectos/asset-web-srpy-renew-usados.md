@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 37005ae273c4e11f28843629fe96b3479db9c1e0bc4017a5723ddace7b2bcafd
+firma: 61743cc128a47e0745b209d1ebe12237ac346bfc32c4f21c6ee1819ff112d261
 git_rama: feat/loop-ofertas-subastas-plan-a
 git_remoto: https://github.com/croman-coder/renewweb.git
 git_sin_subir: 5

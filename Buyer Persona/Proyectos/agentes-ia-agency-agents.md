@@ -1,6 +1,6 @@
 ---
 estado: archivado
-firma: d002e496900913aed745d3d35af930c79260582747b66afe837533b005e023d6
+firma: f29681cf2e5322a447c70905c451bd4cce1da9285fb3cd7d1e9455a01142cbed
 git_rama: main
 git_remoto: https://github.com/msitarzewski/agency-agents
 git_sin_subir: 0

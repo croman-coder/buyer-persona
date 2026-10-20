@@ -6,7 +6,7 @@ age_range: 35-44
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-17'
+created: '2026-10-20'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-19 → 2026-10-17 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-22 → 2026-10-20 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -31,7 +31,7 @@ tags:
 - **Edad:** 35-44 (38.4% de los contactos) · perfil propio del modelo
 - **Género predominante:** Masculino (88.0%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-19 → 2026-10-17 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-22 → 2026-10-20 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Mitsubishi Destinator`
 - **Marca:** [[Comprador Mitsubishi|Mitsubishi]]
 - **Tipo de vehículo:** SUV
@@ -81,7 +81,7 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **Señales que se usaron:**
   - ticket promedio USD 30,900 (gama media-alta)
   - 80% pide financiación en el formulario (35 respuestas)
-  - 21.2% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 20.8% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -131,9 +131,9 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Mensaje clave:** Enfoca la comunicación en 'Mitsubishi Destinator'.
 > **Canales:** Prioriza Showroom.
 > **Formato:** Para la próxima pauta de formularios: **imagen (gráfica)**, que trajo el lead más barato en campañas comparables y se repitió mes a mes. En el mismo conjunto, sumar el video para seguir comparando. Detalle: [[🎬 Materiales que funcionan — Mitsubishi]].
-> **Públicos hoy:** 85.7% de los adsets activos van a público frío; 3 de 21 adsets usan base propia (2 lookalike).
-> **Presupuesto sugerido:** ~USD 26/mes (hoy ~USD 166/mes según su peso en anuncios) → ~9 leads/mes al CPL actual de la marca (USD 2.72).
-> _Base del cálculo: 1.1% de las ventas de la marca sobre USD 2,378/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Públicos hoy:** 84.2% de los adsets activos van a público frío; 3 de 19 adsets usan base propia (2 lookalike).
+> **Presupuesto sugerido:** ~USD 27/mes (hoy ~USD 172/mes según su peso en anuncios) → ~9 leads/mes al CPL actual de la marca (USD 2.77).
+> _Base del cálculo: 1.1% de las ventas de la marca sobre USD 2,454/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -141,19 +141,19 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Mitsubishi (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 2,624
-> **Pidieron este modelo:** 434 de esos leads (16.5 %)
-> **Modelos más pedidos (toda la marca):** L200 (930), Montero (464), Destinator (434)
+> **Total de leads de la marca en la ventana:** 2,662
+> **Pidieron este modelo:** 434 de esos leads (16.3 %)
+> **Modelos más pedidos (toda la marca):** L200 (890), Montero (454), Destinator (434)
 > **Método de pago preferido:** financiacion (28), contado (7)
-> **Ciudad:** Asunción (596), Ciudad del Este (166), San Lorenzo (117)
+> **Ciudad:** Asunción (601), Ciudad del Este (174), San Lorenzo (121)
 > **Interés de compra:** Q precio e cuantos años finacia (1)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Mitsubishi (90 días)
 
-> **Leads:** 2,313 → **convertidos:** 41 (1.8%)
-> **Por canal:** Meta madre 2,168, Meta asesores 143, Otros canales 2
-> **Deals:** 58 — ganados 3, perdidos 5, en proceso 50 (win rate 37.5%)
+> **Leads:** 2,374 → **convertidos:** 71 (3.0%)
+> **Por canal:** Meta madre 2,233, Meta asesores 139, Otros canales 2
+> **Deals:** 88 — ganados 3, perdidos 5, en proceso 80 (win rate 37.5%)
 > **Monto ganado:** USD 128,970 · ticket promedio USD 42,990
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
@@ -185,7 +185,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-17 06:44*
+*Generado el 2026-10-20 06:43*
 
 ## 🔗 Contenido Relacionado
 

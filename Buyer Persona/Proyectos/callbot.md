@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: c2bbcfc8b5e643efb6984037e8ce05d5a2865de92e8c8ef1d00bb9963469ab2d
+firma: 066eb7065465cc25108f7d0ecfe01f77d36a85992bfe9119584fbb7d60ece56d
 git_rama: main
 git_remoto: git@github-croman:croman-coder/callbots.git
 git_sin_subir: 0

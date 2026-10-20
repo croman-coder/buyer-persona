@@ -31,6 +31,10 @@ Coordiná tu test drive sin compromiso 👇
 ```
 GWM Haval H7 te espera en el concesionario oficial. Probalo antes de decidir: coordiná tu test drive 👇
 ```
+**Opción 3** · 136 caracteres
+```
+Planes de financiación y formas de pago a tu medida. Escribinos y te pasamos las opciones 👇 Financiación sujeta a aprobación crediticia.
+```
 
 ## Títulos (hasta 5 · máx. 40 caracteres)
 | # | Título | Caract. |

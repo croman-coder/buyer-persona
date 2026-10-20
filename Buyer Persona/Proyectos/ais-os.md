@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 8c2ae297cede2f79df4cc5f77d88828c3a37ced240dff6bacf497ed5612448df
+firma: 63051c06aaad54e533c7b568155b3c0585a6f442f915d1fed209b936b8621791
 git_rama: main
 git_remoto: https://github.com/croman-coder/cerebro-santarosa.git
 git_sin_subir: 0

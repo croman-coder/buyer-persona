@@ -23,7 +23,7 @@ variables de los contenedores (solo el host), DNS, el código de cada repo y la 
 | Sarpy CRM | `crm-supabase` (crm-db.santarosa.lat) | ✅ |
 | PDI | `pdi-supabase` (pdi-db.santarosa.lat) | ✅ primaria · ⚠ réplica horaria a la nube + app Vercel de respaldo |
 | Tasación Renew | `tasacion-supabase` | ✅ |
-| Compras, Cotizador, Callbot, Monitoreo, Advisor Fernando, Metabase, Directus, Vaultwarden | Postgres / SQLite propios | ✅ |
+| Compras, Cotizador, Callbot, Monitoreo, Advisor Fernando, Directus | Postgres / SQLite propios | ✅ |
 | Webs de marca y landings (GWM, Zeekr, Soueast, JAC, Jetour, JMEV, Santa Rosa, Mitsubishi, Expo, Showrooms) | sin base propia (APIs hacia Bitrix) | ✅ no aplica |
 | Bloque "RENEW — Leads por WhatsApp" del tablero Meta | Supabase nube `yccall…` (la base vieja del bot) | ❌ roto desde el 25/9 |
 | presentacion.santarosa.lat | Supabase nube `emsiaywtz…` | ❌ roto: ese proyecto ya no existe |

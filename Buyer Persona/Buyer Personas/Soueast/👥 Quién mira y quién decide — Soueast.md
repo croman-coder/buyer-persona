@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: Soueast
-periodo_meta: 2026-07-19 a 2026-10-17
-created: 2026-10-17
+periodo_meta: 2026-07-22 a 2026-10-20
+created: 2026-10-20
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,7 +12,7 @@ tags:
 # 👥 Quién mira y quién decide — Soueast
 
 > [!summary] En una línea
-> En Meta, ellas son el 22,5 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,23×). El 18,6 % de las compras a cliente final las factura una empresa. En el 0,0 % de los chats el cliente nombra a otra persona.
+> En Meta, ellas son el 22,2 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,24×). El 18,6 % de las compras a cliente final las factura una empresa. En el 0,0 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
 > 1. **Una pieza que les hable a ellas, que son las que avanzan** — «Espacio para todos». Detalle en la sección 5.
@@ -28,23 +28,23 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-19** al **2026-10-17**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-22** al **2026-10-20**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **Soueast** | 22,5 % | 23,1 % | **1,23×** | 26 (ellas menos en 9) | Las que miran, contactan más que ellos |
-| [[Soueast S06|Soueast S06]] | 20,8 % | 22,0 % | 1,12× | 10 (ellas menos en 6) | Las que miran, contactan más que ellos |
-| [[Soueast S08|Soueast S08]] | 29,4 % | 32,3 % | 1,28× | 5 (ellas menos en 3) | Las que miran, contactan más que ellos |
-| [[Soueast S07|Soueast S07]] | 19,5 % | 27,7 % | 1,54× | 4 (ellas menos en 1) | Las que miran, contactan más que ellos |
-| [[Soueast S09|Soueast S09]] | 21,4 % | 19,5 % | 1,01× | 2 (ellas menos en 1) | Sin diferencia: ellas y ellos contactan igual |
+| **Soueast** | 22,2 % | 22,9 % | **1,24×** | 25 (ellas menos en 8) | Las que miran, contactan más que ellos |
+| [[Soueast S06|Soueast S06]] | 20,3 % | 22,0 % | 1,14× | 10 (ellas menos en 5) | Las que miran, contactan más que ellos |
+| [[Soueast S08|Soueast S08]] | 28,7 % | 32,3 % | 1,25× | 5 (ellas menos en 2) | Las que miran, contactan más que ellos |
+| [[Soueast S07|Soueast S07]] | 20,3 % | 26,4 % | 1,40× | 4 (ellas menos en 1) | Las que miran, contactan más que ellos |
+| [[Soueast S09|Soueast S09]] | 21,3 % | 18,7 % | 0,95× | 2 (ellas menos en 1) | Sin diferencia: ellas y ellos contactan igual |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|---|
-| 15,9 % | 15,1 % | 19,1 % | 17,1 % | 17,0 % | 13,1 % |
+| 16,5 % | 15,6 % | 19,1 % | 17,2 % | 17,6 % | 14,3 % |
 
-Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,97×).
+Los mayores de 55 contactan parecido al resto con el mismo anuncio (1,01×).
 
 ## 2. ¿Qué le interesa a cada uno?
 
@@ -66,9 +66,9 @@ Cuando compra una empresa hay un **comité**: decide el dueño o un gerente, pag
 
 ## 4. ¿Quién más aparece en las conversaciones?
 
-Chats de **Messenger e Instagram** de las páginas de Soueast y de sus asesores, del 2026-07-14 al 2026-10-12. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
+Chats de **Messenger e Instagram** de las páginas de Soueast y de sus asesores, del 2026-07-21 al 2026-10-19. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
 
-- **1.002** chats con texto del cliente · **0,0 %** nombran a otra persona.
+- **1.056** chats con texto del cliente · **0,0 %** nombran a otra persona.
 
 _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más que cuántas veces._
 
@@ -76,7 +76,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza que les hable a ellas, que son las que avanzan
 
-**Por qué:** Ellas son solo el 22,5 % de los clics, pero las que hacen clic contactan 1,23× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan. Más fuerte en Soueast S07 (1,54×), Soueast S08 (1,28×).
+**Por qué:** Ellas son solo el 22,2 % de los clics, pero las que hacen clic contactan 1,24× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan. Más fuerte en Soueast S07 (1,40×), Soueast S08 (1,25×).
 
 **Modelos donde más pesa:** Soueast S07, Soueast S08
 
@@ -117,9 +117,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-19 a 2026-10-17, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-22 a 2026-10-20, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: ventas a cliente final, 2025-09-11 a 2026-09-11.
-- Chats: Messenger e Instagram, lectura semanal (2026-10-12).
-- Generado el 2026-10-17 06:44 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Chats: Messenger e Instagram, lectura semanal (2026-10-19).
+- Generado el 2026-10-20 06:43 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[Soueast|Volver a Soueast]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

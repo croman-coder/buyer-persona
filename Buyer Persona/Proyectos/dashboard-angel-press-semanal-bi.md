@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: a64076b97b85e5b70a1ca650ebfc020d05b3958589c87339c2ef91fe7744fe99
+firma: 74341ad11b1570f018fed37041344f523b7d20705178584fd4886da03a2fe54e
 git_rama: main
 git_remoto: https://github.com/gabrielmino0247/press-semanal-bi.git
 git_sin_subir: 0

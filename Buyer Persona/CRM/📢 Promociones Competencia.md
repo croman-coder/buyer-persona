@@ -1,22 +1,22 @@
 ---
 type: monitor-competencia
-created: '2026-10-16'
+created: '2026-10-19'
 tags:
 - competencia
 - monitor
 - promociones
-last_scan: '2026-10-16 08:00'
+last_scan: '2026-10-19 08:00'
 ---
 
 # 📢 Promociones de la Competencia
 
-> [!info] Última actualización: **2026-10-16 08:00** · Próximo scan automático
+> [!info] Última actualización: **2026-10-19 08:00** · Próximo scan automático
 
 > [!warning] 🔴 = Cambio detectado en este scan · 🟢 = Sin cambios
 
 ## ✅ Sin Cambios Detectados
 
-No se detectaron cambios en promociones, precios o modelos desde el último scan (2026-10-16 08:00).
+No se detectaron cambios en promociones, precios o modelos desde el último scan (2026-10-19 08:00).
 
 ---
 
@@ -35,7 +35,7 @@ No se detectaron cambios en promociones, precios o modelos desde el último scan
 - `prueba de manejo`
 - `test drive`
 
-**Modelos mencionados:** Qashqai, X-Trail, Kait, Frontier, Kicks, Patrol, X-Trail E-Power, Pathfinder
+**Modelos mencionados:** Patrol, X-Trail E-Power, Kicks, Pathfinder, Qashqai, Frontier, X-Trail, Kait
 
 <details><summary>📄 Headings de la página</summary>
 
@@ -72,7 +72,7 @@ No se detectaron cambios en promociones, precios o modelos desde el último scan
 
 - `0km`
 
-**Modelos mencionados:** Eclipse Cross, Triton, L200, Montero
+**Modelos mencionados:** Triton, Eclipse Cross, L200, Montero
 
 <details><summary>📄 Headings de la página</summary>
 
@@ -102,7 +102,7 @@ No se detectaron cambios en promociones, precios o modelos desde el último scan
 - `0 km`
 - `test drive`
 
-**Modelos mencionados:** Tasman, EV9, Sorento, Sportage, Carens, K2700, Soluto, Niro, K3, Sonet, Picanto, Seltos, Carnival, EV5
+**Modelos mencionados:** Sportage, Carens, Carnival, Seltos, Picanto, EV5, Soluto, Sonet, Sorento, EV9, Tasman, K2700, Niro, K3
 
 <details><summary>📄 Headings de la página</summary>
 
@@ -126,7 +126,7 @@ No se detectaron cambios en promociones, precios o modelos desde el último scan
 **Marcas que compiten con:** Chery (SUV chino, compite con Jetour/Soueast)
 **URL:** [https://www.chery.com.py](https://www.chery.com.py)
 
-**Modelos mencionados:** Himla, T8 Pro, T7 Pro, T2 Pro, T4 Pro, M7
+**Modelos mencionados:** T7 Pro, T2 Pro, T8 Pro, M7, T4 Pro, Himla
 
 ---
 
@@ -140,7 +140,7 @@ No se detectaron cambios en promociones, precios o modelos desde el último scan
 - `0km`
 - `test drive`
 
-**Modelos mencionados:** GX3, Coolray, Starray, Azkarra, Cityray, EX5
+**Modelos mencionados:** Starray, Cityray, GX3, Coolray, EX5, Azkarra
 
 <details><summary>📄 Headings de la página</summary>
 
@@ -168,7 +168,7 @@ No se detectaron cambios en promociones, precios o modelos desde el último scan
 
 - `exclusivo`
 
-**Modelos mencionados:** Polo, T-Cross, Amarok
+**Modelos mencionados:** T-Cross, Amarok, Polo
 
 <details><summary>📄 Headings de la página</summary>
 
@@ -287,4 +287,4 @@ No se detectaron cambios en promociones, precios o modelos desde el último scan
 - [[Buyer Personas MOC]]
 
 ---
-*Generado automáticamente el 2026-10-16 08:00 por monitor_competencia.py*
+*Generado automáticamente el 2026-10-19 08:00 por monitor_competencia.py*

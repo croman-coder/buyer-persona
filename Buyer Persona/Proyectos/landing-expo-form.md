@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 9c1f377f6416feb504f5071ee437d5efa13ac3e4cf41ca5285d8f235d896f033
+firma: 6f9428da6fead7ece294cb62ab8c723d06ef76f2add3dd169107edfa59a29ebe
 git_rama: tecnom-jetour-gwm
 git_remoto: https://github.com/croman-coder/landing-expo-mra.git
 git_sin_subir: 3

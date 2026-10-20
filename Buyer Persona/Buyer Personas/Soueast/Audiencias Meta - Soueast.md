@@ -9,30 +9,29 @@ _49 públicos únicos encontrados en las cuentas de Soueast. Reusalos para remar
 
 | Audiencia | Tipo | Tamaño aprox. |
 |---|---|---|
-| Público similar (5%) - RMK WEB | Form CP (90) | Público similar (Lookalike) | 248,600 |
-| Público similar (5%) - LEAD FORM | S09 Naftera | Enviado | 90 días | Público similar (Lookalike) | 248,600 |
-| Público similar (5%) - LEAD FORM | S06 GL PHEV | Enviado | 90 días | Público similar (Lookalike) | 246,900 |
-| Público similar (5%) - LEAD FORM | S08 PHEV | Enviado | 90 días | Público similar (Lookalike) | 246,100 |
-| Público similar (5%) - LEAD FORM | S06 1.6T | Enviado | 90 días | Público similar (Lookalike) | 245,900 |
-| Público similar (2%) - RMK FB | Seguidores actuales | Público similar (Lookalike) | 95,700 |
-| RMK VIDEOS TODOS | 15S (365) | Interacción (IG/FB/anuncios) | 77,700 |
-| TEST | Interacción (IG/FB/anuncios) | 77,600 |
-| RMK IG | General (365) | Interacción Instagram | 69,700 |
-| RMK IG | Interactuaron (365) | Interacción Instagram | 58,200 |
+| Público similar (5%) - LEAD FORM | S09 Naftera | Enviado | 90 días | Público similar (Lookalike) | 255,700 |
+| Público similar (5%) - LEAD FORM | S06 GL PHEV | Enviado | 90 días | Público similar (Lookalike) | 252,100 |
+| Público similar (5%) - LEAD FORM | S06 1.6T | Enviado | 90 días | Público similar (Lookalike) | 251,400 |
+| Público similar (5%) - RMK WEB | Form CP (90) | Público similar (Lookalike) | 249,500 |
+| Público similar (5%) - LEAD FORM | S08 PHEV | Enviado | 90 días | Público similar (Lookalike) | 246,800 |
+| Público similar (2%) - RMK FB | Seguidores actuales | Público similar (Lookalike) | 95,800 |
+| RMK VIDEOS TODOS | 15S (365) | Interacción (IG/FB/anuncios) | 76,800 |
+| TEST | Interacción (IG/FB/anuncios) | 76,700 |
+| RMK IG | General (365) | Interacción Instagram | 68,800 |
+| RMK IG | Interactuaron (365) | Interacción Instagram | 57,500 |
 | Público similar (1%) - RMK IG | Interactuaron (365) | Público similar (Lookalike) | 51,800 |
+| Público similar (1%) - RMK IG | General (365) | Público similar (Lookalike) | 51,400 |
 | Público similar (1%) - RMK FB | General (365) | Público similar (Lookalike) | 51,100 |
-| Público similar (1%) - RMK IG | General (365) | Público similar (Lookalike) | 51,100 |
 | Público similar (1%) - RMK VIDEOS | 95% (365) | Público similar (Lookalike) | 48,300 |
-| Público similar (1%) - RMK VIDEOS TODOS | 15S (365) | Público similar (Lookalike) | 47,700 |
-| RMK VIDEOS | 95% (365) | Interacción (IG/FB/anuncios) | 37,800 |
-| RMK FB | General (365) | Interacción (IG/FB/anuncios) | 9,900 |
-| int ig | Interacción Instagram | 8,400 |
-| video|25%|90dias | Interacción (IG/FB/anuncios) | 5,600 |
-| RMK WEB | Form CP (90) | Interacción (IG/FB/anuncios) | 5,500 |
-| RMK | WEB | 30D | Interacción Instagram | 4,900 |
-| RMK | IG | ENGAGEMENT | 30D | Interacción Instagram | 4,100 |
-| int 90 fc | Interacción (IG/FB/anuncios) | 3,000 |
-| RMK | FORM | OPEN | 30D | Interacción (IG/FB/anuncios) | 1,100 |
+| Público similar (1%) - RMK VIDEOS TODOS | 15S (365) | Público similar (Lookalike) | 48,100 |
+| RMK VIDEOS | 95% (365) | Interacción (IG/FB/anuncios) | 36,900 |
+| RMK FB | General (365) | Interacción (IG/FB/anuncios) | 9,800 |
+| int ig | Interacción Instagram | 8,500 |
+| video|25%|90dias | Interacción (IG/FB/anuncios) | 5,700 |
+| RMK WEB | Form CP (90) | Interacción (IG/FB/anuncios) | 4,900 |
+| RMK | WEB | 30D | Interacción Instagram | 4,400 |
+| RMK | IG | ENGAGEMENT | 30D | Interacción Instagram | 3,400 |
+| int 90 fc | Interacción (IG/FB/anuncios) | 3,100 |
 | PUBLICO.csv | Personalizada | 1,100 |
 | RMK FB | Seguidores actuales | Interacción (IG/FB/anuncios) | 1,000 |
 | LEAD FORM | Todos | Enviado | 30 días | Interacción (IG/FB/anuncios) | 1,000 |
@@ -48,6 +47,7 @@ _49 públicos únicos encontrados en las cuentas de Soueast. Reusalos para remar
 | Público similar (1%) - int 90 fc | Público similar (Lookalike) | 1,000 |
 | Público similar (1%) - int ig | Público similar (Lookalike) | 1,000 |
 | Público similar (1%) - RMK | FORM | OPEN | 30D | Público similar (Lookalike) | 1,000 |
+| RMK | FORM | OPEN | 30D | Interacción (IG/FB/anuncios) | 1,000 |
 | Público similar (1%) - RMK | FB | ENGAGEMENT | 30D | Público similar (Lookalike) | 1,000 |
 | RMK | FB | ENGAGEMENT | 30D | MARKETPLACE_LISTINGS | 1,000 |
 | Público similar (1%) - RMK | IG | ENGAGEMENT | 30D | Público similar (Lookalike) | 1,000 |

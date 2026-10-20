@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: fd503656d6b62199047e0f9388705fea5d48722c3edcc8d78f7b3b7a9253b80b
+firma: 13de89f570e7223780c89d29ab5ea5b944bc935040b513335d55a1224e7a24e4
 git_rama: master
 git_remoto: https://github.com/fercorrea777/Santa-Rosa-Advisor
 git_sin_subir: 2

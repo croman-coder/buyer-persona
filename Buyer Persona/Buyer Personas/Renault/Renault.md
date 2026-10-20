@@ -1,7 +1,7 @@
 ---
 type: moc-marca
 marca: Renault
-created: 2026-10-17
+created: 2026-10-20
 tags:
   - moc
   - marca/renault
@@ -9,45 +9,45 @@ tags:
 
 # 🚗 Renault
 
-> Generado el **2026-10-17 06:44** · 13 modelos con persona propia.
+> Generado el **2026-10-20 06:43** · 13 modelos con persona propia.
 
 ## 👤 Comprador de la marca
 
 - [[Comprador Renault]]
-- **Inversión Meta:** ~USD 2,673/mes · CPL USD 5.14 · 1,559 leads en la ventana
-- **Públicos:** 93.5% de 108 adsets activos a público frío
+- **Inversión Meta:** ~USD 2,607/mes · CPL USD 4.92 · 1,590 leads en la ventana
+- **Públicos:** 94.2% de 103 adsets activos a público frío
 
 ## 👥 Quién mira y quién decide
 
-- En Meta, ellas son el 26,0 % de los clics y contactan igual que ellos con el mismo anuncio (1,03×).
+- En Meta, ellas son el 26,7 % de los clics y contactan igual que ellos con el mismo anuncio (1,02×).
 - El 39,6 % de las compras a cliente final las factura una empresa.
 - **Qué hacer en Meta Ads y cómo leerlo:** [[👥 Quién mira y quién decide — Renault]]
 
 ## 🎬 Materiales que mejor funcionan
 
 - En formularios, el video y la imagen (gráfica) no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto.
-- **Formularios — formato:** **El video** trae el lead más barato: 15 % menos que la imagen (gráfica) en campañas comparables (marca · volumen: USD 5,37 contra USD 6,53; asesores · volumen: USD 1,82 contra USD 2,02; base: 2.770 leads). Pero ganó solo en 1 de 5 meses: tomarlo como pista, no como regla.
-- **Formularios — Reels, Stories o Feed:** el lead más barato sale en **Stories** (USD 3,74); después Reels USD 4,53 · Feed USD 4,65. Son las mismas piezas en distintas ubicaciones: tener la versión para la que rinde.
-- **Formularios — duración del video:** **Los videos de 31 a 60 s** traen el lead más barato: 49 % menos que los videos de hasta 15 s en campañas comparables (marca · volumen: USD 4,67 contra USD 11,34; asesores · volumen: USD 1,90 contra USD 2,34; base: 1.378 leads). Se repite: ganó en 3 de 5 meses. Además, los videos de 16 a 30 s, con menos anuncios, salieron 40 % más baratos todavía: vale la pena probarlo más.
+- **Formularios — formato:** **El video** trae el lead más barato: 17 % menos que la imagen (gráfica) en campañas comparables (marca · volumen: USD 5,19 contra USD 6,53; asesores · volumen: USD 1,82 contra USD 2,02; base: 2.844 leads). Pero ganó solo en 1 de 5 meses: tomarlo como pista, no como regla.
+- **Formularios — Reels, Stories o Feed:** el lead más barato sale en **Stories** (USD 3,68); después Reels USD 4,50 · Feed USD 4,61. Son las mismas piezas en distintas ubicaciones: tener la versión para la que rinde.
+- **Formularios — duración del video:** **Los videos de 31 a 60 s** traen el lead más barato: 50 % menos que los videos de hasta 15 s en campañas comparables (marca · volumen: USD 4,54 contra USD 11,27; asesores · volumen: USD 1,90 contra USD 2,34; base: 1.425 leads). Se repite: ganó en 3 de 5 meses. Además, los videos de 16 a 30 s, con menos anuncios, salieron 39 % más baratos todavía: vale la pena probarlo más.
 - **Formato, ubicación, duración, mes a mes y mejores anuncios:** [[🎬 Materiales que funcionan — Renault]]
 
 ## 🚘 Modelos
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Renault Kwid]] | 25-34 | Masculino 79.0% | modelo | 83 | 135 | ⚖️ equilibrado | USD 775 |
-| [[Renault Master]] | 35-44 | Masculino 80.5% | modelo | 76 | 117 | ⚖️ equilibrado | USD 711 |
-| [[Renault Koleos]] | 35-44 | Masculino 69.1% | modelo | 57 | 109 | ⚖️ equilibrado | USD 532 |
-| [[Renault Kardian]] | 35-44 | Masculino 74.3% | marca | 28 | 124 | ⚖️ equilibrado | USD 262 |
-| [[Renault Oroch]] | 35-44 | Masculino 79.1% | modelo | 24 | 80 | ⚖️ equilibrado | USD 225 |
-| [[Renault Duster]] | 35-44 | Masculino 74.3% | marca | 11 | 96 | 🔴 sobre-pautado | USD 102 |
-| [[Renault Boreal]] | 35-44 | Masculino 76.9% | modelo | 4 | 21 | ⚖️ equilibrado | USD 37 |
-| [[Renault Arkana]] | 35-44 | Masculino 74.3% | marca | 2 | 33 | ⚖️ equilibrado | USD 19 |
-| [[Renault Clio]] | 35-44 | Masculino 74.3% | marca | 1 | 29 | ⚖️ equilibrado | USD 8 |
-| [[Renault Kangoo]] | 35-44 | Masculino 74.3% | marca | 242 | 26 | ⚖️ equilibrado | — |
-| [[Renault Captur]] | 35-44 | Masculino 74.3% | marca | 154 | 0 | ⚖️ equilibrado | — |
-| [[Renault Stepway]] | 35-44 | Masculino 74.3% | marca | 125 | 0 | ⚖️ equilibrado | — |
-| [[Renault Logan]] | 35-44 | Masculino 74.3% | marca | 21 | 0 | ⚖️ equilibrado | — |
+| [[Renault Kwid]] | 25-34 | Masculino 79.0% | modelo | 83 | 135 | ⚖️ equilibrado | USD 756 |
+| [[Renault Master]] | 35-44 | Masculino 79.6% | modelo | 76 | 120 | ⚖️ equilibrado | USD 694 |
+| [[Renault Koleos]] | 35-44 | Masculino 69.0% | modelo | 57 | 112 | ⚖️ equilibrado | USD 519 |
+| [[Renault Kardian]] | 35-44 | Masculino 73.9% | marca | 28 | 124 | ⚖️ equilibrado | USD 256 |
+| [[Renault Oroch]] | 35-44 | Masculino 79.0% | modelo | 24 | 80 | ⚖️ equilibrado | USD 219 |
+| [[Renault Duster]] | 35-44 | Masculino 73.9% | marca | 11 | 96 | 🔴 sobre-pautado | USD 99 |
+| [[Renault Boreal]] | 35-44 | Masculino 76.2% | modelo | 4 | 21 | ⚖️ equilibrado | USD 36 |
+| [[Renault Arkana]] | 35-44 | Masculino 73.9% | marca | 2 | 33 | ⚖️ equilibrado | USD 18 |
+| [[Renault Clio]] | 35-44 | Masculino 73.9% | marca | 1 | 29 | ⚖️ equilibrado | USD 8 |
+| [[Renault Kangoo]] | 35-44 | Masculino 73.9% | marca | 242 | 26 | ⚖️ equilibrado | — |
+| [[Renault Captur]] | 35-44 | Masculino 73.9% | marca | 154 | 0 | ⚖️ equilibrado | — |
+| [[Renault Stepway]] | 35-44 | Masculino 73.9% | marca | 125 | 0 | ⚖️ equilibrado | — |
+| [[Renault Logan]] | 35-44 | Masculino 73.9% | marca | 21 | 0 | ⚖️ equilibrado | — |
 
 _Demo = de dónde sale edad/género: **modelo** (anuncios propios del modelo) o **marca** (heredado, pocos clics propios). Brecha: 🟢 sub-pautado = vende más de lo que se pauta, 🔴 sobre-pautado, 🆕 lanzamiento sin ventas en el ERP aún._
 

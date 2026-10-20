@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 5a75767c8d989b4e1c6559f5e89ef02315e2d9a6ef123a7cf1dc28e19e79d8e5
+firma: c624311975fd281efdfaa346a1e99b6676ba64899517e8d46725829767371bd4
 git_rama: master
 git_remoto: null
 git_sin_subir: 10

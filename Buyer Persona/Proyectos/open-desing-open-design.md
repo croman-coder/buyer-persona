@@ -1,6 +1,6 @@
 ---
 estado: dormido
-firma: e90604681f9831cfe4d694e2123af19e6a1c37e8d8a1793e0cb5d05c4636284c
+firma: f49774ee67f3b8e46a1ba96384f7e93e19a76e75831a1587ebb7bfb429424814
 git_rama: main
 git_remoto: https://github.com/nexu-io/open-design.git
 git_sin_subir: 0

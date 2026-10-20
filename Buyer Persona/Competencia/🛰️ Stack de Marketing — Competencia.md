@@ -1,7 +1,7 @@
 ---
 tipo: competencia
 tema: herramientas de marketing de las webs del mercado
-actualizado: 2026-10-16
+actualizado: 2026-10-19
 tags: [competencia, marketing, pixel, generado]
 ---
 
@@ -156,6 +156,6 @@ Relacionado: [[⚔️ Benchmark Competitivo]] · [[⚔️ Bitácora de Competenc
 > [!danger] Uso interno
 > Por ley de Paraguay no se puede hacer publicidad comparativa nombrando marcas o modelos de la competencia. Esto sirve para decidir qué medir y dónde pautar nosotros, nunca para un copy público.
 
-*Generado el 2026-10-16 por stack_marketing_competencia.py*
+*Generado el 2026-10-19 por stack_marketing_competencia.py*
 
 <!-- hermes:fin -->

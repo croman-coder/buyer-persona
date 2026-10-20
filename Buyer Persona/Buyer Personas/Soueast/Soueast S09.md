@@ -6,7 +6,7 @@ age_range: 35-44
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-17'
+created: '2026-10-20'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-19 → 2026-10-17 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-22 → 2026-10-20 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -28,10 +28,10 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 35-44 (42.2% de los contactos) · perfil propio del modelo
-- **Género predominante:** Masculino (80.5%)
+- **Edad:** 35-44 (41.3% de los contactos) · perfil propio del modelo
+- **Género predominante:** Masculino (81.3%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-19 → 2026-10-17 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-22 → 2026-10-20 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Soueast S09`
 - **Marca:** [[Comprador Soueast|Soueast]]
 - **Tipo de vehículo:** SUV
@@ -44,7 +44,7 @@ tags:
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 21,4 % de los clics y contactan igual que ellos con el mismo anuncio (1,01×).
+- **Meta:** ellas son el 21,3 % de los clics y contactan igual que ellos con el mismo anuncio (0,95×).
 - **Quién paga (ERP, 12 meses):** el 40,0 % de sus 25 ventas a cliente final las facturó una empresa.
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — Soueast]]
@@ -56,8 +56,8 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** anuncios de Meta que nombran a **Soueast S09** (303 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 80.5%
-- **Distribución de edad (Meta):** 35-44: 42.2%, 45-54: 21.8%, 25-34: 17.5%, 55-64: 14.9%, 18-24: 3.0%, 65+: 0.7%
+- **Fuente edad/género:** anuncios de Meta que nombran a **Soueast S09** (286 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 81.3%
+- **Distribución de edad (Meta):** 35-44: 41.3%, 45-54: 22.4%, 25-34: 18.5%, 55-64: 14.3%, 18-24: 3.1%, 65+: 0.3%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
@@ -81,7 +81,7 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **NSE estimado:** C (medio)
 - **Señales que se usaron:**
   - ticket promedio USD 25,264 (gama media)
-  - 23.9% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 24.1% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -134,8 +134,8 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Oferta:** la planilla de acciones comerciales cargada es de septiembre y ya venció (último dato: descuento hasta USD 1,500). No usar el descuento en el copy hasta cargar la de este mes.
 > **Formato:** En formularios, el video y la imagen (gráfica) no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — Soueast]].
 > **Públicos hoy:** 38.8% de los adsets activos van a público frío; 30 de 49 adsets usan base propia (8 lookalike).
-> **Presupuesto sugerido:** ~USD 301/mes (hoy ~USD 503/mes según su peso en anuncios) → ~56 leads/mes al CPL actual de la marca (USD 5.29).
-> _Base del cálculo: 11.6% de las ventas de la marca sobre USD 2,591/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Presupuesto sugerido:** ~USD 292/mes (hoy ~USD 489/mes según su peso en anuncios) → ~57 leads/mes al CPL actual de la marca (USD 5.1).
+> _Base del cálculo: 11.6% de las ventas de la marca sobre USD 2,520/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -143,17 +143,17 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Soueast (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 1,468
-> **Pidieron este modelo:** 10 de esos leads (0.7 %)
-> **Modelos más pedidos (toda la marca):** Pago 2 (137), Pago 1 (57), S08 Phev (50)
-> **Interés de compra:** en_1_a_3_meses (769), inmediatamente (487)
+> **Total de leads de la marca en la ventana:** 1,481
+> **Pidieron este modelo:** 0 de esos leads (0.0 %)
+> **Modelos más pedidos (toda la marca):** Pago 2 (172), Pago 1 (74), S08 Phev (69)
+> **Interés de compra:** en_1_a_3_meses (740), inmediatamente (477)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Soueast (90 días)
 
-> **Leads:** 3,185 → **convertidos:** 1 (0.0%)
-> **Por canal:** Meta madre 1,775, Meta asesores 1,300, Meta otros 100, Otros canales 10
-> **Deals:** 103 — ganados 22, perdidos 8, en proceso 73 (win rate 73.3%)
+> **Leads:** 3,192 → **convertidos:** 2 (0.1%)
+> **Por canal:** Meta madre 1,793, Meta asesores 1,296, Meta otros 92, Otros canales 11
+> **Deals:** 109 — ganados 22, perdidos 7, en proceso 80 (win rate 75.9%)
 > **Monto ganado:** USD 583,310 · ticket promedio USD 26,514
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
@@ -193,7 +193,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-17 06:44*
+*Generado el 2026-10-20 06:43*
 
 ## 🔗 Contenido Relacionado
 

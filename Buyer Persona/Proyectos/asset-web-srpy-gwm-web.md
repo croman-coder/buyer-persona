@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 0df1e280177fa52cff5b9e7302ec751e03e18491c851594419e19e4b8b314290
+firma: b0e4a299a153b503a92f4124f131a0bd879d0684dc363272725bb1d18208cd7d
 git_rama: main
 git_remoto: https://github.com/croman-coder/gwmweb.git
 git_sin_subir: 0

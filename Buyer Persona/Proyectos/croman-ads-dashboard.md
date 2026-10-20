@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: c145fbfeddd64405f339e5b66219bfe3deae98277112fabcfee67df24782070a
+firma: b90612844e19610f32ef17eeb694d9674c013f34d29da97ff827809fd13489b9
 git_rama: diseno-ads
 git_remoto: https://github.com/croman-coder/APP-DE-PAUTAS.git
 git_sin_subir: 1

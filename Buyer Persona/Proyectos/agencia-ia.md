@@ -1,11 +1,11 @@
 ---
 estado: activo
-firma: 07e0336a57902710b2ea78071073755716697d980f9ee97f56bf9d15fb76f60e
+firma: 99b88831a90c391f91555df12f689e4949748c3e5aebf33e179d8088eedd91ba
 git_rama: feat/panel-carpetas
 git_remoto: git@github.com:croman-coder/agencia-ia.git
 git_sin_subir: 2
-git_ultimo_commit: '2026-10-16 ee70127 fix(panel): detalles de diseño de la auditoría
-  Hallmark'
+git_ultimo_commit: '2026-10-17 0bb02d8 feat(panel): la IA lee los Excel, Word y PowerPoint
+  adjuntos a un pedido'
 hijos: []
 nombre: AGENCIA IA
 resumen: Proyecto en /home/croman/Escritorio/AGENCIA IA. Sin README.
@@ -17,7 +17,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-10-16'
+ultima_actividad: '2026-10-17'
 ---
 
 <!-- hermes:inicio -->
@@ -26,10 +26,10 @@ ultima_actividad: '2026-10-16'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-16 |
+| Última actividad | 2026-10-17 |
 | Stack | docker, git, node |
 | Rama | feat/panel-carpetas |
-| Último commit | 2026-10-16 ee70127 fix(panel): detalles de diseño de la auditoría Hallmark |
+| Último commit | 2026-10-17 0bb02d8 feat(panel): la IA lee los Excel, Word y PowerPoint adjuntos a un pedido |
 | Sin subir | 2 |
 | Ruta | `/home/croman/Escritorio/AGENCIA IA` |
 <!-- hermes:fin -->

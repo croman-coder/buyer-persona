@@ -1,10 +1,10 @@
 ---
 type: clasificacion-anuncios
-generado: '2026-10-17 06:50'
-fuente: data_sources_20261017_060449.json
+generado: '2026-10-20 06:50'
+fuente: data_sources_20261020_060054.json
 modelo: typesafe/jev (Vercel AI Gateway)
-anuncios_activos: 1303
-textos_clasificados: 988
+anuncios_activos: 1294
+textos_clasificados: 980
 tags:
 - meta-ads
 - clasificacion
@@ -17,7 +17,7 @@ Todos los días una IA lee el texto de **cada anuncio de Meta** de todas las mar
 
 > [!danger] Incompleta: Vercel AI Gateway cortó la corrida (Vercel AI Gateway 403: no_providers_available: Free tier users do not have access to this model. Upgrade to paid credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up for unrestricted access.). La próxima corrida completa lo que falta.
 
-> [!info] Actualizado el **2026-10-17 06:50** · 1303 anuncios activos · 988 de 1094 textos leídos
+> [!info] Actualizado el **2026-10-20 06:50** · 1294 anuncios activos · 980 de 1082 textos leídos
 
 > [!info]- Cómo leer esta nota (tocá para abrir)
 > - **Es una ayuda para revisar, no un dictamen.** La IA (Jev, de TypeSafe) lee solo el *texto* del aviso: no ve la imagen ni el video.
@@ -29,7 +29,7 @@ Todos los días una IA lee el texto de **cada anuncio de Meta** de todas las mar
 > - **Apura:** si el aviso transmite urgencia («aprovechá ya») o pone fecha o cupo.
 > - Se actualiza solo todas las mañanas (06:50). Si cambian un aviso en Meta, se ve acá al día siguiente.
 
-**Fichas de marca:** [[Jetour]] · [[GWM]] · [[Renew]] · [[Renault]] · [[JAC]] · [[Leapmotor]] · [[Soueast]] · [[Zeekr]] · [[XPeng]] · [[JMEV]] · [[Mitsubishi]]
+**Fichas de marca:** [[Jetour]] · [[GWM]] · [[Renew]] · [[Renault]] · [[Leapmotor]] · [[JAC]] · [[Soueast]] · [[Zeekr]] · [[XPeng]] · [[JMEV]] · [[Mitsubishi]]
 
 **Relacionado:** [[Campañas Meta - ultimos 90 dias]] · [[🎯 Playbook Meta Ads]] · [[🤖 Meta Ads Lo Que Funciona]] · [[💸 Pauta Meta Rendimiento]]
 
@@ -101,10 +101,10 @@ Para cada cuenta: la oferta y el argumento que más usa, y qué parte de sus avi
 |---|---:|---|---|---:|---:|---:|---:|
 | Jetour | 558 | Financiación o cuotas (38 %) | Espacio y familia (18 %) | 60 % | 54 % | 55 % | 38 % |
 | GWM | 153 | Financiación o cuotas (27 %) | Eléctrico o híbrido (33 %) | 42 % | 35 % | 47 % | 45 % |
-| Renew | 143 | Usado puntual (74 %) | Precio y ahorro (59 %) | 82 % | 80 % | 22 % | 24 % |
+| Renew | 141 | Usado puntual (74 %) | Precio y ahorro (59 %) | 82 % | 80 % | 22 % | 24 % |
 | Renault | 116 | Sin oferta concreta (56 %) | Seguridad (28 %) | 12 % | 20 % | 39 % | 41 % |
-| JAC | 105 | Sin oferta concreta (57 %) | Potencia y trabajo (34 %) | 30 % | 25 % | 20 % | 45 % |
 | Leapmotor | 103 | Sin oferta concreta (34 %) | Eléctrico o híbrido (77 %) | 33 % | 30 % | 67 % | 56 % |
+| JAC | 98 | Sin oferta concreta (58 %) | Potencia y trabajo (32 %) | 28 % | 27 % | 21 % | 45 % |
 | Soueast | 50 | Precio como gancho (38 %) | Precio y ahorro (42 %) | 40 % | 72 % | 50 % | 82 % |
 | Zeekr | 35 | Invitación a probar o a un evento (29 %) | Diseño y estatus (31 %) | 31 % | 3 % | 54 % | 37 % |
 | XPeng | 20 | Sin oferta concreta (40 %) | Diseño y estatus (65 %) | 35 % | 0 % | 20 % | 20 % |
@@ -118,11 +118,11 @@ El gancho principal de cada aviso activo.
 
 | | Avisos | % |
 |---|---:|---:|
-| Sin oferta concreta | 339 | 26 % |
+| Sin oferta concreta | 336 | 26 % |
 | Financiación o cuotas | 310 | 24 % |
-| Precio como gancho | 245 | 19 % |
-| Invitación a probar o a un evento | 160 | 12 % |
-| Usado puntual | 106 | 8 % |
+| Precio como gancho | 241 | 19 % |
+| Invitación a probar o a un evento | 159 | 12 % |
+| Usado puntual | 105 | 8 % |
 | Lanzamiento o preventa | 103 | 8 % |
 | Descuento o bono | 22 | 2 % |
 | Toma de usado | 18 | 1 % |
@@ -133,13 +133,13 @@ La razón que da el aviso para comprar.
 
 | | Avisos | % |
 |---|---:|---:|
-| Precio y ahorro | 264 | 20 % |
 | Eléctrico o híbrido | 263 | 20 % |
-| Potencia y trabajo | 181 | 14 % |
+| Precio y ahorro | 262 | 20 % |
+| Potencia y trabajo | 176 | 14 % |
 | Tecnología | 166 | 13 % |
 | Diseño y estatus | 145 | 11 % |
 | Espacio y familia | 128 | 10 % |
-| Respaldo y garantía | 102 | 8 % |
+| Respaldo y garantía | 100 | 8 % |
 | Seguridad | 54 | 4 % |
 
 ## Qué tipo de vehículo muestran
@@ -148,14 +148,14 @@ Según lo que dice el texto.
 
 | | Avisos | % |
 |---|---:|---:|
-| SUV | 926 | 71 % |
+| SUV | 924 | 71 % |
 | No se sabe | 139 | 11 % |
-| Pickup | 82 | 6 % |
+| Pickup | 78 | 6 % |
 | Sedán o hatchback | 76 | 6 % |
-| Utilitario o van | 49 | 4 % |
+| Utilitario o van | 46 | 4 % |
 | Varios modelos | 31 | 2 % |
 
-En **706** avisos activos el texto no le dice al cliente qué hacer (el botón de Meta está igual). La lista completa está en la vista «El texto no invita a actuar» de la tabla.
+En **698** avisos activos el texto no le dice al cliente qué hacer (el botón de Meta está igual). La lista completa está en la vista «El texto no invita a actuar» de la tabla.
 
 ## 🗂️ Tabla para filtrar (en Obsidian)
 
@@ -170,4 +170,4 @@ Cada aviso tiene su ficha en `Cuentas Meta/Anuncios/`, y la tabla [🏷️ Anunc
 Se puede ordenar tocando el nombre de una columna y filtrar desde el menú de la tabla. Lo que se edite a mano se pisa en la próxima actualización.
 
 ---
-*Generado por `scripts/clasificar_anuncios.py` · fuente data_sources_20261017_060449.json · última corrida US$ 0.0000*
+*Generado por `scripts/clasificar_anuncios.py` · fuente data_sources_20261020_060054.json · última corrida US$ 0.0000*

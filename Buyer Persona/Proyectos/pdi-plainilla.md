@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 442daca88760535cdc6fd28c28334258617aa65d58fa848c3fd72ec56c661484
+firma: ecd4f35534489091187c54231ea0c5341673b65de6e69704cb1f333aea8cc129
 git_rama: main
 git_remoto: https://github.com/croman-coder/pdi-seguimiento-preentrega.git
 git_sin_subir: 1
@@ -16,7 +16,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-10-17'
+ultima_actividad: '2026-10-18'
 ---
 
 <!-- hermes:inicio -->
@@ -25,7 +25,7 @@ ultima_actividad: '2026-10-17'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-17 |
+| Última actividad | 2026-10-18 |
 | Stack | git, node |
 | Rama | main |
 | Último commit | 2026-09-25 71ddd6a fix(email): el aviso de inicio dice "traslado" cuando es un traslado, no "gestión de despacho" |

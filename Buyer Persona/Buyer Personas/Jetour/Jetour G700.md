@@ -6,7 +6,7 @@ age_range: 65+
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-17'
+created: '2026-10-20'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-19 → 2026-10-17 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-22 → 2026-10-20 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -28,10 +28,10 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 65+ (57.8% de los contactos) · perfil propio del modelo
-- **Género predominante:** Masculino (50.7%)
+- **Edad:** 65+ (58.4% de los contactos) · perfil propio del modelo
+- **Género predominante:** Masculino (50.3%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-19 → 2026-10-17 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-22 → 2026-10-20 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Jetour G700`
 - **Marca:** [[Comprador Jetour|Jetour]]
 - **Tipo de vehículo:** SUV
@@ -44,7 +44,7 @@ tags:
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 43,2 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,25×).
+- **Meta:** ellas son el 43,4 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,26×).
 - **Quién paga (ERP, 12 meses):** el 65,2 % de sus 46 ventas a cliente final las facturó una empresa.
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — Jetour]]
@@ -56,8 +56,8 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 65+
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** anuncios de Meta que nombran a **Jetour G700** (358 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 50.7%
-- **Distribución de edad (Meta):** 65+: 57.8%, 55-64: 13.7%, 35-44: 9.5%, 25-34: 7.8%, 45-54: 6.4%, 18-24: 4.7%
+- **Fuente edad/género:** anuncios de Meta que nombran a **Jetour G700** (380 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 50.3%
+- **Distribución de edad (Meta):** 65+: 58.4%, 55-64: 13.4%, 35-44: 9.5%, 25-34: 7.9%, 45-54: 6.1%, 18-24: 4.7%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
@@ -81,7 +81,7 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **NSE estimado:** C+ (medio-alto)
 - **Señales que se usaron:**
   - ticket promedio USD 58,604 (gama alta)
-  - 25.7% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 25.6% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -135,8 +135,8 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Oferta:** la planilla de acciones comerciales cargada es de septiembre y ya venció (último dato: descuento hasta USD 2,000). No usar el descuento en el copy hasta cargar la de este mes.
 > **Formato:** Para la próxima pauta de formularios: **imagen (gráfica)**, que trajo el lead más barato en campañas comparables y se repitió mes a mes. En el mismo conjunto, sumar el carrusel para seguir comparando. Detalle: [[🎬 Materiales que funcionan — Jetour]].
 > **Públicos hoy:** los 263 adsets activos van a público frío (260 con Advantage+). Sumar retargeting (formulario abierto sin enviar, visitantes web) y la base de compradores del ERP.
-> **Presupuesto sugerido:** ~USD 153/mes (hoy ~USD 101/mes según su peso en anuncios) → ~93 leads/mes al CPL actual de la marca (USD 1.64).
-> _Base del cálculo: 3.8% de las ventas de la marca sobre USD 4,036/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Presupuesto sugerido:** ~USD 156/mes (hoy ~USD 102/mes según su peso en anuncios) → ~96 leads/mes al CPL actual de la marca (USD 1.62).
+> _Base del cálculo: 3.8% de las ventas de la marca sobre USD 4,096/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -144,19 +144,19 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Jetour (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 7,388
+> **Total de leads de la marca en la ventana:** 7,572
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
-> **Modelos más pedidos (toda la marca):** X50 (101), X70 (53), Dashing (31)
-> **Ciudad:** Asunción (458), Ciudad del Este (175), Luque (78)
-> **Interés de compra:** nececito saber como es el plan de 330c ds por mes (1), Colonia Mayor Otaño (1), solo_estoy_averiguando (1)
+> **Modelos más pedidos (toda la marca):** X50 (103), X70 (58), Dashing (51)
+> **Ciudad:** Asunción (474), Ciudad del Este (178), Luque (78)
+> **Interés de compra:** solo_estoy_averiguando (2), nececito saber como es el plan de 330c ds por mes (1), Colonia Mayor Otaño (1)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Jetour (90 días)
 
-> **Leads:** 5,651 → **convertidos:** 27 (0.5%)
-> **Por canal:** Meta madre 2,730, Meta asesores 2,702, Otros canales 219
-> **Deals:** 139 — ganados 15, perdidos 12, en proceso 112 (win rate 55.6%)
-> **Monto ganado:** USD 326,930 · ticket promedio USD 21,795
+> **Leads:** 5,936 → **convertidos:** 44 (0.7%)
+> **Por canal:** Meta madre 2,881, Meta asesores 2,836, Otros canales 219
+> **Deals:** 182 — ganados 17, perdidos 15, en proceso 150 (win rate 53.1%)
+> **Monto ganado:** USD 361,420 · ticket promedio USD 21,260
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
 
@@ -177,7 +177,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!info] 📦 Stock, oferta y objetivos — uso interno
 
-> **Stock al 18-09:** 33 unidades (24 disponibles, 6 en viaje, 26 con propuesta) · 81 días promedio en stock.
+> **Stock al 18-09:** 33 unidades (24 disponibles, 6 en viaje, 26 con propuesta) · 84 días promedio en stock.
 > **Precio de lista (2026-09, planilla vencida):** USD 60,990 a 70,990 en 2 versión(es) · descuento hasta USD 2,000 (vencido) · ritmo 7 unidades/mes.
 > **Acción comercial:** Wallbox de regalo - sujeto a disponibilidad
 > **Negociaciones abiertas del modelo:** 1 (2026-09 semana 1).
@@ -196,7 +196,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-17 06:44*
+*Generado el 2026-10-20 06:43*
 
 ## 🔗 Contenido Relacionado
 

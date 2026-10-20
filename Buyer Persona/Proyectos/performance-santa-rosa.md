@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 4b1e0439ebd255c1392e22a8455e745b1f7a41916a36fad330cbf407b504c4b4
+firma: 30eeefb2c75f313ea1c1387f4d41a6c16e3b4d969ce36d886c991678acfbfebb
 git_rama: master
 git_remoto: https://github.com/croman-coder/performance-santa-rosa.git
 git_sin_subir: 0

@@ -17,6 +17,12 @@ Relacionado: [[⚔️ Benchmark Competitivo]] · [[⚔️ Battle Cards Modelo vs
 
 ## 2026-10
 
+- **19/10 20:20** · Mitsubishi Paraguay (propio) — modelo nuevo en la web: Mitsubishi Destinator
+- **19/10 20:21** · Hyundai Paraguay (competencia) — modelo nuevo en la web: Hyundai Ioniq
+
+- **19/10 14:16** · JAC Paraguay (propio) — modelo nuevo en la web: JAC RF8
+- **19/10 14:17** · Nissan Paraguay (competencia) — ya no lista: Nissan Sentra
+
 - **12/10 12:41** · GWM Paraguay (propio) — GWM Haval Jolion: USD 19.990 → USD 20.990 (+5.0%)
 
 - **06/10 17:21** · Kia Paraguay (Garden) (competencia) — modelo nuevo en la web: Kia Carens, Kia Carnival, Kia EV5, Kia EV9, Kia K2700, Kia K3, Kia Niro, Kia Picanto, Kia Seltos, Kia Soluto, Kia Sonet, Kia Sorento, Kia Sportage, Kia Tasman

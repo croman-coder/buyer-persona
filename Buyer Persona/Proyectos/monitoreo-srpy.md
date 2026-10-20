@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: f197602668f06c40ce6f5be41f73df1f895cb7538749c78a3fbb42da0a5a51f6
+firma: 8f0a9092addd17c5d44552ea64a7c47681efbdce04f44d385e6df8b591bf29c6
 git_rama: main
 git_remoto: https://github.com/croman-coder/monitoreo-srpy.git
 git_sin_subir: 0

@@ -1,7 +1,7 @@
 ---
 tipo: precios-competencia
 fuente: datacarpy.com (Firestore público)
-actualizado: 2026-10-17
+actualizado: 2026-10-20
 versiones: 657
 tags:
   - competencia
@@ -260,9 +260,9 @@ Nuestras versiones: 60 kWh 110 kW 13,990
 | Competidor | Versión | Precio | Δ | Combustible | Casa |
 |---|---|--:|--:|---|---|
 | **CHEVROLET ONIX** | 1.0T LT AT | 13,990 | +0.0% | FLEX | Grupo Garden |
-| **SUZUKI SWIFT** | GLX MT | 13,990 | +0.0% | MHEV | Chacomer |
 | **CITROËN C3** | LIVE MT | 13,990 | +0.0% | FLEX | Automaq |
 | **HYUNDAI HB20** | 1.0 Flex MT | 13,640 | -2.5% | FLEX | Automotor |
+| **SUZUKI SWIFT** | GLX MT | 13,490 | -3.6% | MHEV | Chacomer |
 | **MG MG3** | Híbrido Autorecargable | 14,990 | +7.1% | HEV | Condor |
 | **FIAT ARGO** | Drive 1.0 MT (2027) | 12,500 | -10.7% | FLEX | Grupo Garden |
 
@@ -632,26 +632,9 @@ _Sin competidores externos en la banda de precio._
 
 | Marca | Modelo | Versión | Antes | Ahora | Δ | Casa |
 |---|---|---|--:|--:|--:|---|
-| VOLKSWAGEN | TERA | Outfit 170 TSI AT | 22,500 | 25,900 | +15.1% | Diesa |
-| VOLKSWAGEN | TERA | HL 170 TSI AT | 21,500 | 24,500 | +14.0% | Diesa |
-| VOLKSWAGEN | TERA | CL 170 TSI AT | 19,900 | 22,500 | +13.1% | Diesa |
-| VOLKSWAGEN | POLO TRACK | 1.6L | 15,500 | 17,500 | +12.9% | Diesa |
-| VOLKSWAGEN | SAVEIRO | Robust Cabina Simple | 15,500 | 17,500 | +12.9% | Diesa |
-| VOLKSWAGEN | SAVEIRO | Robust Doble Cabina | 16,900 | 18,500 | +9.5% | Diesa |
-| VOLKSWAGEN | T-CROSS | TL 200TSI | 21,500 | 23,500 | +9.3% | Diesa |
-| VOLKSWAGEN | TERA | 1.0 MPI MT | 17,900 | 19,500 | +8.9% | Diesa |
-| VOLKSWAGEN | TAOS | Comfortline | 29,900 | 32,500 | +8.7% | Diesa |
-| VOLKSWAGEN | T-CROSS | CL 200TSI | 23,500 | 25,500 | +8.5% | Diesa |
-| VOLKSWAGEN | T-CROSS | HL 250TSI | 25,500 | 27,500 | +7.8% | Diesa |
-| VOLKSWAGEN | AMAROK | V6 Comfortline | 49,900 | 46,900 | -6.0% | Diesa |
-| VOLKSWAGEN | NIVUS | Highline | 27,500 | 25,900 | -5.8% | Diesa |
-| VOLKSWAGEN | SAVEIRO | Extreme | 20,500 | 21,500 | +4.9% | Diesa |
-| VOLKSWAGEN | TAOS | Highline | 32,900 | 34,500 | +4.9% | Diesa |
-| VOLKSWAGEN | AMAROK | V6 Highline | 55,900 | 57,900 | +3.6% | Diesa |
-| VOLKSWAGEN | NIVUS | Comfortline | 24,500 | 23,900 | -2.4% | Diesa |
-| VOLKSWAGEN | AMAROK | 2.0L Highline | 48,900 | 47,900 | -2.0% | Diesa |
-| VOLKSWAGEN | AMAROK | V6 Extreme | 58,900 | 59,900 | +1.7% | Diesa |
-| VOLKSWAGEN | TERAMONT | Premium | 73,900 | 72,900 | -1.4% | Diesa |
+| HONDA | WR-V | EXL | 26,900 | 25,900 | -3.7% | Vicar |
+| SUZUKI | SWIFT | GLX MT | 13,990 | 13,490 | -3.6% | Chacomer |
+| FIAT | FASTBACK | Audace Híbrido 1.0 T200 Turbo (2027) | 22,990 | 22,490 | -2.2% | Grupo Garden |
 
 ## 3. Mercado completo por subsegmento
 
@@ -690,12 +673,12 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 |---|---|---|--:|---|---|
 | FIAT | ARGO | Drive 1.0 MT (2027) | 12,500 | FLEX | Grupo Garden |
 | CHEVROLET | ONIX | 1.0L LT MT | 12,990 | FLEX | Grupo Garden |
-| SUZUKI | SWIFT | GL | 13,490 | MHEV | Chacomer |
+| SUZUKI | SWIFT | GL | 12,990 | MHEV | Chacomer |
+| SUZUKI | SWIFT | GLX MT | 13,490 | MHEV | Chacomer |
 | HYUNDAI | HB20 | 1.0 Flex MT | 13,640 | FLEX | Automotor |
 | CITROËN | C3 | LIVE MT | 13,990 | FLEX | Automaq |
 | **JMEV** | EV3 | 60 kWh 110 kW | 13,990 | EV | Santa Rosa |
 | CHEVROLET | ONIX | 1.0T LT AT | 13,990 | FLEX | Grupo Garden |
-| SUZUKI | SWIFT | GLX MT | 13,990 | MHEV | Chacomer |
 | CITROËN | C3 | FEEL MT | 14,990 | FLEX | Automaq |
 | MG | MG3 | Híbrido Autorecargable | 14,990 | HEV | Condor |
 | HYUNDAI | HB20 | 1.6 Nafta AT | 15,740 | NAFTA | Automotor |
@@ -855,11 +838,11 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 | SUZUKI | JIMNY 5-DOOR | GLX 4WD ALL GRIP Llantas Rhino | 25,699 | NAFTA | Chacomer |
 | VOLKSWAGEN | NIVUS | Highline | 25,900 | FLEX | Diesa |
 | VOLKSWAGEN | TERA | Outfit 170 TSI AT | 25,900 | FLEX | Diesa |
+| HONDA | WR-V | EXL | 25,900 | FLEX | Vicar |
 | NISSAN | KICKS | Advance Plus | 25,990 | FLEX | Grupo Garden |
 | SUZUKI | VITARA ACROSS | GLX SR 2WD | 25,990 | MHEV | Chacomer |
 | TOYOTA | YARIS CROSS | NAFTA (2027) | 26,000 | NAFTA | Toyotoshi |
 | SUZUKI | VITARA ACROSS | GLX SR 2WD Bitono | 26,490 | MHEV | Chacomer |
-| HONDA | WR-V | EXL | 26,900 | FLEX | Vicar |
 | BYD | YUAN PRO DM-I | GS | 26,900 | PHEV | Diesa |
 | SUZUKI | JIMNY 5-DOOR | GLX 4WD ALL GRIP Rhino Edition | 27,359 | NAFTA | Chacomer |
 | LYNK & CO | 06 | HALO | 27,500 | PHEV | Automotor |
@@ -891,7 +874,7 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 
 | Marca | Modelo | Versión | Precio | Combustible | Casa |
 |---|---|---|--:|---|---|
-| FIAT | FASTBACK | Audace Híbrido 1.0 T200 Turbo (2027) | 22,990 | MHEV | Grupo Garden |
+| FIAT | FASTBACK | Audace Híbrido 1.0 T200 Turbo (2027) | 22,490 | MHEV | Grupo Garden |
 | FIAT | FASTBACK | Impetus Híbrido 1.0 T200 Turbo (2027) | 25,500 | MHEV | Grupo Garden |
 | FIAT | FASTBACK | Abarth Turbo Flex 185 HP (2027) | 28,500 | FLEX | Grupo Garden |
 

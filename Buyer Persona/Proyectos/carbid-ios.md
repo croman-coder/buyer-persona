@@ -1,6 +1,6 @@
 ---
 estado: dormido
-firma: d29ac74fc505b21abe956bc7009545372d3f9bcd3cc8c8ddbf0077ae8280ec0b
+firma: 4b63161fb9c95c7e58ffb7ed97286d5796b94427127bbc743dedb7372af672a8
 git_rama: master
 git_remoto: https://github.com/croman-coder/carbid-ios.git
 git_sin_subir: 0

@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: Zeekr
-periodo_meta: 2026-07-19 a 2026-10-17
-created: 2026-10-17
+periodo_meta: 2026-07-22 a 2026-10-20
+created: 2026-10-20
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,7 +12,7 @@ tags:
 # 👥 Quién mira y quién decide — Zeekr
 
 > [!summary] En una línea
-> En Meta, ellas son el 32,8 % de los clics pero, viendo el mismo anuncio, contactan 0,79× lo que ellos (menos en 5 de 5 conjuntos): **ella investiga y él da el paso**. En el 0,0 % de los chats el cliente nombra a otra persona.
+> En Meta, ellas son el 33,9 % de los clics pero, viendo el mismo anuncio, contactan 0,81× lo que ellos (menos en 5 de 5 conjuntos): **ella investiga y él da el paso**. En el 0,0 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
 > 1. **Una pieza para quien acompaña la decisión** — «Menos gasto todos los meses». Detalle en la sección 5.
@@ -27,21 +27,21 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-19** al **2026-10-17**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-22** al **2026-10-20**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **Zeekr** | 32,8 % | 27,8 % | **0,79×** | 5 (ellas menos en 5) | Ellas miran y el contacto lo deja él |
-| [[Zeekr 7X|Zeekr 7X]] | 34,7 % | 30,9 % | 0,82× | 2 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
-| [[Zeekr 001|Zeekr 001]] | 25,8 % | 20,0 % | 0,72× | 2 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
+| **Zeekr** | 33,9 % | 29,2 % | **0,81×** | 5 (ellas menos en 5) | Ellas miran y el contacto lo deja él |
+| [[Zeekr 7X|Zeekr 7X]] | 34,8 % | 31,0 % | 0,82× | 2 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
+| [[Zeekr 001|Zeekr 001]] | 28,8 % | 22,7 % | 0,72× | 2 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|---|
-| 13,1 % | 11,8 % | 14,0 % | 15,3 % | 13,9 % | 12,6 % |
+| 12,5 % | 11,9 % | 14,3 % | 14,8 % | 13,9 % | 12,5 % |
 
-Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,82×).
+Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,83×).
 
 ## 2. ¿Qué le interesa a cada uno?
 
@@ -51,21 +51,19 @@ Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema su
 
 | Modelo | Tema del anuncio | Mujeres en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| Zeekr 001 | Autos eléctricos y ahorro de combustible | 40,4 % | +20,5 | 1.748 (20) |
-| Zeekr 001 | Tecnología y conectividad | 38,7 % | +18,8 | 1.006 (17) |
-| Zeekr 7X | Tecnología y conectividad | 42,3 % | +13,9 | 4.388 (6) |
-| Zeekr 7X | Diseño y estatus | 39,1 % | +10,8 | 4.383 (8) |
+| Zeekr 001 | Autos eléctricos y ahorro de combustible | 41,1 % | +19,2 | 1.903 (20) |
+| Zeekr 7X | Tecnología y conectividad | 42,8 % | +14,3 | 4.352 (6) |
+| Zeekr 7X | Diseño y estatus | 39,2 % | +10,7 | 4.450 (8) |
 
 **Lo que más atrae a los mayores de 55:**
 
 | Modelo | Tema del anuncio | 55+ en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| Zeekr 001 | Autos eléctricos y ahorro de combustible | 65,7 % | +24,7 | 1.748 (20) |
-| Zeekr 001 | Tecnología y conectividad | 63,4 % | +22,4 | 1.006 (17) |
-| Zeekr 7X | Tecnología y conectividad | 65,3 % | +15,3 | 4.388 (6) |
-| Zeekr 7X | Diseño y estatus | 62,4 % | +12,3 | 4.383 (8) |
+| Zeekr 001 | Autos eléctricos y ahorro de combustible | 68,3 % | +24,1 | 1.903 (20) |
+| Zeekr 7X | Tecnología y conectividad | 66,2 % | +16,1 | 4.352 (6) |
+| Zeekr 7X | Diseño y estatus | 62,3 % | +12,2 | 4.450 (8) |
 
-**Lo que menos las atrae** (evitarlo en la pieza para ellas): Zeekr 001: probar antes de comprar (test drive) (-5,3).
+**Lo que menos las atrae** (evitarlo en la pieza para ellas): Zeekr 001: probar antes de comprar (test drive) (-7,0); Zeekr 001: diseño y estatus (-4,9).
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -73,9 +71,9 @@ _Sin ventas suficientes a cliente final en el ERP._
 
 ## 4. ¿Quién más aparece en las conversaciones?
 
-Chats de **Messenger e Instagram** de las páginas de Zeekr y de sus asesores, del 2026-07-14 al 2026-10-12. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
+Chats de **Messenger e Instagram** de las páginas de Zeekr y de sus asesores, del 2026-07-21 al 2026-10-19. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
 
-- **506** chats con texto del cliente · **0,0 %** nombran a otra persona.
+- **518** chats con texto del cliente · **0,0 %** nombran a otra persona.
 
 _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más que cuántas veces._
 
@@ -83,7 +81,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza para quien acompaña la decisión
 
-**Por qué:** Ellas son el 32,8 % de los clics, pero con el mismo anuncio contactan 0,79× lo que ellos (menos en 5 de 5 conjuntos): ella investiga y él da el paso. El tema **autos eléctricos y ahorro de combustible** es el que más las atrae: en Zeekr 001 suma 20 puntos de mujeres sobre el promedio del modelo (hasta 40,4 %).
+**Por qué:** Ellas son el 33,9 % de los clics, pero con el mismo anuncio contactan 0,81× lo que ellos (menos en 5 de 5 conjuntos): ella investiga y él da el paso. El tema **autos eléctricos y ahorro de combustible** es el que más las atrae: en Zeekr 001 suma 19 puntos de mujeres sobre el promedio del modelo (hasta 41,1 %).
 
 **Modelos donde más pesa:** Zeekr 001
 
@@ -109,9 +107,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-19 a 2026-10-17, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-22 a 2026-10-20, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: sin datos suficientes.
-- Chats: Messenger e Instagram, lectura semanal (2026-10-12).
-- Generado el 2026-10-17 06:44 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Chats: Messenger e Instagram, lectura semanal (2026-10-19).
+- Generado el 2026-10-20 06:43 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[Zeekr|Volver a Zeekr]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

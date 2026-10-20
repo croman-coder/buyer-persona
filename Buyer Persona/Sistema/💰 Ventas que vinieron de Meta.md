@@ -1,6 +1,6 @@
 ---
 type: ventas-meta
-updated: 2026-10-17
+updated: 2026-10-20
 tags: [meta-ads, ventas, atribucion, interno]
 ---
 # 💰 Ventas que vinieron de Meta
@@ -8,9 +8,9 @@ tags: [meta-ads, ventas, atribucion, interno]
 > [!info] Qué es
 > Cada venta del ERP a un cliente final se busca entre los leads de formulario de Meta de los 120 días anteriores: primero por teléfono o mail, y si no por nombre, solo cuando ese nombre no aparece en otra venta. Se actualiza en cada corrida. **No se guarda ningún nombre, teléfono ni mail: solo totales.** Uso interno.
 
-**Ventas evaluadas:** 326 a clientes finales, del 2026-08-18 al 2026-09-11 (último dato del ERP) · **leads de Meta:** 27.633, del 2026-07-19 al 2026-10-17.
+**Ventas evaluadas:** 267 a clientes finales, del 2026-08-21 al 2026-09-11 (último dato del ERP) · **leads de Meta:** 27.951, del 2026-07-22 al 2026-10-20.
 
-**En total, 35 de 326 ventas (11 %) tuvieron un lead previo de Meta.** Del lead a la venta pasan 13 días (mediana; la mitad, entre 6 y 26).
+**En total, 24 de 267 ventas (9 %) tuvieron un lead previo de Meta.** Del lead a la venta pasan 14 días (mediana; la mitad, entre 6 y 26).
 
 > [!warning] El ERP casi no trae teléfono ni mail en estas ventas (2 %)
 > Entonces el cruce depende del nombre, que es menos seguro. Antes de agosto de 2026 el reporte de facturación traía teléfono o mail en el 41 % de las ventas: pedir que se vuelvan a exportar esas columnas.
@@ -19,14 +19,14 @@ tags: [meta-ads, ventas, atribucion, interno]
 
 | Marca | Ventas | Con lead de Meta | % | Por teléfono o mail | Por nombre | Ventas con teléfono o mail en el ERP | Del lead a la venta |
 |---|---|---|---|---|---|---|---|
-| Jetour | 149 | 15 | 10 % | 0 | 15 | 0 % | 16 días |
-| GWM | 63 | 5 | 8 % | 0 | 5 | 0 % | 30 días |
-| Soueast | 41 | 4 | 10 % | 0 | 4 | 0 % | 28 días |
-| Renew | 21 | 4 | 19 % | 1 | 3 | 24 % | 4 días |
-| JAC | 17 | 2 | 12 % | 0 | 2 | 0 % | 2 días |
-| Renault | 13 | 2 | 15 % | 0 | 2 | 15 % | 16 días |
-| JMEV | 10 | 2 | 20 % | 0 | 2 | 0 % | 8 días |
-| Mitsubishi | 9 | 1 | 11 % | 0 | 1 | 0 % | 8 días |
+| Jetour | 116 | 9 | 8 % | 0 | 9 | 0 % | 22 días |
+| GWM | 55 | 3 | 5 % | 0 | 3 | 0 % | 31 días |
+| Soueast | 34 | 4 | 12 % | 0 | 4 | 0 % | 28 días |
+| Renew | 18 | 2 | 11 % | 1 | 1 | 22 % | 4 días |
+| JAC | 15 | 1 | 7 % | 0 | 1 | 0 % | 2 días |
+| Renault | 11 | 2 | 18 % | 0 | 2 | 18 % | 16 días |
+| Mitsubishi | 8 | 1 | 12 % | 0 | 1 | 0 % | 8 días |
+| JMEV | 7 | 2 | 29 % | 0 | 2 | 0 % | 8 días |
 | Zeekr | 2 | 0 | 0 % | 0 | 0 | 0 % | — |
 | Leapmotor | 1 | 0 | 0 % | 0 | 0 | 0 % | — |
 
@@ -34,14 +34,14 @@ tags: [meta-ads, ventas, atribucion, interno]
 
 | Marca | Campaña de la marca | Campaña de un asesor | Campaña de otra marca | Formulario sin anuncio | Campaña de una cuenta que no se lee |
 |---|---|---|---|---|---|
-| Jetour | 5 | 6 | 4 | 0 | 0 |
-| GWM | 1 | 2 | 1 | 0 | 1 |
+| Jetour | 4 | 3 | 2 | 0 | 0 |
+| GWM | 0 | 1 | 1 | 0 | 1 |
 | Soueast | 3 | 0 | 1 | 0 | 0 |
-| Renew | 0 | 0 | 4 | 0 | 0 |
-| JAC | 0 | 1 | 1 | 0 | 0 |
+| Renew | 0 | 0 | 2 | 0 | 0 |
+| JAC | 0 | 1 | 0 | 0 | 0 |
 | Renault | 1 | 0 | 1 | 0 | 0 |
-| JMEV | 2 | 0 | 0 | 0 | 0 |
 | Mitsubishi | 1 | 0 | 0 | 0 | 0 |
+| JMEV | 2 | 0 | 0 | 0 | 0 |
 
 ## La venta es de una marca y el lead de otra
 
@@ -49,12 +49,8 @@ La gente compara por segmento y precio, no por marca: el lead de una marca termi
 
 | Lead de | Venta de | Ventas |
 |---|---|---|
-| GWM | Jetour | 2 |
 | GWM | Renew | 2 |
-| Jetour | Renew | 1 |
-| GWM | JAC | 1 |
-| Zeekr | Renew | 1 |
-| JMEV | Jetour | 1 |
+| GWM | Jetour | 1 |
 | Mitsubishi | Soueast | 1 |
 | Jetour | Renault | 1 |
 | JMEV | GWM | 1 |
@@ -64,26 +60,22 @@ La gente compara por segmento y precio, no por marca: el lead de una marca termi
 
 | Campaña | Cuenta | Marca de la cuenta | Ventas | Gasto 90 días (USD) | Costo por venta (USD) |
 |---|---|---|---|---|---|
-| AON 2025 - LEADS ASU | Jetour | Jetour | 5 | 4.906 | 981 |
-| AON 2025 ASU | GWM Paraguay | GWM | 4 | 5.138 | 1.285 |
-| Leads JMEV AON 2025 | JMEV | JMEV | 4 | 601 | 150 |
-| JETOUR SEPTIEMBRE 2026 | KATHERINE VERA JETOUR | Jetour | 2 | 390 | 195 |
-| AON 2025 - LEADS CDE | Jetour | Jetour | 2 | 1.588 | 794 |
-| Campaña Formularios / Agosto / RR | JOSE DOMECQ / GWM | GWM | 2 | 150 | 75 |
-| NOVIEMBRE RODRIGO | RODRIGO DUARTE JETOUR | Jetour | 2 | 350 | 175 |
-| DIEGO 2026 | DIEGO CARRAPATEIRA JETOUR | Jetour | 1 | 345 | 345 |
-| AON DENISE | DENISE ALONSO / GWM | GWM | 1 | 165 | 165 |
-| ZEEKR AON ASU 2026 LEADS | Zeekr Paraguay | Zeekr | 1 | 1.909 | 1.909 |
-| JETOUR X70-JULIO-2026 | LUIS ORTIZ / JETOUR | Jetour | 1 | 76 | 76 |
-| SOUEAST AO / CDE | Soueast Paraguay | Soueast | 1 | 1.794 | 1.794 |
-| Mitsubishi AO / ASU | Mitsubishi Paraguay | Mitsubishi | 1 | 4.094 | 4.094 |
-| SOUEAST AO / RMK | Soueast Paraguay | Soueast | 1 | 1.183 | 1.183 |
-| leads/Nuevos modelos PHEV/cde | Soueast Paraguay | Soueast | 1 | 887 | 887 |
+| AON 2025 - LEADS ASU | Jetour | Jetour | 4 | 4.927 | 1.232 |
+| AON 2025 ASU | GWM Paraguay | GWM | 3 | 5.098 | 1.699 |
+| Leads JMEV AON 2025 | JMEV | JMEV | 3 | 739 | 246 |
+| NOVIEMBRE RODRIGO | RODRIGO DUARTE JETOUR | Jetour | 2 | 358 | 179 |
+| JETOUR X70-JULIO-2026 | LUIS ORTIZ / JETOUR | Jetour | 1 | 70 | 70 |
+| SOUEAST AO / CDE | Soueast Paraguay | Soueast | 1 | 1.756 | 1.756 |
+| Mitsubishi AO / ASU | Mitsubishi Paraguay | Mitsubishi | 1 | 3.926 | 3.926 |
+| SOUEAST AO / RMK | Soueast Paraguay | Soueast | 1 | 1.146 | 1.146 |
+| leads/Nuevos modelos PHEV/cde | Soueast Paraguay | Soueast | 1 | 802 | 802 |
+| AON 2025 - LEADS CDE | Jetour | Jetour | 1 | 1.603 | 1.603 |
 | LUZ 2026 - AGOSTO | LUZ RICARDO / RENAULT | Renault | 1 | 200 | 200 |
 | Nueva campaña de Clientes potenciales | — | GWM | 1 | — | — |
 | JAC Camiones / LEADS / SET 26 | JORGE IBARROLA / Jac Paraguay | JAC | 1 | 197 | 197 |
-| 2026_CLIENTES POTENCIALES | GABRIELA LEZCANO GWM | GWM | 1 | 592 | 592 |
-| formulario/leads/L200 | Mitsubishi Paraguay | Mitsubishi | 1 | 198 | 198 |
+| 2026_CLIENTES POTENCIALES | GABRIELA LEZCANO GWM | GWM | 1 | 587 | 587 |
+| formulario/leads/L200 | Mitsubishi Paraguay | Mitsubishi | 1 | 188 | 188 |
+| RENAULT / Koleos + Master / Leads / PY / 2026-10 | Renault Santa Rosa Paraguay | Renault | 1 | 2.057 | 2.057 |
 
 ## Cómo leerlo
 

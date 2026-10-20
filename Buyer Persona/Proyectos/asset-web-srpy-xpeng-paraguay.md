@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: ce9a6c78b0581b276b11491c71e6b37c43478bb6da48b41285b2f3e0542b83fb
+firma: a3232032de849a7bebb6a6e476256e51f159f23e285de6436e656cc60aaf88e9
 git_rama: main
 git_remoto: https://github.com/croman-coder/xpeng-paraguay.git
 git_sin_subir: 0

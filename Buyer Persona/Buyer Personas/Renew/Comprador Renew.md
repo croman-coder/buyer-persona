@@ -7,7 +7,7 @@ gender: Masculino
 locations:
 - Asunción
 - Ciudad del Este
-created: '2026-10-17'
+created: '2026-10-20'
 tags:
 - buyer-persona
 - marketing
@@ -19,7 +19,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este público, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-19 → 2026-10-17 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-22 → 2026-10-20 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -27,19 +27,18 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 35-44 (28.9% de los contactos) · perfil de la marca
-- **Género predominante:** Masculino (80.1%)
+- **Edad:** 35-44 (29.1% de los contactos) · perfil de la marca
+- **Género predominante:** Masculino (80.7%)
 - **Ubicación:** Asunción, Ciudad del Este
-- **Período leído:** Meta 2026-07-19 → 2026-10-17 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-22 → 2026-10-20 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Marca → `Renew`
 - **Ticket promedio (ERP, facturado):** USD 13,185
 
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 20,2 % de los clics y contactan igual que ellos con el mismo anuncio (1,00×).
+- **Meta:** ellas son el 19,8 % de los clics y contactan igual que ellos con el mismo anuncio (0,99×).
 - **Quién paga (ERP, 12 meses):** el 11,1 % de las compras a cliente final las factura una empresa.
-- **Para Meta Ads:** Una pieza que les hable a ellas, que son las que avanzan.
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — Renew]]
 
@@ -50,17 +49,17 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción, Ciudad del Este
-- **Fuente edad/género:** audiencia de Meta de la marca **Renew** (5,991 contactos), ponderado por contactos (formularios y chats) — Masculino 80.1%
-- **Distribución de edad (Meta):** 35-44: 28.9%, 25-34: 28.5%, 45-54: 18.1%, 55-64: 9.8%, 18-24: 8.9%, 65+: 5.8%
+- **Fuente edad/género:** audiencia de Meta de la marca **Renew** (5,894 contactos), ponderado por contactos (formularios y chats) — Masculino 80.7%
+- **Distribución de edad (Meta):** 35-44: 29.1%, 25-34: 28.1%, 45-54: 18.3%, 55-64: 9.9%, 18-24: 8.6%, 65+: 5.9%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🧾 Quién compró de verdad (Bitrix: ganados + Facturación)
 
-- **47 negocios** de la marca: 44 ganados y 3 en Facturación (ya son ventas que se van a cerrar).
+- **50 negocios** de la marca: 47 ganados y 3 en Facturación (ya son ventas que se van a cerrar).
 - **7 vinieron de un lead de Meta** (cruce seguro por teléfono o mail).
 - **Plataforma del lead:** Facebook 4 · Instagram 3 · **Cuenta:** Cuenta madre 7.
 - **Del lead a la venta:** mediana de 41 días; el 75 % compra antes de los 60.
-- Todavía son pocos para un perfil propio de compra (7 de 15). En todas las marcas, la edad estimada de quien compra es 35-44: 32 % · 25-34: 25 % · 45-54: 21 % · 55-64: 9 % · **Género:** Masculino 77 % · Femenino 23 %.
+- Todavía son pocos para un perfil propio de compra (7 de 15). En todas las marcas, la edad estimada de quien compra es 35-44: 33 % · 25-34: 25 % · 45-54: 21 % · 55-64: 10 % · **Género:** Masculino 78 % · Femenino 22 %.
 - _La edad y el género se estiman con quienes contactaron por el anuncio de cada comprador. Detalle de todas las marcas: [[🧾 Compradores reales (Bitrix)]]._
 
 ## 🎯 Intereses y Comportamientos
@@ -85,7 +84,7 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **Señales que se usaron:**
   - ticket promedio USD 13,185 (entrada)
   - 100% pide financiación en el formulario (2 respuestas)
-  - 27.0% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 26.8% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción, Ciudad del Este
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -155,7 +154,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Canales:** Prioriza Showroom.
 > **Formato:** En formularios casi todo fue imagen (gráfica): para saber si otro formato rinde más, sumar uno distinto en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — Renew]].
 > **Públicos hoy:** los 72 adsets activos van a público frío (69 con Advantage+). Sumar retargeting (formulario abierto sin enviar, visitantes web) y la base de compradores del ERP.
-> **Inversión actual:** USD 4,106 en la ventana (~USD 1,369/mes), 5,619 conversaciones de WhatsApp → costo por conversación USD 0.73.
+> **Inversión actual:** USD 4,038 en la ventana (~USD 1,346/mes), 5,528 conversaciones de WhatsApp → costo por conversación USD 0.73.
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -185,17 +184,17 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Renew (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 378
+> **Total de leads de la marca en la ventana:** 374
 > **Modelos más pedidos (toda la marca):** Suv (240), Auto (77), Pick Up (20)
 > **Método de pago preferido:** financian? cualquier marca (1), financiado hasta 12.500 Kia (1)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Renew (90 días)
 
-> **Leads:** 1,558 → **convertidos:** 4 (0.3%)
-> **Por canal:** Meta madre 1,362, Meta asesores 188, Otros canales 8
-> **Deals:** 64 — ganados 42, perdidos 3, en proceso 19 (win rate 93.3%)
-> **Monto ganado:** USD 655,300 · ticket promedio USD 15,602
+> **Leads:** 1,599 → **convertidos:** 4 (0.3%)
+> **Por canal:** Meta madre 1,407, Meta asesores 184, Otros canales 8
+> **Deals:** 65 — ganados 45, perdidos 3, en proceso 17 (win rate 93.8%)
+> **Monto ganado:** USD 713,700 · ticket promedio USD 15,860
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 
 
@@ -217,7 +216,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-17 06:44*
+*Generado el 2026-10-20 06:43*
 
 ## 🔗 Contenido Relacionado
 

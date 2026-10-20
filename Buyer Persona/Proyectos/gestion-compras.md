@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: f4586719415d4112813bc86f2f687a27f815f737bc0bfde32a95b8662d5dc09d
+firma: 0db92d6e3b88c7b68e8ec36df3f1df0069f9bccc72b6db2e1f02ed62d3ad8b37
 git_rama: feat/webapp-rediseno
 git_remoto: https://github.com/croman-coder/gestion-compras.git
 git_sin_subir: 0

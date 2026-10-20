@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: f245d4e83e28d71fa52cc62daa3e301067b57bd11f43b4e54dd10eab1a59a07a
+firma: be78e8f096af783c8c8ae55cb34be352183cda8b7e801db6ad967f9fa2473568
 git_rama: main
 git_remoto: https://github.com/croman-coder/tasacion-renew.git
 git_sin_subir: 1

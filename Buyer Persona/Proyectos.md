@@ -2,15 +2,15 @@
 
 | Proyecto | Estado | Última actividad | Stack | Resumen |
 | --- | --- | --- | --- | --- |
+| [[pdi-plainilla]] | activo | 2026-10-18 | git, node | — |
+| [[agencia-ia]] | activo | 2026-10-17 | docker, git, node | Proyecto en /home/croman/Escritorio/AGENCIA IA. Sin README. |
 | [[ais-os]] | activo | 2026-10-17 | git | Proyecto en /home/croman/Escritorio/AIS-OS. Sin info de lenguaje en README. |
-| [[pdi-plainilla]] | activo | 2026-10-17 | git, node | — |
-| [[agencia-ia]] | activo | 2026-10-16 | docker, git, node | Proyecto en /home/croman/Escritorio/AGENCIA IA. Sin README. |
-| [[asset-web-srpy]] | activo | 2026-10-16 | — | — |
-| [[asset-web-srpy-santa-rosa-web]] | activo | 2026-10-16 | git, node, web | — |
+| [[asset-web-srpy]] | activo | 2026-10-17 | — | — |
+| [[asset-web-srpy-santa-rosa-web]] | activo | 2026-10-17 | git, node, web | — |
+| [[seleccion-srpy]] | activo | 2026-10-17 | git, node | — |
+| [[servidor-srpy]] | activo | 2026-10-17 | — | — |
 | [[monitoreo-srpy]] | activo | 2026-10-16 | git, python | Proyecto en /home/croman/Escritorio/MONITOREO SRPY. Basado en Python. |
 | [[operativa]] | activo | 2026-10-16 | — | — |
-| [[seleccion-srpy]] | activo | 2026-10-16 | git, node | — |
-| [[servidor-srpy]] | activo | 2026-10-16 | — | — |
 | [[asset-web-srpy-gwm-web]] | activo | 2026-10-15 | docker, git, node, web | — |
 | [[asset-web-srpy-renew-usados]] | activo | 2026-10-15 | git, node, web | Storefront y catálogo de vehículos usados certificados de Renew (división de Santa Rosa), con panel admin en Firebase y webhook de leads a Bitrix24 CRM, construido con Vite + React + TypeScript + Firestore. Activo; el último commit hizo visibles las ofertas también en el catálogo general y quedan 2 commits sin subir. |
 | [[bitrix]] | activo | 2026-10-14 | — | — |

@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: JMEV
-periodo_meta: 2026-07-19 a 2026-10-17
-created: 2026-10-17
+periodo_meta: 2026-07-22 a 2026-10-20
+created: 2026-10-20
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,7 +12,7 @@ tags:
 # 👥 Quién mira y quién decide — JMEV
 
 > [!summary] En una línea
-> En Meta, ellas son el 11,1 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,39×). El 3,6 % de las compras a cliente final las factura una empresa. En el 0,0 % de los chats el cliente nombra a otra persona.
+> En Meta, ellas son el 11,4 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,34×). El 3,6 % de las compras a cliente final las factura una empresa. En el 0,0 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
 > 1. **Una pieza que les hable a ellas, que son las que avanzan** — «Espacio para todos». Detalle en la sección 5.
@@ -27,21 +27,21 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-19** al **2026-10-17**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-22** al **2026-10-20**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **JMEV** | 11,1 % | 14,7 % | **1,39×** | 2 (ellas menos en 0) | Las que miran, contactan más que ellos |
-| [[JMEV EV2|JMEV EV2]] | 10,6 % | 13,8 % | 1,35× | 1 (ellas menos en 0) | Las que miran, contactan más que ellos |
-| [[JMEV EV3|JMEV EV3]] | 15,6 % | 21,9 % | 1,65× | 1 (ellas menos en 0) | Las que miran, contactan más que ellos |
+| **JMEV** | 11,4 % | 14,8 % | **1,34×** | 3 (ellas menos en 1) | Las que miran, contactan más que ellos |
+| [[JMEV EV2|JMEV EV2]] | 11,0 % | 14,1 % | 1,33× | 1 (ellas menos en 0) | Las que miran, contactan más que ellos |
+| [[JMEV EV3|JMEV EV3]] | 13,5 % | 19,1 % | 1,41× | 2 (ellas menos en 1) | Las que miran, contactan más que ellos |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
-| 18-24 | 25-34 | 35-44 | 45-54 | 55-64 |
-|---|---|---|---|---|
-| 45,5 % | 43,9 % | 33,4 % | 33,9 % | 29,3 % |
+| 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
+|---|---|---|---|---|---|
+| 42,0 % | 39,9 % | 31,9 % | 31,6 % | 26,1 % | 33,4 % |
 
-Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,89×).
+Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,84×).
 
 ## 2. ¿Qué le interesa a cada uno?
 
@@ -61,9 +61,9 @@ Cuando compra una empresa hay un **comité**: decide el dueño o un gerente, pag
 
 ## 4. ¿Quién más aparece en las conversaciones?
 
-Chats de **Messenger e Instagram** de las páginas de JMEV y de sus asesores, del 2026-07-14 al 2026-10-12. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
+Chats de **Messenger e Instagram** de las páginas de JMEV y de sus asesores, del 2026-07-21 al 2026-10-19. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
 
-- **680** chats con texto del cliente · **0,0 %** nombran a otra persona.
+- **733** chats con texto del cliente · **0,0 %** nombran a otra persona.
 
 _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más que cuántas veces._
 
@@ -71,7 +71,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza que les hable a ellas, que son las que avanzan
 
-**Por qué:** Ellas son solo el 11,1 % de los clics, pero las que hacen clic contactan 1,39× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan.
+**Por qué:** Ellas son solo el 11,4 % de los clics, pero las que hacen clic contactan 1,34× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan.
 
 **La pieza (texto base, ajustar al tono de la marca):**
 
@@ -95,9 +95,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-19 a 2026-10-17, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-22 a 2026-10-20, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: ventas a cliente final, 2025-09-11 a 2026-09-11.
-- Chats: Messenger e Instagram, lectura semanal (2026-10-12).
-- Generado el 2026-10-17 06:44 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Chats: Messenger e Instagram, lectura semanal (2026-10-19).
+- Generado el 2026-10-20 06:43 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[JMEV|Volver a JMEV]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

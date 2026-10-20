@@ -6,7 +6,7 @@ age_range: 65+
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-17'
+created: '2026-10-20'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-19 → 2026-10-17 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-22 → 2026-10-20 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -28,10 +28,10 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 65+ (51.2% de los contactos) · perfil propio del modelo
-- **Género predominante:** Masculino (59.2%)
+- **Edad:** 65+ (51.6% de los contactos) · perfil propio del modelo
+- **Género predominante:** Masculino (58.7%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-19 → 2026-10-17 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-22 → 2026-10-20 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `XPeng G9`
 - **Marca:** [[Comprador XPeng|XPeng]]
 - **Tipo de vehículo:** Eléctrico
@@ -44,8 +44,7 @@ tags:
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 46,2 % de los clics; con el mismo anuncio contactan 0,83× lo que ellos, pero con 2 conjuntos todavía es una tendencia.
-- **Lo que más atrae a los mayores de 55:** *autos eléctricos y ahorro de combustible* (67,3 % contra 59,5 % del modelo).
+- **Meta:** ellas son el 46,1 % de los clics; con el mismo anuncio contactan 0,84× lo que ellos, pero con 2 conjuntos todavía es una tendencia.
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — XPeng]]
 
@@ -56,8 +55,8 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 65+
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** anuncios de Meta que nombran a **XPeng G9** (1,080 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 59.2%
-- **Distribución de edad (Meta):** 65+: 51.2%, 55-64: 19.4%, 35-44: 11.6%, 45-54: 11.3%, 25-34: 6.4%, 18-24: 0.2%
+- **Fuente edad/género:** anuncios de Meta que nombran a **XPeng G9** (1,058 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 58.7%
+- **Distribución de edad (Meta):** 65+: 51.6%, 55-64: 19.4%, 35-44: 11.1%, 45-54: 11.1%, 25-34: 6.7%, 18-24: 0.2%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
@@ -78,7 +77,7 @@ _Qué es: los temas que aparecen en los anuncios que este público ve y clickea.
 - **NSE estimado:** C+ (medio-alto)
 - **Señales que se usaron:**
   - ticket promedio USD 56,990 (gama alta)
-  - 23.5% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 21.5% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -128,8 +127,8 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Oferta:** la planilla de acciones comerciales cargada es de septiembre y ya venció (último dato: descuento hasta USD 4,000). No usar el descuento en el copy hasta cargar la de este mes.
 > **Formato:** En formularios, el video y la imagen (gráfica) no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — XPeng]].
 > **Públicos hoy:** 60.0% de los adsets activos van a público frío; 2 de 5 adsets usan base propia (2 lookalike).
-> **Presupuesto sugerido:** ~USD 737/mes (hoy ~USD 737/mes según su peso en anuncios) → ~235 leads/mes al CPL actual de la marca (USD 3.13).
-> _Base del cálculo: 100.0% de las ventas de la marca sobre USD 737/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Presupuesto sugerido:** ~USD 702/mes (hoy ~USD 702/mes según su peso en anuncios) → ~231 leads/mes al CPL actual de la marca (USD 3.03).
+> _Base del cálculo: 100.0% de las ventas de la marca sobre USD 702/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -137,7 +136,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — XPeng (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 706
+> **Total de leads de la marca en la ventana:** 695
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
 
 
@@ -160,7 +159,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-17 06:44*
+*Generado el 2026-10-20 06:43*
 
 ## 🔗 Contenido Relacionado
 

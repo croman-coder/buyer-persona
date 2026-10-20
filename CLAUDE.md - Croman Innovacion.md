@@ -55,8 +55,9 @@ Renault (monopolio PY) · Mitsubishi (⚠️ competencia con Nipon) · GWM · Je
 | **PDI Plainilla** | `~/Escritorio/PDI PLAINILLA/` | Next.js 14 + Supabase + Tailwind | En producción (v2.36) | Dashboard de pre-entrega de vehículos. 217 tests. Roles: admin, operador, lector |
 | **CARBID (Renew Subastas)** | `~/Escritorio/CARBID/` | Next.js 14 + Firebase | En desarrollo | Plataforma de subastas de usados. renewsubastas.com.py |
 | **CARBID iOS** | `~/Escritorio/carbid-ios/` | Capacitor | Dormido | Wrapper iOS de Renew Subastas |
-| **Dashboard Fernando (Advisor)** | `~/Escritorio/DASHBOARD FERNANDO/Santa-Rosa-Advisor/` | Next.js 16 + ECharts + SQLite + Claude API | En producción | **advisor.santarosa.lat** (Coolify, app `advisor-fernando`, nixpacks) · repo de Fernando `fercorrea777/Santa-Rosa-Advisor`, rama `master` (lo desplegado es `origin/master`; el 9 oct 2026 el checkout local iba 2 commits de docs por delante). Inteligencia comercial sobre mercado automotor PY (CADAM/DNRA). 12 secciones. El Copiloto (`/copiloto`: Claude Opus 4.8 con una herramienta que consulta la base) recibió una clave válida el 9 oct 2026: su `ANTHROPIC_API_KEY` era un valor de 22 caracteres que la API rechazaba con 401, y se cargó la misma clave que usa Santa Rosa Ads (si algún día se rota, hay que cambiarla en Coolify en Ads, Meta, Bitrix y Advisor) |
+| **Dashboard Fernando (Advisor)** | `~/Escritorio/DASHBOARD FERNANDO/Santa-Rosa-Advisor/` | Next.js 16 + ECharts + SQLite + Claude API | En producción | **advisor.santarosa.lat** (Coolify, app `advisor-fernando`, nixpacks) · repo de Fernando `fercorrea777/Santa-Rosa-Advisor`, rama `master` (lo desplegado es `origin/master`; el 9 oct 2026 el checkout local iba 2 commits de docs por delante). Inteligencia comercial sobre mercado automotor PY (CADAM/DNRA). 12 secciones. Desde el 20 oct 2026: acceso con el **globito** (mascota animada; correo @santarosa.com.py + clave, sin OTP), menú con perfil, búsqueda Ctrl K y plegado, **foto de perfil** y `/mi-cuenta` (la foto vive en Postgres, tabla `usuario_fotos`), favicon con el monograma de Santa Rosa, y números es-PY (decimales con coma). Sistema visual en `DESIGN.md` del repo. El Copiloto (`/copiloto`: Claude Opus 4.8 con una herramienta que consulta la base) recibió una clave válida el 9 oct 2026: su `ANTHROPIC_API_KEY` era un valor de 22 caracteres que la API rechazaba con 401, y se cargó la misma clave que usa Santa Rosa Ads (si algún día se rota, hay que cambiarla en Coolify en Ads, Meta, Bitrix, Advisor y **Callbot**, y en `~/.config/monitoreo/monitoreo.env` del servidor para el analista del monitor, que se la pierde si no: queda pausado con `HTTP 401`) |
 | **Gestión de Compras** | `~/Escritorio/GESTION COMPRAS/` | Next.js 15 + Drizzle + PostgreSQL + Coolify | En producción | **compras.santarosa.lat** (Coolify, app `c3alcmmxxaciv6w6xk67m9m3`, nixpacks, despliega `master`; redeploy manual con `queue_application_deployment` por tinker, ver `docs/deploy-coolify-cloudflare.md`). Solicitudes → presupuestos → aprobación → orden → depósito → factura, con firma digital y escaneo de códigos. Desde el 13 oct 2026: rediseño + app instalable y **licitaciones con sobre cerrado** (`/licitaciones`; cada proveedor cotiza por línea en `/oferta/<token>`, sin cuenta). ⚠️ **No usar `drizzle-kit push` contra producción**: las restricciones de prod tienen nombres de Postgres (`_key`/`_fkey`) distintos a los de Drizzle y el push las recrearía. Los cambios de esquema van a mano (`CREATE`/`ALTER` en una transacción) con backup antes en `~/backup-compras/`. Pedido de licitaciones y reunión con Mario: `~/Escritorio/LICITACION SRPY/PEDIDO.md` |
+| **Selección SRPY (TTHH)** | `~/Escritorio/SELECCION SRPY/` | Next.js 15 + Drizzle + PostgreSQL (`srpy-postgres`) + Coolify | En producción | **talento.santarosa.lat** (Coolify, app `seleccion-srpy`, nixpacks, rama `main`). Base de talentos de Talento Humano: el formulario «Trabajá con nosotros» de santarosa.com.py (`/trabaja-con-nosotros`, en el repo de la web) manda datos y CV a esta app; TTHH los busca (también dentro del CV), filtra y exporta a Excel desde un panel con login (roles `admin` y `tthh`). Pedido de Claudia Galeano (Gerente de TTHH, 16 oct 2026); Bitrix descartado. Fase 1 en producción desde el 16 oct 2026. **Desde el 20 oct 2026 con el diseño de la Agencia IA** (marco con barra lateral curva y cápsula de destinos, tarjetas de resumen por estado, una tarjeta por candidato) y el **Recorrido** de cada candidato (línea de tiempo con qué pasó, quién y cuándo, armada con lo que ya se registra; también quién abrió o bajó su CV, para admin y TTHH). La Fase 2 (los procesos: pedido de personal, publicación del aviso, pruebas y referencias, oferta, examen médico, contrato, inducción, con Bandeja, Avisos y Reportería) y la 3 (reportes) esperan la reunión con Claudia; cada proceso nuevo lleva su propio diseño y plan. ⚠️ **Autodeploy por sondeo de `main` cada 3 min** (`~/seleccion-autodeploy/check.sh` en el servidor): sin tests y sin migraciones, así que **la migración va primero, a mano** (nunca `drizzle-kit push`). Respaldo diario 02:30 con alerta por ntfy si se atrasa más de 26 h; falta activar la copia externa (`respaldo-externo.sh` del servidor, que ya copia `~/backups`). Pendientes: SMTP de TTHH, texto legal del consentimiento (hoy borrador) y la regla del teléfono con Claudia. Estado: nota `seleccion-srpy` en Obsidian; guías en `docs/` del repo |
 | **Sarpy CRM** | `~/Escritorio/CRM SRPY/botika` | Node + Supabase self-hosted + Coolify | En producción | CRM interno de Santa Rosa (leads, chat, inventario, reportes). **crm.santarosa.lat** · API crm-db.santarosa.lat · repo croman-coder/crm-santarosa · DEPLOY.md. El proyecto de Vercel `sarpy-crm` se borró el 29 sep 2026 (sin dominio, todos sus deploys fallaban): **solo Coolify** |
 | **Botika (bot WhatsApp, otro fork)** | `~/Escritorio/Agente Bot/botika` | Vercel + Supabase + LLM | En producción | Fork aparte del CRM; dueño de wa-gateway-botika en Coolify. No confundir con Sarpy CRM |
 | **Calidad NPS** | `~/Escritorio/CALIDAD NPS/` | Node + Google Apps Script + YCloud | En producción | Encuestas NPS por WhatsApp API |
@@ -101,7 +102,7 @@ Renault (monopolio PY) · Mitsubishi (⚠️ competencia con Nipon) · GWM · Je
 | **Agentes IA** | `~/Escritorio/AGENTES IA/` | Backend de agentes IA + agency-agents (144+ personalidades) |
 | **Hermes Agente (registro)** | `~/Escritorio/HERMES AGENTE/` | Escanea `~/Escritorio` diario (7:00), publica estado de cada proyecto en el vault. 10 tareas, 88 tests, mergeado a `master`. No confundir con el install real de Hermes en `~/.hermes/hermes-agent/` |
 | **Agencia SRPY** | `~/Escritorio/AGENCIA SRPY/` | Bot Python + servidor YCloud |
-| **Monitoreo SRPY** | `~/Escritorio/MONITOREO SRPY/` | Monitor de seguridad y salud del servidor: Wazuh + Beszel + Trivy + Netdata, cerebro Python (gemma → Opus por OpenRouter), Obsidian `Seguridad/`, portal monitoreo.santarosa.lat (Cloudflare Access; mapa reagraph + métricas en vivo). Repo privado `croman-coder/monitoreo-srpy`, rama `main`. Spec y plan en `docs/superpowers/`; operación en `docs/operacion.md` |
+| **Monitoreo SRPY** | `~/Escritorio/MONITOREO SRPY/` | Monitor de seguridad y salud del servidor: Wazuh + Beszel + Trivy + Netdata, cerebro Python (gemma → Claude Haiku por la API de Anthropic), Obsidian `Seguridad/`, portal monitoreo.santarosa.lat (Cloudflare Access; mapa reagraph + métricas en vivo). Repo privado `croman-coder/monitoreo-srpy`, rama `main`. Spec y plan en `docs/superpowers/`; operación en `docs/operacion.md` |
 
 ### 🔧 Tools y Utilidades
 
@@ -116,10 +117,6 @@ Renault (monopolio PY) · Mitsubishi (⚠️ competencia con Nipon) · GWM · Je
 
 | Proyecto | Descripción |
 |----------|-------------|
-| **Croman Pilates** | Landing El Estudio Pilates (Next.js + Vercel) |
-| **Croman Publik** | SaaS inmobiliario para REMAX 360 PY |
-| **Croman CRM** | Fork de Huly Platform (self-hosting pendiente) |
-| **Croman Aura** | Agente WhatsApp "aura" (Next.js + SQLite + OpenAI) |
 | **RRHH Licencias** | Digitalización de permisos RRHH (fase diseño) |
 | **Press Omar** | Deck interactivo de productos SRPY |
 
@@ -176,6 +173,7 @@ Sheet maestro: [Control_Proyectos_IA](https://docs.google.com/spreadsheets/d/1sC
 - ✅ Ycloud Masivo (MKT + Postventa NPS)
 - ✅ Sitios web por marca (bajo demanda)
 - ✅ Gestión de Compras (compras.santarosa.lat; licitaciones con sobre cerrado desde el 13/10/2026, reglas finales pendientes de la reunión con Mario)
+- ✅ Selección SRPY, Fase 1 (talento.santarosa.lat; base de talentos de TTHH, publicada el 16/10/2026; Fases 2 y 3 esperan la reunión con Claudia)
 
 ### Sin iniciar
 - ⬜ Landing BOLT
@@ -200,6 +198,7 @@ Sheet maestro: [Control_Proyectos_IA](https://docs.google.com/spreadsheets/d/1sC
 - **Javier / Bruno** — Marketing (Ycloud Masivo)
 - **Sebastian Ricci** — Aprobó PDI (presentación 14/07)
 - **Mario** — Compras; define las reglas de las licitaciones (las 10 preguntas de `PEDIDO.md`)
+- **Claudia Galeano** — Gerente de Talento Humano; pidió la base de talentos (Selección SRPY) y define las etapas y los perfiles en la reunión de la semana del 19/10/2026
 
 ---
 
@@ -287,4 +286,4 @@ Sitios Web ───┬─→ Bitrix24 (webhook leads → CRM)
 ```
 
 ---
-*Última actualización: 16 octubre 2026*
+*Última actualización: 20 octubre 2026*

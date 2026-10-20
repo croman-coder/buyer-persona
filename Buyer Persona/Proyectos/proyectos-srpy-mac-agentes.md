@@ -1,6 +1,6 @@
 ---
 estado: dormido
-firma: e2304736a415a8880e3504132035e526758ea17db0551232f717f8b396674bd5
+firma: 7df3ca0d6b28ebe158f880345d0e9e1b35d5512918b053dd9b08639c514bcf8b
 git_rama: main
 git_remoto: https://github.com/msitarzewski/agency-agents
 git_sin_subir: 4

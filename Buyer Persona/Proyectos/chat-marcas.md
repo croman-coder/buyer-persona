@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 3266e13aa2ea60532ff2233053fcbdc1ae439ed5711f1b17d96cce7efe8f0bc7
+firma: 938d3817b484a6c40d6f501c1dac3103c23972e3cc2eb12a757ba6d2392c6289
 git_rama: main
 git_remoto: https://github.com/croman-coder/chat-marcas.git
 git_sin_subir: 1

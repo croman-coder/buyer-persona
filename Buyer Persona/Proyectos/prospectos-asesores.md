@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 3b61a1a4256896f92b35250c12ccd57fabdbfd61ca7c40b411f98477bc36e254
+firma: ef91e9b23d2ade3b2504aab52e9350e4b7191d2221ceba8621af04afe03af9a0
 git_rama: master
 git_remoto: https://github.com/croman-coder/prospectos-asesores.git
 git_sin_subir: 0

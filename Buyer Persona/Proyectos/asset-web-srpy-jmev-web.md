@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 26dc6665486ba936f1b2121237760a68bb83cddeb0674595bb6358cf6080dd0f
+firma: 28dee86aca2532f2ef45b11d655b28a380994699c68703706387f8418c6da884
 git_rama: main
 git_remoto: https://github.com/croman-coder/jmev-paraguay.git
 git_sin_subir: 0

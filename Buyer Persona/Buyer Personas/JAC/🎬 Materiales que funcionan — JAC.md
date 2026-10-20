@@ -1,8 +1,8 @@
 ---
 type: materiales-meta
 marca: JAC
-periodo: 2026-05-01 a 2026-10-17
-created: 2026-10-17
+periodo: 2026-05-01 a 2026-10-20
+created: 2026-10-20
 tags:
   - meta-ads
   - materiales
@@ -12,16 +12,16 @@ tags:
 # 🎬 Materiales que funcionan — JAC
 
 > [!info] De dónde sale
-> Todos los anuncios de Meta de JAC de **may a oct (al 17) (6 meses, del 2026-05-01 al 2026-10-17)**: 210 anuncios con gasto en 5 cuentas (la de la marca y las de los asesores), USD 13.084 de inversión. Se lee anuncio por anuncio de la API de Meta (formato, duración y tamaño de cada pieza, ubicación y resultados) y se cruza con las ventas del ERP. Se actualiza en cada corrida: **no editar a mano**.
+> Todos los anuncios de Meta de JAC de **may a oct (al 20) (6 meses, del 2026-05-01 al 2026-10-20)**: 217 anuncios con gasto en 5 cuentas (la de la marca y las de los asesores), USD 13.260 de inversión. Se lee anuncio por anuncio de la API de Meta (formato, duración y tamaño de cada pieza, ubicación y resultados) y se cruza con las ventas del ERP. Se actualiza en cada corrida: **no editar a mano**.
 
 ## ✅ Qué dice el historial
 
 > [!success] Para la próxima pauta de formularios: **video**, que trajo el lead más barato en campañas comparables y se repitió mes a mes. En el mismo conjunto, sumar la imagen (gráfica) para seguir comparando.
 
-- **Formularios — formato:** **El video** trae el lead más barato: 31 % menos que la imagen (gráfica) en campañas comparables (marca · volumen: USD 1,88 contra USD 3,04; asesores · volumen: USD 1,31 contra USD 1,36; marca · calidad: USD 1,30 contra USD 1,92; base: 6.147 leads). Se repite: ganó en 3 de 5 meses.
-- **Formularios — Reels, Stories o Feed:** cuesta parecido en las tres (Reels USD 1,97 · Feed USD 2,00 · Stories USD 2,15).
-- **Formularios — duración del video:** Los videos de 16 a 30 s y los videos de 31 a 60 s cuestan parecido en campañas comparables (marca · volumen: USD 1,56 y USD 2,44; asesores · volumen: USD 2,39 y USD 1,01; marca · calidad: USD 0,73 y USD 2,28 por lead): menos de 15 % de diferencia no alcanza para elegir.
-- **Formularios — imágenes con o sin versión vertical:** Las imágenes con versión vertical (9:16) y las imágenes sin versión vertical cuestan parecido en campañas comparables (marca · volumen: USD 2,90 y USD 3,60; marca · calidad: USD 1,99 y USD 1,22; asesores · volumen: USD 0,79 y USD 1,67 por lead): menos de 15 % de diferencia no alcanza para elegir.
+- **Formularios — formato:** **El video** trae el lead más barato: 31 % menos que la imagen (gráfica) en campañas comparables (marca · volumen: USD 1,89 contra USD 3,03; asesores · volumen: USD 1,30 contra USD 1,37; marca · calidad: USD 1,31 contra USD 1,92; base: 6.246 leads). Se repite: ganó en 3 de 5 meses.
+- **Formularios — Reels, Stories o Feed:** cuesta parecido en las tres (Reels USD 1,96 · Feed USD 1,99 · Stories USD 2,15).
+- **Formularios — duración del video:** Los videos de 16 a 30 s y los videos de 31 a 60 s cuestan parecido en campañas comparables (marca · volumen: USD 1,57 y USD 2,44; asesores · volumen: USD 2,39 y USD 0,99; marca · calidad: USD 0,73 y USD 2,19 por lead): menos de 15 % de diferencia no alcanza para elegir.
+- **Formularios — imágenes con o sin versión vertical:** Las imágenes con versión vertical (9:16) y las imágenes sin versión vertical cuestan parecido en campañas comparables (marca · volumen: USD 2,90 y USD 3,59; marca · calidad: USD 1,98 y USD 1,24; asesores · volumen: USD 0,81 y USD 1,67 por lead): menos de 15 % de diferencia no alcanza para elegir.
 - **Ventas:** 1 venta cruzada con leads de formulario de los últimos 90 días: pocas para decir qué formato vende más.
 - **Formularios — tendencia:** en sep, el video costó USD 1,82 por lead en la cuenta de la marca (formularios de volumen), 40 % menos que su promedio de los meses anteriores (USD 3,04).
 
@@ -30,7 +30,7 @@ tags:
 
 ## 📝 Formularios
 
-USD 12.849 de inversión, 6.340 leads, **USD 2,03 por lead** en promedio.
+USD 13.025 de inversión, 6.445 leads, **USD 2,02 por lead** en promedio.
 
 ### ¿Imagen, video o carrusel?
 
@@ -38,17 +38,17 @@ USD 12.849 de inversión, 6.340 leads, **USD 2,03 por lead** en promedio.
 
 | | Marca · volumen | Asesores · volumen | Marca · calidad | Asesores · calidad |
 |---|---|---|---|---|
-| **Imagen (gráfica)** | USD 3,04 (1.959) | USD 1,36 (490) | USD 1,92 (616) | USD 2,07 (166) |
-| **Video** | USD 1,88 (1.200) | USD 1,31 (870) | USD 1,30 (546) | USD 1,24 (300) |
-| **Carrusel** | — | USD 1,21 (193) | — | — |
+| **Imagen (gráfica)** | USD 3,03 (1.972) | USD 1,37 (493) | USD 1,92 (619) | USD 2,07 (166) |
+| **Video** | USD 1,89 (1.237) | USD 1,30 (888) | USD 1,31 (571) | USD 1,24 (300) |
+| **Carrusel** | — | USD 1,19 (199) | — | — |
 
 **Totales por formato** (mezclan contextos: sirven para ver volumen, CTR, retención y ventas).
 
 |  | Anuncios | Inversión | % inversión | Leads | Costo por lead | CTR | Leads cada 100 clics | Lo miran 3 s | Lo ven completo | Ventas (cruce ERP) | Ventas cada 100 leads |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| **Imagen (gráfica)** | 129 | USD 8.143 | 63 % | 3.231 | **USD 2,52** | 0,81 % | 12,6 | — | — | 0 | 0,0 % |
-| **Video** | 67 | USD 4.472 | 35 % | 2.916 | **USD 1,53** | 1,33 % | 13,2 | 21,6 % | 19,1 % | 0 | 0,0 % |
-| **Carrusel** | 7 | USD 234 | 2 % | 193 | **USD 1,21** | 2,15 % | 8,2 | — | — | 1 | 0,6 % |
+| **Imagen (gráfica)** | 136 | USD 8.184 | 63 % | 3.250 | **USD 2,52** | 0,81 % | 12,6 | — | — | 0 | 0,0 % |
+| **Video** | 67 | USD 4.603 | 35 % | 2.996 | **USD 1,54** | 1,33 % | 13,2 | 21,6 % | 19,3 % | 0 | 0,0 % |
+| **Carrusel** | 7 | USD 238 | 2 % | 199 | **USD 1,19** | 2,13 % | 8,4 | — | — | 1 | 0,6 % |
 
 ### ¿Reels, Stories o Feed?
 
@@ -56,21 +56,21 @@ Cada anuncio sale en todas las ubicaciones a la vez, así que acá se comparan l
 
 |  | Anuncios | Inversión | % inversión | Leads | Costo por lead | CTR | Leads cada 100 clics |
 |---|---|---|---|---|---|---|---|
-| **Feed** | 200 | USD 5.441 | 42 % | 2.721 | **USD 2,00** | 1,01 % | 14,0 |
-| **Reels** | 200 | USD 3.937 | 31 % | 2.002 | **USD 1,97** | 0,82 % | 14,8 |
-| **Stories** | 196 | USD 3.094 | 24 % | 1.441 | **USD 2,15** | 1,31 % | 10,6 |
-| **Banner sobre Reels y videos** | 132 | USD 240 | 2 % | 109 | **USD 2,20** | 1,54 % | 4,1 |
-| **Marketplace y búsqueda** | 41 | USD 122 | 1 % | 63 | **USD 1,94** | 0,44 % | 8,3 |
-| **Audience Network (otras apps)** _(poca muestra)_ | 4 | USD 1,91 | 0 % | 0 | — | 4,05 % | 0,0 |
+| **Feed** | 208 | USD 5.491 | 42 % | 2.757 | **USD 1,99** | 1,02 % | 14,0 |
+| **Reels** | 207 | USD 4.011 | 31 % | 2.050 | **USD 1,96** | 0,82 % | 14,8 |
+| **Stories** | 203 | USD 3.142 | 24 % | 1.461 | **USD 2,15** | 1,32 % | 10,5 |
+| **Banner sobre Reels y videos** | 135 | USD 242 | 2 % | 110 | **USD 2,20** | 1,54 % | 4,1 |
+| **Marketplace y búsqueda** | 41 | USD 122 | 1 % | 63 | **USD 1,94** | 0,45 % | 8,2 |
+| **Audience Network (otras apps)** _(poca muestra)_ | 5 | USD 1,92 | 0 % | 0 | — | 4,03 % | 0,0 |
 | **Otras** _(poca muestra)_ | 23 | USD 14,07 | 0 % | 3 | **USD 4,69** | 3,84 % | 2,9 |
 
 **Costo por lead de cada formato en cada ubicación** (solo combinaciones con 20 leads o más):
 
 | Formato | Feed | Reels | Stories |
 |---|---|---|---|
-| Imagen (gráfica) | USD 2,50 | USD 2,66 | USD 2,42 |
-| Video | USD 1,39 | USD 1,53 | USD 1,77 |
-| Carrusel | USD 1,05 | USD 1,67 | USD 1,55 |
+| Imagen (gráfica) | USD 2,49 | USD 2,66 | USD 2,43 |
+| Video | USD 1,40 | USD 1,53 | USD 1,78 |
+| Carrusel | USD 1,03 | USD 1,68 | USD 1,56 |
 
 ### Videos: ¿cortos o largos?
 
@@ -78,18 +78,18 @@ Cada anuncio sale en todas las ubicaciones a la vez, así que acá se comparan l
 
 | | Marca · volumen | Asesores · volumen | Marca · calidad | Asesores · calidad |
 |---|---|---|---|---|
-| **Hasta 15 s** | USD 1,69 (268) | USD 1,49 (67) | USD 2,43 (111) | — |
-| **16 a 30 s** | USD 1,56 (539) | USD 2,39 (201) | USD 0,73 (356) | — |
-| **31 a 60 s** | USD 2,44 (393) | USD 1,01 (492) | USD 2,28 (79) | USD 1,24 (300) |
+| **Hasta 15 s** | USD 1,73 (292) | USD 1,49 (67) | USD 2,43 (119) | — |
+| **16 a 30 s** | USD 1,57 (552) | USD 2,39 (201) | USD 0,73 (366) | — |
+| **31 a 60 s** | USD 2,44 (393) | USD 0,99 (510) | USD 2,19 (86) | USD 1,24 (300) |
 | **Más de 60 s** | — | USD 0,58 (110) | — | — |
 
 **Totales:**
 
 |  | Anuncios | Inversión | % inversión | Leads | Costo por lead | CTR | Leads cada 100 clics | Lo miran 3 s | Lo ven completo | Ventas (cruce ERP) | Ventas cada 100 leads |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| **Hasta 15 s** | 20 | USD 822 | 18 % | 446 | **USD 1,84** | 1,19 % | 12,2 | 17,4 % | 34,4 % | 0 | 0,0 % |
-| **16 a 30 s** | 12 | USD 1.580 | 35 % | 1.096 | **USD 1,44** | 1,43 % | 12,6 | 24,8 % | 19,7 % | 0 | 0,0 % |
-| **31 a 60 s** | 31 | USD 2.006 | 45 % | 1.264 | **USD 1,59** | 1,22 % | 14,2 | 20,4 % | 13,4 % | 0 | 0,0 % |
+| **Hasta 15 s** | 20 | USD 893 | 19 % | 478 | **USD 1,87** | 1,19 % | 11,9 | 17,4 % | 34,3 % | 0 | 0,0 % |
+| **16 a 30 s** | 12 | USD 1.619 | 35 % | 1.119 | **USD 1,45** | 1,43 % | 12,6 | 24,9 % | 19,7 % | 0 | 0,0 % |
+| **31 a 60 s** | 31 | USD 2.026 | 44 % | 1.289 | **USD 1,57** | 1,23 % | 14,3 | 20,5 % | 13,5 % | 0 | 0,0 % |
 | **Más de 60 s** | 4 | USD 63,76 | 1 % | 110 | **USD 0,58** | 3,78 % | 13,0 | 32,4 % | 10,6 % | 0 | 0,0 % |
 
 ### ¿Con versión vertical (9:16)?
@@ -98,9 +98,9 @@ La versión vertical es la que llena la pantalla en Reels y Stories. Se compara 
 
 | | Marca · volumen | Asesores · volumen | Marca · calidad | Asesores · calidad |
 |---|---|---|---|---|
-| **Imagen (gráfica), con versión vertical** | USD 2,90 (1.621) | USD 0,79 (172) | USD 1,99 (564) | USD 2,08 (110) |
-| **Imagen (gráfica), sin versión vertical** | USD 3,60 (338) | USD 1,67 (318) | USD 1,22 (52) | USD 2,05 (56) |
-| **Video, con versión vertical** | USD 1,88 (1.200) | USD 1,18 (754) | USD 1,30 (546) | USD 1,24 (300) |
+| **Imagen (gráfica), con versión vertical** | USD 2,90 (1.631) | USD 0,81 (172) | USD 1,98 (567) | USD 2,08 (110) |
+| **Imagen (gráfica), sin versión vertical** | USD 3,59 (341) | USD 1,67 (321) | USD 1,24 (52) | USD 2,05 (56) |
+| **Video, con versión vertical** | USD 1,89 (1.237) | USD 1,17 (772) | USD 1,31 (571) | USD 1,24 (300) |
 | **Video, sin versión vertical** | — | USD 2,15 (116) | — | — |
 
 ### Mes a mes
@@ -114,7 +114,7 @@ Costo por lead de cada formato (entre paréntesis, cuántos leads). Mezcla conte
 | jul | USD 2,70 (725) | USD 2,18 (230) | USD 1,41 (7) | USD 2,56 (962) |
 | ago | USD 2,20 (741) | USD 1,32 (648) | USD 1,04 (4) | USD 1,78 (1.393) |
 | sep | USD 1,96 (458) | USD 1,39 (981) | USD 0,75 (96) | USD 1,52 (1.535) |
-| oct (al 17) | USD 1,74 (112) | USD 1,37 (601) | USD 1,57 (69) | USD 1,44 (782) |
+| oct (al 20) | USD 1,81 (131) | USD 1,40 (681) | USD 1,50 (75) | USD 1,47 (887) |
 
 ### 🏆 Los anuncios que mejor rindieron
 
@@ -122,11 +122,11 @@ Cada anuncio contra el promedio de su contexto (al menos USD 30,00 y 10 leads).
 
 | Anuncio | Formato | Dónde | Meses | Inversión | Leads | Costo por lead | Contra su contexto | CTR | Ventas |
 |---|---|---|---|---|---|---|---|---|---|
-| VID E30X / AGO 2026 | Video, 16 a 30 s, con vertical | Marca · volumen | ago–oct | USD 70,91 | 148 | USD 0,48 | −82 % | 2,16 % | 0 |
-| VID E30X / AGO 2026 | Video, 16 a 30 s, con vertical | Marca · calidad | ago–oct | USD 141 | 281 | USD 0,50 | −69 % | 2,08 % | 0 |
+| VID E30X / AGO 2026 | Video, 16 a 30 s, con vertical | Marca · volumen | ago–oct | USD 73,93 | 153 | USD 0,48 | −81 % | 2,14 % | 0 |
+| VID E30X / AGO 2026 | Video, 16 a 30 s, con vertical | Marca · calidad | ago–oct | USD 144 | 289 | USD 0,50 | −69 % | 2,08 % | 0 |
 | RF8 SET 26 | Video, más de 60 s, con vertical | Asesores · volumen | sep–oct | USD 63,62 | 110 | USD 0,58 | −56 % | 3,78 % | 0 |
 | T9 GRAFI CRISTINA | Video, 31 a 60 s, con vertical | Asesores · calidad | may–sep | USD 139 | 192 | USD 0,72 | −53 % | 1,68 % | — |
-| LD250 / Flyer 0 intereses | Imagen (gráfica), con vertical | Asesores · volumen | ago–sep | USD 56,97 | 88 | USD 0,65 | −51 % | 1,38 % | 0 |
+| LD250 / Flyer 0 intereses | Imagen (gráfica), con vertical | Asesores · volumen | ago–sep | USD 56,97 | 88 | USD 0,65 | −50 % | 1,38 % | 0 |
 
 ### 💸 Los que más gastaron para lo que trajeron
 
@@ -134,9 +134,9 @@ Costo por lead del doble o más que el promedio de su contexto, o sin leads.
 
 | Anuncio | Formato | Dónde | Meses | Inversión | Leads | Costo por lead | Contra su contexto | CTR | Ventas |
 |---|---|---|---|---|---|---|---|---|---|
-| LE79P | Imagen (gráfica) | Marca · volumen | may–jul | USD 431 | 65 | USD 6,62 | +155 % | 0,92 % | — |
-| LD760_sin_miedo_al_exito_grafica_19/05 | Imagen (gráfica), con vertical | Marca · volumen | may–jul | USD 296 | 43 | USD 6,89 | +165 % | 1,17 % | — |
-| JS4 GRAFICA 28/04 | Imagen (gráfica), con vertical | Marca · calidad | jun–ago | USD 117 | 35 | USD 3,34 | +105 % | 1,01 % | 0 |
+| LE79P | Imagen (gráfica) | Marca · volumen | may–jul | USD 431 | 65 | USD 6,62 | +156 % | 0,92 % | — |
+| LD760_sin_miedo_al_exito_grafica_19/05 | Imagen (gráfica), con vertical | Marca · volumen | may–jul | USD 296 | 43 | USD 6,89 | +166 % | 1,17 % | — |
+| JS4 GRAFICA 28/04 | Imagen (gráfica), con vertical | Marca · calidad | jun–ago | USD 117 | 35 | USD 3,34 | +106 % | 1,01 % | 0 |
 | LE79P_corto_jamas_grafica_19/03 | Imagen (gráfica), con vertical | Marca · volumen | may–jul | USD 108 | 16 | USD 6,74 | +160 % | 0,67 % | — |
 | T9 REEL 1 | Video, 31 a 60 s, con vertical | Marca · calidad | may–sep | USD 56,87 | 17 | USD 3,35 | +106 % | 1,40 % | 0 |
 

@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 81046241c6b65d9af2851314e0332f6d3c8bcb588dd8f56d10cc43a5e7cd28b8
+firma: 8803f0dc25bc1c8851138eb61aecca9b1a7f121ed23c29acba32f5e2d3019db7
 git_rama: main
 git_remoto: https://github.com/croman-coder/soueastweb.git
 git_sin_subir: 0
