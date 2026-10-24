@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: fa68f112a8c9bfbea9fae097d86c92add4194211f171c69398a185dec03d17c9
+firma: d9c26076ea2f44783dcd31755803ca4334f09dc17e459f2e313299d6684567c3
 git_rama: main
 git_remoto: https://github.com/croman-coder/leapmotor.git
 git_sin_subir: 0

@@ -19,10 +19,10 @@ tags: [marketing, google-ads]
 | 3 | Cotizá tu S08 | 13 |
 | 4 | Concesionario Oficial Soueast | 29 |
 | 5 | Agendá tu Test Drive | 20 |
-| 6 | Eficiencia en Cada Kilómetro | 28 |
-| 7 | Financiación a tu Medida | 24 |
+| 6 | Espacio para Toda la Familia | 28 |
+| 7 | Eficiencia en Cada Kilómetro | 28 |
 | 8 | Respaldo de Posventa Oficial | 28 |
-| 9 | Espacio para Toda la Familia | 28 |
+| 9 | Tecnología y Conectividad | 25 |
 | 10 | S08 0km | 7 |
 | 11 | Versiones y Equipamiento | 24 |
 | 12 | Hablá con un Asesor | 19 |
@@ -32,8 +32,8 @@ tags: [marketing, google-ads]
 | # | Descripción | Caract. |
 |---|---|---|
 | 1 | Soueast S08: cotizá y agendá tu test drive en el concesionario oficial. | 71 |
-| 2 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
-| 3 | Consultá planes de financiación y formas de pago con un asesor. | 63 |
+| 2 | Espacio y comodidad para viajar con toda la familia. Vení a conocerlo. | 70 |
+| 3 | Consultá consumo, autonomía y costo de mantenimiento con un asesor. | 67 |
 | 4 | Service oficial y repuestos originales, con el respaldo de la marca. | 68 |
 
 **URL visible:** `…/S08/Cotizar` (cada tramo, máx. 15 caracteres)

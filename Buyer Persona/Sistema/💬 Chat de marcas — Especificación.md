@@ -20,7 +20,7 @@ tags: [sistema, chat-marcas, jac, embeddings, especificacion]
 | Modelo que redacta | `gemma4-hermes` del servidor, **el mismo que ya tiene cargado el bot** (no suma memoria a la placa) |
 | Marca piloto | JAC |
 | Panel | Central, `chat.santarosa.lat/admin`, con el **login de los dashboards** (rol por marca) |
-| Precios | **No da precios**: pide nombre, teléfono y sucursal y crea el prospecto |
+| Precios | Desde el 22/10/2026 da **solo el precio de lista (PVP)** de cada versión, de la lista del mes (nunca el precio con descuento); descuentos, cuotas, financiación y stock siguen yendo al asesor con el formulario. Antes: no daba precios |
 | Enfoque | Servicio nuevo en Coolify, independiente de Botika |
 
 ## Cómo funciona
@@ -87,3 +87,31 @@ El chat de marcas quedó **abierto al público** en `jac.com.py` el 13/10/2026 (
 - **Panel:** `https://chat.santarosa.lat/admin` (mismo usuario que los dashboards). Desde ahí se apaga el chat al instante (Inicio → «Apagado») o se vuelve a «Solo pruebas».
 - **Monitor:** «Chat de marcas» en el tablero de estado, con aviso por Telegram.
 - **Pendiente:** revisar y cerrar como prueba el prospecto #118417 en Bitrix, y la **medición de dos semanas** (hacia el 27/10/2026): conversaciones, % que termina en prospecto, preguntas sin respuesta, tiempos y efecto sobre el bot de WhatsApp. Con eso se decide la segunda marca.
+
+## Precio de lista (PVP) en el chat (2026-10-22)
+
+Pedido de Choco por WhatsApp con el Excel «ACCIONES COMERCIALES OCTUBRE»: que el chat responda el precio, **solo el PVP, no el precio con descuento**.
+
+- **Qué contesta:** «¿cuánto sale el JS4?», «precio de la T8 y la T9» o «¿cuánto sale?» en la página de un modelo → el PVP de cada versión en USD, «vigente hasta el 31/10/2026», y el formulario para el asesor. Respuesta fija armada por el código: el modelo de IA sigue sin dar precios.
+- **Qué sigue igual:** descuentos, promociones, cuotas, financiación, stock, service, seguro o carga → asesor, sin montos. Un modelo que no está en la lista (E-JS1, JS8, camiones D8, X501Q, G15EA) → asesor.
+- **Seguridad del dato:** el script `herramientas/precios/excel_a_json.py` del repo lee **solo** MARCA, MODELO y PVP; costo, margen, descuento, precio con descuento y bono del vendedor nunca se leen ni se guardan. Quedan 27 versiones de JAC, 9 de Soueast y 6 de Zeekr en `datos/<marca>/precios.json`.
+- **Vencimiento:** la lista vale del 1 al 31 de octubre (hora de Paraguay). **Vencida, el chat vuelve a derivar el precio al asesor** hasta que se cargue la nueva. El panel (Inicio → Precios) avisa 5 días antes.
+- **Cada mes:** pedir a Choco el Excel nuevo y correr, en el repo `CHAT MARCAS`: `uv run --with openpyxl python -I herramientas/precios/excel_a_json.py "<excel>" --desde AAAA-MM-01 --hasta AAAA-MM-DD`, después probar, hacer commit y desplegar. Si aparece un modelo nuevo o con otro nombre, el script lo frena y hay que agregarlo a `herramientas/precios/mapa.json`.
+- **Para confirmar con Choco:** «S08 ICE» (se muestra como «S08 a combustión (ICE)», 24.990) y «S07 Lite 1.5 6DCT» (22.990) no tienen ficha propia; aparecen junto a la S08 PHEV y la S07.
+- Verificado en producción el 22/10 (conversaciones de prueba ya verificadas, después borradas): T9, E30X + LE420, S09, S06 PHEV y 7X con sus PVP; «descuento del JS4», «E-JS1» y «cargar el 001» → asesor.
+
+## Panel con la UI del CRM y Usuarios (2026-10-22)
+
+- `chat.santarosa.lat` tiene la piel de **Sarpy CRM v2** (lienzo verde agua, tarjetas blancas, pastillas negras, cápsula de secciones, riel con las marcas, menú de usuario, tema claro/oscuro).
+- **Usuarios** (solo super admin): las mismas cuentas de los dashboards. Altas con invitación por correo, rol Marca/Gerente/Super admin, marcas, baja y reactivación. Usa la API de usuarios del Dashboard Meta: lo que se cambia vale en todos los dashboards. Borrar una cuenta para siempre, solo desde el Dashboard Meta.
+- **Mi cuenta** y **«¿Olvidaste tu contraseña?»**: mandan el enlace de los dashboards para elegir contraseña.
+- El precio en el chat sale en una frase normal y con un botón chico «Que me contacte un asesor» (el formulario se abre al tocarlo), para que la charla fluya.
+- (22/10, tarde) El chat **sigue la conversación**: «y el s07?» después de preguntar precios da el precio del S07; «¿y la S09?» después de «¿qué potencia tiene el S07?» da la potencia de la S09. Respuestas **breves** (dos o tres frases, hasta 60 palabras). El panel lleva el **logo de Santa Rosa** y su azul (#1F1F6D) en vez del negro.
+
+## Conocimiento: documentos y preguntas frecuentes (2026-10-22)
+
+- En el panel, **Conocimiento → «Subir documento»**: PDF con texto, Excel (.xlsx) o CSV, hasta 10 MB. El chat lo lee, queda **pendiente**, se revisa (se puede corregir el texto con «Editar») y recién **aprobado** el chat lo usa. Mismo control que las fichas del vault.
+- **No subir planillas con costos, márgenes, descuentos ni precios**: se rechazan solas. Los precios de lista van aparte (solo PVP).
+- **«Nueva pregunta»**: pregunta y respuesta escritas por el equipo (se puede guardar ya aprobada).
+- En **Conversaciones**, cuando el chat no supo responder, **«Crear respuesta»** arma la pregunta frecuente con lo que preguntó el cliente.
+- Pendiente (etapa 2): imágenes y PDF escaneados.

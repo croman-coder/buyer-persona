@@ -1,11 +1,11 @@
 ---
 estado: activo
-firma: 2c624814492a6996d274953410852454a95f07b6726c92d5160ec0d6ecaa138f
+firma: 8ca1df1ec6e147b1e6dd926459e7a0d0925df7899aec1fc4e9a7604747147344
 git_rama: main
 git_remoto: git@github-croman:croman-coder/seleccion-srpy.git
 git_sin_subir: 0
-git_ultimo_commit: '2026-10-17 a666a0c feat(postular): store the consent version the
-  web says it showed'
+git_ultimo_commit: '2026-10-23 35f9d91 docs(fase-2): execution log with every ruling
+  and deferred finding of delivery 1'
 hijos: []
 nombre: SELECCION SRPY
 resumen: null
@@ -16,7 +16,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-10-17'
+ultima_actividad: '2026-10-24'
 ---
 
 <!-- hermes:inicio -->
@@ -25,10 +25,10 @@ ultima_actividad: '2026-10-17'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-17 |
+| Última actividad | 2026-10-24 |
 | Stack | git, node |
 | Rama | main |
-| Último commit | 2026-10-17 a666a0c feat(postular): store the consent version the web says it showed |
+| Último commit | 2026-10-23 35f9d91 docs(fase-2): execution log with every ruling and deferred finding of delivery 1 |
 | Sin subir | 0 |
 | Ruta | `/home/croman/Escritorio/SELECCION SRPY` |
 <!-- hermes:fin -->
@@ -43,7 +43,7 @@ Claudia), **Fase 1 base de talentos (hecha)**, Fase 2 seguimiento del proceso de
 
 **Estado al 17/10/2026:** Fase 1 en producción y la web ya publica el formulario. 980 pruebas en 53 archivos, `tsc` y eslint limpios;
 `smoke.mjs` 12/12 y recorrido real en Chrome contra producción (`qa-e2e.mjs`), y la web con 93 comprobaciones en navegador
-(`qa-trabaja.mjs`, en la rama sin publicar).
+(`qa-trabaja.mjs`; publicada el 21/10/2026).
 
 **Estado al 20/10/2026 — rediseño y trazabilidad (MERGEADO a `main` el 20/10 por orden de Choco, `6de51f7`; publicado por el autodeploy):** Choco pidió «mejorar mucho más» y la trazabilidad del proceso, con el
 diseño de la Agencia IA. Rama `diseno-agencia-ia` de `seleccion-srpy` (spec y plan en `docs/superpowers/{specs,plans}/2026-10-19-seleccion-diseno-agencia-ia*`).
@@ -94,7 +94,7 @@ de Talento Humano se crean desde «Usuarios» con el rol `tthh`.
 | Activar la copia externa: `respaldo-externo.sh` del servidor (restic cifrado a R2/B2) ya copia todo `~/backups`, incluidos estos volcados; falta el bucket y `~/.config/restic/env` | Choco / TI |
 | ¿Mismo teléfono con otro nombre es la misma persona? (hoy se exige parecido) | Claudia |
 | Cambiar la clave de `croman@` y resetear o desactivar «Administrador»; pasar los secretos al gestor de claves | Choco |
-| Publicar los arreglos de la web (rama `fix/deudas-trabaja`, un deploy de Netlify = 15 créditos): manda la versión del consentimiento y guarda el último catálogo | Choco |
+| ~~Publicar los arreglos de la web~~ **Hecho el 21/10/2026** (`5557fe3`): manda la versión del consentimiento y guarda el último catálogo | — |
 
 ## 17/10/2026 — deudas menores cerradas
 

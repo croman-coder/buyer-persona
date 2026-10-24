@@ -1,6 +1,6 @@
 ---
 estado: dormido
-firma: 84202caa2b31e0e9a24a3b0972753e8cf69dc6c7110eccae24ae5bdeae1baccd
+firma: aeb37182fbcd5e7086a87ee417626177d4d74db7f77bed63fb3bc22f0394d352
 git_rama: main
 git_remoto: https://github.com/croman-coder/press-omar.git
 git_sin_subir: 1

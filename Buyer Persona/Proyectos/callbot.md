@@ -1,11 +1,11 @@
 ---
 estado: activo
-firma: 066eb7065465cc25108f7d0ecfe01f77d36a85992bfe9119584fbb7d60ece56d
+firma: 4112c4d77a2241602124e0f672ede2d2564bcc187061f43f14d36a9ebe71219f
 git_rama: main
 git_remoto: git@github-croman:croman-coder/callbots.git
 git_sin_subir: 0
-git_ultimo_commit: '2026-09-29 2f20bf4 chore: make test-api repetible y dejar el acceso
-  desde el CRM como puesto en produccion'
+git_ultimo_commit: '2026-10-24 f863fad fix(voz): respuestas de una palabra, interrupción
+  robusta y acuses sin repetir'
 hijos: []
 nombre: CALLBOT
 resumen: Proyecto en /home/croman/Escritorio/CALLBOT. Sin info de lenguaje en README.
@@ -16,7 +16,7 @@ stack:
 - docker
 - git
 tipo: proyecto
-ultima_actividad: '2026-09-29'
+ultima_actividad: '2026-10-24'
 ---
 
 <!-- hermes:inicio -->
@@ -25,10 +25,10 @@ ultima_actividad: '2026-09-29'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-09-29 |
+| Última actividad | 2026-10-24 |
 | Stack | docker, git |
 | Rama | main |
-| Último commit | 2026-09-29 2f20bf4 chore: make test-api repetible y dejar el acceso desde el CRM como puesto en produccion |
+| Último commit | 2026-10-24 f863fad fix(voz): respuestas de una palabra, interrupción robusta y acuses sin repetir |
 | Sin subir | 0 |
 | Ruta | `/home/croman/Escritorio/CALLBOT` |
 <!-- hermes:fin -->

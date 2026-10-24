@@ -15,15 +15,15 @@ tags: [marketing, meta-ads]
 - **Edad:** 35-44
 - **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
 - **Zonas:** Asunción
-- **Temas que atraen** (para el creativo, no para segmentar): Tecnología y conectividad, Diseño y estatus, Garantía y respaldo posventa, Autos eléctricos y ahorro de combustible, Probar antes de comprar (test drive)
+- **Temas que atraen** (para el creativo, no para segmentar): Tecnología y conectividad, Garantía y respaldo posventa, Diseño y estatus, Autos eléctricos y ahorro de combustible, Probar antes de comprar (test drive)
 
 ## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)
 **Opción 1** · 224 caracteres
 ```
 🚗 Soueast S06
 ✅ Tecnología y conectividad para el día a día, según la versión.
-✅ Un diseño que se nota en cada detalle.
 ✅ Posventa oficial: service y repuestos originales de la marca.
+✅ Un diseño que se nota en cada detalle.
 
 Coordiná tu test drive sin compromiso 👇
 ```

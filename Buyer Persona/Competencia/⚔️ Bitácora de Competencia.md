@@ -17,6 +17,8 @@ Relacionado: [[⚔️ Benchmark Competitivo]] · [[⚔️ Battle Cards Modelo vs
 
 ## 2026-10
 
+- **23/10 21:12** · Hyundai Paraguay (competencia) — ya no lista: Hyundai Ioniq
+
 - **19/10 20:20** · Mitsubishi Paraguay (propio) — modelo nuevo en la web: Mitsubishi Destinator
 - **19/10 20:21** · Hyundai Paraguay (competencia) — modelo nuevo en la web: Hyundai Ioniq
 

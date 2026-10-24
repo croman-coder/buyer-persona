@@ -1,7 +1,7 @@
 ---
 tipo: evaluacion
 tema: REA (Reverse Engineer Anything) aplicado a proyectos Santa Rosa
-actualizado: 2026-10-16
+actualizado: 2026-10-21
 tags: [rea, competencia, seguridad, monitoreo, bitrix, herramientas]
 ---
 
@@ -10,8 +10,27 @@ tags: [rea, competencia, seguridad, monitoreo, bitrix, herramientas]
 REA (`morluto/rea`, MIT) es un servidor MCP + CLI que inspecciona sitios, apps, binarios y bases SQLite **sin código fuente**. Instalado el 15/10/2026 en la notebook:
 
 - MCP registrado en Claude Code a nivel usuario (`~/.claude.json`, backup en `~/.claude.json.rea.backup`) + skill `reverse-engineer-anything`.
-- CLI global `rea` 6.5.0 (`npm install -g rea-agents@6.5.0`). Actualizar: `rea update`.
+- CLI global `rea` **6.7.0** desde el 21/10/2026 (`npm install -g rea-agents@6.7.0 --allow-scripts=frida`; sin ese flag Frida queda sin binario nativo). El MCP ya no usa `npx`: lanza el `rea` global.
 - Clon del repo y resultados crudos: `~/Escritorio/CROMAN/REA/` (`rea/` y `pruebas/`).
+
+### Motores instalados (21/10/2026)
+
+Todo en `~/Escritorio/REA/engines/`, sin sudo. Variables en `~/Escritorio/REA/rea.env` (cargado desde `~/.bashrc`) y copiadas al `env` del MCP en `~/.claude.json`, porque la app de escritorio no lee `.bashrc`. Probado con un binario propio: los dos decompiladores encontraron el `strcmp` y la clave.
+
+| Motor | Versión | Para qué |
+|---|---|---|
+| Ghidra (predeterminado, `REA_ANALYSIS_PROVIDER=ghidra`) | 12.1.4 + JDK 21 | Pseudocódigo, xrefs y llamadas de binarios nativos |
+| Kuna | 1.833 (la verificada por REA) | Segundo decompilador; se pide con `--provider kuna` |
+| JADX headless MCP | 0.7.1 | APK: clases y métodos decompilados |
+| Apktool | 3.0.3 | APK: manifiesto y recursos |
+| adb (platform-tools) | 37.0.1 | Dispositivos Android |
+| Rizin | 0.9.1 | Comandos sobre binarios y depuración |
+| pwntools / pyelftools / Unicorn | 4.15.0 / 0.33 / 2.1.2 | Layout ELF y crashes grabados |
+| WABT | 1.0.42 | WebAssembly |
+| Binwalk / Unblob | 3.1.0 / 26.6.4 | Firmware |
+| mitmproxy, frida-tools | 12.2.3, 17.24.3 | Capturas web y Frida por CLI |
+
+Pendiente con sudo: `~/Escritorio/REA/instalar-con-sudo.sh` (TShark + sigrok-cli). Sin instalar por ser pagos: Hopper, IDA, JEB. Claude Desktop (pestaña chat) quedó con el registro viejo: hay que cerrar la app y correr `rea setup --client claude_desktop`.
 
 > ⚠️ Lo que sale de sitios de competencia es **solo para uso interno** (ley PY de publicidad comparativa). REA no autoriza copiar código de terceros.
 

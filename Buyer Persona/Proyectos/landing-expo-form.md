@@ -1,6 +1,6 @@
 ---
-estado: activo
-firma: 6f9428da6fead7ece294cb62ab8c723d06ef76f2add3dd169107edfa59a29ebe
+estado: dormido
+firma: aa635d465241c75c2eca45ea724d43a30370ce0f4383df8ea2af4a498532b7c7
 git_rama: tecnom-jetour-gwm
 git_remoto: https://github.com/croman-coder/landing-expo-mra.git
 git_sin_subir: 3
@@ -25,7 +25,7 @@ ultima_actividad: '2026-09-20'
 
 | Campo | Valor |
 | --- | --- |
-| Estado | activo |
+| Estado | dormido |
 | Última actividad | 2026-09-20 |
 | Stack | git, node, web |
 | Rama | tecnom-jetour-gwm |

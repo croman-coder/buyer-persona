@@ -1,6 +1,6 @@
 ---
-estado: activo
-firma: ef91e9b23d2ade3b2504aab52e9350e4b7191d2221ceba8621af04afe03af9a0
+estado: dormido
+firma: 52d67b78a86f75baa0e0eabda4e55b78076c5206c251fccf1144137286fbf629
 git_rama: master
 git_remoto: https://github.com/croman-coder/prospectos-asesores.git
 git_sin_subir: 0
@@ -26,7 +26,7 @@ ultima_actividad: '2026-09-21'
 
 | Campo | Valor |
 | --- | --- |
-| Estado | activo |
+| Estado | dormido |
 | Última actividad | 2026-09-21 |
 | Stack | docker, git, node |
 | Rama | master |

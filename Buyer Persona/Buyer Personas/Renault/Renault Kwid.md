@@ -8,7 +8,7 @@ locations:
 - Asunción
 - Ciudad del Este
 - San Lorenzo
-created: '2026-10-20'
+created: '2026-10-24'
 tags:
 - buyer-persona
 - marketing
@@ -22,7 +22,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-22 → 2026-10-20 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-26 → 2026-10-24 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -33,7 +33,7 @@ tags:
 - **Edad:** 25-34 (30.6% de los contactos) · perfil propio del modelo
 - **Género predominante:** Masculino (79.0%)
 - **Ubicación:** Asunción, Ciudad del Este, San Lorenzo
-- **Período leído:** Meta 2026-07-22 → 2026-10-20 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-26 → 2026-10-24 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Renault Kwid`
 - **Marca:** [[Comprador Renault|Renault]]
 - **Tipo de vehículo:** Hatchback
@@ -82,8 +82,8 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **NSE estimado:** C- / D (medio-bajo)
 - **Señales que se usaron:**
   - ticket promedio USD 8,608 (entrada)
-  - 91% pide financiación en el formulario (66 respuestas)
-  - 20.9% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 91% pide financiación en el formulario (64 respuestas)
+  - 21.2% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción, Ciudad del Este, San Lorenzo
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -140,9 +140,9 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Canales:** Prioriza Showroom.
 > **Oferta:** la planilla de acciones comerciales cargada es de septiembre y ya venció (último dato: descuento hasta USD 200). No usar el descuento en el copy hasta cargar la de este mes.
 > **Formato:** En formularios, el video y la imagen (gráfica) no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — Renault]].
-> **Públicos hoy:** 94.2% de los adsets activos van a público frío; 6 de 103 adsets usan base propia (5 lookalike).
-> **Presupuesto sugerido:** ~USD 756/mes (hoy ~USD 454/mes según su peso en anuncios) → ~153 leads/mes al CPL actual de la marca (USD 4.92).
-> _Base del cálculo: 29.0% de las ventas de la marca sobre USD 2,607/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Públicos hoy:** 94.4% de los adsets activos van a público frío; 6 de 107 adsets usan base propia (5 lookalike).
+> **Presupuesto sugerido:** ~USD 749/mes (hoy ~USD 449/mes según su peso en anuncios) → ~160 leads/mes al CPL actual de la marca (USD 4.67).
+> _Base del cálculo: 29.0% de las ventas de la marca sobre USD 2,583/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -150,18 +150,18 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Renault (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 1,590
+> **Total de leads de la marca en la ventana:** 1,661
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
-> **Modelos más pedidos (toda la marca):** Pago 1 (178), Koleos (166), Boreal (57)
-> **Método de pago preferido:** financiación_propia (47), financiación_bancaria (13), pago_contado (6)
-> **Ciudad:** Asunción (266), Ciudad del Este (98), San Lorenzo (48)
-> **Interés de compra:** en_los_próximos_3_meses (390), este_mes (311), 3_meses (38)
+> **Modelos más pedidos (toda la marca):** Pago 1 (208), Koleos (166), Boreal (54)
+> **Método de pago preferido:** financiación_propia (46), financiación_bancaria (12), pago_contado (6)
+> **Ciudad:** Asunción (277), Ciudad del Este (99), San Lorenzo (49)
+> **Interés de compra:** en_los_próximos_3_meses (408), este_mes (315), 3_meses (36)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Renault (90 días)
 
-> **Leads:** 2,249 → **convertidos:** 7 (0.3%)
-> **Por canal:** Meta madre 1,609, Meta asesores 631, Otros canales 9
+> **Leads:** 2,237 → **convertidos:** 8 (0.4%)
+> **Por canal:** Meta madre 1,687, Meta asesores 540, Otros canales 10
 > **Deals:** 0 — ganados 0, perdidos 0, en proceso 0 (win rate 0.0%)
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
@@ -173,7 +173,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Competencia directa (±25% de precio):**
 > - SUZUKI CELERIO GL+ — USD 10,990 (+0%) · Chacomer
 > - FIAT MOBI Like 1.0 Flex — USD 10,990 (+0%) · Grupo Garden
-> - HYUNDAI NEW GRAND I10 HATCHBACK Mecánico 1.0 — USD 11,300 (+3%) · Automotor
+> - HYUNDAI NEW GRAND I10 HATCHBACK Mecánico 1.0 — USD 11,500 (+5%) · Automotor
 > - KIA NEW PICANTO LX MT — USD 11,500 (+5%) · Grupo Garden
 > **Solapa con modelos propios:** JMEV EV2 (+9%)
 > Detalle completo: [[💰 Precios Mercado 0km (Datacar)]]. _No usar en copies públicos._
@@ -181,7 +181,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!info] 📦 Stock, oferta y objetivos — uso interno
 
-> **Stock al 18-09:** 22 unidades (21 disponibles, 0 en viaje, 10 con propuesta) · 53 días promedio en stock.
+> **Stock al 18-09:** 22 unidades (21 disponibles, 0 en viaje, 10 con propuesta) · 57 días promedio en stock.
 > **Precio de lista (2026-09, planilla vencida):** USD 10,490 en 1 versión(es) · descuento hasta USD 200 (vencido) · ritmo 7.8 unidades/mes.
 > **Negociaciones abiertas del modelo:** 1 (2026-09 semana 1).
 > **Objetivo de la marca (según el ERP):** mes 10/2026: 0 de 35 (0.0%) · acumulado 2026: 152 de 230 (66.1%) · anual 300 unidades. Ventas cargadas hasta 2026-09-11: lo vendido después de esa fecha todavía no cuenta acá.
@@ -199,7 +199,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-20 06:43*
+*Generado el 2026-10-24 06:47*
 
 ## 🔗 Contenido Relacionado
 

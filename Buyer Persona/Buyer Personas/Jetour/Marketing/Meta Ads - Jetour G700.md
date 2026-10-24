@@ -15,7 +15,7 @@ tags: [marketing, meta-ads]
 - **Edad:** 65+
 - **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
 - **Zonas:** Asunción
-- **Temas que atraen** (para el creativo, no para segmentar): Garantía y respaldo posventa, Autos eléctricos y ahorro de combustible, Financiación en cuotas, Probar antes de comprar (test drive), Tecnología y conectividad
+- **Temas que atraen** (para el creativo, no para segmentar): Garantía y respaldo posventa, Autos eléctricos y ahorro de combustible, Probar antes de comprar (test drive), Financiación en cuotas, Tecnología y conectividad
 
 ## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)
 **Opción 1** · 244 caracteres

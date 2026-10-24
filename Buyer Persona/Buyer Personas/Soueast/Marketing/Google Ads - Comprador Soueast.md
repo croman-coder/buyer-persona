@@ -18,10 +18,10 @@ tags: [marketing, google-ads]
 | 3 | Soueast 0km | 11 |
 | 4 | Conocé la Gama Soueast | 22 |
 | 5 | Agendá tu Test Drive | 20 |
-| 6 | Financiación a tu Medida | 24 |
-| 7 | Tecnología y Conectividad | 25 |
+| 6 | Tecnología y Conectividad | 25 |
+| 7 | Respaldo de Posventa Oficial | 28 |
 | 8 | Diseño que se Nota | 18 |
-| 9 | Respaldo de Posventa Oficial | 28 |
+| 9 | Financiación a tu Medida | 24 |
 | 10 | Soueast S06 | 11 |
 | 11 | Soueast S08 | 11 |
 | 12 | Soueast S09 | 11 |
@@ -32,8 +32,8 @@ tags: [marketing, google-ads]
 | # | Descripción | Caract. |
 |---|---|---|
 | 1 | Conocé la gama Soueast en el concesionario oficial. Pedí tu cotización hoy. | 75 |
-| 2 | Consultá planes de financiación y formas de pago con un asesor. | 63 |
-| 3 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
+| 2 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
+| 3 | Service oficial y repuestos originales, con el respaldo de la marca. | 68 |
 | 4 | Un diseño que se nota en cada detalle. Vení a conocerlo en persona. | 67 |
 
 **URL visible:** `…/Soueast/Modelos` (cada tramo, máx. 15 caracteres)

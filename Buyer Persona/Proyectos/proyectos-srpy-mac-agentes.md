@@ -1,6 +1,6 @@
 ---
-estado: dormido
-firma: 7df3ca0d6b28ebe158f880345d0e9e1b35d5512918b053dd9b08639c514bcf8b
+estado: archivado
+firma: 19b55e47b57add43fe82c194e409a2b14854ed27efccf18d320042a48f28d7db
 git_rama: main
 git_remoto: https://github.com/msitarzewski/agency-agents
 git_sin_subir: 4
@@ -23,7 +23,7 @@ ultima_actividad: '2026-04-22'
 
 | Campo | Valor |
 | --- | --- |
-| Estado | dormido |
+| Estado | archivado |
 | Última actividad | 2026-04-22 |
 | Stack | git |
 | Rama | main |

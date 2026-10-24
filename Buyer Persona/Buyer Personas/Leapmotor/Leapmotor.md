@@ -1,7 +1,7 @@
 ---
 type: moc-marca
 marca: Leapmotor
-created: 2026-10-20
+created: 2026-10-24
 tags:
   - moc
   - marca/leapmotor
@@ -9,35 +9,35 @@ tags:
 
 # 🚗 Leapmotor
 
-> Generado el **2026-10-20 06:43** · 4 modelos con persona propia.
+> Generado el **2026-10-24 06:47** · 4 modelos con persona propia.
 
 ## 👤 Comprador de la marca
 
 - [[Comprador Leapmotor]]
-- **Inversión Meta:** ~USD 963/mes · CPL USD 2.31 · 1,251 leads en la ventana
-- **Públicos:** 90.5% de 42 adsets activos a público frío
+- **Inversión Meta:** ~USD 961/mes · CPL USD 2.26 · 1,274 leads en la ventana
+- **Públicos:** 95.0% de 40 adsets activos a público frío
 
 ## 👥 Quién mira y quién decide
 
-- En Meta, ellas son el 25,6 % de los clics pero, viendo el mismo anuncio, contactan 0,88× lo que ellos (menos en 7 de 8 conjuntos): **ella investiga y él da el paso**.
+- En Meta, ellas son el 24,9 % de los clics pero, viendo el mismo anuncio, contactan 0,87× lo que ellos (menos en 7 de 8 conjuntos): **ella investiga y él da el paso**.
 - **Qué hacer en Meta Ads y cómo leerlo:** [[👥 Quién mira y quién decide — Leapmotor]]
 
 ## 🎬 Materiales que mejor funcionan
 
 - Para la próxima pauta de formularios: **imagen (gráfica)**, que trajo el lead más barato en campañas comparables y se repitió mes a mes. En el mismo conjunto, sumar el video para seguir comparando.
-- **Formularios — formato:** **La imagen (gráfica)** trae el lead más barato: 18 % menos que el video en campañas comparables (marca · volumen: USD 2,14 contra USD 2,61; base: 2.076 leads). Se repite: ganó en 4 de 5 meses.
-- **Formularios — Reels, Stories o Feed:** el lead más barato sale en **Feed** (USD 2,04); después Reels USD 2,28 · Stories USD 2,70. Son las mismas piezas en distintas ubicaciones: tener la versión para la que rinde.
-- **Formularios — duración del video:** Los videos de 16 a 30 s y los videos de 31 a 60 s cuestan parecido en campañas comparables (marca · volumen: USD 2,62 y USD 2,67; asesores · volumen: USD 1,56 y USD 2,16 por lead): menos de 15 % de diferencia no alcanza para elegir.
+- **Formularios — formato:** **La imagen (gráfica)** trae el lead más barato: 18 % menos que el video en campañas comparables (marca · volumen: USD 2,10 contra USD 2,55; base: 2.158 leads). Se repite: ganó en 4 de 5 meses.
+- **Formularios — Reels, Stories o Feed:** el lead más barato sale en **Feed** (USD 2,02); después Reels USD 2,26 · Stories USD 2,66. Son las mismas piezas en distintas ubicaciones: tener la versión para la que rinde.
+- **Formularios — duración del video:** Los videos de 16 a 30 s y los videos de 31 a 60 s cuestan parecido en campañas comparables (marca · volumen: USD 2,62 y USD 2,63; asesores · volumen: USD 1,56 y USD 2,16 por lead): menos de 15 % de diferencia no alcanza para elegir.
 - **Formato, ubicación, duración, mes a mes y mejores anuncios:** [[🎬 Materiales que funcionan — Leapmotor]]
 
 ## 🚘 Modelos
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Leapmotor C10]] | 45-54 | Masculino 76.2% | modelo | 9 | 93 | ⚖️ equilibrado | USD 510 |
-| [[Leapmotor T03]] | 35-44 | Masculino 82.5% | modelo | 4 | 63 | ⚖️ equilibrado | USD 226 |
-| [[Leapmotor C16]] | 35-44 | Masculino 79.2% | marca | 4 | 18 | 🟢 sub-pautado | USD 226 |
-| [[Leapmotor C11]] | 35-44 | Masculino 79.2% | marca | 8 | 43 | 🔴 sobre-pautado | — |
+| [[Leapmotor C10]] | 45-54 | Masculino 77.3% | modelo | 9 | 93 | ⚖️ equilibrado | USD 508 |
+| [[Leapmotor T03]] | 35-44 | Masculino 82.7% | modelo | 4 | 63 | ⚖️ equilibrado | USD 226 |
+| [[Leapmotor C16]] | 35-44 | Masculino 79.9% | marca | 4 | 18 | 🟢 sub-pautado | USD 226 |
+| [[Leapmotor C11]] | 35-44 | Masculino 79.9% | marca | 8 | 43 | 🔴 sobre-pautado | — |
 
 _Demo = de dónde sale edad/género: **modelo** (anuncios propios del modelo) o **marca** (heredado, pocos clics propios). Brecha: 🟢 sub-pautado = vende más de lo que se pauta, 🔴 sobre-pautado, 🆕 lanzamiento sin ventas en el ERP aún._
 

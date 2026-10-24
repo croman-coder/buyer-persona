@@ -9,10 +9,10 @@ _11 públicos únicos encontrados en las cuentas de XPeng. Reusalos para remarke
 
 | Audiencia | Tipo | Tamaño aprox. |
 |---|---|---|
-| [IG][@xpengparaguay][Seguidores][120D] | Interacción Instagram | 11,300 |
-| [IG][@xpengparaguay][Interactuaron con Publicación o Anuncio][120D] | Interacción Instagram | 9,500 |
-| [IG][@xpengparaguay][Visitó Perfil][120D] | Interacción Instagram | 6,700 |
-| [FB][Xpeng Paraguay][Todos los que Interactuaron][120D] | Interacción (IG/FB/anuncios) | 3,000 |
+| [IG][@xpengparaguay][Seguidores][120D] | Interacción Instagram | 9,900 |
+| [IG][@xpengparaguay][Interactuaron con Publicación o Anuncio][120D] | Interacción Instagram | 8,100 |
+| [IG][@xpengparaguay][Visitó Perfil][120D] | Interacción Instagram | 6,100 |
+| [FB][Xpeng Paraguay][Todos los que Interactuaron][120D] | Interacción (IG/FB/anuncios) | 2,700 |
 | Publico_Xpeng_Meta.csv | Personalizada | 2,300 |
 | MetaAds_Xpeng.csv | Personalizada | 2,300 |
 | [DB][Lista de Clientes] | Personalizada | 1,000 |

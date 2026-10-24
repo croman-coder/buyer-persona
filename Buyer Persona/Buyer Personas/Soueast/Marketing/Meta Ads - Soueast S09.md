@@ -15,25 +15,21 @@ tags: [marketing, meta-ads]
 - **Edad:** 35-44
 - **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
 - **Zonas:** Asunción
-- **Temas que atraen** (para el creativo, no para segmentar): Garantía y respaldo posventa, Seguridad y asistencias a la conducción, Diseño y estatus, Tecnología y conectividad, Financiación en cuotas
+- **Temas que atraen** (para el creativo, no para segmentar): Garantía y respaldo posventa, Diseño y estatus, Tecnología y conectividad, Familia y espacio, Probar antes de comprar (test drive)
 
 ## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)
-**Opción 1** · 220 caracteres
+**Opción 1** · 224 caracteres
 ```
 🚗 Soueast S09
 ✅ Posventa oficial: service y repuestos originales de la marca.
-✅ Seguridad y asistencias a la conducción, según la versión.
 ✅ Un diseño que se nota en cada detalle.
+✅ Tecnología y conectividad para el día a día, según la versión.
 
 Coordiná tu test drive sin compromiso 👇
 ```
 **Opción 2** · 101 caracteres
 ```
 Soueast S09 te espera en el concesionario oficial. Probalo antes de decidir: coordiná tu test drive 👇
-```
-**Opción 3** · 136 caracteres
-```
-Planes de financiación y formas de pago a tu medida. Escribinos y te pasamos las opciones 👇 Financiación sujeta a aprobación crediticia.
 ```
 
 ## Títulos (hasta 5 · máx. 40 caracteres)

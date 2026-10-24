@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 61743cc128a47e0745b209d1ebe12237ac346bfc32c4f21c6ee1819ff112d261
+firma: 57305409549a0fbdcec855b1a9aeadefe6f9c57d665100b983ad3d77a34fa619
 git_rama: feat/loop-ofertas-subastas-plan-a
 git_remoto: https://github.com/croman-coder/renewweb.git
 git_sin_subir: 5
@@ -20,7 +20,7 @@ stack:
 - node
 - web
 tipo: proyecto
-ultima_actividad: '2026-10-15'
+ultima_actividad: '2026-10-22'
 ---
 
 <!-- hermes:inicio -->
@@ -29,7 +29,7 @@ ultima_actividad: '2026-10-15'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-15 |
+| Última actividad | 2026-10-22 |
 | Stack | git, node, web |
 | Rama | feat/loop-ofertas-subastas-plan-a |
 | Último commit | 2026-08-11 2849484 fix: 3 arreglos de la revision final de la rama (restos Tarea 4, trim VENDIDO, dedupe imagenes) |

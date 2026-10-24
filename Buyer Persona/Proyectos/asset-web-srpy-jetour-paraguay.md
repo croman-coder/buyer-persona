@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 2911375bdd4416e842b64118f2e7e54e2fc54df134c27a042efa4eda0b65807f
+firma: 1e6213e6558217110dbc818bd9c369dc8c5cb3296546dbb13dc56736516d7127
 git_rama: main
 git_remoto: https://github.com/croman-coder/jetour-paraguay.git
 git_sin_subir: 0

@@ -6,7 +6,7 @@ age_range: 35-44
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-20'
+created: '2026-10-24'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-22 → 2026-10-20 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-26 → 2026-10-24 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -28,15 +28,15 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 35-44 (33.2% de los contactos) · heredado de la marca
+- **Edad:** 35-44 (33.0% de los contactos) · heredado de la marca
 - **Género predominante:** Masculino (78.1%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-22 → 2026-10-20 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-26 → 2026-10-24 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `GWM Tank 500`
 - **Marca:** [[Comprador GWM|GWM]]
 - **Tipo de vehículo:** SUV
 - **Ventas reales (ERP):** 30 unidades desde 2018 · últimos 12 meses: 19 · últimos 90 días: 5
-- **Pauta real (90 días):** 11 anuncios (1 activos)
+- **Pauta real (90 días):** 10 anuncios (1 activos)
 - **Brecha pauta/venta:** equilibrado ⚖️ — 2.2% de las ventas de la marca (12 meses) vs 1.3% de sus anuncios (ERP hasta 2026-09-11)
   _Cómo se decide: **sub-pautado** si el modelo pone ≥5 % de las ventas de la marca y tiene menos de la mitad de anuncios que de ventas (escalar); **sobre-pautado** si pone ≥5 % de los anuncios y vende menos de la mitad de eso (revisar); **equilibrado** si no pasa ninguna de las dos._
 - **Ticket promedio (ERP, facturado):** USD 49,982
@@ -55,16 +55,16 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** audiencia de Meta de la marca **GWM** (6,681 contactos), ponderado por contactos (formularios y chats) — Masculino 78.1%
-- **Distribución de edad (Meta):** 35-44: 33.2%, 25-34: 26.5%, 45-54: 20.2%, 65+: 9.1%, 55-64: 7.4%, 18-24: 3.7%
-- ⚠️ El modelo tiene anuncios propios pero pocos contactos (se midió por 168 clics): Femenino 76.4%, edad 35-44. Se usa el perfil de la marca hasta juntar 30 contactos.
+- **Fuente edad/género:** audiencia de Meta de la marca **GWM** (6,613 contactos), ponderado por contactos (formularios y chats) — Masculino 78.1%
+- **Distribución de edad (Meta):** 35-44: 33.0%, 25-34: 26.6%, 45-54: 20.4%, 65+: 9.2%, 55-64: 7.1%, 18-24: 3.7%
+- ⚠️ El modelo tiene anuncios propios pero pocos contactos (se midió por 194 clics): Masculino 76.7%, edad 55-64. Se usa el perfil de la marca hasta juntar 30 contactos.
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
 
 _Qué es: los temas que aparecen en los anuncios que este público ve y clickea. No son intereses declarados (Meta dejó de exponerlos en 2021): es con qué le estamos hablando y qué responde. El % es la parte de los anuncios que toca cada tema._
 
-**Intereses observados** (11 anuncios reales leídos):
+**Intereses observados** (10 anuncios reales leídos):
 - Familia y espacio · 90.0% de los anuncios
 - Seguridad y asistencias a la conducción · 90.0% de los anuncios
 
@@ -77,8 +77,8 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **NSE estimado:** C+ (medio-alto)
 - **Señales que se usaron:**
   - ticket promedio USD 49,982 (gama alta)
-  - 76% pide financiación en el formulario (527 respuestas)
-  - 30.9% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 76% pide financiación en el formulario (539 respuestas)
+  - 30.8% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -127,9 +127,9 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Canales:** Prioriza Showroom.
 > **Oferta:** la planilla de acciones comerciales cargada es de septiembre y ya venció. No usar el descuento en el copy hasta cargar la de este mes.
 > **Formato:** En formularios, la imagen (gráfica) y el video no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — GWM]].
-> **Públicos hoy:** los 120 adsets activos van a público frío (110 con Advantage+). Sumar retargeting (formulario abierto sin enviar, visitantes web) y la base de compradores del ERP.
-> **Presupuesto sugerido:** ~USD 98/mes (hoy ~USD 58/mes según su peso en anuncios) → ~36 leads/mes al CPL actual de la marca (USD 2.68).
-> _Base del cálculo: 2.2% de las ventas de la marca sobre USD 4,449/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Públicos hoy:** los 118 adsets activos van a público frío (109 con Advantage+). Sumar retargeting (formulario abierto sin enviar, visitantes web) y la base de compradores del ERP.
+> **Presupuesto sugerido:** ~USD 97/mes (hoy ~USD 57/mes según su peso en anuncios) → ~36 leads/mes al CPL actual de la marca (USD 2.66).
+> _Base del cálculo: 2.2% de las ventas de la marca sobre USD 4,408/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -137,20 +137,20 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — GWM (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 4,972
+> **Total de leads de la marca en la ventana:** 4,967
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
 > **Modelos más pedidos (toda la marca):** Jolion (89), Solo Consulta (62), Suv Phev (42)
-> **Método de pago preferido:** financiado (281), contado (129), financiacion (117)
-> **Ciudad:** Asunción (722), Ciudad del Este (298), Luque (141)
-> **Interés de compra:** en_el_mes (41), inmediata (9)
+> **Método de pago preferido:** financiado (280), contado (132), financiacion (127)
+> **Ciudad:** Asunción (725), Ciudad del Este (295), Luque (141)
+> **Interés de compra:** en_el_mes (39), inmediata (15)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — GWM (90 días)
 
-> **Leads:** 4,454 → **convertidos:** 261 (5.9%)
-> **Por canal:** Meta asesores 2,283, Meta madre 1,816, Otros canales 355
-> **Deals:** 564 — ganados 32, perdidos 66, en proceso 466 (win rate 32.7%)
-> **Monto ganado:** USD 928,740 · ticket promedio USD 29,023
+> **Leads:** 4,601 → **convertidos:** 272 (5.9%)
+> **Por canal:** Meta asesores 2,360, Meta madre 1,883, Otros canales 358
+> **Deals:** 612 — ganados 40, perdidos 72, en proceso 500 (win rate 35.7%)
+> **Monto ganado:** USD 1,164,660 · ticket promedio USD 29,116
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
 
@@ -160,9 +160,9 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Precio de lista:** USD 49,990 · segmento E-SUV · tercio más barato
 > **Competencia directa (±25% de precio):**
 > - MAZDA CX-90 CORE — USD 49,990 (+0%) · Grupo Garden
+> - LYNK & CO 09 PRO — USD 51,490 (+3%) · Automotor
 > - BYD ATTO 8 DM-i — USD 51,900 (+4%) · Diesa
 > - BYD TI7 GS — USD 51,900 (+4%) · Diesa
-> - LYNK & CO 09 PRO — USD 53,490 (+7%) · Automotor
 > - DEEPAL G318 Elite — USD 43,900 (-12%) · Gorostiaga
 > - NISSAN PATHFINDER Limited 2WD — USD 56,990 (+14%) · Grupo Garden
 > **Solapa con modelos propios:** JETOUR G700 (+22%)
@@ -171,7 +171,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!info] 📦 Stock, oferta y objetivos — uso interno
 
-> **Stock al 18-09:** 8 unidades (0 disponibles, 8 en viaje, 5 con propuesta) · 98 días promedio en stock.
+> **Stock al 18-09:** 8 unidades (0 disponibles, 8 en viaje, 5 con propuesta) · 102 días promedio en stock.
 > **Precio de lista (2026-09, planilla vencida):** USD 49,990 a 54,990 en 2 versión(es) · ritmo 6.3 unidades/mes.
 > **Acción comercial:** preventa
 > **Objetivo de la marca (según el ERP):** mes 10/2026: 0 de 102 (0.0%) · acumulado 2026: 676 de 804 (84.1%) · anual 1000 unidades. Ventas cargadas hasta 2026-09-11: lo vendido después de esa fecha todavía no cuenta acá.
@@ -189,7 +189,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-20 06:43*
+*Generado el 2026-10-24 06:47*
 
 ## 🔗 Contenido Relacionado
 

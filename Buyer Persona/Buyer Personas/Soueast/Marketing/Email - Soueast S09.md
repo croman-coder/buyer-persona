@@ -23,8 +23,8 @@ Hola {nombre}:
 Gracias por tu interés en Soueast S09. Esto es lo que más nos consultan:
 
 • Posventa oficial: service y repuestos originales de la marca.
-• Seguridad y asistencias a la conducción, según la versión.
 • Un diseño que se nota en cada detalle.
+• Tecnología y conectividad para el día a día, según la versión.
 
 Lo mejor es probarlo: coordiná tu test drive el día y horario que prefieras, sin compromiso.
 

@@ -1,7 +1,7 @@
 ---
 type: anuncio-meta
 cuenta: "Leapmotor"
-estado: "Activo"
+estado: "Con problemas en Meta"
 revisar: "—"
 riesgo_comparativa: 0.03
 oferta: "Sin oferta concreta"
@@ -21,7 +21,10 @@ tags:
 
 # C10_REEV_Reel_Presentacion_USD_30.990_18/07
 
-**Cuenta:** Leapmotor · **Estado:** Activo · **Botón:** Pedir cotización
+> [!danger] Con problemas en Meta
+> Meta frenó este aviso o le encontró un problema. El motivo está en el Administrador de anuncios.
+
+**Cuenta:** Leapmotor · **Estado:** Con problemas en Meta · **Botón:** Pedir cotización
 
 | Qué miró la IA | Resultado |
 |---|---|

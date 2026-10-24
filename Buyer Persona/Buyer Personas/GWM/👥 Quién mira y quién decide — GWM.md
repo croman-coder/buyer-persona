@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: GWM
-periodo_meta: 2026-07-22 a 2026-10-20
-created: 2026-10-20
+periodo_meta: 2026-07-26 a 2026-10-24
+created: 2026-10-24
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,7 +12,7 @@ tags:
 # 👥 Quién mira y quién decide — GWM
 
 > [!summary] En una línea
-> En Meta, ellas son el 30,7 % de los clics y contactan igual que ellos con el mismo anuncio (0,92×). El 35,0 % de las compras a cliente final las factura una empresa. En el 0,0 % de los chats el cliente nombra a otra persona.
+> En Meta, ellas son el 30,6 % de los clics y contactan igual que ellos con el mismo anuncio (0,92×). El 35,0 % de las compras a cliente final las factura una empresa. En el 0,0 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
 > 1. **Una pieza para quien acompaña la decisión** — «Vengan a probarla juntos». Detalle en la sección 5.
@@ -28,26 +28,26 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-22** al **2026-10-20**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-26** al **2026-10-24**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **GWM** | 30,7 % | 22,2 % | **0,92×** | 49 (ellas menos en 32) | Sin diferencia: ellas y ellos contactan igual |
-| [[GWM Haval Jolion|GWM Haval Jolion]] | 21,1 % | 19,0 % | 1,08× | 14 (ellas menos en 6) | Sin diferencia: ellas y ellos contactan igual |
-| [[GWM Haval H6|GWM Haval H6]] | 40,9 % | 26,8 % | 0,80× | 10 (ellas menos en 9) | Ellas miran y el contacto lo deja él |
-| [[GWM Tank 400|GWM Tank 400]] | 25,0 % | 14,3 % | 0,71× | 6 (ellas menos en 5) | Ellas miran y el contacto lo deja él |
-| [[GWM Haval H7|GWM Haval H7]] | 39,4 % | 35,9 % | 1,02× | 9 (ellas menos en 4) | Sin diferencia: ellas y ellos contactan igual |
-| [[GWM Haval H9|GWM Haval H9]] | 38,3 % | 33,4 % | 1,01× | 4 (ellas menos en 2) | Sin diferencia: ellas y ellos contactan igual |
-| [[GWM Poer|GWM Poer]] | 35,5 % | 21,0 % | 0,45× | 4 (ellas menos en 4) | Ellas miran y el contacto lo deja él |
-| [[GWM Ora|GWM Ora]] | 22,1 % | 19,1 % | 0,92× | 4 (ellas menos en 4) | Sin diferencia: ellas y ellos contactan igual |
+| **GWM** | 30,6 % | 22,3 % | **0,92×** | 49 (ellas menos en 32) | Sin diferencia: ellas y ellos contactan igual |
+| [[GWM Haval Jolion|GWM Haval Jolion]] | 21,2 % | 19,2 % | 1,09× | 14 (ellas menos en 4) | Las que miran, contactan más que ellos |
+| [[GWM Haval H6|GWM Haval H6]] | 41,2 % | 26,9 % | 0,81× | 10 (ellas menos en 9) | Ellas miran y el contacto lo deja él |
+| [[GWM Tank 400|GWM Tank 400]] | 25,0 % | 13,5 % | 0,65× | 6 (ellas menos en 6) | Ellas miran y el contacto lo deja él |
+| [[GWM Haval H7|GWM Haval H7]] | 39,5 % | 35,6 % | 0,97× | 8 (ellas menos en 4) | Sin diferencia: ellas y ellos contactan igual |
+| [[GWM Haval H9|GWM Haval H9]] | 37,6 % | 33,4 % | 1,03× | 4 (ellas menos en 2) | Sin diferencia: ellas y ellos contactan igual |
+| [[GWM Poer|GWM Poer]] | 35,1 % | 20,9 % | 0,48× | 4 (ellas menos en 4) | Ellas miran y el contacto lo deja él |
+| [[GWM Ora|GWM Ora]] | 21,4 % | 18,4 % | 0,96× | 4 (ellas menos en 3) | Sin diferencia: ellas y ellos contactan igual |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|---|
-| 11,1 % | 9,9 % | 12,2 % | 11,1 % | 10,3 % | 8,5 % |
+| 11,1 % | 10,0 % | 12,2 % | 11,2 % | 9,9 % | 8,5 % |
 
-Los **mayores de 55** hacen clic pero, con el mismo anuncio, contactan 0,77× lo que los menores de 55: miran mucho y el contacto suele dejarlo alguien más joven (o no lo deja). Pieza sugerida: invitarlos a probarla con quien los acompaña.
+Los **mayores de 55** hacen clic pero, con el mismo anuncio, contactan 0,75× lo que los menores de 55: miran mucho y el contacto suele dejarlo alguien más joven (o no lo deja). Pieza sugerida: invitarlos a probarla con quien los acompaña.
 
 ## 2. ¿Qué le interesa a cada uno?
 
@@ -57,31 +57,28 @@ Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema su
 
 | Modelo | Tema del anuncio | Mujeres en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| GWM Haval H9 | Probar antes de comprar (test drive) | 51,5 % | +17,3 | 4.923 (9) |
-| GWM Poer | Diseño y estatus | 42,9 % | +12,7 | 2.846 (13) |
-| GWM Tank 400 | Probar antes de comprar (test drive) | 34,6 % | +11,9 | 7.742 (13) |
-| GWM Haval H7 | Tecnología y conectividad | 39,8 % | +9,8 | 8.128 (17) |
-| GWM Haval H6 | Probar antes de comprar (test drive) | 47,3 % | +9,7 | 8.259 (16) |
-| GWM Poer | Seguridad y asistencias a la conducción | 39,6 % | +9,4 | 1.524 (11) |
-| GWM Haval H9 | Seguridad y asistencias a la conducción | 42,7 % | +8,6 | 6.762 (11) |
-| GWM Poer | Tecnología y conectividad | 35,7 % | +5,4 | 4.335 (18) |
-| GWM Tank 400 | Autos eléctricos y ahorro de combustible | 27,4 % | +4,7 | 11.629 (25) |
+| GWM Haval H9 | Probar antes de comprar (test drive) | 51,1 % | +17,2 | 5.186 (9) |
+| GWM Poer | Diseño y estatus | 42,6 % | +13,0 | 2.564 (13) |
+| GWM Tank 400 | Probar antes de comprar (test drive) | 34,6 % | +11,9 | 7.679 (13) |
+| GWM Poer | Seguridad y asistencias a la conducción | 39,2 % | +9,5 | 1.342 (11) |
+| GWM Haval H6 | Probar antes de comprar (test drive) | 47,4 % | +9,5 | 8.124 (16) |
+| GWM Haval H7 | Tecnología y conectividad | 39,6 % | +9,4 | 8.391 (17) |
+| GWM Haval H9 | Seguridad y asistencias a la conducción | 42,8 % | +8,9 | 7.025 (11) |
+| GWM Poer | Tecnología y conectividad | 35,0 % | +5,4 | 4.047 (18) |
+| GWM Tank 400 | Autos eléctricos y ahorro de combustible | 27,3 % | +4,7 | 11.681 (25) |
 
 **Lo que más atrae a los mayores de 55:**
 
 | Modelo | Tema del anuncio | 55+ en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| GWM Poer | Financiación en cuotas | 61,1 % | +28,8 | 1.007 (6) |
-| GWM Haval H9 | Probar antes de comprar (test drive) | 64,2 % | +21,7 | 4.923 (9) |
-| GWM Tank 400 | Probar antes de comprar (test drive) | 46,6 % | +16,9 | 7.742 (13) |
-| GWM Haval H9 | Seguridad y asistencias a la conducción | 52,9 % | +10,3 | 6.762 (11) |
-| GWM Haval Jolion | Familia y espacio | 19,9 % | +8,4 | 1.728 (8) |
-| GWM Haval H7 | Tecnología y conectividad | 57,1 % | +6,5 | 8.128 (17) |
-| GWM Tank 400 | Autos eléctricos y ahorro de combustible | 36,1 % | +6,4 | 11.629 (25) |
-| GWM Haval H7 | Autos eléctricos y ahorro de combustible | 56,9 % | +6,2 | 10.080 (18) |
-| GWM Poer | Tecnología y conectividad | 38,5 % | +6,1 | 4.335 (18) |
+| GWM Haval H9 | Probar antes de comprar (test drive) | 64,4 % | +22,0 | 5.186 (9) |
+| GWM Tank 400 | Probar antes de comprar (test drive) | 46,6 % | +17,1 | 7.679 (13) |
+| GWM Haval H9 | Seguridad y asistencias a la conducción | 53,4 % | +11,0 | 7.025 (11) |
+| GWM Haval Jolion | Familia y espacio | 20,1 % | +8,7 | 1.754 (8) |
+| GWM Tank 400 | Autos eléctricos y ahorro de combustible | 36,0 % | +6,5 | 11.681 (25) |
+| GWM Poer | Tecnología y conectividad | 36,7 % | +6,4 | 4.047 (18) |
 
-**Lo que menos las atrae** (evitarlo en la pieza para ellas): GWM Haval H6: seguridad y asistencias a la conducción (-23,5); GWM Haval H7: garantía y respaldo posventa (-17,8); GWM Haval H7: probar antes de comprar (test drive) (-17,6); GWM Haval H7: familia y espacio (-15,3); GWM Haval H7: seguridad y asistencias a la conducción (-15,0); GWM Haval H6: tecnología y conectividad (-12,2).
+**Lo que menos las atrae** (evitarlo en la pieza para ellas): GWM Haval H6: seguridad y asistencias a la conducción (-23,7); GWM Haval H7: diseño y estatus (-19,8); GWM Haval H7: probar antes de comprar (test drive) (-17,6); GWM Haval H7: garantía y respaldo posventa (-16,2); GWM Haval H7: familia y espacio (-14,3); GWM Haval H6: tecnología y conectividad (-13,1).
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -113,7 +110,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza para quien acompaña la decisión
 
-**Por qué:** Donde más se nota: GWM Poer (0,45×), GWM Tank 400 (0,71×), GWM Haval H6 (0,80×). El tema **probar antes de comprar (test drive)** es el que más las atrae: en GWM Haval H6, GWM Haval H9, GWM Tank 400 suma entre 10 y 17 puntos de mujeres sobre el promedio del modelo (hasta 51,5 %).
+**Por qué:** Donde más se nota: GWM Poer (0,48×), GWM Tank 400 (0,65×), GWM Haval H6 (0,81×). El tema **probar antes de comprar (test drive)** es el que más las atrae: en GWM Haval H6, GWM Haval H9, GWM Tank 400 suma entre 10 y 17 puntos de mujeres sobre el promedio del modelo (hasta 51,1 %).
 
 **Modelos donde más pesa:** GWM Haval H6, GWM Haval H9, GWM Tank 400
 
@@ -154,9 +151,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-22 a 2026-10-20, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-26 a 2026-10-24, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: ventas a cliente final, 2025-09-11 a 2026-09-11.
 - Chats: Messenger e Instagram, lectura semanal (2026-10-19).
-- Generado el 2026-10-20 06:43 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Generado el 2026-10-24 06:47 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[GWM|Volver a GWM]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

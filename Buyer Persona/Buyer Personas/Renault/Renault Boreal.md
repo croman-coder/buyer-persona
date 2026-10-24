@@ -6,7 +6,7 @@ age_range: 35-44
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-20'
+created: '2026-10-24'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-22 → 2026-10-20 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-26 → 2026-10-24 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -31,7 +31,7 @@ tags:
 - **Edad:** 35-44 (35.5% de los contactos) · perfil propio del modelo
 - **Género predominante:** Masculino (76.2%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-22 → 2026-10-20 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-26 → 2026-10-24 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Renault Boreal`
 - **Marca:** [[Comprador Renault|Renault]]
 - **Tipo de vehículo:** SUV
@@ -44,7 +44,7 @@ tags:
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 18,9 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,14×).
+- **Meta:** ellas son el 19,0 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,14×).
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — Renault]]
 
@@ -80,8 +80,8 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **NSE estimado:** C (medio)
 - **Señales que se usaron:**
   - ticket promedio USD 25,788 (gama media)
-  - 91% pide financiación en el formulario (66 respuestas)
-  - 20.9% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 91% pide financiación en el formulario (64 respuestas)
+  - 21.2% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -132,9 +132,9 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Canales:** Prioriza Showroom.
 > **Oferta:** la planilla de acciones comerciales cargada es de septiembre y ya venció (último dato: descuento hasta USD 2,500). No usar el descuento en el copy hasta cargar la de este mes.
 > **Formato:** En formularios, el video y la imagen (gráfica) no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — Renault]].
-> **Públicos hoy:** 94.2% de los adsets activos van a público frío; 6 de 103 adsets usan base propia (5 lookalike).
-> **Presupuesto sugerido:** ~USD 36/mes (hoy ~USD 70/mes según su peso en anuncios) → ~7 leads/mes al CPL actual de la marca (USD 4.92).
-> _Base del cálculo: 1.4% de las ventas de la marca sobre USD 2,607/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Públicos hoy:** 94.4% de los adsets activos van a público frío; 6 de 107 adsets usan base propia (5 lookalike).
+> **Presupuesto sugerido:** ~USD 36/mes (hoy ~USD 70/mes según su peso en anuncios) → ~7 leads/mes al CPL actual de la marca (USD 4.67).
+> _Base del cálculo: 1.4% de las ventas de la marca sobre USD 2,583/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -142,18 +142,18 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Renault (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 1,590
-> **Pidieron este modelo:** 57 de esos leads (3.6 %)
-> **Modelos más pedidos (toda la marca):** Pago 1 (178), Koleos (166), Boreal (57)
-> **Método de pago preferido:** financiación_propia (47), financiación_bancaria (13), pago_contado (6)
-> **Ciudad:** Asunción (266), Ciudad del Este (98), San Lorenzo (48)
-> **Interés de compra:** en_los_próximos_3_meses (390), este_mes (311), 3_meses (38)
+> **Total de leads de la marca en la ventana:** 1,661
+> **Pidieron este modelo:** 54 de esos leads (3.3 %)
+> **Modelos más pedidos (toda la marca):** Pago 1 (208), Koleos (166), Boreal (54)
+> **Método de pago preferido:** financiación_propia (46), financiación_bancaria (12), pago_contado (6)
+> **Ciudad:** Asunción (277), Ciudad del Este (99), San Lorenzo (49)
+> **Interés de compra:** en_los_próximos_3_meses (408), este_mes (315), 3_meses (36)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Renault (90 días)
 
-> **Leads:** 2,249 → **convertidos:** 7 (0.3%)
-> **Por canal:** Meta madre 1,609, Meta asesores 631, Otros canales 9
+> **Leads:** 2,237 → **convertidos:** 8 (0.4%)
+> **Por canal:** Meta madre 1,687, Meta asesores 540, Otros canales 10
 > **Deals:** 0 — ganados 0, perdidos 0, en proceso 0 (win rate 0.0%)
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
@@ -161,15 +161,15 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!danger] ⚔️ Precio de mercado y competencia directa — uso interno (Datacar)
 
-> **Precio de lista:** USD 27,990 · segmento C-SUV · tercio más barato
+> **Precio de lista:** USD 27,990 – 30,990 · segmento C-SUV · tercio más barato
 > **Competencia directa (±25% de precio):**
-> - GAC EMKOO GE 1.5 TB AT HEV — USD 27,990 (+0%) · De La Sobera
-> - GAC AION Y PLUS HB EV — USD 27,990 (+0%) · De La Sobera
-> - GEELY STARRAY 2.0 Exclusive — USD 27,990 (+0%) · Automotor
-> - CHANGAN UNI-T ELITE 1.5T — USD 27,700 (-1%) · Gorostiaga
-> - MAZDA CX-5 CORE SEMI FULL 2WD — USD 28,490 (+2%) · Grupo Garden
-> - JEEP COMPASS Sport — USD 28,500 (+2%) · Grupo Garden
-> **Solapa con modelos propios:** JETOUR T1 (+0%), SOUEAST S06 (-2%), SOUEAST S07 (S) (-5%), JETOUR DASHING (-11%)
+> - JAECOO J7 PHEV Premium — USD 29,500 (+0%) · Toyotoshi
+> - TOYOTA COROLLA CROSS XLI (2027) — USD 29,800 (+1%) · Toyotoshi
+> - MAXUS D60 1.5 Turbo 7 DCT — USD 29,900 (+1%) · Condor
+> - NISSAN QASHQAI Sense AT — USD 29,990 (+2%) · Grupo Garden
+> - JEEP COMPASS Sport (Con techo) — USD 29,990 (+2%) · Grupo Garden
+> - ICAUR 03T REEV Comfort — USD 28,990 (-2%) · Grupo Garden
+> **Solapa con modelos propios:** GWM NEW HAVAL H6 (+5%), JETOUR T1 (-5%), MITSUBISHI ECLIPSE CROSS (+5%), SOUEAST S06 (-7%)
 > Detalle completo: [[💰 Precios Mercado 0km (Datacar)]]. _No usar en copies públicos._
 
 
@@ -193,7 +193,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-20 06:43*
+*Generado el 2026-10-24 06:47*
 
 ## 🔗 Contenido Relacionado
 

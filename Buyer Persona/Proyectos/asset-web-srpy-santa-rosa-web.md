@@ -1,11 +1,11 @@
 ---
 estado: activo
-firma: 6d9170b5a1908049d9c163bb941c41af4274450f883f15b47fcad5180d38f229
+firma: deee17174b76d03a339941088ab9c1350b14dd85d11497397a5bdfe62a4cd500
 git_rama: main
 git_remoto: git@github-croman:croman-coder/santa-rosa-automotive.git
 git_sin_subir: 1
-git_ultimo_commit: '2026-10-16 b903828 fix(trabaja): manda cuánto tardó la persona,
-  medido con el reloj del navegador'
+git_ultimo_commit: '2026-10-17 5557fe3 fix(trabaja): send the consent version, keep
+  the last good catalog, ignore Netlify''s beacon in the QA'
 hijos: []
 nombre: SANTA ROSA WEB
 resumen: null
@@ -17,7 +17,7 @@ stack:
 - node
 - web
 tipo: proyecto
-ultima_actividad: '2026-10-17'
+ultima_actividad: '2026-10-21'
 ---
 
 <!-- hermes:inicio -->
@@ -26,10 +26,10 @@ ultima_actividad: '2026-10-17'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-17 |
+| Última actividad | 2026-10-21 |
 | Stack | git, node, web |
 | Rama | main |
-| Último commit | 2026-10-16 b903828 fix(trabaja): manda cuánto tardó la persona, medido con el reloj del navegador |
+| Último commit | 2026-10-17 5557fe3 fix(trabaja): send the consent version, keep the last good catalog, ignore Netlify's beacon in the QA |
 | Sin subir | 1 |
 | Ruta | `/home/croman/Escritorio/ASSET WEB SRPY/SANTA ROSA WEB` |
 <!-- hermes:fin -->

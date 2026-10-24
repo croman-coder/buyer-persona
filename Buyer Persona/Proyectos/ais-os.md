@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 63051c06aaad54e533c7b568155b3c0585a6f442f915d1fed209b936b8621791
+firma: ea844c6d50eb88dd823a67dbeb4a8b8ff5ed0e75b20f391fe3298d43a989a675
 git_rama: main
 git_remoto: https://github.com/croman-coder/cerebro-santarosa.git
 git_sin_subir: 0
@@ -15,7 +15,7 @@ slug: ais-os
 stack:
 - git
 tipo: proyecto
-ultima_actividad: '2026-10-17'
+ultima_actividad: '2026-10-24'
 ---
 
 <!-- hermes:inicio -->
@@ -24,7 +24,7 @@ ultima_actividad: '2026-10-17'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-17 |
+| Última actividad | 2026-10-24 |
 | Stack | git |
 | Rama | main |
 | Último commit | 2026-10-16 1191fc0 Cerebro: la configuración del servidor muestra todo el vault (salvo Seguridad) |

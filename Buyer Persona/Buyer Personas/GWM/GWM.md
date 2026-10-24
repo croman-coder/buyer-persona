@@ -1,7 +1,7 @@
 ---
 type: moc-marca
 marca: GWM
-created: 2026-10-20
+created: 2026-10-24
 tags:
   - moc
   - marca/gwm
@@ -9,42 +9,42 @@ tags:
 
 # 🚗 GWM
 
-> Generado el **2026-10-20 06:43** · 10 modelos con persona propia.
+> Generado el **2026-10-24 06:47** · 10 modelos con persona propia.
 
 ## 👤 Comprador de la marca
 
 - [[Comprador GWM]]
-- **Inversión Meta:** ~USD 4,449/mes · CPL USD 2.68 · 4,972 leads en la ventana
-- **Públicos:** 100.0% de 120 adsets activos a público frío
+- **Inversión Meta:** ~USD 4,408/mes · CPL USD 2.66 · 4,967 leads en la ventana
+- **Públicos:** 100.0% de 118 adsets activos a público frío
 
 ## 👥 Quién mira y quién decide
 
-- En Meta, ellas son el 30,7 % de los clics y contactan igual que ellos con el mismo anuncio (0,92×).
+- En Meta, ellas son el 30,6 % de los clics y contactan igual que ellos con el mismo anuncio (0,92×).
 - El 35,0 % de las compras a cliente final las factura una empresa.
 - **Qué hacer en Meta Ads y cómo leerlo:** [[👥 Quién mira y quién decide — GWM]]
 
 ## 🎬 Materiales que mejor funcionan
 
 - En formularios, la imagen (gráfica) y el video no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto.
-- **Formularios — formato:** La imagen (gráfica) y el video cuestan parecido en campañas comparables (asesores · volumen: USD 1,51 y USD 1,52; marca · calidad: USD 3,07 y USD 4,00; asesores · calidad: USD 1,91 y USD 3,21 por lead): menos de 15 % de diferencia no alcanza para elegir.
-- **Formularios — Reels, Stories o Feed:** cuesta parecido en las tres (Feed USD 2,29 · Stories USD 2,30 · Reels USD 2,45).
-- **Formularios — duración del video:** **Los videos de 16 a 30 s** traen el lead más barato: 27 % menos que los videos de 31 a 60 s en campañas comparables (asesores · volumen: USD 1,15 contra USD 1,62; marca · calidad: USD 3,52 contra USD 3,91; base: 2.068 leads). Se repite: ganó en 3 de 5 meses.
+- **Formularios — formato:** La imagen (gráfica) y el video cuestan parecido en campañas comparables (asesores · volumen: USD 1,51 y USD 1,52; marca · calidad: USD 3,07 y USD 4,00; asesores · calidad: USD 1,91 y USD 3,19 por lead): menos de 15 % de diferencia no alcanza para elegir.
+- **Formularios — Reels, Stories o Feed:** cuesta parecido en las tres (Feed USD 2,29 · Stories USD 2,31 · Reels USD 2,45).
+- **Formularios — duración del video:** **Los videos de 16 a 30 s** traen el lead más barato: 27 % menos que los videos de 31 a 60 s en campañas comparables (asesores · volumen: USD 1,16 contra USD 1,62; marca · calidad: USD 3,52 contra USD 3,91; base: 2.081 leads). Se repite: ganó en 3 de 5 meses.
 - **Formato, ubicación, duración, mes a mes y mejores anuncios:** [[🎬 Materiales que funcionan — GWM]]
 
 ## 🚘 Modelos
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[GWM Haval H6]] | 35-44 | Masculino 73.2% | modelo | 295 | 231 | ⚖️ equilibrado | USD 1,508 |
-| [[GWM Haval Jolion]] | 35-44 | Masculino 81.0% | modelo | 193 | 172 | ⚖️ equilibrado | USD 988 |
-| [[GWM Poer]] | 35-44 | Masculino 82.5% | modelo | 101 | 112 | ⚖️ equilibrado | USD 516 |
-| [[GWM Tank 400]] | 35-44 | Masculino 85.7% | modelo | 95 | 98 | ⚖️ equilibrado | USD 485 |
-| [[GWM Haval H9]] | 65+ | Masculino 66.6% | modelo | 70 | 48 | ⚖️ equilibrado | USD 356 |
-| [[GWM Wingle]] | 35-44 | Masculino 78.1% | marca | 44 | 12 | 🟢 sub-pautado | USD 227 |
-| [[GWM Tank 300]] | 35-44 | Masculino 78.1% | marca | 34 | 38 | ⚖️ equilibrado | USD 173 |
-| [[GWM Tank 500]] | 35-44 | Masculino 78.1% | marca | 19 | 11 | ⚖️ equilibrado | USD 98 |
-| [[GWM Haval H7]] | 65+ | Masculino 64.1% | modelo | 13 | 49 | 🔴 sobre-pautado | USD 67 |
-| [[GWM Ora]] | 35-44 | Masculino 80.9% | modelo | 6 | 53 | 🔴 sobre-pautado | USD 31 |
+| [[GWM Haval H6]] | 35-44 | Masculino 73.1% | modelo | 295 | 196 | ⚖️ equilibrado | USD 1,494 |
+| [[GWM Haval Jolion]] | 35-44 | Masculino 80.8% | modelo | 193 | 167 | ⚖️ equilibrado | USD 979 |
+| [[GWM Poer]] | 35-44 | Masculino 82.9% | modelo | 101 | 112 | ⚖️ equilibrado | USD 511 |
+| [[GWM Tank 400]] | 35-44 | Masculino 86.6% | modelo | 95 | 97 | ⚖️ equilibrado | USD 480 |
+| [[GWM Haval H9]] | 65+ | Masculino 66.6% | modelo | 70 | 47 | ⚖️ equilibrado | USD 353 |
+| [[GWM Wingle]] | 35-44 | Masculino 78.1% | marca | 44 | 12 | 🟢 sub-pautado | USD 225 |
+| [[GWM Tank 300]] | 35-44 | Masculino 78.1% | marca | 34 | 38 | ⚖️ equilibrado | USD 172 |
+| [[GWM Tank 500]] | 35-44 | Masculino 78.1% | marca | 19 | 10 | ⚖️ equilibrado | USD 97 |
+| [[GWM Haval H7]] | 65+ | Masculino 64.4% | modelo | 13 | 49 | 🔴 sobre-pautado | USD 66 |
+| [[GWM Ora]] | 35-44 | Masculino 81.6% | modelo | 6 | 53 | 🔴 sobre-pautado | USD 31 |
 
 _Demo = de dónde sale edad/género: **modelo** (anuncios propios del modelo) o **marca** (heredado, pocos clics propios). Brecha: 🟢 sub-pautado = vende más de lo que se pauta, 🔴 sobre-pautado, 🆕 lanzamiento sin ventas en el ERP aún._
 

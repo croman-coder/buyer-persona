@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: XPeng
-periodo_meta: 2026-07-22 a 2026-10-20
-created: 2026-10-20
+periodo_meta: 2026-07-26 a 2026-10-24
+created: 2026-10-24
 tags:
   - centro-de-compra
   - meta-ads
@@ -27,26 +27,26 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-22** al **2026-10-20**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-26** al **2026-10-24**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **XPeng** | 45,2 % | 43,9 % | **0,87×** | 2 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
-| [[XPeng G9|XPeng G9]] | 46,1 % | 41,3 % | 0,84× | 2 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
+| **XPeng** | 45,2 % | 44,2 % | **0,87×** | 2 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
+| [[XPeng G9|XPeng G9]] | 46,1 % | 41,6 % | 0,84× | 2 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|
-| 3,8 % | 7,1 % | 7,4 % | 8,2 % | 9,7 % |
+| 4,0 % | 7,4 % | 7,4 % | 8,1 % | 9,7 % |
 
-Los mayores de 55 contactan parecido al resto con el mismo anuncio (1,05×).
+Los mayores de 55 contactan parecido al resto con el mismo anuncio (1,04×).
 
 ## 2. ¿Qué le interesa a cada uno?
 
 Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema suma 10 puntos de mujeres (o de mayores de 55) sobre lo normal del modelo. Clics y cantidad de anuncios entre paréntesis.
 
-**Lo que menos las atrae** (evitarlo en la pieza para ellas): XPeng G9: familia y espacio (-5,3).
+**Lo que menos las atrae** (evitarlo en la pieza para ellas): XPeng G9: familia y espacio (-5,6).
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -88,9 +88,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-22 a 2026-10-20, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-26 a 2026-10-24, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: sin datos suficientes.
 - Chats: Messenger e Instagram, lectura semanal (2026-10-19).
-- Generado el 2026-10-20 06:43 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Generado el 2026-10-24 06:47 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[XPeng|Volver a XPeng]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

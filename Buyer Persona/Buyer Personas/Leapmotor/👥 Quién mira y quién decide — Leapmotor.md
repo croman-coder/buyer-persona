@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: Leapmotor
-periodo_meta: 2026-07-22 a 2026-10-20
-created: 2026-10-20
+periodo_meta: 2026-07-26 a 2026-10-24
+created: 2026-10-24
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,7 +12,7 @@ tags:
 # 👥 Quién mira y quién decide — Leapmotor
 
 > [!summary] En una línea
-> En Meta, ellas son el 25,6 % de los clics pero, viendo el mismo anuncio, contactan 0,88× lo que ellos (menos en 7 de 8 conjuntos): **ella investiga y él da el paso**. En el 0,0 % de los chats el cliente nombra a otra persona.
+> En Meta, ellas son el 24,9 % de los clics pero, viendo el mismo anuncio, contactan 0,87× lo que ellos (menos en 7 de 8 conjuntos): **ella investiga y él da el paso**. En el 0,0 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
 > 1. **Una pieza para quien acompaña la decisión** — «Vengan a probarla juntos». Detalle en la sección 5.
@@ -27,21 +27,21 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-22** al **2026-10-20**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-26** al **2026-10-24**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **Leapmotor** | 25,6 % | 20,8 % | **0,88×** | 8 (ellas menos en 7) | Ellas miran y el contacto lo deja él |
-| [[Leapmotor C10|Leapmotor C10]] | 27,5 % | 23,8 % | 0,85× | 4 (ellas menos en 4) | Ellas miran y el contacto lo deja él |
-| [[Leapmotor T03|Leapmotor T03]] | 22,6 % | 17,5 % | 0,92× | 3 (ellas menos en 3) | Sin diferencia: ellas y ellos contactan igual |
+| **Leapmotor** | 24,9 % | 20,1 % | **0,87×** | 8 (ellas menos en 7) | Ellas miran y el contacto lo deja él |
+| [[Leapmotor C10|Leapmotor C10]] | 26,7 % | 22,7 % | 0,84× | 4 (ellas menos en 4) | Ellas miran y el contacto lo deja él |
+| [[Leapmotor T03|Leapmotor T03]] | 22,3 % | 17,3 % | 0,92× | 3 (ellas menos en 3) | Sin diferencia: ellas y ellos contactan igual |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|
-| 23,0 % | 23,4 % | 25,4 % | 22,7 % | 18,9 % |
+| 23,1 % | 23,2 % | 24,8 % | 23,1 % | 19,4 % |
 
-Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,96×).
+Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,98×).
 
 ## 2. ¿Qué le interesa a cada uno?
 
@@ -51,9 +51,9 @@ Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema su
 
 | Modelo | Tema del anuncio | 55+ en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| Leapmotor C10 | Autos eléctricos y ahorro de combustible | 45,9 % | +7,1 | 3.893 (25) |
+| Leapmotor C10 | Autos eléctricos y ahorro de combustible | 44,2 % | +6,2 | 3.967 (25) |
 
-**Lo que menos las atrae** (evitarlo en la pieza para ellas): Leapmotor C10: garantía y respaldo posventa (-4,2).
+**Lo que menos las atrae** (evitarlo en la pieza para ellas): Leapmotor C10: garantía y respaldo posventa (-4,4).
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -71,7 +71,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza para quien acompaña la decisión
 
-**Por qué:** Ellas son el 25,6 % de los clics, pero con el mismo anuncio contactan 0,88× lo que ellos (menos en 7 de 8 conjuntos): ella investiga y él da el paso. Donde más se nota: Leapmotor C10 (0,85×).
+**Por qué:** Ellas son el 24,9 % de los clics, pero con el mismo anuncio contactan 0,87× lo que ellos (menos en 7 de 8 conjuntos): ella investiga y él da el paso. Donde más se nota: Leapmotor C10 (0,84×).
 
 **La pieza (texto base, ajustar al tono de la marca):**
 
@@ -95,9 +95,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-22 a 2026-10-20, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-26 a 2026-10-24, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: sin datos suficientes.
 - Chats: Messenger e Instagram, lectura semanal (2026-10-19).
-- Generado el 2026-10-20 06:43 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Generado el 2026-10-24 06:47 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[Leapmotor|Volver a Leapmotor]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

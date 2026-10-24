@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: c1b3ec376fa2fd907ddfbae7557152a6f3e4a3ae392710b94e911a0c33ac059a
+firma: 741a2cddd49e6a26d64c4b8aea83124b55fa78c86992df9ddc7c16a203b8ec0b
 git_rama: feat/vitria-bitrix-openline
 git_remoto: https://github.com/ymk5py-commits/botika.git
 git_sin_subir: 0

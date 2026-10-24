@@ -1,15 +1,11 @@
 ---
 estado: activo
-firma: b90612844e19610f32ef17eeb694d9674c013f34d29da97ff827809fd13489b9
+firma: 015171d87582ee7972d848fb51f145bedb221185a17c433ecf6c3abfa7ac4a7d
 git_rama: diseno-ads
 git_remoto: https://github.com/croman-coder/APP-DE-PAUTAS.git
-git_sin_subir: 1
-git_ultimo_commit: '2026-10-11 20e4156 fix(aprobaciones): un 424 cuyo cuerpo no se
-  pudo leer («El servidor respondió 424») cuenta como «no se pudo confirmar» y no
-  como «falló»; en «Aprobar ahora» el 424 ya no oculta el aviso (sin texto del servidor,
-  la pantalla lo dice ella); también una ejecución interrumpida (failed + incierto,
-  sin ids) dice que no se pudo confirmar qué quedó creado (revisión independiente,
-  tercera ronda, ítem 3)'
+git_sin_subir: 0
+git_ultimo_commit: '2026-10-23 bd86062 merge: el arreglo urgente de la estrategia
+  (18a9de5, en producción) entra a la rama del gerente por WhatsApp'
 hijos: []
 nombre: croman-ads-dashboard
 resumen: null
@@ -21,7 +17,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-10-11'
+ultima_actividad: '2026-10-24'
 ---
 
 <!-- hermes:inicio -->
@@ -30,10 +26,10 @@ ultima_actividad: '2026-10-11'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-11 |
+| Última actividad | 2026-10-24 |
 | Stack | docker, git, node |
 | Rama | diseno-ads |
-| Último commit | 2026-10-11 20e4156 fix(aprobaciones): un 424 cuyo cuerpo no se pudo leer («El servidor respondió 424») cuenta como «no se pudo confirmar» y no como «falló»; en «Aprobar ahora» el 424 ya no oculta el aviso (sin texto del servidor, la pantalla lo dice ella); también una ejecución interrumpida (failed + incierto, sin ids) dice que no se pudo confirmar qué quedó creado (revisión independiente, tercera ronda, ítem 3) |
-| Sin subir | 1 |
+| Último commit | 2026-10-23 bd86062 merge: el arreglo urgente de la estrategia (18a9de5, en producción) entra a la rama del gerente por WhatsApp |
+| Sin subir | 0 |
 | Ruta | `/home/croman/Escritorio/croman-ads-dashboard` |
 <!-- hermes:fin -->

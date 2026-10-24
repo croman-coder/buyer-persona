@@ -22,8 +22,8 @@ Hola {nombre}:
 
 Gracias por tu interés en Soueast S08. Esto es lo que más nos consultan:
 
+• Espacio y comodidad para viajar en familia.
 • Consumo y autonomía: te pasamos los datos reales de cada versión.
-• Financiación: planes y formas de pago a tu medida.
 • Posventa oficial: service y repuestos originales de la marca.
 
 Lo mejor es probarlo: coordiná tu test drive el día y horario que prefieras, sin compromiso.

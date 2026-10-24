@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 2ae4c76af6a34b6a51d171c6164aaa67ab08c2a0a313b059560cd75ff71b6c88
+firma: 0bc671df5888744cfc69dfa8809400a7e4f24c6cfb918159a3e78c89ccd58da4
 git_rama: main
 git_remoto: https://github.com/croman-coder/crm-santarosa.git
 git_sin_subir: 2
@@ -17,7 +17,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-10-12'
+ultima_actividad: '2026-10-19'
 ---
 
 <!-- hermes:inicio -->
@@ -26,7 +26,7 @@ ultima_actividad: '2026-10-12'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-12 |
+| Última actividad | 2026-10-19 |
 | Stack | docker, git, node |
 | Rama | main |
 | Último commit | 2026-10-05 9ea19d5 docs: pool de PostgREST aplicado el 5/10 (ajuste de Postgres completo) |

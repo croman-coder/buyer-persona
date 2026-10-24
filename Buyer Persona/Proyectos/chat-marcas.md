@@ -1,11 +1,11 @@
 ---
 estado: activo
-firma: 938d3817b484a6c40d6f501c1dac3103c23972e3cc2eb12a757ba6d2392c6289
+firma: e56b1bd5dca87429bff19d718a8cd5aa19db876668198ebef9cb03a219b3ed71
 git_rama: main
 git_remoto: https://github.com/croman-coder/chat-marcas.git
 git_sin_subir: 1
-git_ultimo_commit: '2026-10-13 193f568 docs(plan-3): Soueast nombra todos sus modelos;
-  «s06» da las versiones'
+git_ultimo_commit: '2026-10-22 c5c65ec docs(plan-3): conocimiento con documentos,
+  preguntas frecuentes y «Crear respuesta»'
 hijos: []
 nombre: CHAT MARCAS
 resumen: Proyecto en /home/croman/Escritorio/CHAT MARCAS. Sin README.
@@ -17,7 +17,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-10-13'
+ultima_actividad: '2026-10-22'
 ---
 
 <!-- hermes:inicio -->
@@ -26,10 +26,10 @@ ultima_actividad: '2026-10-13'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-13 |
+| Última actividad | 2026-10-22 |
 | Stack | docker, git, node |
 | Rama | main |
-| Último commit | 2026-10-13 193f568 docs(plan-3): Soueast nombra todos sus modelos; «s06» da las versiones |
+| Último commit | 2026-10-22 c5c65ec docs(plan-3): conocimiento con documentos, preguntas frecuentes y «Crear respuesta» |
 | Sin subir | 1 |
 | Ruta | `/home/croman/Escritorio/CHAT MARCAS` |
 <!-- hermes:fin -->

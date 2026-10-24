@@ -6,7 +6,7 @@ age_range: 35-44
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-20'
+created: '2026-10-24'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-22 → 2026-10-20 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-26 → 2026-10-24 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -28,10 +28,10 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 35-44 (31.1% de los contactos) · heredado de la marca
-- **Género predominante:** Masculino (84.6%)
+- **Edad:** 35-44 (30.3% de los contactos) · heredado de la marca
+- **Género predominante:** Masculino (83.6%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-22 → 2026-10-20 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-26 → 2026-10-24 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Mitsubishi Asx`
 - **Marca:** [[Comprador Mitsubishi|Mitsubishi]]
 - **Tipo de vehículo:** SUV
@@ -55,8 +55,8 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** audiencia de Meta de la marca **Mitsubishi** (3,530 contactos), ponderado por contactos (formularios y chats) — Masculino 84.6%
-- **Distribución de edad (Meta):** 35-44: 31.1%, 25-34: 23.2%, 45-54: 20.7%, 55-64: 12.0%, 65+: 10.6%, 18-24: 2.4%
+- **Fuente edad/género:** audiencia de Meta de la marca **Mitsubishi** (3,595 contactos), ponderado por contactos (formularios y chats) — Masculino 83.6%
+- **Distribución de edad (Meta):** 35-44: 30.3%, 25-34: 22.7%, 45-54: 20.4%, 55-64: 12.2%, 65+: 12.0%, 18-24: 2.3%
 - ⚠️ Sin anuncios propios del modelo en la ventana: perfil heredado de la marca.
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
@@ -64,13 +64,13 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 
 _Qué es: los temas que aparecen en los anuncios que este público ve y clickea. No son intereses declarados (Meta dejó de exponerlos en 2021): es con qué le estamos hablando y qué responde. El % es la parte de los anuncios que toca cada tema._
 
-**Intereses observados** (288 anuncios reales leídos):
-- Financiación en cuotas · 52.3% de los anuncios
-- Garantía y respaldo posventa · 49.1% de los anuncios
-- Tecnología y conectividad · 39.3% de los anuncios
-- Diseño y estatus · 30.5% de los anuncios
+**Intereses observados** (305 anuncios reales leídos):
+- Financiación en cuotas · 51.3% de los anuncios
+- Garantía y respaldo posventa · 51.3% de los anuncios
+- Tecnología y conectividad · 38.1% de los anuncios
+- Diseño y estatus · 29.5% de los anuncios
+- Probar antes de comprar (test drive) · 24.8% de los anuncios
 - Seguridad y asistencias a la conducción · 24.2% de los anuncios
-- Probar antes de comprar (test drive) · 22.8% de los anuncios
 
 _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, para no tener el mismo número dos veces._
 
@@ -82,7 +82,7 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **Señales que se usaron:**
   - ticket promedio USD 18,486 (gama media)
   - 80% pide financiación en el formulario (35 respuestas)
-  - 20.8% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 20.3% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -108,7 +108,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!warning] 🔴 Dolores y Frustraciones
 
-> _De dónde sale: del texto de 285 anuncios reales de la marca Mitsubishi (el modelo tiene pocos anuncios propios). Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
+> _De dónde sale: del texto de 302 anuncios reales de la marca Mitsubishi (el modelo tiene pocos anuncios propios). Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
 >
 > - Compara el valor de la cuota mensual, no solo el precio de lista
 > - Necesita espacio y capacidad suficiente para uso familiar
@@ -146,19 +146,19 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Mitsubishi (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 2,662
+> **Total de leads de la marca en la ventana:** 2,737
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
-> **Modelos más pedidos (toda la marca):** L200 (890), Montero (454), Destinator (434)
+> **Modelos más pedidos (toda la marca):** L200 (865), Montero (442), Destinator (435)
 > **Método de pago preferido:** financiacion (28), contado (7)
-> **Ciudad:** Asunción (601), Ciudad del Este (174), San Lorenzo (121)
+> **Ciudad:** Asunción (629), Ciudad del Este (177), San Lorenzo (126)
 > **Interés de compra:** Q precio e cuantos años finacia (1)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Mitsubishi (90 días)
 
-> **Leads:** 2,374 → **convertidos:** 71 (3.0%)
-> **Por canal:** Meta madre 2,233, Meta asesores 139, Otros canales 2
-> **Deals:** 88 — ganados 3, perdidos 5, en proceso 80 (win rate 37.5%)
+> **Leads:** 2,427 → **convertidos:** 105 (4.3%)
+> **Por canal:** Meta madre 2,294, Meta asesores 131, Otros canales 2
+> **Deals:** 131 — ganados 3, perdidos 5, en proceso 123 (win rate 37.5%)
 > **Monto ganado:** USD 128,970 · ticket promedio USD 42,990
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
@@ -181,7 +181,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-20 06:43*
+*Generado el 2026-10-24 06:47*
 
 ## 🔗 Contenido Relacionado
 

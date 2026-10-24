@@ -6,7 +6,7 @@ age_range: 35-44
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-20'
+created: '2026-10-24'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-22 → 2026-10-20 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-26 → 2026-10-24 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -28,15 +28,15 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 35-44 (33.1% de los contactos) · perfil propio del modelo
-- **Género predominante:** Masculino (88.1%)
+- **Edad:** 35-44 (33.4% de los contactos) · perfil propio del modelo
+- **Género predominante:** Masculino (88.3%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-22 → 2026-10-20 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-26 → 2026-10-24 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `JAC LD250`
 - **Marca:** [[Comprador JAC|JAC]]
 - **Tipo de vehículo:** Camión
 - **Ventas reales (ERP):** 17 unidades desde 2018 · últimos 12 meses: 17 · últimos 90 días: 10
-- **Pauta real (90 días):** 17 anuncios (1 activos)
+- **Pauta real (90 días):** 17 anuncios (0 activos)
 - **Brecha pauta/venta:** sub-pautado 🟢 escalar — 11.3% de las ventas de la marca (12 meses) vs 3.8% de sus anuncios (ERP hasta 2026-09-11)
   _Cómo se decide: **sub-pautado** si el modelo pone ≥5 % de las ventas de la marca y tiene menos de la mitad de anuncios que de ventas (escalar); **sobre-pautado** si pone ≥5 % de los anuncios y vende menos de la mitad de eso (revisar); **equilibrado** si no pasa ninguna de las dos._
 - **Ticket promedio (ERP, facturado):** USD 17,149
@@ -44,7 +44,7 @@ tags:
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 20,8 % de los clics pero, viendo el mismo anuncio, contactan 0,67× lo que ellos (menos en 3 de 5 conjuntos): **ella investiga y él da el paso**.
+- **Meta:** ellas son el 21,0 % de los clics pero, viendo el mismo anuncio, contactan 0,65× lo que ellos (menos en 3 de 5 conjuntos): **ella investiga y él da el paso**.
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — JAC]]
 
@@ -55,8 +55,8 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** anuncios de Meta que nombran a **JAC LD250** (504 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 88.1%
-- **Distribución de edad (Meta):** 35-44: 33.1%, 25-34: 24.4%, 45-54: 20.2%, 55-64: 9.9%, 65+: 6.9%, 18-24: 5.4%
+- **Fuente edad/género:** anuncios de Meta que nombran a **JAC LD250** (494 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 88.3%
+- **Distribución de edad (Meta):** 35-44: 33.4%, 25-34: 24.1%, 45-54: 19.8%, 55-64: 9.7%, 65+: 7.1%, 18-24: 5.9%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
@@ -80,7 +80,7 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **Señales que se usaron:**
   - ticket promedio USD 17,149 (gama media)
   - 0% pide financiación en el formulario (1 respuestas)
-  - 16.7% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 16.6% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -131,9 +131,9 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Canales:** Prioriza Showroom.
 > **Oferta:** la planilla de acciones comerciales cargada es de septiembre y ya venció (último dato: descuento hasta USD 2,196). No usar el descuento en el copy hasta cargar la de este mes.
 > **Formato:** Para la próxima pauta de formularios: **video**, que trajo el lead más barato en campañas comparables y se repitió mes a mes. En el mismo conjunto, sumar la imagen (gráfica) para seguir comparando. Detalle: [[🎬 Materiales que funcionan — JAC]].
-> **Públicos hoy:** 97.1% de los adsets activos van a público frío; 2 de 69 adsets usan base propia.
-> **Presupuesto sugerido:** ~USD 257/mes (hoy ~USD 86/mes según su peso en anuncios) → ~121 leads/mes al CPL actual de la marca (USD 2.11).
-> _Base del cálculo: 11.3% de las ventas de la marca sobre USD 2,272/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Públicos hoy:** 97.0% de los adsets activos van a público frío; 2 de 66 adsets usan base propia.
+> **Presupuesto sugerido:** ~USD 256/mes (hoy ~USD 86/mes según su peso en anuncios) → ~122 leads/mes al CPL actual de la marca (USD 2.09).
+> _Base del cálculo: 11.3% de las ventas de la marca sobre USD 2,261/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -141,20 +141,20 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — JAC (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 3,233
+> **Total de leads de la marca en la ventana:** 3,241
 > **Pidieron este modelo:** 66 de esos leads (2.0 %)
-> **Modelos más pedidos (toda la marca):** E30 X Electrico (537), X200 (1.500 Kg) (227), Js 4 (151)
+> **Modelos más pedidos (toda la marca):** E30 X Electrico (544), X200 (1.500 Kg) (233), Js 4 (156)
 > **Método de pago preferido:** Mabancoriano Roque Alonso (1)
-> **Ciudad:** Asunción (547), Ciudad del Este (222), Luque (156)
-> **Interés de compra:** inmediatamente (249), en_2–3_meses (211), en_1_mes (159)
+> **Ciudad:** Asunción (536), Ciudad del Este (231), Luque (156)
+> **Interés de compra:** inmediatamente (243), en_2–3_meses (212), en_1_mes (156)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — JAC (90 días)
 
-> **Leads:** 4,491 → **convertidos:** 42 (0.9%)
-> **Por canal:** Meta madre 3,574, Meta asesores 872, Otros canales 45
-> **Deals:** 104 — ganados 11, perdidos 16, en proceso 77 (win rate 40.7%)
-> **Monto ganado:** USD 330,910 · ticket promedio USD 30,083
+> **Leads:** 4,296 → **convertidos:** 61 (1.4%)
+> **Por canal:** Meta madre 3,491, Meta asesores 756, Otros canales 49
+> **Deals:** 124 — ganados 12, perdidos 26, en proceso 86 (win rate 31.6%)
+> **Monto ganado:** USD 373,900 · ticket promedio USD 31,158
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
 
@@ -179,7 +179,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-20 06:43*
+*Generado el 2026-10-24 06:47*
 
 ## 🔗 Contenido Relacionado
 

@@ -6,7 +6,7 @@ age_range: 65+
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-20'
+created: '2026-10-24'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-22 → 2026-10-20 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-26 → 2026-10-24 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -28,16 +28,16 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 65+ (27.6% de los contactos) · perfil propio del modelo
-- **Género predominante:** Masculino (62.4%)
+- **Edad:** 65+ (24.5% de los contactos) · perfil propio del modelo
+- **Género predominante:** Masculino (63.5%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-22 → 2026-10-20 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-26 → 2026-10-24 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Zeekr X`
 - **Marca:** [[Comprador Zeekr|Zeekr]]
 - **Tipo de vehículo:** Eléctrico
 - **Ventas reales (ERP):** 19 unidades desde 2018 · últimos 12 meses: 12 · últimos 90 días: 1
-- **Pauta real (90 días):** 60 anuncios (13 activos)
-- **Brecha pauta/venta:** equilibrado ⚖️ — 60.0% de las ventas de la marca (12 meses) vs 42.0% de sus anuncios (ERP hasta 2026-09-11)
+- **Pauta real (90 días):** 64 anuncios (11 activos)
+- **Brecha pauta/venta:** equilibrado ⚖️ — 60.0% de las ventas de la marca (12 meses) vs 42.7% de sus anuncios (ERP hasta 2026-09-11)
   _Cómo se decide: **sub-pautado** si el modelo pone ≥5 % de las ventas de la marca y tiene menos de la mitad de anuncios que de ventas (escalar); **sobre-pautado** si pone ≥5 % de los anuncios y vende menos de la mitad de eso (revisar); **equilibrado** si no pasa ninguna de las dos._
 - **Ticket promedio (ERP, facturado):** USD 35,636
 
@@ -55,20 +55,20 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 65+
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** anuncios de Meta que nombran a **Zeekr X** (87 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 62.4%
-- **Distribución de edad (Meta):** 65+: 27.6%, 35-44: 18.4%, 45-54: 17.2%, 25-34: 14.9%, 55-64: 11.5%, 18-24: 10.3%
+- **Fuente edad/género:** anuncios de Meta que nombran a **Zeekr X** (106 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 63.5%
+- **Distribución de edad (Meta):** 65+: 24.5%, 35-44: 21.7%, 25-34: 16.0%, 45-54: 16.0%, 18-24: 11.3%, 55-64: 10.4%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
 
 _Qué es: los temas que aparecen en los anuncios que este público ve y clickea. No son intereses declarados (Meta dejó de exponerlos en 2021): es con qué le estamos hablando y qué responde. El % es la parte de los anuncios que toca cada tema._
 
-**Intereses observados** (60 anuncios reales leídos):
-- Tecnología y conectividad · 62.7% de los anuncios
-- Diseño y estatus · 57.6% de los anuncios
-- Autos eléctricos y ahorro de combustible · 45.8% de los anuncios
-- Probar antes de comprar (test drive) · 13.6% de los anuncios
-- Garantía y respaldo posventa · 5.1% de los anuncios
+**Intereses observados** (64 anuncios reales leídos):
+- Tecnología y conectividad · 61.9% de los anuncios
+- Diseño y estatus · 60.3% de los anuncios
+- Autos eléctricos y ahorro de combustible · 49.2% de los anuncios
+- Probar antes de comprar (test drive) · 12.7% de los anuncios
+- Garantía y respaldo posventa · 4.8% de los anuncios
 
 > _Meta ya no expone intereses declarados de la audiencia (Audience Insights cerró en 2021); esto es lo que el público ve y con lo que interactúa._
 
@@ -77,7 +77,7 @@ _Qué es: los temas que aparecen en los anuncios que este público ve y clickea.
 - **NSE estimado:** C+ (medio-alto)
 - **Señales que se usaron:**
   - ticket promedio USD 35,636 (gama media-alta)
-  - 24.0% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 23.2% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -103,7 +103,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!warning] 🔴 Dolores y Frustraciones
 
-> _De dónde sale: del texto de 59 anuncios reales de este modelo. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
+> _De dónde sale: del texto de 63 anuncios reales de este modelo. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
 >
 > - Ansiedad de autonomía/carga: evalúa km reales y tiempo de carga antes de decidir
 
@@ -126,9 +126,9 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Mensaje clave:** Enfoca la comunicación en 'Zeekr X'.
 > **Canales:** Prioriza Showroom.
 > **Formato:** En formularios, el video y la imagen (gráfica) no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — Zeekr]].
-> **Públicos hoy:** 80.0% de los adsets activos van a público frío; 4 de 20 adsets usan base propia (4 lookalike).
-> **Presupuesto sugerido:** ~USD 506/mes (hoy ~USD 354/mes según su peso en anuncios) → ~236 leads/mes al CPL actual de la marca (USD 2.14).
-> _Base del cálculo: 60.0% de las ventas de la marca sobre USD 844/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Públicos hoy:** 82.4% de los adsets activos van a público frío; 3 de 17 adsets usan base propia (3 lookalike).
+> **Presupuesto sugerido:** ~USD 505/mes (hoy ~USD 359/mes según su peso en anuncios) → ~239 leads/mes al CPL actual de la marca (USD 2.11).
+> _Base del cálculo: 60.0% de las ventas de la marca sobre USD 842/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -136,14 +136,14 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Zeekr (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 1,181
+> **Total de leads de la marca en la ventana:** 1,197
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Zeekr (90 días)
 
-> **Leads:** 1,381 → **convertidos:** 0 (0.0%)
-> **Por canal:** Meta madre 1,368, Otros canales 10, Meta asesores 3
+> **Leads:** 1,384 → **convertidos:** 0 (0.0%)
+> **Por canal:** Meta madre 1,371, Otros canales 13
 > **Deals:** 5 — ganados 0, perdidos 1, en proceso 4 (win rate 0.0%)
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
@@ -159,7 +159,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > - CITROËN C5 AIRCROSS SHINE — USD 34,990 (+0%) · Automaq
 > - FORD TERRITORY Titanium — USD 35,000 (+0%) · Tape Ruvicha
 > - BYD SONG PRO GS (2025) — USD 34,900 (-0%) · Diesa
-> **Solapa con modelos propios:** JETOUR T1 (+3%), MITSUBISHI OUTLANDER (+6%), JETOUR T2 (+6%), MITSUBISHI ECLIPSE CROSS (-11%)
+> **Solapa con modelos propios:** JETOUR T1 (+3%), MITSUBISHI OUTLANDER (+6%), JETOUR T2 (+6%), RENAULT BOREAL (-11%)
 > Detalle completo: [[💰 Precios Mercado 0km (Datacar)]]. _No usar en copies públicos._
 
 
@@ -180,7 +180,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-20 06:43*
+*Generado el 2026-10-24 06:47*
 
 ## 🔗 Contenido Relacionado
 

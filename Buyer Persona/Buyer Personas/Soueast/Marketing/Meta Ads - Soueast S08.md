@@ -15,14 +15,14 @@ tags: [marketing, meta-ads]
 - **Edad:** 35-44
 - **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
 - **Zonas:** Asunción
-- **Temas que atraen** (para el creativo, no para segmentar): Autos eléctricos y ahorro de combustible, Financiación en cuotas, Garantía y respaldo posventa, Familia y espacio, Diseño y estatus
+- **Temas que atraen** (para el creativo, no para segmentar): Familia y espacio, Autos eléctricos y ahorro de combustible, Garantía y respaldo posventa, Tecnología y conectividad, Diseño y estatus
 
 ## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)
-**Opción 1** · 239 caracteres
+**Opción 1** · 232 caracteres
 ```
 🚗 Soueast S08
+✅ Espacio y comodidad para viajar en familia.
 ✅ Consumo y autonomía: te pasamos los datos reales de cada versión.
-✅ Financiación: planes y formas de pago a tu medida.
 ✅ Posventa oficial: service y repuestos originales de la marca.
 
 Coordiná tu test drive sin compromiso 👇
@@ -30,10 +30,6 @@ Coordiná tu test drive sin compromiso 👇
 **Opción 2** · 101 caracteres
 ```
 Soueast S08 te espera en el concesionario oficial. Probalo antes de decidir: coordiná tu test drive 👇
-```
-**Opción 3** · 136 caracteres
-```
-Planes de financiación y formas de pago a tu medida. Escribinos y te pasamos las opciones 👇 Financiación sujeta a aprobación crediticia.
 ```
 
 ## Títulos (hasta 5 · máx. 40 caracteres)
