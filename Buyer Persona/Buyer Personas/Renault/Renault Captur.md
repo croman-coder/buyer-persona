@@ -6,7 +6,7 @@ age_range: 35-44
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-24'
+created: '2026-10-28'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-26 → 2026-10-24 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-30 → 2026-10-28 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -28,10 +28,10 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 35-44 (30.7% de los contactos) · heredado de la marca
-- **Género predominante:** Masculino (73.8%)
+- **Edad:** 35-44 (31.1% de los contactos) · heredado de la marca
+- **Género predominante:** Masculino (73.7%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-26 → 2026-10-24 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-30 → 2026-10-28 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Renault Captur`
 - **Marca:** [[Comprador Renault|Renault]]
 - **Tipo de vehículo:** SUV
@@ -55,8 +55,8 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** audiencia de Meta de la marca **Renault** (3,938 contactos), ponderado por contactos (formularios y chats) — Masculino 73.8%
-- **Distribución de edad (Meta):** 35-44: 30.7%, 25-34: 23.3%, 45-54: 18.5%, 55-64: 11.2%, 65+: 10.7%, 18-24: 5.6%
+- **Fuente edad/género:** audiencia de Meta de la marca **Renault** (3,974 contactos), ponderado por contactos (formularios y chats) — Masculino 73.7%
+- **Distribución de edad (Meta):** 35-44: 31.1%, 25-34: 23.2%, 45-54: 19.1%, 55-64: 11.1%, 65+: 10.3%, 18-24: 5.2%
 - ⚠️ Sin anuncios propios del modelo en la ventana: perfil heredado de la marca.
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
@@ -82,7 +82,7 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **Señales que se usaron:**
   - ticket promedio USD 16,501 (gama media)
   - 91% pide financiación en el formulario (64 respuestas)
-  - 21.2% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 21.4% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -143,18 +143,18 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Renault (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 1,661
+> **Total de leads de la marca en la ventana:** 1,775
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
-> **Modelos más pedidos (toda la marca):** Pago 1 (208), Koleos (166), Boreal (54)
+> **Modelos más pedidos (toda la marca):** Pago 1 (243), Koleos (166), Boreal (54)
 > **Método de pago preferido:** financiación_propia (46), financiación_bancaria (12), pago_contado (6)
-> **Ciudad:** Asunción (277), Ciudad del Este (99), San Lorenzo (49)
-> **Interés de compra:** en_los_próximos_3_meses (408), este_mes (315), 3_meses (36)
+> **Ciudad:** Asunción (294), Ciudad del Este (103), San Lorenzo (52)
+> **Interés de compra:** en_los_próximos_3_meses (439), este_mes (327), 3_meses (36)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Renault (90 días)
 
-> **Leads:** 2,237 → **convertidos:** 8 (0.4%)
-> **Por canal:** Meta madre 1,687, Meta asesores 540, Otros canales 10
+> **Leads:** 2,331 → **convertidos:** 8 (0.3%)
+> **Por canal:** Meta madre 1,786, Meta asesores 535, Otros canales 10
 > **Deals:** 0 — ganados 0, perdidos 0, en proceso 0 (win rate 0.0%)
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
@@ -177,7 +177,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-24 06:47*
+*Generado el 2026-10-28 06:48*
 
 ## 🔗 Contenido Relacionado
 

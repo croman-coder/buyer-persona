@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: ebfcc2f58ddb7035f90b0261979837ce54442222175bc0b8e5d305eaaa9ae35c
+firma: b1d6082835ef9f23a542ad6fd86ea2760503c7eb1cedd5517c5a4533e4358259
 git_rama: master
 git_remoto: https://github.com/fercorrea777/Santa-Rosa-Advisor
 git_sin_subir: 2
@@ -16,7 +16,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-10-20'
+ultima_actividad: '2026-10-24'
 ---
 
 <!-- hermes:inicio -->
@@ -25,7 +25,7 @@ ultima_actividad: '2026-10-20'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-20 |
+| Última actividad | 2026-10-24 |
 | Stack | git, node |
 | Rama | master |
 | Último commit | 2026-07-22 e6c6b88 Planes de implementación: rediseño visual + bot agéntico |

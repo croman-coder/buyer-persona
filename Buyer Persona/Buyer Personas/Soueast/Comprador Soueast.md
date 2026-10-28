@@ -6,7 +6,7 @@ age_range: 35-44
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-24'
+created: '2026-10-28'
 tags:
 - buyer-persona
 - marketing
@@ -18,7 +18,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este público, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-26 → 2026-10-24 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-30 → 2026-10-28 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -26,17 +26,17 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 35-44 (33.6% de los contactos) · perfil de la marca
-- **Género predominante:** Masculino (77.4%)
+- **Edad:** 35-44 (33.7% de los contactos) · perfil de la marca
+- **Género predominante:** Masculino (77.2%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-26 → 2026-10-24 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-30 → 2026-10-28 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Marca → `Soueast`
 - **Ticket promedio (ERP, facturado):** USD 26,239
 
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 21,8 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,26×).
+- **Meta:** ellas son el 21,7 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,30×).
 - **Quién paga (ERP, 12 meses):** el 18,6 % de las compras a cliente final las factura una empresa.
 - **Para Meta Ads:** Una pieza que les hable a ellas, que son las que avanzan · Una pieza para quien compra a nombre de su empresa.
 
@@ -49,14 +49,14 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** audiencia de Meta de la marca **Soueast** (4,971 contactos), ponderado por contactos (formularios y chats) — Masculino 77.4%
-- **Distribución de edad (Meta):** 35-44: 33.6%, 45-54: 21.6%, 25-34: 21.4%, 55-64: 11.2%, 18-24: 6.2%, 65+: 5.9%
+- **Fuente edad/género:** audiencia de Meta de la marca **Soueast** (4,924 contactos), ponderado por contactos (formularios y chats) — Masculino 77.2%
+- **Distribución de edad (Meta):** 35-44: 33.7%, 45-54: 21.8%, 25-34: 21.0%, 55-64: 11.5%, 18-24: 6.1%, 65+: 5.9%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🧾 Quién compró de verdad (Bitrix: ganados + Facturación)
 
-- **82 negocios** de la marca: 25 ganados y 57 en Facturación (ya son ventas que se van a cerrar).
-- **25 vinieron de un lead de Meta** (cruce seguro por teléfono o mail); otros 2 son posibles, sin confirmar.
+- **85 negocios** de la marca: 26 ganados y 59 en Facturación (ya son ventas que se van a cerrar).
+- **25 vinieron de un lead de Meta** (cruce seguro por teléfono o mail); otros 3 son posibles, sin confirmar.
 - **Plataforma del lead:** Instagram 17 · Facebook 8 · **Cuenta:** Cuenta madre 16 · Cuentas de asesores 9.
 - **Del lead a la venta:** mediana de 29 días; el 75 % compra antes de los 39.
 - **Edad estimada de quien compra:** 35-44: 33 % · 25-34: 22 % · 45-54: 22 % · 55-64: 11 % · **Género:** Masculino 76 % · Femenino 24 %.
@@ -66,13 +66,13 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 
 _Qué es: los temas que aparecen en los anuncios que este público ve y clickea. No son intereses declarados (Meta dejó de exponerlos en 2021): es con qué le estamos hablando y qué responde. El % es la parte de los anuncios que toca cada tema._
 
-**Intereses observados** (306 anuncios reales leídos):
+**Intereses observados** (310 anuncios reales leídos):
 - Tecnología y conectividad · 53.8% de los anuncios
-- Garantía y respaldo posventa · 50.2% de los anuncios
-- Diseño y estatus · 44.8% de los anuncios
-- Financiación en cuotas · 27.4% de los anuncios
-- Autos eléctricos y ahorro de combustible · 25.8% de los anuncios
-- Familia y espacio · 20.1% de los anuncios
+- Garantía y respaldo posventa · 50.8% de los anuncios
+- Diseño y estatus · 45.5% de los anuncios
+- Financiación en cuotas · 27.1% de los anuncios
+- Autos eléctricos y ahorro de combustible · 25.4% de los anuncios
+- Familia y espacio · 20.5% de los anuncios
 
 _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, para no tener el mismo número dos veces._
 
@@ -122,7 +122,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!warning] 🔴 Dolores y Frustraciones
 
-> _De dónde sale: del texto de 299 anuncios reales de esta marca. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
+> _De dónde sale: del texto de 303 anuncios reales de esta marca. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
 >
 > - Compara el valor de la cuota mensual, no solo el precio de lista
 > - Necesita espacio y capacidad suficiente para uso familiar
@@ -151,7 +151,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Canales:** Prioriza Showroom.
 > **Formato:** En formularios, el video y la imagen (gráfica) no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — Soueast]].
 > **Públicos hoy:** 37.5% de los adsets activos van a público frío; 30 de 48 adsets usan base propia (8 lookalike).
-> **Inversión actual:** USD 7,499 en la ventana (~USD 2,500/mes), 1,490 leads → costo por lead USD 5.03.
+> **Inversión actual:** USD 7,517 en la ventana (~USD 2,506/mes), 1,503 leads → costo por lead USD 5.0.
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -166,17 +166,17 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Soueast (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 1,490
-> **Modelos más pedidos (toda la marca):** Pago 2 (217), Pago 1 (89), S08 Phev (83)
-> **Interés de compra:** en_1_a_3_meses (717), inmediatamente (451)
+> **Total de leads de la marca en la ventana:** 1,503
+> **Modelos más pedidos (toda la marca):** Pago 2 (257), Pago 1 (99), S08 Phev (95)
+> **Interés de compra:** en_1_a_3_meses (696), inmediatamente (438)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Soueast (90 días)
 
-> **Leads:** 3,142 → **convertidos:** 4 (0.1%)
-> **Por canal:** Meta madre 1,802, Meta asesores 1,249, Meta otros 76, Otros canales 15
-> **Deals:** 116 — ganados 23, perdidos 6, en proceso 87 (win rate 79.3%)
-> **Monto ganado:** USD 606,300 · ticket promedio USD 26,361
+> **Leads:** 3,105 → **convertidos:** 4 (0.1%)
+> **Por canal:** Meta madre 1,798, Meta asesores 1,241, Meta otros 46, Otros canales 20
+> **Deals:** 120 — ganados 24, perdidos 7, en proceso 89 (win rate 77.4%)
+> **Monto ganado:** USD 632,790 · ticket promedio USD 26,366
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 
 
@@ -198,7 +198,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-24 06:47*
+*Generado el 2026-10-28 06:48*
 
 ## 🔗 Contenido Relacionado
 

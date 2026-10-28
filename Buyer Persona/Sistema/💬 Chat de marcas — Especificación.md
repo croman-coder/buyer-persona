@@ -114,4 +114,11 @@ Pedido de Choco por WhatsApp con el Excel «ACCIONES COMERCIALES OCTUBRE»: que 
 - **No subir planillas con costos, márgenes, descuentos ni precios**: se rechazan solas. Los precios de lista van aparte (solo PVP).
 - **«Nueva pregunta»**: pregunta y respuesta escritas por el equipo (se puede guardar ya aprobada).
 - En **Conversaciones**, cuando el chat no supo responder, **«Crear respuesta»** arma la pregunta frecuente con lo que preguntó el cliente.
-- Pendiente (etapa 2): imágenes y PDF escaneados.
+- **Imágenes y PDF escaneados (2026-10-26, etapa 2):** el mismo «Subir documento» acepta **PNG, JPG, WEBP** y PDF sin texto. Una **IA lee el texto** (el modelo del chat en el servidor, ~20 s por página; PDF de hasta 20 páginas escaneadas), en segundo plano: aparece una franja «Leyendo…» y, al terminar, el documento se abre solo. **La revisión es obligatoria**: al lado está la imagen original para comparar números y nombres, hay un aviso con casilla «Leí el aviso» y sin ella no se puede aprobar. Si el texto menciona precios, costos o descuentos, el aviso lo marca (el chat solo da el PVP de la lista). Si falla, se ve el motivo y «Probar de nuevo». No abre fotos HEIC de iPhone sin convertir. Detalle técnico: plan 3 del chat, «etapa 2».
+
+## Hilo de la conversación, idiomas y memoria (2026-10-26)
+
+- **Sigue el hilo:** si el cliente hablaba del S06 y pide «el precio», le da el del S06 aunque esté mirando la página del S08. Solo si pasa a la página de otro modelo, manda la página nueva. Lo mismo para fotos, datos y el formulario (el prospecto lleva el modelo del que hablaba).
+- **Idiomas:** entiende y contesta en **español, inglés y portugués** (también precio, fotos, sucursales, contacto y las derivaciones), y el robot traduce sus botones y su formulario. Otros idiomas: la IA contesta en ese idioma pero los textos fijos salen en español.
+- **Memoria:** Redis (servicio propio del proyecto, con clave, vence a las 24 h). Si Redis falla, el chat sigue igual con respaldo.
+- **«¿Cuál es el más barato?»** se contesta con la lista de precios (versión de menor PVP; si empatan, las dos).

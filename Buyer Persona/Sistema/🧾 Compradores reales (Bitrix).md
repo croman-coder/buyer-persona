@@ -1,6 +1,6 @@
 ---
 type: compradores-bitrix
-generado: '2026-10-24'
+generado: '2026-10-28'
 tags: [bitrix, ventas, meta-ads, buyer-persona]
 ---
 # 🧾 Compradores reales (Bitrix)
@@ -11,13 +11,13 @@ tags: [bitrix, ventas, meta-ads, buyer-persona]
 > - **Edad y género son estimados**: Meta no da la edad de cada lead, así que cada comprador toma la edad y el género de quienes contactaron por **su** anuncio. Sirve para ver hacia dónde se corre el perfil, no como dato exacto.
 > - Sin nombres de clientes ni de asesores. Fuente: tabla `ventas_origen` del tablero de Meta.
 
-Negocios del **2026-02-12** al **2026-10-23**.
+Negocios del **2026-02-12** al **2026-10-27**.
 
 ## Todas las marcas
 
-- **542 negocios**: 206 ganados y 336 en Facturación.
-- **89 vinieron de un lead de Meta** (16 %): 33 ganados y 56 en Facturación. Otros 19 son posibles, sin confirmar.
-- **Plataforma del lead:** Instagram 48 · Facebook 41. **Cuenta:** Cuenta madre 59 · Cuentas de asesores 30.
+- **576 negocios**: 217 ganados y 359 en Facturación.
+- **99 vinieron de un lead de Meta** (17 %): 36 ganados y 63 en Facturación. Otros 21 son posibles, sin confirmar.
+- **Plataforma del lead:** Instagram 54 · Facebook 45. **Cuenta:** Cuenta madre 67 · Cuentas de asesores 32.
 - **Del lead a la venta:** mediana de 26 días; el 75 % compra antes de los 43. En ventas, una campaña se juzga recién a las ~6 semanas.
 - **Edad estimada:** 35-44: 32 % · 25-34: 25 % · 45-54: 21 % · 55-64: 10 %. **Género estimado:** Masculino 78 % · Femenino 22 %.
 
@@ -25,15 +25,15 @@ Negocios del **2026-02-12** al **2026-10-23**.
 
 | Marca | Negocios (ganados + Facturación) | Con lead de Meta | Plataforma | Cuenta | Días (mediana) | Edad estimada |
 |---|---|---|---|---|---|---|
-| Soueast | 82 (25 + 57) | 25 (30 %) | Instagram 17 · Facebook 8 | Cuenta madre 16 · Cuentas de asesores 9 | 29 | 35-44 (33 %) |
-| GWM | 176 (40 + 136) | 22 (12 %) | Instagram 14 · Facebook 8 | Cuenta madre 13 · Cuentas de asesores 9 | 24 | 35-44 (31 %) |
-| Jetour | 81 (28 + 53) | 14 (17 %) | Facebook 9 · Instagram 5 | Cuentas de asesores 8 · Cuenta madre 6 | 24 | pocos (14 de 15) |
+| Soueast | 85 (26 + 59) | 25 (29 %) | Instagram 17 · Facebook 8 | Cuenta madre 16 · Cuentas de asesores 9 | 29 | 35-44 (33 %) |
+| GWM | 181 (47 + 134) | 23 (13 %) | Instagram 15 · Facebook 8 | Cuenta madre 14 · Cuentas de asesores 9 | 25 | 35-44 (32 %) |
+| Jetour | 97 (28 + 69) | 21 (22 %) | Facebook 12 · Instagram 9 | Cuenta madre 11 · Cuentas de asesores 10 | 24 | 35-44 (31 %) |
 | JAC | 48 (24 + 24) | 7 (15 %) | Facebook 4 · Instagram 3 | Cuenta madre 6 · Cuentas de asesores 1 | 16 | pocos (7 de 15) |
-| Renault | 72 (35 + 37) | 7 (10 %) | Facebook 4 · Instagram 3 | Cuenta madre 5 · Cuentas de asesores 2 | 21 | pocos (7 de 15) |
-| Renew | 52 (50 + 2) | 7 (13 %) | Facebook 4 · Instagram 3 | Cuenta madre 7 | 41 | pocos (7 de 15) |
-| JMEV | 12 (0 + 12) | 3 (25 %) | Facebook 2 · Instagram 1 | Cuenta madre 3 | 39 | pocos (3 de 15) |
+| Renault | 76 (35 + 41) | 7 (9 %) | Facebook 4 · Instagram 3 | Cuenta madre 5 · Cuentas de asesores 2 | 21 | pocos (7 de 15) |
+| Renew | 53 (53 + 0) | 7 (13 %) | Facebook 4 · Instagram 3 | Cuenta madre 7 | 41 | pocos (7 de 15) |
+| JMEV | 16 (0 + 16) | 5 (31 %) | Facebook 3 · Instagram 2 | Cuenta madre 5 | 22 | pocos (5 de 15) |
 | Mitsubishi | 13 (4 + 9) | 3 (23 %) | Facebook 2 · Instagram 1 | Cuenta madre 2 · Cuentas de asesores 1 | 70 | pocos (3 de 15) |
-| Leapmotor | 3 (0 + 3) | 1 (33 %) | Instagram 1 | Cuenta madre 1 | 60 | pocos (1 de 15) |
+| Leapmotor | 4 (0 + 4) | 1 (25 %) | Instagram 1 | Cuenta madre 1 | 60 | pocos (1 de 15) |
 | Zeekr | 3 (0 + 3) | 0 (0 %) | — | — | — | pocos (0 de 15) |
 
 ## Cómo usarlo

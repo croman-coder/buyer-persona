@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 06e45b4dfbddf8fce396407ebb876b0307f800f43cb9104ccad6df07b3bcca0c
+firma: bf044a2c29d5517b948859ab76ed6188b3229b18cca50d6f512f47e34cefa2bc
 git_rama: null
 git_remoto: null
 git_sin_subir: null
@@ -13,6 +13,7 @@ hijos:
 - asset-web-srpy-renew-usados
 - asset-web-srpy-santa-rosa-web
 - asset-web-srpy-soueast-web
+- asset-web-srpy-wt-trabaja-busquedas
 - asset-web-srpy-xpeng-paraguay
 - asset-web-srpy-zeekr
 nombre: ASSET WEB SRPY
@@ -22,7 +23,7 @@ ruta: /home/croman/Escritorio/ASSET WEB SRPY
 slug: asset-web-srpy
 stack: []
 tipo: cajon
-ultima_actividad: '2026-10-22'
+ultima_actividad: '2026-10-26'
 ---
 
 <!-- hermes:inicio -->
@@ -31,7 +32,7 @@ ultima_actividad: '2026-10-22'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-22 |
+| Última actividad | 2026-10-26 |
 | Stack | — |
 | Rama | — |
 | Último commit | — |

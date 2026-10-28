@@ -1,7 +1,7 @@
 ---
 tipo: competencia
 tema: herramientas de marketing de las webs del mercado
-actualizado: 2026-10-19
+actualizado: 2026-10-26
 tags: [competencia, marketing, pixel, generado]
 ---
 
@@ -16,16 +16,16 @@ Relacionado: [[⚔️ Benchmark Competitivo]] · [[⚔️ Bitácora de Competenc
 
 | Sitio | Pauta | Medición | Programática y datos | CRM, chat y automatización |
 |---|---|---|---|---|
-| [Nissan Paraguay](https://www.nissan.com.py) | Campaign Manager 360, Google Ads, Meta Conversions API (gateway), Meta Pixel, TikTok Pixel | Adobe Analytics, Adobe Launch (tags), Google Analytics 4, Google Tag Manager | Adobe Advertising (DSP), Adobe Audience Manager, e-planning | Customer.io |
+| [Nissan Paraguay](https://www.nissan.com.py) *(leído el 2026-10-19)* | Campaign Manager 360, Google Ads, Meta Conversions API (gateway), Meta Pixel, TikTok Pixel | Adobe Analytics, Adobe Launch (tags), Google Analytics 4, Google Tag Manager | Adobe Advertising (DSP), Adobe Audience Manager, e-planning | Customer.io |
 | [Nipon (Mitsubishi)](https://www.nipon.com.py) | — | Google Analytics 4, Google Tag Manager | — | — |
-| [Kia Paraguay (Garden)](https://kia.com.py) | Campaign Manager 360, Google Ads, Meta Conversions API (gateway), Meta Pixel, TikTok Pixel, X (Twitter) Ads | Google Analytics 4, Google Tag Manager, Microsoft Clarity | Adobe Advertising (DSP), Adobe Audience Manager, BidSwitch, Eyeota, Index Exchange, LiveIntent, LiveRamp, Media.net, Neustar (TransUnion), Nexxen (Tremor), OpenX, PubMatic, Xandr, Zeta Global | Customer.io |
+| [Kia Paraguay (Garden)](https://kia.com.py) *(leído el 2026-10-19)* | Campaign Manager 360, Google Ads, Meta Conversions API (gateway), Meta Pixel, TikTok Pixel, X (Twitter) Ads | Google Analytics 4, Google Tag Manager, Microsoft Clarity | Adobe Advertising (DSP), Adobe Audience Manager, BidSwitch, Eyeota, Index Exchange, LiveIntent, LiveRamp, Media.net, Neustar (TransUnion), Nexxen (Tremor), OpenX, PubMatic, Xandr, Zeta Global | Customer.io |
 | [Chery Paraguay (Garden)](https://www.chery.com.py) | Google Ads, Meta Pixel, TikTok Pixel | Google Analytics 4, Google Tag Manager | — | — |
 | [Geely Paraguay](https://geelyparaguay.com) | Google Ads, Meta Pixel, TikTok Pixel | Google Analytics 4, Google Tag Manager, Hotjar | — | — |
 | [Hyundai Paraguay](https://www.hyundai.com.py) | Google Ads, Meta Pixel, TikTok Pixel | Cloudflare Web Analytics, Google Analytics 4, Google Tag Manager | Adobe Advertising (DSP), Adobe Audience Manager, BidSwitch, Index Exchange, LiveIntent, LiveRamp, Media.net, Neustar (TransUnion), Nexxen (Tremor), OpenX, PubMatic, Xandr, Zeta Global | — |
 | [Diesa (VW/Honda/BYD)](https://www.diesa.com.py) | — | Google Analytics 4 | — | — |
 | [Toyotoshi (Toyota)](https://www.toyotoshi.com.py) | Meta Pixel | Google Analytics 4, Google Tag Manager, Microsoft Clarity | — | — |
 | [Automaq (Peugeot/Citroën)](https://automaq.com.py) | Meta Pixel | Google Analytics 4, Google Tag Manager, Microsoft Clarity | — | — |
-| [Grupo Garden](https://www.garden.com.py) | LinkedIn Insight, Meta Pixel, TikTok Pixel | Google Analytics 4, Google Tag Manager | Lotame | iCommKT (email marketing) |
+| [Grupo Garden](https://www.garden.com.py) *(leído el 2026-10-19)* | LinkedIn Insight, Meta Pixel, TikTok Pixel | Google Analytics 4, Google Tag Manager | Lotame | iCommKT (email marketing) |
 | [DLS Motors (GAC)](https://www.dlsmotors.com.py) | Google Ads | — | — | — |
 
 ## Nuestros sitios
@@ -156,6 +156,6 @@ Relacionado: [[⚔️ Benchmark Competitivo]] · [[⚔️ Bitácora de Competenc
 > [!danger] Uso interno
 > Por ley de Paraguay no se puede hacer publicidad comparativa nombrando marcas o modelos de la competencia. Esto sirve para decidir qué medir y dónde pautar nosotros, nunca para un copy público.
 
-*Generado el 2026-10-19 por stack_marketing_competencia.py*
+*Generado el 2026-10-26 por stack_marketing_competencia.py*
 
 <!-- hermes:fin -->

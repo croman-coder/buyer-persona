@@ -1,6 +1,6 @@
 ---
-estado: activo
-firma: 3f576bd6339765afc10cc1e0aa20181c23da4ca9ca22a7b5f223eb1ffccea774
+estado: dormido
+firma: 303469361766c3a6819781f3220101c99738bc607e35a1b551899342751be301
 git_rama: master
 git_remoto: null
 git_sin_subir: 10
@@ -24,7 +24,7 @@ ultima_actividad: '2026-09-24'
 
 | Campo | Valor |
 | --- | --- |
-| Estado | activo |
+| Estado | dormido |
 | Última actividad | 2026-09-24 |
 | Stack | git, node |
 | Rama | master |

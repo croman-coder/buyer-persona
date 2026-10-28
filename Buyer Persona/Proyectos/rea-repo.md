@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 0efbe5a48f108d3a0e6c892690a50988b9c6e10194ddba2eab564d71728f87c0
+firma: 68d39ccf54294dcabc3f1d5425d522aba7f51e05885d1b6ee0dbee51fd5b73de
 git_rama: main
 git_remoto: https://github.com/morluto/rea.git
 git_sin_subir: 0

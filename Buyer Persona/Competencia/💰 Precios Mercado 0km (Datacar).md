@@ -1,8 +1,8 @@
 ---
 tipo: precios-competencia
 fuente: datacarpy.com (Firestore público)
-actualizado: 2026-10-24
-versiones: 639
+actualizado: 2026-10-28
+versiones: 644
 tags:
   - competencia
   - precios
@@ -11,7 +11,7 @@ tags:
 
 # 💰 Precios Mercado 0km — Datacar
 
-> Precios de lista **USD** publicados por cada concesionaria en [datacarpy.com](https://www.datacarpy.com/catalogo). 47 marcas · 298 modelos · 639 versiones con precio. Se actualiza con el pipeline diario.
+> Precios de lista **USD** publicados por cada concesionaria en [datacarpy.com](https://www.datacarpy.com/catalogo). 49 marcas · 300 modelos · 644 versiones con precio. Se actualiza con el pipeline diario.
 
 > [!danger] Solo uso interno
 > Por ley paraguaya no se puede nombrar marcas ni modelos de la competencia en publicidad. Esto sirve para fijar precio, argumentar en el salón y decidir pauta — nunca para un copy público.
@@ -24,19 +24,19 @@ Competencia directa = mismo subsegmento y precio dentro de ±25% de nuestra medi
 
 ### GWM
 
-#### GWM Haval Jolion — B-SUV · USD 15,990–21,990 · tercio medio
+#### GWM Haval Jolion — B-SUV · USD 15,990–21,990 · tercio más barato
 Nuestras versiones: Elite MT 15,990 · Elite 19,990 · Deluxe 21,990
 
 | Competidor | Versión | Precio | Δ | Combustible | Casa |
 |---|---|--:|--:|---|---|
 | **CITROËN BASALT** | 1.0 Turbo Shine | 19,990 | +0.0% | FLEX | Automaq |
 | **SUZUKI FRONX** | GLX 2WD AT Bitono | 19,990 | +0.0% | MHEV | Chacomer |
+| **SUZUKI JIMNY** | GL AT ALL GRIP  - Llantas Rhino | 19,990 | +0.0% | NAFTA | Chacomer |
 | **CHANGAN CS35 PLUS** | NEW MAX ELITE 2026 | 19,990 | +0.0% | NAFTA | Gorostiaga |
 | **NISSAN KAIT** | Sense | 19,990 | +0.0% | FLEX | Grupo Garden |
 | **CHEVROLET SONIC** | 1.0T Premier AT | 19,990 | +0.0% | FLEX | Grupo Garden |
 | **CHEVROLET SPARK** | Activ EV | 19,990 | +0.0% | EV | Grupo Garden |
 | **CHEVROLET TRACKER** | Lite 1.0T AT | 19,990 | +0.0% | FLEX | Grupo Garden |
-| **SUZUKI JIMNY** | GL AT ALL GRIP  - Llantas Rhino | 19,850 | -0.7% | NAFTA | Chacomer |
 
 Solapamiento interno (mismas casa y banda): RENAULT KARDIAN 20,990 (+5%), JAC JS4 17,990 (-10%), JETOUR X50 17,500 (-12%)
 
@@ -46,6 +46,7 @@ Nuestras versiones: Luxury 4x2 Diesel 19,990 · Luxury 4x4 Diesel 21,990
 | Competidor | Versión | Precio | Δ | Combustible | Casa |
 |---|---|--:|--:|---|---|
 | **MAHINDRA PIKUP** | DC MT WORK S6 4x2 | 20,990 | +0.0% | DIESEL | Automotor |
+| **JIM PICKUP** | Classic 4x4 | 21,990 | +4.8% | DIESEL | Chacomer |
 | **CHERY HIMLA** | Comfort 2.3T 2WD | 23,990 | +14.3% | DIESEL | Grupo Garden |
 | **CHANGAN HUNTER** | 4X2 LUXURY MT 2027 | 24,490 | +16.7% | DIESEL | Gorostiaga |
 | **MAXUS T60 D20** | Comfort 4x2 | 25,000 | +19.1% | DIESEL | Condor |
@@ -194,6 +195,7 @@ Nuestras versiones: 4x2 Intermedia 19,990 · 4x4 Full 23,490
 
 | Competidor | Versión | Precio | Δ | Combustible | Casa |
 |---|---|--:|--:|---|---|
+| **JIM PICKUP** | Classic 4x4 | 21,990 | +1.1% | DIESEL | Chacomer |
 | **MAHINDRA PIKUP** | DC MT WORK S6 4x2 | 20,990 | -3.4% | DIESEL | Automotor |
 | **CHERY HIMLA** | Comfort 2.3T 2WD | 23,990 | +10.3% | DIESEL | Grupo Garden |
 | **CHANGAN HUNTER** | 4X2 LUXURY MT 2027 | 24,490 | +12.6% | DIESEL | Gorostiaga |
@@ -221,11 +223,11 @@ Nuestras versiones: Advance 29,990 · Luxury 32,490
 | **MAXUS T60** | T60 D20 Elite AT 4x2 | 31,000 | -0.8% | DIESEL | Condor |
 | **CHERY HIMLA** | Luxury 2.3T 4WD | 30,990 | -0.8% | DIESEL | Grupo Garden |
 | **CHANGAN HUNTER** | Elite 4x4 | 31,990 | +2.4% | DIESEL | Gorostiaga |
+| **JMC GRAND AVENUE** | Grand Avenue 4x4 AT | 31,990 | +2.4% | DIESEL | Chacomer |
 | **RIDDARA RD6 PHEV** | GL | 31,990 | +2.4% | PHEV | Automotor |
 | **PEUGEOT LANDTREK** | Active 4x4 | 29,990 | -4.0% | DIESEL | Automaq |
 | **MAHINDRA PIKUP** | CD 4X4 AT FULL S11 | 28,990 | -7.2% | DIESEL | Automotor |
 | **ISUZU D-MAX** | STD PLUS 1.9 cc | CS | MT | 33,990 | +8.8% | DIESEL | Automotor |
-| **CHEVROLET S10** | WT 4X4 MT Simple Cabina | 33,990 | +8.8% | DIESEL | Grupo Garden |
 
 Solapamiento interno (mismas casa y banda): GWM POER 29,990 (-4%), MITSUBISHI L200 35,990 (+15%)
 
@@ -440,7 +442,7 @@ Nuestras versiones: 4X2 GLX 36,990 · 4X4 GLS 41,990
 | **KIA SPORTAGE HÍBRIDA** | EX Full | 39,990 | +1.3% | HEV | Grupo Garden |
 | **LYNK & CO 08** | HALO | 38,990 | -1.3% | PHEV | Automotor |
 | **KIA EV5** | Light | 39,990 | +1.3% | EV | Grupo Garden |
-| **HONDA ZR-V** | e:HEV | 38,900 | -1.5% | HEV | VICAR |
+| **VOLKSWAGEN TIGUAN** | Life 250 TSI | 40,900 | +3.6% | NAFTA | Diesa |
 
 Solapamiento interno (mismas casa y banda): GWM H6 GT 39,990 (+1%), GWM TANK 300 39,990 (+1%), JETOUR T2 40,990 (+4%), JETOUR T1 35,990 (-9%), ZEEKR X 34,990 (-11%)
 
@@ -735,9 +737,9 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 |---|---|---|--:|---|---|
 | SUZUKI | DZIRE | GL Manual | 12,490 | MHEV | Chacomer |
 | KIA | SOLUTO | LX MT | 12,500 | NAFTA | Grupo Garden |
-| SUZUKI | DZIRE | GL Automática CVT | 13,100 | MHEV | Chacomer |
 | HYUNDAI | HB20S | 1.6 MT | 13,990 | NAFTA | Automotor |
 | KIA | SOLUTO | LX AT | 13,990 | NAFTA | Grupo Garden |
+| SUZUKI | DZIRE | GL Automática CVT | 14,990 | MHEV | Chacomer |
 | KIA | SOLUTO | EX AT | 14,990 | NAFTA | Grupo Garden |
 | HYUNDAI | HB20S | 1.6 AT | 15,990 | NAFTA | Automotor |
 | KIA | K3 | LX - AT | 19,990 | NAFTA | Grupo Garden |
@@ -790,10 +792,10 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 | SUZUKI | FRONX | GLX 2WD AT | 19,490 | MHEV | Chacomer |
 | SUZUKI | JIMNY | GL AT ALL GRIP | 19,490 | NAFTA | Chacomer |
 | VOLKSWAGEN | TERA | 1.0 MPI MT | 19,500 | FLEX | Diesa |
-| SUZUKI | JIMNY | GL AT ALL GRIP  - Llantas Rhino | 19,850 | NAFTA | Chacomer |
 | CITROËN | BASALT | 1.0 Turbo Shine | 19,990 | FLEX | Automaq |
 | CHANGAN | CS35 PLUS | NEW MAX ELITE 2026 | 19,990 | NAFTA | Gorostiaga |
 | SUZUKI | FRONX | GLX 2WD AT Bitono | 19,990 | MHEV | Chacomer |
+| SUZUKI | JIMNY | GL AT ALL GRIP  - Llantas Rhino | 19,990 | NAFTA | Chacomer |
 | NISSAN | KAIT | Sense | 19,990 | FLEX | Grupo Garden |
 | CHEVROLET | SONIC | 1.0T Premier AT | 19,990 | FLEX | Grupo Garden |
 | CHEVROLET | SPARK | Activ EV | 19,990 | EV | Grupo Garden |
@@ -806,6 +808,7 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 | **RENAULT** | KARDIAN | Iconic | 20,990 | NAFTA | Santa Rosa |
 | TOYOTA | RAIZE | SPORT (2027) | 21,300 | NAFTA | Toyotoshi |
 | CITROËN | C4 CACTUS | SHINE | 21,490 | FLEX | Automaq |
+| SUZUKI | XL7 | GL 2WD | 21,490 | MHEV | Chacomer |
 | CHEVROLET | SONIC | 1.0T RS AT | 21,500 | FLEX | Grupo Garden |
 | CHEVROLET | TRACKER | LTZ 1.2T AT | 21,500 | FLEX | Grupo Garden |
 | CITROËN | C3 AIRCROSS | Shine 7S | 21,690 | FLEX | Automaq |
@@ -818,7 +821,6 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 | MAHINDRA | XUV 3XO | AX7L Luxury | 21,990 | NAFTA | Automotor |
 | CITROËN | C3 AIRCROSS | Shine 5S | 22,490 | FLEX | Automaq |
 | SUZUKI | JIMNY 5-DOOR | GL 4WD ALL GRIP Llantas Rhino | 22,490 | NAFTA | Chacomer |
-| SUZUKI | XL7 | GL 2WD | 22,490 | MHEV | Chacomer |
 | VOLKSWAGEN | TERA | CL 170 TSI AT | 22,500 | FLEX | Diesa |
 | JEEP | AVENGER | Longitude MHEV | 22,990 | MHEV | Grupo Garden |
 | HYUNDAI | NEW CRETA | Comfort | 22,990 | NAFTA | Automotor |
@@ -830,6 +832,7 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 | VOLKSWAGEN | NIVUS | Comfortline | 23,900 | FLEX | Diesa |
 | KIA | NEW SONET | EX AT LIMITED | 23,990 | NAFTA | Grupo Garden |
 | FIAT | PULSE | Abarth Turbo Flex (2027) | 23,990 | FLEX | Grupo Garden |
+| SUZUKI | VITARA ACROSS | GLX 2WD | 24,490 | MHEV | Chacomer |
 | VOLKSWAGEN | TERA | HL 170 TSI AT | 24,500 | FLEX | Diesa |
 | NISSAN | KICKS | Sense 2027 | 24,990 | FLEX | Grupo Garden |
 | JEEP | AVENGER | Limited MHEV | 24,990 | MHEV | Grupo Garden |
@@ -837,7 +840,6 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 | JEEP | RENEGADE | Altitude | 24,990 | FLEX | Grupo Garden |
 | KIA | SELTOS | LX MT | 24,990 | DIESEL | Grupo Garden |
 | CHEVROLET | TRACKER | RS 1.2T AT | 24,990 | FLEX | Grupo Garden |
-| SUZUKI | VITARA ACROSS | GLX 2WD | 24,990 | MHEV | Chacomer |
 | SUZUKI | JIMNY 5-DOOR | GLX 4WD ALL GRIP | 25,339 | NAFTA | Chacomer |
 | SUZUKI | VITARA ACROSS | GLX 2WD Bitono | 25,490 | MHEV | Chacomer |
 | LYNK & CO | 06 | MAX | 25,500 | PHEV | Automotor |
@@ -1019,6 +1021,7 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 | SSANGYONG KGM | TORRES | HEV Deluxe Híbrida | 34,990 | HEV | Automotor |
 | **ZEEKR** | X | Premium | 34,990 | EV | Santa Rosa |
 | FORD | TERRITORY | Titanium | 35,000 | NAFTA | Tape Ruvicha |
+| HONDA | ZR-V | e:HEV | 35,900 | HEV | VICAR |
 | LYNK & CO | 08 | PRO | 35,990 | PHEV | Automotor |
 | MAZDA | CX-5 | HIGH 2WD | 35,990 | NAFTA | Grupo Garden |
 | NISSAN | QASHQAI | Advance Plus | 35,990 | NAFTA | Grupo Garden |
@@ -1031,7 +1034,6 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 | **JETOUR** | T2 | Luxury | 36,990 | NAFTA | Santa Rosa |
 | BYD | SONG PLUS DM-I | GS | 37,900 | PHEV | Diesa |
 | NISSAN | X-TRAIL E-POWER | ADVANCE AWD | 37,990 | REEV | Grupo Garden |
-| HONDA | ZR-V | e:HEV | 38,900 | HEV | VICAR |
 | LYNK & CO | 08 | HALO | 38,990 | PHEV | Automotor |
 | NISSAN | QASHQAI | Exclusive | 38,990 | NAFTA | Grupo Garden |
 | PEUGEOT | 3008 | GT Line 1.6 THP 165 EAT6 | 39,990 | NAFTA | Automaq |
@@ -1094,13 +1096,15 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 | KIA | CARNIVAL | EX Limited | 58,990 | HEV | Grupo Garden |
 | KIA | CARNIVAL | EX Ejecutivo | 62,990 | HEV | Grupo Garden |
 
-### D-PICKUP (102 versiones)
+### D-PICKUP (107 versiones)
 
 | Marca | Modelo | Versión | Precio | Combustible | Casa |
 |---|---|---|--:|---|---|
+| JIM | PICKUP | Classic 4x2 | 18,990 | DIESEL | Chacomer |
 | **JAC** | T8 | 4x2 Intermedia | 19,990 | DIESEL | Santa Rosa |
 | **GWM** | WINGLE 7 | Luxury 4x2 Diesel | 19,990 | DIESEL | Santa Rosa |
 | MAHINDRA | PIKUP | DC MT WORK S6 4x2 | 20,990 | DIESEL | Automotor |
+| JIM | PICKUP | Classic 4x4 | 21,990 | DIESEL | Chacomer |
 | **GWM** | WINGLE 7 | Luxury 4x4 Diesel | 21,990 | DIESEL | Santa Rosa |
 | MAHINDRA | PIKUP | CS MT S6 4x4 | 22,990 | DIESEL | Automotor |
 | **JAC** | T8 | 4x4 Full | 23,490 | DIESEL | Santa Rosa |
@@ -1113,6 +1117,7 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 | MAXUS | T60 D20 | Comfort 4x4 | 26,900 | DIESEL | Condor |
 | MAXUS | T60 | T60 D20 Comfort SC 4x4 | 26,900 | DIESEL | Condor |
 | PEUGEOT | LANDTREK | Active 4x2 | 27,990 | DIESEL | Automaq |
+| JIM | PICKUP | New Pro 4x4 | 27,990 | DIESEL | Chacomer |
 | MAXUS | T60 | Comfort 2.0 Turbo 4x4 MT6 | 28,900 | DIESEL | Condor |
 | MAXUS | T60 | T60 D20 Comfort 4x4 | 28,900 | DIESEL | Condor |
 | MAHINDRA | PIKUP | CD 4X4 AT FULL S11 | 28,990 | DIESEL | Automotor |
@@ -1123,6 +1128,7 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 | MAXUS | T60 | T60 D20 Elite AT 4x2 | 31,000 | DIESEL | Condor |
 | MAXUS | T60 | T60 D20 Elite AT 4x2 Edición Limitada | 31,000 | DIESEL | Condor |
 | MAXUS | T60 | T60 D20 Elite AT 4x2 con Cuero | 31,900 | DIESEL | Condor |
+| JMC | GRAND AVENUE | Grand Avenue 4x4 AT | 31,990 | DIESEL | Chacomer |
 | CHANGAN | HUNTER | Elite 4x4 | 31,990 | DIESEL | Gorostiaga |
 | RIDDARA | RD6 PHEV | GL | 31,990 | PHEV | Automotor |
 | **JAC** | T9 | Luxury | 32,490 | DIESEL | Santa Rosa |
@@ -1149,6 +1155,7 @@ Ordenado por precio. Nuestras marcas en **negrita**.
 | CHEVROLET | S10 | Worktruck 4x4 AT - Doble Cabina | 38,990 | DIESEL | Grupo Garden |
 | RAM | DAKOTA | BIGHORN | 39,990 | DIESEL | Grupo Garden |
 | NISSAN | FRONTIER CD | XE Doble Cabina 4x4 AT | 39,990 | DIÉSEL | Grupo Garden |
+| JMC | GRAND AVENUE | Grand Avenue Off Road 4x4 AT | 39,990 | DIESEL | Chacomer |
 | **MITSUBISHI** | L200 | GLX MT Semi Full 4WD | 39,990 | DIESEL | Santa Rosa |
 | PEUGEOT | LANDTREK | 4-ACTION 4x4 Automática | 39,990 | DIESEL | Automaq |
 | KIA | TASMAN | LX 2.2 Diésel 2WD | 39,990 | DIESEL | Grupo Garden |

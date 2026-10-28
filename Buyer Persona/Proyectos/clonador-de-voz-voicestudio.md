@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 37ce1e852323752adbe4b25f6c7e56974513fce75a6460840250eeb8789239f3
+firma: 1498738ae4871c130527a85bc96755bd22063de0b37ed6dcb27279aa556b3cbb
 git_rama: main
 git_remoto: https://github.com/debpalash/VoiceStudio.git
 git_sin_subir: 0

@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: Renault
-periodo_meta: 2026-07-26 a 2026-10-24
-created: 2026-10-24
+periodo_meta: 2026-07-30 a 2026-10-28
+created: 2026-10-28
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,7 +12,7 @@ tags:
 # 👥 Quién mira y quién decide — Renault
 
 > [!summary] En una línea
-> En Meta, ellas son el 26,8 % de los clics y contactan igual que ellos con el mismo anuncio (1,01×). El 39,6 % de las compras a cliente final las factura una empresa. En el 0,6 % de los chats el cliente nombra a otra persona.
+> En Meta, ellas son el 26,7 % de los clics y contactan igual que ellos con el mismo anuncio (1,01×). El 39,6 % de las compras a cliente final las factura una empresa. En el 0,8 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
 > 1. **Una pieza que les hable a ellas, que son las que avanzan** — «Espacio para todos». Detalle en la sección 5.
@@ -28,23 +28,23 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-26** al **2026-10-24**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-30** al **2026-10-28**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **Renault** | 26,8 % | 26,5 % | **1,01×** | 31 (ellas menos en 13) | Sin diferencia: ellas y ellos contactan igual |
-| [[Renault Koleos|Renault Koleos]] | 33,0 % | 31,0 % | 0,99× | 13 (ellas menos en 6) | Sin diferencia: ellas y ellos contactan igual |
-| [[Renault Oroch|Renault Oroch]] | 18,6 % | 21,4 % | 1,21× | 4 (ellas menos en 1) | Las que miran, contactan más que ellos |
-| [[Renault Master|Renault Master]] | 20,4 % | 18,4 % | 0,92× | 6 (ellas menos en 3) | Sin diferencia: ellas y ellos contactan igual |
+| **Renault** | 26,7 % | 26,5 % | **1,01×** | 28 (ellas menos en 12) | Sin diferencia: ellas y ellos contactan igual |
+| [[Renault Koleos|Renault Koleos]] | 32,9 % | 31,4 % | 1,00× | 11 (ellas menos en 6) | Sin diferencia: ellas y ellos contactan igual |
+| [[Renault Master|Renault Master]] | 20,3 % | 17,8 % | 0,87× | 6 (ellas menos en 3) | Misma tendencia, con pocos conjuntos para confirmarlo |
+| [[Renault Oroch|Renault Oroch]] | 19,0 % | 22,2 % | 1,22× | 4 (ellas menos en 1) | Las que miran, contactan más que ellos |
 | [[Renault Boreal|Renault Boreal]] | 19,0 % | 23,8 % | 1,14× | 3 (ellas menos en 1) | Las que miran, contactan más que ellos |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|---|
-| 21,6 % | 17,4 % | 20,2 % | 19,9 % | 17,0 % | 15,3 % |
+| 21,8 % | 17,0 % | 20,1 % | 20,0 % | 17,1 % | 14,9 % |
 
-Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,84×).
+Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,83×).
 
 ## 2. ¿Qué le interesa a cada uno?
 
@@ -54,10 +54,10 @@ Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema su
 
 | Modelo | Tema del anuncio | 55+ en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| Renault Koleos | Familia y espacio | 31,6 % | +10,4 | 1.791 (4) |
-| Renault Koleos | Financiación en cuotas | 27,6 % | +6,4 | 10.697 (21) |
+| Renault Koleos | Financiación en cuotas | 28,2 % | +6,8 | 10.088 (19) |
+| Renault Master | Seguridad y asistencias a la conducción | 24,7 % | +6,3 | 1.807 (8) |
 
-**Lo que menos las atrae** (evitarlo en la pieza para ellas): Renault Oroch: familia y espacio (-7,9); Renault Koleos: familia y espacio (-6,8); Renault Master: seguridad y asistencias a la conducción (-4,2).
+**Lo que menos las atrae** (evitarlo en la pieza para ellas): Renault Oroch: familia y espacio (-7,8); Renault Master: seguridad y asistencias a la conducción (-4,4).
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -76,10 +76,10 @@ Cuando compra una empresa hay un **comité**: decide el dueño o un gerente, pag
 
 ## 4. ¿Quién más aparece en las conversaciones?
 
-Chats de **Messenger e Instagram** de las páginas de Renault y de sus asesores, del 2026-07-21 al 2026-10-19. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
+Chats de **Messenger e Instagram** de las páginas de Renault y de sus asesores, del 2026-07-28 al 2026-10-26. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
 
-- **928** chats con texto del cliente · **0,6 %** nombran a otra persona.
-  - empresa o socio: 6
+- **976** chats con texto del cliente · **0,8 %** nombran a otra persona.
+  - empresa o socio: 8
 
 _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más que cuántas veces._
 
@@ -87,7 +87,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza que les hable a ellas, que son las que avanzan
 
-**Por qué:** Ellas son solo el 18,6 % de los clics, pero las que hacen clic contactan 1,21× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan. Más fuerte en Renault Oroch (1,21×).
+**Por qué:** Ellas son solo el 19,0 % de los clics, pero las que hacen clic contactan 1,22× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan. Más fuerte en Renault Oroch (1,22×).
 
 **Modelos donde más pesa:** Renault Oroch
 
@@ -128,9 +128,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-26 a 2026-10-24, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-30 a 2026-10-28, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: ventas a cliente final, 2025-09-11 a 2026-09-11.
-- Chats: Messenger e Instagram, lectura semanal (2026-10-19).
-- Generado el 2026-10-24 06:47 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Chats: Messenger e Instagram, lectura semanal (2026-10-26).
+- Generado el 2026-10-28 06:48 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[Renault|Volver a Renault]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

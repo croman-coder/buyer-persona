@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: cb377837061e51a8a2c5bbf5a4df59256f6901ca120dad7e718c0d23ea5f70cc
+firma: bf044a2c29d5517b948859ab76ed6188b3229b18cca50d6f512f47e34cefa2bc
 git_rama: null
 git_remoto: null
 git_sin_subir: null
@@ -13,7 +13,7 @@ ruta: /home/croman/Escritorio/Operativa
 slug: operativa
 stack: []
 tipo: cajon
-ultima_actividad: '2026-10-21'
+ultima_actividad: '2026-10-26'
 ---
 
 <!-- hermes:inicio -->
@@ -22,7 +22,7 @@ ultima_actividad: '2026-10-21'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-21 |
+| Última actividad | 2026-10-26 |
 | Stack | — |
 | Rama | — |
 | Último commit | — |

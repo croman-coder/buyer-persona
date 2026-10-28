@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: de514a233d9e2f2faa4746e900f6bf37f9c57e8ecf6a5be24eb9e9dbf6662088
+firma: fc77b752194dfe6942fa7f7290438f94bda01c82a5c144a0b0e95c79a0284c90
 git_rama: main
 git_remoto: https://github.com/croman-coder/innovacion-santarosa.git
 git_sin_subir: 0

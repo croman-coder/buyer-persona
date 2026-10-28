@@ -1,8 +1,8 @@
 ---
 type: materiales-meta
 marca: XPeng
-periodo: 2026-05-01 a 2026-10-24
-created: 2026-10-24
+periodo: 2026-05-01 a 2026-10-28
+created: 2026-10-28
 tags:
   - meta-ads
   - materiales
@@ -12,7 +12,7 @@ tags:
 # 🎬 Materiales que funcionan — XPeng
 
 > [!info] De dónde sale
-> Todos los anuncios de Meta de XPeng de **may a oct (al 24) (6 meses, del 2026-05-01 al 2026-10-24)**: 37 anuncios con gasto en 1 cuenta (la de la marca y las de los asesores), USD 4.078 de inversión. Se lee anuncio por anuncio de la API de Meta (formato, duración y tamaño de cada pieza, ubicación y resultados) y se cruza con las ventas del ERP. Se actualiza en cada corrida: **no editar a mano**.
+> Todos los anuncios de Meta de XPeng de **may a oct (al 28) (6 meses, del 2026-05-01 al 2026-10-28)**: 37 anuncios con gasto en 1 cuenta (la de la marca y las de los asesores), USD 4.078 de inversión. Se lee anuncio por anuncio de la API de Meta (formato, duración y tamaño de cada pieza, ubicación y resultados) y se cruza con las ventas del ERP. Se actualiza en cada corrida: **no editar a mano**.
 
 ## ✅ Qué dice el historial
 
@@ -104,7 +104,7 @@ Costo por lead de cada formato (entre paréntesis, cuántos leads). Mezcla conte
 | jul | USD 5,48 (141) | — | USD 5,98 (33) | USD 5,57 (174) |
 | ago | USD 3,16 (157) | USD 2,56 (148) | USD 6,77 (4) | USD 2,92 (309) |
 | sep | USD 2,17 (71) | USD 2,44 (91) | USD 2,38 (103) | USD 2,34 (265) |
-| oct (al 24) | USD 1,61 (26) | USD 2,04 (32) | USD 2,53 (41) | USD 2,13 (99) |
+| oct (al 28) | USD 1,61 (26) | USD 2,04 (32) | USD 2,53 (41) | USD 2,13 (99) |
 
 ### 🏆 Los anuncios que mejor rindieron
 

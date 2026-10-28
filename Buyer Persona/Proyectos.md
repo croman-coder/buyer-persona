@@ -2,26 +2,29 @@
 
 | Proyecto | Estado | Última actividad | Stack | Resumen |
 | --- | --- | --- | --- | --- |
-| [[ais-os]] | activo | 2026-10-24 | git | Proyecto en /home/croman/Escritorio/AIS-OS. Sin info de lenguaje en README. |
+| [[pdi-plainilla]] | activo | 2026-10-27 | git, node | — |
+| [[agencia-ia]] | activo | 2026-10-26 | docker, git, node | Proyecto en /home/croman/Escritorio/AGENCIA IA. Sin README. |
+| [[ais-os]] | activo | 2026-10-26 | git | Proyecto en /home/croman/Escritorio/AIS-OS. Sin info de lenguaje en README. |
+| [[asset-web-srpy]] | activo | 2026-10-26 | — | — |
+| [[asset-web-srpy-wt-trabaja-busquedas]] | activo | 2026-10-26 | git, node, web | — |
+| [[chat-marcas]] | activo | 2026-10-26 | docker, git, node | Proyecto en /home/croman/Escritorio/CHAT MARCAS. Sin README. |
+| [[dashboard-angel]] | activo | 2026-10-26 | — | — |
+| [[dashboard-angel-press-semanal-bi]] | activo | 2026-10-26 | git, node | Proyecto en /home/croman/Escritorio/DASHBOARD ANGEL/press-semanal-bi. Sin info de lenguaje en README. |
+| [[operativa]] | activo | 2026-10-26 | — | — |
+| [[seleccion-srpy]] | activo | 2026-10-26 | git, node | — |
 | [[callbot]] | activo | 2026-10-24 | docker, git | Proyecto en /home/croman/Escritorio/CALLBOT. Sin info de lenguaje en README. |
 | [[croman-ads-dashboard]] | activo | 2026-10-24 | docker, git, node | — |
-| [[pdi-plainilla]] | activo | 2026-10-24 | git, node | — |
-| [[seleccion-srpy]] | activo | 2026-10-24 | git, node | — |
-| [[agencia-ia]] | activo | 2026-10-23 | docker, git, node | Proyecto en /home/croman/Escritorio/AGENCIA IA. Sin README. |
+| [[dashboard-fernando]] | activo | 2026-10-24 | — | — |
+| [[dashboard-fernando-santa-rosa-advisor]] | activo | 2026-10-24 | git, node | — |
 | [[monitoreo-srpy]] | activo | 2026-10-23 | git, python | Proyecto en /home/croman/Escritorio/MONITOREO SRPY. Basado en Python. |
 | [[prospeccion-playas]] | activo | 2026-10-23 | — | — |
-| [[asset-web-srpy]] | activo | 2026-10-22 | — | — |
 | [[asset-web-srpy-renew-usados]] | activo | 2026-10-22 | git, node, web | Storefront y catálogo de vehículos usados certificados de Renew (división de Santa Rosa), con panel admin en Firebase y webhook de leads a Bitrix24 CRM, construido con Vite + React + TypeScript + Firestore. Activo; el último commit hizo visibles las ofertas también en el catálogo general y quedan 2 commits sin subir. |
-| [[chat-marcas]] | activo | 2026-10-22 | docker, git, node | Proyecto en /home/croman/Escritorio/CHAT MARCAS. Sin README. |
 | [[clearmechanic-srpy]] | activo | 2026-10-22 | git, node | Inspección digital de vehículos para la posventa (equivalente propio de ClearMechanic) |
 | [[asset-web-srpy-santa-rosa-web]] | activo | 2026-10-21 | git, node, web | — |
-| [[operativa]] | activo | 2026-10-21 | — | — |
 | [[rea]] | activo | 2026-10-21 | — | — |
 | [[rea-repo]] | activo | 2026-10-21 | git, node | — |
 | [[clonador-de-voz]] | activo | 2026-10-20 | — | — |
 | [[clonador-de-voz-voicestudio]] | activo | 2026-10-20 | git, node, python | — |
-| [[dashboard-fernando]] | activo | 2026-10-20 | — | — |
-| [[dashboard-fernando-santa-rosa-advisor]] | activo | 2026-10-20 | git, node | — |
 | [[innovacion-web]] | activo | 2026-10-20 | docker, git, web | — |
 | [[asset-web-srpy-mitsubishi-motors-paraguay]] | activo | 2026-10-19 | git, node, web | — |
 | [[controlador-de-tv]] | activo | 2026-10-19 | docker, git, node | — |
@@ -37,8 +40,6 @@
 | [[asset-web-srpy-zeekr]] | activo | 2026-10-13 | docker, git, web | Proyecto en /home/croman/Escritorio/ASSET WEB SRPY/zeekr. Sin README. |
 | [[gestion-compras]] | activo | 2026-10-13 | git, node | — |
 | [[licitacion-srpy]] | activo | 2026-10-13 | — | — |
-| [[dashboard-angel]] | activo | 2026-10-12 | — | — |
-| [[dashboard-angel-press-semanal-bi]] | activo | 2026-10-12 | git, node | Proyecto en /home/croman/Escritorio/DASHBOARD ANGEL/press-semanal-bi. Sin info de lenguaje en README. |
 | [[tasacion-renew]] | activo | 2026-10-12 | git, node | — |
 | [[performance-santa-rosa]] | activo | 2026-10-09 | docker, git, node, web | Proyecto en /home/croman/Escritorio/performance-santa-rosa. Sin README. |
 | [[blender]] | activo | 2026-10-08 | — | — |
@@ -49,8 +50,8 @@
 | [[asset-web-srpy-jmev-web]] | activo | 2026-10-06 | git, node | — |
 | [[cotizador-srpy]] | activo | 2026-10-06 | docker, git, node | Proyecto en /home/croman/Escritorio/COTIZADOR SRPY. Basado en JavaScript/Node. |
 | [[tasacion-embed-crm]] | activo | 2026-09-27 | git, node | Proyecto en /home/croman/Escritorio/tasacion-embed-crm. Sin info de lenguaje en README. |
-| [[calidad-nps]] | activo | 2026-09-24 | git, node | — |
-| [[prueba-jev]] | activo | 2026-09-24 | — | — |
+| [[calidad-nps]] | dormido | 2026-09-24 | git, node | — |
+| [[prueba-jev]] | dormido | 2026-09-24 | — | — |
 | [[prospectos-asesores]] | dormido | 2026-09-21 | docker, git, node | Proyecto en /home/croman/Escritorio/PROSPECTOS ASESORES. Sin info de lenguaje en README. |
 | [[landing-expo-form]] | dormido | 2026-09-20 | git, node, web | — |
 | [[traduccion-ingles]] | dormido | 2026-09-19 | — | — |

@@ -6,7 +6,7 @@ age_range: 35-44
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-24'
+created: '2026-10-28'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-26 → 2026-10-24 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-30 → 2026-10-28 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -28,10 +28,10 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 35-44 (29.3% de los contactos) · heredado de la marca
-- **Género predominante:** Masculino (81.0%)
+- **Edad:** 35-44 (29.6% de los contactos) · heredado de la marca
+- **Género predominante:** Masculino (81.5%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-26 → 2026-10-24 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-30 → 2026-10-28 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Renew Mitsubishi`
 - **Marca:** [[Comprador Renew|Renew]]
 - **Tipo de vehículo:** Usado
@@ -55,8 +55,8 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** audiencia de Meta de la marca **Renew** (5,760 contactos), ponderado por contactos (formularios y chats) — Masculino 81.0%
-- **Distribución de edad (Meta):** 35-44: 29.3%, 25-34: 27.6%, 45-54: 18.4%, 55-64: 10.2%, 18-24: 8.4%, 65+: 6.0%
+- **Fuente edad/género:** audiencia de Meta de la marca **Renew** (5,565 contactos), ponderado por contactos (formularios y chats) — Masculino 81.5%
+- **Distribución de edad (Meta):** 35-44: 29.6%, 25-34: 26.8%, 45-54: 18.7%, 55-64: 10.4%, 18-24: 8.2%, 65+: 6.3%
 - ⚠️ Perfil heredado de la marca: el desglose edad/género por anuncio no estaba disponible en esta corrida (se atribuye por modelo desde el 2026-09-18).
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
@@ -137,7 +137,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Renew (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 387
+> **Total de leads de la marca en la ventana:** 399
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
 > **Modelos más pedidos (toda la marca):** Suv (240), Auto (77), Pick Up (20)
 > **Método de pago preferido:** financian? cualquier marca (1), financiado hasta 12.500 Kia (1)
@@ -145,10 +145,10 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Renew (90 días)
 
-> **Leads:** 1,601 → **convertidos:** 4 (0.2%)
-> **Por canal:** Meta madre 1,397, Meta asesores 194, Otros canales 10
-> **Deals:** 67 — ganados 48, perdidos 3, en proceso 16 (win rate 94.1%)
-> **Monto ganado:** USD 800,700 · ticket promedio USD 16,681
+> **Leads:** 1,598 → **convertidos:** 3 (0.2%)
+> **Por canal:** Meta madre 1,381, Meta asesores 206, Otros canales 11
+> **Deals:** 67 — ganados 51, perdidos 2, en proceso 14 (win rate 96.2%)
+> **Monto ganado:** USD 860,693 · ticket promedio USD 16,876
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
 
@@ -170,7 +170,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-24 06:47*
+*Generado el 2026-10-28 06:48*
 
 ## 🔗 Contenido Relacionado
 

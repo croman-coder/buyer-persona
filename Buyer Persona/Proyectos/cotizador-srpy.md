@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 4dd003c94247f7cd7be0b5abfa39490cce9167943b0a6fed73f1b476eb6c54f5
+firma: 5ce9b63167a0fa705ae349547d4e4611958a3d5ac82dade230d7de42429d85a0
 git_rama: main
 git_remoto: https://github.com/bortiz-source-srpy/CotizacionSR.git
 git_sin_subir: 0

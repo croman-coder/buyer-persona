@@ -1,7 +1,7 @@
 ---
 type: moc-marca
 marca: Renew
-created: 2026-10-24
+created: 2026-10-28
 tags:
   - moc
   - marca/renew
@@ -9,17 +9,17 @@ tags:
 
 # 🚗 Renew
 
-> Generado el **2026-10-24 06:47** · 19 modelos con persona propia.
+> Generado el **2026-10-28 06:48** · 19 modelos con persona propia.
 
 ## 👤 Comprador de la marca
 
 - [[Comprador Renew]]
-- **Inversión Meta:** ~USD 1,321/mes · costo por conversación USD 0.74 · 5,384 conversaciones de WhatsApp en la ventana (formularios: 387)
+- **Inversión Meta:** ~USD 1,292/mes · costo por conversación USD 0.75 · 5,179 conversaciones de WhatsApp en la ventana (formularios: 399)
 - **Públicos:** 100.0% de 72 adsets activos a público frío
 
 ## 👥 Quién mira y quién decide
 
-- En Meta, ellas son el 19,6 % de los clics y contactan igual que ellos con el mismo anuncio (0,99×).
+- En Meta, ellas son el 19,4 % de los clics y contactan igual que ellos con el mismo anuncio (0,99×).
 - El 11,1 % de las compras a cliente final las factura una empresa.
 - **Qué hacer en Meta Ads y cómo leerlo:** [[👥 Quién mira y quién decide — Renew]]
 
@@ -35,25 +35,25 @@ tags:
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Renew Jetour]] | 35-44 | Masculino 79.6% | modelo | 31 | 67 | ⚖️ equilibrado | USD 207 |
-| [[Renew Renault]] | 35-44 | Masculino 76.5% | modelo | 23 | 78 | ⚖️ equilibrado | USD 155 |
-| [[Renew GWM]] | 35-44 | Masculino 89.5% | modelo | 21 | 42 | ⚖️ equilibrado | USD 141 |
-| [[Renew Chevrolet]] | 25-34 | Masculino 77.5% | modelo | 16 | 42 | ⚖️ equilibrado | USD 107 |
-| [[Renew Kia]] | 25-34 | Masculino 77.2% | modelo | 14 | 44 | ⚖️ equilibrado | USD 94 |
-| [[Renew Nissan]] | 65+ | Masculino 72.5% | modelo | 13 | 22 | ⚖️ equilibrado | USD 87 |
-| [[Renew Volkswagen]] | 25-34 | Masculino 90.9% | modelo | 13 | 20 | ⚖️ equilibrado | USD 87 |
-| [[Renew SsangYong]] | 35-44 | Masculino 88.9% | modelo | 10 | 23 | ⚖️ equilibrado | USD 67 |
-| [[Renew Jeep]] | 45-54 | Masculino 71.2% | modelo | 7 | 14 | ⚖️ equilibrado | USD 48 |
-| [[Renew Toyota]] | 35-44 | Masculino 81.0% | marca | 7 | 17 | ⚖️ equilibrado | USD 48 |
-| [[Renew Ford]] | 35-44 | Masculino 85.7% | modelo | 7 | 18 | ⚖️ equilibrado | USD 48 |
-| [[Renew Hyundai]] | 35-44 | Masculino 66.5% | modelo | 6 | 29 | ⚖️ equilibrado | USD 40 |
-| [[Renew Honda]] | 35-44 | Masculino 93.1% | modelo | 6 | 14 | ⚖️ equilibrado | USD 40 |
-| [[Renew JAC]] | 35-44 | Masculino 95.7% | modelo | 6 | 6 | ⚖️ equilibrado | USD 40 |
-| [[Renew Fiat]] | 25-34 | Masculino 76.6% | modelo | 6 | 9 | ⚖️ equilibrado | USD 40 |
-| [[Renew Mini]] | 35-44 | Masculino 81.0% | marca | 6 | 14 | ⚖️ equilibrado | USD 40 |
-| [[Renew Peugeot]] | 45-54 | Masculino 85.1% | modelo | 5 | 29 | 🔴 sobre-pautado | USD 33 |
-| [[Renew Usados]] | 35-44 | Masculino 86.2% | modelo | 149 | 61 | 🔴 sobre-pautado | — |
-| [[Renew Mitsubishi]] | 35-44 | Masculino 81.0% | marca | 2 | 8 | ⚖️ equilibrado | — |
+| [[Renew Jetour]] | 35-44 | Masculino 79.8% | modelo | 31 | 67 | ⚖️ equilibrado | USD 203 |
+| [[Renew Renault]] | 35-44 | Masculino 75.6% | modelo | 23 | 78 | ⚖️ equilibrado | USD 151 |
+| [[Renew GWM]] | 35-44 | Masculino 89.5% | modelo | 21 | 42 | ⚖️ equilibrado | USD 138 |
+| [[Renew Chevrolet]] | 25-34 | Masculino 77.5% | modelo | 16 | 42 | ⚖️ equilibrado | USD 105 |
+| [[Renew Kia]] | 25-34 | Masculino 77.7% | modelo | 14 | 44 | ⚖️ equilibrado | USD 92 |
+| [[Renew Nissan]] | 65+ | Masculino 73.3% | modelo | 13 | 22 | ⚖️ equilibrado | USD 85 |
+| [[Renew Volkswagen]] | 25-34 | Masculino 90.9% | modelo | 13 | 20 | ⚖️ equilibrado | USD 85 |
+| [[Renew SsangYong]] | 35-44 | Masculino 87.6% | modelo | 10 | 23 | ⚖️ equilibrado | USD 66 |
+| [[Renew Jeep]] | 45-54 | Masculino 67.5% | modelo | 7 | 14 | ⚖️ equilibrado | USD 47 |
+| [[Renew Toyota]] | 35-44 | Masculino 81.5% | marca | 7 | 17 | ⚖️ equilibrado | USD 47 |
+| [[Renew Ford]] | 35-44 | Masculino 86.3% | modelo | 7 | 18 | ⚖️ equilibrado | USD 47 |
+| [[Renew Hyundai]] | 35-44 | Masculino 66.6% | modelo | 6 | 29 | ⚖️ equilibrado | USD 39 |
+| [[Renew Honda]] | 35-44 | Masculino 93.0% | modelo | 6 | 14 | ⚖️ equilibrado | USD 39 |
+| [[Renew JAC]] | 35-44 | Masculino 95.3% | modelo | 6 | 6 | ⚖️ equilibrado | USD 39 |
+| [[Renew Fiat]] | 25-34 | Masculino 78.0% | modelo | 6 | 9 | ⚖️ equilibrado | USD 39 |
+| [[Renew Mini]] | 35-44 | Masculino 81.5% | marca | 6 | 14 | ⚖️ equilibrado | USD 39 |
+| [[Renew Peugeot]] | 45-54 | Masculino 86.3% | modelo | 5 | 29 | 🔴 sobre-pautado | USD 32 |
+| [[Renew Usados]] | 35-44 | Masculino 86.3% | modelo | 149 | 61 | 🔴 sobre-pautado | — |
+| [[Renew Mitsubishi]] | 35-44 | Masculino 81.5% | marca | 2 | 8 | ⚖️ equilibrado | — |
 
 _Demo = de dónde sale edad/género: **modelo** (anuncios propios del modelo) o **marca** (heredado, pocos clics propios). Brecha: 🟢 sub-pautado = vende más de lo que se pauta, 🔴 sobre-pautado, 🆕 lanzamiento sin ventas en el ERP aún._
 

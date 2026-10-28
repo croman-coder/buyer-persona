@@ -1,6 +1,6 @@
 ---
 estado: dormido
-firma: 009e88ab9dfc82d0bfa22f0d02acd7adfe4524b6d273ce582daf0394d88e23dd
+firma: ccbb77866666dac28dcec0d98f054df7e6234eb8141a285b12707a0edfcc9921
 git_rama: main
 git_remoto: https://github.com/MobAI-App/ios-builder.git
 git_sin_subir: 0

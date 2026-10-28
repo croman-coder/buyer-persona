@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 093ac7647e2afe547701be74062470766e5a464a5c720fa940e63f1f59c461b5
+firma: 6ce0c5fe08ea844f2204328437f8e54da9d19e9ac6303b0b007cad8322799ca1
 git_rama: main
 git_remoto: https://github.com/croman-coder/mitsubishiweb.git
 git_sin_subir: 2

@@ -6,7 +6,7 @@ age_range: 25-34
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-24'
+created: '2026-10-28'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-26 → 2026-10-24 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-30 → 2026-10-28 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -28,10 +28,10 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 25-34 (35.2% de los contactos) · perfil propio del modelo
-- **Género predominante:** Masculino (77.2%)
+- **Edad:** 25-34 (34.3% de los contactos) · perfil propio del modelo
+- **Género predominante:** Masculino (77.7%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-26 → 2026-10-24 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-30 → 2026-10-28 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Renew Kia`
 - **Marca:** [[Comprador Renew|Renew]]
 - **Tipo de vehículo:** Usado
@@ -44,7 +44,7 @@ tags:
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 19,8 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,10×).
+- **Meta:** ellas son el 19,4 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,09×).
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — Renew]]
 
@@ -55,8 +55,8 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 25-34
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** anuncios de Meta que nombran a **Renew Kia** (1,741 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 77.2%
-- **Distribución de edad (Meta):** 25-34: 35.2%, 35-44: 28.4%, 45-54: 14.8%, 18-24: 12.9%, 55-64: 6.3%, 65+: 2.4%
+- **Fuente edad/género:** anuncios de Meta que nombran a **Renew Kia** (1,556 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 77.7%
+- **Distribución de edad (Meta):** 25-34: 34.3%, 35-44: 29.4%, 45-54: 14.7%, 18-24: 12.7%, 55-64: 6.4%, 65+: 2.6%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
@@ -132,8 +132,8 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Canales:** Prioriza Showroom.
 > **Formato:** En formularios casi todo fue imagen (gráfica): para saber si otro formato rinde más, sumar uno distinto en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — Renew]].
 > **Públicos hoy:** los 72 adsets activos van a público frío (69 con Advantage+). Sumar retargeting (formulario abierto sin enviar, visitantes web) y la base de compradores del ERP.
-> **Presupuesto sugerido:** ~USD 94/mes (hoy ~USD 104/mes según su peso en anuncios) → ~126 leads/mes al CPL actual de la marca (USD 0.74).
-> _Base del cálculo: 7.1% de las ventas de la marca sobre USD 1,321/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Presupuesto sugerido:** ~USD 92/mes (hoy ~USD 102/mes según su peso en anuncios) → ~122 leads/mes al CPL actual de la marca (USD 0.75).
+> _Base del cálculo: 7.1% de las ventas de la marca sobre USD 1,292/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -141,25 +141,25 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Renew (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 387
-> **Pidieron este modelo:** 31 de esos leads (8.0 %)
+> **Total de leads de la marca en la ventana:** 399
+> **Pidieron este modelo:** 31 de esos leads (7.8 %)
 > **Modelos más pedidos (toda la marca):** Suv (240), Auto (77), Pick Up (20)
 > **Método de pago preferido:** financian? cualquier marca (1), financiado hasta 12.500 Kia (1)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Renew (90 días)
 
-> **Leads:** 1,601 → **convertidos:** 4 (0.2%)
-> **Por canal:** Meta madre 1,397, Meta asesores 194, Otros canales 10
-> **Deals:** 67 — ganados 48, perdidos 3, en proceso 16 (win rate 94.1%)
-> **Monto ganado:** USD 800,700 · ticket promedio USD 16,681
+> **Leads:** 1,598 → **convertidos:** 3 (0.2%)
+> **Por canal:** Meta madre 1,381, Meta asesores 206, Otros canales 11
+> **Deals:** 67 — ganados 51, perdidos 2, en proceso 14 (win rate 96.2%)
+> **Monto ganado:** USD 860,693 · ticket promedio USD 16,876
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
 
 
 > [!info] 📦 Stock, oferta y objetivos — uso interno
 
-> **Stock al 18-09:** 6 unidades (6 disponibles, 0 en viaje, 0 con propuesta) · 187 días promedio en stock.
+> **Stock al 18-09:** 6 unidades (6 disponibles, 0 en viaje, 0 con propuesta) · 191 días promedio en stock.
 > **Objetivo de la marca (según el ERP):** mes 10/2026: 0 de 30 (0.0%) · acumulado 2026: 160 de 224 (71.4%) · anual 286 unidades. Ventas cargadas hasta 2026-09-11: lo vendido después de esa fecha todavía no cuenta acá.
 > **Equipo comercial (planilla semanal de negociación, 2026-09 semana 1):** 4 vendedores · promesa del mes 28 · venta del mes a esa semana (MTD) 0 · leads del mes 120 · negociaciones abiertas 11 (semana actual 0, pasada 0) · perdidas 0.
 > _La planilla y el ERP tienen cortes distintos (una semana vs. la última carga), por eso la venta del mes de acá puede no coincidir con el objetivo de arriba. El ERP manda._
@@ -175,7 +175,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-24 06:47*
+*Generado el 2026-10-28 06:48*
 
 ## 🔗 Contenido Relacionado
 

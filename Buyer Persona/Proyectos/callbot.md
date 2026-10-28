@@ -1,11 +1,11 @@
 ---
 estado: activo
-firma: 4112c4d77a2241602124e0f672ede2d2564bcc187061f43f14d36a9ebe71219f
+firma: d45be57574acd3cf11491d0a5b2ca105b0363668778c4675bfe1d321e545e602
 git_rama: main
 git_remoto: git@github-croman:croman-coder/callbots.git
 git_sin_subir: 0
-git_ultimo_commit: '2026-10-24 f863fad fix(voz): respuestas de una palabra, interrupción
-  robusta y acuses sin repetir'
+git_ultimo_commit: '2026-10-24 2258d66 test(e2e): la llamada termina tras 3 consultas
+  seguidas sin el canal, no a la primera que falla'
 hijos: []
 nombre: CALLBOT
 resumen: Proyecto en /home/croman/Escritorio/CALLBOT. Sin info de lenguaje en README.
@@ -28,7 +28,7 @@ ultima_actividad: '2026-10-24'
 | Última actividad | 2026-10-24 |
 | Stack | docker, git |
 | Rama | main |
-| Último commit | 2026-10-24 f863fad fix(voz): respuestas de una palabra, interrupción robusta y acuses sin repetir |
+| Último commit | 2026-10-24 2258d66 test(e2e): la llamada termina tras 3 consultas seguidas sin el canal, no a la primera que falla |
 | Sin subir | 0 |
 | Ruta | `/home/croman/Escritorio/CALLBOT` |
 <!-- hermes:fin -->

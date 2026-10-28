@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: deee17174b76d03a339941088ab9c1350b14dd85d11497397a5bdfe62a4cd500
+firma: 0c7d9141e305e67a3c84de17325e537deb708eb84270478ffb4af1f05c4d7c7a
 git_rama: main
 git_remoto: git@github-croman:croman-coder/santa-rosa-automotive.git
 git_sin_subir: 1

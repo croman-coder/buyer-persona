@@ -1,7 +1,7 @@
 ---
 type: moc-marca
 marca: XPeng
-created: 2026-10-24
+created: 2026-10-28
 tags:
   - moc
   - marca/xpeng
@@ -9,16 +9,16 @@ tags:
 
 # 🚗 XPeng
 
-> Generado el **2026-10-24 06:47** · 1 modelos con persona propia.
+> Generado el **2026-10-28 06:48** · 1 modelos con persona propia.
 
 ## 👤 Comprador de la marca
 
 - [[Comprador XPeng]]
-- **Inversión Meta:** ~USD 686/mes · CPL USD 2.97 · 693 leads en la ventana
+- **Inversión Meta:** ~USD 631/mes · CPL USD 2.8 · 676 leads en la ventana
 
 ## 👥 Quién mira y quién decide
 
-- En Meta, ellas son el 45,2 % de los clics; con el mismo anuncio contactan 0,87× lo que ellos, pero con 2 conjuntos todavía es una tendencia.
+- En Meta, ellas son el 45,3 % de los clics; con el mismo anuncio contactan 0,87× lo que ellos, pero con 2 conjuntos todavía es una tendencia.
 - **Qué hacer en Meta Ads y cómo leerlo:** [[👥 Quién mira y quién decide — XPeng]]
 
 ## 🎬 Materiales que mejor funcionan
@@ -33,7 +33,7 @@ tags:
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[XPeng G9]] | 65+ | Masculino 58.4% | modelo | 1 | 25 | ⚖️ equilibrado | USD 686 |
+| [[XPeng G9]] | 65+ | Masculino 58.1% | modelo | 1 | 25 | ⚖️ equilibrado | USD 631 |
 
 _Demo = de dónde sale edad/género: **modelo** (anuncios propios del modelo) o **marca** (heredado, pocos clics propios). Brecha: 🟢 sub-pautado = vende más de lo que se pauta, 🔴 sobre-pautado, 🆕 lanzamiento sin ventas en el ERP aún._
 

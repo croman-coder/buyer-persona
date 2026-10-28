@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: Mitsubishi
-periodo_meta: 2026-07-26 a 2026-10-24
-created: 2026-10-24
+periodo_meta: 2026-07-30 a 2026-10-28
+created: 2026-10-28
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,7 +12,7 @@ tags:
 # 👥 Quién mira y quién decide — Mitsubishi
 
 > [!summary] En una línea
-> En Meta, ellas son el 15,3 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,25×). En el 35,2 % de los chats el cliente nombra a otra persona.
+> En Meta, ellas son el 17,4 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,19×). En el 38,8 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
 > 1. **Una pieza para quien acompaña la decisión** — «Seguridad para los que viajan con vos». Detalle en la sección 5.
@@ -29,24 +29,24 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-26** al **2026-10-24**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-30** al **2026-10-28**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **Mitsubishi** | 15,3 % | 16,4 % | **1,25×** | 23 (ellas menos en 7) | Las que miran, contactan más que ellos |
-| [[Mitsubishi L200|Mitsubishi L200]] | 14,3 % | 15,4 % | 1,17× | 9 (ellas menos en 3) | Las que miran, contactan más que ellos |
+| **Mitsubishi** | 17,4 % | 17,6 % | **1,19×** | 24 (ellas menos en 8) | Las que miran, contactan más que ellos |
+| [[Mitsubishi L200|Mitsubishi L200]] | 14,7 % | 15,6 % | 1,15× | 9 (ellas menos en 3) | Las que miran, contactan más que ellos |
+| [[Mitsubishi Montero Sport|Mitsubishi Montero Sport]] | 26,6 % | 21,5 % | 0,98× | 6 (ellas menos en 3) | Sin diferencia: ellas y ellos contactan igual |
 | [[Mitsubishi Destinator|Mitsubishi Destinator]] | 8,3 % | 12,0 % | 1,52× | 3 (ellas menos en 0) | Las que miran, contactan más que ellos |
-| [[Mitsubishi Montero Sport|Mitsubishi Montero Sport]] | 22,3 % | 18,7 % | 1,05× | 6 (ellas menos en 3) | Sin diferencia: ellas y ellos contactan igual |
-| [[Mitsubishi Outlander|Mitsubishi Outlander]] | 19,2 % | 18,4 % | 1,68× | 2 (ellas menos en 0) | Las que miran, contactan más que ellos |
-| [[Mitsubishi Eclipse Cross|Mitsubishi Eclipse Cross]] | 28,3 % | 30,5 % | 1,37× | 3 (ellas menos en 1) | Las que miran, contactan más que ellos |
+| [[Mitsubishi Outlander|Mitsubishi Outlander]] | 20,7 % | 19,3 % | 1,65× | 2 (ellas menos en 0) | Las que miran, contactan más que ellos |
+| [[Mitsubishi Eclipse Cross|Mitsubishi Eclipse Cross]] | 32,2 % | 31,8 % | 1,19× | 4 (ellas menos en 2) | Las que miran, contactan más que ellos |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|---|
-| 8,1 % | 9,5 % | 9,3 % | 9,7 % | 9,0 % | 8,8 % |
+| 7,1 % | 9,2 % | 9,2 % | 9,5 % | 8,4 % | 8,5 % |
 
-Los mayores de 55 contactan parecido al resto con el mismo anuncio (1,05×).
+Los mayores de 55 contactan parecido al resto con el mismo anuncio (1,06×).
 
 ## 2. ¿Qué le interesa a cada uno?
 
@@ -56,21 +56,20 @@ Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema su
 
 | Modelo | Tema del anuncio | Mujeres en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| Mitsubishi Montero Sport | Seguridad y asistencias a la conducción | 28,5 % | +9,4 | 2.425 (11) |
-| Mitsubishi Montero Sport | Tecnología y conectividad | 27,7 % | +8,7 | 5.767 (15) |
-| Mitsubishi Montero Sport | Probar antes de comprar (test drive) | 27,4 % | +8,3 | 5.999 (12) |
-| Mitsubishi Montero Sport | Familia y espacio | 24,5 % | +5,5 | 4.240 (10) |
+| Mitsubishi Montero Sport | Seguridad y asistencias a la conducción | 31,4 % | +8,6 | 3.118 (10) |
+| Mitsubishi Montero Sport | Tecnología y conectividad | 31,3 % | +8,4 | 9.089 (15) |
+| Mitsubishi Montero Sport | Probar antes de comprar (test drive) | 30,9 % | +8,0 | 9.332 (12) |
+| Mitsubishi Montero Sport | Familia y espacio | 29,0 % | +6,1 | 6.865 (9) |
 
 **Lo que más atrae a los mayores de 55:**
 
 | Modelo | Tema del anuncio | 55+ en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| Mitsubishi Montero Sport | Tecnología y conectividad | 42,2 % | +11,7 | 5.767 (15) |
-| Mitsubishi Montero Sport | Probar antes de comprar (test drive) | 42,0 % | +11,5 | 5.999 (12) |
-| Mitsubishi Montero Sport | Seguridad y asistencias a la conducción | 40,3 % | +9,8 | 2.425 (11) |
-| Mitsubishi Montero Sport | Familia y espacio | 40,1 % | +9,5 | 4.240 (10) |
+| Mitsubishi Montero Sport | Tecnología y conectividad | 47,3 % | +11,4 | 9.089 (15) |
+| Mitsubishi Montero Sport | Familia y espacio | 47,3 % | +11,4 | 6.865 (9) |
+| Mitsubishi Montero Sport | Probar antes de comprar (test drive) | 47,0 % | +11,1 | 9.332 (12) |
 
-**Lo que menos las atrae** (evitarlo en la pieza para ellas): Mitsubishi Montero Sport: financiación en cuotas (-9,0); Mitsubishi L200: financiación en cuotas (-6,3); Mitsubishi L200: garantía y respaldo posventa (-4,5).
+**Lo que menos las atrae** (evitarlo en la pieza para ellas): Mitsubishi Montero Sport: financiación en cuotas (-12,7); Mitsubishi L200: financiación en cuotas (-6,4); Mitsubishi L200: garantía y respaldo posventa (-4,5).
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -78,9 +77,9 @@ _Sin ventas suficientes a cliente final en el ERP._
 
 ## 4. ¿Quién más aparece en las conversaciones?
 
-Chats de **Messenger e Instagram** de las páginas de Mitsubishi y de sus asesores, del 2026-07-21 al 2026-10-19. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
+Chats de **Messenger e Instagram** de las páginas de Mitsubishi y de sus asesores, del 2026-07-28 al 2026-10-26. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
 
-- **341** chats con texto del cliente · **35,2 %** nombran a otra persona.
+- **309** chats con texto del cliente · **38,8 %** nombran a otra persona.
   - empresa o socio: 120
 
 _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más que cuántas veces._
@@ -89,7 +88,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza para quien acompaña la decisión
 
-**Por qué:** El tema **seguridad y asistencias a la conducción** es el que más las atrae: en Mitsubishi Montero Sport suma 9 puntos de mujeres sobre el promedio del modelo (hasta 28,5 %).
+**Por qué:** El tema **seguridad y asistencias a la conducción** es el que más las atrae: en Mitsubishi Montero Sport suma 9 puntos de mujeres sobre el promedio del modelo (hasta 31,4 %).
 
 **Modelos donde más pesa:** Mitsubishi Montero Sport
 
@@ -104,9 +103,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.2 Una pieza que les hable a ellas, que son las que avanzan
 
-**Por qué:** Ellas son solo el 15,3 % de los clics, pero las que hacen clic contactan 1,25× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan. Más fuerte en Mitsubishi Destinator (1,52×), Mitsubishi Eclipse Cross (1,37×).
+**Por qué:** Ellas son solo el 17,4 % de los clics, pero las que hacen clic contactan 1,19× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan. Más fuerte en Mitsubishi Destinator (1,52×).
 
-**Modelos donde más pesa:** Mitsubishi Destinator, Mitsubishi Eclipse Cross
+**Modelos donde más pesa:** Mitsubishi Destinator
 
 **La pieza (texto base, ajustar al tono de la marca):**
 
@@ -119,7 +118,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.3 Darle al cliente algo para mostrarle a quien decide con él
 
-**Por qué:** En el 35,2 % de los chats de Messenger e Instagram el cliente nombra a otra persona (sobre todo: empresa o socio 120).
+**Por qué:** En el 38,8 % de los chats de Messenger e Instagram el cliente nombra a otra persona (sobre todo: empresa o socio 120).
 
 **La pieza (texto base, ajustar al tono de la marca):**
 
@@ -143,9 +142,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-26 a 2026-10-24, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-30 a 2026-10-28, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: sin datos suficientes.
-- Chats: Messenger e Instagram, lectura semanal (2026-10-19).
-- Generado el 2026-10-24 06:47 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Chats: Messenger e Instagram, lectura semanal (2026-10-26).
+- Generado el 2026-10-28 06:48 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[Mitsubishi|Volver a Mitsubishi]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

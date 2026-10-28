@@ -17,6 +17,14 @@ Relacionado: [[⚔️ Benchmark Competitivo]] · [[⚔️ Battle Cards Modelo vs
 
 ## 2026-10
 
+- **27/10 22:02** · Renault Paraguay (propio) — precio publicado Renault Oroch: USD 18.990
+
+- **25/10 03:28** · Nissan Paraguay (competencia) — precio publicado Nissan Kait: USD 19.990
+- **25/10 03:28** · Nissan Paraguay (competencia) — precio publicado Nissan Kicks: USD 24.990
+- **25/10 03:28** · Nissan Paraguay (competencia) — precio publicado Nissan X-Trail: USD 33.990
+- **25/10 03:28** · Nissan Paraguay (competencia) — precio publicado Nissan Patrol: USD 109.000
+- **25/10 03:28** · Nissan Paraguay (competencia) — precio publicado Nissan Frontier: USD 34.990
+
 - **23/10 21:12** · Hyundai Paraguay (competencia) — ya no lista: Hyundai Ioniq
 
 - **19/10 20:20** · Mitsubishi Paraguay (propio) — modelo nuevo en la web: Mitsubishi Destinator

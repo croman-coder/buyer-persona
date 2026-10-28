@@ -8,7 +8,7 @@ locations:
 - Asunción
 - Ciudad del Este
 - San Lorenzo
-created: '2026-10-24'
+created: '2026-10-28'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este público, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-26 → 2026-10-24 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-07-30 → 2026-10-28 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -28,17 +28,17 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 35-44 (25.5% de los contactos) · perfil de la marca
+- **Edad:** 35-44 (25.7% de los contactos) · perfil de la marca
 - **Género predominante:** Masculino (66.4%)
 - **Ubicación:** Asunción, Ciudad del Este, San Lorenzo
-- **Período leído:** Meta 2026-07-26 → 2026-10-24 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-07-30 → 2026-10-28 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Marca → `Jetour`
 - **Ticket promedio (ERP, facturado):** USD 23,802
 
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 36,9 % de los clics y contactan igual que ellos con el mismo anuncio (1,07×).
+- **Meta:** ellas son el 36,8 % de los clics y contactan igual que ellos con el mismo anuncio (1,07×).
 - **Quién paga (ERP, 12 meses):** el 25,8 % de las compras a cliente final las factura una empresa.
 - **Para Meta Ads:** Una pieza para quien acompaña la decisión · Una pieza para quien compra a nombre de su empresa · Darle al cliente algo para mostrarle a quien decide con él.
 
@@ -51,42 +51,42 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción, Ciudad del Este, San Lorenzo
-- **Fuente edad/género:** audiencia de Meta de la marca **Jetour** (11,547 contactos), ponderado por contactos (formularios y chats) — Masculino 66.4%
-- **Distribución de edad (Meta):** 35-44: 25.5%, 25-34: 23.7%, 65+: 20.9%, 45-54: 14.8%, 55-64: 9.5%, 18-24: 5.6%
+- **Fuente edad/género:** audiencia de Meta de la marca **Jetour** (11,608 contactos), ponderado por contactos (formularios y chats) — Masculino 66.4%
+- **Distribución de edad (Meta):** 35-44: 25.7%, 25-34: 23.6%, 65+: 20.9%, 45-54: 14.9%, 55-64: 9.4%, 18-24: 5.5%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🧾 Quién compró de verdad (Bitrix: ganados + Facturación)
 
-- **81 negocios** de la marca: 28 ganados y 53 en Facturación (ya son ventas que se van a cerrar).
-- **14 vinieron de un lead de Meta** (cruce seguro por teléfono o mail); otros 6 son posibles, sin confirmar.
-- **Plataforma del lead:** Facebook 9 · Instagram 5 · **Cuenta:** Cuentas de asesores 8 · Cuenta madre 6.
-- **Del lead a la venta:** mediana de 24 días; el 75 % compra antes de los 47.
-- Todavía son pocos para un perfil propio de compra (14 de 15). En todas las marcas, la edad estimada de quien compra es 35-44: 32 % · 25-34: 25 % · 45-54: 21 % · 55-64: 10 % · **Género:** Masculino 78 % · Femenino 22 %.
+- **97 negocios** de la marca: 28 ganados y 69 en Facturación (ya son ventas que se van a cerrar).
+- **21 vinieron de un lead de Meta** (cruce seguro por teléfono o mail); otros 6 son posibles, sin confirmar.
+- **Plataforma del lead:** Facebook 12 · Instagram 9 · **Cuenta:** Cuenta madre 11 · Cuentas de asesores 10.
+- **Del lead a la venta:** mediana de 24 días; el 75 % compra antes de los 46.
+- **Edad estimada de quien compra:** 35-44: 31 % · 25-34: 26 % · 45-54: 18 % · 65+: 13 % · **Género:** Masculino 70 % · Femenino 30 %.
 - _La edad y el género se estiman con quienes contactaron por el anuncio de cada comprador. Detalle de todas las marcas: [[🧾 Compradores reales (Bitrix)]]._
 
 ## 🎪 Para eventos y presencia de marca
 
 _Qué es: lo que sirve para decidir dónde y para quién hacer un evento. De dónde sale: las respuestas de los formularios de Meta y la demografía de quienes contactan por los anuncios._
 
-**Dónde están los leads** (ciudad que dijeron en el formulario; sobre 7,627 leads):
+**Dónde están los leads** (ciudad que dijeron en el formulario; sobre 7,674 leads):
 
-- **Asunción** 480 (6 %)
-- **Ciudad del Este** 184 (2 %)
-- **Luque** 77 (1 %)
+- **Asunción** 473 (6 %)
+- **Ciudad del Este** 181 (2 %)
+- **Luque** 84 (1 %)
 - **Lambaré** 76 (1 %)
-- **Fernando de la Mora** 67 (1 %)
-- **San Lorenzo** 66 (1 %)
+- **Fernando de la Mora** 66 (1 %)
+- **San Lorenzo** 65 (1 %)
 
 **Quién es, por modelo** (edad y género de quienes contactan por sus anuncios):
 
 | Modelo | Leads que lo piden | Edad | Género | Perfil |
 |---|---|---|---|---|
-| Jetour X50 | 107 (1 %) | 25-34 | Masculino 68 % | propio |
-| Jetour X70 | 60 (1 %) | 65+ | Masculino 64 % | propio |
-| Jetour Dashing | 59 (1 %) | 35-44 | Masculino 70 % | propio |
-| Jetour T1 | 29 (0 %) | 65+ | Masculino 68 % | propio |
-| Jetour T2 | 19 (0 %) | 65+ | Masculino 62 % | propio |
-| Jetour G700 | 4 (0 %) | 65+ | Masculino 50 % | propio |
+| Jetour X50 | 112 (2 %) | 25-34 | Masculino 68 % | propio |
+| Jetour X70 | 87 (1 %) | 65+ | Masculino 65 % | propio |
+| Jetour Dashing | 60 (1 %) | 35-44 | Masculino 70 % | propio |
+| Jetour T1 | 35 (0 %) | 65+ | Masculino 68 % | propio |
+| Jetour T2 | 20 (0 %) | 65+ | Masculino 62 % | propio |
+| Jetour G700 | 11 (0 %) | 65+ | Masculino 50 % | propio |
 | Jetour X90 | 0 (0 %) | 65+ | Masculino 69 % | propio |
 
 **Qué les habla** (los temas de los anuncios que ven y con los que interactúan; son lo que les decimos, no lo que les gusta): tecnología y conectividad (47 %), financiación en cuotas (43 %), diseño y estatus (36 %), garantía y respaldo posventa (23 %).
@@ -185,7 +185,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Canales:** Prioriza Showroom.
 > **Formato:** Para la próxima pauta de formularios: **imagen (gráfica)**, que trajo el lead más barato en campañas comparables y se repitió mes a mes. En el mismo conjunto, sumar el carrusel para seguir comparando. Detalle: [[🎬 Materiales que funcionan — Jetour]].
 > **Públicos hoy:** 99.6% de los adsets activos van a público frío; 1 de 258 adsets usan base propia (1 lookalike).
-> **Inversión actual:** USD 12,388 en la ventana (~USD 4,129/mes), 7,627 leads → costo por lead USD 1.62.
+> **Inversión actual:** USD 12,401 en la ventana (~USD 4,134/mes), 7,674 leads → costo por lead USD 1.62.
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -203,17 +203,17 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Jetour (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 7,627
-> **Modelos más pedidos (toda la marca):** X50 (107), X70 (60), Dashing (59)
-> **Ciudad:** Asunción (480), Ciudad del Este (184), Luque (77)
+> **Total de leads de la marca en la ventana:** 7,674
+> **Modelos más pedidos (toda la marca):** X50 (112), X70 (87), Dashing (60)
+> **Ciudad:** Asunción (473), Ciudad del Este (181), Luque (84)
 > **Interés de compra:** solo_estoy_averiguando (2), nececito saber como es el plan de 330c ds por mes (1), Colonia Mayor Otaño (1)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Jetour (90 días)
 
-> **Leads:** 6,244 → **convertidos:** 65 (1.0%)
-> **Por canal:** Meta madre 3,068, Meta asesores 2,957, Otros canales 219
-> **Deals:** 252 — ganados 28, perdidos 16, en proceso 208 (win rate 63.6%)
+> **Leads:** 6,559 → **convertidos:** 140 (2.1%)
+> **Por canal:** Meta madre 3,259, Meta asesores 3,077, Otros canales 223
+> **Deals:** 350 — ganados 28, perdidos 17, en proceso 305 (win rate 62.2%)
 > **Monto ganado:** USD 659,390 · ticket promedio USD 23,550
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 
@@ -236,7 +236,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-24 06:47*
+*Generado el 2026-10-28 06:48*
 
 ## 🔗 Contenido Relacionado
 

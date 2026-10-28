@@ -1,6 +1,6 @@
 ---
 estado: dormido
-firma: 52d67b78a86f75baa0e0eabda4e55b78076c5206c251fccf1144137286fbf629
+firma: c526efd6875b040a0e89cb0d63159138581126f79227216c70740dec174c36a7
 git_rama: master
 git_remoto: https://github.com/croman-coder/prospectos-asesores.git
 git_sin_subir: 0

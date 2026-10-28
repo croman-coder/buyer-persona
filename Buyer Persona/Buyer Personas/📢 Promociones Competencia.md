@@ -1,27 +1,22 @@
 ---
 type: monitor-competencia
-created: '2026-10-23'
+created: '2026-10-27'
 tags:
 - competencia
 - monitor
 - promociones
-last_scan: '2026-10-23 08:00'
+last_scan: '2026-10-27 08:00'
 ---
 
 # 📢 Promociones de la Competencia
 
-> [!info] Última actualización: **2026-10-23 08:00** · Próximo scan automático
+> [!info] Última actualización: **2026-10-27 08:00** · Próximo scan automático
 
 > [!warning] 🔴 = Cambio detectado en este scan · 🟢 = Sin cambios
 
-## 🚨 Cambios Detectados en Este Scan
+## ✅ Sin Cambios Detectados
 
-### ⚠️ Automaq (Peugeot/Citroën)
-
-**Marcas afectadas:** Peugeot, Citroën
-
-**Prioridad:** BAJA
-**URL:** [https://automaq.com.py](https://automaq.com.py)
+No se detectaron cambios en promociones, precios o modelos desde el último scan (2026-10-27 08:00).
 
 ---
 
@@ -40,7 +35,7 @@ last_scan: '2026-10-23 08:00'
 - `prueba de manejo`
 - `test drive`
 
-**Modelos mencionados:** Frontier, Qashqai, Pathfinder, X-Trail, Kicks, Patrol, Kait, X-Trail E-Power
+**Modelos mencionados:** Pathfinder, Frontier, X-Trail E-Power, Kait, X-Trail, Patrol, Qashqai, Kicks
 
 <details><summary>📄 Headings de la página</summary>
 
@@ -77,7 +72,7 @@ last_scan: '2026-10-23 08:00'
 
 - `0km`
 
-**Modelos mencionados:** Triton, L200, Montero, Eclipse Cross
+**Modelos mencionados:** L200, Eclipse Cross, Triton, Montero
 
 <details><summary>📄 Headings de la página</summary>
 
@@ -107,7 +102,7 @@ last_scan: '2026-10-23 08:00'
 - `0 km`
 - `test drive`
 
-**Modelos mencionados:** K2700, Tasman, EV5, EV9, Seltos, Carnival, Sonet, Carens, Soluto, Picanto, Niro, K3, Sorento, Sportage
+**Modelos mencionados:** Soluto, Niro, Seltos, EV9, Picanto, Carens, Sportage, Carnival, K3, Sonet, EV5, Tasman, Sorento, K2700
 
 <details><summary>📄 Headings de la página</summary>
 
@@ -131,7 +126,7 @@ last_scan: '2026-10-23 08:00'
 **Marcas que compiten con:** Chery (SUV chino, compite con Jetour/Soueast)
 **URL:** [https://www.chery.com.py](https://www.chery.com.py)
 
-**Modelos mencionados:** T8 Pro, Himla, M7, T2 Pro, T7 Pro, T4 Pro
+**Modelos mencionados:** T4 Pro, T7 Pro, T8 Pro, T2 Pro, Himla, M7
 
 ---
 
@@ -145,7 +140,7 @@ last_scan: '2026-10-23 08:00'
 - `0km`
 - `test drive`
 
-**Modelos mencionados:** EX5, Starray, GX3, Cityray, Azkarra, Coolray
+**Modelos mencionados:** GX3, Azkarra, Coolray, Cityray, Starray, EX5
 
 <details><summary>📄 Headings de la página</summary>
 
@@ -173,7 +168,7 @@ last_scan: '2026-10-23 08:00'
 
 - `exclusivo`
 
-**Modelos mencionados:** Polo, T-Cross, Amarok
+**Modelos mencionados:** T-Cross, Amarok, Polo
 
 <details><summary>📄 Headings de la página</summary>
 
@@ -215,7 +210,7 @@ last_scan: '2026-10-23 08:00'
 
 ---
 
-### 🔴 📌 Automaq (Peugeot/Citroën)
+### 🟢 📌 Automaq (Peugeot/Citroën)
 
 **Marcas que compiten con:** Peugeot, Citroën
 **URL:** [https://automaq.com.py](https://automaq.com.py)
@@ -274,8 +269,8 @@ last_scan: '2026-10-23 08:00'
 ## 📋 Resumen Ejecutivo
 
 - **Competidores monitoreados:** 9
-- **Con cambios detectados:** 1 🔴
-- **Sin cambios:** 8 🟢
+- **Con cambios detectados:** 0 🔴
+- **Sin cambios:** 9 🟢
 
 ## 🔗 Auditoría Meta Ads (verificar anuncios activos)
 
@@ -293,4 +288,4 @@ last_scan: '2026-10-23 08:00'
 - [[Buyer Personas MOC]]
 
 ---
-*Generado automáticamente el 2026-10-23 08:00 por monitor_competencia.py*
+*Generado automáticamente el 2026-10-27 08:00 por monitor_competencia.py*

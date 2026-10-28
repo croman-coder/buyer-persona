@@ -1,9 +1,9 @@
 ---
 type: clasificacion-anuncios
-generado: '2026-10-24 06:50'
-fuente: data_sources_20261024_060254.json
+generado: '2026-10-28 06:50'
+fuente: data_sources_20261028_060425.json
 modelo: typesafe/jev (Vercel AI Gateway)
-anuncios_activos: 1221
+anuncios_activos: 1222
 textos_clasificados: 936
 tags:
 - meta-ads
@@ -17,7 +17,7 @@ Todos los días una IA lee el texto de **cada anuncio de Meta** de todas las mar
 
 > [!danger] Incompleta: Vercel AI Gateway cortó la corrida (Vercel AI Gateway 403: no_providers_available: Free tier users do not have access to this model. Upgrade to paid credits at https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%3Fmodal%3Dtop-up for unrestricted access.). La próxima corrida completa lo que falta.
 
-> [!info] Actualizado el **2026-10-24 06:50** · 1221 anuncios activos · 936 de 1066 textos leídos
+> [!info] Actualizado el **2026-10-28 06:50** · 1222 anuncios activos · 936 de 1063 textos leídos
 
 > [!info]- Cómo leer esta nota (tocá para abrir)
 > - **Es una ayuda para revisar, no un dictamen.** La IA (Jev, de TypeSafe) lee solo el *texto* del aviso: no ve la imagen ni el video.
@@ -97,7 +97,7 @@ Para cada cuenta: la oferta y el argumento que más usa, y qué parte de sus avi
 | Cuenta | Activos | Oferta que más usa | Argumento que más usa | Muestra precio | Menciona cuotas | Invita a actuar | Apura |
 |---|---:|---|---|---:|---:|---:|---:|
 | Jetour | 521 | Financiación o cuotas (39 %) | Espacio y familia (18 %) | 62 % | 57 % | 54 % | 38 % |
-| GWM | 151 | Financiación o cuotas (27 %) | Eléctrico o híbrido (32 %) | 41 % | 36 % | 48 % | 46 % |
+| GWM | 152 | Financiación o cuotas (27 %) | Eléctrico o híbrido (32 %) | 41 % | 36 % | 48 % | 46 % |
 | Renew | 141 | Usado puntual (74 %) | Precio y ahorro (59 %) | 82 % | 80 % | 22 % | 24 % |
 | Renault | 117 | Sin oferta concreta (56 %) | Seguridad (27 %) | 12 % | 20 % | 39 % | 42 % |
 | JAC | 98 | Sin oferta concreta (59 %) | Potencia y trabajo (31 %) | 27 % | 24 % | 20 % | 45 % |
@@ -116,7 +116,7 @@ El gancho principal de cada aviso activo.
 |---|---:|---:|
 | Sin oferta concreta | 321 | 26 % |
 | Financiación o cuotas | 304 | 25 % |
-| Precio como gancho | 221 | 18 % |
+| Precio como gancho | 222 | 18 % |
 | Invitación a probar o a un evento | 143 | 12 % |
 | Usado puntual | 105 | 9 % |
 | Lanzamiento o preventa | 89 | 7 % |
@@ -130,7 +130,7 @@ La razón que da el aviso para comprar.
 | | Avisos | % |
 |---|---:|---:|
 | Precio y ahorro | 261 | 21 % |
-| Eléctrico o híbrido | 234 | 19 % |
+| Eléctrico o híbrido | 235 | 19 % |
 | Potencia y trabajo | 169 | 14 % |
 | Tecnología | 155 | 13 % |
 | Espacio y familia | 126 | 10 % |
@@ -144,7 +144,7 @@ Según lo que dice el texto.
 
 | | Avisos | % |
 |---|---:|---:|
-| SUV | 869 | 71 % |
+| SUV | 870 | 71 % |
 | No se sabe | 133 | 11 % |
 | Pickup | 74 | 6 % |
 | Sedán o hatchback | 69 | 6 % |
@@ -166,4 +166,4 @@ Cada aviso tiene su ficha en `Cuentas Meta/Anuncios/`, y la tabla [🏷️ Anunc
 Se puede ordenar tocando el nombre de una columna y filtrar desde el menú de la tabla. Lo que se edite a mano se pisa en la próxima actualización.
 
 ---
-*Generado por `scripts/clasificar_anuncios.py` · fuente data_sources_20261024_060254.json · última corrida US$ 0.0000*
+*Generado por `scripts/clasificar_anuncios.py` · fuente data_sources_20261028_060425.json · última corrida US$ 0.0000*

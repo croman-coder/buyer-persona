@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 0bc671df5888744cfc69dfa8809400a7e4f24c6cfb918159a3e78c89ccd58da4
+firma: 6f01f50677ffa21f17e379c003a28405cd18fc679c1f0638c191252780f7cdd3
 git_rama: main
 git_remoto: https://github.com/croman-coder/crm-santarosa.git
 git_sin_subir: 2

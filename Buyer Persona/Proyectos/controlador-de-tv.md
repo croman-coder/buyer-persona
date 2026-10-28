@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 3b3ff04422a159c7eec8e5b55b957f72ad6d0bfc5b7ec320c24d7372bf24f5cc
+firma: 242089013a43a2423ac64a1c3c37ae89bc3a28373f90a6e3b278386903d0b75b
 git_rama: main
 git_remoto: https://github.com/croman-coder/controlador-de-tv.git
 git_sin_subir: 0

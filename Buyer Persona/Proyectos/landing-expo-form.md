@@ -1,6 +1,6 @@
 ---
 estado: dormido
-firma: aa635d465241c75c2eca45ea724d43a30370ce0f4383df8ea2af4a498532b7c7
+firma: e228fdd4891d58938b1cbad79960de0c65893ebc7fecc672e0f8a0b6db89bfcd
 git_rama: tecnom-jetour-gwm
 git_remoto: https://github.com/croman-coder/landing-expo-mra.git
 git_sin_subir: 3

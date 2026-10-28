@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: Renew
-periodo_meta: 2026-07-26 a 2026-10-24
-created: 2026-10-24
+periodo_meta: 2026-07-30 a 2026-10-28
+created: 2026-10-28
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,7 +12,7 @@ tags:
 # 👥 Quién mira y quién decide — Renew
 
 > [!summary] En una línea
-> En Meta, ellas son el 19,6 % de los clics y contactan igual que ellos con el mismo anuncio (0,99×). El 11,1 % de las compras a cliente final las factura una empresa.
+> En Meta, ellas son el 19,4 % de los clics y contactan igual que ellos con el mismo anuncio (0,99×). El 11,1 % de las compras a cliente final las factura una empresa.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
 > 1. **Una pieza para quien acompaña la decisión** — «Vengan a probarla juntos». Detalle en la sección 5.
@@ -27,36 +27,35 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-26** al **2026-10-24**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-07-30** al **2026-10-28**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **Renew** | 19,6 % | 19,0 % | **0,99×** | 10 (ellas menos en 5) | Sin diferencia: ellas y ellos contactan igual |
-| [[Renew Usados|Renew Usados]] | 13,8 % | 13,8 % | 0,97× | 8 (ellas menos en 5) | Sin diferencia: ellas y ellos contactan igual |
-| [[Renew Kia|Renew Kia]] | 19,8 % | 22,8 % | 1,10× | 5 (ellas menos en 0) | Las que miran, contactan más que ellos |
+| **Renew** | 19,4 % | 18,5 % | **0,99×** | 10 (ellas menos en 4) | Sin diferencia: ellas y ellos contactan igual |
+| [[Renew Usados|Renew Usados]] | 13,7 % | 13,7 % | 0,97× | 8 (ellas menos en 5) | Sin diferencia: ellas y ellos contactan igual |
+| [[Renew Kia|Renew Kia]] | 19,4 % | 22,3 % | 1,09× | 5 (ellas menos en 0) | Las que miran, contactan más que ellos |
 | [[Renew GWM|Renew GWM]] | 15,5 % | 10,5 % | 0,94× | 2 (ellas menos en 1) | Sin diferencia: ellas y ellos contactan igual |
 | [[Renew Chevrolet|Renew Chevrolet]] | 22,0 % | 22,5 % | 1,03× | 1 (ellas menos en 0) | Sin diferencia: ellas y ellos contactan igual |
-| [[Renew Hyundai|Renew Hyundai]] | 28,3 % | 33,5 % | 0,94× | 1 (ellas menos en 1) | Sin diferencia: ellas y ellos contactan igual |
-| [[Renew JAC|Renew JAC]] | 5,9 % | 4,3 % | 0,75× | 2 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
-| [[Renew Peugeot|Renew Peugeot]] | 12,9 % | 14,9 % | 1,15× | 3 (ellas menos en 1) | Las que miran, contactan más que ellos |
-| [[Renew Jetour|Renew Jetour]] | 20,6 % | 20,4 % | 0,86× | 4 (ellas menos en 3) | Ellas miran y el contacto lo deja él |
+| [[Renew Hyundai|Renew Hyundai]] | 28,3 % | 33,4 % | 0,94× | 1 (ellas menos en 1) | Sin diferencia: ellas y ellos contactan igual |
+| [[Renew JAC|Renew JAC]] | 6,1 % | 4,7 % | 0,75× | 2 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
+| [[Renew Peugeot|Renew Peugeot]] | 12,4 % | 13,7 % | 1,08× | 3 (ellas menos en 1) | Sin diferencia: ellas y ellos contactan igual |
+| [[Renew Jetour|Renew Jetour]] | 20,2 % | 20,2 % | 0,89× | 4 (ellas menos en 3) | Ellas miran y el contacto lo deja él |
 | [[Renew Volkswagen|Renew Volkswagen]] | 9,5 % | 9,1 % | 0,96× | 1 (ellas menos en 1) | Sin diferencia: ellas y ellos contactan igual |
-| [[Renew Jeep|Renew Jeep]] | 28,5 % | 28,8 % | 1,01× | 1 (ellas menos en 0) | Sin diferencia: ellas y ellos contactan igual |
-| [[Renew Honda|Renew Honda]] | 7,4 % | 6,9 % | 0,92× | 2 (ellas menos en 2) | Sin diferencia: ellas y ellos contactan igual |
+| [[Renew Honda|Renew Honda]] | 7,4 % | 7,0 % | 0,93× | 2 (ellas menos en 2) | Sin diferencia: ellas y ellos contactan igual |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|---|
-| 26,6 % | 16,9 % | 16,0 % | 13,5 % | 9,6 % | 7,5 % |
+| 26,4 % | 16,4 % | 15,8 % | 13,3 % | 9,4 % | 7,7 % |
 
-Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,80×).
+Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,82×).
 
 ## 2. ¿Qué le interesa a cada uno?
 
 Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema suma 10 puntos de mujeres (o de mayores de 55) sobre lo normal del modelo. Clics y cantidad de anuncios entre paréntesis.
 
-**Lo que menos las atrae** (evitarlo en la pieza para ellas): Renew Usados: familia y espacio (-4,4).
+**Lo que menos las atrae** (evitarlo en la pieza para ellas): Renew Usados: familia y espacio (-4,2).
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -72,9 +71,9 @@ Cuando compra una empresa hay un **comité**: decide el dueño o un gerente, pag
 
 ## 4. ¿Quién más aparece en las conversaciones?
 
-Chats de **Messenger e Instagram** de las páginas de Renew y de sus asesores, del 2026-07-21 al 2026-10-19. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
+Chats de **Messenger e Instagram** de las páginas de Renew y de sus asesores, del 2026-07-28 al 2026-10-26. Se cuenta en cuántos el cliente nombra a otra persona; no se guarda ningún mensaje. WhatsApp no deja leer el historial por API, así que no entra.
 
-- **75** chats con texto del cliente · **0,0 %** nombran a otra persona.
+- **87** chats con texto del cliente · **0,0 %** nombran a otra persona.
 
 _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más que cuántas veces._
 
@@ -82,7 +81,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza para quien acompaña la decisión
 
-**Por qué:** Donde más se nota: Renew Jetour (0,86×).
+**Por qué:** Donde más se nota: Renew Jetour (0,89×).
 
 **La pieza (texto base, ajustar al tono de la marca):**
 
@@ -106,9 +105,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-26 a 2026-10-24, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-07-30 a 2026-10-28, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: ventas a cliente final, 2025-09-11 a 2026-09-11.
-- Chats: Messenger e Instagram, lectura semanal (2026-10-19).
-- Generado el 2026-10-24 06:47 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Chats: Messenger e Instagram, lectura semanal (2026-10-26).
+- Generado el 2026-10-28 06:48 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[Renew|Volver a Renew]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

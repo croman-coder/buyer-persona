@@ -9,17 +9,17 @@ _51 públicos únicos encontrados en las cuentas de Mitsubishi. Reusalos para re
 
 | Audiencia | Tipo | Tamaño aprox. |
 |---|---|---|
-| RMK IG | General (365) | Interacción Instagram | 16,100 |
+| RMK IG | General (365) | Interacción Instagram | 16,200 |
 | RMK IG | Interactuaron (365) | Interacción Instagram | 10,700 |
-| RMK FB | General (365) | Interacción (IG/FB/anuncios) | 6,300 |
-| RMK WEB | Page View (180) | Visitantes del sitio | 6,300 |
-| RMK WEB | Contact (180) | Visitantes del sitio | 5,900 |
-| RMK WEB | Todos los visitantes del sitio web (180) | Visitantes del sitio | 5,900 |
+| RMK FB | General (365) | Interacción (IG/FB/anuncios) | 6,500 |
+| RMK WEB | Page View (180) | Visitantes del sitio | 6,400 |
+| RMK WEB | Contact (180) | Visitantes del sitio | 6,100 |
+| RMK WEB | Todos los visitantes del sitio web (180) | Visitantes del sitio | 6,000 |
 | RMK FORM | Destinator | Abrió y no envió | 90 días | Interacción (IG/FB/anuncios) | 3,900 |
 | RMK FB | Seguidores actuales | Interacción (IG/FB/anuncios) | 3,800 |
-| RMK WEB | CP Destinator - vio Form / no envio (90) | Interacción (IG/FB/anuncios) | 3,600 |
-| RMK FORM | L200 | Abrió y no envió | 90 días | Interacción (IG/FB/anuncios) | 3,100 |
-| Mitsubishi | Público Instagram | Interacción Instagram | 3,100 |
+| RMK WEB | CP Destinator - vio Form / no envio (90) | Interacción (IG/FB/anuncios) | 3,700 |
+| Mitsubishi | Público Instagram | Interacción Instagram | 3,000 |
+| RMK FORM | L200 | Abrió y no envió | 90 días | Interacción (IG/FB/anuncios) | 2,900 |
 | RMK VIDEOS TODOS | 15S (365) | Interacción (IG/FB/anuncios) | 2,500 |
 | RMK VIDEOS | 95% (365) | Interacción (IG/FB/anuncios) | 2,400 |
 | MONTERO | FORMULARIOS ABIERTOS NO ENVIADOS | Interacción (IG/FB/anuncios) | 1,000 |
