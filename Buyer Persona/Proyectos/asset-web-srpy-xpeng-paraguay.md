@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: a27d65dc36cd8b38f209528e4a533e6a65a301fedc29e4fc2d261571da47eeb0
+firma: 4c087052dc328af74948ff6ff15b6751aa2d3b2bf79fe8c76cc31e17b43e0855
 git_rama: main
 git_remoto: https://github.com/croman-coder/xpeng-paraguay.git
 git_sin_subir: 0
@@ -8,7 +8,8 @@ git_ultimo_commit: '2026-10-07 cff51a4 SEO: el sitemap deja solo páginas reales
   las URLs con #fragmento)'
 hijos: []
 nombre: xpeng-paraguay
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/ASSET WEB SRPY/xpeng-paraguay. Sin info
+  de lenguaje en README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/ASSET WEB SRPY/xpeng-paraguay
 slug: asset-web-srpy-xpeng-paraguay

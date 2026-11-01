@@ -9,37 +9,37 @@ _111 públicos únicos encontrados en las cuentas de Renault. Reusalos para rema
 
 | Audiencia | Tipo | Tamaño aprox. |
 |---|---|---|
-| Público similar (5%) - RMK FORM | Koleos | Abrió y no envió | 90 días | Público similar (Lookalike) | 254,500 |
-| Público similar (5%) - RMK WEB | Form CP (90) | Público similar (Lookalike) | 253,500 |
+| Público similar (5%) - RMK FORM | Koleos | Abrió y no envió | 90 días | Público similar (Lookalike) | 254,200 |
+| Público similar (5%) - RMK WEB | Form CP (90) | Público similar (Lookalike) | 253,300 |
 | Público similar (5%) - LEAD FORM | Master | Enviado | 90 días | Público similar (Lookalike) | 253,300 |
-| Público similar (5%) - LEAD FORM | Koleos | Enviado | 90 días | Público similar (Lookalike) | 250,800 |
-| Público similar (5%) - RMK FORM | Boreal | Abrió y no envió | 90 días | Público similar (Lookalike) | 250,000 |
-| Público similar (5%) - RMK WEB | Lead (180) | Público similar (Lookalike) | 248,300 |
+| Público similar (5%) - RMK FORM | Boreal | Abrió y no envió | 90 días | Público similar (Lookalike) | 250,600 |
+| Público similar (5%) - LEAD FORM | Koleos | Enviado | 90 días | Público similar (Lookalike) | 249,900 |
 | Público similar (5%) - RMK FORM | Master | Abrió y no envió | 90 días | Público similar (Lookalike) | 248,300 |
-| Público similar (5%) - LEAD FORM | Boreal | Enviado | 90 días | Público similar (Lookalike) | 246,300 |
-| Público similar (5%) - RMK WEB | Page View (180) | Público similar (Lookalike) | 236,900 |
+| Público similar (5%) - RMK WEB | Lead (180) | Público similar (Lookalike) | 247,300 |
+| Público similar (5%) - LEAD FORM | Boreal | Enviado | 90 días | Público similar (Lookalike) | 246,700 |
+| Público similar (5%) - RMK WEB | Page View (180) | Público similar (Lookalike) | 236,000 |
 | Público similar (3%) - RMK WEB | Todos los visitantes del sitio web (180) | Público similar (Lookalike) | 138,700 |
-| Público similar (3%) - RMK WEB | Koleos - Vio página (180) | Público similar (Lookalike) | 136,200 |
+| Público similar (3%) - RMK WEB | Koleos - Vio página (180) | Público similar (Lookalike) | 137,000 |
 | Público similar (3%) - RMK WEB | Boreal - Vio página (180) | Público similar (Lookalike) | 134,500 |
 | Público similar (3%) - RMK WEB | Master - Vio página (180) | Público similar (Lookalike) | 128,400 |
-| Público similar (3%) - RMK WEB | Filante - Vio página (180) | Público similar (Lookalike) | 124,200 |
-| Público similar (2%) - RMK FB | Seguidores actuales | Público similar (Lookalike) | 101,200 |
-| Público similar (1%) - RMK IG | General (365) | Público similar (Lookalike) | 50,500 |
-| Público similar (1%) - RMK IG | Interactuaron (365) | Público similar (Lookalike) | 49,200 |
-| Público similar (1%) - RMK FB | General (365) | Público similar (Lookalike) | 48,900 |
+| Público similar (3%) - RMK WEB | Filante - Vio página (180) | Público similar (Lookalike) | 125,200 |
+| Público similar (2%) - RMK FB | Seguidores actuales | Público similar (Lookalike) | 101,100 |
+| Público similar (1%) - RMK IG | General (365) | Público similar (Lookalike) | 50,100 |
+| Público similar (1%) - RMK FB | General (365) | Público similar (Lookalike) | 48,700 |
+| Público similar (1%) - RMK IG | Interactuaron (365) | Público similar (Lookalike) | 48,700 |
 | Público similar (1%) - RMK VIDEOS TODOS | 15S (365) | Público similar (Lookalike) | 47,600 |
-| Público similar (1%) - RMK VIDEOS | 95% (365) | Público similar (Lookalike) | 46,500 |
-| RMK IG | General (365) | Interacción Instagram | 37,600 |
-| RMK IG | Interactuaron (365) | Interacción Instagram | 32,800 |
+| Público similar (1%) - RMK VIDEOS | 95% (365) | Público similar (Lookalike) | 46,400 |
+| RMK IG | General (365) | Interacción Instagram | 39,400 |
+| RMK IG | Interactuaron (365) | Interacción Instagram | 34,100 |
 | Renault | Público Instagram | Interacción Instagram | 29,900 |
-| personas interacturaron ig | Interacción Instagram | 19,500 |
-| Interactuaron con Facebook. | Interacción Instagram | 15,300 |
-| RMK FB | General (365) | Interacción (IG/FB/anuncios) | 13,800 |
-| RMK WEB | Page View (180) | Visitantes del sitio | 13,300 |
-| RMK WEB | Todos los visitantes del sitio web (180) | Visitantes del sitio | 13,000 |
-| personas que visitaron el sitio | Visitantes del sitio | 12,900 |
+| personas interacturaron ig | Interacción Instagram | 15,800 |
+| RMK FB | General (365) | Interacción (IG/FB/anuncios) | 14,900 |
+| RMK WEB | Page View (180) | Visitantes del sitio | 13,200 |
+| RMK WEB | Todos los visitantes del sitio web (180) | Visitantes del sitio | 12,900 |
+| personas que visitaron el sitio | Visitantes del sitio | 12,800 |
 | publico | Visitantes del sitio | 12,500 |
-| RMK WEB | Form CP (90) | Interacción (IG/FB/anuncios) | 8,700 |
+| Interactuaron con Facebook. | Interacción Instagram | 11,500 |
+| RMK WEB | Form CP (90) | Interacción (IG/FB/anuncios) | 8,900 |
 | Interactuaron ig(365 dias) | Interacción Instagram | 2,700 |
 | RMK WEB | Koleos - Vio página (180) | Visitantes del sitio | 2,300 |
 | BB-DD-KWID-_Febr-2025_-_3_.csv | Personalizada | 2,300 |
@@ -50,14 +50,14 @@ _111 públicos únicos encontrados en las cuentas de Renault. Reusalos para rema
 | Interactuaron 365 dias | Interacción Instagram | 1,600 |
 | Personas que Interactuaron (365 dias) ig | Interacción Instagram | 1,600 |
 | Personas que interacturaron ig (365 dias) | Interacción Instagram | 1,600 |
-| Formulario abierto/no enviado | Interacción (IG/FB/anuncios) | 1,500 |
 | Facebook 30D | Interacción (IG/FB/anuncios) | 1,400 |
+| Formulario abierto/no enviado | Interacción (IG/FB/anuncios) | 1,400 |
+| Facebook de Renault en los últimos 30 días. | Interacción (IG/FB/anuncios) | 1,400 |
 | RMK WEB | Boreal - Vio página (180) | Visitantes del sitio | 1,300 |
 | Interacción Instagram 30D | Interacción Instagram | 1,300 |
-| Abrieron formularios y no los enviaron | Interacción (IG/FB/anuncios) | 1,300 |
-| Facebook de Renault en los últimos 30 días. | Interacción (IG/FB/anuncios) | 1,300 |
 | RMK WEB | Master - Vio página (180) | Visitantes del sitio | 1,200 |
-| RMK FORM | Master | Abrió y no envió | 90 días | Interacción (IG/FB/anuncios) | 1,100 |
+| RMK FORM | Master | Abrió y no envió | 90 días | Interacción (IG/FB/anuncios) | 1,200 |
+| Abrieron formularios y no los enviaron | Interacción (IG/FB/anuncios) | 1,200 |
 | Abrieron y enviaron | Interacción (IG/FB/anuncios) | 1,000 |
 | Abrieron y no enviaron 90 | Interacción (IG/FB/anuncios) | 1,000 |
 | Abrieron el formulario 90 dias | Interacción (IG/FB/anuncios) | 1,000 |

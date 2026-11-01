@@ -8,7 +8,7 @@ locations:
 - Asunción
 - San Lorenzo
 - Ciudad del Este
-created: '2026-10-28'
+created: '2026-11-01'
 tags:
 - buyer-persona
 - marketing
@@ -22,7 +22,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-30 → 2026-10-28 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-08-03 → 2026-11-01 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -31,9 +31,9 @@ tags:
 
 > [!summary] Perfil Resumido
 - **Edad:** 35-44 (33.3% de los contactos) · heredado de la marca
-- **Género predominante:** Masculino (77.9%)
+- **Género predominante:** Masculino (78.0%)
 - **Ubicación:** Asunción, San Lorenzo, Ciudad del Este
-- **Período leído:** Meta 2026-07-30 → 2026-10-28 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-08-03 → 2026-11-01 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `GWM Wingle`
 - **Marca:** [[Comprador GWM|GWM]]
 - **Tipo de vehículo:** Pickup
@@ -57,8 +57,8 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción, San Lorenzo, Ciudad del Este
-- **Fuente edad/género:** audiencia de Meta de la marca **GWM** (6,514 contactos), ponderado por contactos (formularios y chats) — Masculino 77.9%
-- **Distribución de edad (Meta):** 35-44: 33.3%, 25-34: 26.6%, 45-54: 20.1%, 65+: 9.2%, 55-64: 7.2%, 18-24: 3.7%
+- **Fuente edad/género:** audiencia de Meta de la marca **GWM** (6,360 contactos), ponderado por contactos (formularios y chats) — Masculino 78.0%
+- **Distribución de edad (Meta):** 35-44: 33.3%, 25-34: 26.6%, 45-54: 20.0%, 65+: 9.3%, 55-64: 7.0%, 18-24: 3.7%
 - ⚠️ Perfil heredado de la marca: el desglose edad/género por anuncio no estaba disponible en esta corrida (se atribuye por modelo desde el 2026-09-18).
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
@@ -83,8 +83,8 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **NSE estimado:** C (medio)
 - **Señales que se usaron:**
   - ticket promedio USD 18,658 (gama media)
-  - 75% pide financiación en el formulario (554 respuestas)
-  - 30.8% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 76% pide financiación en el formulario (569 respuestas)
+  - 31.0% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción, San Lorenzo, Ciudad del Este
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -138,9 +138,9 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Canales:** Prioriza Showroom.
 > **Oferta:** la planilla de acciones comerciales cargada es de septiembre y ya venció. No usar el descuento en el copy hasta cargar la de este mes.
 > **Formato:** En formularios, la imagen (gráfica) y el video no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — GWM]].
-> **Públicos hoy:** los 117 adsets activos van a público frío (108 con Advantage+). Sumar retargeting (formulario abierto sin enviar, visitantes web) y la base de compradores del ERP.
-> **Presupuesto sugerido:** ~USD 220/mes (hoy ~USD 65/mes según su peso en anuncios) → ~83 leads/mes al CPL actual de la marca (USD 2.63).
-> _Base del cálculo: 5.1% de las ventas de la marca sobre USD 4,318/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Públicos hoy:** los 118 adsets activos van a público frío (109 con Advantage+). Sumar retargeting (formulario abierto sin enviar, visitantes web) y la base de compradores del ERP.
+> **Presupuesto sugerido:** ~USD 215/mes (hoy ~USD 63/mes según su peso en anuncios) → ~81 leads/mes al CPL actual de la marca (USD 2.63).
+> _Base del cálculo: 5.1% de las ventas de la marca sobre USD 4,221/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -148,19 +148,19 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — GWM (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 4,920
+> **Total de leads de la marca en la ventana:** 4,820
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
-> **Modelos más pedidos (toda la marca):** Jolion (89), Solo Consulta (65), Usado (43)
-> **Método de pago preferido:** financiado (280), financiacion (138), contado (136)
-> **Ciudad:** Asunción (709), Ciudad del Este (289), Luque (137)
+> **Modelos más pedidos (toda la marca):** Jolion (89), Solo Consulta (65), Usado (45)
+> **Método de pago preferido:** financiado (280), financiacion (152), contado (137)
+> **Ciudad:** Asunción (704), Ciudad del Este (290), Luque (132)
 > **Interés de compra:** en_el_mes (41), inmediata (17)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — GWM (90 días)
 
-> **Leads:** 4,746 → **convertidos:** 277 (5.8%)
-> **Por canal:** Meta asesores 2,425, Meta madre 1,962, Otros canales 359
-> **Deals:** 625 — ganados 47, perdidos 74, en proceso 504 (win rate 38.8%)
+> **Leads:** 4,864 → **convertidos:** 288 (5.9%)
+> **Por canal:** Meta asesores 2,462, Meta madre 2,039, Otros canales 363
+> **Deals:** 655 — ganados 47, perdidos 75, en proceso 533 (win rate 38.5%)
 > **Monto ganado:** USD 1,186,650 · ticket promedio USD 25,248
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
@@ -182,9 +182,9 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!info] 📦 Stock, oferta y objetivos — uso interno
 
-> **Stock al 18-09:** 13 unidades (0 disponibles, 11 en viaje, 1 con propuesta) · 48 días promedio en stock.
+> **Stock al 18-09:** 13 unidades (0 disponibles, 11 en viaje, 1 con propuesta) · 52 días promedio en stock.
 > **Precio de lista (2026-09, planilla vencida):** USD 19,990 a 21,990 en 2 versión(es) · ritmo 3.5 unidades/mes.
-> **Objetivo de la marca (según el ERP):** mes 10/2026: 0 de 102 (0.0%) · acumulado 2026: 676 de 804 (84.1%) · anual 1000 unidades. Ventas cargadas hasta 2026-09-11: lo vendido después de esa fecha todavía no cuenta acá.
+> **Objetivo de la marca (según el ERP):** mes 11/2026: 0 de 106 (0.0%) · acumulado 2026: 676 de 910 (74.3%) · anual 1000 unidades. Ventas cargadas hasta 2026-09-11: lo vendido después de esa fecha todavía no cuenta acá.
 > **Equipo comercial (planilla semanal de negociación, 2026-09 semana 1):** 17 vendedores · promesa del mes 94 · venta del mes a esa semana (MTD) 15 · leads del mes 571 · negociaciones abiertas 14 (semana actual 68, pasada 67) · perdidas 0.
 > _La planilla y el ERP tienen cortes distintos (una semana vs. la última carga), por eso la venta del mes de acá puede no coincidir con el objetivo de arriba. El ERP manda._
 > _Fuentes: stock del ERP, planilla de acciones comerciales, budget de ventas y resumen semanal de negociación (data/fuentes/). Sin datos personales._
@@ -199,7 +199,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-28 06:48*
+*Generado el 2026-11-01 06:40*
 
 ## 🔗 Contenido Relacionado
 

@@ -6,7 +6,7 @@ age_range: 45-54
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-28'
+created: '2026-11-01'
 tags:
 - buyer-persona
 - marketing
@@ -20,7 +20,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-30 → 2026-10-28 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-08-03 → 2026-11-01 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -28,16 +28,16 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 45-54 (27.9% de los contactos) · perfil propio del modelo
-- **Género predominante:** Masculino (86.3%)
+- **Edad:** 45-54 (28.0% de los contactos) · perfil propio del modelo
+- **Género predominante:** Masculino (86.5%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-30 → 2026-10-28 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-08-03 → 2026-11-01 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Renew Peugeot`
 - **Marca:** [[Comprador Renew|Renew]]
 - **Tipo de vehículo:** Usado
 - **Ventas reales (ERP):** 7 unidades desde 2018 · últimos 12 meses: 5 · últimos 90 días: 2
-- **Pauta real (90 días):** 29 anuncios (7 activos)
-- **Brecha pauta/venta:** sobre-pautado 🔴 revisar — 2.5% de las ventas de la marca (12 meses) vs 5.2% de sus anuncios (ERP hasta 2026-09-11)
+- **Pauta real (90 días):** 31 anuncios (6 activos)
+- **Brecha pauta/venta:** sobre-pautado 🔴 revisar — 2.5% de las ventas de la marca (12 meses) vs 5.4% de sus anuncios (ERP hasta 2026-09-11)
   _Cómo se decide: **sub-pautado** si el modelo pone ≥5 % de las ventas de la marca y tiene menos de la mitad de anuncios que de ventas (escalar); **sobre-pautado** si pone ≥5 % de los anuncios y vende menos de la mitad de eso (revisar); **equilibrado** si no pasa ninguna de las dos._
 - **Ticket promedio (ERP, facturado):** USD 12,467
 
@@ -55,21 +55,21 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 45-54
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** anuncios de Meta que nombran a **Renew Peugeot** (390 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 86.3%
-- **Distribución de edad (Meta):** 45-54: 27.9%, 35-44: 24.6%, 25-34: 18.2%, 55-64: 17.7%, 65+: 7.7%, 18-24: 3.8%
+- **Fuente edad/género:** anuncios de Meta que nombran a **Renew Peugeot** (396 contactos en la ventana), ponderado por contactos (formularios y chats) — Masculino 86.5%
+- **Distribución de edad (Meta):** 45-54: 28.0%, 35-44: 24.5%, 55-64: 18.2%, 25-34: 17.7%, 65+: 7.8%, 18-24: 3.8%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
 
 _Qué es: los temas que aparecen en los anuncios que este público ve y clickea. No son intereses declarados (Meta dejó de exponerlos en 2021): es con qué le estamos hablando y qué responde. El % es la parte de los anuncios que toca cada tema._
 
-**Intereses observados** (29 anuncios reales leídos):
-- Financiación en cuotas · 93.1% de los anuncios
-- Probar antes de comprar (test drive) · 24.1% de los anuncios
-- Garantía y respaldo posventa · 20.7% de los anuncios
-- Ofertas y promociones · 13.8% de los anuncios
-- Tecnología y conectividad · 13.8% de los anuncios
-- Familia y espacio · 6.9% de los anuncios
+**Intereses observados** (31 anuncios reales leídos):
+- Financiación en cuotas · 93.5% de los anuncios
+- Probar antes de comprar (test drive) · 29.0% de los anuncios
+- Garantía y respaldo posventa · 22.6% de los anuncios
+- Ofertas y promociones · 12.9% de los anuncios
+- Tecnología y conectividad · 12.9% de los anuncios
+- Familia y espacio · 9.7% de los anuncios
 
 _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, para no tener el mismo número dos veces._
 
@@ -81,7 +81,7 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **Señales que se usaron:**
   - ticket promedio USD 12,467 (entrada)
   - 100% pide financiación en el formulario (2 respuestas)
-  - 26.7% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 26.4% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -107,7 +107,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!warning] 🔴 Dolores y Frustraciones
 
-> _De dónde sale: del texto de 29 anuncios reales de este modelo. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
+> _De dónde sale: del texto de 31 anuncios reales de este modelo. Son los temas con los que la pauta ya le habla y a los que responde; no son encuestas._
 >
 > - Compara el valor de la cuota mensual, no solo el precio de lista
 > - Sensible a promociones y precio por tiempo limitado
@@ -125,18 +125,18 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > - Confianza en la garantía y el respaldo de posventa de la marca/concesionaria
 > - Tecnología y conectividad de última generación
-> - Seguridad y tecnología de asistencia a la conducción verificable
 > - Status y diseño en el segmento premium
+> - Seguridad y tecnología de asistencia a la conducción verificable
 
 
 > [!example] 📣 Estrategia Recomendada
 
 > **Mensaje clave:** Enfoca la comunicación en 'Renew Peugeot'.
 > **Canales:** Prioriza Showroom.
-> **Formato:** En formularios casi todo fue imagen (gráfica): para saber si otro formato rinde más, sumar uno distinto en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — Renew]].
-> **Públicos hoy:** los 72 adsets activos van a público frío (69 con Advantage+). Sumar retargeting (formulario abierto sin enviar, visitantes web) y la base de compradores del ERP.
-> **Presupuesto sugerido:** ~USD 32/mes (hoy ~USD 67/mes según su peso en anuncios) → ~43 leads/mes al CPL actual de la marca (USD 0.75).
-> _Base del cálculo: 2.5% de las ventas de la marca sobre USD 1,292/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
+> **Formato:** En whatsapp y mensajes casi todo fue imagen (gráfica): para saber si otro formato rinde más, sumar uno distinto en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — Renew]].
+> **Públicos hoy:** 98.6% de los adsets activos van a público frío; 1 de 73 adsets usan base propia (1 lookalike).
+> **Presupuesto sugerido:** ~USD 32/mes (hoy ~USD 69/mes según su peso en anuncios) → ~41 leads/mes al CPL actual de la marca (USD 0.76).
+> _Base del cálculo: 2.5% de las ventas de la marca sobre USD 1,275/mes que gasta la marca. El CPL es el de **toda la marca** en la ventana (gasto ÷ leads de formulario); si el modelo tiene campaña propia, el CPL real es el de esa campaña y puede ser distinto._
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -144,26 +144,26 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Renew (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 399
+> **Total de leads de la marca en la ventana:** 375
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
-> **Modelos más pedidos (toda la marca):** Suv (240), Auto (77), Pick Up (20)
+> **Modelos más pedidos (toda la marca):** Suv (229), Auto (70), Pick Up (20)
 > **Método de pago preferido:** financian? cualquier marca (1), financiado hasta 12.500 Kia (1)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Renew (90 días)
 
-> **Leads:** 1,598 → **convertidos:** 3 (0.2%)
-> **Por canal:** Meta madre 1,381, Meta asesores 206, Otros canales 11
-> **Deals:** 67 — ganados 51, perdidos 2, en proceso 14 (win rate 96.2%)
-> **Monto ganado:** USD 860,693 · ticket promedio USD 16,876
+> **Leads:** 1,794 → **convertidos:** 3 (0.2%)
+> **Por canal:** Meta madre 1,575, Meta asesores 206, Otros canales 13
+> **Deals:** 74 — ganados 53, perdidos 2, en proceso 19 (win rate 96.4%)
+> **Monto ganado:** USD 924,338 · ticket promedio USD 17,440
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
 
 
 > [!info] 📦 Stock, oferta y objetivos — uso interno
 
-> **Stock al 18-09:** 3 unidades (3 disponibles, 0 en viaje, 0 con propuesta) · 220 días promedio en stock.
-> **Objetivo de la marca (según el ERP):** mes 10/2026: 0 de 30 (0.0%) · acumulado 2026: 160 de 224 (71.4%) · anual 286 unidades. Ventas cargadas hasta 2026-09-11: lo vendido después de esa fecha todavía no cuenta acá.
+> **Stock al 18-09:** 3 unidades (3 disponibles, 0 en viaje, 0 con propuesta) · 224 días promedio en stock.
+> **Objetivo de la marca (según el ERP):** mes 11/2026: 0 de 32 (0.0%) · acumulado 2026: 160 de 256 (62.5%) · anual 286 unidades. Ventas cargadas hasta 2026-09-11: lo vendido después de esa fecha todavía no cuenta acá.
 > **Equipo comercial (planilla semanal de negociación, 2026-09 semana 1):** 4 vendedores · promesa del mes 28 · venta del mes a esa semana (MTD) 0 · leads del mes 120 · negociaciones abiertas 11 (semana actual 0, pasada 0) · perdidas 0.
 > _La planilla y el ERP tienen cortes distintos (una semana vs. la última carga), por eso la venta del mes de acá puede no coincidir con el objetivo de arriba. El ERP manda._
 > _Fuentes: stock del ERP, planilla de acciones comerciales, budget de ventas y resumen semanal de negociación (data/fuentes/). Sin datos personales._
@@ -178,7 +178,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-28 06:48*
+*Generado el 2026-11-01 06:40*
 
 ## 🔗 Contenido Relacionado
 

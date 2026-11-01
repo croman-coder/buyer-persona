@@ -23,7 +23,7 @@ Gracias por tu interés en Ford usados certificados. Esto es lo que más nos con
 
 • Financiación: planes y formas de pago a tu medida.
 • Test drive sin compromiso, el día y horario que elijas.
-• Tecnología y conectividad para el día a día, según la versión.
+• Espacio y comodidad para viajar en familia.
 
 Lo mejor es verlo en persona: coordiná tu visita y probalo antes de decidir.
 

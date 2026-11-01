@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: Zeekr
-periodo_meta: 2026-07-30 a 2026-10-28
-created: 2026-10-28
+periodo_meta: 2026-08-03 a 2026-11-01
+created: 2026-11-01
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,7 +12,7 @@ tags:
 # 👥 Quién mira y quién decide — Zeekr
 
 > [!summary] En una línea
-> En Meta, ellas son el 34,0 % de los clics pero, viendo el mismo anuncio, contactan 0,78× lo que ellos (menos en 5 de 5 conjuntos): **ella investiga y él da el paso**. En el 0,0 % de los chats el cliente nombra a otra persona.
+> En Meta, ellas son el 33,8 % de los clics pero, viendo el mismo anuncio, contactan 0,79× lo que ellos (menos en 5 de 5 conjuntos): **ella investiga y él da el paso**. En el 0,0 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
 > 1. **Una pieza para quien acompaña la decisión** — «Menos gasto todos los meses». Detalle en la sección 5.
@@ -27,21 +27,21 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-30** al **2026-10-28**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-08-03** al **2026-11-01**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **Zeekr** | 34,0 % | 28,5 % | **0,78×** | 5 (ellas menos en 5) | Ellas miran y el contacto lo deja él |
-| [[Zeekr 7X|Zeekr 7X]] | 34,7 % | 30,8 % | 0,82× | 2 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
-| [[Zeekr 001|Zeekr 001]] | 28,6 % | 21,2 % | 0,65× | 2 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
+| **Zeekr** | 33,8 % | 28,6 % | **0,79×** | 5 (ellas menos en 5) | Ellas miran y el contacto lo deja él |
+| [[Zeekr 7X|Zeekr 7X]] | 35,4 % | 31,4 % | 0,82× | 2 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
+| [[Zeekr 001|Zeekr 001]] | 26,8 % | 21,2 % | 0,72× | 3 (ellas menos en 2) | Misma tendencia, con pocos conjuntos para confirmarlo |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|---|
-| 12,5 % | 12,7 % | 15,7 % | 15,6 % | 14,2 % | 12,5 % |
+| 12,7 % | 13,1 % | 16,9 % | 16,9 % | 15,1 % | 12,5 % |
 
-Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,84×).
+Los mayores de 55 contactan parecido al resto con el mismo anuncio (0,83×).
 
 ## 2. ¿Qué le interesa a cada uno?
 
@@ -51,19 +51,17 @@ Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema su
 
 | Modelo | Tema del anuncio | Mujeres en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| Zeekr 001 | Autos eléctricos y ahorro de combustible | 42,2 % | +20,3 | 2.059 (22) |
-| Zeekr 7X | Tecnología y conectividad | 44,8 % | +16,6 | 4.143 (6) |
-| Zeekr 7X | Diseño y estatus | 39,1 % | +10,9 | 4.546 (8) |
+| Zeekr 001 | Autos eléctricos y ahorro de combustible | 43,3 % | +22,8 | 1.951 (22) |
+| Zeekr 7X | Tecnología y conectividad | 46,8 % | +17,4 | 3.894 (4) |
+| Zeekr 7X | Diseño y estatus | 40,6 % | +11,2 | 4.399 (8) |
 
 **Lo que más atrae a los mayores de 55:**
 
 | Modelo | Tema del anuncio | 55+ en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| Zeekr 001 | Autos eléctricos y ahorro de combustible | 70,7 % | +25,5 | 2.059 (22) |
-| Zeekr 7X | Tecnología y conectividad | 68,7 % | +19,3 | 4.143 (6) |
-| Zeekr 7X | Diseño y estatus | 62,4 % | +13,0 | 4.546 (8) |
-
-**Lo que menos las atrae** (evitarlo en la pieza para ellas): Zeekr 001: diseño y estatus (-5,4).
+| Zeekr 001 | Autos eléctricos y ahorro de combustible | 74,0 % | +30,3 | 1.951 (22) |
+| Zeekr 7X | Tecnología y conectividad | 71,3 % | +20,6 | 3.894 (4) |
+| Zeekr 7X | Diseño y estatus | 64,5 % | +13,7 | 4.399 (8) |
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -81,7 +79,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza para quien acompaña la decisión
 
-**Por qué:** Ellas son el 34,0 % de los clics, pero con el mismo anuncio contactan 0,78× lo que ellos (menos en 5 de 5 conjuntos): ella investiga y él da el paso. El tema **autos eléctricos y ahorro de combustible** es el que más las atrae: en Zeekr 001 suma 20 puntos de mujeres sobre el promedio del modelo (hasta 42,2 %).
+**Por qué:** Ellas son el 33,8 % de los clics, pero con el mismo anuncio contactan 0,79× lo que ellos (menos en 5 de 5 conjuntos): ella investiga y él da el paso. El tema **autos eléctricos y ahorro de combustible** es el que más las atrae: en Zeekr 001 suma 23 puntos de mujeres sobre el promedio del modelo (hasta 43,3 %).
 
 **Modelos donde más pesa:** Zeekr 001
 
@@ -107,9 +105,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-30 a 2026-10-28, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-08-03 a 2026-11-01, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: sin datos suficientes.
 - Chats: Messenger e Instagram, lectura semanal (2026-10-26).
-- Generado el 2026-10-28 06:48 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Generado el 2026-11-01 06:40 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[Zeekr|Volver a Zeekr]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

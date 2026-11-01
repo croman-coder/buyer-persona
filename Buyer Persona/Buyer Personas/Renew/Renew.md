@@ -1,7 +1,7 @@
 ---
 type: moc-marca
 marca: Renew
-created: 2026-10-28
+created: 2026-11-01
 tags:
   - moc
   - marca/renew
@@ -9,51 +9,51 @@ tags:
 
 # 🚗 Renew
 
-> Generado el **2026-10-28 06:48** · 19 modelos con persona propia.
+> Generado el **2026-11-01 06:40** · 19 modelos con persona propia.
 
 ## 👤 Comprador de la marca
 
 - [[Comprador Renew]]
-- **Inversión Meta:** ~USD 1,292/mes · costo por conversación USD 0.75 · 5,179 conversaciones de WhatsApp en la ventana (formularios: 399)
-- **Públicos:** 100.0% de 72 adsets activos a público frío
+- **Inversión Meta:** ~USD 1,275/mes · costo por conversación USD 0.76 · 5,055 conversaciones de WhatsApp en la ventana (formularios: 375)
+- **Públicos:** 98.6% de 73 adsets activos a público frío
 
 ## 👥 Quién mira y quién decide
 
-- En Meta, ellas son el 19,4 % de los clics y contactan igual que ellos con el mismo anuncio (0,99×).
+- En Meta, ellas son el 18,8 % de los clics y contactan igual que ellos con el mismo anuncio (1,00×).
 - El 11,1 % de las compras a cliente final las factura una empresa.
 - **Qué hacer en Meta Ads y cómo leerlo:** [[👥 Quién mira y quién decide — Renew]]
 
 ## 🎬 Materiales que mejor funcionan
 
-- En formularios casi todo fue imagen (gráfica): para saber si otro formato rinde más, sumar uno distinto en el mismo conjunto.
-- **Formularios — formato:** solo imagen (gráfica) tiene muestra suficiente; se probó poco carrusel.
-- **Formularios — Reels, Stories o Feed:** el lead más barato sale en **Stories** (USD 1,20); después Reels USD 1,39 · Feed USD 1,76. Son las mismas piezas en distintas ubicaciones: tener la versión para la que rinde.
-- **Formularios — imágenes con o sin versión vertical:** Las imágenes con versión vertical (9:16) y las imágenes sin versión vertical no se pueden comparar: se usaron en cuentas o tipos de formulario distintos (por ejemplo, uno en la cuenta de la marca y el otro en las de asesores).
+- En whatsapp y mensajes casi todo fue imagen (gráfica): para saber si otro formato rinde más, sumar uno distinto en el mismo conjunto.
+- **WhatsApp y mensajes — formato:** solo imagen (gráfica) tiene muestra suficiente; se probó poco carrusel.
+- **WhatsApp y mensajes — Reels, Stories o Feed:** cuesta parecido en las tres (Stories USD 0,59 · Reels USD 0,60 · Feed USD 0,62).
+- **WhatsApp y mensajes — imágenes con o sin versión vertical:** **Las imágenes con versión vertical (9:16)** traen la conversación más barata: 33 % menos que las imágenes sin versión vertical en campañas comparables (cuenta de la marca: USD 0,48 contra USD 0,72; base: 7.619 conversaciones). Se repite: ganó en 4 de 5 meses.
 - **Formato, ubicación, duración, mes a mes y mejores anuncios:** [[🎬 Materiales que funcionan — Renew]]
 
 ## 🚘 Modelos
 
 | Nota | Edad | Género | Demo | Ventas 12m | Anuncios | Brecha | Presup. sugerido/mes |
 |---|---|---|---|---|---|---|---|
-| [[Renew Jetour]] | 35-44 | Masculino 79.8% | modelo | 31 | 67 | ⚖️ equilibrado | USD 203 |
-| [[Renew Renault]] | 35-44 | Masculino 75.6% | modelo | 23 | 78 | ⚖️ equilibrado | USD 151 |
-| [[Renew GWM]] | 35-44 | Masculino 89.5% | modelo | 21 | 42 | ⚖️ equilibrado | USD 138 |
-| [[Renew Chevrolet]] | 25-34 | Masculino 77.5% | modelo | 16 | 42 | ⚖️ equilibrado | USD 105 |
-| [[Renew Kia]] | 25-34 | Masculino 77.7% | modelo | 14 | 44 | ⚖️ equilibrado | USD 92 |
-| [[Renew Nissan]] | 65+ | Masculino 73.3% | modelo | 13 | 22 | ⚖️ equilibrado | USD 85 |
-| [[Renew Volkswagen]] | 25-34 | Masculino 90.9% | modelo | 13 | 20 | ⚖️ equilibrado | USD 85 |
-| [[Renew SsangYong]] | 35-44 | Masculino 87.6% | modelo | 10 | 23 | ⚖️ equilibrado | USD 66 |
-| [[Renew Jeep]] | 45-54 | Masculino 67.5% | modelo | 7 | 14 | ⚖️ equilibrado | USD 47 |
-| [[Renew Toyota]] | 35-44 | Masculino 81.5% | marca | 7 | 17 | ⚖️ equilibrado | USD 47 |
-| [[Renew Ford]] | 35-44 | Masculino 86.3% | modelo | 7 | 18 | ⚖️ equilibrado | USD 47 |
-| [[Renew Hyundai]] | 35-44 | Masculino 66.6% | modelo | 6 | 29 | ⚖️ equilibrado | USD 39 |
-| [[Renew Honda]] | 35-44 | Masculino 93.0% | modelo | 6 | 14 | ⚖️ equilibrado | USD 39 |
-| [[Renew JAC]] | 35-44 | Masculino 95.3% | modelo | 6 | 6 | ⚖️ equilibrado | USD 39 |
-| [[Renew Fiat]] | 25-34 | Masculino 78.0% | modelo | 6 | 9 | ⚖️ equilibrado | USD 39 |
-| [[Renew Mini]] | 35-44 | Masculino 81.5% | marca | 6 | 14 | ⚖️ equilibrado | USD 39 |
-| [[Renew Peugeot]] | 45-54 | Masculino 86.3% | modelo | 5 | 29 | 🔴 sobre-pautado | USD 32 |
-| [[Renew Usados]] | 35-44 | Masculino 86.3% | modelo | 149 | 61 | 🔴 sobre-pautado | — |
-| [[Renew Mitsubishi]] | 35-44 | Masculino 81.5% | marca | 2 | 8 | ⚖️ equilibrado | — |
+| [[Renew Jetour]] | 35-44 | Masculino 79.5% | modelo | 31 | 68 | ⚖️ equilibrado | USD 200 |
+| [[Renew Renault]] | 35-44 | Masculino 73.9% | modelo | 23 | 78 | ⚖️ equilibrado | USD 149 |
+| [[Renew GWM]] | 35-44 | Masculino 90.1% | modelo | 21 | 42 | ⚖️ equilibrado | USD 136 |
+| [[Renew Chevrolet]] | 25-34 | Masculino 77.5% | modelo | 16 | 42 | ⚖️ equilibrado | USD 103 |
+| [[Renew Kia]] | 25-34 | Masculino 78.7% | modelo | 14 | 46 | ⚖️ equilibrado | USD 91 |
+| [[Renew Nissan]] | 35-44 | Masculino 82.0% | marca | 13 | 22 | ⚖️ equilibrado | USD 84 |
+| [[Renew Volkswagen]] | 25-34 | Masculino 90.9% | modelo | 13 | 20 | ⚖️ equilibrado | USD 84 |
+| [[Renew SsangYong]] | 35-44 | Masculino 87.9% | modelo | 10 | 24 | ⚖️ equilibrado | USD 65 |
+| [[Renew Jeep]] | 45-54 | Masculino 72.5% | modelo | 7 | 14 | ⚖️ equilibrado | USD 46 |
+| [[Renew Toyota]] | 35-44 | Masculino 82.0% | marca | 7 | 17 | ⚖️ equilibrado | USD 46 |
+| [[Renew Ford]] | 35-44 | Masculino 85.0% | modelo | 7 | 19 | ⚖️ equilibrado | USD 46 |
+| [[Renew Hyundai]] | 35-44 | Masculino 66.6% | modelo | 6 | 29 | ⚖️ equilibrado | USD 38 |
+| [[Renew Honda]] | 35-44 | Masculino 93.3% | modelo | 6 | 14 | ⚖️ equilibrado | USD 38 |
+| [[Renew JAC]] | 35-44 | Masculino 94.6% | modelo | 6 | 8 | ⚖️ equilibrado | USD 38 |
+| [[Renew Fiat]] | 25-34 | Masculino 78.0% | modelo | 6 | 9 | ⚖️ equilibrado | USD 38 |
+| [[Renew Mini]] | 35-44 | Masculino 82.0% | marca | 6 | 14 | ⚖️ equilibrado | USD 38 |
+| [[Renew Peugeot]] | 45-54 | Masculino 86.5% | modelo | 5 | 31 | 🔴 sobre-pautado | USD 32 |
+| [[Renew Usados]] | 35-44 | Masculino 86.2% | modelo | 149 | 69 | 🔴 sobre-pautado | — |
+| [[Renew Mitsubishi]] | 35-44 | Masculino 82.0% | marca | 2 | 8 | ⚖️ equilibrado | — |
 
 _Demo = de dónde sale edad/género: **modelo** (anuncios propios del modelo) o **marca** (heredado, pocos clics propios). Brecha: 🟢 sub-pautado = vende más de lo que se pauta, 🔴 sobre-pautado, 🆕 lanzamiento sin ventas en el ERP aún._
 

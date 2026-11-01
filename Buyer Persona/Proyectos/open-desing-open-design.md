@@ -1,6 +1,6 @@
 ---
 estado: dormido
-firma: fc45a59360f1b7def6e50335292197ed62cf1a015ae89c97750286e5014c83ee
+firma: bf14883329c4b07da8aba84e2350067b7734a0e16e65fef3e3b7954558c4092a
 git_rama: main
 git_remoto: https://github.com/nexu-io/open-design.git
 git_sin_subir: 0
@@ -8,7 +8,8 @@ git_ultimo_commit: '2026-07-23 f2760fd feat(landing): curated Codex design plugi
   catalogue (50 entries) (#5978)'
 hijos: []
 nombre: open-design
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/OPEN DESING/open-design. Sin info de
+  lenguaje en README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/OPEN DESING/open-design
 slug: open-desing-open-design

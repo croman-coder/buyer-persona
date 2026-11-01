@@ -1,6 +1,6 @@
 ---
 estado: dormido
-firma: c526efd6875b040a0e89cb0d63159138581126f79227216c70740dec174c36a7
+firma: 579a355a58ba0c9d14b4b02fe0c1dd508561193ab069e464daf07c9edcbcd2c9
 git_rama: master
 git_remoto: https://github.com/croman-coder/prospectos-asesores.git
 git_sin_subir: 0
@@ -8,8 +8,7 @@ git_ultimo_commit: '2026-09-21 aec3cfd Sacar la clave: formulario abierto con l√
   de ritmo por IP'
 hijos: []
 nombre: PROSPECTOS ASESORES
-resumen: Proyecto en /home/croman/Escritorio/PROSPECTOS ASESORES. Sin info de lenguaje
-  en README.
+resumen: null
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/PROSPECTOS ASESORES
 slug: prospectos-asesores

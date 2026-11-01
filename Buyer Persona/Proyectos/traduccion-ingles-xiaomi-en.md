@@ -7,9 +7,8 @@ git_sin_subir: null
 git_ultimo_commit: null
 hijos: []
 nombre: xiaomi-en
-resumen: Proyecto en /home/croman/Escritorio/traduccion INGLES/xiaomi-en. Sin info
-  de lenguaje en README.
-resumen_pendiente: false
+resumen: null
+resumen_pendiente: true
 ruta: /home/croman/Escritorio/traduccion INGLES/xiaomi-en
 slug: traduccion-ingles-xiaomi-en
 stack:

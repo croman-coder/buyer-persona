@@ -6,7 +6,7 @@ age_range: 65+
 gender: Masculino
 locations:
 - Asunción
-created: '2026-10-28'
+created: '2026-11-01'
 tags:
 - buyer-persona
 - marketing
@@ -18,7 +18,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este público, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-30 → 2026-10-28 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-08-03 → 2026-11-01 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -26,17 +26,17 @@ tags:
 
 
 > [!summary] Perfil Resumido
-- **Edad:** 65+ (52.2% de los contactos) · perfil de la marca
-- **Género predominante:** Masculino (55.5%)
+- **Edad:** 65+ (52.5% de los contactos) · perfil de la marca
+- **Género predominante:** Masculino (55.0%)
 - **Ubicación:** Asunción
-- **Período leído:** Meta 2026-07-30 → 2026-10-28 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-08-03 → 2026-11-01 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Marca → `XPeng`
 - **Ticket promedio (ERP, facturado):** USD 56,990
 
 
 ## 👥 Quién mira y quién decide
 
-- **Meta:** ellas son el 45,3 % de los clics; con el mismo anuncio contactan 0,87× lo que ellos, pero con 2 conjuntos todavía es una tendencia.
+- **Meta:** ellas son el 45,5 % de los clics; con el mismo anuncio contactan 0,88× lo que ellos, pero con 2 conjuntos todavía es una tendencia.
 - **Para Meta Ads:** Una pieza para quien acompaña la decisión.
 
 → Detalle, cómo leerlo y qué hacer en Meta Ads: [[👥 Quién mira y quién decide — XPeng]]
@@ -48,8 +48,8 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 65+
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción
-- **Fuente edad/género:** audiencia de Meta de la marca **XPeng** (1,276 contactos), ponderado por contactos (formularios y chats) — Masculino 55.5%
-- **Distribución de edad (Meta):** 65+: 52.2%, 55-64: 18.5%, 35-44: 11.0%, 45-54: 10.0%, 25-34: 7.7%, 18-24: 0.7%
+- **Fuente edad/género:** audiencia de Meta de la marca **XPeng** (1,250 contactos), ponderado por contactos (formularios y chats) — Masculino 55.0%
+- **Distribución de edad (Meta):** 65+: 52.5%, 55-64: 18.7%, 35-44: 10.9%, 45-54: 9.8%, 25-34: 7.4%, 18-24: 0.7%
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
 ## 🎯 Intereses y Comportamientos
@@ -71,7 +71,7 @@ _Qué es: los temas que aparecen en los anuncios que este público ve y clickea.
 - **NSE estimado:** C+ (medio-alto)
 - **Señales que se usaron:**
   - ticket promedio USD 56,990 (gama alta)
-  - 18.2% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 17.5% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -127,7 +127,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > **Mensaje clave:** Enfoca la comunicación en 'XPeng'.
 > **Canales:** Prioriza Showroom.
 > **Formato:** En formularios, el video y la imagen (gráfica) no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — XPeng]].
-> **Inversión actual:** USD 1,893 en la ventana (~USD 631/mes), 676 leads → costo por lead USD 2.8.
+> **Inversión actual:** USD 1,793 en la ventana (~USD 598/mes), 659 leads → costo por lead USD 2.72.
 > 
 > **De dónde sale:** el mensaje clave es el segmento de la nota; los canales salen del formato con más impresiones reales en Meta; el formato, de lo que trajo el resultado más barato en los últimos 6 meses de anuncios de la marca (nota 🎬); el targeting, de los intereses configurados hoy en los adsets activos; los públicos, del targeting real de esos adsets; el presupuesto, del gasto real de la marca repartido según el peso de cada modelo en las ventas del ERP.
 
@@ -139,13 +139,13 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — XPeng (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 676
+> **Total de leads de la marca en la ventana:** 659
 
 
 > [!info] 📦 Stock, oferta y objetivos — uso interno
 
 > **Stock de la marca al 18-09:** 6 unidades (5 disponibles, 0 en viaje, 0 con propuesta).
-> **Objetivo de la marca (según el ERP):** mes 10/2026: sin objetivo cargado · acumulado 2026: 1 de 2 (50.0%) · anual 4 unidades. Ventas cargadas hasta 2026-09-11: lo vendido después de esa fecha todavía no cuenta acá.
+> **Objetivo de la marca (según el ERP):** mes 11/2026: 0 de 2 (0.0%) · acumulado 2026: 1 de 4 (25.0%) · anual 4 unidades. Ventas cargadas hasta 2026-09-11: lo vendido después de esa fecha todavía no cuenta acá.
 > **Equipo comercial (planilla semanal de negociación, 2026-09 semana 1):** 3 vendedores · promesa del mes 3 · venta del mes a esa semana (MTD) 0 · leads del mes 128 · negociaciones abiertas 0 (semana actual 3, pasada 0) · perdidas 0.
 > _La planilla y el ERP tienen cortes distintos (una semana vs. la última carga), por eso la venta del mes de acá puede no coincidir con el objetivo de arriba. El ERP manda._
 > _Fuentes: stock del ERP, planilla de acciones comerciales, budget de ventas y resumen semanal de negociación (data/fuentes/). Sin datos personales._
@@ -160,7 +160,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-28 06:48*
+*Generado el 2026-11-01 06:40*
 
 ## 🔗 Contenido Relacionado
 

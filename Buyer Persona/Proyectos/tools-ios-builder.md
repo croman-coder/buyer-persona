@@ -1,13 +1,14 @@
 ---
 estado: dormido
-firma: ccbb77866666dac28dcec0d98f054df7e6234eb8141a285b12707a0edfcc9921
+firma: f918128934626605a7c01a9690a1ef27173bd63a382ec64a68af3e2da8f22d36
 git_rama: main
 git_remoto: https://github.com/MobAI-App/ios-builder.git
 git_sin_subir: 0
 git_ultimo_commit: 2026-02-01 bf9f82b Fix flaky debounce test with race detector
 hijos: []
 nombre: ios-builder
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/tools/ios-builder. Sin info de lenguaje
+  en README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/tools/ios-builder
 slug: tools-ios-builder

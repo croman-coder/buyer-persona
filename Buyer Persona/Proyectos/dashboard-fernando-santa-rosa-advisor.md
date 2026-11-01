@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: b1d6082835ef9f23a542ad6fd86ea2760503c7eb1cedd5517c5a4533e4358259
+firma: 364e5b26ea23287d22abdaf741cf895431f84bd7f4d1d2dba984410d53da2d82
 git_rama: master
 git_remoto: https://github.com/fercorrea777/Santa-Rosa-Advisor
 git_sin_subir: 2
@@ -8,7 +8,8 @@ git_ultimo_commit: '2026-07-22 e6c6b88 Planes de implementación: rediseño visu
   bot agéntico'
 hijos: []
 nombre: Santa-Rosa-Advisor
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/DASHBOARD FERNANDO/Santa-Rosa-Advisor.
+  Basado en Python.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/DASHBOARD FERNANDO/Santa-Rosa-Advisor
 slug: dashboard-fernando-santa-rosa-advisor

@@ -1,6 +1,6 @@
 ---
 estado: archivado
-firma: 1b351226c283782962cfd78102ce803d3ee7a430e0a4999c7371baa99a8744d0
+firma: caade3fb14384d73873427bce015251c9a6a63a9446d903f4839f019a436e97c
 git_rama: main
 git_remoto: https://github.com/msitarzewski/agency-agents
 git_sin_subir: 0
@@ -8,7 +8,8 @@ git_ultimo_commit: 2026-03-27 4feb0cd Add CMS Developer, Email Intelligence Engi
   China Market Localization Strategist, and Civil Engineer to README
 hijos: []
 nombre: agency-agents
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/AGENTES IA/agency-agents. Sin info de
+  lenguaje en README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/AGENTES IA/agency-agents
 slug: agentes-ia-agency-agents

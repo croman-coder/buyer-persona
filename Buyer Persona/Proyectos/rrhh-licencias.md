@@ -1,6 +1,6 @@
 ---
 estado: dormido
-firma: 4a60596ce0b2730a8ddf936ac9bc986969e7c37fde8f296e7a4d16622ac6ad2b
+firma: 0f1663ab9fca82beacd2ea6e542255da527e9b53e0205bbc53cf9ddbab9915a0
 git_rama: master
 git_remoto: null
 git_sin_subir: 0
@@ -8,7 +8,7 @@ git_ultimo_commit: 2026-07-22 e72cbeb Agregar PRD, formulario físico y spec de 
   inicial
 hijos: []
 nombre: RRHH LICENCIAS
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/RRHH LICENCIAS. Sin README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/RRHH LICENCIAS
 slug: rrhh-licencias

@@ -1,8 +1,8 @@
 ---
 type: centro-de-compra
 marca: Mitsubishi
-periodo_meta: 2026-07-30 a 2026-10-28
-created: 2026-10-28
+periodo_meta: 2026-08-03 a 2026-11-01
+created: 2026-11-01
 tags:
   - centro-de-compra
   - meta-ads
@@ -12,7 +12,7 @@ tags:
 # 👥 Quién mira y quién decide — Mitsubishi
 
 > [!summary] En una línea
-> En Meta, ellas son el 17,4 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,19×). En el 38,8 % de los chats el cliente nombra a otra persona.
+> En Meta, ellas son el 19,2 % de los clics y las que miran **contactan más** que ellos con el mismo anuncio (1,16×). En el 38,8 % de los chats el cliente nombra a otra persona.
 
 > [!tip] 🎯 Qué hacer en Meta Ads
 > 1. **Una pieza para quien acompaña la decisión** — «Seguridad para los que viajan con vos». Detalle en la sección 5.
@@ -29,24 +29,24 @@ tags:
 
 ## 1. ¿Quién mira y quién da el paso?
 
-Meta del **2026-07-30** al **2026-10-28**. Se excluyen los conjuntos apuntados a un solo género.
+Meta del **2026-08-03** al **2026-11-01**. Se excluyen los conjuntos apuntados a un solo género.
 
 | | Mujeres en los clics | Mujeres en los contactos | Ellas vs. ellos, mismo anuncio | Conjuntos comparados | Lectura |
 |---|---|---|---|---|---|
-| **Mitsubishi** | 17,4 % | 17,6 % | **1,19×** | 24 (ellas menos en 8) | Las que miran, contactan más que ellos |
-| [[Mitsubishi L200|Mitsubishi L200]] | 14,7 % | 15,6 % | 1,15× | 9 (ellas menos en 3) | Las que miran, contactan más que ellos |
-| [[Mitsubishi Montero Sport|Mitsubishi Montero Sport]] | 26,6 % | 21,5 % | 0,98× | 6 (ellas menos en 3) | Sin diferencia: ellas y ellos contactan igual |
-| [[Mitsubishi Destinator|Mitsubishi Destinator]] | 8,3 % | 12,0 % | 1,52× | 3 (ellas menos en 0) | Las que miran, contactan más que ellos |
-| [[Mitsubishi Outlander|Mitsubishi Outlander]] | 20,7 % | 19,3 % | 1,65× | 2 (ellas menos en 0) | Las que miran, contactan más que ellos |
-| [[Mitsubishi Eclipse Cross|Mitsubishi Eclipse Cross]] | 32,2 % | 31,8 % | 1,19× | 4 (ellas menos en 2) | Las que miran, contactan más que ellos |
+| **Mitsubishi** | 19,2 % | 18,9 % | **1,16×** | 23 (ellas menos en 6) | Las que miran, contactan más que ellos |
+| [[Mitsubishi L200|Mitsubishi L200]] | 14,9 % | 16,8 % | 1,24× | 8 (ellas menos en 1) | Las que miran, contactan más que ellos |
+| [[Mitsubishi Montero Sport|Mitsubishi Montero Sport]] | 29,8 % | 23,5 % | 0,92× | 6 (ellas menos en 3) | Sin diferencia: ellas y ellos contactan igual |
+| [[Mitsubishi Destinator|Mitsubishi Destinator]] | 8,3 % | 12,4 % | 1,57× | 3 (ellas menos en 0) | Las que miran, contactan más que ellos |
+| [[Mitsubishi Outlander|Mitsubishi Outlander]] | 21,3 % | 19,1 % | 1,27× | 3 (ellas menos en 1) | Las que miran, contactan más que ellos |
+| [[Mitsubishi Eclipse Cross|Mitsubishi Eclipse Cross]] | 34,4 % | 35,0 % | 1,24× | 4 (ellas menos en 1) | Las que miran, contactan más que ellos |
 
 **Por edad** — de cada 100 clics, cuántos terminan en contacto:
 
 | 18-24 | 25-34 | 35-44 | 45-54 | 55-64 | 65+ |
 |---|---|---|---|---|---|
-| 7,1 % | 9,2 % | 9,2 % | 9,5 % | 8,4 % | 8,5 % |
+| 7,0 % | 9,0 % | 9,0 % | 9,3 % | 8,0 % | 8,2 % |
 
-Los mayores de 55 contactan parecido al resto con el mismo anuncio (1,06×).
+Los mayores de 55 contactan parecido al resto con el mismo anuncio (1,07×).
 
 ## 2. ¿Qué le interesa a cada uno?
 
@@ -56,20 +56,21 @@ Cada tema se compara con el **promedio del mismo modelo**: «+10» = ese tema su
 
 | Modelo | Tema del anuncio | Mujeres en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| Mitsubishi Montero Sport | Seguridad y asistencias a la conducción | 31,4 % | +8,6 | 3.118 (10) |
-| Mitsubishi Montero Sport | Tecnología y conectividad | 31,3 % | +8,4 | 9.089 (15) |
-| Mitsubishi Montero Sport | Probar antes de comprar (test drive) | 30,9 % | +8,0 | 9.332 (12) |
-| Mitsubishi Montero Sport | Familia y espacio | 29,0 % | +6,1 | 6.865 (9) |
+| Mitsubishi Montero Sport | Seguridad y asistencias a la conducción | 34,2 % | +8,0 | 4.536 (10) |
+| Mitsubishi Montero Sport | Tecnología y conectividad | 33,0 % | +6,8 | 12.294 (15) |
+| Mitsubishi Montero Sport | Probar antes de comprar (test drive) | 32,7 % | +6,5 | 12.541 (12) |
+| Mitsubishi Montero Sport | Familia y espacio | 30,5 % | +4,3 | 8.652 (9) |
 
 **Lo que más atrae a los mayores de 55:**
 
 | Modelo | Tema del anuncio | 55+ en los clics | Sobre el modelo | Clics (anuncios) |
 |---|---|---|---|---|
-| Mitsubishi Montero Sport | Tecnología y conectividad | 47,3 % | +11,4 | 9.089 (15) |
-| Mitsubishi Montero Sport | Familia y espacio | 47,3 % | +11,4 | 6.865 (9) |
-| Mitsubishi Montero Sport | Probar antes de comprar (test drive) | 47,0 % | +11,1 | 9.332 (12) |
+| Mitsubishi Montero Sport | Tecnología y conectividad | 52,1 % | +10,1 | 12.294 (15) |
+| Mitsubishi Montero Sport | Probar antes de comprar (test drive) | 51,8 % | +9,7 | 12.541 (12) |
+| Mitsubishi Montero Sport | Familia y espacio | 51,5 % | +9,4 | 8.652 (9) |
+| Mitsubishi Montero Sport | Seguridad y asistencias a la conducción | 48,3 % | +6,3 | 4.536 (10) |
 
-**Lo que menos las atrae** (evitarlo en la pieza para ellas): Mitsubishi Montero Sport: financiación en cuotas (-12,7); Mitsubishi L200: financiación en cuotas (-6,4); Mitsubishi L200: garantía y respaldo posventa (-4,5).
+**Lo que menos las atrae** (evitarlo en la pieza para ellas): Mitsubishi Montero Sport: financiación en cuotas (-16,0); Mitsubishi L200: financiación en cuotas (-6,5); Mitsubishi L200: garantía y respaldo posventa (-4,0).
 
 ## 3. ¿Quién paga? Empresa o persona
 
@@ -88,7 +89,7 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.1 Una pieza para quien acompaña la decisión
 
-**Por qué:** El tema **seguridad y asistencias a la conducción** es el que más las atrae: en Mitsubishi Montero Sport suma 9 puntos de mujeres sobre el promedio del modelo (hasta 31,4 %).
+**Por qué:** El tema **seguridad y asistencias a la conducción** es el que más las atrae: en Mitsubishi Montero Sport suma 8 puntos de mujeres sobre el promedio del modelo (hasta 34,2 %).
 
 **Modelos donde más pesa:** Mitsubishi Montero Sport
 
@@ -103,9 +104,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ### 5.2 Una pieza que les hable a ellas, que son las que avanzan
 
-**Por qué:** Ellas son solo el 17,4 % de los clics, pero las que hacen clic contactan 1,19× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan. Más fuerte en Mitsubishi Destinator (1,52×).
+**Por qué:** Ellas son solo el 19,2 % de los clics, pero las que hacen clic contactan 1,16× lo que ellos con el mismo anuncio: cuando la pieza les llega, avanzan. Más fuerte en Mitsubishi Destinator (1,57×), Mitsubishi Outlander (1,27×), Mitsubishi L200 (1,24×), Mitsubishi Eclipse Cross (1,24×).
 
-**Modelos donde más pesa:** Mitsubishi Destinator
+**Modelos donde más pesa:** Mitsubishi Destinator, Mitsubishi Outlander, Mitsubishi L200, Mitsubishi Eclipse Cross
 
 **La pieza (texto base, ajustar al tono de la marca):**
 
@@ -142,9 +143,9 @@ _Es un piso: mucha gente no lo escribe. Sirve para ver **quién** aparece, más 
 
 ## Fuentes y período
 
-- Meta Ads: 2026-07-30 a 2026-10-28, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
+- Meta Ads: 2026-08-03 a 2026-11-01, a nivel anuncio × edad × género, con la segmentación de cada conjunto.
 - ERP: sin datos suficientes.
 - Chats: Messenger e Instagram, lectura semanal (2026-10-26).
-- Generado el 2026-10-28 06:48 por el pipeline Buyer Persona (se actualiza solo cada mañana).
+- Generado el 2026-11-01 06:40 por el pipeline Buyer Persona (se actualiza solo cada mañana).
 
 ← [[Mitsubishi|Volver a Mitsubishi]] · [[📘 Manual Buyer Persona#👥 Quién mira y quién decide|Cómo se calcula]]

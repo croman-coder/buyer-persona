@@ -19,8 +19,8 @@ tags: [marketing, google-ads]
 | 4 | Cotizá tu Ford Usado | 20 |
 | 5 | Probalo Antes de Comprar | 24 |
 | 6 | Financiación a tu Medida | 24 |
-| 7 | Tecnología y Conectividad | 25 |
-| 8 | Usado con Respaldo | 18 |
+| 7 | Espacio para Toda la Familia | 28 |
+| 8 | Tecnología y Conectividad | 25 |
 | 9 | Hablá con un Asesor | 19 |
 | 10 | Pedí tu Cotización Hoy | 22 |
 
@@ -30,7 +30,7 @@ tags: [marketing, google-ads]
 | 1 | Ford usados certificados en Renew: cotizá y coordiná tu visita. | 63 |
 | 2 | Consultá planes de financiación y formas de pago con un asesor. | 63 |
 | 3 | Probalo antes de decidir: coordiná tu test drive en el día y horario que prefieras. | 83 |
-| 4 | Tecnología y conectividad que usás todos los días. Pedí tu cotización. | 70 |
+| 4 | Espacio y comodidad para viajar con toda la familia. Vení a conocerlo. | 70 |
 
 **URL visible:** `…/Ford/Usados` (cada tramo, máx. 15 caracteres)
 

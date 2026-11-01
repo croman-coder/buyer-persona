@@ -1,6 +1,6 @@
 ---
 estado: dormido
-firma: 303469361766c3a6819781f3220101c99738bc607e35a1b551899342751be301
+firma: 825464c7ea3636c80db9381048de4261f89aa9f5cf3cf26db4954f5f0cfc070d
 git_rama: master
 git_remoto: null
 git_sin_subir: 10
@@ -8,7 +8,7 @@ git_ultimo_commit: '2026-05-19 5477d84 refactor(api): re-export shared domain ty
   adapt SurveyState shape'
 hijos: []
 nombre: CALIDAD NPS
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/CALIDAD NPS. Sin README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/CALIDAD NPS
 slug: calidad-nps

@@ -1,7 +1,7 @@
 ---
 type: anuncio-meta
 cuenta: "Renew"
-estado: "Activo"
+estado: "Con problemas en Meta"
 revisar: "—"
 riesgo_comparativa: 0.03
 oferta: "Invitación a probar o a un evento"
@@ -21,7 +21,10 @@ tags:
 
 # Jac_js1_2024_renew
 
-**Cuenta:** Renew · **Estado:** Activo · **Botón:** Sin botón
+> [!danger] Con problemas en Meta
+> Meta frenó este aviso o le encontró un problema. El motivo está en el Administrador de anuncios.
+
+**Cuenta:** Renew · **Estado:** Con problemas en Meta · **Botón:** Sin botón
 
 | Qué miró la IA | Resultado |
 |---|---|

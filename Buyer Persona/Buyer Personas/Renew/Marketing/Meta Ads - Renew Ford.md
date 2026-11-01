@@ -14,15 +14,15 @@ tags: [marketing, meta-ads]
 - **Edad:** 35-44
 - **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
 - **Zonas:** Asunción
-- **Temas que atraen** (para el creativo, no para segmentar): Financiación en cuotas, Ofertas y promociones, Probar antes de comprar (test drive), Tecnología y conectividad, Garantía y respaldo posventa
+- **Temas que atraen** (para el creativo, no para segmentar): Financiación en cuotas, Probar antes de comprar (test drive), Ofertas y promociones, Familia y espacio, Tecnología y conectividad
 
 ## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)
-**Opción 1** · 251 caracteres
+**Opción 1** · 232 caracteres
 ```
 🚗 Ford usados certificados
 ✅ Financiación: planes y formas de pago a tu medida.
 ✅ Test drive sin compromiso, el día y horario que elijas.
-✅ Tecnología y conectividad para el día a día, según la versión.
+✅ Espacio y comodidad para viajar en familia.
 
 Coordiná tu visita y probalo antes de decidir 👇
 ```

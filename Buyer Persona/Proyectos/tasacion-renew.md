@@ -1,14 +1,15 @@
 ---
 estado: activo
-firma: 446a747e342171cc9c35a1688e911f40dccdbfa6b3bff398c86a8de280f96a06
+firma: 83cd84041678afc14b1f03d396d560f1c5f2a0900ff0bff0cdefcd80f08712a6
 git_rama: main
 git_remoto: https://github.com/croman-coder/tasacion-renew.git
-git_sin_subir: 1
-git_ultimo_commit: '2026-10-12 b70b1ee DEPLOY: rebotes en bitrix@ por avisos a cuentas
-  compartidas sin buzón'
+git_sin_subir: 9
+git_ultimo_commit: '2026-10-31 44ea679 Stock: el test drive, la cortesía, el taller
+  y el no disponible no cuentan como stock para vender'
 hijos: []
 nombre: Tasacion RENEW
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/Tasacion RENEW. Sin info de lenguaje
+  en README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/Tasacion RENEW
 slug: tasacion-renew
@@ -16,7 +17,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-10-12'
+ultima_actividad: '2026-10-31'
 ---
 
 <!-- hermes:inicio -->
@@ -25,11 +26,11 @@ ultima_actividad: '2026-10-12'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-12 |
+| Última actividad | 2026-10-31 |
 | Stack | git, node |
 | Rama | main |
-| Último commit | 2026-10-12 b70b1ee DEPLOY: rebotes en bitrix@ por avisos a cuentas compartidas sin buzón |
-| Sin subir | 1 |
+| Último commit | 2026-10-31 44ea679 Stock: el test drive, la cortesía, el taller y el no disponible no cuentan como stock para vender |
+| Sin subir | 9 |
 | Ruta | `/home/croman/Escritorio/Tasacion RENEW` |
 <!-- hermes:fin -->
 

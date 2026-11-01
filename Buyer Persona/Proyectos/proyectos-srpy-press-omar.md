@@ -1,6 +1,6 @@
 ---
 estado: dormido
-firma: a2f13126eed51a3f07eb5c3f9268cbe0e7768e77dc4024cd44b8010539f4c9d9
+firma: e50dbd10408c0ccaa7e700742c8b2d74b69ce81523a27ae82b7e1a65f2ff12fd
 git_rama: main
 git_remoto: https://github.com/croman-coder/press-omar.git
 git_sin_subir: 1
@@ -8,7 +8,7 @@ git_ultimo_commit: '2026-06-29 1fd8645 content(cover): remove "13 proyectos actu
   stat chip'
 hijos: []
 nombre: PRESS OMAR
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/PROYECTOS SRPY/PRESS OMAR. Sin README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/PROYECTOS SRPY/PRESS OMAR
 slug: proyectos-srpy-press-omar

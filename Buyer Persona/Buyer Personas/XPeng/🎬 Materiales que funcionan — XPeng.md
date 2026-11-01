@@ -1,8 +1,8 @@
 ---
 type: materiales-meta
 marca: XPeng
-periodo: 2026-05-01 a 2026-10-28
-created: 2026-10-28
+periodo: 2026-06-01 a 2026-11-01
+created: 2026-11-01
 tags:
   - meta-ads
   - materiales
@@ -12,16 +12,17 @@ tags:
 # 🎬 Materiales que funcionan — XPeng
 
 > [!info] De dónde sale
-> Todos los anuncios de Meta de XPeng de **may a oct (al 28) (6 meses, del 2026-05-01 al 2026-10-28)**: 37 anuncios con gasto en 1 cuenta (la de la marca y las de los asesores), USD 4.078 de inversión. Se lee anuncio por anuncio de la API de Meta (formato, duración y tamaño de cada pieza, ubicación y resultados) y se cruza con las ventas del ERP. Se actualiza en cada corrida: **no editar a mano**.
+> Todos los anuncios de Meta de XPeng de **jun a nov (al 1) (6 meses, del 2026-06-01 al 2026-11-01)**: 36 anuncios con gasto en 1 cuenta (la de la marca y las de los asesores), USD 4.020 de inversión. Se lee anuncio por anuncio de la API de Meta (formato, duración y tamaño de cada pieza, ubicación y resultados) y se cruza con las ventas del ERP. Se actualiza en cada corrida: **no editar a mano**.
 
 ## ✅ Qué dice el historial
 
 > [!success] En formularios, el video y la imagen (gráfica) no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto.
 
-- **Formularios — formato:** **El video** trae el lead más barato: 26 % menos que la imagen (gráfica) en campañas comparables (marca · volumen: USD 2,55 contra USD 3,46; base: 830 leads). Pero ganó solo en 1 de 3 meses: tomarlo como pista, no como regla.
+- **Formularios — formato:** **El video** trae el lead más barato: 26 % menos que la imagen (gráfica) en campañas comparables (marca · volumen: USD 2,55 contra USD 3,46; base: 830 leads). Pero ganó solo en 1 de 4 meses: tomarlo como pista, no como regla.
 - **Formularios — Reels, Stories o Feed:** el lead más barato sale en **Stories** (USD 2,74); después Reels USD 3,00 · Feed USD 3,50. Son las mismas piezas en distintas ubicaciones: tener la versión para la que rinde.
 - **Formularios — videos con o sin versión vertical:** Los videos con versión vertical (9:16) y los videos sin versión vertical cuestan parecido en campañas comparables (marca · volumen: USD 2,51 y USD 2,64 por lead): menos de 15 % de diferencia no alcanza para elegir.
 - **Ventas:** todavía ninguna venta del ERP se pudo cruzar con los leads de formulario de los últimos 90 días (el ERP casi no trae teléfono ni mail): no se puede decir qué formato vende más.
+- **Formularios — tendencia:** en oct, el video costó USD 2,04 por lead en la cuenta de la marca (formularios de volumen), 22 % menos que su promedio de los meses anteriores (USD 2,63).
 
 > [!tip] Cómo usarlo
 > Para la próxima pieza, empezar por lo que ganó acá y probarlo contra una variante (otro formato u otra duración) en el mismo conjunto. Juzgar a las 3-4 semanas, no antes ([[📘 Manual Buyer Persona#4.4 Cuándo juzgar una campaña|Manual, 4.4]]).
@@ -104,7 +105,7 @@ Costo por lead de cada formato (entre paréntesis, cuántos leads). Mezcla conte
 | jul | USD 5,48 (141) | — | USD 5,98 (33) | USD 5,57 (174) |
 | ago | USD 3,16 (157) | USD 2,56 (148) | USD 6,77 (4) | USD 2,92 (309) |
 | sep | USD 2,17 (71) | USD 2,44 (91) | USD 2,38 (103) | USD 2,34 (265) |
-| oct (al 28) | USD 1,61 (26) | USD 2,04 (32) | USD 2,53 (41) | USD 2,13 (99) |
+| oct | USD 1,61 (26) | USD 2,04 (32) | USD 2,53 (41) | USD 2,13 (99) |
 
 ### 🏆 Los anuncios que mejor rindieron
 
@@ -206,7 +207,7 @@ Costo por conversación del doble o más que el promedio de su contexto, o sin c
 
 ## 📣 Alcance, tráfico e interacción
 
-USD 379 en campañas que no buscan formularios ni chats. No se juzgan por costo por lead: CPM USD 0,44, CTR 0,69 %, el 6,6 % mira 3 s o más de los videos.
+USD 321 en campañas que no buscan formularios ni chats. No se juzgan por costo por lead: CPM USD 0,52, CTR 0,94 %, el 6,0 % mira 3 s o más de los videos.
 
 ## 📏 Cómo leerlo
 

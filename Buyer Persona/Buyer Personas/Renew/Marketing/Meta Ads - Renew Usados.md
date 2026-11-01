@@ -14,7 +14,7 @@ tags: [marketing, meta-ads]
 - **Edad:** 35-44
 - **Género:** Masculino (con público Advantage+, como sugerencia: no cortar por género)
 - **Zonas:** Asunción, Ciudad del Este
-- **Temas que atraen** (para el creativo, no para segmentar): Financiación en cuotas, Probar antes de comprar (test drive), Garantía y respaldo posventa, Ofertas y promociones, Familia y espacio
+- **Temas que atraen** (para el creativo, no para segmentar): Financiación en cuotas, Probar antes de comprar (test drive), Garantía y respaldo posventa, Familia y espacio, Diseño y estatus
 
 ## Textos principales (Meta muestra ~125 caracteres antes de «Ver más»)
 **Opción 1** · 246 caracteres

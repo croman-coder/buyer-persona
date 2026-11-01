@@ -7,7 +7,7 @@ gender: Masculino
 locations:
 - Asunción
 - San Lorenzo
-created: '2026-10-28'
+created: '2026-11-01'
 tags:
 - buyer-persona
 - marketing
@@ -21,7 +21,7 @@ tags:
 
 > [!note]- Cómo leer esta ficha
 > **Qué es:** el retrato de quién mira y quién compra este modelo, armado solo con datos propios: los anuncios de Meta (contactos por edad y género, temas, respuestas de formulario), las ventas del ERP y el embudo del CRM Bitrix. Se rehace sola todas las mañanas a las 06:00.
-> **Ventanas de cada fuente:** Meta 2026-07-30 → 2026-10-28 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
+> **Ventanas de cada fuente:** Meta 2026-08-03 → 2026-11-01 · ERP hasta 2026-09-11. Si dos números no coinciden, casi siempre es porque vienen de fuentes con cortes distintos; cada bloque dice de cuál sale.
 > **Edad y género son de quienes contactan por los anuncios** (dejan sus datos o escriben), no de quién firmó la compra: el ERP no guarda edad ni género. Ubicación en el ERP = sucursal donde se vendió.
 > **Lo que dice «estimado»** (nivel socioeconómico) es un cálculo nuestro para orientar la pauta, no un dato declarado por el cliente.
 > **Uso interno:** los bloques marcados así traen precios de la competencia, stock y objetivos. No van a copies públicos (ley de publicidad comparativa).
@@ -30,9 +30,9 @@ tags:
 
 > [!summary] Perfil Resumido
 - **Edad:** 35-44 (25.6% de los contactos) · heredado de la marca
-- **Género predominante:** Masculino (80.4%)
+- **Género predominante:** Masculino (80.8%)
 - **Ubicación:** Asunción, San Lorenzo
-- **Período leído:** Meta 2026-07-30 → 2026-10-28 · ERP 2018-07-03 → 2026-09-11
+- **Período leído:** Meta 2026-08-03 → 2026-11-01 · ERP 2018-07-03 → 2026-09-11
 - **Segmento:** Modelo → `Leapmotor C11`
 - **Marca:** [[Comprador Leapmotor|Leapmotor]]
 - **Tipo de vehículo:** Eléctrico
@@ -56,8 +56,8 @@ _Qué es: quién contacta por los anuncios de este público (deja sus datos o es
 - **Rango de edad:** 35-44
 - **Género predominante:** Masculino
 - **Ubicaciones principales:** Asunción, San Lorenzo
-- **Fuente edad/género:** audiencia de Meta de la marca **Leapmotor** (3,267 contactos), ponderado por contactos (formularios y chats) — Masculino 80.4%
-- **Distribución de edad (Meta):** 35-44: 25.6%, 45-54: 25.3%, 55-64: 17.9%, 65+: 16.0%, 25-34: 13.2%, 18-24: 2.0%
+- **Fuente edad/género:** audiencia de Meta de la marca **Leapmotor** (3,304 contactos), ponderado por contactos (formularios y chats) — Masculino 80.8%
+- **Distribución de edad (Meta):** 35-44: 25.6%, 45-54: 25.4%, 55-64: 17.8%, 65+: 15.6%, 25-34: 13.3%, 18-24: 2.1%
 - ⚠️ Perfil heredado de la marca: el desglose edad/género por anuncio no estaba disponible en esta corrida (se atribuye por modelo desde el 2026-09-18).
 - _El ERP no registra edad ni género del comprador; ubicación = sucursal de la venta._
 
@@ -82,7 +82,7 @@ _Qué modelos piden en el formulario: está en **Leads reales**, más abajo, par
 - **NSE estimado:** C (medio)
 - **Señales que se usaron:**
   - ticket promedio USD 37,056 (gama media-alta)
-  - 15.9% de los clics desde iPhone (promedio del portfolio ~21%)
+  - 15.8% de los clics desde iPhone (promedio del portfolio ~21%)
   - zona: Asunción, San Lorenzo
 - _Cómo leerlo: **AB** alto · **C+** medio-alto · **C** medio · **C-/D** entrada. Es una estimación nuestra con esas cuatro señales (precio facturado, financiación vs contado en el formulario, iPhone vs Android en los clics, zona). Meta no entrega nivel socioeconómico en Paraguay. Sirve para orientar pauta y oferta; no es un dato del cliente._
 
@@ -134,7 +134,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > **Mensaje clave:** Enfoca la comunicación en 'Leapmotor C11'.
 > **Canales:** Prioriza Showroom.
-> **Formato:** Para la próxima pauta de formularios: **imagen (gráfica)**, que trajo el lead más barato en campañas comparables y se repitió mes a mes. En el mismo conjunto, sumar el video para seguir comparando. Detalle: [[🎬 Materiales que funcionan — Leapmotor]].
+> **Formato:** En formularios, la imagen (gráfica) y el video no se separan de forma clara y sostenida en campañas comparables: elegir por la pieza que haya y probar las dos en el mismo conjunto. Detalle: [[🎬 Materiales que funcionan — Leapmotor]].
 > **Públicos hoy:** 95.0% de los adsets activos van a público frío; 2 de 40 adsets usan base propia (2 lookalike).
 > **Presupuesto:** sin ventas en el ERP para este modelo.
 > 
@@ -144,17 +144,17 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 > [!quote] 📥 Leads reales del formulario de Meta — Leapmotor (ventana Meta)
 
 > _Qué es: lo que la gente respondió en los formularios de Meta de **toda la marca** (los formularios son por cuenta, no por modelo). Son conteos agregados, sin datos personales. Distinto del CRM: acá solo Meta; en Bitrix entran todos los canales._
-> **Total de leads de la marca en la ventana:** 1,278
+> **Total de leads de la marca en la ventana:** 1,296
 > **Pidieron este modelo:** 0 de esos leads (0.0 %)
-> **Modelos más pedidos (toda la marca):** T03 (90), C10 Reev (74)
-> **Ciudad:** Asunción (309), Luque (70), San Lorenzo (63)
+> **Modelos más pedidos (toda la marca):** T03 (86), C10 Reev (69)
+> **Ciudad:** Asunción (308), Luque (68), San Lorenzo (64)
 > **Interés de compra:** soy Paraguaya 78año soy sincera (1)
 
 
 > [!abstract] 📈 Embudo CRM Bitrix — Leapmotor (90 días)
 
-> **Leads:** 1,440 → **convertidos:** 0 (0.0%)
-> **Por canal:** Meta madre 1,437, Meta asesores 3
+> **Leads:** 1,460 → **convertidos:** 0 (0.0%)
+> **Por canal:** Meta madre 1,457, Meta asesores 3
 > **Deals:** 5 — ganados 0, perdidos 0, en proceso 5 (win rate 0.0%)
 > _Cómo leerlo: **lead** = contacto que entró al CRM por cualquier canal; **convertido** = ese lead pasó a negociación (estado «Convertido» en Bitrix); **deal** = negociación con monto cargada. Si dice 0 deals, Bitrix no tiene negociaciones cargadas para la marca en esta ventana — no significa que no se vendió: la venta real está arriba, en «Ventas reales (ERP)»._
 > _Bitrix agrega por marca; este embudo es el de la marca, no del modelo._
@@ -162,7 +162,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 > [!info] 📦 Stock, oferta y objetivos — uso interno
 
-> **Objetivo de la marca (según el ERP):** mes 10/2026: 0 de 21 (0.0%) · acumulado 2026: 61 de 97 (62.9%) · anual 136 unidades. Ventas cargadas hasta 2026-09-11: lo vendido después de esa fecha todavía no cuenta acá.
+> **Objetivo de la marca (según el ERP):** mes 11/2026: 0 de 23 (0.0%) · acumulado 2026: 61 de 120 (50.8%) · anual 136 unidades. Ventas cargadas hasta 2026-09-11: lo vendido después de esa fecha todavía no cuenta acá.
 > **Equipo comercial (planilla semanal de negociación, 2026-09 semana 1):** 6 vendedores · promesa del mes 18 · venta del mes a esa semana (MTD) 291 · leads del mes 0 · negociaciones abiertas 4 (semana actual 8, pasada 7) · perdidas 0.
 > _La planilla y el ERP tienen cortes distintos (una semana vs. la última carga), por eso la venta del mes de acá puede no coincidir con el objetivo de arriba. El ERP manda._
 > _Fuentes: stock del ERP, planilla de acciones comerciales, budget de ventas y resumen semanal de negociación (data/fuentes/). Sin datos personales._
@@ -177,7 +177,7 @@ _Es lo que se facturó, no la lista: el máximo puede superar el precio vigente 
 
 
 ---
-*Generado el 2026-10-28 06:48*
+*Generado el 2026-11-01 06:40*
 
 ## 🔗 Contenido Relacionado
 

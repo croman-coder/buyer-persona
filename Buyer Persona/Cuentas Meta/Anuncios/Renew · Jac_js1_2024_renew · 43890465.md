@@ -4,7 +4,7 @@ cuenta: "Renew"
 estado: "Activo"
 revisar: "—"
 riesgo_comparativa: 0.03
-oferta: "Precio como gancho"
+oferta: "Invitación a probar o a un evento"
 argumento: "Precio y ahorro"
 tipo_de_vehiculo: "SUV"
 muestra_precio: true
@@ -12,20 +12,20 @@ menciona_cuotas: true
 invita_a_actuar: false
 urgencia: "Urgencia genérica"
 boton: "Sin botón"
-anuncio: "PEUGEOT_2017_SEPTIEMBRE"
+anuncio: "Jac_js1_2024_renew"
 titulo: "AGENDA TU TEST DRIVE"
-ad_id: "120250516416020465"
+ad_id: "120251387643890465"
 tags:
 - anuncio-meta
 ---
 
-# PEUGEOT_2017_SEPTIEMBRE
+# Jac_js1_2024_renew
 
 **Cuenta:** Renew · **Estado:** Activo · **Botón:** Sin botón
 
 | Qué miró la IA | Resultado |
 |---|---|
-| Oferta principal | Precio como gancho |
+| Oferta principal | Invitación a probar o a un evento |
 | Argumento de venta | Precio y ahorro |
 | Tipo de vehículo | SUV |
 | Muestra precio | Sí |
@@ -38,11 +38,11 @@ tags:
 
 **Título:** AGENDA TU TEST DRIVE
 
-Hay un Renew esperándote. 🚙
+Movete diferente con Renew. 🚗
 
-Peugeot 5008 2017 por USD 14.000 o con cuotas referenciales desde Gs. 1.700.000.*
+JAC JS1 2024 por USD 14.900 o con cuotas referenciales desde Gs. 2.200.000.*
 
-Tomamos tu usado y contamos con financiación bancaria. Conocé nuestro stock y encontrá el ideal para vos.
+Tomamos tu usado y contamos con financiación bancaria. Conocé nuestro stock y encontrá tu próximo Renew.
 
 ---
 *Ficha generada sola todos los días a partir de Meta. Qué significa cada cosa: [[🏷️ Clasificación de Anuncios]], sección «Cómo leer esta nota».*

@@ -1,13 +1,14 @@
 ---
 estado: activo
-firma: 1498738ae4871c130527a85bc96755bd22063de0b37ed6dcb27279aa556b3cbb
+firma: f8addf7331f931f2c7badce128260b412a001fea04ae4f92f5e8c1075221db27
 git_rama: main
 git_remoto: https://github.com/debpalash/VoiceStudio.git
 git_sin_subir: 0
 git_ultimo_commit: '2026-10-21 28bf2c7a Merge pull request #3102 from debpalash/fix/previous-take-playback'
 hijos: []
 nombre: VoiceStudio
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/clonador de voz/VoiceStudio. Sin info
+  de lenguaje en README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/clonador de voz/VoiceStudio
 slug: clonador-de-voz-voicestudio

@@ -1,5 +1,5 @@
 ---
-estado: activo
+estado: dormido
 firma: 4f170e3e696430c9deccfccf09bfe69b03f3c1f234ec8031b2f120d9784bf508
 git_rama: embed-crm
 git_remoto: https://github.com/croman-coder/tasacion-renew.git
@@ -8,9 +8,8 @@ git_ultimo_commit: 2026-09-27 235d526 Permitir el embed del CRM (Sarpy) y prefil
   de cliente por URL
 hijos: []
 nombre: tasacion-embed-crm
-resumen: Proyecto en /home/croman/Escritorio/tasacion-embed-crm. Sin info de lenguaje
-  en README.
-resumen_pendiente: false
+resumen: null
+resumen_pendiente: true
 ruta: /home/croman/Escritorio/tasacion-embed-crm
 slug: tasacion-embed-crm
 stack:
@@ -25,7 +24,7 @@ ultima_actividad: '2026-09-27'
 
 | Campo | Valor |
 | --- | --- |
-| Estado | activo |
+| Estado | dormido |
 | Última actividad | 2026-09-27 |
 | Stack | git, node |
 | Rama | embed-crm |

@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 07737228ced3852a9c468fd51da8eb0434caadb8beab5924056b2eed636de388
+firma: 1b809cda1000aa7d85f4bd31d7b74b6223238a1650417d5a819bebee7a640456
 git_rama: feat/loop-ofertas-subastas-plan-a
 git_remoto: git@github-croman:croman-coder/RenewSubastas.git
 git_sin_subir: 0
@@ -8,7 +8,7 @@ git_ultimo_commit: '2026-09-18 9f79353 fix(oportunidades): cancelar una oportuni
   archiva el vehículo, no lo vuelve a ready'
 hijos: []
 nombre: CARBID
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/CARBID. Sin info de lenguaje en README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/CARBID
 slug: carbid

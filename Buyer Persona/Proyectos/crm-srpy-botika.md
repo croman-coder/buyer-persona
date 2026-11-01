@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 6f01f50677ffa21f17e379c003a28405cd18fc679c1f0638c191252780f7cdd3
+firma: ce6779c498df5912d6af123edfcb255844f5547ec50e9a8fb67bd65536518665
 git_rama: main
 git_remoto: https://github.com/croman-coder/crm-santarosa.git
 git_sin_subir: 2
@@ -8,7 +8,8 @@ git_ultimo_commit: '2026-10-05 9ea19d5 docs: pool de PostgREST aplicado el 5/10 
   de Postgres completo)'
 hijos: []
 nombre: botika
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/CRM SRPY/botika. Sin info de lenguaje
+  en README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/CRM SRPY/botika
 slug: crm-srpy-botika

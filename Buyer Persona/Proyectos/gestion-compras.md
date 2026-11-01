@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: 82a1cfc5ca1251bac38187203bac963f0b72b29dd89e9912bb3f77cde16f3507
+firma: 4d0ba08c5bc86debca4da540775470788df1c3dcba41ebd20bf478746a1ec1bd
 git_rama: feat/webapp-rediseno
 git_remoto: https://github.com/croman-coder/gestion-compras.git
 git_sin_subir: 0
@@ -8,7 +8,7 @@ git_ultimo_commit: '2026-10-09 5fa0302 feat: rediseño de toda la interfaz, app 
   y arreglos de producción'
 hijos: []
 nombre: GESTION COMPRAS
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/GESTION COMPRAS. Sin README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/GESTION COMPRAS
 slug: gestion-compras

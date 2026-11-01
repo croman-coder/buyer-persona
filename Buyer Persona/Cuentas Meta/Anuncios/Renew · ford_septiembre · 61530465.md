@@ -5,29 +5,29 @@ estado: "Activo"
 revisar: "—"
 riesgo_comparativa: 0.03
 oferta: "Invitación a probar o a un evento"
-argumento: "Diseño y estatus"
-tipo_de_vehiculo: "Sedán o hatchback"
+argumento: "Espacio y familia"
+tipo_de_vehiculo: "SUV"
 muestra_precio: true
 menciona_cuotas: true
 invita_a_actuar: false
 urgencia: "Sin urgencia"
 boton: "Sin botón"
-anuncio: "fastback_septiembre"
+anuncio: "ford_septiembre"
 titulo: "Agenda tu test drive"
-ad_id: "120250517685140465"
+ad_id: "120251387961530465"
 tags:
 - anuncio-meta
 ---
 
-# fastback_septiembre
+# ford_septiembre
 
 **Cuenta:** Renew · **Estado:** Activo · **Botón:** Sin botón
 
 | Qué miró la IA | Resultado |
 |---|---|
 | Oferta principal | Invitación a probar o a un evento |
-| Argumento de venta | Diseño y estatus |
-| Tipo de vehículo | Sedán o hatchback |
+| Argumento de venta | Espacio y familia |
+| Tipo de vehículo | SUV |
 | Muestra precio | Sí |
 | Menciona cuotas | Sí |
 | El texto le dice al cliente qué hacer | No (el botón está igual) |
@@ -38,9 +38,9 @@ tags:
 
 **Título:** Agenda tu test drive
 
-Diseño que se hace notar en cada camino. 🚙
+Confort, presencia y espacio para cada aventura. 🚙
 
-Fiat Fastback 2024 por USD 18.000 o con cuotas referenciales desde Gs. 2.600.000.*
+Ford Territory 2022 por USD 17.000 o con cuotas referenciales desde Gs. 2.500.000.*
 
 Tomamos tu usado y contamos con financiación bancaria. Conocé nuestro stock y encontrá tu próximo Renew.
 

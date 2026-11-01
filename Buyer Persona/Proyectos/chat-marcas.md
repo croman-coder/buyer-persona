@@ -1,11 +1,11 @@
 ---
 estado: activo
-firma: c29d49fd2fe7ffb856550d9e2f5f91e3db5c698b419ed214f59a125161d2a7fc
+firma: 600a502c903d300b9ea137f7d9ecbdebf3659f63b1a85ec9b2349ad63d38977d
 git_rama: main
 git_remoto: https://github.com/croman-coder/chat-marcas.git
 git_sin_subir: 1
-git_ultimo_commit: '2026-10-26 408079c docs(plan-3): lectura con IA verificada en
-  producción (reanudación al arrancar, modelo real)'
+git_ultimo_commit: '2026-10-27 4be9d35 docs(plan-3): fichas de Jetour y JMEV comparadas
+  con las webs; examen local'
 hijos: []
 nombre: CHAT MARCAS
 resumen: Proyecto en /home/croman/Escritorio/CHAT MARCAS. Sin README.
@@ -17,7 +17,7 @@ stack:
 - git
 - node
 tipo: proyecto
-ultima_actividad: '2026-10-26'
+ultima_actividad: '2026-10-27'
 ---
 
 <!-- hermes:inicio -->
@@ -26,10 +26,10 @@ ultima_actividad: '2026-10-26'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-26 |
+| Última actividad | 2026-10-27 |
 | Stack | docker, git, node |
 | Rama | main |
-| Último commit | 2026-10-26 408079c docs(plan-3): lectura con IA verificada en producción (reanudación al arrancar, modelo real) |
+| Último commit | 2026-10-27 4be9d35 docs(plan-3): fichas de Jetour y JMEV comparadas con las webs; examen local |
 | Sin subir | 1 |
 | Ruta | `/home/croman/Escritorio/CHAT MARCAS` |
 <!-- hermes:fin -->

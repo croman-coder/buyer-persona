@@ -1,6 +1,6 @@
 ---
 estado: archivado
-firma: 68f25008786ac6e5f4d9580efc75cfbc50e5911a76c54f344598df2a246e2bf6
+firma: 55d420a61cb3de1ea1326a8e332329b97306b30a1ef84b8666089837fce01b65
 git_rama: main
 git_remoto: https://github.com/msitarzewski/agency-agents
 git_sin_subir: 4
@@ -8,7 +8,8 @@ git_ultimo_commit: 2026-03-27 4feb0cd Add CMS Developer, Email Intelligence Engi
   China Market Localization Strategist, and Civil Engineer to README
 hijos: []
 nombre: AGENTES
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/PROYECTOS SRPY MAC/AGENTES. Sin info
+  de lenguaje en README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/PROYECTOS SRPY MAC/AGENTES
 slug: proyectos-srpy-mac-agentes

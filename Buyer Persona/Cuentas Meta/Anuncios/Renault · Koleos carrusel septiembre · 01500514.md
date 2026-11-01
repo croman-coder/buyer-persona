@@ -1,7 +1,7 @@
 ---
 type: anuncio-meta
 cuenta: "Renault"
-estado: "Activo"
+estado: "Con problemas en Meta"
 revisar: "—"
 riesgo_comparativa: 0.03
 oferta: "Precio como gancho"
@@ -21,7 +21,10 @@ tags:
 
 # Koleos carrusel septiembre
 
-**Cuenta:** Renault · **Estado:** Activo · **Botón:** Enviar WhatsApp
+> [!danger] Con problemas en Meta
+> Meta frenó este aviso o le encontró un problema. El motivo está en el Administrador de anuncios.
+
+**Cuenta:** Renault · **Estado:** Con problemas en Meta · **Botón:** Enviar WhatsApp
 
 | Qué miró la IA | Resultado |
 |---|---|

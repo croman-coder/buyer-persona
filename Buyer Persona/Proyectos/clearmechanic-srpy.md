@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: cfae31196fcbc18918ac0337e9aef9e0b2ae287ab34bd4f51eb3f2639b841b3a
+firma: 7a4ab3ed36fad303c85313d42509a512b71e10042ca40892724994da839a061e
 git_rama: main
 git_remoto: git@github-croman:croman-coder/taller-srpy.git
 git_sin_subir: 0

@@ -1,6 +1,6 @@
 ---
 estado: activo
-firma: efee556f973b1e8c30835f1e23022bbdc7d804e1b72fc75df64e6363c4038c34
+firma: cf0a68668af35d7ce1ca6434706c9a048d58cb724543516d7a93d2b050b59930
 git_rama: main
 git_remoto: https://github.com/croman-coder/zeekrweb.git
 git_sin_subir: 0

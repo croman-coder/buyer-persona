@@ -1,14 +1,15 @@
 ---
 estado: activo
-firma: 0c7d9141e305e67a3c84de17325e537deb708eb84270478ffb4af1f05c4d7c7a
-git_rama: main
+firma: c34226eafa33b9e8d8808ddd5a9d56e3cfc4ab845602e58a90b93b15b055ffe0
+git_rama: menu-trabaja
 git_remoto: git@github-croman:croman-coder/santa-rosa-automotive.git
 git_sin_subir: 1
-git_ultimo_commit: '2026-10-17 5557fe3 fix(trabaja): send the consent version, keep
-  the last good catalog, ignore Netlify''s beacon in the QA'
+git_ultimo_commit: '2026-10-30 aea110c feat(menu): add "Trabajá con nosotros" to the
+  header, after Contacto'
 hijos: []
 nombre: SANTA ROSA WEB
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/ASSET WEB SRPY/SANTA ROSA WEB. Basado
+  en JavaScript/Node.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/ASSET WEB SRPY/SANTA ROSA WEB
 slug: asset-web-srpy-santa-rosa-web
@@ -17,7 +18,7 @@ stack:
 - node
 - web
 tipo: proyecto
-ultima_actividad: '2026-10-21'
+ultima_actividad: '2026-10-30'
 ---
 
 <!-- hermes:inicio -->
@@ -26,10 +27,10 @@ ultima_actividad: '2026-10-21'
 | Campo | Valor |
 | --- | --- |
 | Estado | activo |
-| Última actividad | 2026-10-21 |
+| Última actividad | 2026-10-30 |
 | Stack | git, node, web |
-| Rama | main |
-| Último commit | 2026-10-17 5557fe3 fix(trabaja): send the consent version, keep the last good catalog, ignore Netlify's beacon in the QA |
+| Rama | menu-trabaja |
+| Último commit | 2026-10-30 aea110c feat(menu): add "Trabajá con nosotros" to the header, after Contacto |
 | Sin subir | 1 |
 | Ruta | `/home/croman/Escritorio/ASSET WEB SRPY/SANTA ROSA WEB` |
 <!-- hermes:fin -->

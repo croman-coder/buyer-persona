@@ -1,7 +1,7 @@
 ---
 type: anuncio-meta
 cuenta: "Renew"
-estado: "Activo"
+estado: "Con problemas en Meta"
 revisar: "—"
 riesgo_comparativa: 0.03
 oferta: "Usado puntual"
@@ -21,7 +21,10 @@ tags:
 
 # Peugeot 2008 | IA | clavos | WhatsApp | 2026-09
 
-**Cuenta:** Renew · **Estado:** Activo · **Botón:** Enviar WhatsApp
+> [!danger] Con problemas en Meta
+> Meta frenó este aviso o le encontró un problema. El motivo está en el Administrador de anuncios.
+
+**Cuenta:** Renew · **Estado:** Con problemas en Meta · **Botón:** Enviar WhatsApp
 
 | Qué miró la IA | Resultado |
 |---|---|

@@ -1,6 +1,6 @@
 ---
 estado: dormido
-firma: e228fdd4891d58938b1cbad79960de0c65893ebc7fecc672e0f8a0b6db89bfcd
+firma: 6474ab228dab7d66f718b4476a32ae3806bc2c6fa39f107859e5f70c87619913
 git_rama: tecnom-jetour-gwm
 git_remoto: https://github.com/croman-coder/landing-expo-mra.git
 git_sin_subir: 3
@@ -8,7 +8,8 @@ git_ultimo_commit: 2026-09-20 d8c0a31 Nuevo evento Brunch Primavera para la land
   de Soueast
 hijos: []
 nombre: LANDING EXPO FORM
-resumen: null
+resumen: Proyecto en /home/croman/Escritorio/LANDING EXPO FORM. Sin info de lenguaje
+  en README.
 resumen_pendiente: true
 ruta: /home/croman/Escritorio/LANDING EXPO FORM
 slug: landing-expo-form
